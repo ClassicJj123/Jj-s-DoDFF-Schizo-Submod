@@ -1,0 +1,8 @@
+political_decisions = {
+
+#You've fromed GCF but don't stop there!
+#Claim_the_netherlands = {
+#	 potential = {
+#		 tag = GCF
+#		 ai = no
+#		 has_country_flag = Schzio_mod_show

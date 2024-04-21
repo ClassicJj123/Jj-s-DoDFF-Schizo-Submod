@@ -1,0 +1,507 @@
+political_decisions = {
+
+#give yourself a easier time
+A_fighting_chance = {
+	 potential = {
+		 tag = KRL
+		 ai = no
+		 war_with = SCA
+		 has_country_flag = Schzio_mod_show
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 add_country_modifier = {
+           name = BOH_powerful_reichsarmee 
+	       duration = -1
+	     }
+	 }
+}
+
+#The Native Question... (oops, they might all die)
+The_baltic_native_question = {
+	 potential = {
+		 tag = LIV
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = Baltic_question_ans_1 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 country_event = 1000000023
+	 }
+}
+
+#Remove SCA core (YIPPEE! SCANDI SHALL BE WEAKENED!)
+Remove_SCA_cores = {
+	 potential = {
+	 	 tag = LIV
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 any_owned = {
+			 limit = {
+				 is_core = SCA
+			 }
+		 remove_core = SCA
+		 }
+	 }
+}
+
+#From the UDU (removed cause my calls have been answered in 6.8)
+#From_UDU = {
+#	 potential = {
+#		 tag = LIV
+#		 ai = no
+#		 has_country_flag = Schzio_mod_show
+#	 }
+#	 
+#	 allow = {
+#		 PRU = { all_core = { owned_by = THIS } }
+#		 LAT = { all_core = { owned_by = THIS } }
+#		 EST = { all_core = { owned_by = THIS } }
+#	 }
+#	 
+#	 effect = {
+#		 prestige = 15
+#		 change_tag = UDU
+#		 PRU = { all_core = { add_core = THIS } }
+#	 }
+#}
+
+#Claims on Lithuania
+Claim_lithuania = {
+	 potential = {
+		 tag = UDU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = {
+			 RUS_360 = { is_core = UDU }
+		 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 2
+		 LIT_698 = { add_core = UDU }
+		 RUS_360 = { add_core = UDU }
+		 936 = { add_core = UDU }
+		 RUS_707 = { add_core = UDU }
+	 }
+}
+
+#The Lithuanian Question... (KILL THEM ALL)
+The_lithuanian_question = {
+	 potential = {
+		 tag = UDU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = LIT_question_ans }
+	 }
+	 
+	 allow = {
+		 LIT_698 = { owned_by = UDU }
+		 RUS_360 = { owned_by = UDU }
+		 936 = { owned_by = UDU }
+	 }
+	 
+	 effect = {
+		 country_event = 1000000024
+	 }
+}
+
+#Future expansion
+Baltic_identity = {
+	 potential = {
+		 tag = UDU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LIT_question_ans
+		 NOT = { has_country_flag = GER_path }
+		 NOT = { has_country_flag = Teutonic_path }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 country_event = 1000000025
+	 }
+}
+
+#Claim Belarus (Teuton path)
+Claim_belarus = {
+	 potential = {
+		 tag = TEU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = Teutonic_path
+		 NOT = {
+			 RUS_946 = { is_core = TEU }
+			 RUS_718 = { is_core = TEU }
+			 937 = { is_core = TEU }
+		 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 RUS_946 = { add_core = TEU }
+		 RUS_718 = { add_core = TEU }
+		 937 = { add_core = TEU }
+	 }
+}
+
+#Claim Pskov
+Claim_pskov = {
+	 potential = {
+		 tag = TEU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = Teutonic_path
+		 NOT = {
+			 RUS_996 = { is_core = TEU }
+		 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 RUS_996 = { add_core = TEU }
+	 }
+}
+
+#The Blarusian Question
+The_blarusian_question = {
+	 potential = {
+		 tag = TEU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = Teutonic_path
+		 RUS_946 = { owned_by = TEU }
+		 RUS_718 = { owned_by = TEU }
+		 937 = { owned_by = TEU }
+		 NOT = { has_country_flag = BLR_question_ans }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 country_event = 1000000026
+	 }
+}
+
+#the pskov genocide
+Pskov_genocide = {
+	 potential = {
+		 tag = TEU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = Teutonic_path
+		 RUS_996 = { owned_by = TEU }
+		 NOT = { has_country_flag = PSK_genocide }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 country_event = 1000000027
+	 }
+}
+
+#The final solution... (You must have choosen to kill off every culture expect Balters)
+The_final_solution = {
+	 potential = {
+		 tag = TEU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = Teutonic_path
+		 NOT = { has_country_flag = Final_solution }
+		 check_variable = {
+			 which = Balter_genocide
+			 value = 3
+		 }
+	 }
+	 
+	  allow = {
+	 }
+	 
+	 effect = {
+		 country_event = 1000000028
+	 }
+}
+
+#Claim Pommerania and Holstein (German path)
+Pommerania_Holstein_claims = {
+	 potential = {
+		 tag = UDU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GER_path
+		 NOT = {
+			 PRU_546 = { is_core = UDU }
+			 HOL_369 = { is_core = UDU }
+		 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 2
+		 SCA_544 = { add_core = UDU }
+		 PRU_546 = { add_core = UDU }
+		 HOL_369 = { add_core = UDU }
+	 }
+}
+
+#Claim the leadership over the Elbians
+claim_Elbian_leadership = {
+	 potential = {
+		 tag = UDU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GER_path
+		 369 = { owned_by = UDU }
+		 NOT = { accepted_culture = north_german }
+	 }
+	 
+	 allow = {
+		 SCA_544 = { owned_by = UDU }
+		 PRU_546 = { owned_by = UDU }
+		 HOL_369 = { owned_by = UDU }
+	 }
+	 
+	 effect = {
+		 BRN = { all_core = { add_core = UDU } }
+		 HAN = { all_core = { add_core = UDU } }
+		 ELX = { all_core = { add_core = UDU } }
+		 DSX = { all_core = { add_core = UDU } }
+		 SME = { all_core = { add_core = UDU } }
+		 BRA = { all_core = { add_core = UDU } }
+		 add_accepted_culture = north_german
+		 badboy = 10
+	 }
+}
+
+#Proclamation a union of the low Germans
+Low_german_union_proclamation = {
+	 potential = {
+		 tag = UDU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GER_path
+		 accepted_culture = north_german
+		 has_unclaimed_cores = yes
+		 NOT = { has_country_flag = LGC_can_form }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 10
+		 NET = { all_core = { add_core = UDU } }
+		 RHI = { all_core = { add_core = UDU } }
+		 OLD_539 = { add_core = UDU } 
+		 MNR_581 = { add_core = UDU }
+		 HSK_583 = { add_core = UDU }
+		 PRU_575 = { add_core = UDU }
+		 HES_564 = { add_core = UDU }
+		 BRA_536 = { add_core = UDU }
+		 MNR_585 = { add_core = UDU }
+		 add_accepted_culture = rheinish
+		 add_accepted_culture = dutch
+		 add_accepted_culture = frisian
+		 set_country_flag = LGC_can_form
+	 }
+}
+
+#From the Low German Union!
+From_LGC = {
+	 potential = {
+		 tag = UDU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GER_path
+		 has_country_flag = LGC_can_form
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 prestige = 15
+		 change_tag = LGC
+	 }
+}
+
+#Standard helping the Germans
+Help_the_starving = {
+	 potential = {
+		 tag = LGC
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 THIS = {
+			 any_owned_province = { has_province_modifier = hollowing_aftermath }
+		 }
+	 }
+	 
+	 allow = {
+		 compound_steam_engines = 1
+		 money = 3000000   
+	 }
+	 
+	 effect = {
+		 treasury = -3000000
+		 prestige = 5
+		 THIS = {
+			 any_owned = { remove_province_modifier = hollowing_aftermath }
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = GER
+			 }
+		 add_province_modifier = {
+			 name = German_repoplution_LGC
+			 duration = 3650
+		 }
+		 }
+		 set_country_flag = ended_local_hollowing
+	 }
+}
+
+#Early game destroy the balter priviages (if you manage to from the LGC before 1900 lol)
+A_union_of_equals = {
+	 potential = {
+		 tag = LGC
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 accepted_culture = rheinish
+		 accepted_culture = dutch
+		 accepted_culture = frisian
+		 accepted_culture = north_german
+		 NOT = { has_country_flag = local_purge_balters }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 set_country_flag = local_purge_balters
+         any_owned = {
+		     limit = { 
+                  has_province_modifier = baltic_privileges
+		     }
+		     remove_province_modifier = baltic_privileges
+         }  
+	 }
+}
+
+#Claim Brabant
+Claim_brabant = {
+	 potential = {
+		 tag = LGC
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = LGC_BRB_claim }
+	 }
+	 
+	 allow = {
+		 nationalism_n_imperialism = 1
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 BRB = { all_core = { add_core = LGC } }
+		 set_country_flag = LGC_BRB_claim
+	 }
+}
+
+#Brabantian Question
+Brabant_question = {
+	 potential = {
+		 tag = LGC
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = BRB_question_ans }
+	 }
+	 
+	 allow = {
+		 BRB = { all_core = { owned_by = LGC } }
+	 }
+	 
+	 effect = {
+		 country_event = 1000000031
+	 }
+}
+
+#Nuke Burgundian claims
+Nuke_burgundian_claims = {
+	 potential = {
+		 tag = LGC
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 any_core = {
+				 is_core = BRG
+		 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 any_owned = {
+			 limit = {
+				 is_core = BRG
+			 }
+		 remove_core = BRG
+		 }
+		 country_event = 1000000032
+	 }
+}
+
+#Nuke Scandi claims
+Nuke_SCA_claims = {
+	 Nuke_burgundian_claims = {
+	 potential = {
+		 tag = LGC
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 any_core = {
+			 is_core = SCA
+		 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 any_owned = {
+			 limit = {
+				 is_core = SCA
+			 }
+		 remove_core = SCA
+		 }
+		 country_event = 1000000033
+	 }
+}

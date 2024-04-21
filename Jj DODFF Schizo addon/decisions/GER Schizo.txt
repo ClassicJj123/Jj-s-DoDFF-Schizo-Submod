@@ -1,0 +1,229 @@
+political_decisions = {
+
+#Pan-Pan Germanism
+Greater_greater_germany = {
+	 potential = {
+		 tag = GER
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = pan_pan_GER }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = { 
+		 set_country_flag = pan_pan_GER
+		 SCA = { all_core = { add_core = THIS } }
+		 ENL = { all_core = { add_core = THIS } }
+		 AEN = { all_core = { add_core = THIS } }
+		 badboy = 20
+	 }
+}
+
+#Acceptence of the Scandinavians
+The_Scandinavian_acceptence = {
+	 potential = {
+		 tag = GER
+		 ai = no
+		 has_country_flag = pan_pan_GER
+		 NOT = { accepted_culture = scandinavian }
+	 }
+	 
+	 allow = {
+		 SCA = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = scandinavian
+	 }
+}
+
+#Acceptence of the English
+The_English_acceptence = {
+	 potential = {
+		 tag = GER
+		 ai = no
+		 has_country_flag = pan_pan_GER
+		 NOT = { accepted_culture = english }
+	 }
+	 
+	 allow = {
+		 ENL = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = english
+	 }
+}
+
+#Beornians are Germanic!
+Beornians_are_Germanic = {
+	 potential = {
+		 tag = GER
+		 ai = no
+		 has_country_flag = pan_pan_GER
+		 NOT = { NAN = { all_core = { is_core = GER } } }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 NAN = { all_core = { add_core = THIS } }
+		 badboy = 5
+	 }
+}
+
+#Acceptence of the Beornians
+The_Beornian_acceptence = {
+	 potential = {
+		 tag = GER
+		 ai = no
+		 has_country_flag = pan_pan_GER
+		 NOT = { accepted_culture = beornian }
+	 }
+	 
+	 allow = {
+		 NAN = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = beornian
+	 }
+}
+
+#The Germans of South america
+Batavia_is_german = {
+	 potential = {
+		 tag = GER
+		 ai = no
+		 has_country_flag = pan_pan_GER
+		 NOT = { BTV = { all_core = { is_core = GER } } }
+		 NOT = { LWE = { all_core = { is_core = GER } } }
+		 NOT = { GRQ = { all_core = { is_core = GER } } }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 BTV = { all_core = { add_core = THIS } }
+		 LWE = { all_core = { add_core = THIS } }
+		 GRQ = { all_core = { add_core = THIS } }
+	 }
+}
+
+#Acceptence of the Boers
+The_Boer_acceptence = {
+	 potential = {
+		 tag = GER
+		 ai = no
+		 has_country_flag = pan_pan_GER
+		 NOT = {
+			 OR = {
+				 accepted_culture = boer
+				 accepted_culture = afro_south_african
+			 }
+		 }
+	 }
+	 
+	 allow = {
+		 BTV = { all_core = { owned_by = THIS } }
+		 LWE = { all_core = { owned_by = THIS } }
+		 GRQ = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = boer
+		 add_accepted_culture = afro_south_african
+	 }
+}
+
+#Claim the caribbean
+claim_the_caribbean = {
+	 potential = {
+		 tag = GER
+		 ai = no
+		 has_country_flag = pan_pan_GER
+		 NOT = { ATC = { all_core = { is_core = GER } } }
+		 NOT = { SFJ = { all_core = { is_core = GER } } }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = { 
+		 badboy = 2
+		 ATC = { all_core = { add_core = THIS } }
+		 SFJ = { all_core = { add_core = THIS } }
+	 }
+}
+
+#Caribbean Acceptence
+The_Caribbean_Accepted = {
+	 potential = {
+		 tag = GER
+		 ai = no
+		 has_country_flag = pan_pan_GER
+		 NOT = {
+			 OR = {
+				 accepted_culture = afro_germanic
+				 add_accepted_culture = ayitian
+			 }
+		 }
+	 }
+	 
+	 allow = {
+		 ATC = { all_core = { owned_by = THIS } }
+		 SFJ = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = afro_germanic
+		 add_accepted_culture = ayitian
+	 }
+}
+
+#Baltic claims
+Baltic_claims = {
+	 potential = {
+		 tag = GER
+		 ai = no
+		 has_country_flag = pan_pan_GER
+		 NOT = { LAT = { all_core = { is_core = GER } } }
+		 NOT = { EST = { all_core = { is_core = GER } } }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 2
+		 LAT = { all_core = { add_core = GER } }
+		 EST = { all_core = { add_core = GER } }
+	 }
+}
+
+#Lithuania claims
+Finish_what_the_teutons_started = {
+	 potential = {
+		 tag = GER
+		 ai = no
+		 has_country_flag = pan_pan_GER
+		 NOT = { LIT = { all_core = { is_core = GER } } }
+	 }
+	 
+	 allow = {
+		 LAT = { all_core = { owned_by = GER } }
+		 EST = { all_core = { owned_by = GER } }
+	 }
+	 
+	 effect = {
+		 badboy = 2
+		 LIT = { all_core = { add_core = GER } }
+	 }
+}
+
+}

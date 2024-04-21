@@ -1,0 +1,163 @@
+#The Hungarian question
+country_event = {
+	 id = 1000000002
+	 title = "EVTNAME1000000002"
+	 desc = "EVTDESC1000000002"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 #accept the hungarians
+	 option = {
+		 name = "EVTOPA1000000002A"
+		 add_accepted_culture = hungarian
+		 set_country_flag = HUN_qns_ans
+	 }
+	 
+	 #begin a germanisation program in hungarian lands
+	 option = {
+		 name = "EVTOPA1000000002B"
+		 HUN = {
+			 primary_culture = south_german
+			 add_accepted_culture = hungarian
+		 }
+		 SLA = {
+			 primary_culture = south_german
+			 add_accepted_culture = serbian
+		 }
+		 SIE = {
+			 primary_culture = south_german
+			 add_accepted_culture = romanian
+		 }
+		 SLV = {
+			 primary_culture = south_german
+			 add_accepted_culture = slovak
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = HUN
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = HUN_qns_ans
+	 }
+	 
+	 #decide later
+	 option = {
+		 name = "EVTOPA1000000002C"
+	 }
+}
+
+#The Romanian question
+country_event = {
+	 id = 1000000003
+	 title = "EVTNAME1000000003"
+	 desc = "EVTDESC1000000003"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 #accept the hungarians
+	 option = {
+		 name = "EVTOPA1000000003A"
+		 add_accepted_culture = romanian
+		 set_country_flag = ROM_qns_ans
+	 }
+	 
+	 #begin a germanisation program in romanian lands
+	 option = {
+		 name = "EVTOPA1000000003B"
+		 ROM = {
+			 primary_culture = south_german
+			 add_accepted_culture = romanian
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = ROM
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = ROM_qns_ans
+	 }
+	 
+	 #decide later
+	 option = {
+		 name = "EVTOPA1000000003C"
+	 }
+}
+
+#The Balkan question
+country_event = {
+	 id = 1000000004
+	 title = "EVTNAME1000000004"
+	 desc = "EVTDESC1000000004"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 #accept the balkans
+	 option = {
+		 name = "EVTOPA1000000004A"
+		 add_accepted_culture = croat
+		 add_accepted_culture = serb
+		 add_accepted_culture = slavonian
+		 add_accepted_culture = bulgarian
+		 add_accepted_culture = albanian
+		 add_accepted_culture = slovene
+		 add_accepted_culture = bosniak
+		 set_country_flag = balkan_qns_ans
+	 }
+	 
+	 #begin a germanisation program in balkans lands
+	 option = {
+		 name = "EVTOPA100000004B"
+		 YUG = {
+			 primary_culture = south_german
+			 add_accepted_culture = serb
+		 }
+		 BUL = {
+			 primary_culture = south_german
+			 add_accepted_culture = bulgarian
+		 }
+		 ALB = {
+			 primary_culture = south_german
+			 add_accepted_culture = albanian
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = YUG
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BUL
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = ALB
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = balkan_qns_ans
+	 }
+	 
+	 #decide later
+	 option = {
+		 name = "EVTOPA1000000004C"
+	 }
+}

@@ -1,0 +1,386 @@
+#Choose, Kill the natives or accept them
+country_event = {
+	 id = 1000000023
+	 title = "EVTNAME1000000023"
+	 desc = "EVTDESC1000000023"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000023A"
+		 LAT = {
+			 primary_culture = prussian
+			 add_accepted_culture = latvian
+		 }
+		 EST = {
+			 primary_culture = prussian
+			 add_accepted_culture = estonian
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = LAT
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = EST
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = Baltic_question_ans_1
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000023B"
+		 add_accepted_culture = latvian
+		 add_accepted_culture = estonian
+		 set_country_flag = Baltic_question_ans_1
+	 }
+}
+
+#Lithuanian Question
+country_event = {
+	 id = 1000000024
+	 title = "EVTNAME1000000024"
+	 desc = "EVTDESC1000000024"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000024A"
+		 LIT = {
+			 primary_culture = prussian
+			 add_accepted_culture = belarusian
+		 }
+		 SAM = {
+			 primary_culture = prussian
+			 add_accepted_culture = lithuanian
+		 }
+		 LIT_698 = {
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 RUS_707 = {
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 RUS_360 = {
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 936 = {
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = LIT_question_ans
+		 set_variable = {
+			 which = Balter_genocide
+			 value = 1
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000024B"
+		 add_accepted_culture = lithuanian
+		 set_country_flag = LIT_question_ans
+	 }
+}
+
+#The identity question
+country_event = {
+	 id = 1000000025
+	 title = "EVTNAME1000000025"
+	 desc = "EVTDESC1000000025"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000025A"
+		 change_tag = TEU
+		 set_country_flag = Teutonic_path
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000025B"
+		 set_country_flag = GER_path
+	 }
+}
+
+#Belarusian Question
+country_event = {
+	 id = 1000000026
+	 title = "EVTNAME1000000026"
+	 desc = "EVTDESC1000000026"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000026A"
+		 BLR = {
+			 primary_culture = prussian
+			 add_accepted_culture = belarusian
+		 }
+		 RUS_946 = {
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 RUS_718 = {
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 937 = {
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = LIT_question_ans
+		 change_variable = {
+			 which = Balter_genocide
+			 value = 1
+		 }
+		 set_country_flag = BLR_question_ans
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000026B"
+		 add_accepted_culture = belarusian
+		 set_country_flag = BLR_question_ans
+	 }
+}
+
+#Pskov Genocide
+country_event = {
+	 id = 1000000027
+	 title = "EVTNAME1000000027"
+	 desc = "EVTDESC1000000027"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000027"
+		 ING = {
+			 primary_culture = prussian
+			 add_accepted_culture = finnish
+		 }
+		 PSV = {
+			 primary_culture = prussian
+			 add_accepted_culture = north_russian
+		 }
+		 RUS_996 = { remove_core = RUS }
+		 RUS_996 = { remove_core = NOV }
+		 RUS_996 = { remove_core = SCA }
+		 RUS_996 = { assimilate = yes }
+		 RUS_996 = {
+			 any_pop = {
+				 reduce_pop = 0.50
+			 }
+		 }
+		 set_country_flag = PSK_genocide
+		 change_variable = {
+			 which = Balter_genocide
+			 value = 1
+		 }
+	 }
+}
+
+#Final solution chain (RIP)
+country_event = {
+	 id = 1000000028
+	 title = "EVTNAME1000000028"
+	 desc = "EVTDESC1000000028"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000028"
+		 any_pop = {
+			 limit = {
+				 location = { is_core = TEU }
+				 is_primary_culture = no
+			 }
+		 reduce_pop = 0.80
+		 }
+		 set_country_flag = Final_solution
+	 }
+}
+
+country_event = {
+	 id = 1000000029
+	 title = "EVTNAME1000000029"
+	 desc = "EVTDESC1000000029"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = TEU
+		 ai = no
+		 has_country_flag = Final_solution
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000029"
+		 any_pop = {
+			 limit = {
+				 location = { is_core = TEU }
+				 is_primary_culture = no
+			 }
+		 reduce_pop = 0.50
+		 }
+		 set_country_flag = Final_solution_1
+	 }
+}
+
+country_event = {
+	 id = 1000000030
+	 title = "EVTNAME1000000030"
+	 desc = "EVTDESC1000000030"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = TEU
+		 ai = no
+		 has_country_flag = Final_solution_1
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000030"
+		 any_owned = {
+			 NOT = {
+				 has_pop_culture = prussian
+			 }
+		 assimilate = yes
+		 }
+		 any_owned = {
+			 limit = {
+				 has_province_modifier = Germanisation_program
+			 }
+		 remove_province_modifier = Germanisation_program
+		 }
+	 }
+}
+
+#Bradantian Question
+country_event = {
+	 id = 1000000031
+	 title = "EVTNAME1000000031"
+	 desc = "EVTDESC1000000031"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000031A"
+		 BRB = {
+			 primary_culture = dutch
+			 add_accepted_culture = brabantian
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BRB
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = BRB_question_ans
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000031B"
+		 add_accepted_culture = brabantian
+		 set_country_flag = BRB_question_ans
+	 }
+}
+
+#Burgundian Question balters
+country_event = {
+		 id = 1000000032
+		 title = "EVTNAME1000000032"
+		 desc = "EVTDESC1000000032"
+		 picture = "placeholder"
+		 is_triggered_only = yes
+		 
+		 option = {
+			 name = "EVTOPA1000000032A"
+			 any_owned = {
+				 any_pop = {
+					 limit = {
+						 culture = burgundian
+					 }
+				 move_pop = 533
+				 }
+			 }
+		 }
+		 
+		 option = {
+			 name = "EVTOPA1000000032B"
+			 any_owned = {
+				 limit = {
+					 has_pop_culture = burgundian
+				 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+			 }
+		 }
+}
+
+#SCA Question balters
+country_event = {
+		 id = 1000000033
+		 title = "EVTNAME1000000033"
+		 desc = "EVTDESC1000000033"
+		 picture = "placeholder"
+		 is_triggered_only = yes
+		 
+		 option = {
+			 name = "EVTOPA1000000033A"
+			 any_owned = {
+				 any_pop = {
+					 limit = {
+						 culture = scandinavian
+					 }
+				 move_pop = 533
+				 }
+			 }
+		 }
+		 
+		 option = {
+			 name = "EVTOPA1000000033B"
+			 any_owned = {
+				 limit = {
+					 has_pop_culture = scandinavian
+				 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+			 }
+		 }
+}

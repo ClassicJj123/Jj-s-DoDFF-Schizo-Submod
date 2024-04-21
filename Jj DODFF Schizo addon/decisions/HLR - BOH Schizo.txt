@@ -1,0 +1,296 @@
+political_decisions = {
+
+#Burgundian acceptence?
+Burgundian_question = {
+	 potential = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = burgundian_question_ans }
+	 }
+	 
+	 allow = {
+		 has_country_flag = claimed_burgundy
+		 AND = {
+			 OR = {
+				 BRG = { all_core = { owned_by = THIS } } 
+				 PBG = { all_core = { owned_by = THIS } }
+			 }
+		 }
+	 }
+	 
+	 effect = {
+		 country_event = 1000000000
+	 }
+}
+
+#Italian expension
+Italy_expension = {
+	 potential = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = HLR_ITA_reclaim }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 SAR_720 = { add_core = HLR }
+		 SAR_466 = { add_core = HLR }
+		 AUS_726 = { add_core = HLR }
+		 AUS_729 = { add_core = HLR }
+		 AUS_736 = { add_core = HLR }
+		 AUS_612 = { add_core = HLR }
+		 TUS_744 = { add_core = HLR }
+		 GEN_724 = { add_core = HLR }
+		 738 = { add_core = HLR }
+		 739 = { add_core = HLR }
+		 set_country_flag = HLR_ITA_reclaim
+		 set_country_flag = HLR_ITA_north_reclaim
+	 }
+}
+
+#North italian + Venetian acceptence
+North_italian_acceptence = {
+	 potential = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = HLR_ITA_north_reclaim
+		 NOT = {
+			 OR = {
+				 accepted_culture = north_italian
+				 accepted_culture = venetian
+			 }
+		 }
+	 }
+	 
+	 allow = {
+		 SAR_720 = { owned_by = HLR }
+		 AUS_726 = { owned_by = HLR }
+		 AUS_729 = { owned_by = HLR }
+		 AUS_736 = { owned_by = HLR }
+		 AUS_612 = { owned_by = HLR }
+		 TUS_744 = { owned_by = HLR }
+		 738 = { owned_by = HLR }
+		 739 = { owned_by = HLR }
+	 }
+	 
+	 effect  = {
+		 add_accepted_culture = north_italian
+		 add_accepted_culture = venetian
+	 }
+}
+
+#Claim Rome
+Claim_rome = {
+	 potential = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = HLR_ITA_north_reclaim
+		 NOT = { has_country_flag = HLR_Rome_reclaim }
+	 }
+	 
+	 allow  ={
+		 SAR_720 = { owned_by = HLR }
+		 SAR_466 = { owned_by = HLR }
+		 AUS_726 = { owned_by = HLR }
+		 AUS_729 = { owned_by = HLR }
+		 AUS_736 = { owned_by = HLR }
+		 AUS_612 = { owned_by = HLR }
+		 TUS_744 = { owned_by = HLR }
+		 738 = { owned_by = HLR }
+		 739 = { owned_by = HLR }
+	 }
+	 
+	 effect = {
+		 PAP_741 = { add_core = HLR }
+		 ITA_751 = { add_core = HLR }
+		 PAP_752 = { add_core = HLR }
+		 badboy = 5
+		 set_country_flag = HLR_Rome_reclaim
+	 }
+}
+
+#Central italian acceptence
+Central_italian_acceptence = {
+	 potential = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = HLR_Rome_reclaim
+		 NOT = { accepted_culture = central_italian }
+	 }
+	 
+	 allow = {
+		 PAP_741 = { owned_by = HLR }
+		 ITA_751 = { owned_by = HLR }
+		 PAP_752 = { owned_by = HLR }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = central_italian
+		 add_country_flag = HLR_Rome_reclaim_2
+	 }
+}
+
+#Proclaim THE ROMAN EMPIRE
+Roman_expension = {
+	 potential = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = HLR_Rome_reclaim
+		 has_country_flag = claimed_burgundy
+		 accepted_culture = central_italian
+		 NOT = { has_country_flag = HLR_Rome_reclaim_2 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 country_event = 1000000001
+	 }
+}
+
+#Imperial acceptence (Or Go be roman then be practical)
+Imperial_acceptence = {
+	 potential = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = HLR_Rome_reclaim_2
+		 NOT = { has_country_flag = Imperial_acceptence }
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = french
+		 add_accepted_culture = provencal
+		 add_accepted_culture = basque
+		 add_accepted_culture = navarro_aragonese
+		 add_accepted_culture = castilian
+		 add_accepted_culture = portuguese
+		 add_accepted_culture = old_portuguese
+		 add_accepted_culture = breton
+		 add_accepted_culture = croat
+		 add_accepted_culture = serb
+		 add_accepted_culture = slavonian
+		 add_accepted_culture = bulgarian
+		 add_accepted_culture = albanian
+		 add_accepted_culture = slovene
+		 add_accepted_culture = bosniak
+		 add_accepted_culture = romanian
+		 add_accepted_culture = hungarian
+		 add_accepted_culture = greek
+		 add_accepted_culture = romand
+		 add_accepted_culture = south_italian
+		 add_accepted_culture = catalan
+		 add_accepted_culture = brabantian
+		 add_accepted_culture = sardinian
+		 add_accepted_culture = english
+		 set_country_flag = Imperial_acceptence
+	 }
+}
+
+#The voices...
+The_voices = {
+	 potential = {
+		 ai = no
+		 tag = HLR
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = Imperial_acceptence
+		 NOT = { has_country_flag = HLR_voices_chain_start }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 country_event = 1000000005
+		 set_country_flag = HLR_voices_chain_start
+	 }
+}
+
+#Minor expansion (If picked further expension but isn't fully INSANE)
+Minor_expansion = {
+	 potential = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = future_expansion_HLR
+		 OR = {
+			 has_country_flag = sane_sigmund
+			 has_country_flag = mild_insane_sigmund
+		 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 10
+		 LAT = { all_core = { add_core = HLR } }
+		 EST = { all_core = { add_core = HLR } }
+		 SCO = { all_core = { add_core = HLR } }
+		 IRE = { all_core = { add_core = HLR } }
+		 SCH_370 = { all_core = { add_core = HLR } }
+		 DEN_367 = { all_core = { add_core = HLR } }
+	 }
+}
+
+#MAJOR EXPANSION, LET SIGGY GO SCHIZO!
+Major_expansion = {
+	 potential = {
+		 tag = HLR
+		 ai = no
+		 NOT = { has_country_flag = Siggy_Schizo_claims }
+		 has_country_flag = insane_sigmund
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 30
+		 LAT = { all_core = { add_core = HLR } }
+		 EST = { all_core = { add_core = HLR } }
+		 SCO = { all_core = { add_core = HLR } }
+		 IRE = { all_core = { add_core = HLR } }
+		 POL = { all_core = { add_core = HLR } }
+		 LIT = { all_core = { add_core = HLR } }
+		 SCH_370 = { add_core = HLR }
+		 DEN_367 = { add_core = HLR }
+		 PRU_699 = { add_core = HLR }
+		 RUS_706 = { add_core = HLR }
+		 VOL_702 = { add_core = HLR }
+		 VOL_953 = { add_core = HLR }
+		 AUS_633 = { add_core = HLR }
+		 MOL_673 = { add_core = HLR }
+		 RUS_676 = { add_core = HLR }
+		 RUS_955 = { add_core = HLR }
+		 RUS_958 = { add_core = HLR }
+		 RUS_965 = { add_core = HLR }
+		 RUS_980 = { add_core = HLR }
+		 KRA_703 = { add_core = HLR }
+		 RUS_719 = { add_core = HLR }
+		 RUS_360 = { add_core = HLR }
+		 RUS_718 = { add_core = HLR }
+		 RUS_1047 = { add_core = HLR }
+		 RUS_1039 = { add_core = HLR }
+		 RUS_962 = { add_core = HLR }
+		 RUS_946 = { add_core = HLR }
+		 RUS_977 = { add_core = HLR }
+		 RUS_1035 = { add_core = HLR }
+		 RUS_1020 = { add_core = HLR }
+		 RUS_1015 = { add_core = HLR }
+		 RUS_996 = { add_core = HLR }
+		 RUS_1003 = { add_core = HLR }
+		 RUS_991 = { add_core = HLR }
+		 RUS_998 = { add_core = HLR }
+		 RUS_1008 = { add_core = HLR }
+		 set_country_flag = Siggy_Schizo_claims
+	 }
+}

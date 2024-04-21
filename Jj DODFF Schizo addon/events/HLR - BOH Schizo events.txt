@@ -1,0 +1,706 @@
+#Burgundian question
+	 country_event = {
+		 id = 1000000000
+		 title = "EVTNAME1000000000"
+		 desc = "EVTDESC1000000000"
+		 picture = "placeholder"
+		 is_triggered_only = yes
+		 
+		 option = {
+			 name = "EVTOPA1000000000A"
+			 any_owned = {
+				 any_pop = {
+					 limit = {
+						 culture = burgundian
+					 }
+				 move_pop = 533
+				 }
+			 }
+			 set_country_flag = burgundian_question_ans
+		 }
+		 
+		 option = {
+			 name = "EVTOPA1000000000B"
+			 add_accepted_culture = burgundian
+			 set_country_flag = burgundian_question_ans
+		 }
+		 
+		 option = {
+			 name = "EVTOPA1000000000C"
+		 }
+}
+
+#Roman proclamation
+country_event = {
+	 id = 1000000001
+	 title = "EVTNAME1000000001"
+	 desc = "EVTDESC1000000001"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 major = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000001"
+		 FRA = { all_core = { add_core = HLR } }
+		 OCC = { all_core = { add_core = HLR } }
+		 ARA = { all_core = { add_core = HLR } }
+		 ITA = { all_core = { add_core = HLR } }
+		 SPA = { all_core = { add_core = HLR } }
+		 ENL = { all_core = { add_core = HLR } }
+		 CRO = { all_core = { add_core = HLR } }
+		 YUG = { all_core = { add_core = HLR } }
+		 GRE = { all_core = { add_core = HLR } }
+		 BUL = { all_core = { add_core = HLR } }
+		 TUR = { all_core = { add_core = HLR } }
+		 EGY = { all_core = { add_core = HLR } }
+		 TUN = { all_core = { add_core = HLR } }
+		 KBL = { all_core = { add_core = HLR } }
+		 SUS = { all_core = { add_core = HLR } }
+		 FEZ = { all_core = { add_core = HLR } }
+		 ALB = { all_core = { add_core = HLR } }
+		 SYR = { all_core = { add_core = HLR } }
+		 PLS = { all_core = { add_core = HLR } }
+		 JOR = { all_core = { add_core = HLR } }
+		 HDJ = { all_core = { add_core = HLR } }
+		 IRQ = { all_core = { add_core = HLR } }
+		 GEO = { all_core = { add_core = HLR } }
+		 WAL = { all_core = { add_core = HLR } }
+		 SIE = { all_core = { add_core = HLR } }
+		 SLA = { all_core = { add_core = HLR } }
+		 CAT = { all_core = { add_core = HLR } }
+		 SIC = { all_core = { add_core = HLR } }
+		 SRD = { all_core = { add_core = HLR } }
+		 AUS_641 = { add_core = HLR }
+		 AUS_623 = { add_core = HLR }
+		 MOR_1686 = { add_core = HLR }
+		 MOR_1693 = { add_core = HLR }
+		 MOR_3283 = { add_core = HLR }
+		 ALD_1704 = { add_core = HLR }
+		 ALD_1708 = { add_core = HLR }
+		 TUN_1725 = { add_core = HLR }
+		 RUS_964 = { add_core = HLR }
+		 set_country_flag = HLR_Rome_reclaim_2
+		 badboy = 60
+	 }
+}
+
+#The voices, they demand more...
+country_event = {
+	 id = 1000000005
+	 title = "EVTNAME1000000005"
+	 desc = "EVTDESC1000000005"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 #Sigmund should probably see a doctor
+	 option = {
+		 name = "EVTOPA1000000005"
+		 set_variable = {
+			 which = Sigmund_sanity
+			 value = 4
+		 }
+		 set_country_flag = HLR_voices_1
+	 }
+}
+
+#The voices... They demand we change capitals
+country_event = {
+	 id = 1000000006
+	 title = "EVTNAME1000000006"
+	 desc = "EVTDESC1000000006"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 14 }
+	 
+	 trigger = {
+		 tag = HLR
+		 has_country_flag = HLR_voices_1
+	 }
+	 
+	 #The voices are right! Move to Rome immediately!
+	 option = {
+		 name = "EVTOPA1000000006A"
+		 change_variable = {
+			 which = Sigmund_sanity
+			 value = -1
+		 }
+		 capital = 749
+		 clr_country_flag = HLR_voices_1
+		 set_country_flag = HLR_voices_2
+	 }
+	 
+	 #The voices speak nonsense! There's no way we can move our capital that quickly!
+	 option = {
+		 name = "EVTOPA1000000006B"
+		 change_variable = {
+			 which = Sigmund_sanity
+			 value = 1
+		 }
+		 clr_country_flag = HLR_voices_1
+		 set_country_flag = HLR_voices_2
+	 }
+}
+
+#The voices, they've grown louder. This time they demand that we get rid of the anglos
+country_event = {
+	 id = 1000000007
+	 title = "EVTNAME1000000007"
+	 desc = "EVTDESC1000000007"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 14 }
+	 
+	 trigger = {
+		 tag = HLR
+		 has_country_flag = HLR_voices_2
+	 }
+	 
+	 #The voices are right, we must assimilate them
+	 option = {
+		 name = "EVTOPA1000000007A"
+		 any_owned = {
+			 limit = {
+				 is_core = ENL
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = FRA
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 AEN = {
+			 primary_culture = english
+			 add_accepted_culture = anglos
+		 }
+		 FRA = {
+			 primary_culture = french
+			 add_accepted_culture = anglos
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = AEN
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = FRA
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = OCC
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BRT
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 change_variable = {
+			 which = Sigmund_sanity
+			 value = -1
+		 }
+		 clr_country_flag = HLR_voices_2
+		 set_country_flag = HLR_voices_3
+	 }
+	 
+	 #The Voices are MAD, their culture must be respected!
+	 option = {
+		 name = "EVTOPA1000000007B"
+		 add_accepted_culture = anglos
+		 change_variable = {
+			 which = Sigmund_sanity
+			 value = 1
+		 }
+		 clr_country_flag = HLR_voices_2
+		 set_country_flag = HLR_voices_3
+	 }
+}
+
+#The Voices are at their loudest. They demand we further expand our empire.
+country_event = {
+	 id = 1000000008
+	 title = "EVTNAME1000000008"
+	 desc = "EVTDESC1000000008"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 14 }
+	 
+	 trigger = {
+		 tag = HLR
+		 has_country_flag = HLR_voices_3
+	 }
+	 
+	 #Yes let's go eastwards!
+	 option = {
+		 name = "EVTOPA1000000008A"
+		 change_variable = {
+			 which = Sigmund_sanity
+			 value = -1
+		 }
+		 set_country_flag = HLR_voices_chain_over
+		 set_country_flag = future_expansion_HLR
+	 }
+	 
+	 #No we're overextended enough
+	 option = {
+		 name = "EVTOPA1000000008B"
+		 change_variable = {
+			 which = Sigmund_sanity
+			 value = 1
+		 }
+		 clr_country_flag = HLR_voices_3
+		 set_country_flag = HLR_voices_chain_over
+	 }
+}
+
+#1 insanity, 2-3 mild insanity, 4-6 sane, 7 healthly
+#Healthly Sigmund
+country_event = {
+	 id = 100000009
+	 title = "EVTNAME1000000009"
+	 desc = "EVTDESC1000000009"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = HLR
+		 has_country_flag = HLR_voices_chain_over
+		 check_variable = {
+			 which = Sigmund_sanity
+			 value = 7
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000009"
+		 set_country_flag = healthy_sigmund
+	 }
+}
+
+#Sane Sigmund
+country_event = {
+	 id = 1000000010
+	 title = "EVTNAME1000000010"
+	 desc = "EVTDESC1000000010"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = HLR
+		 has_country_flag = HLR_voices_chain_over
+		 check_variable = {
+			 which = Sigmund_sanity
+			 value = 4
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = Sigmund_sanity
+				 value = 7
+			 }
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000010"
+		 set_country_flag = sane_sigmund
+	 }
+}
+
+#Mildly insane Sigmund
+country_event = {
+	 id = 1000000011
+	 title = "EVTNAME1000000011"
+	 desc = "EVTDESC1000000011"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = HLR
+		 has_country_flag = HLR_voices_chain_over
+		 check_variable = {
+			 which = Sigmund_sanity
+			 value = 2
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = Sigmund_sanity
+				 value = 4
+			 }
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000011"
+		 set_country_flag = mild_insane_sigmund
+	 }
+}
+
+#Insane Sigmund
+country_event = {
+	 id = 1000000012
+	 title = "EVTNAME1000000012"
+	 desc = "EVTDESC1000000012"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = HLR
+		 has_country_flag = HLR_voices_chain_over
+		 check_variable = {
+			 which = Sigmund_sanity
+			 value = 1
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = Sigmund_sanity
+				 value = 2
+			 }
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000012"
+		 set_country_flag = insane_sigmund
+	 }
+}
+
+#Russian collapse
+#The Germans have taken ALL our heartland, time to die
+country_event = {
+	 id = 1000000013
+	 title = "EVTNAME1000000013"
+	 desc = "EVTDESC1000000013"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = RUS
+		 HLR = {
+			 has_country_flag = insane_sigmund
+			 has_country_flag = Siggy_Schizo_claims
+			 has_unclaimed_cores = no
+		 }
+	 }
+	 
+	 #Welp, death's seems cool I guess
+	 option = {
+		 name = "EVTOPA1000000013"
+		 RUS_1065 = { life_rating = -14 }
+		 RUS_2615 = { life_rating = -14 }
+		 RUS_1070 = { life_rating = -14 }
+		 RUS_2694 = { life_rating = -14 }
+		 RUS_2653 = { life_rating = -14 }
+		 RUS_1069 = { life_rating = -14 }
+		 RUS_1075 = { life_rating = -34 }
+		 RUS_1071 = { life_rating = -34 }
+		 RUS_2668 = { life_rating = -34 }
+		 RUS_2642 = { life_rating = -34 }
+		 RUS_1079 = { life_rating = -34 }
+		 MON_1075 = { life_rating = -34 }
+		 RUS_1075 = { life_rating = -34 }
+		 RUS_1065 = { secede_province = RUV }
+		 RUS_2615 = { secede_province = RUV }
+		 RUS_1070 = { secede_province = RUV }
+		 RUS_2694 = { secede_province = RUV }
+		 RUS_2653 = { secede_province = RUV }
+		 RUS_1069 = { secede_province = RUV }
+		 RUS_1075 = { secede_province = RUV }
+		 RUS_1071 = { secede_province = RUV }
+		 RUS_2668 = { secede_province = RUV }
+		 RUS_2642 = { secede_province = RUV }
+		 RUS_1079 = { secede_province = RUV }
+		 MON_1075 = { secede_province = RUV }
+		 RUS_1075 = { secede_province = RUV }
+		 any_owned = {
+			 limit = {
+				 is_core = KZH
+			 }
+			 secede_province = KZH
+		 }
+		 RUV = { country_event = 1000000014 }
+	 }
+}
+
+#uncolonisation event
+country_event = {
+	 id = 1000000014
+	 title = "EVTNAME1000000014"
+	 desc = "EVTDESC1000000014"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000014"
+		 any_owned = { secede_province = --- }
+	 }
+}
+
+
+#Collapse Chain
+#WE DID WE'VE COMPLETED WHAT THE VOICES COMMANDED!
+country_event = {
+	 id = 1000000015
+	 title = "EVTNAME1000000015"
+	 desc = "EVTDESC1000000015"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = HLR
+		 has_country_flag = insane_sigmund
+		 has_country_flag = Siggy_Schizo_claims
+		 has_unclaimed_cores = no
+	 }
+	 
+	 #this event just tells you that the second chain has began
+	 option = {
+		 name = "EVTOPA1000000015"
+		 set_country_flag = Collapse_chain_start
+	 }
+}
+
+#Death of Siggy, cracks in the empire
+country_event = {
+	 id = 1000000016
+	 title = "EVTNAME1000000016"
+	 desc = "EVTDESC1000000016"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = HLR
+		 has_country_flag = insane_sigmund
+		 has_country_flag = Collapse_chain_start
+	 }
+	 
+	 #Oops! Tripped on some stairs
+	 option = {
+		 name = "EVTOPA1000000016"
+		 set_country_flag = Siggy_death
+	 }
+}
+
+#The Far Eastern lands are revolting
+country_event = {
+	 id = 1000000017
+	 title = "EVTNAME1000000017"
+	 desc = "EVTDESC1000000017"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = HLR
+		 has_country_flag = insane_sigmund
+		 has_country_flag = Siggy_death
+	 }
+	 
+	 #SHIT
+	 option = {
+		 name = "EVTOPA1000000017"
+		 any_owned = {
+			 limit = {
+				 is_core = RUT
+			 }
+		 secede_province = RUT
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = POL
+			 }
+		 secede_province = POL
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = CRI
+			 }
+		 secede_province = CRI
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = RUS
+			 }
+		 secede_province = RUV
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = RUS
+			 }
+		 add_core = RUV
+		 }
+		 RUV = {
+			 civilized = yes
+			 government = presidential_dictatorship
+			 nationalvalue = nv_order
+			 political_reform = none_voting
+			 political_reform = party_appointed
+			 political_reform = no_meeting
+			 political_reform = state_press
+			 political_reform = state_controlled
+			 political_reform = underground_parties
+			 political_reform = mandatory_service
+			 activate_technology = post_napoleonic_thought
+			 activate_technology = flintlock_rifles
+			 activate_technology = bronze_muzzle_loaded_artillery
+			 activate_technology = military_staff_system
+			 activate_technology = army_command_principle
+			 activate_technology = strategic_mobility
+			 activate_technology = point_defense_system
+			 activate_technology = deep_defense_system
+			 activate_technology = infiltration
+			 activate_technology = muzzle_loaded_rifles
+			 activate_technology = breech_loaded_rifles
+			 activate_technology = machine_guns
+			 activate_technology = bolt_action_rifles
+			 activate_technology = iron_muzzle_loaded_artillery
+			 activate_technology = iron_breech_loaded_artillery
+			 activate_technology = steel_breech_loaded_artillery
+			 activate_technology = indirect_artillery_fire
+			 activate_technology = military_plans
+			 activate_technology = military_statistics
+			 activate_technology = military_logistics
+			 activate_technology = military_directionism
+			 activate_technology = army_professionalism
+			 activate_technology = army_decision_making
+			 activate_technology = army_risk_management
+			 activate_technology = army_nco_training
+			 activate_technology = private_banks
+			 activate_technology = stock_exchange
+			 activate_technology = business_banks
+			 activate_technology = no_standard
+			 activate_technology = ad_hoc_money_bill_printing
+			 activate_technology = private_bank_money_bill_printing
+			 activate_technology = early_classical_theory_and_critique
+			 activate_technology = late_classical_theory
+			 activate_technology = freedom_of_trade
+			 activate_technology = market_structure
+			 activate_technology = business_regulations
+			 activate_technology = guild_based_production
+			 activate_technology = organized_factories
+			 activate_technology = scientific_management
+			 activate_technology = time_saving_measures
+			 activate_technology = classicism_n_early_romanticism
+			 activate_technology = romanticism
+			 activate_technology = realism
+			 activate_technology = impressionism
+			 activate_technology = late_enlightenment_philosophy
+			 activate_technology = idealism
+			 activate_technology = empiricism
+			 activate_technology = malthusian_thought
+			 activate_technology = positivism
+			 activate_technology = functionalism
+			 activate_technology = enlightenment_thought
+			 activate_technology = ideological_thought
+			 activate_technology = state_n_government
+			 activate_technology = nationalism_n_imperialism
+			 activate_technology = revolution_n_counterrevolution
+			 activate_technology = mass_politics
+			 activate_technology = introspectionism
+			 activate_technology = associationism
+			 activate_technology = phenomenalism
+			 activate_technology = experimental_psychology
+			 activate_technology = post_nelsonian_thought
+			 activate_technology = battleship_column_doctrine
+			 activate_technology = raider_group_doctrine
+			 activate_technology = blue_and_brown_water_schools
+			 activate_technology = high_sea_battle_fleet
+			 activate_technology = clipper_design
+			 activate_technology = steamers
+			 activate_technology = iron_steamers
+			 activate_technology = steel_steamers
+			 activate_technology = steam_turbine_ships
+			 activate_technology = modern_ship_construction
+			 activate_technology = naval_design_bureaus
+			 activate_technology = fire_control_systems
+			 activate_technology = alphabetic_flag_signaling
+			 activate_technology = naval_plans
+			 activate_technology = naval_statistics
+			 activate_technology = the_command_principle
+			 activate_technology = naval_professionalism
+			 activate_technology = piston_steam_engine
+			 activate_technology = high_pressure_steam_engine
+			 activate_technology = compound_steam_engines
+			 activate_technology = steam_turbine
+			 activate_technology = combustion_engine
+			 activate_technology = electrical_power_generation
+			 activate_technology = mechanical_production
+			 activate_technology = interchangeable_parts
+			 activate_technology = semi_automatization
+			 activate_technology = pneumatic_and_hydraulics
+			 activate_technology = assembly_line
+			 activate_technology = shift_work
+			 activate_technology = hot_blast
+			 activate_technology = mechanized_mining
+			 activate_technology = regenerative_furnaces
+			 activate_technology = drilling_and_blasting
+			 activate_technology = advanced_metallurgy
+			 activate_technology = electric_furnace
+			 activate_technology = modern_metallurgy
+			 activate_technology = experimental_railroad
+			 activate_technology = early_railroad
+			 activate_technology = iron_railroad
+			 activate_technology = steel_railroad
+			 activate_technology = basic_chemistry
+			 activate_technology = medicine
+			 activate_technology = inorganic_chemistry
+			 activate_technology = organic_chemistry
+			 activate_technology = electricity
+			 activate_technology = synthetic_polymers
+		 }
+		 RUV = { treasury = 500000 }
+	 }
+}
+
+#The Western lands are revolting #1000000018
+
+#The Africans are revolting #1000000019
+
+#Danubias Revolt #1000000020
+
+#Rhineish + Swabian Revolt (having fun yet?) #1000000021
+
+#Victory of the Bohemian Crown (Holy Shit) #1000000022

@@ -1,0 +1,116 @@
+political_decisions = {
+
+#Sail down the Danube
+Sail_down_the_danube = {
+	 potential = {
+		 tag = SGF
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = SGF_sail_down_the_danube }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 15
+		 HUN = { all_core = { add_core = SGF } }
+		 set_country_flag = SGF_sail_down_the_danube
+	 }
+}
+
+#The Hungarian Question
+Hungarian_question = {
+	 potential = {
+		 tag = SGF
+		 ai = no
+		 has_country_flag = SGF_sail_down_the_danube
+		 NOT = { has_country_flag = HUN_qns_ans }
+	 }
+	 
+	 allow = {
+		 HUN = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 country_event = 1000000002
+	 }
+}
+
+#Sail to the black sea
+Sail_to_the_black_sea = {
+	 potential = {
+		 tag = SGF
+		 ai = no
+		 has_country_flag = HUN_qns_ans
+		 NOT = { has_country_flag = SGF_sail_down_the_danube_2 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 ROM = { all_core = { add_core = SGF } }
+		 badboy = 10
+		 set_country_flag = SGF_sail_down_the_danube_2
+	 }
+}
+
+#Romanian Question
+Romanian_question = {
+	 potential = {
+		 tag = SGF
+		 ai = no
+		 has_country_flag = SGF_sail_down_the_danube_2
+		 NOT = { has_country_flag = ROM_qns_ans }
+	 }
+	 
+	 allow = {
+		 ROM = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 country_event = 1000000003
+	 }
+}
+
+#Master of the Balkans!
+Master_of_the_balkans = {
+	 potential = {
+		 tag = SGF
+		 ai = no
+		 has_country_flag = ROM_qns_ans
+		 NOT = { has_country_flag = SGF_master_balkans }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect ={ 
+		 badboy = 20
+		 YUG = { all_core = { add_core = SGF } }
+		 ALB = { all_core = { add_core = SGF } }
+		 BUL = { all_core = { add_core = SGF } }
+		 set_country_flag = SGF_master_balkans
+	 }
+}
+
+#Balkans Question
+Balkan_question = {
+	 potential = {
+		 tag = SGF
+		 ai = no
+		 has_country_flag = SGF_master_balkans
+		 NOT = { has_country_flag = balkan_qns_ans }
+	 }
+	 
+	 allow = {
+		 YUG = { all_core = { owned_by = SGF } }
+		 ALB = { all_core = { owned_by = SGF } }
+		 BUL = { all_core = { owned_by = SGF } }
+	 }
+	 
+	 effect = {
+		 country_event = 1000000004
+	 }
+}
