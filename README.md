@@ -34,3 +34,4 @@ Planned things:
 20. Italy theocracy Holy land larp
 21. New Kurland Content
 22. Bohemia cores in Sorbia
+23. Corporate Venice (Live for the company, Die for the company)
