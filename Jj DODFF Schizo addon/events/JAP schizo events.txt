@@ -127,6 +127,9 @@ country_event = {
 	#fuck Kpop
 	option = {
 		name = "EVTOPA1000000081C"
+		KOR = { civilized = no }
+		release = KOR
+		inherit = KOR
 		any_owned = {
 				limit = {
 					is_core = KOR
@@ -136,6 +139,10 @@ country_event = {
 				 duration = -1
 			}
 		}
+		KOR = {
+			 primary_culture = japanese
+			 add_accepted_culture = korean
+		 }
 	}
 }
 
@@ -228,10 +235,15 @@ country_event = {
 				limit = {
 					is_core = MCH
 				}
-			Germanisation_program
-			duration = -1
-
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
 		}
+		MCH = {
+			 primary_culture = japanese
+			 add_accepted_culture = manchu
+		 }
 	}
 }
 	
