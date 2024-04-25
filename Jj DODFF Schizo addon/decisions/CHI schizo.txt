@@ -6,16 +6,14 @@ china_conquest_unlocker = {
 		tag = CHI
 		ai = no
 		has_country_flag = Schzio_mod_show
-		NOT = { has_country_flag = the_conquest_of_the_west_partthree }
+		NOT = { has_global_flag = the_conquest_of_the_west }
 		}
 	 
 	 allow = {
 			}
 		
 	 effect = {
-		set_country_flag = the_conquest_of_the_west
-		set_country_flag = the_conquest_of_the_west_parttwo
-		set_country_flag = the_conquest_of_the_west_partthree
+		set_global_flag = the_conquest_of_the_west
 		badboy = 6
 		}
 }

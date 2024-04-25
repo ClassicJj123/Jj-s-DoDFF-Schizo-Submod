@@ -11,8 +11,10 @@ schizo_japan = {
 	 }
 	 
 	 allow = {
-		KOR = { all_core = { owned_by = THIS } }
-		GOY = { all_core = { owned_by = THIS } }
+		 OR = {
+			 KOR = { all_core = { owned_by = THIS } }
+			 GOY = { all_core = { owned_by = THIS } }
+		 }
 	 }
 	 
 	 effect = { 
