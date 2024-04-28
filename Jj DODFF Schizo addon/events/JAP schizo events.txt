@@ -127,9 +127,6 @@ country_event = {
 	#fuck Kpop
 	option = {
 		name = "EVTOPA1000000081C"
-		KOR = { civilized = no }
-		release = KOR
-		inherit = KOR
 		any_owned = {
 				limit = {
 					is_core = KOR
