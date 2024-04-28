@@ -114,3 +114,42 @@ Balkan_question = {
 		 country_event = 1000000004
 	 }
 }
+
+#Claim Venice
+claim_venice = {
+	 potential = {
+		 tag = SGF
+		 ai = no
+		 has_country_flag = balkan_qns_ans
+		 NOT = { has_country_flag = SGF_claim_venice }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 VEN = {
+			 any_owned = { add_core = THIS }
+		 }
+		 set_country_flag = SGF_claim_venice
+		 badboy = 5
+	 }
+}
+
+#The Venetian Question
+the_venetian_question = {
+	 potential = {
+		 tag = SGF
+		 ai = no
+		 has_country_flag = SGF_claim_venice
+		 NOT = { has_country_flag = venice_qns_ans }
+	 }
+	 
+	 allow = {
+		 VEN = { all_core = { owned_by = SGF } }
+	 }
+	 
+	 effect = {
+		 country_event = 1000000035
+	 }
+}
