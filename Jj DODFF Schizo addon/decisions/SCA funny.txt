@@ -1,0 +1,46 @@
+political_decisions = {
+
+#Claim the North Sea Empire
+claim_england_sca = {
+picture = British_islands
+	potential = {
+		tag = SCA
+		has_country_flag = Schzio_mod_show
+		NOT = { has_country_flag = north_sea_empire_start }
+		NOT = { exists = SCO }
+		revolution_n_counterrevolution = 1
+	}
+	allow = {
+	accepted_culture = scottish
+	THIS = { all_core = { owned_by = THIS } }
+	}
+	effect = {
+		badboy = 10
+		ENL = { all_core = { add_core = SCA } }
+		set_country_flag = north_sea_empire_start
+		add_accepted_culture = english
+	}
+}
+
+#Claim the North Sea Empire
+claim_ireland_sca = {
+pictrure = British_islands
+	potential = {
+		tag = SCA
+		has_country_flag = Schzio_mod_show
+		has_country_flag = north_sea_empire_start 
+		NOT = { has_country_flag = ireland_eaten }
+	}
+	allow = {
+	THIS = { all_core = { owned_by = THIS } }
+	}
+	effect = {
+		badboy = 4
+		IRE = { all_core = { add_core = SCA } }
+		set_country_flag = ireland_eaten
+		add_accepted_culture = irish
+		add_accepted_culture = welsh
+	}
+}
+
+}
