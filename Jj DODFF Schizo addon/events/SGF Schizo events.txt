@@ -42,6 +42,8 @@ country_event = {
 			 }
 		 }
 		 set_country_flag = HUN_qns_ans
+		 set_country_flag = Schizo_conversion
+		 set_country_flag = SGF_GER_HUN
 	 }
 	 
 	 #decide later
@@ -72,6 +74,14 @@ country_event = {
 			 primary_culture = south_german
 			 add_accepted_culture = romanian
 		 }
+		 WAL = {
+			 primary_culture = south_german
+			 add_accepted_culture = romanian
+		 }
+		 MOL = {
+			 primary_culture = south_german
+			 add_accepted_culture = romanian
+		 }
 		 any_owned = {
 			 limit = {
 				 is_core = ROM
@@ -82,6 +92,7 @@ country_event = {
 			 }
 		 }
 		 set_country_flag = ROM_qns_ans
+		 set_country_flag = SGF_GER_ROM
 	 }
 	 
 	 #decide later
@@ -113,7 +124,7 @@ country_event = {
 	 
 	 #begin a germanisation program in balkans lands
 	 option = {
-		 name = "EVTOPA100000004B"
+		 name = "EVTOPA1000000004B"
 		 YUG = {
 			 primary_culture = south_german
 			 add_accepted_culture = serb
@@ -125,6 +136,22 @@ country_event = {
 		 ALB = {
 			 primary_culture = south_german
 			 add_accepted_culture = albanian
+		 }
+		 SLO = {
+			 primary_culture = south_german
+			 add_accepted_culture = slovene
+		 }
+		 CRN = {
+			 primary_culture = south_german
+			 add_accepted_culture = slovene
+		 }
+		 CRO = {
+			 primary_culture = south_german
+			 add_accepted_culture = croat
+		 }
+		 BOS = {
+			 primary_culture = south_german
+			 add_accepted_culture = bosniak
 		 }
 		 any_owned = {
 			 limit = {
@@ -153,11 +180,71 @@ country_event = {
 				 duration = -1
 			 }
 		 }
+		 any_owned = {
+			 limit = {
+				 is_core = SLO
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 any_owned = {
+			 limit = {
+				 AND = {
+					 is_core = TUR
+					 is_core = SGF
+				 }
+			 }
+		 remove_core = TUR
+		 }
 		 set_country_flag = balkan_qns_ans
+		 set_country_flag = SGF_GER_BAK
 	 }
 	 
 	 #decide later
 	 option = {
 		 name = "EVTOPA1000000004C"
+	 }
+}
+
+#The Venetian question
+country_event = {
+	 id = 1000000035
+	 title = "EVTNAME1000000035"
+	 desc = "EVTDESC1000000035"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 #accept the balkans
+	 option = {
+		 name = "EVTOPA1000000035A"
+		 add_accepted_culture = venetian
+		 set_country_flag = venice_qns_ans
+	 }
+	 
+	 #begin a germanisation program in balkans lands
+	 option = {
+		 name = "EVTOPA100000035B"
+		 VEN = {
+			 primary_culture = south_german
+			 add_accepted_culture = venetian
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = VEN
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = venice_qns_ans
+		 set_country_flag = SGF_GER_VEN
+	 }
+	 
+	 #decide later
+	 option = {
+		 name = "EVTOPA1000000035C"
 	 }
 }

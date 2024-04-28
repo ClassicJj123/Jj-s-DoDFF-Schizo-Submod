@@ -10,6 +10,7 @@ country_event = {
 		 tag = CHI
 		 has_country_flag = Schzio_mod_show
 		 KOR = { all_core = { owned_by = THIS } }
+		 NOT = { has_country_flag = jap_conquered_chi }
 	 }
 
 	 mean_time_to_happen = { 

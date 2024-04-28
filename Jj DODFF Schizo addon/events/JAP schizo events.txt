@@ -143,6 +143,7 @@ country_event = {
 			 primary_culture = japanese
 			 add_accepted_culture = korean
 		 }
+		 set_country_flag = JAP_GER_KOR
 	}
 }
 
@@ -244,6 +245,8 @@ country_event = {
 			 primary_culture = japanese
 			 add_accepted_culture = manchu
 		 }
+		#Schizo assimilation
+		set_country_flag = JAP_GER_MCH 
 	}
 }
 	
