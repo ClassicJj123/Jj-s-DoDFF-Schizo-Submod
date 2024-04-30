@@ -167,4 +167,25 @@ accept_manchus_chi = {
 	 }
 }
 
+#Go young chinese, KILL MONGOLIA
+death_mongolia = {
+	 potential = {
+		 tag = CHI
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = foreign_china
+		 has_country_flag = jap_conquered_chi
+		 has_country_flag = the_conquest_of_the_west_partthree
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 CHG = { all_core = { add_core = THIS } }
+		 MGL = { all_core = { add_core = THIS } }
+		 badboy = 10
+	 }
+}
+
 }
