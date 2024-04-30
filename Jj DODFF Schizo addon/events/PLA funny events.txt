@@ -1,0 +1,216 @@
+#Louis starts getting funny ideas. PLA EVENTS ARE 10000004XX
+country_event = {
+	id = 1000000401
+	title = "EVTNAME1000000401"
+	desc = "EVTDESC1000000401"
+	picture = BengaliNovel
+	fire_only_once = yes
+	trigger = {
+		has_country_flag = Schzio_mod_show
+		tag = PLA
+		year = 1837
+	}
+	mean_time_to_happen = {
+			days = 120
+	}
+	 
+	#he starts reading
+	option = {
+		name = "EVTOPA1000000401A"
+		prestige = 1
+		set_country_flag = louis_is_cooking
+	}
+	 
+	#reading is for NERDS
+	option = {
+	name = "EVTOPA1000000401B"
+	prestige = 3
+	}
+}
+
+#Another night in the Library
+country_event = {
+	id = 1000000402
+	title = "EVTNAME1000000402"
+	desc = "EVTDESC1000000402"
+	picture = BengaliNovel
+	fire_only_once = yes
+	trigger = {
+		has_country_flag = Schzio_mod_show
+		tag = PLA
+		has_country_flag = louis_is_cooking
+		has_country_flag = YEE_HAW
+		year = 1855
+	}
+	mean_time_to_happen = {
+			days = 120
+	}
+	 
+	#he reads about this william the conquerer fellow
+	option = {
+		name = "EVTOPA1000000402A"
+		prestige = 5
+	}
+}
+
+#Louis realizes that Charles II was BASED
+#country_event = {
+#	id = 1000000403
+#	title = "EVTNAME1000000403"
+#	desc = "EVTDESC1000000403"
+#	picture = 1843_GreatMigration
+#	fire_only_once = yes
+#	trigger = {
+#		has_country_flag = Schzio_mod_show
+#		has_country_flag = PLA_the_arcadian_dream
+#		has_country_flag = louis_is_cooking
+#	}
+#	mean_time_to_happen = {
+#			months = 16
+#	}
+#	 
+#	#Louis seizes imperial power
+#	option = {
+#		name = "EVTOPA1000000403A"
+#		government = absolute_monarchy
+#		political_reform = none_voting
+#		political_reform = party_appointed
+#		political_reform = no_meeting
+#		political_reform = underground_parties
+#		political_reform = mandatory_service
+#		political_reform = no_slavery
+#	}
+#}
+	
+	#Louis decides Natives deserve Rights
+	country_event = {
+	id = 1000000404
+	title = "EVTNAME1000000404"
+	desc = "EVTDESC1000000404"
+	picture = battle_pavon
+	fire_only_once = yes
+	trigger = {
+		tag = ARC
+		has_country_flag = louis_is_cooking
+		has_country_flag = PLA_the_arcadian_dream
+	}
+	mean_time_to_happen = {
+			months = 16
+	}
+	 
+	#Louis says native rights!
+	option = {
+		name = "EVTOPA1000000404A"
+		add_accepted_culture = sioux
+		add_accepted_culture = cherokee
+		add_accepted_culture = southern_algonquin
+		add_accepted_culture = iroquois
+		add_accepted_culture = cree
+		add_accepted_culture = rohnnst
+		CHE = { all_core = { add_core = THIS } }
+		random_pop = {
+			limit = {
+				has_pop_culture = plantagenian
+			}
+			militancy = 0.5
+			consciousness = 4
+		}
+	}
+}
+
+	#RETVRN ACTIVATED - DUA Exists
+	country_event = {
+	id = 1000000405
+	title = "EVTNAME1000000405"
+	desc = "EVTDESC1000000405"
+	picture = battle_pavon
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Time to FUCK DUA UP
+	option = {
+		name = "EVTOPA1000000405A"
+		war = {
+			target = DUA
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
+			call_ally = yes
+			}
+		OCC = { all_core = { add_core = DUA } }
+		IRE = { all_core = { add_core = DUA } }
+	}
+}
+
+	#RETVRN ACTIVATED - DUA Does not exist
+	country_event = {
+	id = 1000000406
+	title = "EVTNAME1000000406"
+	desc = "EVTDESC1000000406"
+	picture = battle_pavon
+	fire_only_once = yes
+	is_triggered_only = yes
+	 
+	#Time to FUCK england and france UP!!
+	option = {
+		name = "EVTOPA1000000406A"
+		ENL = { all_core = { add_core = THIS } }
+		FRA = { all_core = { add_core = THIS } }
+		IRE = { all_core = { add_core = THIS } }
+		OCC = { all_core = { add_core = THIS } }
+		IRE = { all_core = { add_core = DUA } }
+		OCC = { all_core = { add_core = DUA } }
+	}
+}
+
+	#BRG offers help
+country_event = {
+	id = 1000000407
+	title = "EVTNAME1000000407"
+	desc = "EVTDESC1000000407"
+	picture = occitan_revolt
+	fire_only_once = yes
+	trigger = {
+		OR = {
+		war_with = DUA
+		}
+		exists = BRG
+	NOT = { BRG = { owns = 408 } }
+	}
+	mean_time_to_happen = {
+		months = 4
+	}
+	 
+	#thank christ please help help help
+	option = {
+		name = "EVTOPA1000000407A"
+		remove_core = 403
+		remove_core = 406
+		remove_core = 408
+			BRG = {
+				add_core = 406
+				add_core = 408
+				add_core = 403
+				war = {
+					target = DUA
+					attacker_goal = status_quo
+					defender_goal = status_quo
+					call_ally = no
+				}
+			}
+			DUA = {
+				remove_core = 403
+				remove_core = 406
+				remove_core = 408
+			}
+		set_country_flag = trade_offer_BRG
+	}
+	
+	#piss off you belgian waffle eating bitches
+	option = {
+		name = "EVTOPA1000000407B"
+		relation = {
+			who = BRG
+			value = -50
+		}
+	}
+}

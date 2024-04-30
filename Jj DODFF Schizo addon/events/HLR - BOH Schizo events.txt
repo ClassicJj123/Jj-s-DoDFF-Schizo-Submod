@@ -410,15 +410,12 @@ country_event = {
 	 picture = "placeholder"
 	 fire_only_once = yes
 	 
-	 mean_time_to_happen = { days = 7 }
+	 mean_time_to_happen = { months = 1 }
 	 
 	 trigger = {
 		 tag = RUS
-		 HLR = {
-			 has_country_flag = insane_sigmund
-			 has_country_flag = Siggy_Schizo_claims
-			 has_unclaimed_cores = no
-		 }
+		 has_global_flag = HLR_RUS_WAR
+		 has_country_flag = custom_treaty_loser
 	 }
 	 
 	 #Welp, death's seems cool I guess
@@ -457,6 +454,14 @@ country_event = {
 			 secede_province = KZH
 		 }
 		 RUV = { country_event = 1000000014 }
+		 any_owned = {
+			 limit = {
+				 is_core = HLR
+			 }
+		 secede_province = HLR
+		 }
+		 clr_global_flag = HLR_RUS_WAR
+		 clr_country_flag = custom_treaty_loser
 	 }
 }
 
@@ -550,9 +555,44 @@ country_event = {
 		 }
 		 any_owned = {
 			 limit = {
+				 is_core = UKR
+			 }
+		 secede_province = RUT
+		 add_core = RUT
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BLR
+			 }
+		 secede_province = RUT
+		 add_core = RUT
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = VOL
+			 }
+		 secede_province = RUT
+		 add_core = RUT
+		 }
+		 any_owned = {
+			 limit = {
 				 is_core = POL
 			 }
 		 secede_province = POL
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = PZN
+			 }
+		 secede_province = POL
+		 add_core = POL
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = MAZ
+			 }
+		 secede_province = POL
+		 add_core = POL
 		 }
 		 any_owned = {
 			 limit = {
@@ -692,15 +732,618 @@ country_event = {
 			 activate_technology = synthetic_polymers
 		 }
 		 RUV = { treasury = 500000 }
+		 war = {
+			 target = RUV
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = POL
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = RUT
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = CRI
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 set_country_flag = HLR_civil_war
 	 }
 }
 
 #The Western lands are revolting #1000000018
+country_event = {
+	 id = 1000000018
+	 title = "EVTNAME1000000018"
+	 desc = "EVTDESC1000000018"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = insane_sigmund
+		 has_country_flag = Siggy_death
+		 has_country_flag = HLR_civil_war
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000018"
+		 any_owned = {
+			 limit = {
+				 is_core = OCC
+			 }
+		 secede_province = OCC
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BRT
+			 }
+		 secede_province = BRT
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = FRA
+			 }
+		 secede_province = FRA
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = SPA
+			 }
+		 secede_province = SPA
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = NAP
+			 }
+		 secede_province = NAP
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = ARA
+			 }
+		 secede_province = ARA
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = ENL
+			 }
+		 secede_province = ENL
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = SCO
+			 }
+		 secede_province = SCO
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = LRR
+			 }
+		 secede_province = LRR
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = NET
+			 }
+		 secede_province = DIE
+		 add_core = DIE
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BRB
+			 }
+		 secede_province = DIE
+		 add_core = DIE
+		 }
+		 DIE = {
+			 add_accepted_culture = brabantian
+		 }
+		 war = {
+			 target = FRA
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = LRR
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = DIE
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = OCC
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = BRT
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = SPA
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = NAP
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = ARA
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = ENL
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = SCO
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+	 }
+}
 
 #The Africans are revolting #1000000019
+country_event = {
+	 id = 1000000019
+	 title = "EVTNAME1000000019"
+	 desc = "EVTDESC1000000019"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = insane_sigmund
+		 has_country_flag = Siggy_death
+		 has_country_flag = HLR_civil_war
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000019"
+		 any_owned = {
+			 limit = {
+				 is_core = EGY
+			 }
+		 secede_province = ALD
+		 add_core = ALD
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = TUN
+			 }
+		 secede_province = ALD
+		 add_core = ALD
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = MOR
+			 }
+		 secede_province = ALD
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = SUS
+			 }
+		 secede_province = ALD
+		 add_core = ALD
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = FEZ
+			 }
+		 secede_province = ALD
+		 add_core = ALD
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = RIF
+			 }
+		 secede_province = ALD
+		 add_core = ALD
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = KBL
+			 }
+		 secede_province = ALD
+		 add_core = ALD
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = ALJ
+			 }
+		 secede_province = ALD
+		 add_core = ALD
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = ALD
+			 }
+		 secede_province = ALD
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = TRI
+			 }
+		 secede_province = ALD
+		 add_core = ALD
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = LBY
+			 }
+		 secede_province = ALD
+		 add_core = ALD
+		 }
+		 ALD = {
+			 civilized = yes
+			 government = presidential_dictatorship
+			 nationalvalue = nv_order
+			 political_reform = none_voting
+			 political_reform = party_appointed
+			 political_reform = no_meeting
+			 political_reform = state_press
+			 political_reform = state_controlled
+			 political_reform = underground_parties
+			 political_reform = mandatory_service
+			 activate_technology = post_napoleonic_thought
+			 activate_technology = flintlock_rifles
+			 activate_technology = bronze_muzzle_loaded_artillery
+			 activate_technology = military_staff_system
+			 activate_technology = army_command_principle
+			 activate_technology = strategic_mobility
+			 activate_technology = point_defense_system
+			 activate_technology = deep_defense_system
+			 activate_technology = infiltration
+			 activate_technology = muzzle_loaded_rifles
+			 activate_technology = breech_loaded_rifles
+			 activate_technology = machine_guns
+			 activate_technology = bolt_action_rifles
+			 activate_technology = iron_muzzle_loaded_artillery
+			 activate_technology = iron_breech_loaded_artillery
+			 activate_technology = steel_breech_loaded_artillery
+			 activate_technology = indirect_artillery_fire
+			 activate_technology = military_plans
+			 activate_technology = military_statistics
+			 activate_technology = military_logistics
+			 activate_technology = military_directionism
+			 activate_technology = army_professionalism
+			 activate_technology = army_decision_making
+			 activate_technology = army_risk_management
+			 activate_technology = army_nco_training
+			 activate_technology = private_banks
+			 activate_technology = stock_exchange
+			 activate_technology = business_banks
+			 activate_technology = no_standard
+			 activate_technology = ad_hoc_money_bill_printing
+			 activate_technology = private_bank_money_bill_printing
+			 activate_technology = early_classical_theory_and_critique
+			 activate_technology = late_classical_theory
+			 activate_technology = freedom_of_trade
+			 activate_technology = market_structure
+			 activate_technology = business_regulations
+			 activate_technology = guild_based_production
+			 activate_technology = organized_factories
+			 activate_technology = scientific_management
+			 activate_technology = time_saving_measures
+			 activate_technology = classicism_n_early_romanticism
+			 activate_technology = romanticism
+			 activate_technology = realism
+			 activate_technology = impressionism
+			 activate_technology = late_enlightenment_philosophy
+			 activate_technology = idealism
+			 activate_technology = empiricism
+			 activate_technology = malthusian_thought
+			 activate_technology = positivism
+			 activate_technology = functionalism
+			 activate_technology = enlightenment_thought
+			 activate_technology = ideological_thought
+			 activate_technology = state_n_government
+			 activate_technology = nationalism_n_imperialism
+			 activate_technology = revolution_n_counterrevolution
+			 activate_technology = mass_politics
+			 activate_technology = introspectionism
+			 activate_technology = associationism
+			 activate_technology = phenomenalism
+			 activate_technology = experimental_psychology
+			 activate_technology = post_nelsonian_thought
+			 activate_technology = battleship_column_doctrine
+			 activate_technology = raider_group_doctrine
+			 activate_technology = blue_and_brown_water_schools
+			 activate_technology = high_sea_battle_fleet
+			 activate_technology = clipper_design
+			 activate_technology = steamers
+			 activate_technology = iron_steamers
+			 activate_technology = steel_steamers
+			 activate_technology = steam_turbine_ships
+			 activate_technology = modern_ship_construction
+			 activate_technology = naval_design_bureaus
+			 activate_technology = fire_control_systems
+			 activate_technology = alphabetic_flag_signaling
+			 activate_technology = naval_plans
+			 activate_technology = naval_statistics
+			 activate_technology = the_command_principle
+			 activate_technology = naval_professionalism
+			 activate_technology = piston_steam_engine
+			 activate_technology = high_pressure_steam_engine
+			 activate_technology = compound_steam_engines
+			 activate_technology = steam_turbine
+			 activate_technology = combustion_engine
+			 activate_technology = electrical_power_generation
+			 activate_technology = mechanical_production
+			 activate_technology = interchangeable_parts
+			 activate_technology = semi_automatization
+			 activate_technology = pneumatic_and_hydraulics
+			 activate_technology = assembly_line
+			 activate_technology = shift_work
+			 activate_technology = hot_blast
+			 activate_technology = mechanized_mining
+			 activate_technology = regenerative_furnaces
+			 activate_technology = drilling_and_blasting
+			 activate_technology = advanced_metallurgy
+			 activate_technology = electric_furnace
+			 activate_technology = modern_metallurgy
+			 activate_technology = experimental_railroad
+			 activate_technology = early_railroad
+			 activate_technology = iron_railroad
+			 activate_technology = steel_railroad
+			 activate_technology = basic_chemistry
+			 activate_technology = medicine
+			 activate_technology = inorganic_chemistry
+			 activate_technology = organic_chemistry
+			 activate_technology = electricity
+			 activate_technology = synthetic_polymers
+		 }
+		 ALD = { treasury = 500000 }
+		 war = {
+			 target = ALD
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+	 }
+}
 
 #Danubias Revolt #1000000020
+country_event = {
+	 id = 1000000020
+	 title = "EVTNAME1000000020"
+	 desc = "EVTDESC1000000020"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 2 }
+	 
+	 trigger = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = insane_sigmund
+		 has_country_flag = Siggy_death
+		 has_country_flag = HLR_civil_war
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000020"
+		 any_owned = {
+			 limit = {
+				 is_core = BAV
+				 is_core = AUS
+				 is_core = FIU
+				 is_core = TRE
+				 is_core = AGR
+			 }
+		 add_core = SGF
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = SGF
+			 }
+		 secede_province = SGF
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = SLO
+			 }
+		 add_core = SGF
+		 secede_province = SGF
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = CRN
+			 }
+		 add_core = SGF
+		 secede_province = SGF
+		 }
+		 war = {
+			 target = SGF
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+	 }
+}
 
 #Rhineish + Swabian Revolt (having fun yet?) #1000000021
+country_event = {
+	 id = 1000000021
+	 title = "EVTNAME1000000021"
+	 desc = "EVTDESC1000000021"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 2 }
+	 
+	 trigger = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = insane_sigmund
+		 has_country_flag = Siggy_death
+		 has_country_flag = HLR_civil_war
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000021"
+		 any_owned = {
+			 limit = {
+				 is_core = HEK
+			 }
+		 add_core = CFR
+		 secede_province = CFR
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = NAS
+			 }
+		 add_core = CFR
+		 secede_province = CFR
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = RHI
+			 }
+		 add_core = CFR
+		 secede_province = CFR
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = OSN
+			 }
+		 add_core = CFR
+		 secede_province = CFR
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = FRM
+			 }
+		 add_core = CFR
+		 secede_province = CFR
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BEG
+			 }
+		 add_core = CFR
+		 secede_province = CFR
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = HES
+			 }
+		 add_core = CFR
+		 secede_province = CFR
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = HSK
+			 }
+		 add_core = CFR
+		 secede_province = CFR
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = MNR
+			 }
+		 add_core = CFR
+		 secede_province = CFR
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = ULM
+			 }
+		 add_core = SWA
+		 secede_province = SWA
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BAD
+			 }
+		 add_core = SWA
+		 secede_province = SWA
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = SWI
+			 }
+		 add_core = SWA
+		 secede_province = SWA
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = WUR
+			 }
+		 add_core = SWA
+		 secede_province = SWA
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = GRB
+			 }
+		 add_core = SWA
+		 secede_province = SWA
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = FIO
+			 }
+		 add_core = SWA
+		 secede_province = SWA
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BAE
+			 }
+		 add_core = SWA
+		 secede_province = SWA
+		 }
+		 war = {
+			 target = CFR
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = SWA
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+	 }
+}
 
 #Victory of the Bohemian Crown (Holy Shit) #1000000022
+
+#YIPPEEEEE THE BALKANS ARE AT YOUR THROAT (I forgot this region, oops)
