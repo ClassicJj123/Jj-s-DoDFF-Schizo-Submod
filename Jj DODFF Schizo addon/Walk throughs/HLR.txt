@@ -1,0 +1,12 @@
+Walk through for the voices chain:
+
+- Clicking the voices decision causes a event to pop which basically tells you the chain has started
+- Afterwards you will get 3 events, each having two options, one listening to the voices and another fighting against it
+- depending on what you pick, you will get 4 endings, Healthly, Sane, Mildly Insane, Insane (For Full Schizo pick all choices that go with the voices)
+
+Insane path:
+
+- Congrats You've gone Insane!
+- You will get a decision that gives gore over most of the Russian heart lands
+- If Russia Exisits, you should get a decision that makes you get a treaty war with them
+- To continue the path you must own all cores
