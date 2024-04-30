@@ -11,6 +11,7 @@ Current paths:
 5. Hungary-Austria (By Earth is a Donut, thanks)
 6. Japan and China Flavor (By Nej, thanks)
 7. Minnor SCA flavor (By Nej, thanks)
+8. PLA return Home (By Nej, thanks)
 
 Planned things:
 1. Europe wide civil war (technically mostly done in the HLR insane Siggy path)
