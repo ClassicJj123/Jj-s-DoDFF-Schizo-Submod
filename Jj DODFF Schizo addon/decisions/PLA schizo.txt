@@ -1,0 +1,150 @@
+political_decisions = {
+
+	#conquer Vinland - Vinland is subjugated after Claim Great Lakes
+conquer_vinland_ARC_subject = {
+	picture = Vinland
+	potential = {
+		tag = ARC
+		has_country_flag = Schzio_mod_show
+		has_country_flag = PLA_ARCADIA
+		owns = 48
+		is_our_vassal = VIN
+		NOT = { has_country_flag = conquer_vinland }
+	}
+	allow = {
+	government = absolute_monarchy
+	is_core = 173
+	is_core = 163
+	}
+	effect = {
+		badboy = 4
+		VIN = { all_core = { add_core = ARC } }
+		NUN = { all_core = { add_core = ARC } }
+		inherit = VIN
+		set_country_flag = conquer_vinland
+	}
+}
+
+	#conquer Vinland - Vinland is NOT subjugated after Claim Great Lakes
+conquer_vinland_ARC = {
+	picture = Vinland
+	potential = {
+		tag = ARC
+		has_country_flag = Schzio_mod_show
+		has_country_flag = PLA_ARCADIA
+		NOT = { is_our_vassal = VIN }
+		NOT = { has_country_flag = conquer_vinland }
+	}
+	allow = {
+	government = absolute_monarchy
+	THIS = { all_core = { owned_by = THIS } }
+	is_core = 173
+	is_core = 163
+	}
+	effect = {
+		add_casus_belli = {
+			target = VIN
+			type = conquest
+			months = 24
+			}
+		badboy = 16
+		VIN = { any_owned = { add_core = ARC } }
+		HHR = { all_core = { add_core = ARC } }
+		NUN = { all_core = { add_core = ARC } }
+		set_country_flag = conquer_vinland
+	}
+}
+
+	#TODAY WE RETURN TO OUR HOME BATHED IN RAYS OF GOLD - DUA EXISTS
+arc_retake_dua = {
+	potential = {
+		tag = ARC
+		has_country_flag = Schzio_mod_show
+		has_country_flag = conquer_vinland
+		exists = DUA
+		NOT = { has_country_flag = DUA_retaken }
+	}
+	allow = {
+	government = absolute_monarchy
+	THIS = { all_core = { owned_by = THIS } }
+	}
+	effect = {
+		set_country_flag = DUA_retaken
+		country_event = 1000000405
+	}
+}
+	
+	#Louis finally decides to RETVRN to DUA - DUA DOESN'T EXIST
+retvrn_arc_no_dua = {
+	potential = {
+		tag = ARC
+		has_country_flag = Schzio_mod_show
+		has_country_flag = louis_is_cooking
+		government = absolute_monarchy
+		NOT = { exists = DUA }
+		NOT = { has_country_flag = DUA_retaken }
+	}
+	allow = {
+	has_country_flag = conquer_vinland
+	THIS = { all_core = { owned_by = THIS } }
+	}
+	effect = {
+		add_accepted_culture = anglois
+		set_country_flag = DUA_retaken
+		country_event = 1000000406
+	}
+}
+	
+proclaim_triple_monarchy_no_fed = {
+	picture = Manifest_Destiny_ARC2
+	potential = {
+		tag = DUA
+		has_country_flag = Schzio_mod_show
+		has_country_flag = DUA_retaken
+		NOT = { has_country_flag = triple_monarchy }
+		NOT = { has_country_flag = Anglois_accepted }
+	}
+	allow = {
+	THIS = { all_core = { owned_by = THIS } }
+	NOT = { exists = VIN }
+	NOT = { exists = NBG }
+	NOT = { exists = ENL }
+	mass_politics = 1
+	}
+	effect = {
+		add_accepted_culture = septiman
+		add_accepted_culture = vinlander
+		add_accepted_culture = marklander
+		set_country_flag = triple_monarchy
+	}
+}
+
+proclaim_triple_monarchy_fed = {
+	picture = Manifest_Destiny_ARC2
+	potential = {
+		tag = DUA
+		has_country_flag = Schzio_mod_show
+		has_country_flag = DUA_retaken
+		NOT = { has_country_flag = triple_monarchy }
+		has_country_flag = Anglois_accepted
+	}
+	allow = {
+	THIS = { all_core = { owned_by = THIS } }
+	NOT = { exists = VIN }
+	NOT = { exists = NBG }
+	NOT = { exists = ENL }
+	mass_politics = 1
+	}
+	effect = {
+		add_accepted_culture = septiman
+		add_accepted_culture = vinlander
+		add_accepted_culture = provencal
+		add_accepted_culture = breton
+		add_accepted_culture = welsh
+		add_accepted_culture = irish
+		add_accepted_culture = marklander
+		set_country_flag = triple_monarchy
+	}
+}
+
+}
