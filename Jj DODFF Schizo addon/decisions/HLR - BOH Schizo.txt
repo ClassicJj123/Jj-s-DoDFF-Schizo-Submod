@@ -192,6 +192,7 @@ Imperial_acceptence = {
 		 add_accepted_culture = brabantian
 		 add_accepted_culture = sardinian
 		 add_accepted_culture = english
+		 add_accepted_culture = catalan
 		 set_country_flag = Imperial_acceptence
 	 }
 }
@@ -293,4 +294,57 @@ Major_expansion = {
 		 RUS_1008 = { add_core = HLR }
 		 set_country_flag = Siggy_Schizo_claims
 	 }
+}
+
+#WAR OF IMPERIAL SECURITY, RUSSIA MUST NOT REMAIN AS AN GEOPOLITICAL ENTITY
+war_of_imperial_security = {
+	 potential = {
+		 tag = HLR
+		 ai = no
+		 NOT = { has_country_flag = death_to_RUS }
+		 has_country_flag = Siggy_Schizo_claims
+		 exists = RUS
+	 }
+	 
+	 effect = {
+		 war = {
+			 target = RUS
+			 attacker_goal = { casus_belli = custom_treaty_cb }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 set_global_flag = HLR_RUS_WAR
+		 set_country_flag = death_to_RUS
+	 }
+}
+
+#Removal of debuff
+remove_debuff_HLR = {
+	 potential = {
+		 has_country_flag = HLR_debuff
+	 }
+	 
+	 allow = {
+		 war = no
+	 }
+	 
+	 effect = {
+	 clr_country_flag = HLR_debuff
+		 any_owned = {
+			 limit = {
+				 has_province_modifier = Le_Epic_europe_war
+			 }
+		 remove_province_modifier = Le_Epic_europe_war
+		 add_province_modifier = {
+			 name = German_repoplution_LGC
+			 duration = 365
+		 }
+		 }
+	 }
+	 
+	 ai_will_do = {
+			factor = 1
+	 }
+}
+
 }
