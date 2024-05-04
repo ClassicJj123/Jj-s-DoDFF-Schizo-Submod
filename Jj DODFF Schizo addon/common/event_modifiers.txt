@@ -5807,9 +5807,19 @@ rev_reforms = {
 Germanisation_program = {
 	 assimilation_rate = 4.0
 	 pop_militancy_modifier = -1.0
+	 immigrant_attract = 5
 }
 
 German_repoplution_LGC = {
 	 population_growth = 0.05
 	 pop_militancy_modifier = -1.0
+}
+
+Le_Epic_europe_war = {
+	 population_growth = -0.001
+	 immigrant_push = 0.6
+}
+
+HLR_help = {
+	 mobilisation_size = 1
 }
