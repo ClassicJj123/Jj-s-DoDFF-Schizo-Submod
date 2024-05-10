@@ -14,7 +14,7 @@ Current paths:
 8. PLA return Home (By Nej, thanks)
 
 Planned things:
-1. Europe wide civil war (technically mostly done in the HLR insane Siggy path)
+1. Europe wide civil war (technically done in the HLR insane Siggy path)
 2. Belgian return
 3. Batavia Germany
 4. New Kurland Germany
