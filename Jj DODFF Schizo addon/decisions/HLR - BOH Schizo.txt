@@ -135,6 +135,28 @@ Central_italian_acceptence = {
 	 }
 }
 
+#Burgundian claims early
+Claim_burgundy_early = {
+	 potential = { 
+			tag = HLR 
+			has_country_flag = Schzio_mod_show
+			NOT = { has_country_flag = claimed_burgundy } 
+		}
+		
+		allow = { 
+			revolution_n_counterrevolution = 1 
+			all_core = { owned_by = THIS }
+			war_policy = jingoism
+		}
+		
+		effect = { 
+			badboy = 30 
+			set_country_flag = claimed_burgundy
+			BRG = { all_core = { add_core = THIS } } 
+			PBG = { all_core = { add_core = THIS } } 
+		}
+}
+
 #Proclaim THE ROMAN EMPIRE
 Roman_expension = {
 	 potential = {
@@ -192,7 +214,6 @@ Imperial_acceptence = {
 		 add_accepted_culture = brabantian
 		 add_accepted_culture = sardinian
 		 add_accepted_culture = english
-		 add_accepted_culture = catalan
 		 set_country_flag = Imperial_acceptence
 	 }
 }

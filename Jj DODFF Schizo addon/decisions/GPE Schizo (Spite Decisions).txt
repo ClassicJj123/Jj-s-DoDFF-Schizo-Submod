@@ -1,0 +1,181 @@
+political_decisions = {
+
+#Fuck_the_russians (Doing this will prevent you from froming russia as GPE)
+Kill_the_russians = {
+	 potential = {
+		 tag = GPE
+		 ai = no 
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = GPE_kill_russia }
+	 }
+	 
+	 allow = {
+		 OR = {
+			 government = presidential_dictatorship
+			 government = fascist_dictatorship
+			 government = fascist_monarchy
+		 }
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 badboy = 10
+		 any_owned = {
+				 limit = {
+					 OR = {
+						 has_pop_culture = russian
+						 has_pop_culture = north_russian
+					 }
+				 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = THIS
+				 is_core = RUS
+			 }
+		 remove_core = RUS
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = THIS
+				 is_core = NOV
+			 }
+		 remove_core = NOV
+		 }
+		 VYA = {
+			 primary_culture = permic
+			 add_accepted_culture = north_russian
+		 }
+		 PRM = {
+			 primary_culture = volgaic
+			 add_accepted_culture = north_russian
+		 }
+		 set_country_flag = GPE_GER_RUS
+		 set_country_flag = GPE_kill_russia
+	 }
+}
+
+#Accept the Tartars
+Accept_the_tartars = {
+	 potential = {
+		 tag = GPE
+		 ai = no 
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = GPE_accept_tatar }
+		 KAZ = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 GPE = {
+			 KAZ = { all_core = { add_core = THIS } }
+		 }
+		 add_accepted_culture = tatar
+		 set_country_flag = GPE_accept_tatar
+	 }
+}
+
+#Accept the bashkir
+Accept_the_bashkir = {
+	 potential = {
+		 tag = GPE
+		 ai = no 
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = GPE_accept_bashkir }
+		 BAH = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 GPE = {
+			 BAH = { all_core = { add_core = THIS } }
+		 }
+		 add_accepted_culture = bashkir
+		 set_country_flag = GPE_accept_bashkir
+	 }
+}
+
+#Creation of a Muscovite puppet (HAVE FUN TRYING TO CREATE IT WITHOUT CORES)
+Create_Muscovite_puppet = {
+	 potential = {
+		 tag = GPE
+		 ai = no 
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GPE_kill_russia
+		 NOT = { has_country_flag = GPE_MOS_puppet }
+	 }
+	 
+	 allow = {
+		 MOS = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 release = MOS
+		 create_vassal = MOS
+		 MOS = {
+			 government = autonomous_dependency
+			 nationalvalue = nv_order
+		 }
+		 set_country_flag = GPE_MOS_puppet
+	 }
+}
+
+#Creation of a Novgorodian puppet (HAVE FUN TRYING TO CREATE IT WITHOUT CORES)
+Create_Novgorodian_puppet = {
+	 potential = {
+		 tag = GPE
+		 ai = no 
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GPE_kill_russia
+		 NOT = { has_country_flag = GPE_NOV_puppet }
+	 }
+	 
+	 allow = {
+		 NOV = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 release = NOV
+		 create_vassal = NOV
+		 NOV = {
+			 government = autonomous_dependency
+			 nationalvalue = nv_order
+		 }
+		 set_country_flag = GPE_NOV_puppet
+	 }
+}
+
+#For those people that stay as a presidential dictatorship
+#Cores on Russia
+Chain_the_russians = {
+	 potential = {
+		 tag = GPE
+		 ai = no 
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GPE_kill_russia
+	 }
+	 
+	 allow = {
+		 OR = {
+			 government = presidential_dictatorship
+			 government = fascist_dictatorship
+			 government = fascist_monarchy
+		 }
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 RUS = { all_core = { add_core = THIS } }
+		 NOV = { all_core = { add_core = THIS } }
+	 }
+}
+
+}

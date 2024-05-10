@@ -49,4 +49,5 @@ what_to_do_with_china = {
 		 country_event = 1000000080
 	 }
 }
+
 }
