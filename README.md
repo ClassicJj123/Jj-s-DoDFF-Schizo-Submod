@@ -6,7 +6,7 @@ Current paths:
 
 1. Germany flavor (Greater Pan-German Union)
 2. SGF expansion into Danubia (It's name finally makes sense!)
-3. HLR to Rome (Not entirely finished, but it's playable)
+3. HLR to Rome (Not entirely localization finished, but it's playable)
 4. KRL to LIV to UDU to either the Teutonic Order or the Low German Confederation
 5. Hungary-Austria (By Earth is a Donut, thanks)
 6. Japan and China Flavor (By Nej, thanks)
