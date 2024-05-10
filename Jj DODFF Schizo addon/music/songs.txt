@@ -1,0 +1,119 @@
+song = {
+	name = "Wir sind des Geyers schwarzer Haufen.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+			has_country_flag = HLR_civil_war
+			}
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+			tag = HLR
+			}
+		}
+	}
+}
+
+song = {
+	name = "To Ost-Paris!.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+			has_country_flag = HLR_civil_war
+			}
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+			tag = HLR
+			}
+		}
+	}
+}
+
+song = {
+	name = "T O T A L E N   K R E I G.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+			has_country_flag = HLR_civil_war
+			}
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+			tag = HLR
+			}
+		}
+	}
+}
+
+song = {
+	name = "Germanias Twilight.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+			has_country_flag = HLR_civil_war
+			}
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+			tag = HLR
+			}
+		}
+	}
+}
+
+song = {
+	name = "Wo Alle Straßen Enden.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+			has_country_flag = HLR_civil_war
+			}
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+			tag = HLR
+			}
+		}
+	}
+}
