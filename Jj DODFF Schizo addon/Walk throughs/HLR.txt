@@ -1,12 +1,21 @@
-Walk through for the voices chain:
+Walk through for the voices chain (Only available after the "Imperial Acceptence" decision):
 
 - Clicking the voices decision causes a event to pop which basically tells you the chain has started
 - Afterwards you will get 3 events, each having two options, one listening to the voices and another fighting against it
+- Event 1: choose to move your captial to ROME or Not
+- Event 2: Accept the Anglois or not
+- Event 3: Expansion or not
 - depending on what you pick, you will get 4 endings, Healthly, Sane, Mildly Insane, Insane (For Full Schizo pick all choices that go with the voices)
 
 Insane path:
 
 - Congrats You've gone Insane!
-- You will get a decision that gives gore over most of the Russian heart lands
+- You will get a decision that gives cores over most of the Russian heart lands
 - If Russia Exisits, you should get a decision that makes you get a treaty war with them
 - To continue the path you must own all cores
+- After owning all your cores you will get a event taling about your empire being unstable
+- After that, another event fires telling you of Sigmund death (Basically telling you the civil war will happen soon)
+- An month or so later the civil war will happen
+- To win this, you MUSTN'T white peace or concede to ANYONE
+
+That's it, have FUN!
