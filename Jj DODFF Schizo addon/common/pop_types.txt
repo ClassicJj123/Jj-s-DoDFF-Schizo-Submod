@@ -1309,6 +1309,19 @@ assimilation_chance =
 		 country = { has_country_flag = JAP_GER_KOR }
 	}
 	
+	modifier = {
+		 factor = 80
+		 has_pop_culture = russian
+		 has_pop_culture = north_russian
+		 country = { has_country_flag = GPE_GER_RUS }
+	}
+	
+	modifier = {
+		 factor = 80
+		 has_pop_culture = burgundian
+		 country = { has_country_flag = LTA_GER_BRG }
+	}
+	
 }
 
 #general conversion mtth, same for all pops
