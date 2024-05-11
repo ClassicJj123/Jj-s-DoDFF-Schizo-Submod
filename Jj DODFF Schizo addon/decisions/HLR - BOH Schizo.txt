@@ -131,7 +131,7 @@ Central_italian_acceptence = {
 	 
 	 effect = {
 		 add_accepted_culture = central_italian
-		 add_country_flag = HLR_Rome_reclaim_2
+		 set_country_flag = HLR_Rome_reclaim_2
 	 }
 }
 
@@ -164,8 +164,8 @@ Roman_expension = {
 		 ai = no
 		 has_country_flag = HLR_Rome_reclaim
 		 has_country_flag = claimed_burgundy
-		 accepted_culture = central_italian
-		 NOT = { has_country_flag = HLR_Rome_reclaim_2 }
+		 has_country_flag = HLR_Rome_reclaim_2
+		 NOT = { has_country_flag = HLR_Rome_reclaim_3 }
 	 }
 	 
 	 allow = {
@@ -181,7 +181,7 @@ Imperial_acceptence = {
 	 potential = {
 		 tag = HLR
 		 ai = no
-		 has_country_flag = HLR_Rome_reclaim_2
+		 has_country_flag = HLR_Rome_reclaim_3
 		 NOT = { has_country_flag = Imperial_acceptence }
 	 }
 	 
@@ -313,6 +313,7 @@ Major_expansion = {
 		 RUS_991 = { add_core = HLR }
 		 RUS_998 = { add_core = HLR }
 		 RUS_1008 = { add_core = HLR }
+		 PRU = { all_core = { add_core = THIS } }
 		 set_country_flag = Siggy_Schizo_claims
 	 }
 }
