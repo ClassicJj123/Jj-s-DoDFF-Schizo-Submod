@@ -71,6 +71,7 @@ country_event = {
 		 CAT = { all_core = { add_core = HLR } }
 		 SIC = { all_core = { add_core = HLR } }
 		 SRD = { all_core = { add_core = HLR } }
+		 NAV = { all_core = { add_core = HLR } }
 		 AUS_641 = { add_core = HLR }
 		 AUS_623 = { add_core = HLR }
 		 MOR_1686 = { add_core = HLR }
@@ -80,7 +81,7 @@ country_event = {
 		 ALD_1708 = { add_core = HLR }
 		 TUN_1725 = { add_core = HLR }
 		 RUS_964 = { add_core = HLR }
-		 set_country_flag = HLR_Rome_reclaim_2
+		 set_country_flag = HLR_Rome_reclaim_3
 		 badboy = 60
 	 }
 }

@@ -1,0 +1,1123 @@
+
+#YUAN EVENTS 1000000450-
+
+#Yuan reunifies china
+country_event = {
+	id = 1000000450
+	title = "EVTNAME1000000450"
+	desc = "EVTDESC1000000450"
+	picture = chinese_war
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#The real battle is just beginning
+	option = {
+		name = "EVTOPA1000000450A"
+		prestige = -10
+		add_accepted_culture = hui
+		add_country_modifier = { name = illigitimate_dynasty duration = -1 }
+		remove_country_modifier = BOH_powerful_reichsarmee
+		remove_country_modifier = western_scholars_invited
+		set_country_flag = final_TAI_revolution
+		clr_country_flag = inevitable_war
+		CHI_1504 = { add_core = YUA } 
+		CHI_1495 = { add_core = YUA } 
+		CHI_1601 = { add_core = YUA } 
+	}
+}
+
+#capital picker
+country_event = {
+	id = 1000000451
+	title = "EVTNAME1000000451"
+	desc = "EVTDESC1000000451"
+	picture = Atlantia_gold
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	#Luoyang
+	option = {
+		name = "EVTOPA1000000451A"
+		prestige = 5
+		capital = 1510
+	}
+	#Nanjing
+	option = {
+		name = "EVTOPA1000000451B"
+		prestige = 5
+		capital = 2221
+	}
+	#Beijing
+	option = {
+		name = "EVTOPA1000000451C"
+		prestige = 5
+		capital = 1612
+		treasury = 30000
+	}
+	#Chang'an
+	option = {
+		name = "EVTOPA1000000451D"
+		prestige = 5
+		capital = 1559
+	}
+}
+
+#demonstration against us
+country_event = {
+	id = 1000000452
+	title = "EVTNAME1000000452"
+	desc = "EVTDESC1000000452"
+	picture = chinese_christian_massacre
+	trigger = {
+		tag = YUA
+		has_country_modifier = illigitimate_dynasty
+	}
+	mean_time_to_happen = {
+			years = 10
+	}
+	
+	#fiddlesticks
+	option = {
+		name = "EVTOPA1000000452A"
+		prestige = -5
+		any_pop = {
+			limit = {
+					is_cultural_union = CHI
+				}
+			militancy = 1
+			consciousness = 3
+		}
+	}
+}
+
+#tibby accept us
+country_event = {
+	id = 1000000453
+	title = "EVTNAME1000000453"
+	desc = "EVTDESC1000000453"
+	picture = tibet
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		owns = 1587
+		NOT = { accepted_culture tibetan }
+	}
+	mean_time_to_happen = {
+			years = 1
+	}
+	
+	#how nice of them
+	option = {
+		name = "EVTOPA1000000453A"
+		add_accepted_culture = tibetan
+		TIB = { all_core = { add_core = THIS } }
+	}
+}
+
+#hakka accept us
+country_event = {
+	id = 1000000454
+	title = "EVTNAME1000000454"
+	desc = "EVTDESC1000000454"
+	picture = chinese_company
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		NOT = { accepted_culture hakka }
+	}
+	mean_time_to_happen = {
+			years = 4
+	}
+	
+	#how nice of them
+	option = {
+		name = "EVTOPA1000000454A"
+		add_accepted_culture = hakka
+		GNG = { all_core = { add_core = THIS } }
+	}
+}
+
+#The horse lords protect
+country_event = {
+	id = 1000000455
+	title = "EVTNAME1000000455"
+	desc = "EVTDESC1000000455"
+	picture = tatar_soldiers
+	trigger = {
+		tag = YUA
+		has_country_modifier = illigitimate_dynasty
+	}
+	mean_time_to_happen = {
+			years = 5
+	}
+	
+	#wholesome 100 keanu
+	option = {
+		name = "EVTOPA1000000455A"
+		prestige = 5
+		any_pop = {
+			limit = {
+					is_cultural_union = CHI
+				}
+			}
+			militancy = -2
+			consciousness = -1
+	}
+}
+
+#accept the Min
+country_event = {
+	id = 1000000456
+	title = "EVTNAME1000000456"
+	desc = "EVTDESC1000000456"
+	picture = tea_plantation
+	trigger = {
+		tag = YUA
+		accepted_culture = miao
+		NOT = { accepted_culture = min }
+	}
+	mean_time_to_happen = {
+			years = 2
+	}
+	
+	#we are so close to greatness guys
+	option = {
+		name = "EVTOPA1000000456A"
+		prestige = 5
+		add_accepted_culture = min
+	}
+}
+
+#The Han are warming up to us
+country_event = {
+	id = 1000000457
+	title = "EVTNAME1000000457"
+	desc = "EVTDESC1000000457"
+	picture = shortage_of_women
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		has_country_modifier = illigitimate_dynasty
+		accepted_culture = miao
+	}
+	mean_time_to_happen = {
+			years = 1
+	}
+	
+	#finally
+	option = {
+		name = "EVTOPA1000000457A"
+		any_pop = {
+			limit = {
+					is_cultural_union = CHI
+				}
+		
+			militancy = -1
+			consciousness = -2		
+			}
+		}
+}
+
+#start the event chain to accept Han
+country_event = {
+	id = 1000000459
+	title = "EVTNAME1000000459"
+	desc = "EVTDESC1000000459"
+	picture = Celebration
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		has_country_modifier = illigitimate_dynasty
+		accepted_culture = min
+		accepted_culture = yue
+		social_science = 1
+		NOT = { accepted_culture = beifaren }
+	}
+	mean_time_to_happen = {
+			months = 9
+	}
+	
+	#about time
+	option = {
+		name = "EVTOPA1000000459A"
+		set_country_flag = han_accepting_yuan
+		any_pop = {
+			limit = {
+					is_cultural_union = CHI
+				}
+			}
+			consciousness = -2
+	}
+}
+
+#get Beifaren (han) as an accepted culture.
+country_event = {
+	id = 1000000460
+	title = "EVTNAME1000000460"
+	desc = "EVTDESC1000000460"
+	picture = autocracy
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		has_country_flag = han_accepting_yuan
+	}
+	mean_time_to_happen = {
+			years = 1
+	}
+	
+	#about time
+	option = {
+		name = "EVTOPA1000000460A"
+		add_accepted_culture = beifaren
+	}
+}
+
+#get Nanfaren as an accepted culture. End questline.
+country_event = {
+	id = 1000000461
+	title = "EVTNAME1000000461"
+	desc = "EVTDESC1000000461"
+	picture = exemplar_colony
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		has_country_flag = han_accepting_yuan
+		accepted_culture = beifaren
+	}
+	mean_time_to_happen = {
+			years = 1
+	}
+	
+	#about time
+	option = {
+		name = "EVTOPA1000000461A"
+		clr_country_flag = han_accepting_yuan
+		add_accepted_culture = nanfaren
+		remove_country_modifier = illigitimate_dynasty
+		SHU = { all_core = { remove_core = SHU } }
+		TAI = { all_core = { remove_core = TAI } }
+		GNG = { all_core = { remove_core = GNG } }
+		DAX = { all_core = { remove_core = DAX } }
+		TNG = { all_core = { remove_core = TNG } }
+		MIG = { all_core = { remove_core = MIG } }
+		any_pop = {
+			militancy = -8
+			consciousness = -8
+		}
+	}
+}
+
+#the three terrible children, starts the alternate warlord era event chain
+country_event = {
+	id = 1000000462
+	title = "EVTNAME1000000462"
+	desc = "EVTDESC1000000462"
+	picture = fire_city
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		accepted_culture = nanfaren
+		year = 1895
+	}
+	mean_time_to_happen = {
+			years = 1
+	}
+	
+	#yikes
+	option = {
+		name = "EVTOPA1000000462A"
+		set_country_flag = alt_warlord_era_start
+		
+	}
+}
+
+#the commie starts talking shit
+country_event = {
+	id = 1000000463
+	title = "EVTNAME1000000463"
+	desc = "EVTDESC1000000463"
+	picture = communist_rally
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		has_country_flag = alt_warlord_era_start
+		year = 1896
+	}
+	mean_time_to_happen = {
+			years = 2
+	}
+	
+	#commie china gains its territory cores
+	option = {
+		name = "EVTOPA1000000463A"
+		CHI_1 = { add_core = CCH }
+		CHI_2 = { add_core = CCH }
+		CHI_1618 = { add_core = CCH }
+		CHI_1563 = { add_core = CCH }
+		CHI_1476 = { add_core = CCH }
+		CHI_1472 = { add_core = CCH }
+		MIN_1 = { add_core = CCH }
+		CHI_1538 = { add_core = CCH }
+		CHI_1614  = { add_core = CCH }
+		CHI_1576  = { add_core = CCH }
+		CHI_3  = { add_core = CCH }
+		any_owned = {
+			limit = {
+				is_core = MCH
+			}
+			add_core = CCH
+		}
+	}
+}
+
+#the fascist starts talking shit
+country_event = {
+	id = 1000000464
+	title = "EVTNAME1000000464"
+	desc = "EVTDESC1000000464"
+	picture = fascist_march
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		has_country_flag = alt_warlord_era_start
+		year = 1896
+	}
+	mean_time_to_happen = {
+			years = 1
+	}
+	
+	#fascist china gains its territory cores
+	option = {
+		name = "EVTOPA1000000463A"
+		CHI_1513 = { add_core = FCH }
+		CHI_4 = { add_core = FCH }
+		CHI_1523 = { add_core = FCH }
+		CHI_1578 = { add_core = FCH }
+		CHI_1529 = { add_core = FCH }
+		CHI_1581 = { add_core = FCH }
+		CHI_1505 = { add_core = FCH }
+		CHI_1601 = { add_core = FCH }
+		CHI_2062 = { add_core = FCH }
+		TAI_3 = { add_core = FCH }
+		CHI_1504 = { add_core = FCH }
+		any_owned = {
+			limit = {
+				is_core = DAI
+			}
+			add_core = FCH
+		}
+		any_owned = {
+			limit = {
+				is_core = TIB
+			}
+			add_core = FCH
+		}
+	}
+}
+
+#the democratic starts talking shit
+country_event = {
+	id = 1000000465
+	title = "EVTNAME1000000465"
+	desc = "EVTDESC1000000465"
+	picture = hong_xiuquan
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		has_country_flag = alt_warlord_era_start
+		year = 1897
+	}
+	mean_time_to_happen = {
+			years = 1
+	}
+	
+	#yikes
+	option = {
+		name = "EVTOPA1000000465A"
+		CHI_1495 = { add_core = DCH }
+		CHI_1504 = { add_core = DCH }
+		CHI_1494 = { add_core = DCH }
+		CHI_1611 = { add_core = DCH }
+		TAI_1 = { add_core = DCH }
+		CHI_1487 = { add_core = DCH }
+		MIN_4 = { add_core = DCH }
+		CHI_1550 = { add_core = DCH }
+		TAI_2 = { add_core = DCH }
+		CHI_1516 = { add_core = DCH }
+		CHI_1473 = { add_core = DCH }
+	}
+}
+
+#the steppe tribes are getting uppity
+country_event = {
+	id = 1000000466
+	title = "EVTNAME1000000466"
+	desc = "EVTDESC1000000466"
+	picture = tatar_soldiers
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		has_country_flag = alt_warlord_era_start
+		year = 1895
+	}
+	mean_time_to_happen = {
+			years = 1
+	}
+	
+	#yikes
+	option = {
+		name = "EVTOPA1000000466A"
+	}
+}
+
+#the khan is dead, alternate warlord era is go
+country_event = {
+	id = 1000000467
+	title = "EVTNAME1000000467"
+	desc = "EVTDESC1000000467"
+	picture = Death_King
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		has_country_flag = alt_warlord_era_start
+		year = 1900
+	}
+	mean_time_to_happen = {
+			years = 3
+	}
+	
+	#everything is fucked
+	option = {
+		name = "EVTOPA1000000467A"
+		any_owned = {
+			limit = {
+				is_core = CCH
+			}
+			secede_province = CCH
+		}
+		any_owned = {
+			limit = {
+				is_core = DCH
+			}
+			secede_province = DCH
+		}
+		any_owned = {
+			limit = {
+				is_core = FCH
+			}
+			secede_province = FCH
+		}
+		country_event = 1000000468
+	}
+}
+
+#choose your fighter
+country_event = {
+	id = 1000000468
+	title = "EVTNAME1000000468"
+	desc = "EVTDESC1000000468"
+	picture = Death_King
+	is_triggered_only = yes
+	
+	#yikes
+	option = {
+		name = "EVTOPA1000000468A"
+	}
+	option = {
+		name = "EVTOPA1000000468B"
+		change_tag = CCH
+	}
+	option = {
+		name = "EVTOPA1000000468C"
+		change_tag = FCH
+	}
+	option = {
+		name = "EVTOPA1000000468D"
+		change_tag = DCH
+	}
+}
+
+#war begins between YUA and CCH
+country_event = {
+	id = 1000000469
+	title = "EVTNAME1000000469"
+	desc = "EVTDESC1000000469"
+	picture = warlords
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		exists = CCH
+	}
+	mean_time_to_happen = {
+			days = 90
+	}
+	#yikes
+	option = {
+		name = "EVTOPA1000000469A"
+		war = {
+			target = CCH
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
+			call_ally = no
+		}
+	}
+}
+
+#war begins between YUA and FCH
+country_event = {
+	id = 1000000470
+	title = "EVTNAME1000000470"
+	desc = "EVTDESC1000000470"
+	picture = warlords
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		exists = FCH
+	}
+	mean_time_to_happen = {
+			days = 90
+	}
+	#yikes
+	option = {
+		name = "EVTOPA1000000470A"
+		war = {
+			target = FCH
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
+			call_ally = no
+		}
+	}
+}
+
+#war begins between YUA and DCH
+country_event = {
+	id = 1000000471
+	title = "EVTNAME1000000471"
+	desc = "EVTDESC1000000471"
+	picture = warlords
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		exists = DCH
+	}
+	mean_time_to_happen = {
+			days = 90
+	}
+	#yikes
+	option = {
+		name = "EVTOPA1000000471A"
+		war = {
+			target = DCH
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
+			call_ally = no
+		}
+	}
+}
+
+#war begins between DCH and FCH
+country_event = {
+	id = 1000000472
+	title = "EVTNAME1000000472"
+	desc = "EVTDESC1000000472"
+	picture = warlords
+	fire_only_once = yes
+	trigger = {
+		tag = DCH
+		exists = FCH
+	}
+	mean_time_to_happen = {
+			days = 90
+	}
+	#yikes
+	option = {
+		name = "EVTOPA1000000472A"
+		war = {
+			target = FCH
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
+			call_ally = no
+		}
+	}
+}
+
+#war begins between DCH and CCH
+country_event = {
+	id = 1000000473
+	title = "EVTNAME1000000473"
+	desc = "EVTDESC1000000473"
+	picture = warlords
+	fire_only_once = yes
+	trigger = {
+		tag = DCH
+		exists = CCH
+	}
+	mean_time_to_happen = {
+			days = 90
+	}
+	#yikes
+	option = {
+		name = "EVTOPA1000000473A"
+		war = {
+			target = CCH
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
+			call_ally = no
+		}
+	}
+}
+
+#war begins between FCH and CCH
+country_event = {
+	id = 1000000474
+	title = "EVTNAME1000000474"
+	desc = "EVTDESC1000000474"
+	picture = warlords
+	fire_only_once = yes
+	trigger = {
+		tag = FCH
+		exists = CCH
+	}
+	mean_time_to_happen = {
+			days = 90
+	}
+	#yikes
+	option = {
+		name = "EVTOPA1000000474A"
+		war = {
+			target = CCH
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = conquest }
+			call_ally = no
+		}
+	}
+}
+
+#Chinese Federation Flavor 1
+#country_event = {
+#	id = 1000000475
+#	title = "EVTNAME1000000475"
+#	desc = "EVTDESC1000000475"
+#	picture = placeholder
+#	fire_only_once = yes
+#	trigger = {
+#		tag = YUA
+#		government = proletarian_dictatorship
+#	}
+#	mean_time_to_happen = {
+#			years = 2
+#	}
+#	#yikes
+#	option = {
+#		name = "EVTOPA1000000475A"
+#		prestige = 15
+#	}
+#}
+
+#The west revolts!
+country_event = {
+	id = 1000000476
+	title = "EVTNAME1000000476"
+	desc = "EVTDESC1000000476"
+	picture = tatar_soldiers
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		government = proletarian_dictatorship
+		government = democracy
+	}
+	mean_time_to_happen = {
+			years = 2
+	}
+	#Fight them!
+	option = {
+		name = "EVTOPA1000000476A"
+		any_owned = {
+			limit = {
+				is_core = MGL
+			}
+			secede_province = MGL
+		}
+		any_owned = {
+			limit = {
+				is_core = ALT
+			}
+			secede_province = ALT
+		}
+		any_owned = {
+			limit = {
+				is_core = KOK
+			}
+			secede_province = KOK
+		}
+		any_owned = {
+			limit = {
+				is_core = UGH
+			}
+			secede_province = UGH
+		}
+		any_owned = {
+			limit = {
+				is_core = KHI
+			}
+			secede_province = KHI
+		}
+		any_owned = {
+			limit = {
+				is_core = NOG
+			}
+			secede_province = NOG
+		}
+		any_owned = {
+			limit = {
+				is_core = BUK
+			}
+			secede_province = BUK
+		}
+		war = {
+			target = MGL
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}	
+		war = {
+			target = ALT
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+		war = {
+			target = KOK
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+		war = {
+			target = UGH
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+		war = {
+			target = KHI
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+		war = {
+			target = NOG
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+		war = {
+			target = BUK
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+	}
+	#let them be
+	option = {
+		name = "EVTOPA1000000476A"
+		any_owned = {
+			limit = {
+				is_core = MGL
+			}
+			remove_core = YUA
+			secede_province = MGL
+		}
+		any_owned = {
+			limit = {
+				is_core = ALT
+			}
+			remove_core = YUA
+			secede_province = ALT
+		}
+		any_owned = {
+			limit = {
+				is_core = KOK
+			}
+			remove_core = YUA
+			secede_province = KOK
+		}
+		any_owned = {
+			limit = {
+				is_core = UGH
+			}
+			remove_core = YUA
+			secede_province = UGH
+		}
+		any_owned = {
+			limit = {
+				is_core = KHI
+			}
+			remove_core = YUA
+			secede_province = KHI
+		}
+		any_owned = {
+			limit = {
+				is_core = NOG
+			}
+			remove_core = YUA
+			secede_province = NOG
+		}
+		any_owned = {
+			limit = {
+				is_core = BUK
+			}
+			remove_core = YUA
+			secede_province = BUK
+		}
+		remove_accepted_culture = oirat
+		remove_accepted_culture = uzbek
+		remove_accepted_culture = kazak
+		remove_accepted_culture = uighur
+	}
+}
+
+#the southeast asians accept us!
+country_event = {
+	id = 1000000477
+	title = "EVTNAME1000000477"
+	desc = "EVTDESC1000000477"
+	picture = japanese_lama
+	fire_only_once = yes
+	trigger = {
+		tag = YUA
+		government = proletarian_dictatorship
+		JOH = {
+			all_core = {
+				OR = {
+  					owned_by = THIS
+					province_id = 1384
+					province_id = 1402
+					province_id = 1386
+  				}
+			}
+		}
+		BUR = {
+			all_core = {
+				OR = {
+  					owned_by = THIS
+					province_id = 1330
+					province_id = 1331
+					province_id = 1320
+  				}
+			}
+		}
+		LIG = {
+			all_core = {
+				OR = {
+  					owned_by = THIS
+					province_id = 1352
+  				}
+			}
+		}
+		PAT = {
+			all_core = {
+				OR = {
+  					owned_by = THIS
+					province_id = 1388
+  				}
+			}
+		}
+		SIA = {
+			all_core = { owned_by = THIS }
+		}
+		CHP = {
+			all_core = { owned_by = THIS }
+		}
+		DAI = {
+			all_core = { owned_by = THIS }
+		}
+		CAM = {
+			all_core = { owned_by = THIS }
+		}
+	}
+	mean_time_to_happen = {
+			years = 2
+	}
+	#good for them, and by them I mean us lol
+	option = {
+		name = "EVTOPA1000000477A"
+		prestige = 15
+		add_accepted_culture = khmer
+		add_accepted_culture = thai
+		add_accepted_culture = vietnamese
+		add_accepted_culture = lao
+		add_accepted_culture = champa
+		add_accepted_culture = shan
+		add_accepted_culture = malay
+		add_accepted_culture = zhuang
+		add_accepted_culture = burmese
+		add_accepted_culture = karen
+		add_accepted_culture = asian_minor
+		add_accepted_culture = kachin
+		CHP = { 
+			civilized = yes
+		}
+		DAI = { 
+			civilized = yes
+		}
+		BUR = { 
+			civilized = yes
+		}
+		CAM = { 
+			civilized = yes
+		}
+		SIA = { 
+			civilized = yes
+		}
+		JOH = { 
+			civilized = yes
+		}
+		PAT = { 
+			civilized = yes
+		}
+
+	}
+}
+
+#capital complete - Luoyang
+country_event = {
+	id = 1000000480
+	title = "EVTNAME1000000480"
+	desc = "EVTDESC1000000480"
+	picture = Atlantia_gold
+	fire_only_once = yes
+	trigger = {
+		capital = 1510
+		tag = YUA
+	}
+	mean_time_to_happen = {
+			years = 2
+	}
+	
+	#yee
+	option = {
+		name = "EVTOPA1000000480A"
+		prestige = 5
+		1510 = { 
+			life_rating = 5
+			change_province_name = "Luoyang"
+			infrastructure = 1
+			add_province_modifier = {
+				name = colonial_recruitment
+				duration = 1800
+			}
+		}
+	}
+}
+
+#capital complete - Nanjing
+country_event = {
+	id = 1000000481
+	title = "EVTNAME1000000481"
+	desc = "EVTDESC1000000481"
+	picture = Atlantia_gold
+	fire_only_once = yes
+	trigger = {
+		capital = 2221
+		tag = YUA
+	}
+	mean_time_to_happen = {
+			years = 2
+	}
+	
+	#yee
+	option = {
+		name = "EVTOPA1000000481A"
+		prestige = 5
+		2221 = { 
+			life_rating = 5
+			infrastructure = 1
+			add_province_modifier = {
+				name = colonial_recruitment
+				duration = 1800
+			}
+		}
+	}
+}
+
+#capital complete - Beijing
+country_event = {
+	id = 1000000482
+	title = "EVTNAME1000000482"
+	desc = "EVTDESC1000000482"
+	picture = Atlantia_gold
+	fire_only_once = yes
+	trigger = {
+		capital = 1612
+		tag = YUA
+	}
+	mean_time_to_happen = {
+			years = 2
+	}
+	
+	#yee
+	option = {
+		name = "EVTOPA1000000482A"
+		prestige = 5
+		1612 = { 
+			life_rating = 5
+			infrastructure = 1
+			add_province_modifier = {
+				name = colonial_recruitment
+				duration = 1800
+			}
+		}
+	}
+}
+
+#capital complete - Chang'an
+country_event = {
+	id = 1000000483
+	title = "EVTNAME1000000483"
+	desc = "EVTDESC1000000483"
+	picture = Atlantia_gold
+	fire_only_once = yes
+	trigger = {
+		capital = 1559
+		tag = YUA
+	}
+	mean_time_to_happen = {
+			years = 2
+	}
+	
+	#yee
+	option = {
+		name = "EVTOPA1000000483A"
+		prestige = 5
+		1559 = { 
+			life_rating = 5
+			change_province_name = "Chang'an"
+			infrastructure = 1
+			add_province_modifier = {
+				name = colonial_recruitment
+				duration = 1800
+			}
+		}
+	}
+}
+
+#remove inevitable war flag
+country_event = {
+	id = 1000000484
+	title = "EVTNAME1000000484"
+	desc = "EVTDESC1000000484"
+	picture = placeholder
+	trigger = {
+		has_country_flag = inevitable_war
+		tag = YUA
+	}
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	#The real battle is just beginning
+	option = {
+		name = "EVTOPA1000000484A"
+		clr_country_flag = inevitable_war
+	}
+}
