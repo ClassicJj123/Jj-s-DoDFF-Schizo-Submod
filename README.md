@@ -12,6 +12,7 @@ Current paths:
 6. Japan and China Flavor (By Nej, thanks)
 7. Minnor SCA flavor (By Nej, thanks)
 8. PLA return Home (By Nej, thanks)
+9. YUAN CONTENT (By Nej, thanks)
 
 Planned things:
 1. Europe wide civil war (technically done in the HLR insane Siggy path)
