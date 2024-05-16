@@ -1,8 +1,5 @@
 capital = 549
 primary_culture = lotharingian
-culture = dutch
-culture = wallonian
-culture = flemish
 religion = protestant
 government = prussian_constitutionalism
 plurality = 0.15

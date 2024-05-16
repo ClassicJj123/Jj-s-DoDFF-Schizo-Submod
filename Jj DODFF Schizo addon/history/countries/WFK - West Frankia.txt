@@ -1,7 +1,5 @@
 capital = 425
-primary_culture = czech
-culture = provencal
-culture = french
+primary_culture = frankish
 religion = catholic
 government = presidential_dictatorship
 plurality = 5
