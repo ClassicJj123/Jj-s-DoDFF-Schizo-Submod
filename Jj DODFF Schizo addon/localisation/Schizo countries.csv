@@ -103,3 +103,120 @@ LTA_proletarian_dictatorship;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
 LTA_socialist_republic;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
 LTA_fascist_monarchy;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
 LTA_fascist_dictatorship;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
+LOB;Lombardia;;;;;;;;;;;;;x,,,,,,,,
+LOB_ADJ;Lombardian;;;;;;;;;;;;;x,,,,,,,,
+LOB_absolute_monarchy;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
+LOB_prussian_constitutionalism;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
+LOB_hms_government;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
+LOB_democracy;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,, 
+LOB_parliamentary_republic;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
+LOB_presidential_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
+LOB_bourgeois_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
+LOB_proletarian_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
+LOB_socialist_republic;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
+LOB_fascist_monarchy;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
+LOB_fascist_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
+YUA;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
+YUA_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
+YUA_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
+YUA_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
+YUA_bourgeois_dictatorship;Landlord's Republic of China;;;;;;;;;;;;;;x;;;;;;;;
+YUA_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+YUA_democracy;United States of China;;;;;;;;;;;;;;x;;;;;;;;
+YUA_democracy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+YUA_fascist_dictatorship;Undefeated Empire of The East West South North and Center;;;;;;;;;;;;;;x;;;;;;;;
+YUA_fascist_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+YUA_fascist_monarchy;Celestial Yuan Empire;;;;;;;;;;;;;;x;;;;;;;;
+YUA_fascist_monarchy_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
+YUA_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;;x;;;;;;;;
+YUA_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+YUA_hms_government;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+YUA_hms_government_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
+YUA_parliamentary_republic;United States of China;;;;;;;;;;;;;;x;;;;;;;;
+YUA_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+YUA_presidential_dictatorship;Super Asia;;;;;;;;;;;;;;x;;;;;;;;
+YUA_presidential_dictatorship_ADJ;Super Asian;;;;;;;;;;;;;;x;;;;;;;;
+YUA_proletarian_dictatorship;Chinese Federation;;;;;;;;;;;;;;x;;;;;;;;
+YUA_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+YUA_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+YUA_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+YUA_socialist_republic;Panasia;;;;;;;;;;;;;;x;;;;;;;;
+YUA_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;;x;;;;;;;
+CCH;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
+CCH_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
+CCH_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
+CCH_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,YUA_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
+CCH_bourgeois_dictatorship;Celestial Conglomorate;;;;;;;;;;;;;;x;;;;;;;;
+CCH_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+CCH_democracy;United States of China;;;;;;;;;;;;;;x;;;;;;;;
+CCH_democracy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+CCH_fascist_dictatorship;Undefeated Empire of The East West South North and Center;;;;;;;;;;;;;;x;;;;;;;;
+CCH_fascist_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+CCH_fascist_monarchy;Undefeated Empire of The East West South North and Center;;;;;;;;;;;;;;x;;;;;;;;
+CCH_fascist_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+CCH_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;;x;;;;;;;;
+CCH_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+CCH_hms_government;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+CCH_hms_government_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
+CCH_parliamentary_republic;United States of China;;;;;;;;;;;;;;x;;;;;;;;
+CCH_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+CCH_presidential_dictatorship;Statist Republic of China;;;;;;;;;;;;;;x;;;;;;;;
+CCH_presidential_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+CCH_proletarian_dictatorship;Celestial Commune of China;;;;;;;;;;;;;;x;;;;;;;;
+CCH_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+CCH_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+CCH_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+CCH_socialist_republic;Panasia;;;;;;;;;;;;;;x;;;;;;;;
+CCH_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;;x;;;;;;;
+FCH;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
+FCH_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
+FCH_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
+FCH_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,YUA_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
+FCH_bourgeois_dictatorship;ermwhatthefrick;;;;;;;;;;;;;;x;;;;;;;;
+FCH_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+FCH_democracy;United States of China;;;;;;;;;;;;;;x;;;;;;;;
+FCH_democracy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+FCH_fascist_dictatorship;Sons of Han Fei;;;;;;;;;;;;;;x;;;;;;;;
+FCH_fascist_dictatorship_ADJ;shit;;;;;;;;;;;;;;x;;;;;;;;
+FCH_fascist_monarchy;Sons of Han Fei;;;;;;;;;;;;;;x;;;;;;;;
+FCH_fascist_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+FCH_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;;x;;;;;;;;
+FCH_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+FCH_hms_government;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+FCH_hms_government_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
+FCH_parliamentary_republic;United States of China;;;;;;;;;;;;;;x;;;;;;;;
+FCH_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+FCH_presidential_dictatorship;Statist Republic of China;;;;;;;;;;;;;;x;;;;;;;;
+FCH_presidential_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+FCH_proletarian_dictatorship;Celestial Commune of China;;;;;;;;;;;;;;x;;;;;;;;
+FCH_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+FCH_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+FCH_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+FCH_socialist_republic;Panasia;;;;;;;;;;;;;;x;;;;;;;;
+FCH_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;;x;;;;;;;
+DCH;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
+DCH_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
+DCH_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
+DCH_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,YUA_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
+DCH_bourgeois_dictatorship;Celestial Conglomorate;;;;;;;;;;;;;;x;;;;;;;;
+DCH_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+DCH_democracy;Free-China League;;;;;;;;;;;;;;x;;;;;;;;
+DCH_democracy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+DCH_fascist_dictatorship;Legion for the Death of China;;;;;;;;;;;;;;x;;;;;;;;
+DCH_fascist_dictatorship_ADJ;Eastasian;;;;;;;;;;;;;;x;;;;;;;;
+DCH_fascist_monarchy;Legion for the Death of China;;;;;;;;;;;;;;x;;;;;;;;
+DCH_fascist_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+DCH_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;;x;;;;;;;;
+DCH_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+DCH_hms_government;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+DCH_hms_government_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
+DCH_parliamentary_republic;Free-China LeagueFree-China League;;;;;;;;;;;;;;x;;;;;;;;
+DCH_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+DCH_presidential_dictatorship;Statist Republic of China;;;;;;;;;;;;;;x;;;;;;;;
+DCH_presidential_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+DCH_proletarian_dictatorship;Celestial Commune of China;;;;;;;;;;;;;;x;;;;;;;;
+DCH_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
+DCH_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+DCH_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
+DCH_socialist_republic;Panasia;;;;;;;;;;;;;;x;;;;;;;;
+DCH_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;;x;;;;;;;
