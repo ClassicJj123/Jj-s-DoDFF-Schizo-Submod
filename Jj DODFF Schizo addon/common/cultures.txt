@@ -75,7 +75,85 @@ germanic = {
         last_names = { Aishut Alkier Allenstein Anhut Angrick Baltrusch Baranauskaus Baranokowski Berkmanas Bierkant "Denda-Borowski" Downar Dreßler Eysmondt Geringas Gintowt Grunenberg Gulbies Härder Jankowski Kuhn Landsberg Mahnke Mielke Neujoks Neumann Packeiser Palstok Pläp Preik Puddig 
 		Rautenberg Romeyke Rosin Sahm Schwark Schwibbe Schwill Sperling Spruth Steinbutt Szekann Toll Tornier Thulke "vom Ermland" "von Bludau-Lilienthal" "von Haberberg" "von Heinrichswalde" "von Jelgava-Buchholz" "von Kirchspiel" "von Kyckelen" "von Warglitten" Wendt Wiebe Will Wilms Willumeit Wowereit "zur Elbinger Höhe" }
     }
-	lotharingian = {
+	frankish = {
+		color = { 51 60 69 }
+		first_names = 
+		{ Adelbert Adolf Albrecht Aleksander Alfred Alvin August Baldur Balthasar Barnim Benedikt Bernd Bernhard Bertram Bjorn Borwin Bruno Burkhard 
+		Dagobert Daniel Dieter Dietmar Dirk Christian "Christian Albrecht" "Christian Ludwig" Christoph 
+		Egon Egbert Eilhard Elias Erich Ernst Florian Fridolf Friedrich "Friedrich Franz" "Friedrich Wilhelm" Georg Gerhard Gottschalk Gustav "Gustav Adolf" Hanno Heinrich Heinz Helge Hermann Herwig Holger Hubertus 
+		Ignaz Joachim Johann "Johann Adolf" Jonas Jonathan Jörg Joseph Julius Karl "Karl Heinz" Kaspar Klaus "Klaus Friedrich" Klemens Knud Konrad 
+		Lars Lorenz Ludger Ludolf Ludwig Lukas Magnus Michael Nikolaus Otto Paul Peter Philipp Rudolf Reinhard Ruprecht Sebastian Siegfried Sigismund Tobias Torben Traugott Tronte Ulrich Vollrath Waldemar Wenzel Wilfried Wilhelm "Wilhelm Kaspar" Wolfgang }
+		
+		last_names = { Behncke Brommy Cordemann Dreyer Droste Groener "von Swinemünde" Heppendorf Hoffmann Krohn Lonink Schree
+		"von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von Bismarck" "von Bohlen" "von Blumenthal" "von Blomberg" 
+		"von Boyen" "von Braunschweig" "von Bülow" "von dem Knesebeck" "von Gebser" "von Fritsch" "von Halkett" "von Lüneberg" 
+		"von Hademar-Ruppin" "von Haldensleben-Plötzkau" "von Hindenburg" "von Gottorp" "von Knorr" "von Kleefeld"
+		"von Manteuffel" "von Mecklenburg-Schwerin" "von Mecklenburg-Strelitz" "von Moltke" "von Oldenburg" "von Rauch" "von Ravensberg" 
+		"von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" 
+		"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Pyrmont" "von Wettin" 
+		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
+	}
+	lombard = {
+		color = { 66 99 72 }
+		first_names = { Alarik Andres Baltus Barthold Brun Bodewald Carsten Claas Dettmar Detwald Didrik Dieter Dirk 
+		Eilert Eggert Egmont Erik Everhard Feliks Filips "Filips Lodwik" "Filips Willem" Florian Frederik Gebbert Gerhard Hauke Harold 
+		Hendrik Iwan Jan "Jan Willem" Jasper Joachim Johannes Joris Jürgen Karel Lennard Lewin Lodwik Ludger Maarten "Maarten Ludger" 
+		Oswald Ruppert Steffen Theodor Ulrik Vinzent Willem Wolfgang "Wolfgang Willem" }
+		
+		last_names = { Abelbsberg Adams Angenend Bauwens Boschmann Cornelissen "de Palatinat-Deux-Ponts" Dykmann Eickmans Geißler Hartmann Heck Holzappel Jansen Kessler Küppers Maas Meijer Mesenholl Ohlmanns Peters Rexroth Rosskothen Scholten Schulz 
+		"van Andernach" "van Altena-Berg" "van Berg" "van Bilk" "van Elnere" "van Dijk" "van Grumbach-Gerolstein" "van Gulik-Kleef" "van Hachenburg-Werl" "van Hanau-Lichtenberg" "van Isenburg-Birstein-Münzenberg" "van Isenburg-Offenbach" "van Katzenelnbogen-Nidda" "van Kerpen-Bodenheim" "van Lowenburg" 
+		"van Megen-Ratingen" "van Moers" "van Nassau-Siegen" "van Nesselrode" "van Neuenahr" "van Palts-Birkenfeld" "van Quadt" "van Ravensberg" "van Salm-Reifferscheidt" "van Solms-Laubach" "van Solms-Rödelheim" "van Veldens" "van Viersen" "van Waldeck-Korbach" "van Wittgenstein" "van Ziegenheim-Ratzeburg" 
+		Verhoeven Veenstra Wagner "zur Düssel" "zur Lippe" }
+	}
+	ungarisch = {
+		color = { 72 156 84 }
+		first_names = { Alarik Andres Baltus Barthold Brun Bodewald Carsten Claas Dettmar Detwald Didrik Dieter Dirk 
+		Eilert Eggert Egmont Erik Everhard Feliks Filips "Filips Lodwik" "Filips Willem" Florian Frederik Gebbert Gerhard Hauke Harold 
+		Hendrik Iwan Jan "Jan Willem" Jasper Joachim Johannes Joris Jürgen Karel Lennard Lewin Lodwik Ludger Maarten "Maarten Ludger" 
+		Oswald Ruppert Steffen Theodor Ulrik Vinzent Willem Wolfgang "Wolfgang Willem" }
+		
+		last_names = { Abelbsberg Adams Angenend Bauwens Boschmann Cornelissen "de Palatinat-Deux-Ponts" Dykmann Eickmans Geißler Hartmann Heck Holzappel Jansen Kessler Küppers Maas Meijer Mesenholl Ohlmanns Peters Rexroth Rosskothen Scholten Schulz 
+		"van Andernach" "van Altena-Berg" "van Berg" "van Bilk" "van Elnere" "van Dijk" "van Grumbach-Gerolstein" "van Gulik-Kleef" "van Hachenburg-Werl" "van Hanau-Lichtenberg" "van Isenburg-Birstein-Münzenberg" "van Isenburg-Offenbach" "van Katzenelnbogen-Nidda" "van Kerpen-Bodenheim" "van Lowenburg" 
+		"van Megen-Ratingen" "van Moers" "van Nassau-Siegen" "van Nesselrode" "van Neuenahr" "van Palts-Birkenfeld" "van Quadt" "van Ravensberg" "van Salm-Reifferscheidt" "van Solms-Laubach" "van Solms-Rödelheim" "van Veldens" "van Viersen" "van Waldeck-Korbach" "van Wittgenstein" "van Ziegenheim-Ratzeburg" 
+		Verhoeven Veenstra Wagner "zur Düssel" "zur Lippe" }
+	}
+	visigothic = {
+		color = { 82 18 135 }
+		first_names = 
+		{ Adelbert Adolf Albrecht Aleksander Alfred Alvin August Baldur Balthasar Barnim Benedikt Bernd Bernhard Bertram Bjorn Borwin Bruno Burkhard 
+		Dagobert Daniel Dieter Dietmar Dirk Christian "Christian Albrecht" "Christian Ludwig" Christoph 
+		Egon Egbert Eilhard Elias Erich Ernst Florian Fridolf Friedrich "Friedrich Franz" "Friedrich Wilhelm" Georg Gerhard Gottschalk Gustav "Gustav Adolf" Hanno Heinrich Heinz Helge Hermann Herwig Holger Hubertus 
+		Ignaz Joachim Johann "Johann Adolf" Jonas Jonathan Jörg Joseph Julius Karl "Karl Heinz" Kaspar Klaus "Klaus Friedrich" Klemens Knud Konrad 
+		Lars Lorenz Ludger Ludolf Ludwig Lukas Magnus Michael Nikolaus Otto Paul Peter Philipp Rudolf Reinhard Ruprecht Sebastian Siegfried Sigismund Tobias Torben Traugott Tronte Ulrich Vollrath Waldemar Wenzel Wilfried Wilhelm "Wilhelm Kaspar" Wolfgang }
+		
+		last_names = { Behncke Brommy Cordemann Dreyer Droste Groener "von Swinemünde" Heppendorf Hoffmann Krohn Lonink Schree
+		"von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von Bismarck" "von Bohlen" "von Blumenthal" "von Blomberg" 
+		"von Boyen" "von Braunschweig" "von Bülow" "von dem Knesebeck" "von Gebser" "von Fritsch" "von Halkett" "von Lüneberg" 
+		"von Hademar-Ruppin" "von Haldensleben-Plötzkau" "von Hindenburg" "von Gottorp" "von Knorr" "von Kleefeld"
+		"von Manteuffel" "von Mecklenburg-Schwerin" "von Mecklenburg-Strelitz" "von Moltke" "von Oldenburg" "von Rauch" "von Ravensberg" 
+		"von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" 
+		"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Pyrmont" "von Wettin" 
+		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
+	}
+	vandalic = {
+		color = { 232 232 179 }
+		first_names = 
+		{ Adelbert Adolf Albrecht Aleksander Alfred Alvin August Baldur Balthasar Barnim Benedikt Bernd Bernhard Bertram Bjorn Borwin Bruno Burkhard 
+		Dagobert Daniel Dieter Dietmar Dirk Christian "Christian Albrecht" "Christian Ludwig" Christoph 
+		Egon Egbert Eilhard Elias Erich Ernst Florian Fridolf Friedrich "Friedrich Franz" "Friedrich Wilhelm" Georg Gerhard Gottschalk Gustav "Gustav Adolf" Hanno Heinrich Heinz Helge Hermann Herwig Holger Hubertus 
+		Ignaz Joachim Johann "Johann Adolf" Jonas Jonathan Jörg Joseph Julius Karl "Karl Heinz" Kaspar Klaus "Klaus Friedrich" Klemens Knud Konrad 
+		Lars Lorenz Ludger Ludolf Ludwig Lukas Magnus Michael Nikolaus Otto Paul Peter Philipp Rudolf Reinhard Ruprecht Sebastian Siegfried Sigismund Tobias Torben Traugott Tronte Ulrich Vollrath Waldemar Wenzel Wilfried Wilhelm "Wilhelm Kaspar" Wolfgang }
+		
+		last_names = { Behncke Brommy Cordemann Dreyer Droste Groener "von Swinemünde" Heppendorf Hoffmann Krohn Lonink Schree
+		"von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von Bismarck" "von Bohlen" "von Blumenthal" "von Blomberg" 
+		"von Boyen" "von Braunschweig" "von Bülow" "von dem Knesebeck" "von Gebser" "von Fritsch" "von Halkett" "von Lüneberg" 
+		"von Hademar-Ruppin" "von Haldensleben-Plötzkau" "von Hindenburg" "von Gottorp" "von Knorr" "von Kleefeld"
+		"von Manteuffel" "von Mecklenburg-Schwerin" "von Mecklenburg-Strelitz" "von Moltke" "von Oldenburg" "von Rauch" "von Ravensberg" 
+		"von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" 
+		"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Pyrmont" "von Wettin" 
+		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
+	 }
+	 lotharingian = {
         color = { 87 73 105 }
         first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
         Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
@@ -89,6 +167,7 @@ germanic = {
         "von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach"
         "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
 	}
+
 	union = GER
 	
 }

@@ -5823,3 +5823,19 @@ Le_Epic_europe_war = {
 HLR_help = {
 	 mobilisation_size = 1
 }
+
+LTA_fuckin_stay_down = {
+	 factory_throughput = -2
+	 factory_owner_cost = 3
+}
+
+illigitimate_dynasty = {
+	 non_accepted_pop_militancy_modifier = 0.1
+	 non_accepted_pop_consciousness_modifier = 0.2
+	 cb_generation_speed_modifier = -0.8
+}
+
+western_scholars_invited = {
+	 research_points_modifier = 1.0
+	 education_efficiency_modifier = 0.85
+}

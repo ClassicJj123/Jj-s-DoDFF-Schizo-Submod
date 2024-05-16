@@ -1311,8 +1311,10 @@ assimilation_chance =
 	
 	modifier = {
 		 factor = 80
-		 has_pop_culture = russian
-		 has_pop_culture = north_russian
+		 OR = {
+			 has_pop_culture = russian
+			 has_pop_culture = north_russian
+		 }
 		 country = { has_country_flag = GPE_GER_RUS }
 	}
 	
@@ -1320,6 +1322,27 @@ assimilation_chance =
 		 factor = 80
 		 has_pop_culture = burgundian
 		 country = { has_country_flag = LTA_GER_BRG }
+	}
+	
+	modifier = {
+		 factor = 80
+		 OR = {
+			 has_pop_culture = french
+			 has_pop_culture = provencal
+			 has_pop_culture = anglois
+			 has_pop_culture = burgundian
+		 }
+		 country = { has_country_flag = WFK_GER_FRA }
+	}
+	
+	modifier = {
+		 factor = 80
+		 OR = {
+			 has_pop_culture = north_italian
+			 has_pop_culture = central_italian
+			 has_pop_culture = venetian
+		 }
+		 country = { has_country_flag = LOM_GER_ITA }
 	}
 	
 }
