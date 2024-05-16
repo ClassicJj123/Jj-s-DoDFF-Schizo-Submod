@@ -43,7 +43,7 @@ Remove_SCA_cores = {
 	 	 tag = LIV
 		 ai = no
 		 has_country_flag = Schzio_mod_show
-		 any_core = { is core = SCA }
+		 any_core = { is_core = SCA }
 	 }
 	 
 	 allow = {

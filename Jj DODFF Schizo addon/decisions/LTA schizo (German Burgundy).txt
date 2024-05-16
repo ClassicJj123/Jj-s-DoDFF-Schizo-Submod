@@ -1,0 +1,443 @@
+political_decisions = {
+
+#The HRE has fallen, we can claim the empire still tho
+HRE_fallen = {
+	 potential = {
+		 tag = BRG
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_global_flag = HOLY_ROMAN_EMPIRE_COLLAPSE
+		 NOT = { has_country_flag = GER_BRG }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 prestige = 5
+		 set_country_flag = GER_BRG
+	 }
+}
+
+#Pick on the french (as per usual)
+LTA_pick_on_FRA = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_phase_2
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 FRA_404 = { add_core = THIS }
+		 FRA_399 = { add_core = THIS }
+		 3270 = { add_core = THIS }
+		 clr_country_flag = LTA_phase_2
+		 set_country_flag = LTA_claim_WFK
+	 }
+}
+
+#Claim the rest of France
+LTA_reclaim_west_frankia = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_claim_WFK
+	 }
+	 
+	 #allow = {
+	 #	 has_unclaimed_cores = no
+	 #}
+	 
+	 effect = {
+		 badboy = 10
+		 FRA = { all_core = { add_core = THIS } }
+		 OCC = { all_core = { add_core = THIS } }
+		 BRT = { all_core = { add_core = THIS } }
+		 clr_country_flag = LTA_claim_WFK
+		 set_country_flag = LTA_WFK_conquered
+	 }
+}
+
+#Establish a West Frankish kingdom
+establish_WFK = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_WFK_conquered
+	 }
+	 
+	 allow = {
+		 FRA = { all_core = { owned_by = THIS } }
+		 OCC = { all_core = { owned_by = THIS } }
+		 BRT = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 any_owned = {
+			 limit = {
+				 OR = {
+					 is_core = FRA
+					 is_core = OCC
+					 is_core = BRT
+				 }
+			 }
+		 add_core = WFK
+		 }
+		 release = WFK
+		 create_vassal = WFK
+		 any_owned = {
+			 limit = {
+				 OR = {
+					 is_core = FRA
+					 is_core = OCC
+					 is_core = BRT
+				 }
+			 }
+		 secede_province = WFK
+		 }
+		 WFK = {
+			 #civilized = yes
+			 government = autonomous_dependency
+			 nationalvalue = nv_order
+			 ruling_party_ideology = conservative
+			 primary_culture = frankish
+			 add_accepted_culture = lotharingian
+			 treasury = 500000
+		 }
+		 WFK = {
+			 add_country_modifier = {
+				 name = LTA_fuckin_stay_down
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = WFK_created
+		 clr_country_flag = LTA_WFK_conquered
+	 }
+}
+
+#Destroy the French
+destroy_french_culture = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = WFK_created
+		 NOT = { has_country_flag = WFK_GER_FRA }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 BOG = {
+			 primary_culture = frankish
+			 add_accepted_culture = french
+		 }
+		WFK = { country_event = 1000000071 }
+	 }
+}
+
+#Annex the West Frankish nation
+annex_WFK = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = WFK_created
+		 exists = WFK
+	 }
+	 
+	 allow = {
+		 revolution_n_counterrevolution = 1 
+	 }
+	 
+	 effect = {
+		 inherit = WFK
+		 add_accepted_culture = frankish
+	 }
+}
+
+#Claims on Swabia
+LTA_claim_SWA = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = WFK_created
+		 NOT = { has_country_flag = LTA_claim_SWA }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 BAD = { all_core = { add_core = THIS } }
+		 WUR = { all_core = { add_core = THIS } }
+		 SWI = { all_core = { add_core = THIS } }
+		 ULM = { all_core = { add_core = THIS } }
+		 any_country = {
+			 limit = {
+				 AND = {
+					 in_sphere = THIS
+					 OR = {
+						 tag = BAD
+						 tag = WUR
+						 tag = SWI
+						 tag = ULM
+					 }
+				 }
+			 }
+		 annex_to = THIS
+		 }
+		 set_country_flag = LTA_claim_SWA
+	 }
+}
+
+#Accept the Swabians
+LTA_accept_SWA = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_claim_SWA
+		 NOT = { accepted_culture = swabian }
+	 }
+	 
+	 allow = {
+		 BAD = { all_core = { owned_by = THIS } }
+		 WUR = { all_core = { owned_by = THIS } }
+		 SWI = { all_core = { owned_by = THIS } }
+		 ULM = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = swabian
+	 }
+}
+
+#claims on the Rheinish germans
+LTA_claim_CFR = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = WFK_created
+		 NOT = { has_country_flag = LTA_claim_CFR }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 HEK = { all_core = { add_core = THIS } }
+		 NAS = { all_core = { add_core = THIS } }
+		 RHI = { all_core = { add_core = THIS } }
+		 OSN = { all_core = { add_core = THIS } }
+		 FRM = { all_core = { add_core = THIS } }
+		 BEG = { all_core = { add_core = THIS } }
+		 HES = { all_core = { add_core = THIS } }
+		 HSK = { all_core = { add_core = THIS } }
+		 MNR = { all_core = { add_core = THIS } }
+		 any_country = {
+			 limit = {
+				 AND = {
+					 in_sphere = THIS
+					 OR = {
+						 tag = HEK
+						 tag = NAS
+						 tag = RHI
+						 tag = OSN
+						 tag = FRM
+						 tag = BEG
+						 tag = HES
+						 tag = HSK
+						 tag = MNR
+					 }
+				 }
+			 }
+		 annex_to = THIS
+		 }
+		 set_country_flag = LTA_claim_CFR
+	 }
+}
+
+#Accept the Rheinish
+accept_rheinish = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_claim_CFR
+		 NOT = { accepted_culture = rheinish }
+	 }
+	 
+	 allow = {
+		 HEK = { all_core = { owned_by = THIS } }
+		 NAS = { all_core = { owned_by = THIS } }
+		 RHI = { all_core = { owned_by = THIS } }
+		 OSN = { all_core = { owned_by = THIS } }
+		 FRM = { all_core = { owned_by = THIS } }
+		 BEG = { all_core = { owned_by = THIS } }
+		 HES = { all_core = { owned_by = THIS } }
+		 HSK = { all_core = { owned_by = THIS } }
+		 MNR = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = rheinish
+	 }
+}
+
+#claim northern italy
+LTA_claim_north_italy = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = LTA_claim_north_italy }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 SAR_720 = { add_core = LTA }
+		 SAR_466 = { add_core = LTA }
+		 AUS_726 = { add_core = LTA }
+		 AUS_729 = { add_core = LTA }
+		 AUS_736 = { add_core = LTA }
+		 734 = { add_core = LTA }
+		 TUS_744 = { add_core = LTA }
+		 GEN_724 = { add_core = LTA }
+		 738 = { add_core = LTA }
+		 739 = { add_core = LTA }
+		 set_country_flag = LTA_claim_north_italy
+	 }
+}
+
+#re-establish the Lombard kingdom
+LTA_establish_LOB = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_claim_north_italy
+		 NOT = { has_country_flag = LTA_establish_LOB }
+	 }
+	 
+	 allow = {
+		 SAR_720 = { owned_by = LTA }
+		 AUS_726 = { owned_by = LTA }
+		 AUS_729 = { owned_by = LTA }
+		 AUS_736 = { owned_by = LTA }
+		 734 = { owned_by = LTA }
+		 TUS_744 = { owned_by = LTA }
+		 738 = { owned_by = LTA }
+		 739 = { owned_by = LTA } 
+		 GEN_724 = { owned_by = LTA } 
+	 }
+	 
+	 effect = {
+		 SAR_720 = { add_core = LOB }
+		 AUS_726 = { add_core = LOB }
+		 AUS_729 = { add_core = LOB }
+		 AUS_736 = { add_core = LOB }
+		 734 = { add_core = LOB }
+		 TUS_744 = { add_core = LOB }
+		 738 = { add_core = LOB }
+		 739 = { add_core = LOB } 
+		 GEN_724 = { add_core = LOB }
+		 release = LOB
+		 create_vassal = LOB
+		 any_owned = {
+			 limit = {
+				 is_core = LOB
+			 }
+		 secede_province = LOB
+		 }
+		 LOB = {
+			 #civilized = yes
+			 government = autonomous_dependency
+			 nationalvalue = nv_order
+			 ruling_party_ideology = conservative
+			 primary_culture = lombard
+			 treasury = 500000
+		 }
+		 LOB = { country_event = 1000000072 }
+		 LOB = {
+			 add_country_modifier = {
+				 name = LTA_fuckin_stay_down
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = LTA_establish_LOB
+	 }
+}
+
+#Annex the Lombard nation
+annex_LOB = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_establish_LOB
+		 exists = WFK
+	 }
+	 
+	 allow = {
+		 revolution_n_counterrevolution = 1 
+	 }
+	 
+	 effect = {
+		 inherit = LOB
+		 add_accepted_culture = lombard
+	 }
+}
+
+#Destroy italy
+LTA_kill_ITA = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_establish_LOB
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 ITA = { all_core = { add_core = THIS } }
+		 set_country_flag = LTA_destroy_ITA
+	 }
+}
+
+#Remove Italy as an concept
+Destroy_ITA = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_destroy_ITA
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 ITA = { all_core = { remove_core = ITA } }
+	 }
+}
+
+}

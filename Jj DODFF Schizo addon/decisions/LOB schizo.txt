@@ -1,0 +1,27 @@
+political_decisions = {
+
+#Remove Venice cores (saw them repear for some reason?)
+LOB_remove_VEN = {
+	 potential = {
+		 tag = LOB
+		 any_core = { is_core = VEN }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 any_owned = {
+			 limit = {
+				 is_core = VEN
+			 }
+		 remove_core = VEN
+		 }
+	 }
+	 
+	 ai_will_do = {
+			factor = 1
+	 }
+}
+
+}
