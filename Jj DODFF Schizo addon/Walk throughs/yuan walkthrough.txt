@@ -1,0 +1,42 @@
+-Start as Dzungar, enable schizo mod content
+-invite western scholars, this will make you modernize far, far faster
+-Play as normal, wait for the event that causes you to collapse, choose to fight them all. You will get a decision to return to your mongol roots, granting you a buff to make the wars easier.
+-The war will probably still be CBT, peace out with the westernmost rebels if necessary, you will still keep your cores.
+-Don't worry about needing to sedenterize the khante before you do any conquesting, as the decision to reform the Yuan will do that automatically.
+-continue expanding into china ( you will get a decision that gives you conquest wars against shu and tai on them after you're done with the steppe humbug, so you won't have to do fifty repeat unifcation wars, though you may have to do a few before taking the decision just to get your military score up.), take the decision to "Reclaim Our Birthright". Make sure you choose the one that tag switches you, the other one is from the regular mod and will simply tag swap you to china.
+-Enjoy having tons of rebels, having 0 industry, and being at country rank 40 despite having 100mil pops. My advice is to keep a very large standing army, use your focuses on encouraging soldier pops from whatever cultures you can get accepted, prioritize natural resource techs, light armament techs, and educational efficiancy techs.
+-Take the decision to construct your new capital.
+-After a while, you should get an event that gives you Hakka as an accepted culture
+-That will unlock a decision to accept Yi
+-then take the decision to accept the Miao
+-Sidequest: You can conquer manchuria, getting Manchu as an accepted culture immediately, will be useful if you can spare the manpower. You may want to wait until after you have Han accepted if you can't spare the manpower.
+-Sidequest: 
+-After accepting Yi and Miao, you'll get after a couple of years an event to accept the Min
+-Finally, a couple of years after, you'll get a brief event chain to accept Han, then Nanfaren. You need all Min, Hakka, Yue, Yi, Hui, and Miao to be accepted, and you must have invented Social Science. Congrats, the Yuan is now at full strength! This will clear the "Illegitimate rule" modifier
+-In 1895 you'll get an event called "the three terrible children", this is the prelude to the alternate warlord era, which will feature four factions fighting for Yuan.
+
+-a while after this event, China will explode, with you being able to choose who you play as. There are monarchists, who want to restore the status quo. Monarcho-socialists. Death Worshippers. And finally republicans
+
+--Monarchists
+This will restore you back to a monarchy as you were before, this is the status quo option.
+
+--Chinese Federation (Monarcho-Socialist China)
+Chinese Federation will give the most expansion and accepted cultures, as well as the ability to get the largest number of accepted cultures
+-Simply win the four way civil war
+-after this, Steppe provinces will revolt, you can choose to leave them be or to invade them.
+-you can then claim korea, and gain accepted cultures on it through decision
+-after which, you can claim get a decision to gain cores on Southeast asia, some time later you will get accepted cultures through an event.
+
+--Chinese Protectorate (Ultralegalist China)
+Fascist China is currently under construction and has no content as of now.
+
+--United States of China (Democratic China)
+No special content is currently planned for the USC.
+-Simply win the four way civil war
+-after this, Steppe provinces will revolt, you can choose to leave them be or to invade them.
+
+--==Known Issues==--
+-Spain sometimes declares acquire state wars on you if they get too big in india. Maybe other GPs, but only Spain has done it in my test games
+-Undercooked localization in places
+
+DM me (Nej) for bug reports and suggestions.
