@@ -15,13 +15,16 @@ invite_western_scholars = {
 	}
 	
 	effect = {
-	research_points = 8000
+	research_points = 15000
 	add_country_modifier = {
         name = western_scholars_invited 
 	    duration = -1
 	}
 	any_pop = { literacy = 0.10 } 
 	economic_reform = advanced_education_reform
+	military_reform = foreign_officers
+	military_reform = foreign_naval_officers
+	military_reform = yes_foreign_weapons
 	}
 }
 
@@ -42,9 +45,9 @@ return_to_our_mongol_roots = {
 	primary_culture = mongol
 	add_accepted_culture = oirat
 	religion = gelugpa
-	research_points = 20000
+	research_points = 5000
 	add_country_modifier = {
-        name = BOH_powerful_reichsarmee 
+        name = mongol_space_marines 
 	    duration = -1
 	}
 	}
@@ -65,7 +68,7 @@ mop_up_china_shu = {
 		THIS = {
 			war = no
 		}
-	military_score = 50
+	military_score = 30
 	}
 
 	effect = {
@@ -77,6 +80,61 @@ mop_up_china_shu = {
 		}
 	}
 }
+
+mop_up_china_chi = {
+    picture = cheju_korea
+	potential = {
+		tag = CHG
+		has_country_flag = Schzio_mod_show
+		has_country_flag = empire_dislocated
+		exists = CHI
+	}
+	
+	allow = {
+	has_country_flag = empire_dislocated
+		THIS = {
+			war = no
+		}
+	military_score = 30
+	}
+
+	effect = {
+		war = {
+			target = CHI
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+	}
+}
+
+mop_up_china_gng = {
+    picture = cheju_korea
+	potential = {
+		tag = CHG
+		has_country_flag = Schzio_mod_show
+		has_country_flag = empire_dislocated
+		exists = GNG
+	}
+	
+	allow = {
+	has_country_flag = empire_dislocated
+		THIS = {
+			war = no
+		}
+	military_score = 30
+	}
+
+	effect = {
+		war = {
+			target = GNG
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+	}
+}
+
 mop_up_china_dax = {
     picture = cheju_korea
 	potential = {
@@ -91,7 +149,7 @@ mop_up_china_dax = {
 		THIS = {
 			war = no
 		}
-	military_score = 50
+	military_score = 30
 	}
 
 	effect = {
@@ -117,7 +175,7 @@ mop_up_china_tai = {
 		THIS = {
 			war = no
 		}
-	military_score = 50
+	military_score = 30
 	}
 
 	effect = {
@@ -144,12 +202,39 @@ mop_up_china_mig = {
 		THIS = {
 			war = no
 		}
-	military_score = 50
+	military_score = 30
 	}
 
 	effect = {
 		war = {
 			target = MIG
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+	}
+}
+
+mop_up_china_tng = {
+    picture = cheju_korea
+	potential = {
+		tag = CHG
+		has_country_flag = Schzio_mod_show
+		has_country_flag = empire_dislocated
+		exists = TNG
+	}
+	
+	allow = {
+	has_country_flag = empire_dislocated
+		THIS = {
+			war = no
+		}
+	military_score = 30
+	}
+
+	effect = {
+		war = {
+			target = TNG
 			attacker_goal = { casus_belli = conquest }
 			defender_goal = { casus_belli = status_quo }
 			call_ally = no
@@ -201,7 +286,7 @@ proclaim_yuan_dynasty_schizo = {
 	 
 	effect = {
 		prestige = 25
-		remove_country_modifier = BOH_powerful_reichsarmee
+		remove_country_modifier = mongol_space_marines
 		remove_country_modifier = western_scholars_invited
 		remove_country_modifier = nomadic_confederation
 		government = absolute_monarchy
