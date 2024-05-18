@@ -10,12 +10,12 @@
 -That will unlock a decision to accept Yi
 -then take the decision to accept the Miao
 -Sidequest: You can conquer manchuria, getting Manchu as an accepted culture immediately, will be useful if you can spare the manpower. You may want to wait until after you have Han accepted if you can't spare the manpower.
--Sidequest: 
+-Sidequest: You can conquer Nepal, Kashmir, and the northernmost two provinces of mughalistan if you're quick and can get there before the Euros do. Don't take this if Europeans have the two most northern Mughal provinces, otherwise Nepal and Bhutan will be inaccesible.
 -After accepting Yi and Miao, you'll get after a couple of years an event to accept the Min
 -Finally, a couple of years after, you'll get a brief event chain to accept Han, then Nanfaren. You need all Min, Hakka, Yue, Yi, Hui, and Miao to be accepted, and you must have invented Social Science. Congrats, the Yuan is now at full strength! This will clear the "Illegitimate rule" modifier
 -In 1895 you'll get an event called "the three terrible children", this is the prelude to the alternate warlord era, which will feature four factions fighting for Yuan.
 
--a while after this event, China will explode, with you being able to choose who you play as. There are monarchists, who want to restore the status quo. Monarcho-socialists. Death Worshippers. And finally republicans
+-a while after this event, China will explode, with you being able to choose who you play as. There are monarchists, who want to restore the status quo. Monarcho-socialists. Ultralegalist. And finally republicans
 
 --Monarchists
 This will restore you back to a monarchy as you were before, this is the status quo option.
