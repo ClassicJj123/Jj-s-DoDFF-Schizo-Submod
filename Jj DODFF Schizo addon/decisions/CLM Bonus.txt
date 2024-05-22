@@ -1,0 +1,95 @@
+political_decisions = {
+
+	#accept hispano-andean
+accept_hispano_andean = {
+    picture = embrace_minority
+	potential = {
+		tag = CLM
+		has_country_flag = Schzio_mod_show
+		owns = 2280
+		NOT = { accepted_culture = caladeran }
+	}
+	 
+	allow = {
+		treasury = 50000
+		prestige = 60
+		mass_politics = 1
+		OR = {
+			citizens_rights = culture_voting_only
+			citizens_rights = all_voting_pops
+		}
+	}
+	effect = {
+		treasury = -50000
+		add_accepted_culture = caladeran
+		add_accepted_culture = chimu
+		prestige = 50
+	}
+}
+
+	#conquer Quito
+conquer_quito_clm = {
+    picture = Sioux_decision
+	potential = {
+		tag = CLM
+		has_country_flag = Schzio_mod_show
+		GRA = { all_core = { owned_by = THIS } }
+		NOT = { has_country_flag = quito_claimed }
+	}
+	 
+	allow = {
+		treasury = 50000
+		prestige = 60
+	}
+	effect = {
+		treasury = -50000
+		badboy = 8
+		QUI = { all_core = { add_core = THIS } }
+		PEU_2289 = { add_core = THIS }
+		PEU_2296 = { add_core = THIS }
+		PEU_2291 = { add_core = THIS }
+		INC_2309 = { add_core = THIS }
+		SA_2549 = { add_core = THIS }
+		PEU_2297 = { add_core = THIS }
+		PEU_2303 = { add_core = THIS }
+		INC = { all_core = { add_core = THIS } }
+		2302 = { add_core = THIS }
+		2310 = { add_core = THIS }
+		2303 = { add_core = THIS }
+		QOL = { all_core = { add_core = THIS } }
+		set_country_flag = quito_claimed
+	}
+}
+
+	#accept andean natives
+accept_andean_natives = {
+    picture = Incas
+	potential = {
+		tag = CLM
+		has_country_flag = Schzio_mod_show
+		accepted_culture = chimu
+		QUI = { all_core = { owned_by = THIS } }
+		QOL = { all_core = { owned_by = THIS } }
+	}
+	 
+	allow = {
+		treasury = 100000
+		prestige = 60
+		mass_politics = 1
+		OR = {
+			citizens_rights = culture_voting_only
+			citizens_rights = all_voting_pops
+		}
+	}
+	effect = {
+		treasury = -1000000
+		add_accepted_culture = quechua
+		add_accepted_culture = aimara
+		add_accepted_culture = diaguita
+		add_accepted_culture = picunche
+		badboy = 4
+		set_country_flag = quito_claimed
+	}
+}
+
+}

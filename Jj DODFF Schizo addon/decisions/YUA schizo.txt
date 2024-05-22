@@ -407,21 +407,17 @@ create_new_capital = {
 	potential = {
 		tag = YUA
 		has_country_flag = Schzio_mod_show
-		OR = {
-			NOT = { is_capital = 1510 }
-			NOT = { is_capital = 2221 }
-			NOT = { is_capital = 1612 }
-			NOT = { is_capital = 1559 }
+		NOT = { has_country_flag = new_capital_construction_yua }
 		}
-	}
 	 
 	allow = {
 		treasury = 50000
-		prestige = 60
+		prestige = 20
 	}
 	effect = {
 		treasury = -50000
 		country_event = 1000000451
+		set_country_flag = new_capital_construction_yua
 	}
 }
 
