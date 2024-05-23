@@ -486,6 +486,29 @@ accept_yue = {
 	}
 }
 
+ban_slavery_and_serfdom_yua = {
+    picture = embrace_minority
+	potential = {
+		tag = YUA
+		has_country_flag = Schzio_mod_show
+		OR = {
+			debt_law = serfdom
+			slavery = yes_slavery
+			}
+	}
+	 
+	allow = {
+		treasury = 100000
+		positivism = 1
+	}
+	effect = {
+		treasury = -100000
+		political_reform = no_slavery
+		political_reform = debtors_prisons
+		prestige = -10
+	}
+}
+
 #end warlord era for countries that aren't YUA
 end_alt_warlord_era_notyua = {
     picture = form_china
@@ -508,6 +531,7 @@ end_alt_warlord_era_notyua = {
 		CCH = { all_core = { remove_core = CCH } }
 		FCH = { all_core = { remove_core = FCH } }
 		DCH = { all_core = { remove_core = DCH } }
+		remove_country_modifier = mongol_space_marines
 	}
 }
 
@@ -532,10 +556,39 @@ end_alt_warlord_era_yua = {
 		CCH = { all_core = { remove_core = CCH } }
 		FCH = { all_core = { remove_core = FCH } }
 		DCH = { all_core = { remove_core = DCH } }
+		remove_country_modifier = mongol_space_marines
 	}
 }
 
-
+make_civil_war_easier_YUA = {
+    picture = form_USCA
+	potential = {
+		OR = {
+			tag = CCH
+			tag = FCH
+			tag = DCH
+			OR = {
+				AND = {
+					tag = YUA
+					war_with = CCH
+				}
+			}
+		}
+		ai = no
+		has_country_flag = Schzio_mod_show
+	}
+	 
+	allow = {
+	}
+		
+	effect = {
+		add_country_modifier = {
+			name = mongol_space_marines 
+			duration = -1
+	}
+		prestige = -10
+	}
+}
 	###EXPANSION###
 
 #consume manchuria
