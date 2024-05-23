@@ -294,6 +294,7 @@ country_event = {
 		clr_country_flag = han_accepting_yuan
 		add_accepted_culture = nanfaren
 		remove_country_modifier = illigitimate_dynasty
+		remove_country_modifier = mongol_space_marines
 		SHU = { all_core = { remove_core = SHU } }
 		TAI = { all_core = { remove_core = TAI } }
 		GNG = { all_core = { remove_core = GNG } }
@@ -480,7 +481,7 @@ country_event = {
 	trigger = {
 		tag = YUA
 		has_country_flag = alt_warlord_era_start
-		year = 1900
+		year = 1910
 	}
 	mean_time_to_happen = {
 			years = 3
@@ -525,15 +526,15 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPA1000000468B"
-		change_tag = CCH
+		change_tag_no_core_switch = CCH
 	}
 	option = {
 		name = "EVTOPA1000000468C"
-		change_tag = FCH
+		change_tag_no_core_switch = FCH
 	}
 	option = {
 		name = "EVTOPA1000000468D"
-		change_tag = DCH
+		change_tag_no_core_switch = DCH
 	}
 }
 
