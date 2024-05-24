@@ -1,0 +1,27 @@
+
+Countries:
+ASP;Oustralia;;;;;;;;;;;;;;x;;;;;;;;
+ASP_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;
+ASP_absolute_monarchy;Oustrália;;;;;;;;;;;;;;x;;;;;;;;
+ASP_absolute_monarchy_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;
+ASP_democracy;República Oustráliania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_democracy_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_hms_government;Oustrália;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_hms_government_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_parliamentary_republic;República Oustráliania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_parliamentary_republic_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_presidential_dictatorship;República Oustráliania;;;;;;;;;;;;;;x;;;;;;;;
+ASP_presidential_dictatorship_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;
+
+Events:
+EVTNAME1000000250;Our Cores Spread!;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000250;The influence of the Oustralia colony has become absolute, spreading its control accross the newest continent!;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000250A;Yay.;;;;;;;;;;;;;;x;;;;;;;;
+
+Decisions:
+organize_ASP_title;Organize The Oustralia Colony;;;;;;;;;;;;;;x;;;;;;;;
+organize_ASP_desc;Against all odds, Spain has managed to secure a significant degree of influence in the southern continent of Australia. We should formalize our rule by creating a full colony to govern it for us.;;;;;;;;;;;;;;x;;;;;;;;
+send_colonists_to_asp_title;Send Colonists to Oustralia;;;;;;;;;;;;;;x;;;;;;;;
+send_colonists_to_asp_desc;Our colony in Oustralia is filled with natural resources, just waiting to be withdrawn. Now we need only bring Spaniards over to take them!.;;;;;;;;;;;;;;x;;;;;;;;
+integrate_asp_title;Integrate Oustralia into the Commonwealth;;;;;;;;;;;;;;x;;;;;;;;
+integrate_asp_desc;Just because Oustralia is our newest colony doesn't mean that it is any less important to the Hispanic crown. We should make them an equal part of our empire, just as we have for the Amerigan colonies.;;;;;;;;;;;;;;x;;;;;;;;

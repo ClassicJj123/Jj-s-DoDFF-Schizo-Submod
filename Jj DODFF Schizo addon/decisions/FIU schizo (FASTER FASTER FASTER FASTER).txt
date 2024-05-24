@@ -1,0 +1,366 @@
+political_decisions = {
+
+#A suspicious man
+FIU_sus_man = {
+	 potential = {
+		 tag = FIU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = FIU_Accelerationist }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 set_country_flag = FIU_Accelerationist
+		 country_event = 1000000073
+	 }
+}
+
+#Concessions to Austria
+AFU_concession_AUS = {
+	 potential = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = AFU_trade_war
+		 NOT = {
+			 OR = {
+				 has_country_modifier = ARA_AUS_trade_war_cooldown
+				 has_country_flag = AFU_trade_war_block
+			 }
+		 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 add_country_modifier = {
+			 name = ARA_AUS_trade_war_cooldown
+			 duration = 91
+		 }
+		 change_variable = {
+			 which = AUS_help
+			 value = 1
+		 }
+	 }
+}
+
+#Concessions to Aragone
+AFU_concession_ARA = {
+	 potential = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = AFU_trade_war
+		 NOT = {
+			 OR = {
+				 has_country_modifier = ARA_AUS_trade_war_cooldown
+				 has_country_flag = AFU_trade_war_block
+			 }
+		 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 add_country_modifier = {
+			 name = ARA_AUS_trade_war_cooldown
+			 duration = 91
+		 }
+		 change_variable = {
+			 which = ARA_help
+			 value = 1
+		 }
+	 }
+}
+
+#Spread propaganda to Istria
+AFU_spread_propaganda_istria = {
+	 potential = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = AFU_spreading_the_revolution
+		 NOT = {
+			 OR = {
+				 has_country_modifier = ARA_AUS_trade_war_cooldown
+				 has_country_flag = AFU_spreading_the_revolution_block_FIU
+			 }
+		 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 add_country_modifier = {
+			 name = ARA_AUS_trade_war_cooldown
+			 duration = 91
+		 }
+		 change_variable = {
+			 which = AFU_FIU_propaganda
+			 value = 1
+		 }
+	 }
+}
+
+#Spread propaganda to Dalmatia
+AFU_spread_propaganda_dalmatia = {
+	 potential = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = AFU_spreading_the_revolution
+		 NOT = {
+			 OR = {
+				 has_country_modifier = ARA_AUS_trade_war_cooldown
+				 has_country_flag = AFU_spreading_the_revolution_block_DAL
+			 }
+		 }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 add_country_modifier = {
+			 name = ARA_AUS_trade_war_cooldown
+			 duration = 91
+		 }
+		 change_variable = {
+			 which = AFU_DAL_propaganda
+			 value = 1
+		 }
+	 }
+}
+
+#Enforce the treaty
+treaty_of_venice = {
+	 potential = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_VEN_war
+	 }
+	 
+	 allow = { 
+		 729 = { controlled_by = THIS } 
+	 }
+	 
+	 effect = {
+		 country_event = 1000000107
+	 }
+}
+
+#Core Venice
+core_VEN = {
+	 potential = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_VEN_war_over
+		 NOT = { has_country_flag = AFU_core_VEN }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 VEN = { all_core = { add_core = THIS } }
+		 set_country_flag = AFU_core_VEN
+	 }
+}
+
+#The Greek Question
+AFU_GRE_question = {
+	 potential = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_VEN_war_over
+		 NOT = { has_country_flag = GRE_question_ans }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 country_event = 1000000108
+	 }
+}
+
+#TOTAL GREEK DEATH
+AFU_kill_greek = {
+	 potential = {
+		 OR = {
+			 tag = AFU
+			 tag = ITS
+		 }
+		 ai = no
+		 has_country_flag = AFU_GER_GRE
+		 NOT = { has_country_flag = AFU_kill_GRE }
+	 }
+	 
+	 allow = {
+		 GRE = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 any_owned = {
+			 limit = {
+				 is_core = GRE
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = AFU_kill_GRE
+	 }
+}
+
+#Claim Italy
+AFU_claim_ITA = {
+	 potential = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_VEN_war_over
+		 NOT = { has_country_flag = AFU_claim_ITA }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 ITA = { all_core = { add_core = THIS } }
+		 badboy = 10
+		 set_country_flag = AFU_claim_ITA
+	 }
+}
+
+#From the Italian Shogunate
+AFU_from_ITS = {
+	 potential = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+	 }
+	 
+	 allow = {
+		 SAR_720 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 SAR_466 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 GEN_724 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PAP_741 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 AUS_726 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 TUS_744 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PAP_752 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 ITA_751 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 SIC_754 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 SIC_3257 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 ITA_759 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+	 }
+	 
+	 effect = {
+		 change_tag = ITS
+		 prestige = 10
+		 SAR_720 = { add_core = ITS }
+		 SAR_466 = { add_core = ITS }
+		 GEN_724 = { add_core = ITS }
+		 PAP_741 = { add_core = ITS }
+		 AUS_726 = { add_core = ITS }
+		 TUS_744 = { add_core = ITS }
+		 PAP_752 = { add_core = ITS }
+		 ITA_751 = { add_core = ITS }
+		 SIC_754 = { add_core = ITS }
+		 SIC_3257 = { add_core = ITS }
+		 ITA_759 = { add_core = ITS }
+		 SAR_765 = { add_core = ITS }
+		 SIC_763 = { add_core = ITS }
+		 add_accepted_culture = north_italian
+		 add_accepted_culture = south_italian
+		 add_accepted_culture = central_italian
+		 add_accepted_culture = maltese
+		 add_accepted_culture = sardinian
+	 }
+}
+		 
+
+}

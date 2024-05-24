@@ -1,0 +1,212 @@
+political_decisions = {
+
+organize_ASP = {
+		picture = zuharra
+		potential = {
+			OR = {
+				tag = SPA 
+				tag = SPC
+			}
+			NOT = {
+				has_global_flag = ASP_organized
+				capital_scope = { continent = oceania }
+			}
+			OR = {
+				owns = 2491
+				owns = 2504
+				owns = 3326
+				owns = 3332
+				owns = 2493
+				owns = 3335
+				owns = 2483
+				owns = 2488
+			}
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			OR = { 
+				owns = 2491
+				owns = 2504
+				owns = 3326
+				owns = 3332
+				owns = 2493
+				owns = 3335
+				owns = 2483
+				owns = 2488
+			}
+			
+		}
+		
+		effect = {
+			set_global_flag = ASP_organized
+			set_country_flag = ASP_master
+			prestige = 3
+			any_owned = { 
+				limit = { 
+					OR = { 
+						region = GAN_3337
+						region = GAN_3332 
+						region = GAN_3326
+						region = GAN_3329 
+						region = GAN_10 
+						region = GAN_2500
+						region = GAN_3324
+						region = ENG_2509 
+						region = ENG_2513 
+						region = GAN_3303
+						region = GAN_2474 
+						region = GAN_2493
+						region = GAN_3320 
+						region = GAN_2491 
+						region = GAN_2476
+						region = GAN_2472
+						region = GAN_2470
+						region = GAN_2
+						region = GAN_2483
+						region = GAN_2484
+						region = GAN_3291
+						region = GAN_3289
+						region = GAN_3290
+						}
+					}
+					add_core = ASP
+				}
+			ASP = {
+			    capital = 2491
+				primary_culture = THIS
+				set_country_flag = civilize_after_release
+				tech_school = developing_tech_school
+			}
+		}
+}
+
+send_colonists_to_asp = {
+		picture = zuharra
+		potential = {
+			OR = {
+				tag = SPA 
+				tag = SPC
+			}
+			NOT = { has_country_flag = ASP_colonies }
+			has_global_flag = ASP_organized
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			OR = { 
+				owns = 2491
+				owns = 2504
+				owns = 3326
+				owns = 3332
+				owns = 2493
+				owns = 3335
+				owns = 2483
+				owns = 2488
+			}
+			
+		}
+		
+		effect = {
+			set_country_flag = ASP_colonies
+			prestige = 3
+			any_owned = { 
+				limit = {
+					OR = { 
+						region = GAN_3337
+						region = GAN_3332 
+						region = GAN_3326
+						region = GAN_3329 
+						region = GAN_10 
+						region = GAN_2500
+						region = GAN_3324
+						region = ENG_2509 
+						region = ENG_2513 
+						region = GAN_3303
+						region = GAN_2474 
+						region = GAN_2493
+						region = GAN_3320 
+						region = GAN_2491 
+						region = GAN_2476
+						region = GAN_2472
+						region = GAN_2470
+						region = GAN_2
+						region = GAN_2483
+						region = GAN_2484
+						region = GAN_3291
+						region = GAN_3289
+						region = GAN_3290
+						}
+					}
+				add_province_modifier = {
+					name = aussie_colonies
+					duration = 800
+				}
+			}
+		}
+}
+
+integrate_asp = {
+		picture = zuharra
+		potential = {
+			tag = SPC
+			has_country_flag = ASP_master
+			NOT = { has_country_flag = ASP_integrated }	
+			NOT = {
+				capital_scope = { continent = oceania }
+			}
+			OR = {
+				owns = 2491
+				owns = 2504
+				owns = 3326
+				owns = 3332
+				owns = 2493
+				owns = 3335
+				owns = 2483
+				owns = 2488
+			}
+		}
+		
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+		}
+		
+		effect = {
+			prestige = 3
+			any_owned = { 
+				limit = { 
+					OR = { 
+						region = GAN_3337
+						region = GAN_3332 
+						region = GAN_3326
+						region = GAN_3329 
+						region = GAN_10 
+						region = GAN_2500
+						region = GAN_3324
+						region = ENG_2509 
+						region = ENG_2513 
+						region = GAN_3303
+						region = GAN_2474 
+						region = GAN_2493
+						region = GAN_3320 
+						region = GAN_2491 
+						region = GAN_2476
+						region = GAN_2472
+						region = GAN_2470
+						region = GAN_2
+						region = GAN_2483
+						region = GAN_2484
+						region = GAN_3291
+						region = GAN_3289
+						region = GAN_3290
+						}
+					}
+					add_core = SPC
+				}
+		set_country_flag = ASP_integrated
+		}
+}
+}

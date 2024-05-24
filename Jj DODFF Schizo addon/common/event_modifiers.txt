@@ -5811,7 +5811,7 @@ Germanisation_program = {
 }
 
 German_repoplution_LGC = {
-	 population_growth = 0.05
+	 population_growth = 0.005
 	 pop_militancy_modifier = -1.0
 }
 
@@ -5829,6 +5829,7 @@ LTA_fuckin_stay_down = {
 	 factory_owner_cost = 3
 }
 
+#Yuan modifiers
 illigitimate_dynasty = {
 	 non_accepted_pop_militancy_modifier = 0.1
 	 non_accepted_pop_consciousness_modifier = 0.2
@@ -5848,4 +5849,49 @@ mongol_space_marines = {
     supply_consumption = -0.25
     land_unit_start_experience = 40
     min_military_spending = 0.6
+}
+
+#Fiume path
+minor_ARA_help = {
+	 import_cost = -0.05
+}
+
+ARA_AUS_trade_war_cooldown = {
+}
+
+AUS_domination = {
+	 tax_efficiency = 0.05
+	 import_cost = -0.05
+}
+
+ARA_domination = {
+	 import_cost = -0.1
+}
+
+mixed_bag = {
+	 tax_efficiency = 0.02
+	 import_cost = -0.02
+}
+
+the_fiuman_miracle = {
+	 tax_efficiency = 0.1
+	 factory_throughput = 0.1
+	 factory_owner_cost = -0.1
+	 RGO_throughput = 0.1
+}
+
+the_indomitable_fiuman_spirit = {
+	 org_regain = 0.45
+	 mobilization_size = 1
+	 land_organisation = 0.8
+	 land_unit_start_experience = 40
+	 mobilization_impact = -0.5
+}
+
+aussie_colonies = {
+	immigrant_attract = 1
+	life_rating = 0.2
+	population_growth = 0.02
+	assimilation_rate = 0.25
+	icon = 9
 }

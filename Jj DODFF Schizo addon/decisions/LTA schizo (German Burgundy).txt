@@ -437,7 +437,12 @@ Destroy_ITA = {
 	 effect = {
 		 badboy = 5
 		 ITA = { all_core = { remove_core = ITA } }
+		 ITC = { all_core = { remove_core = ITC } }
 	 }
 }
+
+#claim spain
+#LTA_claim_SPA = {
+#}
 
 }

@@ -1,0 +1,87 @@
+province_event = {
+	id = 1000000250
+	title = "EVTNAME1000000250" #ASP spread core
+	desc = "EVTDESC1000000250"
+	
+	trigger = {
+		OR = { 
+			region = GAN_3337
+			region = GAN_3332 
+			region = GAN_3326
+			region = GAN_3329 
+			region = GAN_10 
+			region = GAN_2500
+			region = GAN_3324
+			region = ENG_2509 
+			region = ENG_2513 
+			region = GAN_3303
+			region = GAN_2474 
+			region = GAN_2493
+			region = GAN_3320 
+			region = GAN_2491 
+			region = GAN_2476
+			region = GAN_2472
+			region = GAN_2470
+			region = GAN_2
+			region = GAN_2483
+			region = GAN_2484
+			region = GAN_3291
+			region = GAN_3289
+			region = GAN_3290
+			}
+		owned_by = THIS
+		controlled_by = THIS
+		OR = {
+		   any_neighbor_province = {
+			  is_core = ASP
+		   }
+		   port = yes
+		}
+		owner = {
+			civilized = yes
+			has_country_flag = AST_master
+			NOT = { is_culture_group = southeast_asian }
+		}
+		OR = {
+			ASP = { exists = no }
+			ASP = {
+				vassal_of = THIS
+				is_culture_group = THIS
+			}
+		}
+		NOT = {
+			is_core = ASP
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+	    modifier = {
+			factor = 0.1
+			year = 1870
+		}
+	    modifier = {
+			factor = 0.01
+			year = 1880
+		}
+	}
+	
+	option = {
+		name = "EVTOPA1000000250A"
+		state_scope = {
+			any_owned = {
+				limit = {
+					NOT = { is_core = ASP }
+				}
+				add_core = ASP
+				remove_core = ASS 
+				remove_core = ASG
+				any_pop = { militancy = -3 }
+				add_province_modifier = {
+					name = colonial_exploitation
+					duration = 1095
+				}
+			}
+		}
+	}
+}

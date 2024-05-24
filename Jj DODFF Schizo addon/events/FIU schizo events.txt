@@ -1,0 +1,1030 @@
+#A funny man appears in front of the government office, how did he get in?!
+country_event = {
+	 id = 1000000073
+	 title = "EVTNAME1000000073"
+	 desc = "EVTDESC1000000073"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 #Why not make him president?
+	 option = {
+		 name = "EVTOPA1000000073"
+		 prestige = 5
+		 change_tag = AFU
+		 AFU = {
+			 government = bourgeois_dictatorship
+			 nationalvalue = nv_order
+			 ruling_party_ideology = conservative
+			 political_reform = none_voting
+			 political_reform = party_appointed
+			 political_reform = no_meeting
+			 political_reform = state_press
+			 political_reform = state_controlled
+			 political_reform = underground_parties
+			 political_reform = mandatory_service
+		 }
+		 FIU = { all_core = { remove_core = FIU } }
+	 }
+}
+
+#Our country is in chaos! What shall we do?!
+country_event = {
+	 id = 1000000074
+	 title = "EVTNAME1000000074"
+	 desc = "EVTDESC1000000074"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = FIU_Accelerationist
+	 }
+	 
+	 #Hopefully the Austrians don't notice
+	 option = {
+		 name = "EVTOPA1000000074"
+		 set_country_flag = AFU_prelude_1
+		 prestige = -10
+	 }
+}
+
+#The Austrians Noticed!
+country_event = {
+	 id = 1000000075
+	 title = "EVTNAME1000000075"
+	 desc = "EVTDESC1000000075"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_1
+	 }
+	 
+	 #We Must something else we get crashed by them!
+	 option = {
+		 name = "EVTOPA1000000075"
+		 clr_country_flag = AFU_prelude_1
+		 set_country_flag = AFU_prelude_2
+		 prestige = -1
+	 }
+}
+
+#Our leader has somehow made a deal with the Austrians?
+country_event = {
+	 id = 1000000076
+	 title = "EVTNAME1000000076"
+	 desc = "EVTDESC1000000076"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_2
+	 }
+	 
+	 #Wow
+	 option = {
+		 name = "EVTOPA1000000076"
+		 clr_country_flag = AFU_prelude_2
+		 set_country_flag = AFU_prelude_3
+		 prestige = 5
+	 }
+}
+
+#Alright then, let us focus on our internal problems
+country_event = {
+	 id = 1000000077
+	 title = "EVTNAME1000000077"
+	 desc = "EVTDESC1000000077"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_3
+	 }
+	 
+	 #Wow
+	 option = {
+		 name = "EVTOPA1000000077"
+		 clr_country_flag = AFU_prelude_3
+		 set_country_flag = AFU_prelude_4
+		 prestige = 5
+	 }
+}
+
+#The question of language
+country_event = {
+	 id = 1000000078
+	 title = "EVTNAME1000000078"
+	 desc = "EVTDESC1000000078"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_4
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000078A"
+		 clr_country_flag = AFU_prelude_4
+		 set_country_flag = AFU_prelude_5
+		 set_country_flag = AFU_confed
+		 prestige = 10
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000078B"
+		 clr_country_flag = AFU_prelude_4
+		 set_country_flag = AFU_prelude_5
+		 set_country_flag = AFU_north_italian
+		 AFU = {
+			 primary_culture = north_italian
+			 add_accepted_culture = venetian
+		 }
+		 prestige = 5
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000078C"
+		 clr_country_flag = AFU_prelude_4
+		 set_country_flag = AFU_prelude_5
+		 set_country_flag = AFU_central_italian
+		 AFU = {
+			 primary_culture = central_italian
+			 add_accepted_culture = venetian
+		 }
+		 prestige = 5
+	 }
+}
+
+#Second matter of business, the industry
+country_event = {
+	 id = 1000000079
+	 title = "EVTNAME1000000079"
+	 desc = "EVTDESC1000000079"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_5
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000079"
+		 clr_country_flag = AFU_prelude_5
+		 set_country_flag = AFU_prelude_6
+		 prestige = 1
+		 set_variable = {
+			 which = ARA_help
+			 value = 1
+		 }
+		 set_variable = {
+			 which = AUS_help
+			 value = 1
+		 }
+	 }
+}
+
+#Aragonese interest
+country_event = {
+	 id = 1000000086
+	 title = "EVTNAME1000000086"
+	 desc = "EVTDESC1000000086"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_6
+	 }
+	 
+	 #Give concessions to the Aragonese
+	 option = {
+		 name = "EVTOPA1000000086A"
+		 clr_country_flag = AFU_prelude_6
+		 set_country_flag = AFU_prelude_7
+		 prestige = -5
+		 change_variable = {
+			 which = ARA_help
+			 value = 1
+		 }
+		 add_country_modifier = {
+			 name = minor_ARA_help
+			 duration = -1
+		 }
+	 }
+	 
+	 #reject them
+	 option = {
+		 name = "EVTOPA1000000086B"
+		 clr_country_flag = AFU_prelude_6
+		 set_country_flag = AFU_prelude_7
+		 prestige = 1
+	 }
+}
+
+#Austrian interest
+country_event = {
+	 id = 1000000087
+	 title = "EVTNAME1000000087"
+	 desc = "EVTDESC1000000087"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_7
+	 }
+	 
+	 #Give concessions to the Aragonese
+	 option = {
+		 name = "EVTOPA1000000087A"
+		 clr_country_flag = AFU_prelude_7
+		 set_country_flag = AFU_prelude_8
+		 prestige = -5
+		 change_variable = {
+			 which = AUS_help
+			 value = 1
+		 }
+		 treasury = 10000
+		 build_factory_in_capital_state = steel_factory
+	 }
+	 
+	 #reject them
+	 option = {
+		 name = "EVTOPA1000000087B"
+		 clr_country_flag = AFU_prelude_7
+		 set_country_flag = AFU_prelude_8
+		 prestige = 1
+	 }
+}
+
+#Trade war
+country_event = {
+	 id = 1000000088
+	 title = "EVTNAME1000000088"
+	 desc = "EVTDESC1000000088"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_8
+	 }
+	 
+	 #May the best man win
+	 option = {
+		 name = "EVTOPA1000000088"
+		 clr_country_flag = AFU_prelude_8
+		 set_country_flag = AFU_trade_war
+	 }
+}
+
+#Austrian domination
+country_event = {
+	 id = 1000000089
+	 title = "EVTNAME1000000089"
+	 desc = "EVTDESC1000000089"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_trade_war
+		 check_variable = {
+			 which = AUS_help
+			 value = 5
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000089"
+		 add_country_modifier = {
+			 name = AUS_domination
+			 duration = -1
+		 }
+		 remove_country_modifier = minor_ARA_help
+		 clr_country_flag = AFU_trade_war
+		 set_country_flag = AFU_trade_war_block
+		 set_country_flag = AFU_AUS_dominated
+		 treasury = 10000
+		 build_factory_in_capital_state = small_arms_factory
+		 build_factory_in_capital_state = canned_food_factory
+	 }
+}
+
+#Aragonese domination
+country_event = {
+	 id = 1000000090
+	 title = "EVTNAME1000000090"
+	 desc = "EVTDESC1000000090"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_trade_war
+		 check_variable = {
+			 which = ARA_help
+			 value = 5
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000090"
+		 add_country_modifier = {
+			 name = ARA_domination
+			 duration = -1
+		 }
+		 remove_country_modifier = minor_ARA_help
+		 AUS = { release_vassal = AFU }
+		 ARA = {
+			 relation = {
+				 who = AFU
+				 value = 400
+			 }
+		 }
+		 ARA = {
+			 diplomatic_influence = {
+				 who = AFU
+				 value = 400
+			 }
+		 }
+		 create_alliance = ARA
+		 clr_country_flag = AFU_trade_war
+		 set_country_flag = AFU_trade_war_block
+		 set_country_flag = AFU_ARA_dominated
+	 }
+}
+
+#Mixed bag
+country_event = {
+	 id = 1000000091
+	 title = "EVTNAME1000000091"
+	 desc = "EVTDESC1000000091"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_trade_war
+		 year = 1840
+		 check_variable = {
+			 which = AUS_help
+			 value = 2
+		 }
+		 check_variable = {
+			 which = ARA_help
+			 value = 2
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = ARA_help
+				 value = 5
+			 }
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = AUS_help
+				 value = 5
+			 }
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000091"
+		 add_country_modifier = {
+			 name = mixed_bag
+			 duration = -1
+		 }
+		 remove_country_modifier = minor_ARA_help
+		 ARA = {
+			 relation = {
+				 who = AFU
+				 value = 400
+			 }
+		 }
+		 ARA = {
+			 diplomatic_influence = {
+				 who = AFU
+				 value = 400
+			 }
+		 }
+		 create_alliance = ARA
+		 clr_country_flag = AFU_trade_war
+		 set_country_flag = AFU_trade_war_block
+		 set_country_flag = AFU_mixed_dominated
+	 }
+}
+
+#No help received (wow)
+country_event = {
+	 id = 1000000092
+	 title = "EVTNAME1000000092"
+	 desc = "EVTDESC1000000092"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_trade_war
+		 year = 1840
+		 check_variable = {
+			 which = AUS_help
+			 value = 1
+		 }
+		 check_variable = {
+			 which = ARA_help
+			 value = 1
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = ARA_help
+				 value = 2
+			 }
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = AUS_help
+				 value = 2
+			 }
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000092"
+		 add_country_modifier = {
+			 name = the_fiuman_miracle
+			 duration = -1
+		 }
+		 remove_country_modifier = minor_ARA_help
+		 clr_country_flag = AFU_trade_war
+		 set_country_flag = AFU_trade_war_block
+		 set_country_flag = AFU_not_dominated
+	 }
+}
+
+#3rd order of Business, our military
+country_event = {
+	 id = 1000000093
+	 title = "EVTNAME1000000093"
+	 desc = "EVTDESC1000000093"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_trade_war_block
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000093"
+		 set_country_flag = AFU_prelude_9
+	 }
+}
+
+#Austrian domination (lmao)
+country_event = {
+	 id = 1000000094
+	 title = "EVTNAME1000000094"
+	 desc = "EVTDESC1000000094"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_9
+		 has_country_flag = AFU_AUS_dominated
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000094"
+		 clr_country_flag = AFU_prelude_9
+		 set_country_flag = AFU_prelude_10
+		 add_country_modifier = {
+			 name = BOH_powerful_reichsarmee
+			 duration = -1
+		 }
+	 }
+}
+
+#Aragonese domination (lmao)
+country_event = {
+	 id = 1000000095
+	 title = "EVTNAME1000000095"
+	 desc = "EVTDESC1000000095"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_9
+		 has_country_flag = AFU_ARA_dominated
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000095"
+		 clr_country_flag = AFU_prelude_9
+		 set_country_flag = AFU_prelude_10
+		 add_country_modifier = {
+			 name = BOH_grand_reichsarmee
+			 duration = -1
+		 }
+	 }
+}
+
+#A mixed bag
+country_event = {
+	 id = 1000000096
+	 title = "EVTNAME1000000096"
+	 desc = "EVTDESC1000000096"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_9
+		 has_country_flag = AFU_mixed_dominated
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000096"
+		 clr_country_flag = AFU_prelude_9
+		 set_country_flag = AFU_prelude_10
+		 add_country_modifier = {
+			 name = BOH_subpar_reichsarmee
+			 duration = -1
+		 }
+	 }
+}
+
+#Independent
+country_event = {
+	 id = 1000000097
+	 title = "EVTNAME1000000097"
+	 desc = "EVTDESC1000000097"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_9
+		 has_country_flag = AFU_not_dominated
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000097"
+		 clr_country_flag = AFU_prelude_9
+		 set_country_flag = AFU_prelude_10
+		 add_country_modifier = {
+			 name = the_indomitable_fiuman_spirit
+			 duration = -1
+		 }
+		 prestige = 10
+	 }
+}
+
+#Prep for the Revolution
+country_event = {
+	 id = 1000000098
+	 title = "EVTNAME1000000098"
+	 desc = "EVTDESC1000000098"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_10
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000098"
+		 clr_country_flag = AFU_prelude_10
+		 set_country_flag = AFU_prelude_11
+	 }
+}
+
+#Enabling the funny decisions
+country_event = {
+	 id = 1000000099
+	 title = "EVTNAME1000000099"
+	 desc = "EVTDESC1000000099"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_prelude_11
+		 year = 1850
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000099"
+		 set_variable = {
+			 which = AFU_FIU_propaganda
+			 value = 1
+		 }
+		 set_variable = {
+			 which = AFU_DAL_propaganda
+			 value = 1
+		 }
+		 clr_country_flag = AFU_prelude_11
+		 set_country_flag = AFU_spreading_the_revolution
+	 }
+}
+
+#Istria level 1
+country_event = {
+	 id = 1000000100
+	 title = "EVTNAME1000000100"
+	 desc = "EVTDESC1000000100"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_spreading_the_revolution
+		 year = 1860
+		 check_variable = {
+			 which = AFU_FIU_propaganda
+			 value = 2
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = AFU_FIU_propaganda
+				 value = 3
+			 }
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000100"
+		 VEN = { 770 = { secede_province = AFU } }
+		 set_country_flag = AFU_spreading_the_revolution_block_FIU
+	 }
+}
+
+#Istria level 2
+country_event = {
+	 id = 1000000101
+	 title = "EVTNAME1000000101"
+	 desc = "EVTDESC1000000101"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_spreading_the_revolution
+		 year = 1860
+		 check_variable = {
+			 which = AFU_FIU_propaganda
+			 value = 3
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = AFU_FIU_propaganda
+				 value = 4
+			 }
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000101"
+		 VEN = {
+			 any_core = {
+				 limit = {
+					 is_core = AFU
+				 }
+			 secede_province = AFU
+			 }
+		 }
+		 set_country_flag = AFU_spreading_the_revolution_block_FIU
+	 }
+}
+
+#Istria level 5
+country_event = {
+	 id = 1000000102
+	 title = "EVTNAME1000000102"
+	 desc = "EVTDESC1000000102"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_spreading_the_revolution
+		 year = 1860
+		 check_variable = {
+			 which = AFU_FIU_propaganda
+			 value = 6
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000102"
+		 VEN = {
+			 any_owned = {
+				 limit = {
+					 is_core = AFU
+				 }
+			 secede_province = AFU
+			 }
+		 }
+		 VEN = { 733 = { secede_province = AFU } }
+		 733 = { add_core = AFU }
+		 set_country_flag = AFU_spreading_the_revolution_block_FIU
+	 }
+}
+
+#Dalmatia level 1
+country_event = {
+	 id = 1000000103
+	 title = "EVTNAME1000000103"
+	 desc = "EVTDESC1000000103"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_spreading_the_revolution
+		 year = 1860
+		 check_variable = {
+			 which = AFU_DAL_propaganda
+			 value = 2
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = AFU_DAL_propaganda
+				 value = 3
+			 }
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000103"
+		 VEN = { 774 = { secede_province = AFU } }
+		 774 = { add_core = AFU }
+		 set_country_flag = AFU_spreading_the_revolution_block_DAL
+	 }
+}
+
+#Dalmatia level 4
+country_event = {
+	 id = 1000000104
+	 title = "EVTNAME1000000104"
+	 desc = "EVTDESC1000000104"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_spreading_the_revolution
+		 year = 1860
+		 check_variable = {
+			 which = AFU_DAL_propaganda
+			 value = 5
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000104"
+		 AUS_780 = { add_core = AFU }
+		 VEN = { 774 = { secede_province = AFU } }
+		 VEN = { 781 = { secede_province = AFU } }
+		 VEN = { 780 = { secede_province = AFU } }
+		 VEN = { 782 = { secede_province = AFU } }
+		 set_country_flag = AFU_spreading_the_revolution_block_DAL
+	 }
+}
+
+#The Fiumese DID WHAT?!
+country_event = {
+	 id = 1000000105
+	 title = "EVTNAME1000000105"
+	 desc = "EVTDESC1000000105"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = VEN
+		 AFU = {
+			 has_country_flag = AFU_spreading_the_revolution_block_DAL
+			 has_country_flag = AFU_spreading_the_revolution_block_FIU
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000105"
+		 prestige = -5
+		 AFU = {
+			 clr_country_flag = AFU_spreading_the_revolution
+			 set_country_flag = AFU_war_imminent
+		 }
+	 }
+}
+
+#Major - The Great Venetian - Fiumese war
+country_event = {
+	 id = 1000000106
+	 title = "EVTNAME1000000106"
+	 desc = "EVTDESC1000000106"
+	 major = yes
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_war_imminent
+	 }
+	 
+	 immediate = {
+		define_general = {
+		name = "Schizo Jj"
+		picture = DeNuke_general_0
+		personality = schizo
+		background = school_of_defense
+		}
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000106"
+		 clr_country_flag = AFU_war_imminent
+		 set_country_flag = AFU_VEN_war
+		 SGF = { release_vassal = AFU }
+		 SGF = { leave_alliance = AFU }
+		 AUS = { release_vassal = AFU }
+		 VEN = {
+			 war = {
+				 target = AFU
+				 attacker_goal = { casus_belli = unification_annex_casus_belli }
+				 defender_goal = { casus_belli = custom_treaty_cb }
+				 call_ally = no
+			 }
+		 }
+	 }
+}
+
+#Victory!
+country_event = {
+	 id = 1000000107
+	 title = "EVTNAME1000000107"
+	 desc = "EVTDESC1000000107"
+	 major = yes
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_VEN_war
+		 VEN = {
+			 has_country_flag = custom_treaty_loser
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000107"
+		 clr_country_flag = AFU_VEN_war
+		 set_country_flag = AFU_VEN_war_over
+		 prestige = 10
+		 AFU = { inherit = VEN }
+		 AFU = { release = GRE }
+		 VEN = { all_core = { add_core = THIS } }
+		 AFU = { create_vassal = GRE }
+	 }
+}
+
+#The Greek Question
+country_event = {
+	 id = 1000000108
+	 title = "EVTNAME1000000108"
+	 desc = "EVTDESC1000000108"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000108A"
+		 GRE = {
+			 primary_culture = venetian
+			 add_accepted_culture = greek
+		 }
+		 inherit = GRE
+		 GRE = { all_core = { add_core = THIS } }
+		 any_owned = {
+			 limit = {
+				 is_core = GRE
+			 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = GRE_question_ans
+		 set_country_flag = AFU_GER_GRE
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000108B"
+		 add_accepted_culture = greek
+		 inherit = GRE
+		 GRE = { all_core = { add_core = THIS } }
+		 set_country_flag = GRE_question_ans
+	 }
+	 
+	 #Unfinished till the MEO update
+	 option = {
+		 name = "EVTOPA1000000108C"
+		 GRE = {
+			 government = autonomous_dependency
+			 nationalvalue = nv_order
+			 ruling_party_ideology = conservative
+		 }
+		 set_country_flag = AFU_prop_GRE_state
+		 set_country_flag = GRE_question_ans
+	 }
+}

@@ -220,3 +220,41 @@ DCH_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
 DCH_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
 DCH_socialist_republic;Panasia;;;;;;;;;;;;;;x;;;;;;;;
 DCH_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;;x;;;;;;;
+AFU;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
+AFU_ADJ;Italian;;;;;;;;;;;;;x,,,,,,,,
+AFU_absolute_monarchy;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
+AFU_prussian_constitutionalism;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
+AFU_hms_government;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
+AFU_democracy;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,, 
+AFU_parliamentary_republic;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
+AFU_presidential_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
+AFU_bourgeois_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
+AFU_proletarian_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
+AFU_socialist_republic;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
+AFU_fascist_monarchy;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
+AFU_fascist_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
+ITS;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
+ITS_ADJ;Italian;;;;;;;;;;;;;x,,,,,,,,
+ITS_absolute_monarchy;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
+ITS_prussian_constitutionalism;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
+ITS_hms_government;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
+ITS_democracy;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,, 
+ITS_parliamentary_republic;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
+ITS_presidential_dictatorship;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
+ITS_bourgeois_dictatorship;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
+ITS_proletarian_dictatorship;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
+ITS_socialist_republic;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
+ITS_fascist_monarchy;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
+ITS_fascist_dictatorship;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
+ASP;Oustralia;;;;;;;;;;;;;;x;;;;;;;;
+ASP_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;
+ASP_absolute_monarchy;Oustrália;;;;;;;;;;;;;;x;;;;;;;;
+ASP_absolute_monarchy_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;
+ASP_democracy;República Oustráliania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_democracy_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_hms_government;Oustrália;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_hms_government_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_parliamentary_republic;República Oustráliania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_parliamentary_republic_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_presidential_dictatorship;República Oustráliania;;;;;;;;;;;;;;x;;;;;;;;
+ASP_presidential_dictatorship_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;

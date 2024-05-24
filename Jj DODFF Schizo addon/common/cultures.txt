@@ -167,6 +167,24 @@ germanic = {
         "von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach"
         "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
 	}
+	ostrogothic = {
+		color = { 82 18 135 }
+		first_names = 
+		{ Adelbert Adolf Albrecht Aleksander Alfred Alvin August Baldur Balthasar Barnim Benedikt Bernd Bernhard Bertram Bjorn Borwin Bruno Burkhard 
+		Dagobert Daniel Dieter Dietmar Dirk Christian "Christian Albrecht" "Christian Ludwig" Christoph 
+		Egon Egbert Eilhard Elias Erich Ernst Florian Fridolf Friedrich "Friedrich Franz" "Friedrich Wilhelm" Georg Gerhard Gottschalk Gustav "Gustav Adolf" Hanno Heinrich Heinz Helge Hermann Herwig Holger Hubertus 
+		Ignaz Joachim Johann "Johann Adolf" Jonas Jonathan Jörg Joseph Julius Karl "Karl Heinz" Kaspar Klaus "Klaus Friedrich" Klemens Knud Konrad 
+		Lars Lorenz Ludger Ludolf Ludwig Lukas Magnus Michael Nikolaus Otto Paul Peter Philipp Rudolf Reinhard Ruprecht Sebastian Siegfried Sigismund Tobias Torben Traugott Tronte Ulrich Vollrath Waldemar Wenzel Wilfried Wilhelm "Wilhelm Kaspar" Wolfgang }
+		
+		last_names = { Behncke Brommy Cordemann Dreyer Droste Groener "von Swinemünde" Heppendorf Hoffmann Krohn Lonink Schree
+		"von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von Bismarck" "von Bohlen" "von Blumenthal" "von Blomberg" 
+		"von Boyen" "von Braunschweig" "von Bülow" "von dem Knesebeck" "von Gebser" "von Fritsch" "von Halkett" "von Lüneberg" 
+		"von Hademar-Ruppin" "von Haldensleben-Plötzkau" "von Hindenburg" "von Gottorp" "von Knorr" "von Kleefeld"
+		"von Manteuffel" "von Mecklenburg-Schwerin" "von Mecklenburg-Strelitz" "von Moltke" "von Oldenburg" "von Rauch" "von Ravensberg" 
+		"von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" 
+		"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Pyrmont" "von Wettin" 
+		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
+	}
 
 	union = GER
 	

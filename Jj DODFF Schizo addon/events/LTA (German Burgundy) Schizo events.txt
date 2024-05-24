@@ -336,6 +336,7 @@ country_event = {
 		 remove_core = SAR
 		 remove_core = VEN
 		 remove_core = FIU
+		 remove_core = TUS
 		 }
 		 729 = { assimilate = yes }
 		 720 = { assimilate = yes }
