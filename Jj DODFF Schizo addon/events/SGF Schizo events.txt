@@ -129,6 +129,10 @@ country_event = {
 			 primary_culture = south_german
 			 add_accepted_culture = serb
 		 }
+		 SER = {
+			 primary_culture = south_german
+			 add_accepted_culture = serb
+		 }
 		 BUL = {
 			 primary_culture = south_german
 			 add_accepted_culture = bulgarian
