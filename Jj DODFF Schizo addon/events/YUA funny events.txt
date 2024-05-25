@@ -446,6 +446,7 @@ country_event = {
 		TAI_2 = { add_core = DCH }
 		CHI_1516 = { add_core = DCH }
 		CHI_1473 = { add_core = DCH }
+		set_country_flag = work_you_shit
 	}
 }
 
@@ -457,6 +458,7 @@ country_event = {
 	picture = tatar_soldiers
 	fire_only_once = yes
 	trigger = {
+		has_country_flag = work_you_shit
 		tag = YUA
 		has_country_flag = alt_warlord_era_start
 		year = 1895
@@ -468,6 +470,7 @@ country_event = {
 	#yikes
 	option = {
 		name = "EVTOPA1000000466A"
+		set_country_flag = khan_dying_soon
 	}
 }
 
@@ -481,6 +484,7 @@ country_event = {
 	trigger = {
 		tag = YUA
 		has_country_flag = alt_warlord_era_start
+		has_country_flag = khan_dying_soon
 		year = 1910
 	}
 	mean_time_to_happen = {
@@ -508,6 +512,9 @@ country_event = {
 			}
 			secede_province = FCH
 		}
+		FCH = { government = fascist_monarchy }
+		DCH = { government = democracy }
+		CCH = { government = proletarian_dictatorship }
 		country_event = 1000000468
 	}
 }
