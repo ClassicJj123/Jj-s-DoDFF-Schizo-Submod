@@ -239,6 +239,32 @@ AFU_claim_ITA = {
 	 }
 }
 
+#Treaty war ITA-AFU
+ITA_brothers_war = {
+	 potential = {
+		 tag = AFU
+		 ai = no
+		 exists = ITA
+		 has_country_flag = AFU_claim_ITA
+		 NOT = { has_country_flag = ITA_brothers_war }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+	 ITA = {
+		 war = {
+			 target = AFU
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = unification_annex_casus_belli }
+			 call_ally = no
+		 }
+	 }
+		 set_country_flag = ITA_brothers_war
+	 }
+}
+
 #From the Italian Shogunate
 AFU_from_ITS = {
 	 potential = {
@@ -249,14 +275,6 @@ AFU_from_ITS = {
 	 
 	 allow = {
 		 SAR_720 = {
-			 OR = {
-				 owned_by = THIS
-				 owner = {
-					 in_sphere = THIS
-				 }
-			 }
-		 }
-		 SAR_466 = {
 			 OR = {
 				 owned_by = THIS
 				 owner = {
