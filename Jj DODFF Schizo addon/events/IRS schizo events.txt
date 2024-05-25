@@ -1,0 +1,56 @@
+country_event = {
+	 id = 1000000117
+	 title = "EVTNAME1000000117"
+	 desc = "EVTDESC1000000117"
+	 picture = "placeholder"
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000117A"
+		 JAP = { all_core = { add_core = IRS } }
+		 IRS = { inherit = JAP }
+		 IRS = { country_event = 1000000118 }
+		 any_country = {
+			 limit = {
+				 primary_culture = japanese
+			 }
+		 annex_to = IRS
+		 }
+		 ai_chance = { factor = 70 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000117B"
+		 JAP = { all_core = { add_core = IRS } }
+		 ai_chance = { factor = 30 }
+	 }
+}
+
+country_event = {
+	 id = 1000000118
+	 title = "EVTNAME1000000118"
+	 desc = "EVTDESC1000000118"
+	 picture = "Roman_Emperor_Meiji"
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000118"
+		 country_event = 1000000119
+	 }
+}
+
+country_event = {
+	 id = 1000000119
+	 title = "EVTNAME1000000119"
+	 desc = "EVTDESC1000000119"
+	 major = yes
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000119"
+		 add_country_modifier = {
+			 name = Roman_Emperor_Meiji
+			 duration = -1
+		 }
+	 }
+}

@@ -971,6 +971,7 @@ country_event = {
 		 name = "EVTOPA1000000107"
 		 clr_country_flag = AFU_VEN_war
 		 set_country_flag = AFU_VEN_war_over
+		 VEN = { clr_country_flag = custom_treaty_loser }
 		 prestige = 10
 		 AFU = { inherit = VEN }
 		 AFU = { release = GRE }
@@ -1026,5 +1027,270 @@ country_event = {
 		 }
 		 set_country_flag = AFU_prop_GRE_state
 		 set_country_flag = GRE_question_ans
+	 }
+}
+
+#The German Eagle comes a knocking
+country_event = {
+	 id = 1000000109
+	 title = "EVTNAME1000000109"
+	 desc = "EVTDESC1000000109"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 exists = SGF
+		 has_country_flag = AFU_VEN_war_over
+		 has_country_flag = AFU_AUS_dominated
+	 }
+	 
+	 #Give them Istria
+	 option = {
+		 name = "EVTOPA1000000109A"
+		 AUS_736 = { add_core = SGF }
+		 737 = { secede_province = SGF }
+		 736 = { secede_province = SGF }
+		 770 = { secede_province = SGF }
+		 778 = { secede_province = SGF }
+	 }
+	 
+	 #Refuse
+	 option = {
+		 name = "EVTOPA1000000109B"
+		 set_country_flag = AFU_refuse_SGF
+	 }
+}
+
+#Treaty war SGF-AFU
+country_event = {
+	 id = 1000000110
+	 title = "EVTNAME1000000110"
+	 desc = "EVTDESC1000000110"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 exists = SGF
+		 has_country_flag = AFU_refuse_SGF
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000110"
+		 AUS_736 = { add_core = SGF }
+		 SGF = {
+			 war = {
+				 target = AFU
+				 attacker_goal = { casus_belli = custom_treaty_cb }
+				 defender_goal = { casus_belli = custom_treaty_cb }
+				 call_ally = no
+			 }
+		 }
+		 set_country_flag = AFU_SGF_treaty_war
+		 clr_country_flag = AFU_refuse_SGF
+	 }
+}
+
+#Victory!
+country_event = {
+	 id = 1000000111
+	 title = "EVTNAME1000000111"
+	 desc = "EVTDESC1000000111"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_SGF_treaty_war
+		 SGF = {
+			 has_country_flag = custom_treaty_loser
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000111"
+		 AUS_768 = { add_core = THIS }
+		 768 = { secede_province = SGF }
+		 767 = { secede_province = SGF }
+		 618 = { secede_province = SGF }
+		 SGF = { clr_country_flag = custom_treaty_loser }
+		 clr_country_flag = AFU_SGF_treaty_war
+		 clr_country_flag = AFU_AUS_dominated
+	 }
+}
+
+#Defeat
+country_event = {
+	 id = 1000000112
+	 title = "EVTNAME1000000112"
+	 desc = "EVTDESC1000000112"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_SGF_treaty_war
+		 has_country_flag = custom_treaty_loser
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000112"
+		 AUS_736 = { add_core = SGF }
+		 737 = { secede_province = SGF }
+		 736 = { secede_province = SGF }
+		 770 = { secede_province = SGF }
+		 778 = { secede_province = SGF }
+		 clr_country_flag = custom_treaty_loser
+		 clr_country_flag = AFU_SGF_treaty_war
+	 }
+}
+
+#The Aragonese Knights comes for their dues
+country_event = {
+	 id = 1000000113
+	 title = "EVTNAME1000000113"
+	 desc = "EVTDESC1000000113"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 exists = ARA
+		 has_country_flag = AFU_VEN_war_over
+		 has_country_flag = AFU_ARA_dominated
+	 }
+	 
+	 #Give in
+	 option = {
+		 name = "EVTOPA1000000113A"
+		 ARA = { create_vassal = AFU }
+	 }
+	 
+	 #Refuse
+	 option = {
+		 name = "EVTOPA1000000113B"
+		 set_country_flag = AFU_refuse_ARA
+	 }
+}
+
+#Treaty war ARA-AFU
+country_event = {
+	 id = 1000000114
+	 title = "EVTNAME1000000114"
+	 desc = "EVTDESC1000000114"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 exists = SGF
+		 has_country_flag = AFU_refuse_ARA
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000114"
+		 AUS_736 = { add_core = SGF }
+		 ARA = {
+			 war = {
+				 target = AFU
+				 attacker_goal = { casus_belli = custom_treaty_cb }
+				 defender_goal = { casus_belli = custom_treaty_cb }
+				 call_ally = no
+			 }
+		 }
+		 set_country_flag = AFU_ARA_treaty_war
+		 clr_country_flag = AFU_refuse_ARA
+	 }
+}
+
+#Victory!
+country_event = {
+	 id = 1000000115
+	 title = "EVTNAME1000000115"
+	 desc = "EVTDESC1000000115"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_ARA_treaty_war
+		 SGF = {
+			 has_country_flag = custom_treaty_loser
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000115"
+		 any_country = {
+			 limit = {
+				 AND = {
+					 in_sphere = ARA
+					 is_culture_group = italian
+				 }
+			 }
+		 annex_to = THIS
+		 }
+		 ARA = {
+			 any_owned = {
+				 limit = {
+					 OR = {
+						 is_core = ITA
+						 is_core = SIC
+						 is_core = SRD
+					 }
+				 }
+			 secede_province = AFU
+			 }
+		 }
+		 ARA = { clr_country_flag = custom_treaty_loser }
+		 clr_country_flag = AFU_ARA_treaty_war
+		 clr_country_flag = AFU_ARA_dominated
+	 }
+}
+
+#Defeat
+country_event = {
+	 id = 1000000116
+	 title = "EVTNAME1000000116"
+	 desc = "EVTDESC1000000116"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = AFU
+		 ai = no
+		 has_country_flag = AFU_ARA_treaty_war
+		 has_country_flag = custom_treaty_loser
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000116"
+		 ARA = { create_vassal = AFU }
+		 clr_country_flag = custom_treaty_loser
+		 clr_country_flag = AFU_ARA_treaty_war
 	 }
 }

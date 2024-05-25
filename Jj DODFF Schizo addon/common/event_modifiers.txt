@@ -5888,6 +5888,12 @@ the_indomitable_fiuman_spirit = {
 	 mobilization_impact = -0.5
 }
 
+Roman_Emperor_Meiji = {
+	 non_accepted_pop_militancy_modifier = -0.1
+	 non_accepted_pop_consciousness_modifier = -0.2
+	 prestige = 0.05
+}
+
 aussie_colonies = {
 	immigrant_attract = 1
 	life_rating = 0.2
