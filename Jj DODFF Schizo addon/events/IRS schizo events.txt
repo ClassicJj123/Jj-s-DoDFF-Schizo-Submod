@@ -16,14 +16,14 @@ country_event = {
 			 }
 		 annex_to = IRS
 		 }
-		 add_accepted_culture = japanese
+		 IRS = { add_accepted_culture = japanese }
 		 ai_chance = { factor = 70 }
 	 }
 	 
 	 option = {
 		 name = "EVTOPA1000000117B"
 		 JAP = { all_core = { add_core = IRS } }
-		 add_accepted_culture = japanese
+		 IRS = { add_accepted_culture = japanese }
 		 ai_chance = { factor = 30 }
 	 }
 }

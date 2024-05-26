@@ -13,8 +13,8 @@ Current paths:
 7. Minnor SCA flavor (By Nej, thanks)
 8. PLA return Home (By Nej, thanks)
 9. YUAN CONTENT (By Nej, thanks)
-10. CLM content to conquer Quito/Inca
-11. Spainish Aussie
+10. CLM content to conquer Quito/Inca (By Nej, thanks)
+11. Spainish Aussie (By Nej, thanks)
 
 Planned things:
 1. Europe wide civil war (technically done in the HLR insane Siggy path)

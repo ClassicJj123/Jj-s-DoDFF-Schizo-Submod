@@ -32,6 +32,7 @@ DCH = "countries/Democratic China.txt"
 FCH = "countries/Fascist China.txt"
 YUA = "countries/Yuan.txt"
 ASP = "countries/SpaAustralia.txt"
+#SIG = "countries/Singapore.txt"
 
 ### DIVERGENCES ###
 SFJ		= "countries/Sudurhafeyjar.txt"

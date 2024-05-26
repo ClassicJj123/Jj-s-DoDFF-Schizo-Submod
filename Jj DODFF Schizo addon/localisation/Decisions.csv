@@ -179,11 +179,19 @@ accept_andean_natives_title;Integrate Andean Natives;;;;;;;;;;;;;x,,,,,,,,
 accept_andean_natives_desc;The peoples of the former Incan Empire are a rainbow of diversity, descending from many different tribes, all having unique languages and cultural differences. Now that the Inca have been brought down and Quito humbled, we have room to offer them a place in our empire, as they are far too big for us to reasonably colonize, with the region being too unappetizing to potential settlers. With very generous financial programs, we can make them feel more than at home under our rule.;;;;;;;;;;;;;x,,,,,,,,
 ban_slavery_and_serfdom_yua_title;The Twin Evils;;;;;;;;;;;;;x,,,,,,,,
 ban_slavery_and_serfdom_yua_desc;Serfdom and slavery are the twin evils which keep our society locked in the dark ages. We must remove both of these practices at once! with generous compensation to the now-former slaveowners and serfholders to avoid any political upheaval such a dramatic course of action will cause.;;;;;;;;;;;;;x,,,,,,,,
-make_civil_war_easier_YUA_title;Make The Civil War Easier
+make_civil_war_easier_YUA_title;Make The Civil War Easier;;;;;;;;;;;;;x,,,,,,,,
 make_civil_war_easier_YUA_desc;In lieu of balancing changes which are yet to come, this decision can be taken if the civil war proves too challenging.;;;;;;;;;;;;;x,,,,,,,,
-organize_ASP_title;Organize The Oustralia Colony;;;;;;;;;;;;;;x;;;;;;;;
-organize_ASP_desc;Against all odds, Spain has managed to secure a significant degree of influence in the southern continent of Australia. We should formalize our rule by creating a full colony to govern it for us.;;;;;;;;;;;;;;x;;;;;;;;
-send_colonists_to_asp_title;Send Colonists to Oustralia;;;;;;;;;;;;;;x;;;;;;;;
-send_colonists_to_asp_desc;Our colony in Oustralia is filled with natural resources, just waiting to be withdrawn. Now we need only bring Spaniards over to take them!.;;;;;;;;;;;;;;x;;;;;;;;
-integrate_asp_title;Integrate Oustralia into the Commonwealth;;;;;;;;;;;;;;x;;;;;;;;
-integrate_asp_desc;Just because Oustralia is our newest colony doesn't mean that it is any less important to the Hispanic crown. We should make them an equal part of our empire, just as we have for the Amerigan colonies.;;;;;;;;;;;;;;x;;;;;;;;
+organize_ASP_title;Organize The Oustralia Colony;;;;;;;;;;;;;x,,,,,,,,
+organize_ASP_desc;Against all odds, Spain has managed to secure a significant degree of influence in the southern continent of Australia. We should formalize our rule by creating a full colony to govern it for us.;;;;;;;;;;;;;x,,,,,,,,
+send_colonists_to_asp_title;Send Colonists to Oustralia;;;;;;;;;;;;;x,,,,,,,,
+send_colonists_to_asp_desc;Our colony in Oustralia is filled with natural resources, just waiting to be withdrawn. Now we need only bring Spaniards over to take them!.;;;;;;;;;;;;;x,,,,,,,,
+integrate_asp_title;Integrate Oustralia into the Commonwealth;;;;;;;;;;;;;x,,,,,,,,
+integrate_asp_desc;Just because Oustralia is our newest colony doesn't mean that it is any less important to the Hispanic crown. We should make them an equal part of our empire, just as we have for the Amerigan colonies.;;;;;;;;;;;;;x,,,,,,,,
+FIU_sus_man_title;A suspicious man;;;;;;;;;;;;;x,,,,,,,,
+FIU_sus_man_desc;A man has appeared outside of the regent's office, seaking a meeting with him;;;;;;;;;;;;;x,,,,,,,,
+AFU_concession_AUS_title;Concessions to Austria;;;;;;;;;;;;;x,,,,,,,,
+AFU_concession_AUS_desc;To improve our industry, let us give the Austrians some concessions;;;;;;;;;;;;;x,,,,,,,,
+AFU_concession_ARA_title;Concessions to Aragon;;;;;;;;;;;;;x,,,,,,,,
+AFU_concession_ARA_desc;To improve our industry, let us give the Aragonese some concessions;;;;;;;;;;;;;x,,,,,,,,
+AFU_spread_propaganda_istria_title;Preach our ways to the rest of Istria;;;;;;;;;;;;;x,,,,,,,,
+AFU_spread_propaganda_istria_desc;Now that our nation is back on track, let us spread our Revolution!;;;;;;;;;;;;;x,,,,,,,,
