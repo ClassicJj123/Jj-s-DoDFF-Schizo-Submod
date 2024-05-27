@@ -644,7 +644,7 @@ claim_SEA_commie = {
 		government = proletarian_dictatorship
 	}
 	allow = {
-		1502 { owned_by = THIS } }
+		1502 { owned_by = THIS }
 		prestige = 200
 	}
 	effect = {

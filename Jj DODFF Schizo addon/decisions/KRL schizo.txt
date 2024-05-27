@@ -87,7 +87,7 @@ Claim_lithuania = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 NOT = {
-			 RUS_360 = { is_core = UDU }
+			 947 = { is_core = UDU }
 		 }
 	 }
 	 
@@ -150,8 +150,8 @@ Claim_belarus = {
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = Teutonic_path
 		 NOT = {
-			 RUS_946 = { is_core = TEU }
-			 RUS_718 = { is_core = TEU }
+			 948 = { is_core = TEU }
+			 718 = { is_core = TEU }
 			 937 = { is_core = TEU }
 		 }
 	 }
@@ -175,7 +175,7 @@ Claim_pskov = {
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = Teutonic_path
 		 NOT = {
-			 RUS_996 = { is_core = TEU }
+			 997 = { is_core = TEU }
 		 }
 	 }
 	 
@@ -258,8 +258,8 @@ Pommerania_Holstein_claims = {
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = GER_path
 		 NOT = {
-			 PRU_546 = { is_core = UDU }
-			 HOL_369 = { is_core = UDU }
+			 546 = { is_core = UDU }
+			 369 = { is_core = UDU }
 		 }
 	 }
 	 
@@ -483,7 +483,6 @@ Nuke_burgundian_claims = {
 
 #Nuke Scandi claims
 Nuke_SCA_claims = {
-	 Nuke_burgundian_claims = {
 	 potential = {
 		 tag = LGC
 		 ai = no
@@ -505,4 +504,6 @@ Nuke_SCA_claims = {
 		 }
 		 country_event = 1000000033
 	 }
+}
+
 }

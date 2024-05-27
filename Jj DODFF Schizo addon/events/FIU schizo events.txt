@@ -350,9 +350,9 @@ country_event = {
 
 #Aragonese domination
 country_event = {
-	 id = 1000000090
-	 title = "EVTNAME1000000090"
-	 desc = "EVTDESC1000000090"
+	 id = 1000000124
+	 title = "EVTNAME1000000124"
+	 desc = "EVTDESC1000000124"
 	 picture = "placeholder"
 	 fire_only_once = yes
 	 
@@ -369,7 +369,7 @@ country_event = {
 	 }
 	 
 	 option = {
-		 name = "EVTOPA1000000090"
+		 name = "EVTOPA1000000124"
 		 add_country_modifier = {
 			 name = ARA_domination
 			 duration = -1
@@ -762,7 +762,7 @@ country_event = {
 	 option = {
 		 name = "EVTOPA1000000101"
 		 VEN = {
-			 any_core = {
+			 any_owned = {
 				 limit = {
 					 is_core = AFU
 				 }
@@ -924,7 +924,6 @@ country_event = {
 	 immediate = {
 		define_general = {
 		name = "Schizo Jj"
-		picture = DeNuke_general_0
 		personality = schizo
 		background = school_of_defense
 		}
