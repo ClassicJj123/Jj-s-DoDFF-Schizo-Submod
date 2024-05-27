@@ -25,9 +25,9 @@ civilized = yes
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = population_equal_weight
-vote_franschise = landed_voting
-public_meetings = yes_meeting
+upper_house_composition = party_appointed
+vote_franschise = no_voting
+public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
@@ -38,9 +38,9 @@ conscription = four_year_draft
 centralization = unitary
 debt_law = debtors_prisons
 colonial_policy = no_colonies
-child_labor = child_labor_legal
+child_labor = child_labor_illegal
 border_policy = open_borders
-school_reforms = no_schools
+school_reforms = low_schools
 
 # Social Reforms
 wage_reform = no_minimum_wage

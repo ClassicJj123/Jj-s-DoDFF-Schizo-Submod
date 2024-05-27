@@ -5901,3 +5901,10 @@ aussie_colonies = {
 	assimilation_rate = 0.25
 	icon = 9
 }
+
+Singapore_miricle = {
+	 global_assimilation_rate = 100
+     global_immigrant_attract = 1
+	 global_population_growth = 0.01
+     non_accepted_pop_militancy_modifier = -0.1
+}

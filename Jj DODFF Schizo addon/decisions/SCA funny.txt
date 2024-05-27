@@ -43,4 +43,22 @@ pictrure = British_islands
 	}
 }
 
+#Singapore submod
+play_SG_submod = {
+	 potential = {
+		tag = SCA
+		ai = no
+		has_country_flag = Schzio_mod_show
+		NOT = { has_country_flag = SG_submod_active }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 set_country_flag = SG_submod_active
+	 }
+}
+
+
 }

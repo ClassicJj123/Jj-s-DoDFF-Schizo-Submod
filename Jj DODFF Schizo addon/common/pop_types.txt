@@ -634,6 +634,12 @@ migration_chance =
 			}
 		}
 	}
+	
+	#Singapore
+	modifier = {
+        factor = 10
+        tag = SIG
+    }
 }
 
 #general colonial migration mtth, same for all pops

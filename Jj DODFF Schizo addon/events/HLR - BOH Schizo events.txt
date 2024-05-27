@@ -2233,7 +2233,7 @@ country_event = {
 		 }
 		 set_country_flag = HLR_civil_war
 		 set_country_flag = east_revolt
-		 change_tag = RUV
+		 change_tag_no_core_switch = RUV
 	 }
 }
 
