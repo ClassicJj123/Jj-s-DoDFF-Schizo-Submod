@@ -15,6 +15,7 @@ Current paths:
 9. YUAN CONTENT (By Nej, thanks)
 10. CLM content to conquer Quito/Inca (By Nej, thanks)
 11. Spainish Aussie (By Nej, thanks)
+12. Fiume to Roman Shogunate (Emperor Meiji is shocked) (Not done with localization)
 
 Planned things:
 1. Europe wide civil war (technically done in the HLR insane Siggy path)
