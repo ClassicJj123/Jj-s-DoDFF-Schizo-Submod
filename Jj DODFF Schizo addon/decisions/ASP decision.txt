@@ -7,6 +7,10 @@ organize_ASP = {
 				tag = SPA 
 				tag = SPC
 			}
+			NOT = { tag = PBG }
+			NOT = { tag = BRG }
+			NOT = { tag = SCA }
+			NOT = { tag = DUA }
 			NOT = {
 				has_global_flag = ASP_organized
 				capital_scope = { continent = oceania }

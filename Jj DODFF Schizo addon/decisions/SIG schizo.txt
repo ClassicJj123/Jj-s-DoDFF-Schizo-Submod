@@ -1,0 +1,146 @@
+political_decisions = {
+
+#subjugate the sultan of Malacca
+SIG_subjugate_JOH = {
+	 potential = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = SIG_subjugate_JOH }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 JOH = { country_event = 1000000130 }
+		 set_country_flag = SIG_subjugate_JOH
+	 }
+}
+
+#test break free
+SIG_test = {
+	 potential = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = SIG_test }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 SCA = { release_vassal = SIG }
+		 set_country_flag = SIG_test
+		 SIG = {
+			 government = parliamentary_republic
+			 political_reform = appointed
+			 political_reform = landed_voting
+			 political_reform = no_meeting
+			 political_reform = state_press
+			 political_reform = no_trade_unions
+			 political_reform = first_past_the_post
+			 political_reform = underground_parties
+			 primary_culture = tionghoa
+			 add_accepted_culture = scandinavian
+		 }
+	 }
+}
+
+#From SEA master
+From_SEA_master = {
+	 potential = {
+		 OR = {
+			 primary_culture = malay
+			 primary_culture = tionghoa
+		 }
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+	 }
+	 
+	 allow = {
+		 BUR_1339 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 BUR_1334 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 BUR_1330 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 BUR_1352 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 SIA_1355 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 SIA_1358 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 SIA_1366 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 SIA_1346 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 SIA_1367 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 ANN_1383 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 ANN_1379 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 ANN_1374 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 LUA_1356 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 ANN_1371 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 ENG_1392 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 JOH_1387 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 LYM_2576 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 #Maritine SEA
+		 ATJ_1405 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 PAG_1408 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 NET_1398 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 BRU_1394 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 SUL_1459 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 BLG_1429 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 TNJ_1427 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 SPA_1455 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 SPA_1460 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 SPA_1463 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 NET_1433 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 NET_1430 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 NET_1449 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 NET_1460 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 BIM_1439 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 BAL_1446 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 BAL_1438 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 NET_1419 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 NET_1414 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 NET_1421 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+	 }
+	 
+	 effect = {
+		 BUR_1339 = { add_core = SEA }
+		 BUR_1334 = { add_core = SEA }
+		 BUR_1330 = { add_core = SEA }
+		 BUR_1352 = { add_core = SEA }
+		 SIA_1355 = { add_core = SEA }
+		 SIA_1358 = { add_core = SEA }
+		 SIA_1366 = { add_core = SEA }
+		 SIA_1346 = { add_core = SEA }
+		 SIA_1367 = { add_core = SEA }
+		 ANN_1383 = { add_core = SEA }
+		 ANN_1379 = { add_core = SEA }
+		 ANN_1374 = { add_core = SEA }
+		 LUA_1356 = { add_core = SEA }
+		 ANN_1371 = { add_core = SEA }
+		 ENG_1392 = { add_core = SEA }
+		 JOH_1387 = { add_core = SEA }
+		 LYM_2576 = { add_core = SEA }
+		 #Maritine SEA
+		 ATJ_1405 = { add_core = SEA }
+		 PAG_1408 = { add_core = SEA }
+		 NET_1398 = { add_core = SEA }
+		 BRU_1394 = { add_core = SEA }
+		 SUL_1459 = { add_core = SEA }
+		 BLG_1429 = { add_core = SEA }
+		 TNJ_1427 = { add_core = SEA }
+		 SPA_1455 = { add_core = SEA }
+		 SPA_1460 = { add_core = SEA }
+		 SPA_1463 = { add_core = SEA }
+		 NET_1433 = { add_core = SEA }
+		 NET_1430 = { add_core = SEA }
+		 NET_1449 = { add_core = SEA }
+		 NET_1460 = { add_core = SEA }
+		 BIM_1439 = { add_core = SEA }
+		 BAL_1446 = { add_core = SEA }
+		 BAL_1438 = { add_core = SEA }
+		 NET_1419 = { add_core = SEA }
+		 NET_1414 = { add_core = SEA }
+		 NET_1421 = { add_core = SEA }
+		 change_tag = SEA
+	 }
+}
+
+}

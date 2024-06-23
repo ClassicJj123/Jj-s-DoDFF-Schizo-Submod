@@ -29,8 +29,11 @@ province_event = {
 			region = GAN_3289
 			region = GAN_3290
 			}
-		owned_by = THIS
-		controlled_by = THIS
+		OR = {
+			owned_by = SPA
+			owned_by = SPC
+			owned_by = ASP
+		}
 		OR = {
 		   any_neighbor_province = {
 			  is_core = ASP
@@ -76,6 +79,7 @@ province_event = {
 				add_core = ASP
 				remove_core = ASS 
 				remove_core = ASG
+				remove_core = AST
 				any_pop = { militancy = -3 }
 				add_province_modifier = {
 					name = colonial_exploitation

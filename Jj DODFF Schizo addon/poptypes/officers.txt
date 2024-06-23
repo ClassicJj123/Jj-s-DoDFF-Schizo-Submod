@@ -1530,6 +1530,12 @@ promote_to =
             country = { has_country_flag = colonial_armies }
         }		
 		
+		#Schizo stop soldiers
+		 modifier = {
+			 factor = -1000
+			 country = { has_country_flag = stopsoldierpromotions }
+		 }
+		
 	}
 		artisans =
 	{

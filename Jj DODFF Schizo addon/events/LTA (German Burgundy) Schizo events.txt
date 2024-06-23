@@ -26,35 +26,30 @@ country_event = {
 		 }
 		 any_owned = {
 			 limit = {
-				 is_core = BRG
-				 NOT = {
-					 OR = {
-						 is_core = LRR
-						 is_core = BOG
-					 }
-				 }
-			 }
-		 remove_core = BRG
-		 }
-		 any_owned = {
-			 limit = {
-				 is_core = BRG
-			 }
-		 add_province_modifier = {
-				 name = Germanisation_program
-				 duration = -1
-		 }
-		 }
-		 any_owned = {
-			 limit = {
 				 OR = {
-					 has_pop_culture = rheinish
-					 has_pop_culture = dutch
-					 has_pop_culture = frisian
-					 has_pop_culture = brabantian
+					 is_core = NET
+					 is_core = RHI
+					 is_core = BRB
+					 is_core = ALS
 				 }
 			 }
 		 assimilate = yes
+		 }
+		 any_owned = {
+			 limit = {
+				 AND = {
+					 is_core = BRG
+					 NOT ={
+						 OR = {
+							 is_core = NET
+							 is_core = RHI
+							 is_core = BRB
+							 is_core = ALS
+						 }
+					 }
+				 }
+			 }
+		 add_core = BGR
 		 }
 		 any_owned = {
 			 limit = {
@@ -72,6 +67,21 @@ country_event = {
 				 duration = -1
 		 }
 		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BRG
+			 }
+		 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+		 }
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BRG
+			 }
+		 remove_core = BRG
+		 }
 		 RHI = {
 			 primary_culture = lotharingian
 			 add_accepted_culture = rheinish
@@ -80,7 +90,23 @@ country_event = {
 			 primary_culture = lotharingian
 			 add_accepted_culture = dutch
 		 }
+		 BRB = {
+			 primary_culture = lotharingian
+			 add_accepted_culture = brabantian
+		 }
+		 ALS = {
+			 primary_culture = lotharingian
+			 add_accepted_culture = swabian
+		 }
 		 LRR = {
+			 primary_culture = lotharingian
+			 add_accepted_culture = burgundian
+		 }
+		 VOC = {
+			 primary_culture = lotharingian
+			 add_accepted_culture = burgundian
+		 }
+		 SAF = {
 			 primary_culture = lotharingian
 			 add_accepted_culture = burgundian
 		 }
@@ -107,14 +133,18 @@ country_event = {
 	 
 	 option = {
 		 name = "EVTOPA1000000066"
-		 release = BRG
-		 BRG = {
+		 release = BGR
+		 create_vassal = BGR
+		 BGR = {
 			 civilized = yes
 			 nationalvalue = nv_order
-			 ruling_party_ideology = paternal
-			 primary_culture = burgundian
-			 add_accepted_culture = dutch
-			 add_accepted_culture = brabantian
+			 ruling_party_ideology = reactionary
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = BGR
+			 }
+		 secede_province = BGR
 		 }
 		 clr_country_flag = LTA_civil_war_waiting
 		 set_country_flag = LTA_civil_war_waiting_2
@@ -136,14 +166,15 @@ country_event = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_civil_war_waiting_2
-		 exists = PBG
+		 exists = BGR
 	 }
 	 
 	 option = {
 		 name = "EVTOPA1000000067"
 		 LTA = { remove_accepted_culture = burgundian }
+		 LTA = { release_vassal = BGR }
 		 war = {
-			 target = PBG
+			 target = BGR
 			 attacker_goal = { casus_belli = unification_annex_casus_belli }
 			 defender_goal = { casus_belli = custom_treaty_cb }
 			 call_ally = no
@@ -174,8 +205,9 @@ country_event = {
 		 name = "EVTOPA1000000068"
 		 clr_country_flag = LTA_civil_war
 		 clr_country_flag = custom_treaty_loser
+		 change_tag = BGR
+		 BGR = { inherit = LTA }
 		 change_tag = BRG
-		 BRG = { inherit = LTA }
 	 }
 }
 
@@ -193,17 +225,14 @@ country_event = {
 		 tag = LTA
 		 ai = no
 		 has_country_flag = LTA_civil_war
-		 AND = {
-			 NOT = { exists = PBG }
-			 NOT = { exists = BRG }
-		 }
+		 NOT = { exists = BGR }
 	 }
 	 
 	 option = {
 		 name = "EVTOPA1000000069A"
 		 clr_country_flag = LTA_civil_war
 		 set_country_flag = LTA_phase_2
-		 LTA = { inherit = PBG }
+		 LTA = { inherit = BGR }
 		 LTA = { add_accepted_culture = burgundian }
 	 }
 	 
@@ -211,12 +240,12 @@ country_event = {
 		 name = "EVTOPA1000000069B"
 		 clr_country_flag = LTA_civil_war
 		 set_country_flag = LTA_phase_2
-		 LTA = { inherit = PBG }
+		 LTA = { inherit = BGR }
 		 any_owned = {
 			 limit = {
-				 is_core = PBG
+				 is_core = BGR
 			 }
-		 remove_core = PBG
+		 remove_core = BGR
 		 }
 		 any_owned = {
 			 limit = {
@@ -227,48 +256,42 @@ country_event = {
 				 duration = -1
 		 }
 		 }
-		 any_owned = {
-			 limit = {
-				 is_core = BRG
-			 }
-		 remove_core = BRG
-		 }
 	 }
 }
 
-#Lotharingian civil war, did you expect the Burgundians to go quitely? (If BRG exisit)
-country_event = {
-	 id = 1000000070
-	 title = "EVTNAME1000000070"
-	 desc = "EVTDESC1000000070"
-	 picture = "placeholder"
-	 fire_only_once = yes
-	 
-	 mean_time_to_happen = { months = 1 }
-	 
-	 trigger = {
-		 tag = LTA
-		 ai = no
-		 has_country_flag = Schzio_mod_show
-		 has_country_flag = LTA_civil_war_waiting_2
-		 exists = BRG
-	 }
-	 
-	 option = {
-		 name = "EVTOPA1000000070"
-		 LTA = { remove_accepted_culture = burgundian }
-		 war = {
-			 target = BRG
-			 attacker_goal = { casus_belli = unification_annex_casus_belli }
-			 defender_goal = { casus_belli = custom_treaty_cb }
-			 call_ally = no
-		 }
-		 clr_country_flag = LTA_civil_war_waiting_2
-		 set_country_flag = LTA_civil_war
-	 }
-}
+#Lotharingian civil war, did you expect the Burgundians to go quitely? (If BRG exisit) (Removed, event No. can be used)
+#country_event = {
+#	 id = 1000000070
+#	 title = "EVTNAME1000000070"
+#	 desc = "EVTDESC1000000070"
+#	 picture = "placeholder"
+#	 fire_only_once = yes
+#	 
+#	 mean_time_to_happen = { months = 1 }
+#	 
+#	 trigger = {
+#		 tag = LTA
+#		 ai = no
+#		 has_country_flag = Schzio_mod_show
+#		 has_country_flag = LTA_civil_war_waiting_2
+#		 exists = BRG
+#	 }
+#	 
+#	 option = {
+#		 name = "EVTOPA1000000070"
+#		 LTA = { remove_accepted_culture = burgundian }
+#		 war = {
+#			 target = BRG
+#			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+#			 defender_goal = { casus_belli = custom_treaty_cb }
+#			 call_ally = no
+#		 }
+#		 clr_country_flag = LTA_civil_war_waiting_2
+#		 set_country_flag = LTA_civil_war
+#	 }
+#}
 
-#assimilation test
+#WFK assimilation
 country_event = {
 	 id = 1000000071
 	 title = "EVTNAME1000000071"
@@ -281,19 +304,22 @@ country_event = {
 		 name = "EVTOPA1000000071"
 		 any_owned = {
 			 limit = {
-				 OR = {
-					 is_core = OCC
+				 OR ={
 					 is_core = FRA
 					 is_core = BRT
 				 }
 			 }
-		 add_province_modifier = {
+			 remove_core = FRA
+			 remove_core = BRT
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = WFK
+			 }
+			 add_province_modifier = {
 				 name = Germanisation_program
 				 duration = -1
-		 }
-		 remove_core = OCC
-		 remove_core = FRA
-		 remove_core = BRT
+			 }
 		 }
 		 WFK = { 425 = { assimilate = yes } }
 		 WFK = { 427 = { assimilate = yes } }
@@ -345,5 +371,210 @@ country_event = {
 		 724 = { assimilate = yes }
 		 736 = { assimilate = yes }
 		 set_country_flag = LOM_GER_ITA
+	 }
+}
+
+#German papal states
+country_event = {
+	 id = 1000000125
+	 title = "EVTNAME1000000125"
+	 desc = "EVTDESC1000000125"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000125"
+		 any_owned = {
+			 limit = {
+				 is_core = GPA
+			 }
+		 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+		 }
+		 remove_core = PAP
+		 remove_core = FRR
+		 }
+		 749 = { assimilate = yes }
+		 743 = { assimilate = yes }
+		 set_country_flag = LOM_GER_ITA
+	 }
+}
+
+#Visigoths
+country_event = {
+	 id = 1000000126
+	 title = "EVTNAME1000000126"
+	 desc = "EVTDESC1000000126"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000126"
+		 any_owned = {
+			 limit = {
+				 is_core = VIS
+			 }
+		 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+		 }
+		 remove_core = SPA
+		 remove_core = NAV
+		 remove_core = ARA
+		 remove_core = CAT
+		 remove_core = ANA
+		 remove_core = CST
+		 remove_core = ATR
+		 remove_core = GAL
+		 remove_core = POR
+		 remove_core = SPC
+		 }
+		 493 = { assimilate = yes }
+		 520 = { assimilate = yes }
+		 487 = { assimilate = yes }
+		 502 = { assimilate = yes }
+		 498 = { assimilate = yes }
+		 509 = { assimilate = yes }
+		 set_country_flag = VIS_GER_SPA
+	 }
+}
+
+#NUKE SOLDIER EVENT
+#Don't try it
+country_event = {
+	 id = 1000000127
+	 title = "EVTNAME1000000127"
+	 desc = "EVTDESC1000000127"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000127"
+		 any_owned = {
+            limit = {
+                has_pop_type = soldiers
+            }
+            any_pop = {
+				 limit = {
+					 type = soldiers
+				 }
+				 pop_type = farmers
+			 }
+         }
+		 set_country_flag = stopsoldierpromotions
+	 }
+}
+
+#Vandal
+country_event = {
+	 id = 1000000128
+	 title = "EVTNAME1000000128"
+	 desc = "EVTDESC1000000128"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000128"
+		 any_owned = {
+			 limit = {
+				 is_core = VAN
+			 }
+		 remove_core = ARA
+		 remove_core = SPA
+		 remove_core = SUS
+		 remove_core = EGY
+		 remove_core = LIB
+		 remove_core = ALD
+		 remove_core = TUR
+		 remove_core = TUN
+		 remove_core = MOR
+		 remove_core = FEZ
+		 remove_core = RIF
+		 remove_core = KBL
+		 remove_core = ALJ
+		 remove_core = TRI
+		 remove_core = LBY
+		 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+		 }
+		 }
+		 1688 = { assimilate = yes }
+		 1685 = { assimilate = yes }
+		 1690 = { assimilate = yes }
+		 1699 = { assimilate = yes }
+		 1704 = { assimilate = yes }
+		 3286 = { assimilate = yes }
+		 1713 = { assimilate = yes }
+		 3282 = { assimilate = yes }
+		 1730 = { assimilate = yes }
+		 1733 = { assimilate = yes }
+		 1743 = { assimilate = yes }
+		 1737 = { assimilate = yes }
+		 1745 = { assimilate = yes }
+		 set_country_flag = VAN_GER_north_africa
+	 }
+}
+
+#Hungary
+country_event = {
+	 id = 1000000129
+	 title = "EVTNAME1000000129"
+	 desc = "EVTDESC1000000129"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000129"
+		 GHU = { remove_accepted_culture = slovak }
+		 any_owned = {
+			 limit = {
+				 is_core = GHU
+			 }
+		 remove_core = SLV
+		 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+		 }
+		 }
+		 641 = { assimilate = yes }
+		 633 = { assimilate = yes }
+		 652 = { assimilate = yes }
+		 661 = { assimilate = yes }
+		 640 = { assimilate = yes }
+		 2538 = { assimilate = yes }
+		 set_country_flag = SGF_GER_HUN
+	 }
+}
+
+#Livonia
+country_event = {
+	 id = 1000000137
+	 title = "EVTNAME1000000137"
+	 desc = "EVTDESC1000000137"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000137"
+		 any_owned = {
+			 limit = {
+				 is_core = LIV
+			 }
+		 remove_core = EST
+		 remove_core = LAT
+		 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+		 }
+		 }
+		 set_country_flag = SGF_GER_HUN
 	 }
 }

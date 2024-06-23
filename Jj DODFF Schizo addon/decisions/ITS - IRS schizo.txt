@@ -596,7 +596,27 @@ IRS_claim_england = {
 	 effect = {
 		 badboy = 5
 		 ENL = { all_core = { add_core = IRS } }
+		 AEN = { all_core = { add_core = IRS } }
+		 NTL = { all_core = { add_core = IRS } }
 		 set_country_flag = IRS_claim_england
+	 }
+}
+
+#Accept the English
+IRS_accept_england = {
+	 potential = {
+		 tag = IRS
+		 ai = no
+		 has_country_flag = IRS_claim_england
+		 NOT = { has_country_flag = IRS_accept_england }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = english
+		 set_country_flag = IRS_accept_england
 	 }
 }
 
@@ -609,6 +629,7 @@ IRS_japanese_question = {
 		 has_country_flag = IRS_claim_rhineland
 		 has_country_flag = IRS_claim_belgica
 		 has_country_flag = IRS_claim_gual
+		 has_country_flag = IRS_claim_england
 	 }
 	 
 	 allow = {

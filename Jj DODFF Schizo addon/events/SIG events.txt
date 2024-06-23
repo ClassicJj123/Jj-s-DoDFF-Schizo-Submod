@@ -90,12 +90,194 @@ country_event = {
 		 1402 = { add_core = SIG }
 		 release = SIG
 		 create_vassal = SIG
-		 SIG = { prestige = -60 }
+		 SIG = { prestige = -90 }
 		 SIG = {
 		 	 government = autonomous_dependency
 		 	 nationalvalue = nv_order
 		 	 ruling_party_ideology = conservative
+			 add_accepted_culture = scandinavian
+		 }
+		 change_tag_no_core_switch = SIG
+		 set_country_flag = SCA_establish_crown_colony_of_singapore
+		 SIG = { set_country_flag = Schzio_mod_show }
+		 #set_country_flag = SIG_migration
+	 }
+}
+
+#Join or die Malacca.
+country_event = {
+	 id = 1000000130
+	 title = "EVTNAME1000000130"
+	 desc = "EVTDESC1000000130"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 #Join we can't win
+	 option = {
+		 name = "EVTOPA1000000130A"
+		 SIG = { inherit = JOH }
+		 JOH = { all_core = { add_core = SIG } }
+		 SIG = { prestige = 5 }
+		 ai_chance = { factor = 80 }
+	 }
+	 
+	 #Refuse
+	 option = {
+		 name = "EVTOPA1000000130B"
+		 JOH = { all_core = { add_core = SIG } }
+		 war = {
+			 target = JOH
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 ai_chance = { factor = 20 }
+	 }
+}
+
+#VINLAND IS FREEEEEE!!!!
+country_event = {
+	 id = 1000000131
+	 title = "EVTNAME1000000131"
+	 desc = "EVTDESC1000000131"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 1 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_global_flag = VIN_IS_FREE
+	 }
+	 
+	 #Scandi is distracted! Let's break free!
+	 option = {
+		 name = "EVTOPA1000000131"
+		 SCA = { release_vassal = SIG }
+		 SCA = { country_event = 1000000132 }
+		 SIG = {
+			 government = presidential_dictatorship
+			 political_reform = appointed
+			 political_reform = landed_voting
+			 political_reform = no_meeting
+			 political_reform = state_press
+			 political_reform = no_trade_unions
+			 political_reform = first_past_the_post
+			 political_reform = underground_parties
+		 }
+		 set_country_flag = SIG_phase_2
+	 }
+}
+
+#Singapore Broke free, our response?
+country_event = {
+	 id = 1000000132
+	 title = "EVTNAME1000000132"
+	 desc = "EVTDESC1000000132"
+	 picture = "placeholder"
+	
+	 is_triggered_only = yes
+	 
+	 #Let them be
+	 option = {
+		 name = "EVTOPA1000000132A"
+		 SIG = { country_event = 1000000134 }
+		 set_global_flag = SIG_FREE
+		 ai_chance = { factor = 70 }
+	 }
+	 
+	 #END THEM!
+	 option = {
+		 name = "EVTOPA1000000132B"
+		  war = {
+			 target = SIG
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 set_global_flag = SCA_SIG_war
+		 ai_chance = { factor = 30 }
+	 }
+}
+
+#Victory!
+country_event = {
+	 id = 1000000133
+	 title = "EVTNAME1000000133"
+	 desc = "EVTDESC1000000133"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 1 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 war = no
+		 has_global_flag = SCA_SIG_war
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000133"
+		 prestige = 5
+		 country_event = 1000000134
+		 set_global_flag = SIG_FREE
+		 clr_global_flag = SCA_SIG_war
+	 }
+}
+
+#Proclaim the State of Singapore!
+country_event = {
+	 id = 1000000134
+	 title = "EVTNAME1000000134"
+	 desc = "EVTDESC1000000134"
+	 major = yes
+	
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000134"
+		 prestige = 5
+		 country_event = 1000000135
+	 }
+}
+
+#Question of Government
+country_event = {
+	 id = 1000000135
+	 title = "EVTNAME1000000135"
+	 desc = "EVTDESC1000000135"
+	 picture = "placeholder"
+	
+	 is_triggered_only = yes
+	 
+	 #Crown a Scandi prince to not get 2 by 4'ed in the head later
+	 option = {
+		 name = "EVTOPA1000000135A"
+		 set_country_flag = SIG_SCA_route
+		 SIG = {
+			 government = absolute_monarchy
+			 political_reform = appointed
+			 political_reform = landed_voting
+			 political_reform = no_meeting
+			 political_reform = state_press
+			 political_reform = no_trade_unions
+			 political_reform = first_past_the_post
+			 political_reform = underground_parties
 			 primary_culture = scandinavian
+			 add_accepted_culture = malay
+		 }
+	 }
+	 
+	 #Draft up a constitution! Republic is the way to go!
+	 option = {
+		 name = "EVTOPA1000000135B"
+		 set_country_flag = SIG_republic_route
+		 set_country_flag = SIG_migration
+		 SIG = {
+			 primary_culture = tionghoa
 			 add_accepted_culture = malay
 		 }
 		 SIG = {
@@ -104,7 +286,52 @@ country_event = {
 		 		 duration = -1
 		 	 }
 		 }
-		 change_tag_no_core_switch = SIG
-		 set_country_flag = SCA_establish_crown_colony_of_singapore
+	 }
+	 
+	 #Crown the Ex-Malaccan sultan!
+	 option = {
+		 name = "EVTOPA1000000135C"
+		 set_country_flag = SIG_JOH_route
+		 SIG = {
+			 government = absolute_monarchy
+			 political_reform = appointed
+			 political_reform = landed_voting
+			 political_reform = no_meeting
+			 political_reform = state_press
+			 political_reform = no_trade_unions
+			 political_reform = first_past_the_post
+			 political_reform = underground_parties
+		 }
+	 }
+}
+
+##############################################
+##############Scandinavian Path###############
+##############################################
+#Please Scandi-sama, don't kill me~
+
+#The Question of our loyalty
+country_event = {
+	 id = 1000000136
+	 title = "EVTNAME1000000136"
+	 desc = "EVTDESC1000000136"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = SIG_SCA_route
+	 }
+	 
+	 #Let the Great game begin
+	 option = {
+		 name = "EVTOPA1000000136"
+		 set_variable = {
+			 which = SIG_loyalty
+			 value = 1
+		 }
 	 }
 }

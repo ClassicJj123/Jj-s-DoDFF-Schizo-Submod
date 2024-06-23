@@ -1,0 +1,279 @@
+political_decisions = {
+
+#Claim Silesia
+TES_claim_silesia = {
+	 potential = {
+		 tag = TES
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = TES_claim_silesia }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 SIL = { all_core = { add_core = THIS } }
+		 set_country_flag = TES_claim_silesia
+	 }
+}
+
+#Claim Polish leadership
+TES_claim_poland = {
+	 potential = {
+		 tag = TES
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = TES_claim_silesia
+		 NOT = { has_country_flag = TES_claim_poland }
+	 }
+	 
+	 allow = {
+		 OR = {
+			 war_policy = jingoism
+			 nationalism_n_imperialism = 1
+		 }
+	 }
+	 
+	 effect = {
+		 PRU_699 = { add_core = THIS }
+		 PRU_691 = { add_core = THIS }
+		 KRA_703 = { add_core = THIS }
+		 RUS_706 = { add_core = THIS }
+		 719 = { add_core = THIS }
+		 badboy = 10
+		 set_country_flag = TES_claim_poland
+	 }
+}
+
+#Claim Bohemian/Czech leadership
+TES_claim_czechia = {
+	 potential = {
+		 tag = TES
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = TES_claim_silesia
+		 NOT = { has_country_flag = TES_claim_czechia }
+	 }
+	 
+	 allow = {
+		 OR = {
+			 war_policy = jingoism
+			 nationalism_n_imperialism = 1
+		 }
+	 }
+	 
+	 effect = {
+		 SAX_558 = { add_core = THIS }
+		 AUS_625 = { add_core = THIS }
+		 BOH_629 = { add_core = THIS }
+		 AUS_626 = { add_core = THIS }
+		 badboy = 10
+		 set_country_flag = TES_claim_czechia
+	 }
+}
+
+#Claim Slovakia
+TES_claim_slovakia = {
+	 potential = {
+		 tag = TES
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = TES_claim_czechia
+		 has_country_flag = TES_claim_silesia
+		 NOT = { has_country_flag = TES_claim_slovakia }
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 SLV = { all_core = { add_core = THIS } }
+		 badboy = 5
+		 set_country_flag = TES_claim_slovakia
+	 }
+}
+
+#Accept Slovakians
+TES_accept_slovakians = {
+	 potential = {
+		 tag = TES
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = TES_claim_slovakia
+		 NOT = { has_country_flag = TES_accept_slovakians }
+	 }
+	 
+	 allow = {
+		 SLV = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = slovak
+		 set_country_flag = TES_accept_slovakians
+	 }
+}
+
+#From CZE
+TES_from_CZE = {
+	 potential = {
+		 tag = TES
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = TES_claim_slovakia
+		 has_country_flag = TES_claim_czechia
+		 has_country_flag = TES_claim_poland
+		 NOT = { has_country_flag = TES_from_CZE }
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 change_tag = CZE
+		 set_country_flag = TES_from_CZE
+	 }
+}
+
+#From Greater Teschen 
+TES_from_GTK = {
+	 potential = {
+		 tag = TES
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = TES_claim_slovakia
+		 has_country_flag = TES_claim_czechia
+		 has_country_flag = TES_claim_poland
+		 NOT = { has_country_flag = TES_from_GTK }
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 change_tag = GTK
+		 set_country_flag = TES_from_GTK
+	 }
+}
+
+#Claim Polabia
+GTK_claim_polabia = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = GTK_claim_polabia }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 10
+		 SAX_558 = { add_core = THIS }
+		 SAX_559 = { add_core = THIS }
+		 PRU_549 = { add_core = THIS }
+		 PRU_546 = { add_core = THIS }
+		 SCA_544 = { add_core = THIS }
+		 set_country_flag = GTK_claim_polabia
+	 }
+}
+
+#Accept the Sorbs
+GTK_accept_sorbs = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = GTK_accept_sorbs }
+	 }
+	 
+	 allow = {
+		 SAX_558 = { owned_by = THIS }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = sorb
+		 set_country_flag = GTK_accept_sorbs
+	 }
+}
+
+#Claim volhynia
+GTL_claim_volhynia = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = GTL_claim_volhynia }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 VOL = { all_core = { add_core = THIS } }
+		 badboy = 5
+		 set_country_flag = GTL_claim_volhynia
+	 }
+}
+
+#Accept galicians
+GTK_accept_galicians = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTL_claim_volhynia
+		 NOT = { has_country_flag = GTK_accept_galicians }
+	 }
+	 
+	 allow = {
+		 VOL = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = galician
+		 set_country_flag = GTK_accept_galicians
+	 }
+}
+
+#Claim Prussia
+GTK_claim_PRU = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = GTK_claim_PRU }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 PRU = { all_core = { add_core = THIS } }
+		 badboy = 2
+		 set_country_flag = GTK_claim_PRU
+	 }
+}
+
+#Accept the Balters
+GTK_accept_balters = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_claim_PRU
+		 NOT = { has_country_flag = GTK_accept_balters }
+	 }
+	 
+	 allow = {
+		 citizenship_policy = full_citizenship
+		 PRU = { all_core = { owned_by = THIS } }
+	 }
+}
+
+
+}

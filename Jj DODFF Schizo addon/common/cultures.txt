@@ -75,6 +75,7 @@ germanic = {
         last_names = { Aishut Alkier Allenstein Anhut Angrick Baltrusch Baranauskaus Baranokowski Berkmanas Bierkant "Denda-Borowski" Downar Dreßler Eysmondt Geringas Gintowt Grunenberg Gulbies Härder Jankowski Kuhn Landsberg Mahnke Mielke Neujoks Neumann Packeiser Palstok Pläp Preik Puddig 
 		Rautenberg Romeyke Rosin Sahm Schwark Schwibbe Schwill Sperling Spruth Steinbutt Szekann Toll Tornier Thulke "vom Ermland" "von Bludau-Lilienthal" "von Haberberg" "von Heinrichswalde" "von Jelgava-Buchholz" "von Kirchspiel" "von Kyckelen" "von Warglitten" Wendt Wiebe Will Wilms Willumeit Wowereit "zur Elbinger Höhe" }
     }
+#Schizo cultures
 	frankish = {
 		color = { 51 60 69 }
 		first_names = 
@@ -153,7 +154,7 @@ germanic = {
 		"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Pyrmont" "von Wettin" 
 		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
 	 }
-	 lotharingian = {
+	lotharingian = {
         color = { 87 73 105 }
         first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
         Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
@@ -168,7 +169,7 @@ germanic = {
         "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
 	}
 	ostrogothic = {
-		color = { 82 18 135 }
+		color = { 210 102 255 }
 		first_names = 
 		{ Adelbert Adolf Albrecht Aleksander Alfred Alvin August Baldur Balthasar Barnim Benedikt Bernd Bernhard Bertram Bjorn Borwin Bruno Burkhard 
 		Dagobert Daniel Dieter Dietmar Dirk Christian "Christian Albrecht" "Christian Ludwig" Christoph 
@@ -184,6 +185,29 @@ germanic = {
 		"von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" 
 		"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Pyrmont" "von Wettin" 
 		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
+	}
+	arkadisch = {
+		color = {70 30 60}
+		first_names = {
+			Adam  Adelbert Adelmar Adolf Alarich  Albrecht Alexander Alfred Alois Andreas Anton Arnold Arthur August Bernhard Bruno Burkhard Dieter Eduard Emmerich Edwin Elmar Emil
+			Erich Ernst Erwin Eugen Fabian Florian Franz Friedrich Fridolf Fritz Georg Gustav G¨¹nther Hans Harald Hasso Heine Heinrich Heinz Helmuth Hermann Hjalmar Hugo Iwer Joachim
+			Johann Josef Julius J¨¹rgen Karl Klaus Konrad Konstantin Kurt Leonhard Leopold Lorenz Ludwig  Lukas Manfred Markus Martin Matthias Maximilian Michael Nikolaus Olaf Oskar
+			Otto Pascal Paul Peter Philipp Reinhard Richard Robert Roman Rudolf Ruprecht Siegfried Stefan Swen Theodor Thomas Udo Uno Viktor Waldemar Walter Wilhelm Wolfgang
+		}
+
+		last_names = {
+			Aamisepp Aavik Adams Anvel Barbarus Bornhöhe Eenpalu Hint Claus Jaakson
+			Kangro Kint Klaasen Koern Kõiv Kotli Kumari Kupine Kuusik Leppik
+			Orkivu Päts Perna Piiper Poska Puusepp Ostwald Rei Reinman Siinmaa
+			"Von Biron" "von Benckendorff" "von Laudon" "Von Ungern-Sternberg" "von Osten-Sacken"
+			"von Plettenberg" "von Buxhoeveden" "Rembert von Berg" Wrangel "Keyserling" Budberg
+			Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma Nesselrode
+			Abakovskis Apsenieks Balodis Baumanis Berkis Berzin Betins Braons Caks Cakste
+			Caps Celmins Dalins Dambitis Darzins "de Kolongs" Desslers Eizenteins Goppers Halsmans
+			Irbitis Kalnins Kalpaks Kucis Kovalevskis Krogzems Kronvalds Kuks Kviesis Lacis
+			Maters Matisons Meierovics Mihelssons Milenbahs Millers Needra Ozolins
+			Petrovs Pauckers Pumpurs Rothko Simanis Stucka Tumins Wesel Veidenbaums
+		}
 	}
 
 	union = GER

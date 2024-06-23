@@ -258,8 +258,8 @@ Minor_expansion = {
 		 EST = { all_core = { add_core = HLR } }
 		 SCO = { all_core = { add_core = HLR } }
 		 IRE = { all_core = { add_core = HLR } }
-		 SCH_370 = { all_core = { add_core = HLR } }
-		 DEN_367 = { all_core = { add_core = HLR } }
+		 SCH_370 = { add_core = HLR }
+		 DEN_367 = { add_core = HLR }
 	 }
 }
 
@@ -366,6 +366,24 @@ remove_debuff_HLR = {
 	 
 	 ai_will_do = {
 			factor = 1
+	 }
+}
+
+#Colonise Rutbah
+HLR_colonise_rutbah = {
+	 potential = {
+		 tag = HLR
+		 ai = no
+		 has_country_flag = HLR_Rome_reclaim_3
+		 NOT = { has_country_flag = HLR_colonise_rutbah }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 931 = { secede_province = THIS }
+		 set_country_flag = HLR_colonise_rutbah
 	 }
 }
 

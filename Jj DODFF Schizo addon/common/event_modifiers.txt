@@ -5825,8 +5825,15 @@ HLR_help = {
 }
 
 LTA_fuckin_stay_down = {
-	 factory_throughput = -2
+	 prestige = -10
+	 import_cost = 1
+	 factory_throughput = -3
 	 factory_owner_cost = 3
+	 factory_output = -5
+	 factory_input = 5
+	 RGO_output = -0.75
+	 artisan_output = -0.75
+	 administrative_efficiency_modifier = -0.05
 }
 
 #Yuan modifiers
@@ -5904,7 +5911,7 @@ aussie_colonies = {
 
 Singapore_miricle = {
 	 global_assimilation_rate = 100
-     global_immigrant_attract = 1
-	 global_population_growth = 0.01
+     global_population_growth = 0.002
+	 global_immigrant_attract = 0.10
      non_accepted_pop_militancy_modifier = -0.1
 }

@@ -50,9 +50,11 @@ LTA_reclaim_west_frankia = {
 		 has_country_flag = LTA_claim_WFK
 	 }
 	 
-	 #allow = {
-	 #	 has_unclaimed_cores = no
-	 #}
+	 allow = {
+	 	 FRA_404 = { owned_by = THIS }
+		 FRA_399 = { owned_by = THIS }
+		 3270 = { owned_by = THIS }
+	 }
 	 
 	 effect = {
 		 badboy = 10
@@ -71,6 +73,7 @@ establish_WFK = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_WFK_conquered
+		 NOT = { has_country_flag = WFK_created }
 	 }
 	 
 	 allow = {
@@ -94,21 +97,15 @@ establish_WFK = {
 		 create_vassal = WFK
 		 any_owned = {
 			 limit = {
-				 OR = {
-					 is_core = FRA
-					 is_core = OCC
-					 is_core = BRT
-				 }
+				 is_core = WFK
 			 }
 		 secede_province = WFK
 		 }
 		 WFK = {
-			 #civilized = yes
 			 government = autonomous_dependency
 			 nationalvalue = nv_order
-			 ruling_party_ideology = conservative
+			 ruling_party_ideology = reactionary
 			 primary_culture = frankish
-			 add_accepted_culture = lotharingian
 			 treasury = 500000
 		 }
 		 WFK = {
@@ -117,8 +114,8 @@ establish_WFK = {
 				 duration = -1
 			 }
 		 }
+		 WFK = { country_event = 1000000127 }
 		 set_country_flag = WFK_created
-		 clr_country_flag = LTA_WFK_conquered
 	 }
 }
 
@@ -129,7 +126,7 @@ destroy_french_culture = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = WFK_created
-		 NOT = { has_country_flag = WFK_GER_FRA }
+		 NOT = { WFK = { has_country_flag = WFK_GER_FRA } }
 	 }
 	 
 	 allow = {
@@ -183,6 +180,9 @@ LTA_claim_SWA = {
 		 WUR = { all_core = { add_core = THIS } }
 		 SWI = { all_core = { add_core = THIS } }
 		 ULM = { all_core = { add_core = THIS } }
+		 BAE = { all_core = { add_core = THIS } }
+		 FIO = { all_core = { add_core = THIS } }
+		 GRB = { all_core = { add_core = THIS } }
 		 any_country = {
 			 limit = {
 				 AND = {
@@ -192,6 +192,9 @@ LTA_claim_SWA = {
 						 tag = WUR
 						 tag = SWI
 						 tag = ULM
+						 tag = BAE
+						 tag = FIO
+						 tag = GRB
 					 }
 				 }
 			 }
@@ -208,7 +211,7 @@ LTA_accept_SWA = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_claim_SWA
-		 NOT = { accepted_culture = swabian }
+		 NOT = { has_country_flag = LTA_accept_SWA }
 	 }
 	 
 	 allow = {
@@ -216,10 +219,14 @@ LTA_accept_SWA = {
 		 WUR = { all_core = { owned_by = THIS } }
 		 SWI = { all_core = { owned_by = THIS } }
 		 ULM = { all_core = { owned_by = THIS } }
+		 BAE = { all_core = { owned_by = THIS } }
+		 FIO = { all_core = { owned_by = THIS } }
+		 GRB = { all_core = { owned_by = THIS } }
 	 }
 	 
 	 effect = {
 		 add_accepted_culture = swabian
+		 set_country_flag = LTA_accept_SWA
 	 }
 }
 
@@ -276,7 +283,7 @@ accept_rheinish = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_claim_CFR
-		 NOT = { accepted_culture = rheinish }
+		 NOT = { has_country_flag = accept_rheinish }
 	 }
 	 
 	 allow = {
@@ -293,6 +300,7 @@ accept_rheinish = {
 	 
 	 effect = {
 		 add_accepted_culture = rheinish
+		 set_country_flag = accept_rheinish
 	 }
 }
 
@@ -302,6 +310,7 @@ LTA_claim_north_italy = {
 		 tag = LTA
 		 ai = no
 		 has_country_flag = Schzio_mod_show
+		 has_country_flag = WFK_created
 		 NOT = { has_country_flag = LTA_claim_north_italy }
 	 }
 	 
@@ -368,7 +377,7 @@ LTA_establish_LOB = {
 			 #civilized = yes
 			 government = autonomous_dependency
 			 nationalvalue = nv_order
-			 ruling_party_ideology = conservative
+			 ruling_party_ideology = reactionary
 			 primary_culture = lombard
 			 treasury = 500000
 		 }
@@ -379,6 +388,7 @@ LTA_establish_LOB = {
 				 duration = -1
 			 }
 		 }
+		 LOB = { country_event = 1000000127 }
 		 set_country_flag = LTA_establish_LOB
 	 }
 }
@@ -390,7 +400,7 @@ annex_LOB = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_establish_LOB
-		 exists = WFK
+		 exists = LOB
 	 }
 	 
 	 allow = {
@@ -410,6 +420,7 @@ LTA_kill_ITA = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_establish_LOB
+		 NOT = { has_country_flag = LTA_kill_ITA }
 	 }
 	 
 	 allow = {
@@ -418,17 +429,85 @@ LTA_kill_ITA = {
 	 effect = {
 		 badboy = 5
 		 ITA = { all_core = { add_core = THIS } }
-		 set_country_flag = LTA_destroy_ITA
+		 set_country_flag = LTA_kill_ITA
 	 }
 }
 
-#Remove Italy as an concept
-Destroy_ITA = {
+#Re-establish the papal states under German supervision
+LTA_establish_GPA = {
 	 potential = {
 		 tag = LTA
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_destroy_ITA
+		 NOT = { has_country_flag = LTA_establish_GPA }
+	 }
+	 
+	 allow = {
+		 PAP = { all_core = { owned_by = THIS } }
+		 FRR = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 any_owned = {
+			 limit = {
+				 OR = {
+					 is_core = PAP
+					 is_core = FRR
+				 }
+			 }
+		 add_core = GPA
+		 }
+		 release = GPA
+		 create_vassal = GPA
+		 any_owned = {
+			 limit = {
+				 OR = {
+					 is_core = PAP
+					 is_core = FRR
+				 }
+			 }
+		 secede_province = GPA
+		 }
+		 GPA = {
+			 government = autonomous_dependency
+			 nationalvalue = nv_order
+			 ruling_party_ideology = reactionary
+			 country_event = 1000000125
+		 }
+		 set_country_flag = LTA_establish_GPA
+	 }
+}
+
+#Annex GPA
+annex_GPA = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_establish_GPA
+		 exists = GPA
+	 }
+	 
+	 allow = {
+		 revolution_n_counterrevolution = 1 
+	 }
+	 
+	 effect = {
+		 inherit = GPA
+		 add_accepted_culture = ostrogothic
+	 }
+}
+
+#Remove Italy as an concept
+LTA_Destroy_ITA = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_kill_ITA
+		 has_country_flag = LTA_establish_LOB
+		 NOT = { has_country_flag = LTA_Destroy_ITA }
 	 }
 	 
 	 allow = {
@@ -438,11 +517,890 @@ Destroy_ITA = {
 		 badboy = 5
 		 ITA = { all_core = { remove_core = ITA } }
 		 ITC = { all_core = { remove_core = ITC } }
+		 set_country_flag = LTA_Destroy_ITA
 	 }
 }
 
-#claim spain
-#LTA_claim_SPA = {
+#Set up a rump state
+#LTA_rumpstate_NAP = {
+#	 potential = {
+#		 tag = LTA
+#		 ai = no
+#		 has_country_flag = Schzio_mod_show
+#		 has_country_flag = LTA_destroy_ITA
+#		 NOT = { has_country_flag = LTA_rumpstate_NAP }
+#	 }
+#	 
+#	 allow = {
+#		 NAP = { all_core = { owned_by = THIS } }
+#	 }
+#	 
+#	 effect = {
+#		 release = NAP
+#		 create_vassal = NAP
+#		 set_country_flag = LTA_rumpstate_NAP
+#	 }
 #}
+
+#claim spain
+LTA_claim_SPA = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = WFK_created
+		 NOT = { has_country_flag = LTA_claim_SPA }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 10
+		 SPA_498 = { add_core = THIS }
+		 SPA_492 = { add_core = THIS }
+		 SPA_503 = { add_core = THIS }
+		 SPA_506 = { add_core = THIS }
+		 ESK_1 = { add_core = THIS }
+		 SPA_480 = { add_core = THIS }
+		 SPA_487 = { add_core = THIS }
+		 SPA_513 = { add_core = THIS }
+		 SPA_512 = { add_core = THIS }
+		 SPA_484 = { add_core = THIS }
+		 SPA_477 = { add_core = THIS }
+		 SPA_474 = { add_core = THIS }
+		 POR_521 = { add_core = THIS }
+		 POR_525 = { add_core = THIS }
+		 set_country_flag = LTA_claim_SPA
+	 }
+}
+
+#Establish the Visigothic Kingdom
+LTA_establish_VIS = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_claim_SPA
+		 NOT = { has_country_flag = LTA_establish_VIS }
+	 }
+	 
+	 allow = {
+		 SPA_498 = { owned_by = THIS }
+		 SPA_492 = { owned_by = THIS }
+		 SPA_503 = { owned_by = THIS }
+		 SPA_506 = { owned_by = THIS }
+		 ESK_1 = { owned_by = THIS }
+		 SPA_480 = { owned_by = THIS }
+		 SPA_487 = { owned_by = THIS }
+		 SPA_513 = { owned_by = THIS }
+		 SPA_512 = { owned_by = THIS }
+		 SPA_484 = { owned_by = THIS }
+		 SPA_477 = { owned_by = THIS }
+		 SPA_474 = { owned_by = THIS }
+		 POR_521 = { owned_by = THIS }
+		 POR_525 = { owned_by = THIS }
+	 }
+	 
+	 effect = {
+		 SPA_498 = { remove_core = THIS }
+		 SPA_492 = { remove_core = THIS }
+		 SPA_503 = { remove_core = THIS }
+		 SPA_506 = { remove_core = THIS }
+		 ESK_1 = { remove_core = THIS }
+		 SPA_480 = { remove_core = THIS }
+		 SPA_487 = { remove_core = THIS }
+		 SPA_513 = { remove_core = THIS }
+		 SPA_512 = { remove_core = THIS }
+		 SPA_484 = { remove_core = THIS }
+		 SPA_477 = { remove_core = THIS }
+		 SPA_474 = { remove_core = THIS }
+		 POR_521 = { remove_core = THIS }
+		 POR_525 = { remove_core = THIS }
+		 SPA_498 = { add_core = VIS }
+		 SPA_492 = { add_core = VIS }
+		 SPA_503 = { add_core = VIS }
+		 SPA_506 = { add_core = VIS }
+		 ESK_1 = { add_core = VIS }
+		 SPA_480 = { add_core = VIS }
+		 SPA_487 = { add_core = VIS }
+		 SPA_513 = { add_core = VIS }
+		 SPA_512 = { add_core = VIS }
+		 SPA_484 = { add_core = VIS }
+		 SPA_477 = { add_core = VIS }
+		 SPA_474 = { add_core = VIS }
+		 POR_521 = { add_core = VIS }
+		 POR_525 = { add_core = VIS }
+		 release = VIS
+		 create_vassal = VIS
+		 any_owned = {
+			 limit = {
+				 is_core = VIS
+			 }
+		 secede_province = VIS
+		 }
+		 VIS = {
+			 government = autonomous_dependency
+			 nationalvalue = nv_order
+			 ruling_party_ideology = reactionary
+			 country_event = 1000000126
+		 }
+		 VIS = {
+			 add_country_modifier = {
+				 name = LTA_fuckin_stay_down
+				 duration = -1
+			 }
+		 }
+		 VIS = { country_event = 1000000127 }
+		 set_country_flag = LTA_establish_VIS
+	 }
+}
+
+#Demand Visigothic concession
+LTA_demand_VIS_concession = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_establish_VIS
+		 NOT = { has_country_flag = LTA_demand_VIS_concession }
+	 }
+	 
+	 allow = {
+		NOT = { exists = WFK }
+	 }
+	 
+	 effect = {
+		 badboy = 2
+		 ESK_1 = { remove_core = VIS }
+		 496 = { remove_core = VIS }
+		 495 = { remove_core = VIS }
+		 464 = { remove_core = VIS }
+		 500 = { remove_core = VIS }
+		 501 = { remove_core = VIS }
+		 498 = { remove_core = VIS }
+		 499 = { remove_core = VIS }
+		 ESK_1 = { add_core = LTA }
+		 496 = { add_core = LTA }
+		 495 = { add_core = LTA }
+		 464 = { add_core = LTA }
+		 500 = { add_core = LTA }
+		 501 = { add_core = LTA }
+		 498 = { add_core = LTA }
+		 499 = { add_core = LTA }
+		 VIS = {
+			 any_owned = {
+				 limit = {
+					 is_core = LTA
+				 }
+			 secede_province = LTA
+			 }
+		 }
+		 add_accepted_culture = visigothic
+		 set_country_flag = LTA_demand_VIS_concession
+	 }
+}
+
+#Claim North Africa
+LTA_claim_north_africa = {
+	 potential = {
+		 OR = {
+			 tag = LTA
+			 tag = NHR
+		 }
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_claim_SPA
+		 NOT = { has_country_flag = LTA_claim_north_africa }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 10
+		 EGY_1746 = { add_core = LTA }
+		 EGY_1750 = { add_core = LTA }
+		 EGY_1753 = { add_core = LTA }
+		 EGY_1762 = { add_core = LTA }
+		 EGY_1771 = { add_core = LTA }
+		 1766 = { add_core = LTA }
+		 EGY_1834 = { add_core = LTA }
+		 1737 = { add_core = LTA }
+		 1736 = { add_core = LTA }
+		 1735 = { add_core = LTA }
+		 1738 = { add_core = LTA }
+		 TRI_1743 = { add_core = LTA }
+		 1742 = { add_core = LTA }
+		 1741 = { add_core = LTA }
+		 1743 = { add_core = LTA }
+		 1744 = { add_core = LTA }
+		 TUN_3285 = { add_core = LTA }
+		 TUN_1725 = { add_core = LTA }
+		 FRA_1700 = { add_core = LTA }
+		 ALD_1704 = { add_core = LTA }
+		 ALD_1708 = { add_core = LTA }
+		 1714 = { add_core = LTA }
+		 MOR_1688 = { add_core = LTA }
+		 MOR_1686 = { add_core = LTA }
+		 MOR_1693 = { add_core = LTA }
+		 MOR_3283 = { add_core = LTA }
+		 SAR_765 = { add_core = LTA }
+		 SIC_763 = { add_core = LTA }
+		 set_country_flag = LTA_claim_north_africa
+	 }
+}
+
+#Establish the Vandal kingdom
+LTA_establish_VAN = {
+	 potential = {
+		 OR = {
+			 tag = LTA
+			 tag = NHR
+		 }
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_claim_north_africa
+		 NOT = { has_country_flag = LTA_establish_VAN }
+	 }
+	 
+	 allow = {
+		 EGY_1746 = { owned_by = LTA }
+		 EGY_1750 = { owned_by = LTA }
+		 EGY_1753 = { owned_by = LTA }
+		 EGY_1762 = { owned_by = LTA }
+		 EGY_1771 = { owned_by = LTA }
+		 1766 = { owned_by = LTA }
+		 EGY_1834 = { owned_by = LTA }
+		 1737 = { owned_by = LTA }
+		 1736 = { owned_by = LTA }
+		 1735 = { owned_by = LTA }
+		 1738 = { owned_by = LTA }
+		 TRI_1743 = { owned_by = LTA }
+		 1742 = { owned_by = LTA }
+		 1741 = { owned_by = LTA }
+		 1743 = { owned_by = LTA }
+		 1744 = { owned_by = LTA }
+		 TUN_3285 = { owned_by = LTA }
+		 TUN_1725 = { owned_by = LTA }
+		 FRA_1700 = { owned_by = LTA }
+		 ALD_1704 = { owned_by = LTA }
+		 ALD_1708 = { owned_by = LTA }
+		 1714 = { owned_by = LTA }
+		 MOR_1688 = { owned_by = LTA }
+		 MOR_1686 = { owned_by = LTA }
+		 MOR_1693 = { owned_by = LTA }
+		 MOR_3283 = { owned_by = LTA }
+		 SAR_765 = { owned_by = LTA }
+		 SIC_763 = { owned_by = LTA }
+	 }
+	 
+	 effect = {
+		 EGY_1746 = { remove_core = LTA }
+		 EGY_1750 = { remove_core = LTA }
+		 EGY_1753 = { remove_core = LTA }
+		 EGY_1762 = { remove_core = LTA }
+		 EGY_1771 = { remove_core = LTA }
+		 1766 = { remove_core = LTA }
+		 EGY_1834 = { remove_core = LTA }
+		 1737 = { remove_core = LTA }
+		 1736 = { remove_core = LTA }
+		 1735 = { remove_core = LTA }
+		 1738 = { remove_core = LTA }
+		 TRI_1743 = { remove_core = LTA }
+		 1742 = { remove_core = LTA }
+		 1741 = { remove_core = LTA }
+		 1743 = { remove_core = LTA }
+		 1744 = { remove_core = LTA }
+		 TUN_3285 = { remove_core = LTA }
+		 TUN_1725 = { remove_core = LTA }
+		 FRA_1700 = { remove_core = LTA }
+		 ALD_1704 = { remove_core = LTA }
+		 ALD_1708 = { remove_core = LTA }
+		 1714 = { remove_core = LTA }
+		 MOR_1688 = { remove_core = LTA }
+		 MOR_1686 = { remove_core = LTA }
+		 MOR_1693 = { remove_core = LTA }
+		 MOR_3283 = { remove_core = LTA }
+		 SAR_765 = { remove_core = LTA }
+		 SIC_763 = { remove_core = LTA }
+		 EGY_1746 = { add_core = VAN }
+		 EGY_1750 = { add_core = VAN }
+		 EGY_1753 = { add_core = VAN }
+		 EGY_1762 = { add_core = VAN }
+		 EGY_1771 = { add_core = VAN }
+		 1766 = { add_core = VAN }
+		 EGY_1834 = { add_core = VAN }
+		 1737 = { add_core = VAN }
+		 1736 = { add_core = VAN }
+		 1735 = { add_core = VAN }
+		 1738 = { add_core = VAN }
+		 TRI_1743 = { add_core = VAN }
+		 1742 = { add_core = VAN }
+		 1741 = { add_core = VAN }
+		 1743 = { add_core = VAN }
+		 1744 = { add_core = VAN }
+		 TUN_3285 = { add_core = VAN }
+		 TUN_1725 = { add_core = VAN }
+		 FRA_1700 = { add_core = VAN }
+		 ALD_1704 = { add_core = VAN }
+		 ALD_1708 = { add_core = VAN }
+		 1714 = { add_core = VAN }
+		 MOR_1688 = { add_core = VAN }
+		 MOR_1686 = { add_core = VAN }
+		 MOR_1693 = { add_core = VAN }
+		 MOR_3283 = { add_core = VAN }
+		 SAR_765 = { add_core = VAN }
+		 SIC_763 = { add_core = VAN }
+		 release = VAN
+		 create_vassal = VAN
+		 any_owned = {
+			 limit = {
+				 is_core = VAN
+			 }
+		 secede_province = VAN
+		 }
+		 VAN = {
+			 government = autonomous_dependency
+			 nationalvalue = nv_order
+			 ruling_party_ideology = reactionary
+			 country_event = 1000000126
+		 }
+		 VAN = {
+			 add_country_modifier = {
+				 name = LTA_fuckin_stay_down
+				 duration = -1
+			 }
+		 }
+		 VAN = { country_event = 1000000128 }
+		 set_country_flag = LTA_establish_VAN
+	 }
+}
+
+#Claim North Germany
+LTA_claim_NGF = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = WFK_created
+		 NOT = { has_country_flag = LTA_claim_NGF }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 OLD_539 = { add_core = THIS }
+		 HAM_532 = { add_core = THIS }
+		 BRA_536 = { add_core = THIS }
+		 MNR_585 = { add_core = THIS }
+		 HES_564 = { add_core = THIS }
+		 SAX_1 = { add_core = THIS }
+		 PRU_553 = { add_core = THIS }
+		 PRU_549 = { add_core = THIS }
+		 SAX_559 = { add_core = THIS }
+		 SAX_558 = { add_core = THIS }
+		 SCA_544 = { add_core = THIS }
+		 PRU_546 = { add_core = THIS }
+		 HOL_369 = { add_core = THIS }
+		 badboy = 5
+		 set_country_flag = LTA_claim_NGF
+	 }
+}
+
+#Accept Elbians
+LTA_accept_NGF = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_claim_NGF
+		 NOT = { has_country_flag = LTA_accept_NGF }
+	 }
+	 
+	 allow = {
+		 OLD_539 = { owned_by = THIS }
+		 HAM_532 = { owned_by = THIS }
+		 BRA_536 = { owned_by = THIS }
+		 MNR_585 = { owned_by = THIS }
+		 HES_564 = { owned_by = THIS }
+		 SAX_1 = { owned_by = THIS }
+		 PRU_553 = { owned_by = THIS }
+		 PRU_549 = { owned_by = THIS }
+		 SAX_559 = { owned_by = THIS }
+		 SAX_558 = { owned_by = THIS }
+		 SCA_544 = { owned_by = THIS }
+		 PRU_546 = { owned_by = THIS }
+		 HOL_369 = { owned_by = THIS }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = north_german
+		 set_country_flag = LTA_accept_NGF
+	 }
+}
+
+#Claim Danubia
+LTA_claim_SGF = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = WFK_created
+		 NOT = { has_country_flag = LTA_claim_SGF }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 FRW_597 = { add_core = THIS }
+		 BAV_595 = { add_core = THIS }
+		 BAV_599 = { add_core = THIS }
+		 AUS_612 = { add_core = THIS }
+		 AUS_619 = { add_core = THIS }
+		 AUS_616 = { add_core = THIS }
+		 624 = { add_core = THIS }
+		 AUS_768 = { add_core = THIS }
+		 AUS_736 = { add_core = THIS }
+		 badboy = 5
+		 set_country_flag = LTA_claim_SGF
+	 }
+}
+
+#Accept Danubians
+LTA_accept_SGF = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_claim_SGF
+		 NOT = { has_country_flag = LTA_accept_SGF }
+	 }
+	 
+	 allow = {
+		 FRW_597 = { owned_by = THIS }
+		 BAV_595 = { owned_by = THIS }
+		 BAV_599 = { owned_by = THIS }
+		 AUS_612 = { owned_by = THIS }
+		 AUS_619 = { owned_by = THIS }
+		 AUS_616 = { owned_by = THIS }
+		 624 = { owned_by = THIS }
+		 AUS_768 = { owned_by = THIS }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = south_german
+		 set_country_flag = LTA_accept_SGF
+	 }
+}
+
+#Subjugate Hungary
+LTA_subjuguate_HUN = {
+	 potential = {
+		 tag = NHR
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_accept_SGF
+		 NOT = { has_country_flag = LTA_subjuguate_HUN }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 HUN = { all_core = { add_core = THIS } }
+		 badboy = 5
+		 set_country_flag = LTA_subjuguate_HUN
+	 }
+}
+
+#Establish Ungarn-reich
+LTA_establish_GHU = {
+	 potential = {
+		 tag = NHR
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_subjuguate_HUN
+		 NOT = { has_country_flag = LTA_establish_GHU }
+	 }
+	 
+	 allow = {
+		 HUN = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 HUN = { all_core = { add_core = GHU } }
+		 HUN = { all_core = { remove_core = HUN } }
+		 release = GHU
+		 create_vassal = GHU
+		 any_owned = {
+			 limit = {
+				 is_core = GHU
+			 }
+		 secede_province = GHU
+		 }
+		 GHU = {
+			 government = autonomous_dependency
+			 nationalvalue = nv_order
+			 ruling_party_ideology = reactionary
+		 }
+		 GHU = {
+			 add_country_modifier = {
+				 name = LTA_fuckin_stay_down
+				 duration = -1
+			 }
+		 }
+		 GHU = { country_event = 1000000129 }
+		 set_country_flag = LTA_establish_GHU
+	 }
+}
+
+#Annex GHU
+annex_GHU = {
+	 potential = {
+		 tag = NHR
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_establish_GHU
+		 exists = GHU
+	 }
+	 
+	 allow = {
+		 revolution_n_counterrevolution = 1 
+	 }
+	 
+	 effect = {
+		 inherit = GHU
+		 add_accepted_culture = ungarisch
+	 }
+}
+
+#Subjugate Bohemia
+LTA_subjuguate_BOH = {
+	 potential = {
+		 tag = NHR
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_accept_NGF
+		 NOT = { has_country_flag = LTA_subjuguate_BOH }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 war = {
+			 target = BOH
+			 attacker_goal = { casus_belli = unification_annex_casus_belli }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 set_country_flag = LTA_subjuguate_BOH
+	 }
+}
+
+#Establish the Bohemian puppet
+LTA_establish_BOH = {
+	 potential = {
+		 tag = NHR
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_subjuguate_BOH
+		 NOT = { has_country_flag = LTA_establish_BOH }
+	 }
+	 
+	 allow = {
+		 BOH = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 any_owned = {
+			 limit = {
+				 AND = {
+					 is_core = BOH
+					 NOT = {
+						 is_core = NHR
+					 }
+				 }
+			 }
+		 add_core = DOB
+		 }
+		 release = DOB
+		 create_vassal = DOB
+		 any_owned = {
+			 limit = {
+				 is_core = DOB
+			 }
+		 secede_province = DOB
+		 }
+		 DOB = {
+			 government = autonomous_dependency
+			 nationalvalue = nv_order
+			 ruling_party_ideology = reactionary
+		 }
+		 DOB = {
+			 add_country_modifier = {
+				 name = LTA_fuckin_stay_down
+				 duration = -1
+			 }
+		 }
+		 set_country_flag = LTA_establish_BOH
+	 }
+}
+
+#Kill the Czechs :D
+LTA_destroy_BOH = {
+	 potential = {
+		 tag = NHR
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_establish_BOH
+		 NOT = { has_country_flag = LTA_destroy_BOH }
+	 }
+	 
+	 allow = {
+		 BOH = { is_vassal = yes }
+	 }
+	 
+	 effect = {
+		 DOB = { remove_accepted_culture = old_czech }
+		 DOB = { primary_culture = czech }
+		 DOB = {
+			 any_owned = {
+				 limit = {
+					 is_core = DOB
+				 }
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = -1
+			 }
+			 }
+		 }
+		 set_country_flag = LTA_destroy_BOH
+	 }
+}
+
+#From Neo HRE
+LTA_from_HRE = {
+	 potential = {
+		 tag = LTA
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+	 }
+	 
+	 allow = {
+		 has_country_flag = LTA_claim_CFR
+		 has_country_flag = LTA_claim_SGF
+		 has_country_flag = LTA_claim_NGF
+		 has_country_flag = LTA_claim_SWA
+		 has_country_flag = LTA_demand_VIS_concession
+		 NOT = { exists = WFK }
+		 NOT = { exists = LOB }
+		 NOT = { exists = GPA }
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 change_tag = NHR
+	 }
+}
+
+#Claim Livonia
+LTA_claim_livonia = {
+	 potential = {
+		 tag = NHR
+		 ai = no
+		 NOT = { has_country_flag = LTA_claim_livonia }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 2
+		 LAT = { all_core = { add_core = THIS } }
+		 EST = { all_core = { add_core = THIS } }
+		 PRU = { all_core = { add_core = THIS } }
+		 set_country_flag = LTA_claim_livonia
+	 }
+}
+
+#Establish Livonia
+LTA_establish_LIV = {
+	 potential = {
+		 tag = NHR
+		 ai = no
+		 has_country_flag = LTA_claim_livonia
+		 NOT = { has_country_flag = LTA_establish_LIV }
+	 }
+	 
+	 allow = {
+		 LAT = { all_core = { owned_by = THIS } }
+		 EST = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 badboy = 2
+		 LAT = { all_core = { add_core = LIV } }
+		 EST = { all_core = { add_core = LIV } }
+		 release = LIV
+		 create_vassal = LIV
+		 any_owned = {
+			 limit = {
+				 is_core = LIV
+			 }
+		 secede_province = LIV
+		 }
+		 set_country_flag = LTA_establish_LIV
+	 }
+}
+
+###Failsafes###
+#Here cause you won't finish any of Burgundian eventy chains for these
+
+#Annex the Rhine Duchy
+LTA_annex_RHI = {
+	 potential = {
+		 OR = {
+			 tag = LTA
+			 tag = NHR
+		 }
+		 ai = no
+		 exists = RHI
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 LTA = { inherit = RHI }
+	 }
+}
+
+#Kill The VOC
+LTA_annex_VOC = {
+	 potential = {
+		 OR = {
+			 tag = LTA
+			 tag = NHR
+		 }
+		 ai = no
+		 exists = VOC
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 any_country = {
+			 limit = {
+				 is_our_vassal = VOC
+			 }
+		 annex_to = THIS
+		 }
+		 LTA = { inherit = VOC }
+	 }
+}
+
+#Lay claim to the rest of the cape
+LTA_claim_SAF = {
+	 potential = {
+		 OR = {
+			 tag = LTA
+			 tag = NHR
+		 }
+		 ai = no
+		 exists = VOC
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 BTV = { all_core = { add_core = THIS } }
+		 badboy = 6
+	 }
+}
+
+#If VIS breaks free
+LTA_puppet_VIS = {
+	 potential = {
+		 OR = {
+			 tag = LTA
+			 tag = NHR
+		 }
+		 ai = no
+	 }
+	 
+	 allow = {
+		 NOT = { is_our_vassal = VIS }
+		 VIS = { is_greater_power = no }
+		 exists = VIS
+	 }
+	 
+	 effect = {
+		 war = {
+			 target = VIS
+			 attacker_goal = { casus_belli = make_puppet }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+	 }
+}
+
+#If WFK breaks free
+WFK_puppet_VIS = {
+	 potential = {
+		 OR = {
+			 tag = LTA
+			 tag = NHR
+		 }
+		 ai = no
+	 }
+	 
+	 allow = {
+		 NOT = { is_our_vassal = WFK }
+		 WFK = { is_greater_power = no }
+		 exists = WFK
+	 }
+	 
+	 effect = {
+		 war = {
+			 target = WFK
+			 attacker_goal = { casus_belli = make_puppet }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+	 }
+}
+
+#If LOB breaks free
+LOB_puppet_VIS = {
+	 potential = {
+		 OR = {
+			 tag = LTA
+			 tag = NHR
+		 }
+		 ai = no
+	 }
+	 
+	 allow = {
+		 NOT = { is_our_vassal = LOB }
+		 LOB = { is_greater_power = no }
+		 exists = LOB
+	 }
+	 
+	 effect = {
+		 war = {
+			 target = LOB
+			 attacker_goal = { casus_belli = make_puppet }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+	 }
+}
+
 
 }

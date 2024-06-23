@@ -376,11 +376,6 @@ country_migration_target =
 		factor = 0
 		civilized = no
 	}
-	#Singapore
-	modifier = {
-		factor = 2.0
-		tag = SIG
-	}
 }
 
 migration_target =

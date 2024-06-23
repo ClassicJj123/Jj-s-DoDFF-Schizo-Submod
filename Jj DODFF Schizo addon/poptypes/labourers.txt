@@ -388,11 +388,6 @@ country_migration_target =
 		factor = 0
 		civilized = no
 	}
-	#Singapore
-	modifier = {
-		factor = 2.0
-		tag = SIG
-	}
 }
 
 migration_target =
@@ -2180,6 +2175,12 @@ promote_to = {
             NOT = { has_pop_religion = animist }
             country = { has_country_flag = colonial_armies }
         }		
+		
+		#Schizo stop soldiers
+		 modifier = {
+			 factor = -1000
+			 country = { has_country_flag = stopsoldierpromotions }
+		 }
 		
 	}
 	

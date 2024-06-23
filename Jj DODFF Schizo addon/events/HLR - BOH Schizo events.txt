@@ -72,14 +72,28 @@ country_event = {
 		 SIC = { all_core = { add_core = HLR } }
 		 SRD = { all_core = { add_core = HLR } }
 		 NAV = { all_core = { add_core = HLR } }
+		 AEN = { all_core = { add_core = HLR } }
 		 AUS_641 = { add_core = HLR }
 		 AUS_623 = { add_core = HLR }
+		 MOR_1688 = { add_core = HLR }
 		 MOR_1686 = { add_core = HLR }
 		 MOR_1693 = { add_core = HLR }
 		 MOR_3283 = { add_core = HLR }
 		 ALD_1704 = { add_core = HLR }
 		 ALD_1708 = { add_core = HLR }
+		 1714 = { add_core = HLR }
+		 FRA_1700 = { add_core = HLR }
 		 TUN_1725 = { add_core = HLR }
+		 TUN_3285 = { add_core = HLR }
+		 TRI_1741 = { add_core = HLR }
+		 TRI_1743 = { add_core = HLR }
+		 EGY_1754 = { add_core = HLR }
+		 EGY_1753 = { add_core = HLR }
+		 EGY_1758 = { add_core = HLR }
+		 EGY_1771 = { add_core = HLR }
+		 EGY_1762 = { add_core = HLR }
+		 EGY_1750 = { add_core = HLR }
+		 EGY_1746 = { add_core = HLR }
 		 RUS_964 = { add_core = HLR }
 		 set_country_flag = HLR_Rome_reclaim_3
 		 badboy = 60

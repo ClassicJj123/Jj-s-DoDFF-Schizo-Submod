@@ -634,6 +634,14 @@ migration_chance =
 			}
 		}
 	}
+	
+	#SIG immigration
+	modifier = {
+		 factor = 10
+		 country = {
+			 has_country_flag = SIG_migration
+		 }
+	}
 }
 
 #general colonial migration mtth, same for all pops
@@ -1268,12 +1276,14 @@ assimilation_chance =
 	modifier = {
 		 factor = 80
 		 has_pop_culture = romanian
+		 location = { is_core = THIS }
 		 country = { has_country_flag = SGF_GER_ROM }
 	}
 	
 	modifier = {
 		 factor = 80
 		 has_pop_culture = hungarian
+		 location = { is_core = THIS }
 		 country = { has_country_flag = SGF_GER_HUN }
 	}
 	
@@ -1288,24 +1298,28 @@ assimilation_chance =
 			 has_pop_culture = slovene
 			 has_pop_culture = bosniak
 		 }
+		 location = { is_core = THIS }
 		 country = { has_country_flag = SGF_GER_BAK }
 	}
 	
 	modifier = {
 		 factor = 80
 		 has_pop_culture = venetian
+		 location = { is_core = THIS }
 		 country = { has_country_flag = SGF_GER_VEN }
 	}
 	
 	modifier = {
 		 factor = 80
 		 has_pop_culture = manchu
+		 location = { is_core = THIS }
 		 country = { has_country_flag = JAP_GER_MCH }
 	}
 	
 	modifier = {
 		 factor = 80
 		 has_pop_culture = korean
+		 location = { is_core = THIS }
 		 country = { has_country_flag = JAP_GER_KOR }
 	}
 	
@@ -1315,12 +1329,19 @@ assimilation_chance =
 			 has_pop_culture = russian
 			 has_pop_culture = north_russian
 		 }
+		 location = { is_core = THIS }
 		 country = { has_country_flag = GPE_GER_RUS }
 	}
 	
 	modifier = {
 		 factor = 80
-		 has_pop_culture = burgundian
+		 OR = {
+			 has_pop_culture = burgundian
+			 has_pop_culture = dutch
+			 has_pop_culture = brabantian
+			 has_pop_culture = rheinish
+		 }
+		 location = { is_core = THIS }
 		 country = { has_country_flag = LTA_GER_BRG }
 	}
 	
@@ -1332,6 +1353,7 @@ assimilation_chance =
 			 has_pop_culture = anglois
 			 has_pop_culture = burgundian
 		 }
+		 location = { is_core = THIS }
 		 country = { has_country_flag = WFK_GER_FRA }
 	}
 	
@@ -1342,19 +1364,67 @@ assimilation_chance =
 			 has_pop_culture = central_italian
 			 has_pop_culture = venetian
 		 }
+		 location = { is_core = THIS }
 		 country = { has_country_flag = LOM_GER_ITA }
 	}
 	
 	modifier = {
 		 factor = 80
 		 has_pop_culture = greek
+		 location = { is_core = THIS }
 		 country = { has_country_flag = AFU_GER_GRE }
 	}
 	
 	modifier = {
 		 factor = 80
 		 has_pop_culture = turkish
+		 location = { is_core = THIS }
 		 country = { has_country_flag = ITS_GER_TUR }
+	}
+	
+	modifier = {
+		 factor = 80
+		 OR = {
+		 has_pop_culture = basque
+		 has_pop_culture = navarro_aragonese
+		 has_pop_culture = castilian
+		 has_pop_culture = portuguese
+		 has_pop_culture = old_portuguese
+		 has_pop_culture = catalan
+		 has_pop_culture = central_italian
+		 has_pop_culture = south_italian
+		 }
+		 location = { is_core = THIS }
+		 country = { has_country_flag = VIS_GER_SPA }
+	}
+	
+	#General North African assimilation
+	modifier = {
+		 factor = 100
+		 OR = {
+			 has_pop_culture = zanj
+			 has_pop_culture = maghrebi
+			 has_pop_culture = misri
+			 has_pop_culture = portuguese
+			 has_pop_culture = berber
+			 has_pop_culture = peu_vermells
+			 has_pop_culture = coptic
+			 has_pop_culture = tuareg
+			 has_pop_culture = catalan
+		 }
+		 location = { is_core = THIS }
+		 country = { has_country_flag = VAN_GER_north_africa }
+	}
+	
+	modifier = {
+		 factor = 80
+		 OR = {
+			 has_pop_culture = lithuanian
+			 has_pop_culture = latvian
+			 has_pop_culture = estonian
+		 }
+		 location = { is_core = THIS }
+		 country = { has_country_flag = LIV_GER_natives }
 	}
 	
 }

@@ -2162,7 +2162,13 @@ promote_to =
             is_accepted_culture = no
             NOT = { has_pop_religion = animist }
             country = { has_country_flag = colonial_armies }
-        }		
+        }
+		
+		#Schizo stop soldiers
+		 modifier = {
+			 factor = -1000
+			 country = { has_country_flag = stopsoldierpromotions }
+		 }
 		
 	}
 }
