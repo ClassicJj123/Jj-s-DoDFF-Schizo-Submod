@@ -1258,7 +1258,7 @@ LTA_establish_LIV = {
 }
 
 ###Failsafes###
-#Here cause you won't finish any of Burgundian eventy chains for these
+#Here cause you won't finish any of Burgundian event chains for these
 
 #Annex the Rhine Duchy
 LTA_annex_RHI = {
@@ -1402,5 +1402,43 @@ LOB_puppet_VIS = {
 	 }
 }
 
+################################
+###Regular Burgundy decisions###
+################################
+
+#Note: Not finished, merely an idea
+BRG_assimilate_RHI = {
+	 potential = {
+		 OR = {
+			 tag = BRG
+			 tag = FRK
+		 }
+		 has_country_flag = Schzio_mod_show
+		 ai = no
+	 }
+	 
+	 allow = {
+		 OR = {
+			 government = presidential_dictatorship
+			 government = fascist_dictatorship
+			 government = absolute_monarchy
+			 government = fascist_monarchy
+		 }
+		 CFR = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 remove_accepted_culture = rheinish
+		 CFR = {
+			 primary_culture = burgundian
+			 add_accepted_culture = rheinish
+		 }
+		 RHI = {
+			 primary_culture = burgundian
+			 add_accepted_culture = rheinish
+		 }
+	 }
+}
+		 
 
 }

@@ -5802,8 +5802,10 @@ rev_reforms = {
 	administrative_efficiency_modifier = 0.1 
 	icon = 13 
 }
+######################
+###schzio modifiers###
+######################
 
-#schzio modifiers
 Germanisation_program = {
 	 assimilation_rate = 4.0
 	 pop_militancy_modifier = -1.0

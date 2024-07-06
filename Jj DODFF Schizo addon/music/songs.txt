@@ -1,4 +1,13 @@
 song = {
+	name = "the_coronation_titletheme.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+}
+
+song = {
 	name = "Wir sind des Geyers schwarzer Haufen.mp3"
 	
 	chance = {
@@ -116,4 +125,94 @@ song = {
 			}
 		}
 	}
+}
+
+song = {
+	name = "Säkkijärven Ultra Polkka Cover (Big Band Party Version).mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	 }
+}
+
+song = {
+	name = "When Johnny Comes Marching Home.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	 }
+}
+
+song = {
+	name = "Panzerlied mashup.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	 }
+}
+
+song = {
+	name = "Erika.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	 }
+}
+
+song = {
+	name = "Battotai.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	 }
+}
+
+song = {
+	name = "Battotai (Epic Instrumental Version).mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	 }
+}
+
+song = {
+	name = "55 Tage in Peking German Ver.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	 }
+}
+
+song = {
+	name = "Wir sind des Geyers schwarzer Haufen (club mix).mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	 }
+}
+
+song = {
+	name = "Drum Bun.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	 }
 }

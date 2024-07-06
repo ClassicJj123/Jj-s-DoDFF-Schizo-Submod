@@ -60,5 +60,45 @@ play_SG_submod = {
 	 }
 }
 
+#Super Earth Fromable (For Managed Democracy)
+SCA_from_FSE = {
+	 potential = {
+		tag = SCA
+		ai = no
+		has_country_flag = Schzio_mod_show
+		NOT = { has_country_flag = SCA_from_FSE }
+	 }
+	 
+	 allow = {
+		 
+	 }
+	 
+	 effect = {
+		 change_tag = FSE
+		 SCA_307 = { add_core = FSE }
+		 SCA_345 = { add_core = FSE }
+		 SCA_340 = { add_core = FSE }
+		 SCA_337 = { add_core = FSE }
+		 SCA_995 = { add_core = FSE }
+		 RUS_349 = { add_core = FSE }
+		 RUS_354 = { add_core = FSE }
+		 LIT_698 = { add_core = FSE }
+		 RUS_707 = { add_core = FSE }
+		 RUS_360 = { add_core = FSE }
+		 RUS_719 = { add_core = FSE }
+		 RUS_718 = { add_core = FSE }
+		 RUS_946 = { add_core = FSE }
+		 RUS_1015 = { add_core = FSE }
+		 RUS_996 = { add_core = FSE }
+		 RUS_1003 = { add_core = FSE }
+		 RUS_998 = { add_core = FSE }
+		 RUS_991 = { add_core = FSE }
+		 RUS_990 = { add_core = FSE }
+		 RUS_986 = { add_core = FSE }
+		 RUS_1028 = { add_core = FSE }
+		 RUS_1026 = { add_core = FSE }
+		 set_country_flag = SCA_from_FSE
+	 }
+}
 
 }

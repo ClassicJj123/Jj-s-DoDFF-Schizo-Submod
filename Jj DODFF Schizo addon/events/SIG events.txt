@@ -275,17 +275,17 @@ country_event = {
 	 option = {
 		 name = "EVTOPA1000000135B"
 		 set_country_flag = SIG_republic_route
-		 set_country_flag = SIG_migration
+		 #set_country_flag = SIG_migration
 		 SIG = {
 			 primary_culture = tionghoa
 			 add_accepted_culture = malay
 		 }
-		 SIG = {
-		 	 add_country_modifier = {
-		 		 name = Singapore_miricle
-		 		 duration = -1
-		 	 }
-		 }
+		 #SIG = {
+		 #	 add_country_modifier = {
+		 #		 name = Singapore_miricle
+		 #		 duration = -1
+		 #	 }
+		 #}
 	 }
 	 
 	 #Crown the Ex-Malaccan sultan!
@@ -326,12 +326,345 @@ country_event = {
 		 has_country_flag = SIG_SCA_route
 	 }
 	 
+	 #We don't need Scandi
+	 option = {
+		 name = "EVTOPA1000000136A"
+		 clr_country_flag = SIG_SCA_route
+	 }
+	 
 	 #Let the Great game begin
 	 option = {
-		 name = "EVTOPA1000000136"
+		 name = "EVTOPA1000000136B"
 		 set_variable = {
 			 which = SIG_loyalty
 			 value = 1
 		 }
+		 set_country_flag = SIG_SCA_route_part_1
 	 }
 }
+
+#Question of port access
+country_event = {
+	 id = 1000000138
+	 title = "EVTNAME1000000138"
+	 desc = "EVTDESC1000000138"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = SIG_SCA_route_part_1
+	 }
+	 
+	 #Why not?
+	 option = {
+		 name = "EVTOPA1000000138A"
+		 SCA = { military_access = SIG }
+		 clr_country_flag = SIG_SCA_route_part_1
+		 set_country_flag = SIG_SCA_route_part_2
+		 change_variable = {
+			 which = SIG_loyalty
+			 value = 1
+		 }
+	 }
+	 
+	 #Nuh uh
+	 option = {
+		 name = "EVTOPA1000000138B"
+		 clr_country_flag = SIG_SCA_route_part_1
+		 set_country_flag = SIG_SCA_route_part_2
+		 change_variable = {
+			 which = SIG_loyalty
+			 value = -1
+		 }
+	 }
+}
+
+
+#Question of resource rights
+country_event = {
+	 id = 1000000139
+	 title = "EVTNAME1000000139"
+	 desc = "EVTDESC1000000139"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = SIG_SCA_route_part_2
+	 }
+	 
+	 #Why not?
+	 option = {
+		 name = "EVTOPA1000000139A"
+		 clr_country_flag = SIG_SCA_route_part_2
+		 set_country_flag = SIG_SCA_route_part_3
+		 change_variable = {
+			 which = SIG_loyalty
+			 value = 1
+		 }
+	 }
+	 
+	 #Nuh uh
+	 option = {
+		 name = "EVTOPA1000000139B"
+		 clr_country_flag = SIG_SCA_route_part_2
+		 set_country_flag = SIG_SCA_route_part_3
+		 change_variable = {
+			 which = SIG_loyalty
+			 value = -1
+		 }
+	 }
+}
+
+#Question of foregin policy
+country_event = {
+	 id = 1000000140
+	 title = "EVTNAME1000000140"
+	 desc = "EVTDESC1000000140"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = SIG_SCA_route_part_3
+	 }
+	 
+	 #Why not?
+	 option = {
+		 name = "EVTOPA1000000140A"
+		 SCA = { create_alliance = SIG }
+		 clr_country_flag = SIG_SCA_route_part_3
+		 set_country_flag = SIG_SCA_route_part_4
+		 change_variable = {
+			 which = SIG_loyalty
+			 value = 1
+		 }
+	 }
+	 
+	 #Nuh uh
+	 option = {
+		 name = "EVTOPA1000000140B"
+		 clr_country_flag = SIG_SCA_route_part_3
+		 set_country_flag = SIG_SCA_route_part_4
+		 change_variable = {
+			 which = SIG_loyalty
+			 value = -1
+		 }
+	 }
+}
+
+#So how did we fare?
+country_event = {
+	 id = 1000000141
+	 title = "EVTNAME1000000141"
+	 desc = "EVTDESC1000000141"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = SIG_SCA_route_part_4
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000141"
+		 clr_country_flag = SIG_SCA_route_part_4
+		 set_country_flag = SIG_SCA_route_judgement 
+	 }
+}
+
+#Scores for referrence
+#7 max loyalty
+#6-5 medium loyalty
+#4-1 lowest loyalty
+
+#Total Loyalty
+#I'm a boot licker ma!
+country_event = {
+	 id = 1000000142
+	 title = "EVTNAME1000000142"
+	 desc = "EVTDESC1000000142"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = SIG_SCA_route_judgement
+		 check_variable = {
+			 which = SIG_loyalty
+			 value = 7
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000142"
+		 SCA = {
+			 any_owned = {
+				 limit = {
+					 continent = asia
+					 NOT = { is_core = HND }
+				 }
+			 secede_province = SIG
+			 add_core = SIG
+			 }
+		 }
+		 any_country = {
+			 limit = {
+				 capital_scope = {
+					 continent = asia
+					 NOT = { is_core = HND }
+				 }
+				 in_sphere = SCA
+			 }
+		 any_owned = {
+			 add_core = SIG
+		 }
+		 annex_to = SIG
+		 }
+		 SIG = {
+			 3271 = {
+				 secede_province = SCA
+				 remove_core = SIG
+			 }
+		 }
+		 clr_country_flag = SIG_SCA_route_judgement
+		 set_country_flag = SIG_SCA_route_SCA_lackey
+	 }
+}
+
+#Trustable ally in asia
+country_event = {
+	 id = 1000000143
+	 title = "EVTNAME1000000143"
+	 desc = "EVTDESC1000000143"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = SIG_SCA_route_judgement
+		 check_variable = {
+			 which = SIG_loyalty
+			 value = 5
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = SIG_loyalty
+				 value = 7
+			 }
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000143"
+		 SCA = {
+			 any_owned = {
+				 limit = {
+					 continent = asia
+					 NOT = { is_core = HND }
+				 }
+			 secede_province = SIG
+			 add_core = SIG
+			 }
+		 }
+		 SIG = {
+			 3271 = {
+				 secede_province = SCA
+				 remove_core = SIG
+			 }
+		 }
+		 clr_country_flag = SIG_SCA_route_judgement
+		 set_country_flag = SIG_SCA_route_SCA_lackey
+	 }
+}
+
+#Scandinavia's reluctant ally
+country_event = {
+	 id = 1000000144
+	 title = "EVTNAME1000000144"
+	 desc = "EVTDESC1000000144"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = SIG_SCA_route_judgement
+		 check_variable = {
+			 which = SIG_loyalty
+			 value = 1
+		 }
+		 NOT = {
+			 check_variable = {
+				 which = SIG_loyalty
+				 value = 5
+			 }
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000144"
+		 clr_country_flag = SIG_SCA_route_judgement
+		 set_country_flag = SIG_SCA_route_furious_SCA
+	 }
+}
+
+###Independent subpath###
+#I AM A KING! NOT SOME DUKE!
+
+#A strong worded letter from Copenhagen
+country_event = {
+	 id = 1000000145
+	 title = "EVTNAME1000000145"
+	 desc = "EVTDESC1000000145"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = SIG_SCA_route_furious_SCA
+	 }
+	 
+	 #Give in to their demands
+	 #Traitor
+	 option = {
+		 name = "EVTOPA1000000145A"
+		 clr_country_flag = SIG_SCA_route_furious_SCA
+		 set_country_flag = SIG_SCA_route_SCA_lackey
+	 }
+	 
+	 #SCREW THEM!
+	 #Mass eruption of support for the king
+	 option = {
+		 name = "EVTOPA1000000145B"
+		 clr_country_flag = SIG_SCA_route_furious_SCA
+		 set_country_flag = SIG_SCA_route_furious_SCA_part_2
+	 }
+}
+
+#All branches of the poltical spectrum delcare their support
+#Congratulations, you have united the poltical climate, surely this will last?
