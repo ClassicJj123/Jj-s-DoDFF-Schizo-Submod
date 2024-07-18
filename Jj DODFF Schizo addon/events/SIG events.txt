@@ -668,3 +668,31 @@ country_event = {
 
 #All branches of the poltical spectrum delcare their support
 #Congratulations, you have united the poltical climate, surely this will last?
+country_event = {
+	 id = 1000000146
+	 title = "EVTNAME1000000146"
+	 desc = "EVTDESC1000000146"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = SIG_SCA_route_furious_SCA_part_2
+	 }
+	 
+	 #Rally the natives, no, MY PEOPLE!
+	 option = {
+		 name = "EVTOPA1000000146"
+		 prestige = 5
+		 set_country_flag = SIG_SCA_route_furious_SCA_part_3
+		 set_country_flag = SIG_SCA_route_unlock_propaganda
+		 clr_country_flag = SIG_SCA_route_furious_SCA_part_2
+		 set_variable = {
+			 which = SIG_propaganda
+			 value = 1
+		 }
+	 }
+}

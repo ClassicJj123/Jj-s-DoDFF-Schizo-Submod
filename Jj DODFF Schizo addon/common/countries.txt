@@ -628,11 +628,13 @@ ASP = "countries/SpaAustralia.txt"
 ##SIG path##
 SIG = "countries/Singapore.txt"
 SEA = "countries/South East Asia.txt"
+USO = "countries/Union of South Asia and Oceania.txt"
 ##Kurland##
 TEU = "countries/Teutonic Order.txt"
 LGC = "countries/Low German Confederation.txt"
 ##Teschen##
 GTK = "countries/Greater Teschen.txt"
+EZG = "countries/Empire of Zapadoslavia and Germany.txt"
 ##LTA path##
 NHR = "countries/Neo HRE.txt"
 BGR = "countries/Burgundian Revolt.txt"

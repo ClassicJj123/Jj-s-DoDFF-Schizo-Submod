@@ -18,35 +18,64 @@ SIG_subjugate_JOH = {
 	 }
 }
 
-#test break free
-SIG_test = {
+#Propaganda decision
+SIG_propaganda = {
 	 potential = {
 		 tag = SIG
 		 ai = no
 		 has_country_flag = Schzio_mod_show
-		 NOT = { has_country_flag = SIG_test }
+		 has_country_flag = SIG_SCA_route_unlock_propaganda
+		 NOT = {
+			 has_country_modifier = ARA_AUS_trade_war_cooldown
+		 }
 	 }
 	 
 	 allow = {
+		 money = 150000
 	 }
 	 
 	 effect = {
-		 SCA = { release_vassal = SIG }
-		 set_country_flag = SIG_test
-		 SIG = {
-			 government = parliamentary_republic
-			 political_reform = appointed
-			 political_reform = landed_voting
-			 political_reform = no_meeting
-			 political_reform = state_press
-			 political_reform = no_trade_unions
-			 political_reform = first_past_the_post
-			 political_reform = underground_parties
-			 primary_culture = tionghoa
-			 add_accepted_culture = scandinavian
+		 add_country_modifier = {
+			 name = ARA_AUS_trade_war_cooldown
+			 duration = 152
 		 }
+		 change_variable = {
+			 which = AUS_help
+			 value = 1
+		 }
+		 treasury = -100000
 	 }
 }
+
+#test break free
+#SIG_test = {
+#	 potential = {
+#		 tag = SIG
+#		 ai = no
+#		 has_country_flag = Schzio_mod_show
+#		 NOT = { has_country_flag = SIG_test }
+#	 }
+#	 
+#	 allow = {
+#	 }
+#	 
+#	 effect = {
+#		 SCA = { release_vassal = SIG }
+#		 set_country_flag = SIG_test
+#		 SIG = {
+#			 government = parliamentary_republic
+#			 political_reform = appointed
+#			 political_reform = landed_voting
+#			 political_reform = no_meeting
+#			 political_reform = state_press
+#			 political_reform = no_trade_unions
+#			 political_reform = first_past_the_post
+#			 political_reform = underground_parties
+#			 primary_culture = tionghoa
+#			 add_accepted_culture = scandinavian
+#		 }
+#	 }
+#}
 
 #From SEA master
 From_SEA_master = {

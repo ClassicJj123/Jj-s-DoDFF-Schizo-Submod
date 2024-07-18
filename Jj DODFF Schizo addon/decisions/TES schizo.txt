@@ -30,6 +30,7 @@ TES_claim_poland = {
 	 
 	 allow = {
 		 OR = {
+			 NOT = { exists = PLC }
 			 war_policy = jingoism
 			 nationalism_n_imperialism = 1
 		 }
@@ -272,6 +273,227 @@ GTK_accept_balters = {
 	 allow = {
 		 citizenship_policy = full_citizenship
 		 PRU = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = prussian
+		 set_country_flag = GTK_accept_balters
+	 }
+}
+
+#########################
+###German-Slavic Union###
+#########################
+
+#Claim ALL of Elbian land
+GTK_claim_NGF = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_german_union_path
+		 NOT = { has_country_flag = GTK_claim_NGF }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 OLD_539 = { add_core = THIS }
+		 HAM_532 = { add_core = THIS }
+		 BRA_536 = { add_core = THIS }
+		 MNR_585 = { add_core = THIS }
+		 HES_564 = { add_core = THIS }
+		 SAX_1 = { add_core = THIS }
+		 PRU_553 = { add_core = THIS }
+		 PRU_549 = { add_core = THIS }
+		 SAX_559 = { add_core = THIS }
+		 SAX_558 = { add_core = THIS }
+		 SCA_544 = { add_core = THIS }
+		 PRU_546 = { add_core = THIS }
+		 HOL_369 = { add_core = THIS }
+		 badboy = 5
+		 set_country_flag = GTK_claim_NGF
+	 }
+}
+
+#Claim Danubia
+GTK_claim_SGF = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_claim_NGF
+		 NOT = { has_country_flag = GTK_claim_SGF }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 FRW_597 = { add_core = THIS }
+		 BAV_595 = { add_core = THIS }
+		 BAV_599 = { add_core = THIS }
+		 AUS_612 = { add_core = THIS }
+		 AUS_619 = { add_core = THIS }
+		 AUS_616 = { add_core = THIS }
+		 624 = { add_core = THIS }
+		 AUS_768 = { add_core = THIS }
+		 AUS_736 = { add_core = THIS }
+		 badboy = 5
+		 set_country_flag = GTK_claim_SGF
+	 }
+}
+
+#Accept Danubians
+GTK_accept_SGF = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_claim_SGF
+		 NOT = { has_country_flag = LTA_accept_SGF }
+	 }
+	 
+	 allow = {
+		 FRW_597 = { owned_by = THIS }
+		 BAV_595 = { owned_by = THIS }
+		 BAV_599 = { owned_by = THIS }
+		 AUS_612 = { owned_by = THIS }
+		 AUS_619 = { owned_by = THIS }
+		 AUS_616 = { owned_by = THIS }
+		 624 = { owned_by = THIS }
+		 AUS_768 = { owned_by = THIS }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = south_german
+		 set_country_flag = GTK_accept_SGF
+	 }
+}
+
+#Claims on Swabia
+GTK_claim_SWA = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_accept_SGF
+		 NOT = { has_country_flag = GTK_claim_SWA }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 BAD = { all_core = { add_core = THIS } }
+		 WUR = { all_core = { add_core = THIS } }
+		 SWI = { all_core = { add_core = THIS } }
+		 ULM = { all_core = { add_core = THIS } }
+		 BAE = { all_core = { add_core = THIS } }
+		 FIO = { all_core = { add_core = THIS } }
+		 GRB = { all_core = { add_core = THIS } }
+		 set_country_flag = GTK_claim_SWA
+	 }
+}
+
+#Accept the Swabians
+GTK_accept_SWA = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_claim_SWA
+		 NOT = { has_country_flag = GTK_accept_SWA }
+	 }
+	 
+	 allow = {
+		 BAD = { all_core = { owned_by = THIS } }
+		 WUR = { all_core = { owned_by = THIS } }
+		 SWI = { all_core = { owned_by = THIS } }
+		 ULM = { all_core = { owned_by = THIS } }
+		 BAE = { all_core = { owned_by = THIS } }
+		 FIO = { all_core = { owned_by = THIS } }
+		 GRB = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = swabian
+		 set_country_flag = GTK_accept_SWA
+	 }
+}
+
+#claims on the Rheinish germans
+GTK_claim_CFR = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_accept_SWA
+		 NOT = { has_country_flag = GTK_claim_CFR }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 HEK = { all_core = { add_core = THIS } }
+		 NAS = { all_core = { add_core = THIS } }
+		 RHI = { all_core = { add_core = THIS } }
+		 OSN = { all_core = { add_core = THIS } }
+		 FRM = { all_core = { add_core = THIS } }
+		 BEG = { all_core = { add_core = THIS } }
+		 HES = { all_core = { add_core = THIS } }
+		 HSK = { all_core = { add_core = THIS } }
+		 MNR = { all_core = { add_core = THIS } }
+		 badboy = 5
+		 set_country_flag = GTK_claim_CFR
+	 }
+}
+
+#Accept the Rheinish
+GTK_accept_rheinish = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_claim_CFR
+		 NOT = { has_country_flag = GTK_accept_rheinish }
+	 }
+	 
+	 allow = {
+		 HEK = { all_core = { owned_by = THIS } }
+		 NAS = { all_core = { owned_by = THIS } }
+		 RHI = { all_core = { owned_by = THIS } }
+		 OSN = { all_core = { owned_by = THIS } }
+		 FRM = { all_core = { owned_by = THIS } }
+		 BEG = { all_core = { owned_by = THIS } }
+		 HES = { all_core = { owned_by = THIS } }
+		 HSK = { all_core = { owned_by = THIS } }
+		 MNR = { all_core = { owned_by = THIS } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = rheinish
+		 set_country_flag = GTK_accept_rheinish
+	 }
+}
+
+#From the EZG
+From_EZG = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = GTK_accept_rheinish
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 change_tag = EZG
 	 }
 }
 

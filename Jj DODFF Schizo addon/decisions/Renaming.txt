@@ -1,0 +1,551 @@
+political_decisions = {
+
+	 ##########################
+	 ###Czech-German Renames###
+	 ##########################
+
+	 #Czech Brandenburg
+	 rename_brandenburg_czech = {
+		 potential = {
+			 primary_culture = old_czech
+			 NOT = { has_global_flag = rename_brandenburg_czech }
+		 }
+		 
+		 allow = {
+			 war = no
+			 PRU_549 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 549 = { state_scope = { change_region_name = "Branibory" } }
+				 549 = { change_province_name = "Bralín" }
+				 550 = { change_province_name = "Bretislav" }
+				 551 = { change_province_name = "Prícvalk" }
+				 681 = { change_province_name = "Lancberk" }
+				 owner = { set_global_flag = rename_brandenburg_czech }
+			 }
+		 }
+	 }
+	 
+	 #Return to German Brandenburg
+	 rename_brandenburg_german = {
+		 potential = {
+			 OR = {
+				 primary_culture = czech
+				 primary_culture = north_german
+				 primary_culture = south_german
+				 primary_culture = rheinish
+				 primary_culture = swabian
+				 primary_culture = prussian
+			 }
+			 has_global_flag = rename_brandenburg_czech
+		 }
+		 
+		 allow = {
+			 war = no
+			 PRU_549 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 549 = { state_scope = { change_region_name = "Brandenburg" } }
+				 549 = { change_province_name = "Berlin" }
+				 550 = { change_province_name = "Prenzlau" }
+				 551 = { change_province_name = "Lenzen" }
+				 681 = { change_province_name = "Landsberg" }
+				 owner = { clr_global_flag = rename_brandenburg_czech }
+			 }
+		 }
+	 }
+	 
+	 #Czech Kursachsen
+	 rename_kursachsen_czech = {
+		 potential = {
+			 primary_culture = old_czech
+			 NOT = { has_global_flag = rename_kursachsen_czech }
+		 }
+		 
+		 allow = {
+			 war = no
+			 SAX_559 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 556 = { state_scope = { change_region_name = "Sasko" } }
+				 556 = { change_province_name = "Lipsko" }
+				 559 = { change_province_name = "Drážd'any" }
+				 560 = { change_province_name = "Kamenice" }
+				 owner = { set_global_flag = rename_kursachsen_czech }
+			 }
+		 }
+	 }
+	 
+	 #Return to German Kursachsen
+	 rename_kursachsen_german = {
+		 potential = {
+			 OR = {
+				 primary_culture = czech
+				 primary_culture = north_german
+				 primary_culture = south_german
+				 primary_culture = rheinish
+				 primary_culture = swabian
+				 primary_culture = prussian
+			 }
+			 has_global_flag = rename_kursachsen_czech
+		 }
+		 
+		 allow = {
+			 war = no
+			 SAX_559 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 556 = { state_scope = { change_region_name = "Kursachsen" } }
+				 556 = { change_province_name = "Leipzig" }
+				 559 = { change_province_name = "Dresden" }
+				 560 = { change_province_name = "Chemnitz" }
+				 owner = { clr_global_flag = rename_kursachsen_czech }
+			 }
+		 }
+	 }
+	 
+	 #Czech Pommern
+	 rename_pommern_czech = {
+		 potential = {
+			 primary_culture = old_czech
+			 NOT = { has_global_flag = rename_pommern_czech }
+		 }
+		 
+		 allow = {
+			 war = no
+			 PRU_546 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 546 = { state_scope = { change_region_name = "Pomoransko" } }
+				 546 = { change_province_name = "Štetín" }
+				 547 = { change_province_name = "Grýfov" }
+				 548 = { change_province_name = "Stralov" }
+				 679 = { change_province_name = "Košalín" }
+				 680 = { change_province_name = "Sloup" }
+				 owner = { set_global_flag = rename_pommern_czech }
+			 }
+		 }
+	 }
+	 
+	 #Return to German Pommern
+	 rename_pommern_german = {
+		 potential = {
+			 OR = {
+				 primary_culture = czech
+				 primary_culture = north_german
+				 primary_culture = south_german
+				 primary_culture = rheinish
+				 primary_culture = swabian
+				 primary_culture = prussian
+			 }
+			 has_global_flag = rename_pommern_czech
+		 }
+		 
+		 allow = {
+			 war = no
+			 PRU_546 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 546 = { state_scope = { change_region_name = "Pommern" } }
+				 546 = { change_province_name = "Stettin" }
+				 547 = { change_province_name = "Greifswald" }
+				 548 = { change_province_name = "Stralsund" }
+				 679 = { change_province_name = "Köslin" }
+				 680 = { change_province_name = "Stolp" }
+				 owner = { clr_global_flag = rename_pommern_czech }
+			 }
+		 }
+	 }
+	 
+	 #Czech Mecklenburg
+	 rename_mecklenburg_czech = {
+		 potential = {
+			 primary_culture = old_czech
+			 NOT = { has_global_flag = rename_mecklenburg_czech }
+		 }
+		 
+		 allow = {
+			 war = no
+			 SCA_544 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 544 = { state_scope = { change_region_name = "Meklenbursko" } }
+				 544 = { change_province_name = "Zverín" }
+				 545 = { change_province_name = "Nové Strelice" }
+				 owner = { set_global_flag = rename_mecklenburg_czech }
+			 }
+		 }
+	 }
+	 
+	 #Return to German Mecklenburg
+	 rename_mecklenburg_german = {
+		 potential = {
+			 OR = {
+				 primary_culture = czech
+				 primary_culture = north_german
+				 primary_culture = south_german
+				 primary_culture = rheinish
+				 primary_culture = swabian
+				 primary_culture = prussian
+			 }
+			 has_global_flag = rename_mecklenburg_czech
+		 }
+		 
+		 allow = {
+			 war = no
+			 SCA_544 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 544 = { state_scope = { change_region_name = "Mecklenburg" } }
+				 544 = { change_province_name = "Schwerin" }
+				 545 = { change_province_name = "Neustrelitz" }
+				 owner = { clr_global_flag = rename_mecklenburg_czech }
+			 }
+		 }
+	 }
+	 
+	 #Czech Holstein
+	 rename_holstein_czech = {
+		 potential = {
+			 primary_culture = old_czech
+			 NOT = { has_global_flag = rename_holstein_czech }
+		 }
+		 
+		 allow = {
+			 war = no
+			 HOL_369 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 369 = { state_scope = { change_region_name = "Holštýnsko" } }
+				 369 = { change_province_name = "Kílno" }
+				 529 = { change_province_name = "Labehrad" }
+				 530 = { change_province_name = "Lubek" }
+				 528 = { change_province_name = "Hamburk" }
+				 533 = { change_province_name = "Helgoland" }
+				 owner = { set_global_flag = rename_holstein_czech }
+			 }
+		 }
+	 }
+	 
+	 #Return to German Holstein
+	 rename_holstein_german = {
+		 potential = {
+			 OR = {
+				 primary_culture = czech
+				 primary_culture = north_german
+				 primary_culture = south_german
+				 primary_culture = rheinish
+				 primary_culture = swabian
+				 primary_culture = prussian
+			 }
+			 has_global_flag = rename_holstein_czech
+		 }
+		 
+		 allow = {
+			 war = no
+			 HOL_369 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 369 = { state_scope = { change_region_name = "Holstein" } }
+				 369 = { change_province_name = "Kiel" }
+				 529 = { change_province_name = "Lauenburg" }
+				 530 = { change_province_name = "Lübeck" }
+				 528 = { change_province_name = "Hamburg" }
+				 533 = { change_province_name = "Heligoland" }
+				 owner = { clr_global_flag = rename_holstein_czech }
+			 }
+		 }
+	 }
+	 
+	 #Czech Ostböhmen
+	 rename_ostbohmen_czech = {
+		 potential = {
+			 primary_culture = old_czech
+			 NOT = { has_global_flag = rename_ostbohmen_czech }
+		 }
+		 
+		 allow = {
+			 war = no
+			 AUS_625 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 625 = { state_scope = { change_region_name = "Východní Cechy" } }
+				 625 = { change_province_name = "Praha" }
+				 626 = { change_province_name = "Hradec Králové" }
+				 628 = { change_province_name = "Ústí nad Labem" }
+				 3269 = { change_province_name = "Benešov" }
+				 owner = { set_global_flag = rename_ostbohmen_czech }
+			 }
+		 }
+	 }
+	 
+	 #Return to German Ostböhmen
+	 rename_ostbohmen_german = {
+		 potential = {
+			 OR = {
+				 primary_culture = czech
+				 primary_culture = north_german
+				 primary_culture = south_german
+				 primary_culture = rheinish
+				 primary_culture = swabian
+				 primary_culture = prussian
+			 }
+			 has_global_flag = rename_ostbohmen_czech
+		 }
+		 
+		 allow = {
+			 war = no
+			 AUS_625 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 625 = { state_scope = { change_region_name = "Ostböhmen" } }
+				 625 = { change_province_name = "Prag" }
+				 626 = { change_province_name = "Königgrätz" }
+				 628 = { change_province_name = "Aussig" }
+				 3269 = { change_province_name = "Beneschau" }
+				 owner = { clr_global_flag = rename_ostbohmen_czech }
+			 }
+		 }
+	 }
+	 
+	 #Czech Westböhmen
+	 rename_westbohmen_czech = {
+		 potential = {
+			 primary_culture = old_czech
+			 NOT = { has_global_flag = rename_westbohmen_czech }
+		 }
+		 
+		 allow = {
+			 war = no
+			 BOH_629 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 629 = { state_scope = { change_region_name = "Západní Cechy" } }
+				 629 = { change_province_name = "Plzen" }
+				 630 = { change_province_name = "Ceské Budejovice" }
+				 627 = { change_province_name = "Karlovy Vary" }
+				 owner = { set_global_flag = rename_westbohmen_czech }
+			 }
+		 }
+	 }
+	 
+	 #Return to German Westböhmen
+	 rename_westbohmen_german = {
+		 potential = {
+			 OR = {
+				 primary_culture = czech
+				 primary_culture = north_german
+				 primary_culture = south_german
+				 primary_culture = rheinish
+				 primary_culture = swabian
+				 primary_culture = prussian
+			 }
+			 has_global_flag = rename_westbohmen_czech
+		 }
+		 
+		 allow = {
+			 war = no
+			 BOH_629 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 629 = { state_scope = { change_region_name = "Westböhmen" } }
+				 629 = { change_province_name = "Pilsen" }
+				 630 = { change_province_name = "Budweis" }
+				 627 = { change_province_name = "Karlsbad" }
+				 owner = { clr_global_flag = rename_westbohmen_czech }
+			 }
+		 }
+	 }
+	 
+	 #Czech Mähren
+	 rename_mahren_czech = {
+		 potential = {
+			 primary_culture = old_czech
+			 NOT = { has_global_flag = rename_mahren_czech }
+		 }
+		 
+		 allow = {
+			 war = no
+			 AUS_626 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 631 = { state_scope = { change_region_name = "Morava" } }
+				 631 = { change_province_name = "Brno" }
+				 632 = { change_province_name = "Olomouc" }
+				 3339 = { change_province_name = "Zlín" }
+				 owner = { set_global_flag = rename_mahren_czech }
+			 }
+		 }
+	 }
+	 
+	 #Return to German Mähren
+	 rename_mahren_german = {
+		 potential = {
+			 OR = {
+				 primary_culture = czech
+				 primary_culture = north_german
+				 primary_culture = south_german
+				 primary_culture = rheinish
+				 primary_culture = swabian
+				 primary_culture = prussian
+			 }
+			 has_global_flag = rename_mahren_czech
+		 }
+		 
+		 allow = {
+			 war = no
+			 AUS_626 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 631 = { state_scope = { change_region_name = "Mähren" } }
+				 631 = { change_province_name = "Brünn" }
+				 632 = { change_province_name = "Olmütz" }
+				 3339 = { change_province_name = "Zlin" }
+				 owner = { clr_global_flag = rename_mahren_czech }
+			 }
+		 }
+	 }
+	 
+	 #Czech Niederschlesien
+	 rename_niederschlesien_czech = {
+		 potential = {
+			 primary_culture = old_czech
+			 NOT = { has_global_flag = rename_niederschlesien_czech }
+		 }
+		 
+		 allow = {
+			 war = no
+			 PRU_682 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 682 = { state_scope = { change_region_name = "Dolní Slezsko" } }
+				 682 = { change_province_name = "Vratislav" }
+				 683 = { change_province_name = "Svídnice" }
+				 2584 = { change_province_name = "Lehnice" }
+				 3338 = { change_province_name = "Hlohov" }
+				 owner = { set_global_flag = rename_niederschlesien_czech }
+			 }
+		 }
+	 }
+	 
+	 #Return to German Niederschlesien
+	 rename_niederschlesien_german = {
+		 potential = {
+			 OR = {
+				 primary_culture = czech
+				 primary_culture = north_german
+				 primary_culture = south_german
+				 primary_culture = rheinish
+				 primary_culture = swabian
+				 primary_culture = prussian
+			 }
+			 has_global_flag = rename_niederschlesien_czech
+		 }
+		 
+		 allow = {
+			 war = no
+			 PRU_682 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 682 = { state_scope = { change_region_name = "Niederschlesien" } }
+				 682 = { change_province_name = "Breslau" }
+				 683 = { change_province_name = "Schweidnitz" }
+				 2584 = { change_province_name = "Liegnitz" }
+				 3338 = { change_province_name = "Glogau" }
+				 owner = { clr_global_flag = rename_niederschlesien_czech }
+			 }
+		 }
+	 }
+	 
+	 #Czech Oberschlesien
+	 rename_oberschlesien_czech = {
+		 potential = {
+			 primary_culture = old_czech
+			 NOT = { has_global_flag = rename_oberschlesien_czech }
+		 }
+		 
+		 allow = {
+			 war = no
+			 SIL_684 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 684 = { state_scope = { change_region_name = "Horní Slezsko" } }
+				 684 = { change_province_name = "Opolí" }
+				 685 = { change_province_name = "Bytom" }
+				 688 = { change_province_name = "Opava" }
+				 689 = { change_province_name = "Tešín" }
+				 owner = { set_global_flag = rename_oberschlesien_czech }
+			 }
+		 }
+	 }
+	 
+	 #Return to German Oberschlesien
+	 rename_oberschlesien_german = {
+		 potential = {
+			 OR = {
+				 primary_culture = czech
+				 primary_culture = north_german
+				 primary_culture = south_german
+				 primary_culture = rheinish
+				 primary_culture = swabian
+				 primary_culture = prussian
+			 }
+			 has_global_flag = rename_oberschlesien_czech
+		 }
+		 
+		 allow = {
+			 war = no
+			 SIL_684 = { owned_by = THIS }
+		 }
+		 
+		 effect = {
+			 random_owned = {
+				 684 = { state_scope = { change_region_name = "Oberschlesien" } }
+				 684 = { change_province_name = "Oppeln" }
+				 685 = { change_province_name = "Beuthen" }
+				 688 = { change_province_name = "Troppau" }
+				 689 = { change_province_name = "Teschen" }
+				 owner = { clr_global_flag = rename_oberschlesien_czech }
+			 }
+		 }
+	 }
+	 
+}

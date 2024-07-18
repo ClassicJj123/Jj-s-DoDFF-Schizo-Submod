@@ -1416,6 +1416,7 @@ assimilation_chance =
 		 country = { has_country_flag = VAN_GER_north_africa }
 	}
 	
+	#General Baltic assimilation
 	modifier = {
 		 factor = 80
 		 OR = {

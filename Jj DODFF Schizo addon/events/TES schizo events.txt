@@ -1,0 +1,31 @@
+country_event = {
+	 id = 1000000070
+	 title = "EVTNAME1000000070"
+	 desc = "EVTDESC1000000070"
+	 picture = "GTK_victory"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = GTK
+		 has_country_flag = GTK_accept_sorbs
+		 has_country_flag = GTK_accept_galicians
+		 has_country_flag = GTK_accept_balters
+	 }
+	 
+	 #German-Slavic path
+	 option = {
+		 name = "EVTOPA1000000070A"
+		 set_country_flag = GTK_german_union_path
+		 add_accepted_culture = north_german
+	 }
+	 
+	 #EMBRACE THE EASTERN SLAVS ONWARDS TO RUTHENIA
+	 option = {
+		 name = "EVTOPA1000000070B"
+		 set_country_flag = GTK_East_West_Slavic_union_path
+		 primary_culture = old_czech
+		 add_accepted_culture = polish
+	 }
+}
