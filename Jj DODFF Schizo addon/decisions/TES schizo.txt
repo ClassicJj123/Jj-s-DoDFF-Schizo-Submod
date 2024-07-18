@@ -331,6 +331,19 @@ GTK_claim_SGF = {
 	 }
 	 
 	 effect = {
+		 any_country = {
+			 limit = {
+				 AND = {
+					 in_sphere = THIS
+					 OR = {
+						 tag = BAV
+						 tag = AUS
+						 tag = SGF
+					 }
+				 }
+			 }
+		 annex_to = THIS
+		 }
 		 FRW_597 = { add_core = THIS }
 		 BAV_595 = { add_core = THIS }
 		 BAV_599 = { add_core = THIS }
@@ -352,7 +365,7 @@ GTK_accept_SGF = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = GTK_claim_SGF
-		 NOT = { has_country_flag = LTA_accept_SGF }
+		 NOT = { has_country_flag = GTK_accept_SGF }
 	 }
 	 
 	 allow = {
@@ -387,6 +400,24 @@ GTK_claim_SWA = {
 	 
 	 effect = {
 		 badboy = 5
+		 any_country = {
+			 limit = {
+				 AND = {
+					 in_sphere = THIS
+					 OR = {
+						 tag = BAD
+						 tag = WUR
+						 tag = SWI
+						 tag = ULM
+						 tag = BAE
+						 tag = FIO
+						 tag = GRB
+						 tag = SWA
+					 }
+				 }
+			 }
+		 annex_to = THIS
+		 }
 		 BAD = { all_core = { add_core = THIS } }
 		 WUR = { all_core = { add_core = THIS } }
 		 SWI = { all_core = { add_core = THIS } }
@@ -458,7 +489,7 @@ GTK_accept_rheinish = {
 		 tag = GTK
 		 ai = no
 		 has_country_flag = Schzio_mod_show
-		 has_country_flag = LTA_claim_CFR
+		 has_country_flag = GTK_claim_CFR
 		 NOT = { has_country_flag = GTK_accept_rheinish }
 	 }
 	 
