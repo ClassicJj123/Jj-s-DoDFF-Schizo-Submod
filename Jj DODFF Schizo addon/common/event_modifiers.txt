@@ -5917,3 +5917,6 @@ Singapore_miricle = {
 	 global_immigrant_attract = 0.10
      non_accepted_pop_militancy_modifier = -0.1
 }
+
+chaos_mode_cooldown = {
+}

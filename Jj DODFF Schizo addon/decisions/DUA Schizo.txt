@@ -1,0 +1,30 @@
+political_decisions = {
+
+	 #The English are on ourside, time to kill the only country that has a claim to our english holdings
+	 DUA_kill_NAN = {
+		 potential = {
+			 tag = DUA
+			 OR = {
+				 has_country_flag = english_integration
+				 has_country_flag = dual_integration
+			 }
+		 }
+		 
+		 allow = {
+			 war = no
+			 revolution_n_counterrevolution = 1
+		 }
+		 
+		 effect = {
+			 badboy = 10
+			 war = {
+				 target = NAN
+				 attacker_goal = { casus_belli = custom_treaty_cb }
+				 defender_goal = { casus_belli = status_quo }
+				 call_ally = no
+			 }
+			 set_global_flag = DUA_NAN_war
+		 }
+	 }
+	 
+}

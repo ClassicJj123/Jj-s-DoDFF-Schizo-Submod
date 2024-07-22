@@ -642,6 +642,7 @@ DOB = "countries/Duchy of Bohemia.txt"
 ##Funni Formables##
 FSE = "countries/Federation of Super Earth.txt"
 IOM = "countries/Imperium of Man.txt"
+BEL = "countries/Belgium.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes #any tags after this is considered dynamic dominions

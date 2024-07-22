@@ -1,0 +1,205 @@
+#Chaos mode master
+country_event = {
+	 id = 1000000148
+	 title = "EVTNAME1000000148"
+	 desc = "EVTDESC1000000148"
+	 picture = "Funny"
+	 
+	 mean_time_to_happen = { days = 0 }
+	 
+	 trigger = {
+		 has_country_flag = chaos_mode_enabled
+		 NOT = { has_country_modifier = chaos_mode_cooldown }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000148"
+		 add_country_modifier = {
+			 name = chaos_mode_cooldown
+			 duration = 30
+		 }
+		 random_list = {
+			 10 = { country_event = 1000000149 } #Badboy gain
+			 10 = { country_event = 1000000150 } #Badboy lost
+			 10 = { country_event = 1000000151 } #Assimilation 1 month
+			 10 = { country_event = 1000000152 } #Assimilation 5 month
+			 10 = { country_event = 1000000153 } #Beornia Gains Wales
+			 10 = { country_event = 1000000154 } #POP MAXING
+			 10 = { random_country = { country_event = 1000000156 } } #conquest cb
+			 10 = { country_event = 1000000157 } #Belgium!
+			 10 = { country_event = 60000 } #Communist
+			 10 = { country_event = 60040 } #Absolute monarchy
+		 }
+	 }
+}
+
+#Badboy gain
+country_event = {
+	 id = 1000000149
+	 title = "EVTNAME1000000149"
+	 desc = "EVTDESC1000000149"
+	 picture = "Funny"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000149"
+		 badboy = 5
+	 }
+}
+
+#Badboy reduction
+country_event = {
+	 id = 1000000150
+	 title = "EVTNAME1000000150"
+	 desc = "EVTDESC1000000150"
+	 picture = "Funny"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000150"
+		 badboy = -5
+	 }
+}
+
+#Assimilation buff ( 1 month )
+country_event = {
+	 id = 1000000151
+	 title = "EVTNAME1000000151"
+	 desc = "EVTDESC1000000151"
+	 picture = "Funny"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000151"
+		 any_owned = {
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = 30
+			 }
+		 }
+	 }
+}
+
+#Assimilation buff ( 5 months )
+country_event = {
+	 id = 1000000152
+	 title = "EVTNAME1000000152"
+	 desc = "EVTDESC1000000152"
+	 picture = "Funny"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000152"
+		 any_owned = {
+			 add_province_modifier = {
+				 name = Germanisation_program
+				 duration = 152
+			 }
+		 }
+	 }
+}
+
+#Beornia gains a foothold in wales...?
+country_event = {
+	 id = 1000000153
+	 title = "EVTNAME1000000153"
+	 desc = "EVTDESC1000000153"
+	 picture = "Funny"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000153"
+		 WLS = { all_core = { add_core = NAN } }
+		 any_country = { release = WLS }
+		 WLS = { annex_to = NAN }
+	 }
+}
+
+#POPULATION MAXING
+country_event = {
+	 id = 1000000154
+	 title = "EVTNAME1000000154"
+	 desc = "EVTDESC1000000154"
+	 picture = "Funny"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000154"
+		 any_owned = {
+			 add_province_modifier = {
+				 name = German_repoplution_LGC
+				 duration = 30
+			 }
+		 }
+	 }
+}
+
+#Gain a conquest war goal
+country_event = {
+	 id = 1000000155
+	 title = "EVTNAME1000000155"
+	 desc = "EVTDESC1000000155"
+	 picture = "Funny"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000155"
+		 casus_belli = {
+			 target = FROM
+			 type = conquest_any
+			 months = 5
+		 }
+	 }
+}
+
+#Gain conquest cb target
+country_event = {
+	 id = 1000000156
+	 title = "EVTNAME1000000156"
+	 desc = "EVTDESC1000000156"
+	 picture = "Funny"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000156"
+		 random_country = {
+			 limit = {
+				 has_country_modifier = chaos_mode_cooldown
+			 }
+			 country_event = 1000000155
+		 }
+	 }
+}
+
+#Belgium is a thing now
+country_event = {
+	 id = 1000000157
+	 title = "EVTNAME1000000157"
+	 desc = "EVTDESC1000000157"
+	 picture = "Funny"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000157"
+		 BRB = { all_core = { add_core = BEL } }
+		 394 = { add_core = BEL }
+		 395 = { add_core = BEL }
+		 392 = { add_core = BEL }
+		 398 = { add_core = BEL }
+		 396 = { add_core = BEL }
+		 397 = { add_core = BEL }
+		 378 = { remove_core = BEL }
+		 380 = { remove_core = BEL }
+		 379 = { remove_core = BEL }
+		 any_country = { release = BEL }
+	 }
+}
