@@ -2,6 +2,7 @@ political_decisions = {
 
 #Turn on Schzio Decisions
 Turn_on_schizo_addon = {
+	 picture = "schizo_funni"
 	 potential = {
 		 ai = no
 		 NOT = { has_country_flag = Schzio_mod_show }
@@ -30,22 +31,9 @@ Turn_off_schzio_addon = {
 	 }
 }
 
-#Clear infamy debug decision
-Clear_infamy = {
-	 potential = {
-		 has_country_flag = Schzio_mod_show
-	 }
-	 
-	 allow = {
-	 }
-	 
-	 effect = {
-		 badboy = -100
-	 }
-}
-
 #Turn on Chaos-mode
 turn_on_chaos_mode = {
+	 picture = "schizo_funni"
 	 potential = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
@@ -73,6 +61,88 @@ turn_off_chaos_mode = {
 	 
 	 effect = {
 		 clr_country_flag = chaos_mode_enabled
+	 }
+}
+
+##################
+###Debug/Cheats###
+##################
+
+#Turn on Debug mode
+turn_on_debug_mode = {
+	 picture = "Nuh_Uh"
+	 potential = {
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = debug_mode_enabled }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 set_country_flag = debug_mode_enabled
+	 }
+}
+
+#Turn off debug mode
+turn_off_debug_mode = {
+	 potential = {
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = debug_mode_enabled
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 clr_country_flag = debug_mode_enabled
+	 }
+}
+
+#Clear infamy debug decision
+Clear_infamy = {
+	 potential = {
+		 ai = no
+		 has_country_flag = debug_mode_enabled
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 badboy = -100
+	 }
+}
+
+#Militancy lowering
+lower_militancy = {
+	 potential = {
+		 ai = no
+		 has_country_flag = debug_mode_enabled
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 any_pop = { militancy = -10 }
+	 }
+}
+
+#Consciousness lowering
+lower_consciousness = {
+	 potential = {
+		 ai = no
+		 has_country_flag = debug_mode_enabled
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 any_pop = { consciousness = -10 }
 	 }
 }
 

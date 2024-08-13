@@ -1183,7 +1183,7 @@ LTA_destroy_BOH = {
 }
 
 #From Neo HRE
-LTA_from_HRE = {
+LTA_from_NHR = {
 	 potential = {
 		 tag = LTA
 		 ai = no
@@ -1351,7 +1351,7 @@ LTA_puppet_VIS = {
 }
 
 #If WFK breaks free
-WFK_puppet_VIS = {
+LTA_puppet_WFK = {
 	 potential = {
 		 OR = {
 			 tag = LTA
@@ -1377,7 +1377,7 @@ WFK_puppet_VIS = {
 }
 
 #If LOB breaks free
-LOB_puppet_VIS = {
+LTA_puppet_LOB = {
 	 potential = {
 		 OR = {
 			 tag = LTA
@@ -1407,38 +1407,38 @@ LOB_puppet_VIS = {
 ################################
 
 #Note: Not finished, merely an idea
-BRG_assimilate_RHI = {
-	 potential = {
-		 OR = {
-			 tag = BRG
-			 tag = FRK
-		 }
-		 has_country_flag = Schzio_mod_show
-		 ai = no
-	 }
-	 
-	 allow = {
-		 OR = {
-			 government = presidential_dictatorship
-			 government = fascist_dictatorship
-			 government = absolute_monarchy
-			 government = fascist_monarchy
-		 }
-		 CFR = { all_core = { owned_by = THIS } }
-	 }
-	 
-	 effect = {
-		 remove_accepted_culture = rheinish
-		 CFR = {
-			 primary_culture = burgundian
-			 add_accepted_culture = rheinish
-		 }
-		 RHI = {
-			 primary_culture = burgundian
-			 add_accepted_culture = rheinish
-		 }
-	 }
-}
-		 
+#BRG_assimilate_RHI = {
+#	 potential = {
+#		 OR = {
+#			 tag = BRG
+#			 tag = FRK
+#		 }
+#		 has_country_flag = Schzio_mod_show
+#		 ai = no
+#	 }
+#	 
+#	 allow = {
+#		 OR = {
+#			 government = presidential_dictatorship
+#			 government = fascist_dictatorship
+#			 government = absolute_monarchy
+#			 government = fascist_monarchy
+#		 }
+#		 CFR = { all_core = { owned_by = THIS } }
+#	 }
+#	 
+#	 effect = {
+#		 remove_accepted_culture = rheinish
+#		 CFR = {
+#			 primary_culture = burgundian
+#			 add_accepted_culture = rheinish
+#		 }
+#		 RHI = {
+#			 primary_culture = burgundian
+#			 add_accepted_culture = rheinish
+#		 }
+#	 }
+#}
+
 
 }

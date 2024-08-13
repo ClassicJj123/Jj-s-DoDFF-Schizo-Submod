@@ -696,3 +696,113 @@ country_event = {
 		 }
 	 }
 }
+
+#Major: Declaration of Our intentions
+country_event = {
+	 id = 1000000158
+	 title = "EVTNAME1000000158"
+	 desc = "EVTDESC1000000158"
+	 major = yes
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = SIG
+		 ai = no
+		 has_country_flag = SIG_SCA_route_furious_SCA_part_4
+	 }
+	 
+	 #I AM A KING OF THE PEOPLE OF THIS REGION AND THUS IT FALLS ON ME TO FREE IT'S PEOPLE FROM THEIR SHACKLES!
+	 option = {
+		 name = "EVTOPA1000000158"
+		 BUR_1339 = { add_core = SIG }
+		 BUR_1334 = { add_core = SIG }
+		 BUR_1330 = { add_core = SIG }
+		 BUR_1352 = { add_core = SIG }
+		 SIA_1355 = { add_core = SIG }
+		 SIA_1358 = { add_core = SIG }
+		 SIA_1366 = { add_core = SIG }
+		 SIA_1346 = { add_core = SIG }
+		 SIA_1367 = { add_core = SIG }
+		 ANN_1383 = { add_core = SIG }
+		 ANN_1379 = { add_core = SIG }
+		 ANN_1374 = { add_core = SIG }
+		 LUA_1356 = { add_core = SIG }
+		 ANN_1371 = { add_core = SIG }
+		 ENG_1392 = { add_core = SIG }
+		 JOH_1387 = { add_core = SIG }
+		 LYM_2576 = { add_core = SIG }
+		 #Maritine SIG
+		 ATJ_1405 = { add_core = SIG }
+		 PAG_1408 = { add_core = SIG }
+		 NET_1398 = { add_core = SIG }
+		 BRU_1394 = { add_core = SIG }
+		 SUL_1459 = { add_core = SIG }
+		 BLG_1429 = { add_core = SIG }
+		 TNJ_1427 = { add_core = SIG }
+		 SPA_1455 = { add_core = SIG }
+		 SPA_1460 = { add_core = SIG }
+		 SPA_1463 = { add_core = SIG }
+		 NET_1433 = { add_core = SIG }
+		 NET_1430 = { add_core = SIG }
+		 NET_1449 = { add_core = SIG }
+		 NET_1460 = { add_core = SIG }
+		 BIM_1439 = { add_core = SIG }
+		 BAL_1446 = { add_core = SIG }
+		 BAL_1438 = { add_core = SIG }
+		 NET_1419 = { add_core = SIG }
+		 NET_1414 = { add_core = SIG }
+		 NET_1421 = { add_core = SIG }
+		 badboy = 5
+		 clr_country_flag = SIG_SCA_route_furious_SCA_part_4
+		 set_country_flag = SIG_SCA_route_furious_SCA_part_5
+	 }
+}
+
+#Uprising in Sumatra
+country_event = {
+	 id = 1000000159
+	 title = "EVTNAME1000000159"
+	 desc = "EVTDESC1000000159"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = VOC
+		 exists = VOC
+		 SIG = { has_country_flag = SIG_SCA_route_furious_SCA_part_5 }
+	 }
+	 
+	 #The Revolters Have Seized Sumatra!
+	 #VOC: DAMN IT, HOW THE HELL AM I SUPPOSED TO MAKE MONEY NOW?!
+	 option = {
+		 name = "EVTOPA1000000159"
+		 any_country = {
+			 limit = {
+				 OR = {
+					 tag = PLM
+					 tag = PAG
+					 tag = DEL
+					 tag = ATJ
+				 }
+			 }
+			 annex_to = SIG
+			 add_core = SIG
+		 }
+		 any_owned = {
+			 limit = {
+				 is_core = PLM
+				 is_core = PAG
+				 is_core = DEL
+				 is_core = ATJ
+			 }
+			 secede_province = SIG
+			 add_core = SIG
+		 }
+		 SIG = { clr_country_flag = SIG_SCA_route_furious_SCA_part_5 }
+		 SIG = { set_country_flag = SIG_SCA_route_furious_SCA_part_6 }
+	 }
+}

@@ -230,31 +230,61 @@ unit_names = {
 		Parameswara "Sultan Iskandar" Bendahara Laksamana Temenggung "Penghulu bendahari" Shahbanda "Hukum Kanun" "Undang-Undang"
 		"Pulau Bakung" "Pulau Lingga" Kepulauan "Pulau Singkep" "Kepulauan Riau" "Pulau Rempang" "Pulau Kundur" "Pulau Padang"
 		"Pulau Bengkaus" "Pulau Tinggi" "Pulau Sibu" "Pulau Tioman" "Pulau Aur" "Pulau Rupat" "Pulau Rangsang" "Pulau Tebing Tinggi"
+		Conqueror Chieftain Archer Swordsman Invincible Impeccable
+		Illustrious Inimitable Formidable Intrepid Steadfast
+		Tenacious Stalwart Supreme Victory Valour Vigilance Valiant
+		Vigour Vengeance Independence Sovereignty Unity Justice
+		Indomitable Fortitude Dauntless Fearless
 	}
 	ironclad = {
 		Parameswara "Sultan Iskandar" Bendahara Laksamana Temenggung "Penghulu bendahari" Shahbanda "Hukum Kanun" "Undang-Undang"
 		"Pulau Bakung" "Pulau Lingga" Kepulauan "Pulau Singkep" "Kepulauan Riau" "Pulau Rempang" "Pulau Kundur" "Pulau Padang" 
 		"Pulau Bengkaus" "Pulau Tinggi" "Pulau Sibu" "Pulau Tioman" "Pulau Aur" "Pulau Rupat" "Pulau Rangsang" "Pulau Tebing Tinggi"
+		Conqueror Chieftain Archer Swordsman Invincible Impeccable
+		Illustrious Inimitable Formidable Intrepid Steadfast
+		Tenacious Stalwart Supreme Victory Valour Vigilance Valiant
+		Vigour Vengeance Independence Sovereignty Unity Justice
+		Indomitable Fortitude Dauntless Fearless
 	}
 	manowar = {
 		Parameswara "Sultan Iskandar" Bendahara Laksamana Temenggung "Penghulu bendahari" Shahbanda "Hukum Kanun" "Undang-Undang"
 		"Pulau Bakung" "Pulau Lingga" Kepulauan "Pulau Singkep" "Kepulauan Riau" "Pulau Rempang" "Pulau Kundur" "Pulau Padang"
 		"Pulau Bengkaus" "Pulau Tinggi" "Pulau Sibu" "Pulau Tioman" "Pulau Aur" "Pulau Rupat" "Pulau Rangsang" "Pulau Tebing Tinggi"
+		Conqueror Chieftain Archer Swordsman Invincible Impeccable
+		Illustrious Inimitable Formidable Intrepid Steadfast
+		Tenacious Stalwart Supreme Victory Valour Vigilance Valiant
+		Vigour Vengeance Independence Sovereignty Unity Justice
+		Indomitable Fortitude Dauntless Fearless
 	}
 	cruiser = {
 		Parameswara "Sultan Iskandar" Bendahara Laksamana Temenggung "Penghulu bendahari" Shahbanda "Hukum Kanun" "Undang-Undang"
 		"Pulau Bakung" "Pulau Lingga" Kepulauan "Pulau Singkep" "Kepulauan Riau" "Pulau Rempang" "Pulau Kundur" "Pulau Padang"
 		"Pulau Bengkaus" "Pulau Tinggi" "Pulau Sibu" "Pulau Tioman" "Pulau Aur" "Pulau Rupat" "Pulau Rangsang" "Pulau Tebing Tinggi"
+		Conqueror Chieftain Archer Swordsman Invincible Impeccable
+		Illustrious Inimitable Formidable Intrepid Steadfast
+		Tenacious Stalwart Supreme Victory Valour Vigilance Valiant
+		Vigour Vengeance Independence Sovereignty Unity Justice
+		Indomitable Fortitude Dauntless Fearless
 	}
 	frigate = {
 		Parameswara "Sultan Iskandar" Bendahara Laksamana Temenggung "Penghulu bendahari" Shahbanda "Hukum Kanun" "Undang-Undang"
 		"Pulau Bakung" "Pulau Lingga" Kepulauan "Pulau Singkep" "Kepulauan Riau" "Pulau Rempang" "Pulau Kundur" "Pulau Padang"
 		"Pulau Bengkaus" "Pulau Tinggi" "Pulau Sibu" "Pulau Tioman" "Pulau Aur" "Pulau Rupat" "Pulau Rangsang" "Pulau Tebing Tinggi"
+		Conqueror Chieftain Archer Swordsman Invincible Impeccable
+		Illustrious Inimitable Formidable Intrepid Steadfast
+		Tenacious Stalwart Supreme Victory Valour Vigilance Valiant
+		Vigour Vengeance Independence Sovereignty Unity Justice
+		Indomitable Fortitude Dauntless Fearless
 	}
 	monitor = {
 		Parameswara "Sultan Iskandar" Bendahara Laksamana Temenggung "Penghulu bendahari" Shahbanda "Hukum Kanun" "Undang-Undang"
 		"Pulau Bakung" "Pulau Lingga" Kepulauan "Pulau Singkep" "Kepulauan Riau" "Pulau Rempang" "Pulau Kundur" "Pulau Padang"
 		"Pulau Bengkaus" "Pulau Tinggi" "Pulau Sibu" "Pulau Tioman" "Pulau Aur" "Pulau Rupat" "Pulau Rangsang" "Pulau Tebing Tinggi"
+		Conqueror Chieftain Archer Swordsman Invincible Impeccable
+		Illustrious Inimitable Formidable Intrepid Steadfast
+		Tenacious Stalwart Supreme Victory Valour Vigilance Valiant
+		Vigour Vengeance Independence Sovereignty Unity Justice
+		Indomitable Fortitude Dauntless Fearless
 	}
 	clipper_transport = {
 		
@@ -266,5 +296,10 @@ unit_names = {
 		Parameswara "Sultan Iskandar" Bendahara Laksamana Temenggung "Penghulu bendahari" Shahbanda "Hukum Kanun" "Undang-Undang"
 		"Pulau Bakung" "Pulau Lingga" Kepulauan "Pulau Singkep" "Kepulauan Riau" "Pulau Rempang" "Pulau Kundur" "Pulau Padang"
 		"Pulau Bengkaus" "Pulau Tinggi" "Pulau Sibu" "Pulau Tioman" "Pulau Aur" "Pulau Rupat" "Pulau Rangsang" "Pulau Tebing Tinggi"
+		Conqueror Chieftain Archer Swordsman Invincible Impeccable
+		Illustrious Inimitable Formidable Intrepid Steadfast
+		Tenacious Stalwart Supreme Victory Valour Vigilance Valiant
+		Vigour Vengeance Independence Sovereignty Unity Justice
+		Indomitable Fortitude Dauntless Fearless
 	}
 }
