@@ -1,0 +1,110 @@
+#Genocide Event
+country_event = {
+    id = 1000000160
+    title = "EVTNAME1000000160"
+    desc = "EVTDESC1000000160"
+	picture = "Oops"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVTOPTA1000000160"
+		any_owned = {
+			 limit = {
+				 has_national_minority = yes
+			 }
+		set_province_flag = geneocide_done_recently
+		}
+        any_pop = {
+            limit = {
+                is_primary_culture = no
+                is_accepted_culture = no
+            }
+            reduce_pop = 0.5
+            consciousness = 4
+            militancy = -1
+        }
+		set_country_flag = geneocide_chain_start
+    }
+}
+
+#Resettlement
+country_event = {
+    id = 1000000161
+    title = "EVTNAME1000000161"
+    desc = "EVTDESC1000000161"
+	picture = "placeholder"
+	fire_only_once = yes
+	 
+	mean_time_to_happen = { months = 1 }
+	 
+	trigger = {
+		 has_country_flag = geneocide_chain_start
+	 }
+
+    option = {
+        name = "EVTOPTA1000000161"
+		any_owned = {
+			 limit = {
+				 has_province_flag = geneocide_done_recently
+				 life_rating = 1
+				 NOT = { life_rating = 30 }
+			 }
+			 add_province_modifier = {
+				 name = Resettlement_program_lvl_2
+				 duration = 365
+			 }
+		}
+		any_owned = {
+			 limit = {
+				 has_province_flag = geneocide_done_recently
+				 life_rating = 30
+			 }
+			 add_province_modifier = {
+				 name = Resettlement_program_lvl_1
+				 duration = 365
+			 }
+		}
+		clr_country_flag = geneocide_chain_start
+		set_country_flag = geneocide_chain_stage_2
+    }
+}
+
+#Pop Growth
+country_event = {
+    id = 1000000162
+    title = "EVTNAME1000000162"
+    desc = "EVTDESC1000000162"
+	picture = "placeholder"
+	fire_only_once = yes
+	 
+	mean_time_to_happen = { months = 1 }
+	 
+	trigger = {
+		 has_country_flag = geneocide_chain_stage_2
+		 NOT = {
+			 OR = {
+				 has_province_modifier = Resettlement_program_lvl_1
+				 has_province_modifier = Resettlement_program_lvl_2
+			 }
+		 }
+	 }
+
+    option = {
+        name = "EVTOPTA1000000162"
+		any_owned = {
+			 limit = {
+				 has_province_flag = geneocide_done_recently
+			 }
+			 add_province_modifier = {
+				 name = German_repoplution_LGC
+				 duration = 30
+			 }
+			 clr_province_flag = geneocide_done_recently
+		}
+		clr_country_flag = geneocide_chain_stage_2
+    }
+}
+
+
+

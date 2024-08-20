@@ -5812,6 +5812,18 @@ Germanisation_program = {
 	 immigrant_attract = 5
 }
 
+Resettlement_program_lvl_1 = {
+	 assimilation_rate = 4.0
+	 pop_militancy_modifier = -1.0
+	 immigrant_attract = 5
+}
+
+Resettlement_program_lvl_2 = {
+	 assimilation_rate = 4.0
+	 pop_militancy_modifier = -1.0
+	 immigrant_attract = 20
+}
+
 German_repoplution_LGC = {
 	 population_growth = 0.002
 	 pop_militancy_modifier = -1.0

@@ -100,6 +100,10 @@ declare_protector_SEA = {
 #	 }
 #}
 
+###################
+###SEA Decisions###
+###################
+
 #From SEA master
 From_SEA_master = {
 	 potential = {
@@ -192,6 +196,57 @@ From_SEA_master = {
 		 NET_1414 = { add_core = SEA }
 		 NET_1421 = { add_core = SEA }
 		 change_tag = SEA
+		 primary_culture = tionghoa
+		 add_accepted_culture = melanesian
+		 add_accepted_culture = malay
+		 add_accepted_culture = kachin
+		 add_accepted_culture = karen
+		 add_accepted_culture = burmese
+		 add_accepted_culture = shan
+		 add_accepted_culture = lao
+		 add_accepted_culture = thai
+		 add_accepted_culture = khmer
+		 add_accepted_culture = dayak
+		 add_accepted_culture = vietnamese
+		 add_accepted_culture = moluccan
+		 add_accepted_culture = balinese
+		 add_accepted_culture = acehnese
+		 add_accepted_culture = javan
+		 add_accepted_culture = filipino
+		 add_accepted_culture = champa
+		 add_accepted_culture = tamil
+	 }
+}
+
+SEA_claim_yunnan = {
+	 potential = {
+		 tag = SEA
+		 has_unclaimed_cores = no
+		 NOT = { CHI_1601 = { is_core = SEA } }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 CHI_1601 = { add_core = SEA }
+		 badboy = 5
+	 }
+}
+
+SEA_accept_yunnan = {
+	 potential = {
+		 tag = SEA
+		 has_unclaimed_cores = no
+		 CHI_1601 = { owned_by = THIS }
+		 NOT = { has_accepted_culture = asian_minor }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = asian_minor
 	 }
 }
 

@@ -216,3 +216,23 @@ song = {
 		}
 	 }
 }
+
+song = {
+	name = "Hearts of Iron IV - Bella Ciao.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	 }
+}
+
+song = {
+	name = "Hearts of Iron IV - Battle of Wuhan.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	 }
+}
