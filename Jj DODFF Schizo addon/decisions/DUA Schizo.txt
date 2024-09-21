@@ -4,6 +4,7 @@ political_decisions = {
 	 DUA_kill_NAN = {
 		 potential = {
 			 tag = DUA
+			 has_country_flag = Schzio_mod_show
 			 OR = {
 				 has_country_flag = english_integration
 				 has_country_flag = dual_integration
@@ -24,6 +25,89 @@ political_decisions = {
 				 call_ally = no
 			 }
 			 set_global_flag = DUA_NAN_war
+		 }
+	 }
+	 
+	 #Dismantle Burgundy
+	 #Use when you don't want to deal with them anymore
+	 DUA_dismantle_BRG = {
+		 potential = {
+			 tag = DUA
+			 has_country_flag = Schzio_mod_show
+			 exists = BRG
+			 NOT = { exists = PBG }
+			 war_with = BRG
+		 }
+		 
+		 allow = {
+			 AND = {
+				 war_with = BRG
+				 BRG = { war_exhaustion = 70 }
+				 390 = { controlled_by = THIS }
+			 }
+		 }
+		 
+		 effect = {
+			 BRG = { release = BOG }
+			 DUA = { create_vassal = BOG }
+			 BRG = { any_owned = { limit = { OR = { province_id = 400 province_id = 401 province_id = 399 province_id = 404 } } secede_province = DUA } }
+			 BRG = { any_owned = { limit = { OR = { is_core = NET is_core = BRB } } add_core = HLL } }
+			 BRG = { release = HLL }
+			 BRG = { any_owned = { limit = { is_core = HLL } secede_province = HLL } }
+			 DUA = { create_vassal = HLL }
+			 BRG = { prestige = -100 }
+			 badboy = 20
+		 }
+	 }
+	 
+	 #PBG Version
+	 DUA_dismantle_PBG = {
+		 potential = {
+			 tag = DUA
+			 has_country_flag = Schzio_mod_show
+			 exists = PBG
+			 NOT = { exists = BRG }
+			 war_with = PBG
+		 }
+		 
+		 allow = {
+			 AND = {
+				 war_with = PBG
+				 PBG = { war_exhaustion = 70 }
+				 390 = { controlled_by = THIS }
+			 }
+		 }
+		 
+		 effect = {
+			 PBG = { release = BOG }
+			 DUA = { create_vassal = BOG }
+			 PBG = { any_owned = { limit = { OR = { province_id = 400 province_id = 401 province_id = 399 province_id = 404 } } secede_province = DUA } }
+			 PBG = { any_owned = { limit = { OR = { is_core = NET is_core = BRB } } add_core = HLL } }
+			 PBG = { release = HLL }
+			 PBG = { any_owned = { limit = { is_core = HLL } secede_province = HLL } }
+			 DUA = { create_vassal = HLL }
+			 PBG = { prestige = -100 }
+			 badboy = 20
+		 }
+	 }
+	 
+	 #Manual Establish of HLL
+	 DUA_establish_HLL = {
+		 potential = {
+			 tag = DUA
+			 has_country_flag = Schzio_mod_show
+			 NOT = { exists = HLL }
+		 }
+		 
+		 allow = {
+			 NET = { all_core = { owned_by = THIS } }
+			 BRB = { all_core = { owned_by = THIS } }
+		 }
+		 
+		 effect = {
+			 any_owned = { limit = { OR = { is_core = NET is_core = BRB } } add_core = HLL }
+			 release = HLL
+			 create_vassal = HLL
 		 }
 	 }
 	 

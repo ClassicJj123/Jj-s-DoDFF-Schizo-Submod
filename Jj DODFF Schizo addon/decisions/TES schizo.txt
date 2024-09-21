@@ -528,5 +528,292 @@ From_EZG = {
 	 }
 }
 
+#Claim Alsace
+EZG_claim_alsace = {
+	 potential = {
+		 tag = EZG
+		 ai = no
+		 NOT = { has_country_flag = EZG_claim_alsace }
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 ALS = { all_core = { add_core = EZG } }
+		 badboy = 5
+		 set_country_flag = EZG_claim_alsace
+	 }
+}
+
+#Claim the Dutch
+EZG_claim_Dietsland = {
+	 potential = {
+		 tag = EZG
+		 ai = no
+		 NOT = { has_country_flag = EZG_claim_Dietsland }
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+		 OR = {
+			 war_policy = jingoism
+			 government = fascist_monarchy
+		 }
+	 }
+	 
+	 effect = {
+		 NET = { all_core = { add_core = EZG } }
+		 badboy = 8
+		 set_country_flag = EZG_claim_Dietsland
+	 }
+}
+
+#Accept the Dutch
+EZG_Accept_the_Dutch = {
+	 potential = {
+		 tag = EZG
+		 ai = no
+		 NOT = { has_country_flag = EZG_Accept_the_Dutch }
+	 }
+	 
+	 allow = {
+		 NET = { all_core = { owned_by = EZG } }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = dutch
+		 add_accepted_culture = frisian
+		 set_country_flag = EZG_Accept_the_Dutch
+	 }
+}
+
+###################################
+###West Slavic - Ruthenian Union###
+###################################
+
+#Claim the Lands of the Ruthenians
+GTK_claim_RUT = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_East_West_Slavic_union_path
+		 NOT = { has_country_flag = GTK_claim_RUT }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 RUS_719 = { add_core = THIS }
+		 RUS_360 = { add_core = THIS }
+		 RUS_946 = { add_core = THIS }
+		 RUS_977 = { add_core = THIS }
+		 RUS_962 = { add_core = THIS }
+		 RUS_965 = { add_core = THIS }
+		 RUS_958 = { add_core = THIS }
+		 RUS_955 = { add_core = THIS }
+		 RUS_718 = { add_core = THIS }
+		 RUS_964 = { add_core = THIS }
+		 RUS_980 = { add_core = THIS }
+		 badboy = 20
+		 set_country_flag = GTK_claim_RUT
+	 }
+}
+
+#Claim Lithuania
+GTK_claim_LIT = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_East_West_Slavic_union_path
+		 NOT = { has_country_flag = GTK_claim_LIT }
+		 has_country_flag = GTK_claim_RUT
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 LIT_698 = { add_core = THIS }
+		 RUS_707 = { add_core = THIS }
+		 badboy = 5
+		 set_country_flag = GTK_claim_LIT
+	 }
+}
+
+#Claim Hungary
+#Hungary history has been tangled with the Slavs for much of it's history, so shoving it into this union should be fine, hell we can even give them back the Slovakian lands
+GTK_claim_HUN = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_East_West_Slavic_union_path
+		 NOT = { has_country_flag = GTK_claim_HUN }
+		 has_country_flag = GTK_claim_LIT
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 HUN = { all_core = { add_core = THIS } }
+		 badboy = 10
+		 set_country_flag = GTK_claim_HUN
+	 }
+}
+
+#Accept the Ruthenians
+GTK_accept_RUT = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_East_West_Slavic_union_path
+		 NOT = { has_country_flag = GTK_accept_RUT }
+	 }
+	 
+	 allow = {
+		 RUS_719 = { owned_by = THIS }
+		 RUS_360 = { owned_by = THIS }
+		 RUS_946 = { owned_by = THIS }
+		 RUS_977 = { owned_by = THIS }
+		 RUS_962 = { owned_by = THIS }
+		 RUS_980 = { owned_by = THIS }
+		 RUS_965 = { owned_by = THIS }
+		 RUS_958 = { owned_by = THIS }
+		 RUS_955 = { owned_by = THIS }
+		 RUS_718 = { owned_by = THIS }
+		 RUS_964 = { owned_by = THIS }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = ruthenian
+		 add_accepted_culture = belarusian
+		 add_accepted_culture = cossack
+		 set_country_flag = GTK_accept_RUT
+	 }
+}
+
+#Accept the Lithuanians
+GTK_accept_LIT = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_East_West_Slavic_union_path
+		 NOT = { has_country_flag = GTK_accept_LIT }
+	 }
+	 
+	 allow = {
+		 LIT_698 = { owned_by = THIS }
+		 RUS_707 = { owned_by = THIS }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = lithuanian
+		 set_country_flag = GTK_accept_LIT
+	 }
+}
+
+#Accept the Hungarians
+#It won't be so easy to move forward
+GTK_accept_HUN = {
+	 potential = {
+		 OR = {
+			 tag = GTK
+			 tag = WRU
+		 }
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_East_West_Slavic_union_path
+		 NOT = { has_country_flag = GTK_accept_HUN }
+	 }
+	 
+	 allow = {
+		 HUN = { all_core = { owned_by = THIS } }
+		 OR = {
+			 government = democracy
+			 government = hms_government
+			 citizenship_policy = full_citizenship
+		 }
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = hungarian
+		 set_country_flag = GTK_accept_HUN
+	 }
+}
+
+#From the WRU
+From_WRU = {
+	 potential = {
+		 tag = GTK
+		 ai = no
+		 has_country_flag = GTK_accept_RUT
+		 has_country_flag = GTK_accept_LIT
+		 has_country_flag = GTK_accept_HUN
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 change_tag = WRU
+	 }
+}
+
+###WRU Decisions###
+
+WRU_claim_MOL = {
+	 potential = {
+		 tag = WRU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_East_West_Slavic_union_path
+		 NOT = { has_country_flag = WRU_claim_MOL }
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 badboy = 5
+		 MOL_673 = { add_core = THIS }
+		 RUS_676 = { add_core = THIS }
+		 set_country_flag = WRU_claim_MOL
+	 }
+}
+
+WRU_claim_tartar = {
+	 potential = {
+		 tag = WRU
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = GTK_East_West_Slavic_union_path
+		 has_country_flag = WRU_tartar_king
+		 NOT = { has_country_flag = WRU_claim_tartar }
+	 }
+	 
+	 allow = {
+		 #has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 badboy = 10
+		 RUS_1047 = { add_core = THIS }
+		 RUS_1039 = { add_core = THIS }
+		 RUS_1041 = { add_core = THIS }
+		 set_country_flag = WRU_claim_tartar
+	 }
+}
 
 }

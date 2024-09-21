@@ -337,7 +337,7 @@ country_event = {
 		 name = "EVTOPA1000000136B"
 		 set_variable = {
 			 which = SIG_loyalty
-			 value = 1
+			 value = 4
 		 }
 		 set_country_flag = SIG_SCA_route_part_1
 	 }
@@ -794,10 +794,12 @@ country_event = {
 		 }
 		 any_owned = {
 			 limit = {
-				 is_core = PLM
-				 is_core = PAG
-				 is_core = DEL
-				 is_core = ATJ
+				 OR = {
+					 is_core = PLM
+					 is_core = PAG
+					 is_core = DEL
+					 is_core = ATJ
+				 }
 			 }
 			 secede_province = SIG
 			 add_core = SIG

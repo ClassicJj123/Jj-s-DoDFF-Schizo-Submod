@@ -42,39 +42,119 @@ country_event = {
 	 
 	 option = {
 		 name = "EVTOPA1000000001"
-		 FRA = { all_core = { add_core = HLR } }
-		 OCC = { all_core = { add_core = HLR } }
-		 ARA = { all_core = { add_core = HLR } }
-		 ITA = { all_core = { add_core = HLR } }
-		 SPA = { all_core = { add_core = HLR } }
-		 ENL = { all_core = { add_core = HLR } }
-		 CRO = { all_core = { add_core = HLR } }
-		 YUG = { all_core = { add_core = HLR } }
-		 GRE = { all_core = { add_core = HLR } }
-		 BUL = { all_core = { add_core = HLR } }
-		 TUR = { all_core = { add_core = HLR } }
-		 EGY = { all_core = { add_core = HLR } }
-		 TUN = { all_core = { add_core = HLR } }
-		 KBL = { all_core = { add_core = HLR } }
-		 SUS = { all_core = { add_core = HLR } }
-		 FEZ = { all_core = { add_core = HLR } }
-		 ALB = { all_core = { add_core = HLR } }
-		 SYR = { all_core = { add_core = HLR } }
-		 PLS = { all_core = { add_core = HLR } }
-		 JOR = { all_core = { add_core = HLR } }
-		 HDJ = { all_core = { add_core = HLR } }
-		 IRQ = { all_core = { add_core = HLR } }
-		 GEO = { all_core = { add_core = HLR } }
-		 WAL = { all_core = { add_core = HLR } }
-		 SIE = { all_core = { add_core = HLR } }
-		 SLA = { all_core = { add_core = HLR } }
-		 CAT = { all_core = { add_core = HLR } }
-		 SIC = { all_core = { add_core = HLR } }
-		 SRD = { all_core = { add_core = HLR } }
-		 NAV = { all_core = { add_core = HLR } }
-		 AEN = { all_core = { add_core = HLR } }
-		 AUS_641 = { add_core = HLR }
+		 #England
+		 ENG_280 = { add_core = HLR }
+		 ENG_277 = { add_core = HLR }
+		 ENG_284 = { add_core = HLR }
+		 ENG_291 = { add_core = HLR }
+		 ENG_300 = { add_core = HLR }
+		 ENG_296 = { add_core = HLR }
+		 ENG_273 = { add_core = HLR }
+		 #Ireland
+		 ENG_254 = { add_core = HLR }
+		 ENG_263 = { add_core = HLR }
+		 ENG_260 = { add_core = HLR }
+		 #France
+		 FRA_418 = { add_core = HLR }
+		 FRA_420 = { add_core = HLR }
+		 FRA_399 = { add_core = HLR }
+		 FRA_425 = { add_core = HLR }
+		 FRA_438 = { add_core = HLR }
+		 FRA_442 = { add_core = HLR }
+		 FRA_445 = { add_core = HLR }
+		 FRA_428 = { add_core = HLR }
+		 FRA_432 = { add_core = HLR }
+		 FRA_411 = { add_core = HLR }
+		 GNV_607 = { add_core = HLR }
+		 FRA_448 = { add_core = HLR }
+		 FRA_458 = { add_core = HLR }
+		 FRA_455 = { add_core = HLR }
+		 FRA_461 = { add_core = HLR }
+		 FRA_467 = { add_core = HLR }
+		 FRA_451 = { add_core = HLR }
+		 FRA_435 = { add_core = HLR }
+		 #Spain
+		 SPA_498 = { add_core = HLR }
+		 SPA_492 = { add_core = HLR }
+		 SPA_503 = { add_core = HLR }
+		 SPA_506 = { add_core = HLR }
+		 ESK_1 = { add_core = HLR }
+		 SPA_480 = { add_core = HLR }
+		 SPA_487 = { add_core = HLR }
+		 SPA_513 = { add_core = HLR }
+		 SPA_512 = { add_core = HLR }
+		 SPA_484 = { add_core = HLR }
+		 SPA_477 = { add_core = HLR }
+		 SPA_474 = { add_core = HLR }
+		 POR_521 = { add_core = HLR }
+		 POR_525 = { add_core = HLR }
+		 #Rest of Italy
+		 SAR_765 = { add_core = HLR }
+		 SIC_763 = { add_core = HLR }
+		 SIC_754 = { add_core = HLR }
+		 SIC_3257 = { add_core = HLR }
+		 ITA_759 = { add_core = HLR }
+		 #Balkans
+		 AUS_768 = { add_core = HLR }
+		 AUS_771 = { add_core = HLR }
+		 AUS_780 = { add_core = HLR }
+		 TUR_788 = { add_core = HLR }
+		 AUS_777 = { add_core = HLR }
+		 SER_794 = { add_core = HLR }
+		 TUR_803 = { add_core = HLR }
+		 MON_2582 = { add_core = HLR }
+		 TUR_853 = { add_core = HLR }
+		 TUR_832 = { add_core = HLR }
+		 GRE_837 = { add_core = HLR }
+		 GRE_826 = { add_core = HLR }
+		 EGY_843 = { add_core = HLR }
+		 TUR_819 = { add_core = HLR }
+		 TUR_806 = { add_core = HLR }
+		 TUR_805 = { add_core = HLR }
+		 TUR_809 = { add_core = HLR }
+		 TUR_810 = { add_core = HLR }
+		 TUR_859 = { add_core = HLR }
+		 TUR_860 = { add_core = HLR }
+		 #Hungary/Romania
+		 AUS_633 = { add_core = HLR }
 		 AUS_623 = { add_core = HLR }
+		 AUS_641 = { add_core = HLR }
+		 AUS_654 = { add_core = HLR }
+		 AUS_647 = { add_core = HLR }
+		 WAL_665 = { add_core = HLR }
+		 MOL_673 = { add_core = HLR }
+		 RUS_676 = { add_core = HLR }
+		 TUR_674 = { add_core = HLR }
+		 AUS_657 = { add_core = HLR }
+		 #Turkey
+		 TUR_869 = { add_core = HLR }
+		 TUR_863 = { add_core = HLR }
+		 TUR_873 = { add_core = HLR }
+		 TUR_881 = { add_core = HLR }
+		 TUR_876 = { add_core = HLR }
+		 TUR_884 = { add_core = HLR }
+		 TUR_889 = { add_core = HLR }
+		 GEO_1 = { add_core = HLR }
+		 RUS_1090 = { add_core = HLR }
+		 RUS_1098 = { add_core = HLR }
+		 TUR_885 = { add_core = HLR }
+		 TUR_855 = { add_core = HLR }
+		 #Middle East
+		 TUR_923 = { add_core = HLR }
+		 TUR_935 = { add_core = HLR }
+		 934 = { add_core = HLR }
+		 926 = { add_core = HLR }
+		 929 = { add_core = HLR }
+		 927 = { add_core = HLR }
+		 EGY_897 = { add_core = HLR }
+		 EGY_903 = { add_core = HLR }
+		 EGY_915 = { add_core = HLR }
+		 EGY_921 = { add_core = HLR }
+		 922 = { add_core = HLR }
+		 909 = { add_core = HLR }
+		 908 = { add_core = HLR }
+		 HDJ_1151 = { add_core = HLR }
+		 #Africa
 		 MOR_1688 = { add_core = HLR }
 		 MOR_1686 = { add_core = HLR }
 		 MOR_1693 = { add_core = HLR }
@@ -1604,44 +1684,155 @@ country_event = {
 	 #Welp, death's seems cool I guess
 	 option = {
 		 name = "EVTOPA1000000013"
-		 RUS_1065 = { life_rating = -14 }
-		 RUS_2615 = { life_rating = -14 }
-		 RUS_1070 = { life_rating = -14 }
-		 RUS_2694 = { life_rating = -14 }
-		 RUS_2653 = { life_rating = -14 }
-		 RUS_1069 = { life_rating = -14 }
-		 RUS_1075 = { life_rating = -34 }
-		 RUS_1071 = { life_rating = -34 }
-		 RUS_2668 = { life_rating = -34 }
-		 RUS_2642 = { life_rating = -34 }
-		 RUS_1079 = { life_rating = -34 }
-		 MON_1075 = { life_rating = -34 }
-		 RUS_1075 = { life_rating = -34 }
-		 RUS_1065 = { secede_province = RUV }
-		 RUS_2615 = { secede_province = RUV }
-		 RUS_1070 = { secede_province = RUV }
-		 RUS_2694 = { secede_province = RUV }
-		 RUS_2653 = { secede_province = RUV }
-		 RUS_1069 = { secede_province = RUV }
-		 RUS_1075 = { secede_province = RUV }
-		 RUS_1071 = { secede_province = RUV }
-		 RUS_2668 = { secede_province = RUV }
-		 RUS_2642 = { secede_province = RUV }
-		 RUS_1079 = { secede_province = RUV }
-		 MON_1075 = { secede_province = RUV }
-		 RUS_1075 = { secede_province = RUV }
-		 any_owned = {
-			 limit = {
-				 is_core = KZH
-			 }
-			 secede_province = KZH
-		 }
-		 RUV = { country_event = 1000000014 }
 		 any_owned = {
 			 limit = {
 				 is_core = HLR
 			 }
 		 secede_province = HLR
+		 }
+		 #KTK
+		 any_owned = {
+			 limit = {
+				 is_core = KTK
+			 }
+			 secede_province = KTK
+		 }
+		 #SIB
+		 any_owned = {
+			 limit = {
+				 is_core = SIB
+			 }
+			 secede_province = SIB
+		 }
+		 #PRM
+		 any_owned = {
+			 limit = {
+				 is_core = PRM
+			 }
+			 secede_province = PRM
+		 }
+		 #NTS
+		 any_owned = {
+			 limit = {
+				 is_core = NTS
+			 }
+			 secede_province = NTS
+		 }
+		 #YKT
+		 any_owned = {
+			 limit = {
+				 is_core = YKT
+			 }
+			 secede_province = YKT
+		 }
+		 #Kazakhstan
+		 any_owned = {
+			 limit = {
+				 OR = {
+					 is_core = KZH
+					 is_core = NOG
+				 }
+			 }
+			 secede_province = KZH
+			 add_core = KZH
+		 }
+		 #Kazan
+		 any_owned = {
+			 limit = {
+				 is_core = KAZ
+			 }
+			 secede_province = KAZ
+		 }
+		 #Bashkria
+		 any_owned = {
+			 limit = {
+				 is_core = BAH
+			 }
+			 secede_province = BAH
+		 }
+		 #PMY
+		 any_owned = {
+			 limit = {
+				 is_core = PMY
+			 }
+			 secede_province = PMY
+		 }
+		 #MAR
+		 any_owned = {
+			 limit = {
+				 is_core = MAR
+			 }
+			 secede_province = MAR
+		 }
+		 #VYA
+		 any_owned = {
+			 limit = {
+				 is_core = VYA
+			 }
+			 secede_province = VYA
+		 }
+		 #KOM
+		 any_owned = {
+			 limit = {
+				 is_core = KOM
+			 }
+			 secede_province = KOM
+		 }
+		 #NTS
+		 any_owned = {
+			 limit = {
+				 is_core = NTS
+			 }
+			 secede_province = NTS
+		 }
+		 #ASK
+		 any_owned = {
+			 limit = {
+				 is_core = ASK
+			 }
+			 secede_province = ASK
+		 }
+		 #BUK
+		 any_owned = {
+			 limit = {
+				 is_core = BUK
+			 }
+			 secede_province = BUK
+		 }
+		 #AFS
+		 any_owned = {
+			 limit = {
+				 is_core = AFS
+			 }
+			 secede_province = AFS
+		 }
+		 #ZHE
+		 any_owned = {
+			 limit = {
+				 is_core = ZHE
+			 }
+			 secede_province = ZHE
+		 }
+		 #KOK
+		 any_owned = {
+			 limit = {
+				 is_core = KOK
+			 }
+			 secede_province = KOK
+		 }
+		 #ARY
+		 any_owned = {
+			 limit = {
+				 is_core = ARY
+			 }
+			 secede_province = ARY
+		 }
+		 #BDK
+		 any_owned = {
+			 limit = {
+				 is_core = BDK
+			 }
+			 secede_province = BDK
 		 }
 		 clr_global_flag = HLR_RUS_WAR
 		 clr_country_flag = custom_treaty_loser
@@ -1658,7 +1849,7 @@ country_event = {
 	 
 	 option = {
 		 name = "EVTOPA1000000014"
-		 any_owned = { secede_province = --- }
+		 HLR = { inherit = RUS }
 	 }
 }
 
@@ -3029,6 +3220,7 @@ country_event = {
 		 name = "EVTOPA1000000022"
 		 remove_country_modifier = badboy
 		 remove_country_modifier = international_pariah
+		 remove_country_modifier = HLR_help
 		 badboy = -150
 		 any_owned = {
 			 limit = {
@@ -4289,6 +4481,7 @@ country_event = {
 				 duration = 365
 			 }
 		 }
+		 remove_country_modifier = HLR_help
 		 clr_country_flag = HLR_civil_war
 		 clr_country_flag = west_revolt
 		 clr_country_flag = east_revolt

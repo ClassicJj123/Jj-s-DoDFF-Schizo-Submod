@@ -130,7 +130,7 @@ EVTOPA100000035B;§R Germanise them!;;;;;;;;;;;x,,,,,,,,
 EVTOPA1000000035C;We will decide later;;;;;;;;;;;;;x,,,,,,,,
 EVTNAME1000000036;Our Balkan lands are in revolt;;;;;;;;;;;;;x,,,,,,,,
 EVTDESC1000000036;With the moderate success of the Easterns revolts, partisans from all over our Balkan lands have consolidated their forces and begin a unifrom revolt. While we don't doubt that infighting won't happen in this chaotic civil war, for now we are in trouble;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000036:DAMN BALAKNS;;;;;;;;;;;;;x,,,,,,,,
+EVTOPA1000000036;DAMN BALAKNS;;;;;;;;;;;;;x,,,,,,,,
 EVTNAME1000000037;Fears of the French;;;;;;;;;;;;;x,,,,,,,,
 EVTDESC1000000037;Despite our current suituation, many within our government have stated their fears of the French taking this opportunity to destroy us;;;;;;;;;;;;;x,,,,,,,,
 EVTOPA1000000037;We must strike first!;;;;;;;;;;;;;x,,,,,,,,
@@ -321,18 +321,55 @@ EVTOPA1000000483A;Bathed in rays of gold...;;;;;;;;;;;;;x,,,,,,,,
 EVTNAME1000000250;Our Cores Spread!;;;;;;;;;;;;;;x;;;;;;;;
 EVTDESC1000000250;The influence of the Oustralia colony has become absolute, spreading its control accross the newest continent!;;;;;;;;;;;;;;x;;;;;;;;
 EVTOPA1000000250A;Yay.;;;;;;;;;;;;;;x;;;;;;;;
-EVTNAME1000000073;A sudden interruption;;;;;;;;;;;;;;x;;;;;;;;
-EVTDESC1000000073;It was just another day for the regent of Fiume, papers were pilling and coffee was draining. As the regent was settling down, his door brust open, reveling a man with a katana. The man wasted no time and shouted his demands. Fearing for his life, the regent quickly conceeded on all his points, not processing that he had just handed over his lands over to a mentally insane man.;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000073;A Sudden Interruption;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000073;It was just another day for the regent of Fiume, papers were pilling and coffee was draining. As the regent was settling down, his door suddenly brust open, reveling a man with a katana. The man wasted no time and shouted his demands. Fearing for his life, the regent quickly conceeded on all his points, not processing that he had just handed over his lands over to a mentally insane man.;;;;;;;;;;;;;;x;;;;;;;;
 EVTOPA1000000073;The Austrians aren't going to like this;;;;;;;;;;;;;;x;;;;;;;;
-EVTNAME1000000074;Our realm erupts into chaos;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000074;Our Realm In Chaos;;;;;;;;;;;;;;x;;;;;;;;
 EVTDESC1000000074;With the forcefull seizure of power, many groups within our nation from the Liberals to various Nationalists have taken to the streets to hopefully force their ideals. If we don't do something soon, we will be noticed by the Austrians and then it would be all over;;;;;;;;;;;;;;x;;;;;;;;
 EVTOPA1000000074;Quick! Send in the military!;;;;;;;;;;;;;;x;;;;;;;;
-EVTNAME1000000075;The Austrians have noticed!;;;;;;;;;;;;;;x;;;;;;;;
-EVTDESC1000000075;We weren't fast enough and the noise has reached Vienna, now the Kaiser has issued an imperial order to restore order;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000075;The Austrians Have Noticed!;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000075;We weren't fast enough and the noise has reached Vienna, the Kaizer's armies have been spotted on the outskirts. May god help us all;;;;;;;;;;;;;;x;;;;;;;;
 EVTOPA1000000075;We're SCREWED!;;;;;;;;;;;;;;x;;;;;;;;
-EVTNAME1000000076;;;;;;;;;;;;;;;x;;;;;;;;
-EVTDESC1000000076;;;;;;;;;;;;;;;x;;;;;;;;
-EVTOPA1000000076;;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000076;A Interesting Development;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000076;In a sudden turn of events, the new regent has somehow made a deal with the Kaizer! The Imperial Army seen earier weren't here to put an end to the insane man's dreams, rather assist him in putting down the riotors;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000076;Has the world gone INSANE?!;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000077;The Interal Situation;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000077;With the external problem of Austria dealt with for the time being, it's time to look inwards. The Riots that erupted mere days ago show how unstable this country really is. Thus to ensure that we don't collapse, our regent has decided to focus on interial affairs for the time being;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000077;On to the first issue of the day;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000078;The Question of Languague;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000078;While we are under the overlordship of a german nation, we mainly speak the language of our Italian brothers. However due to regionalism, the Italian language has split off into multiple smaller regional dialects. Thus we must choose one of them to use as our standard;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000078A;Use Venetian;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000078B;Use North Italian;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000078C;Use Central Italian;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000079;The Matter of Industry;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000079;With the languague question sorted, we move onto the question of industry. Despite our size, our location in the Adriatic has attracted many to attempt to invest in us. However, not everyone comes with good intentions thus we must be ready to refuse suspicious actors if they attempt to breach our nation;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000079;Let the Games begin;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000086;Aragonese Interest;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000086;With our recent shift away from the Austrian Crown, the Aragonese have shown interest in attempting to improve relations with us, however, some intel from reliable sources have suggested that they may have only shown interest is to further their goals. Despite this, the money they are willing to invest isn't a small amount, thus the regent is left with a hard choice;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000086A;Give them some concessions;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000086B;Refuse them on the grounds of national security;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000087;Austrian Interest;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000087;With our recent shift away from the Austrian Crown, the Austrians have shown interest in attempting to improve relations with us in order to preventing us from drifting further from Viennia. However, it has become quite obvious that they aren't doing this with us being on equal status as them and have full intentions of bringings us into the fold. Despite this, the money they are willing to invest isn't a small amount, thus the regent is left with a hard choice;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000087A;Give them some concessions;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000087B;Refuse them on the grounds of national security;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000088;Trade War in the Adriatic;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000088;With the clash of interest from the Austrians and Aragonese, a full blown trade war has broken out between the two, both sides offering substantial incentives to attempt to sway us to their side, with offers of new factories from the Austrians and offers of reduced tariffs from the Aragonese. Despite this, we can choose to refuse any investment from the two parties on the grounds that our own domestic industries can achive the same results, thus the regent is left with a hard choice;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000088;May the best man win;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000089;An Austrian Dominated Economy;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000089;In the ashes of the trade war, the Austrians have come out on top with them funding considerable amounts of factories. This has in turn given them much influence in our lands, only time will tell if this was a bad idea;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000089;Onwards!;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000124;An Aragonese Dominated Economy;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000124;In the ashes of the trade war, the Aragonese have come out on top with them lowering the cost of raw materials to the point where our industries have started becoming dependent on them. This has in turn given them much influence in our lands, only time will tell if this was a bad idea;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000124;Onwards!;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000091;A Mixed Bag;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000091;In the ashes of the trade war, the cropses of monetary concessions and material benefits lay on the sandy shores of our small regency. It would seem that no nation in particular has come up onto as the dominant force in our economy, only time will tell if this was a bad idea;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000091;Onwards!;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000092;An Independent Economy;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000092;In the ashes of the trade war, the cropses of monetary concessions and material benefits lay on the sandy shores of our small regency. It would seem that despite the offers from the Austrian Eagle and Aragonese Knight to get us to side with one or the other we have remained independent in terms of our economy. While this has certainly caused us to missed out on the extra economic benefits, we are not subject to the wimps of another nation due to this. Only time will tell if this was a bad idea;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000092;ONWARDS!;;;;;;;;;;;;;;x;;;;;;;;
+EVTNAME1000000093;;;;;;;;;;;;;;;x;;;;;;;;
+EVTDESC1000000093;;;;;;;;;;;;;;;x;;;;;;;;
+EVTOPA1000000093;;;;;;;;;;;;;;;x;;;;;;;;
 EVTNAME1000000070;The National Question;;;;;;;;;;;;;;x;;;;;;;;
 EVTDESC1000000070;With the conquering of all lands that we have a claim on, we must choose what our destiny will be, the Slavic people in our empire have championed the idea of a slavic union of us and the Ruthenians, However the Bohemian elites have pointed we have the right to the throne of the Holy Roman Empire by right of conquest. So what will we choose?;;;;;;;;;;;;;;x;;;;;;;;
 EVTOPA1000000070A;Go with the Bohemians;;;;;;;;;;;;;;x;;;;;;;;

@@ -25,7 +25,39 @@ country_event = {
 	 option = {
 		 name = "EVTOPA1000000070B"
 		 set_country_flag = GTK_East_West_Slavic_union_path
-		 primary_culture = old_czech
-		 add_accepted_culture = polish
+		 #primary_culture = old_czech
+		 #add_accepted_culture = polish
+	 }
+}
+
+#The Crimean Tartars aren't happy
+country_event = {
+	 id = 1000000163
+	 title = "EVTNAME1000000163"
+	 desc = "EVTDESC1000000163"
+	 picture = "GTK_victory"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { months = 1 }
+	 
+	 trigger = {
+		 tag = WRU
+		 has_country_flag = GTK_accept_LIT
+		 has_country_flag = GTK_accept_RUT
+		 has_country_flag = GTK_accept_HUN
+	 }
+	 
+	 #Don't accept them
+	 option = {
+		 name = "EVTOPA1000000163A"
+		 prestige = 15
+	 }
+	
+	 #Accept them
+	 option = {
+		 name = "EVTOPA1000000163B"
+		 prestige = -20
+		 add_accepted_culture = crimean
+		 set_country_flag = WRU_tartar_king
 	 }
 }

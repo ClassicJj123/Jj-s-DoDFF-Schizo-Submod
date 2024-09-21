@@ -7,10 +7,10 @@ Burgundian_question = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 NOT = { has_country_flag = burgundian_question_ans }
+		 has_country_flag = claimed_burgundy
 	 }
 	 
 	 allow = {
-		 has_country_flag = claimed_burgundy
 		 AND = {
 			 OR = {
 				 BRG = { all_core = { owned_by = THIS } } 
@@ -30,6 +30,11 @@ Italy_expension = {
 		 tag = HLR
 		 ai = no
 		 has_country_flag = Schzio_mod_show
+		 has_country_flag = HRE_manifesto
+		 has_country_flag = north_united_HLR
+		 has_country_flag = rhine_united_HLR
+		 has_country_flag = south_united_HLR
+		 has_country_flag = swabia_united_HLR
 		 NOT = { has_country_flag = HLR_ITA_reclaim }
 	 }
 	 
@@ -137,9 +142,10 @@ Central_italian_acceptence = {
 
 #Burgundian claims early
 Claim_burgundy_early = {
-	 potential = { 
+		potential = { 
 			tag = HLR 
 			has_country_flag = Schzio_mod_show
+			has_country_flag = HRE_manifesto
 			NOT = { has_country_flag = claimed_burgundy } 
 		}
 		
@@ -165,6 +171,8 @@ Roman_expension = {
 		 has_country_flag = HLR_Rome_reclaim
 		 has_country_flag = claimed_burgundy
 		 has_country_flag = HLR_Rome_reclaim_2
+		 has_country_flag = burgundian_question_ans
+		 has_unclaimed_cores = no
 		 NOT = { has_country_flag = HLR_Rome_reclaim_3 }
 	 }
 	 
@@ -282,7 +290,8 @@ Major_expansion = {
 		 SCO = { all_core = { add_core = HLR } }
 		 IRE = { all_core = { add_core = HLR } }
 		 POL = { all_core = { add_core = HLR } }
-		 LIT = { all_core = { add_core = HLR } }
+		 LIT_698 = { add_core = HLR }
+		 RUS_707 = { add_core = HLR }
 		 SCH_370 = { add_core = HLR }
 		 DEN_367 = { add_core = HLR }
 		 PRU_699 = { add_core = HLR }

@@ -1,0 +1,9 @@
+Choshu;MOI;174 113 112
+Tokushima;HAC;192 125 123
+Shimabara;AIA;192 134 133
+Satsuma;SAT;175 123 122
+Mikawa;TKG;193 145 144
+Yonezawa;KAG;175 132 130
+Sendai;SEN;167 134 133
+Odawara;MSH;180 144 143
+Matsumae;AIN;180 153 152
