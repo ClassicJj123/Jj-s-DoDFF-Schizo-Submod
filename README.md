@@ -9,10 +9,10 @@ Current paths:
 3. HLR to Rome (Not entirely localizated finished, but it's playable)
 4. KRL to LIV to UDU to either the Teutonic Order or the Low German Confederation
 5. Hungary-Austria (By Earth is a Donut, thanks)
-6. Japan and China Flavor (By Nej, thanks)
+6. Japan and China Flavor (By Nej, thanks) (removed, under review)
 7. Minnor SCA flavor (By Nej, thanks)
 8. PLA return Home (By Nej, thanks)
-9. YUAN CONTENT (By Nej, thanks)
+9. YUAN CONTENT (By Nej, thanks) (removed, under review)
 10. CLM content to conquer Quito/Inca (By Nej, thanks)
 11. Spainish Aussie (By Nej, thanks)
 12. Fiume to Roman Shogunate (Emperor Meiji is shocked) (Not done with localization)
