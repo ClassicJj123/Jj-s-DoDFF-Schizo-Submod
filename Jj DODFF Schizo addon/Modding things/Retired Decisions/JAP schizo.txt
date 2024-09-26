@@ -1,0 +1,53 @@
+political_decisions = {
+
+#Japan decides it wants to conquer china -NEJ
+schizo_japan = {
+	 picture = "fukoku_kyohei"
+	 potential = {
+		 tag = JAP
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = japan_schizo }
+	 }
+	 
+	 allow = {
+		 OR = {
+			 KOR = { all_core = { owned_by = THIS } }
+			 GOY = { all_core = { owned_by = THIS } }
+		 }
+	 }
+	 
+	 effect = { 
+		 set_country_flag = japan_schizo
+		 CHI = { all_core = { add_core = THIS } }
+		 MCH = { all_core = { add_core = THIS } }
+		 2562 = { add_core = THIS }
+		 1485 = { add_core = THIS }
+		 badboy = 24
+	 }
+}
+
+#Japan Decides what to do with China -NEJ
+what_to_do_with_china = {
+	 picture = "form_china"
+	 potential = {
+		 tag = JAP
+		 ai = no
+		 has_country_flag = japan_schizo 
+		 }
+	 allow = {
+			1612 = { owned_by = CHI }
+			2221 = { owned_by = CHI }
+			1550 = { owned_by = CHI }
+			1493 = { owned_by = CHI }
+			1601 = { owned_by = CHI }
+			1555 = { owned_by = JAP }
+		CHI = { is_vassal = yes }
+  					}
+	 effect = {
+		CHI = { civilized = yes }
+		 country_event = 1000000080
+	 }
+}
+
+}

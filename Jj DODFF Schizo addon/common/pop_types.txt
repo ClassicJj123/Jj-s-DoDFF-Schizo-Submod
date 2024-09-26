@@ -471,6 +471,12 @@ migration_chance =
 	#	location = { total_pops = 10000 }
 	#	country = { border_policy = closed_borders }
 	#}
+	
+	#Schizo migration
+	modifier = {
+        factor = 9
+		country = { has_country_flag = SIG_migration }
+    }
 
     modifier = { #-2.2 if pop is in colony
         factor = -2.2

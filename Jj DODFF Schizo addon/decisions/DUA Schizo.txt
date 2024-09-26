@@ -55,6 +55,11 @@ political_decisions = {
 			 BRG = { release = HLL }
 			 BRG = { any_owned = { limit = { is_core = HLL } secede_province = HLL } }
 			 DUA = { create_vassal = HLL }
+			 HLL = {
+				 government = autonomous_dependency
+				 nationalvalue = nv_order
+				 ruling_party_ideology = reactionary
+			 }
 			 BRG = { prestige = -100 }
 			 badboy = 20
 		 }
@@ -86,6 +91,11 @@ political_decisions = {
 			 PBG = { release = HLL }
 			 PBG = { any_owned = { limit = { is_core = HLL } secede_province = HLL } }
 			 DUA = { create_vassal = HLL }
+			 HLL = {
+				 government = autonomous_dependency
+				 nationalvalue = nv_order
+				 ruling_party_ideology = reactionary
+			 }
 			 PBG = { prestige = -100 }
 			 badboy = 20
 		 }
@@ -108,6 +118,11 @@ political_decisions = {
 			 any_owned = { limit = { OR = { is_core = NET is_core = BRB } } add_core = HLL }
 			 release = HLL
 			 create_vassal = HLL
+			 HLL = {
+				 government = autonomous_dependency
+				 nationalvalue = nv_order
+				 ruling_party_ideology = reactionary
+			 }
 		 }
 	 }
 	 
