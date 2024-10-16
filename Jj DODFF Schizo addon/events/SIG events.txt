@@ -719,7 +719,7 @@ country_event = {
 		 BUR_1339 = { add_core = SIG }
 		 BUR_1334 = { add_core = SIG }
 		 BUR_1330 = { add_core = SIG }
-		 BUR_1352 = { add_core = SIG }
+		 ENG_1352 = { add_core = SIG }
 		 SIA_1355 = { add_core = SIG }
 		 SIA_1358 = { add_core = SIG }
 		 SIA_1366 = { add_core = SIG }

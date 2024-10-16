@@ -11,11 +11,9 @@ Burgundian_question = {
 	 }
 	 
 	 allow = {
-		 AND = {
-			 OR = {
-				 BRG = { all_core = { owned_by = THIS } } 
-				 PBG = { all_core = { owned_by = THIS } }
-			 }
+		 OR = {
+			 BRG = { all_core = { owned_by = THIS } } 
+			 PBG = { all_core = { owned_by = THIS } }
 		 }
 	 }
 	 
@@ -335,6 +333,9 @@ war_of_imperial_security = {
 		 NOT = { has_country_flag = death_to_RUS }
 		 has_country_flag = Siggy_Schizo_claims
 		 exists = RUS
+	 }
+	 
+	 allow = {
 	 }
 	 
 	 effect = {

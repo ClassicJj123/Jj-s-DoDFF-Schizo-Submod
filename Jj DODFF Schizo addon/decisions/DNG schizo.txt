@@ -1,0 +1,875 @@
+political_decisions = {
+
+#Earliest you can do this 1900 lmao
+from_FSF = {
+	 potential = {
+		 tag = DNG
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { exists = AFN } #This is very rare, so if this happens, just live in your part of Arcadia
+	 }
+	 
+	 allow = {
+		 has_country_flag = VALID_JAPANESE_DETONATION
+		 has_country_flag = the_ultimate_war_DNG
+		 NA_4 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_1 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_2598 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_45 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_11 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 DNG_3395 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 DNG_14 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_22 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_33 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_30 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_36 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_38 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_47 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_52 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_56 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_60 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_58 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_62 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_55 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_71 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_66 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_248 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_178 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_161 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_163 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_173 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 VIN_179 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NBG_247 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NBG_242 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NBG_224 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NBG_221 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NBG_219 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NBG_220 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PLA_214 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PLA_205 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PLA_2555 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_199 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PLA_198 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PLA_190 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PLA_186 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PLA_165 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_153 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PLA_187 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PLA_139 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 PLA_132 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_145 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_146 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_117 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_122 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_126 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_115 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_106 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 TEX_134 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 TEX_136 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 MEX_2146 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 MEX_2142 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 MEX_2138 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 MEX_103 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 MEX_90 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_109 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_111 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 DNG_95 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 DNG_158 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_78 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 DNG_159  = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_28 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NA_3374 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 DNG_3378 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 DNG_85 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 DNG_84 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+		 NBG_233 = {
+			 OR = {
+				 owned_by = THIS
+				 owner = {
+					 in_sphere = THIS
+				 }
+			 }
+		 }
+	 }
+	 
+	 effect = {
+		 any_country = {
+			 limit = {
+				 OR = {
+					 tag = VIN
+					 tag = NBG
+					 tag = SKR
+					 tag = LIB
+					 tag = LOU
+					 tag = PLA
+					 tag = OUM
+					 tag = NUN
+					 tag = OCE
+					 tag = ANI
+					 tag = BKF
+					 tag = CCA
+					 tag = CPH
+					 tag = CNF
+					 tag = CFS
+					 tag = CNL
+					 tag = CBV
+					 tag = CHV
+					 tag = CHE
+					 tag = IRO
+					 tag = MSG
+					 tag = LST
+				 }
+				 in_sphere = DNG
+			 }
+			 annex_to = DNG
+		 }
+		 change_tag = FSF
+		 FSF = { country_event = 1000000164 }
+	 }
+}
+
+#Dismantle NBG, most common Arcadian GP
+DNG_dismantle_NBG = {
+	 potential = {
+		 tag = DNG
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+	 }
+	 
+	 allow = {
+		 NBG = { is_greater_power = yes }
+		 NOT = { truce_with = NBG }
+		 NOT = { has_country_flag = DNG_dismantle_NBG }
+	 }
+	 
+	 effect = {
+		 leave_alliance = NBG
+         relation = { who = NBG value = -400 }
+		 casus_belli = {
+				target = NBG
+				type = dismantle_cb
+				months = 120
+		 }
+		 set_country_flag = DNG_dismantle_NBG
+	 }
+}
+
+#Destroy NBG for good
+DNG_destroy_belgian_unity = {
+	 potential = {
+		 tag = DNG
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+	 }
+	 
+	 allow = {
+		 NOT = { NBG = { is_greater_power = yes } }
+		 has_country_flag = DNG_dismantle_NBG
+	 }
+	 
+	 effect = {
+		 NBG = { release = CCA }
+		 NBG = {
+			 any_owned = {
+				 limit = {
+					 is_core = CCA
+				 }
+			 secede_province = CCA
+			 }
+		 }
+		 NBG = { release = CPH }
+		 NBG = {
+			 any_owned = {
+				 limit = {
+					 is_core = CPH
+				 }
+			 secede_province = CPH
+			 }
+		 }
+		 NBG = { release = CFS }
+		 NBG = {
+			 any_owned = {
+				 limit = {
+					 is_core = CFS
+				 }
+			 secede_province = CFS
+			 }
+		 }
+		 NBG = { release = CHV }
+		 NBG = {
+			 any_owned = {
+				 limit = {
+					 is_core = CHV
+				 }
+			 secede_province = CHV
+			 }
+		 }
+		 NBG = { release = CBV }
+		 NBG = {
+			 any_owned = {
+				 limit = {
+					 is_core = CBV
+				 }
+			 secede_province = CBV
+			 }
+		 }
+		 NBG = { release = CNL }
+		 NBG = {
+			 any_owned = {
+				 limit = {
+					 is_core = CNL
+				 }
+			 secede_province = CNL
+			 }
+		 }
+		 NBG = { release = IRO }
+		 NBG = {
+			 any_owned = {
+				 limit = {
+					 is_core = IRO
+				 }
+			 secede_province = IRO
+			 }
+		 }
+		 diplomatic_influence = {
+			 who = CCA
+			 value = 400
+		 }
+		 diplomatic_influence = {
+			 who = CPH
+			 value = 400
+		 }
+		 diplomatic_influence = {
+			 who = CFS
+			 value = 400
+		 }
+		 diplomatic_influence = {
+			 who = CHV
+			 value = 400
+		 }
+		 diplomatic_influence = {
+			 who = CBV
+			 value = 400
+		 }
+		 diplomatic_influence = {
+			 who = CNL
+			 value = 400
+		 }
+		 diplomatic_influence = {
+			 who = IRO
+			 value = 400
+		 }
+		 diplomatic_influence = {
+			 who = NBG
+			 value = 400
+		 }
+		 clr_country_flag = DNG_dismantle_NBG
+	 }
+}
+
+#Dismantle PLA, second most common Arcadian GP
+DNG_dismantle_PLA = {
+	 potential = {
+		 tag = DNG
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+	 }
+	 
+	 allow = {
+		 PLA = { is_greater_power = yes }
+		 NOT = { truce_with = PLA }
+		 NOT = { has_country_flag = DNG_dismantle_PLA }
+	 }
+	 
+	 effect = {
+		 leave_alliance = PLA
+         relation = { who = PLA value = -400 }
+		 casus_belli = {
+				target = PLA
+				type = dismantle_cb
+				months = 120
+		 }
+		 set_country_flag = DNG_dismantle_PLA
+	 }
+}
+
+#Dismantle VIN, third most common Arcadian GP
+DNG_dismantle_VIN = {
+	 potential = {
+		 tag = DNG
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+	 }
+	 
+	 allow = {
+		 VIN = { is_greater_power = yes }
+		 NOT = { truce_with = VIN }
+		 NOT = { has_country_flag = DNG_dismantle_VIN }
+	 }
+	 
+	 effect = {
+		 leave_alliance = VIN
+         relation = { who = VIN value = -400 }
+		 casus_belli = {
+				target = VIN
+				type = dismantle_cb
+				months = 120
+		 }
+		 set_country_flag = DNG_dismantle_VIN
+	 }
+}
+
+#Accept the Lusitanian
+FSF_accept_LST = {
+	 potential = {
+		 tag = FSF
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = FSF_accept_LST }
+	 }
+	 
+	 allow = {
+		 citizenship_policy = full_citizenship
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = lusitanian
+		 set_country_flag = FSF_accept_LST
+	 }
+}
+
+#FSF Destroy Japan
+FSF_destroy_JAP = {
+	 potential = {
+		 tag = FSF
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = FSF_destroy_JAP }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 leave_alliance = JAP
+         relation = { who = JAP value = -400 }
+		 casus_belli = {
+				target = JAP
+				type = conquest_any
+				months = 120
+		 }
+		 set_country_flag = FSF_destroy_JAP
+	 }
+}
+
+#Fate of Japan
+FSF_fate_of_JAP = {
+	 potential = {
+		 tag = FSF
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = FSF_destroy_JAP
+		 NOT = { has_country_flag = FSF_fate_of_JAP }
+	 }
+	 
+	 allow = {
+		 NOT = { exists = JAP }
+		 1649 = { owned_by = THIS }
+	 }
+	 
+	 effect = {
+		 country_event = 1000000175
+	 }
+}
+
+}

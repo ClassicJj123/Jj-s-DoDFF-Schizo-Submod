@@ -123,7 +123,7 @@ spriteTypes = {
 		
 	spriteType = {
 		name = "GFX_provinceview_bg"
-		texturefile = "gfx\\interface\\province_bg.dds"
+		texturefile = "gfx\\interface\\province_bg_new.dds"
 		norefcount = yes
 	}
 	spriteType = {
@@ -185,7 +185,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_province_other_bg"
-		texturefile = "gfx\\interface\\province_other_bg.tga"
+		texturefile = "gfx\\interface\\province_other_bg_new.tga"
 	}
 	
 
@@ -632,5 +632,10 @@ spriteTypes = {
 		noOfFrames = 5
 		effectFile = "gfx\\FX\\buttonstate.fx"
    		norefcount = yes
-	}	
+	}
+	spriteType = {
+		name = "GFX_assimilator"
+		texturefile = "gfx\\interface\\assimilator.dds"
+		noOfFrames = 2
+	}
 }

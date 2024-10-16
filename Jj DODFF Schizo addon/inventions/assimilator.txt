@@ -1,0 +1,30 @@
+i_assimilator = {
+	limit = {
+		state_n_government = 1
+		has_country_flag = assimilation_enabled
+		ai = no
+	}
+
+	news = no
+
+	chance = {
+		base = 0
+		modifier = {
+			factor = 0
+				ai = yes
+		}
+		modifier = {
+			factor = 0
+				NOT = { has_country_flag = assimilation_enabled }
+		}
+		modifier = {
+			factor = 50
+			has_country_flag = assimilation_enabled #Ai will never ever have this flag
+			#ai = no
+		}
+	}
+
+	effect = {
+		activate_building = assimilator
+	}
+}

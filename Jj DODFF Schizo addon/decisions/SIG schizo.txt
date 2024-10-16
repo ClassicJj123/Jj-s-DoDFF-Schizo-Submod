@@ -119,7 +119,7 @@ From_SEA_master = {
 		 BUR_1339 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
 		 BUR_1334 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
 		 BUR_1330 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
-		 BUR_1352 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
+		 ENG_1352 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
 		 SIA_1355 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
 		 SIA_1358 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }
 		 SIA_1366 = { OR = { owned_by = THIS owner = { in_sphere = THIS } } }

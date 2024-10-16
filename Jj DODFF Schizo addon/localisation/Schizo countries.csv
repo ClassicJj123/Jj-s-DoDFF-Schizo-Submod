@@ -198,7 +198,7 @@ FCH_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;;x;;;;;;;
 DCH;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
 DCH_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
 DCH_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
-DCH_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,YUA_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
+DCH_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
 DCH_bourgeois_dictatorship;Celestial Conglomorate;;;;;;;;;;;;;;x;;;;;;;;
 DCH_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
 DCH_democracy;Free-China League;;;;;;;;;;;;;;x;;;;;;;;
@@ -261,17 +261,17 @@ IRS_socialist_republic;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
 IRS_fascist_monarchy;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
 IRS_fascist_dictatorship;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
 ASP;Oustralia;;;;;;;;;;;;;;x;;;;;;;;
-ASP_ADJ;Oustr√°liana;;;;;;;;;;;;;;x;;;;;;;;
-ASP_absolute_monarchy;Oustr√°lia;;;;;;;;;;;;;;x;;;;;;;;
-ASP_absolute_monarchy_ADJ;Oustr√°liana;;;;;;;;;;;;;;x;;;;;;;;
-ASP_democracy;Rep√∫blica Oustr√°liania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_democracy_ADJ;Oustr√°liana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_hms_government;Oustr√°lia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_hms_government_ADJ;Oustr√°liana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_parliamentary_republic;Rep√∫blica Oustr√°liania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_parliamentary_republic_ADJ;Oustr√°liana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_presidential_dictatorship;Rep√∫blica Oustr√°liania;;;;;;;;;;;;;;x;;;;;;;;
-ASP_presidential_dictatorship_ADJ;Oustr√°liana;;;;;;;;;;;;;;x;;;;;;;;
+ASP_ADJ;Oustr·liana;;;;;;;;;;;;;;x;;;;;;;;
+ASP_absolute_monarchy;Oustr·lia;;;;;;;;;;;;;;x;;;;;;;;
+ASP_absolute_monarchy_ADJ;Oustr·liana;;;;;;;;;;;;;;x;;;;;;;;
+ASP_democracy;Rep˙blica Oustr·liania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_democracy_ADJ;Oustr·liana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_hms_government;Oustr·lia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_hms_government_ADJ;Oustr·liana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_parliamentary_republic;Rep˙blica Oustr·liania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_parliamentary_republic_ADJ;Oustr·liana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+ASP_presidential_dictatorship;Rep˙blica Oustr·liania;;;;;;;;;;;;;;x;;;;;;;;
+ASP_presidential_dictatorship_ADJ;Oustr·liana;;;;;;;;;;;;;;x;;;;;;;;
 GTK;Greater Cieszyn Kingdom;;;;;;;;;;;;;x,,,,,,,,
 GTK_ADJ;Cieszyn;;;;;;;;;;;;;x,,,,,,,,
 GTK_absolute_monarchy;Greater Cieszyn Kingdom;;;;;;;;;;;;;x,,,,,,,,
@@ -467,3 +467,16 @@ WRU_proletarian_dictatorship;Democratic Eastern European Union;;;;;;;;;;;;;x,,,,
 WRU_socialist_republic;Socialist Federation of Venedia and the East;;;;;;;;;;;;;x,,,,,,,,
 WRU_fascist_monarchy;Empire of Venedia and the East;;;;;;;;;;;;;x,,,,,,,,
 WRU_fascist_dictatorship;Federation of Venedia and the East;;;;;;;;;;;;;x,,,,,,,,
+FSF;FuSang Federation;;;;;;;;;;;;;x,,,,,,,,
+FSF_ADJ;FuSang;;;;;;;;;;;;;x,,,,,,,,
+FSF_absolute_monarchy;Kingdom of FuSang;;;;;;;;;;;;;x,,,,,,,,
+FSF_prussian_constitutionalism;Kingdom of FuSang;;;;;;;;;;;;;x,,,,,,,,
+FSF_hms_government;FuSang Federation;;;;;;;;;;;;;x,,,,,,,,
+FSF_democracy;FuSang Federation;;;;;;;;;;;;;x,,,,,,,, 
+FSF_parliamentary_republic;FuSang Federation;;;;;;;;;;;;;x,,,,,,,,
+FSF_presidential_dictatorship;FuSang Directory;;;;;;;;;;;;;x,,,,,,,,
+FSF_bourgeois_dictatorship;Democratic FuSang Union;;;;;;;;;;;;;x,,,,,,,,
+FSF_proletarian_dictatorship;Democratic FuSang Union;;;;;;;;;;;;;x,,,,,,,,
+FSF_socialist_republic;Socialist FuSang Federation;;;;;;;;;;;;;x,,,,,,,,
+FSF_fascist_monarchy;Empire of FuSang;;;;;;;;;;;;;x,,,,,,,,
+FSF_fascist_dictatorship;FuSang Directory;;;;;;;;;;;;;x,,,,,,,,

@@ -1031,6 +1031,15 @@ assimilation_chance =
 {
     factor = 1
 	
+	#TGC code
+	modifier = {
+		factor = 10
+		country = { has_country_flag = assimilation_enabled }
+		location = {
+			has_building = assimilator
+		}
+	}
+	
 	modifier = {
 		factor = 1.5
 		OR = {
@@ -1081,7 +1090,13 @@ assimilation_chance =
     modifier = {
         factor = -20
         has_culture_core = yes
-		NOT = { country = { has_country_flag = DUA_schooling } }	
+		NOT = { country = { has_country_flag = DUA_schooling } }
+		#TGC code
+		NOT = {
+		location = {
+			has_building = assimilator
+			}
+		}		
 	}
 
     modifier = {

@@ -1,0 +1,541 @@
+country_event = {
+	 id = 1000000164
+	 title = "EVTNAME1000000164"
+	 desc = "EVTDESC1000000164"
+	 major = yes
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000164"
+		 NA_4 = { add_core = THIS }
+		 NA_1 = { add_core = THIS }
+		 NA_2598 = { add_core = THIS }
+		 VIN_45 = { add_core = THIS }
+		 NA_11 = { add_core = THIS }
+		 DNG_3395 = { add_core = THIS }
+		 DNG_14 = { add_core = THIS }
+		 NA_22 = { add_core = THIS }
+		 NA_33 = { add_core = THIS }
+		 NA_30 = { add_core = THIS }
+		 NA_36 = { add_core = THIS }
+		 NA_38 = { add_core = THIS }
+		 VIN_47 = { add_core = THIS }
+		 VIN_52 = { add_core = THIS }
+		 VIN_56 = { add_core = THIS }
+		 VIN_60 = { add_core = THIS }
+		 VIN_58 = { add_core = THIS }
+		 VIN_62 = { add_core = THIS }
+		 VIN_55 = { add_core = THIS }
+		 VIN_71 = { add_core = THIS }
+		 VIN_66 = { add_core = THIS }
+		 VIN_248 = { add_core = THIS }
+		 VIN_178 = { add_core = THIS }
+		 VIN_161 = { add_core = THIS }
+		 VIN_163 = { add_core = THIS }
+		 VIN_173 = { add_core = THIS }
+		 VIN_179 = { add_core = THIS }
+		 NBG_247 = { add_core = THIS }
+		 NBG_242 = { add_core = THIS }
+		 NBG_224 = { add_core = THIS }
+		 NBG_221 = { add_core = THIS }
+		 NBG_219 = { add_core = THIS }
+		 NBG_220 = { add_core = THIS }
+		 PLA_214 = { add_core = THIS }
+		 PLA_205 = { add_core = THIS }
+		 PLA_2555 = { add_core = THIS }
+		 NA_199 = { add_core = THIS }
+		 PLA_198 = { add_core = THIS }
+		 PLA_190 = { add_core = THIS }
+		 PLA_186 = { add_core = THIS }
+		 PLA_165 = { add_core = THIS }
+		 NA_153 = { add_core = THIS }
+		 PLA_187 = { add_core = THIS }
+		 PLA_139 = { add_core = THIS }
+		 PLA_132 = { add_core = THIS }
+		 NA_145 = { add_core = THIS }
+		 NA_146 = { add_core = THIS }
+		 NA_117 = { add_core = THIS }
+		 NA_122 = { add_core = THIS }
+		 NA_126 = { add_core = THIS }
+		 NA_115 = { add_core = THIS }
+		 NA_106 = { add_core = THIS }
+		 TEX_134 = { add_core = THIS }
+		 TEX_136 = { add_core = THIS }
+		 MEX_2146 = { add_core = THIS }
+		 MEX_2142 = { add_core = THIS }
+		 MEX_2138 = { add_core = THIS }
+		 MEX_103 = { add_core = THIS }
+		 MEX_90 = { add_core = THIS }
+		 NA_109 = { add_core = THIS }
+		 NA_111 = { add_core = THIS }
+		 DNG_95 = { add_core = THIS }
+		 DNG_158 = { add_core = THIS }
+		 NA_78 = { add_core = THIS }
+		 DNG_159 = { add_core = THIS }
+		 NA_28 = { add_core = THIS }
+		 NA_3374 = { add_core = THIS }
+		 DNG_3378 = { add_core = THIS }
+		 DNG_85 = { add_core = THIS }
+		 DNG_84 = { add_core = THIS }
+		 NBG_233 = { add_core = THIS }
+		 add_accepted_culture = vinlander
+		 add_accepted_culture = marklander
+		 add_accepted_culture = septiman
+		 add_accepted_culture = plantagenian
+		 add_accepted_culture = athesian
+		 add_accepted_culture = apache
+		 add_accepted_culture = southern_algonquin
+		 add_accepted_culture = algonquin
+		 add_accepted_culture = cree
+		 add_accepted_culture = iroquois
+		 add_accepted_culture = inuit
+		 add_accepted_culture = west_algonquin
+		 add_accepted_culture = sioux
+		 add_accepted_culture = cherokee
+		 add_accepted_culture = rohnnst
+		 add_accepted_culture = afro_frankish
+	 }
+}
+
+####################
+###Collapse Chain###
+####################
+
+#Protest Erupt in our Euro holdings
+country_event = {
+	 id = 1000000165
+	 title = "EVTNAME1000000165"
+	 desc = "EVTDESC1000000165"
+	 picture = "placeholder"
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = FSF
+		 exists = FSF
+		 FSF = {
+			 OR = {
+				 government = presidential_dictatorship
+				 government = fascist_dictatorship
+				 government = absolute_monarchy
+			 }
+		 }
+		 NOT = {
+			 OR = {
+				 has_country_flag = revolt_FSF_dictatorship
+				 has_global_flag = FSF_civil_war
+				 has_country_modifier = FSF_civil_war_cooldown
+			 }
+		 }
+	 }
+	 
+	 #They demand a change in government
+	 option = {
+		 name = "EVTOPA1000000165"
+		 any_owned = {
+			 limit = {
+				 OR = {
+					 is_core = VIN
+					 is_core = PLA
+					 is_core = NBG
+					 is_core = LUS
+					 is_core = SKR
+				 }
+			 }
+			 add_province_modifier = {
+				 name = loss_of_support
+				 duration = 91
+			 }
+		 }
+		 set_country_flag = revolt_FSF_dictatorship
+	 }
+}
+
+#Protest turn violent
+country_event = {
+	 id = 1000000166
+	 title = "EVTNAME1000000166"
+	 desc = "EVTDESC1000000166"
+	 picture = "placeholder"
+	 
+	 mean_time_to_happen = { months = 3 }
+	 
+	 trigger = {
+		 tag = FSF
+		 exists = FSF
+		 has_country_flag = revolt_FSF_dictatorship
+	 }
+	 
+	 #Send in the army to attempt to quell the revolt
+	 option = {
+		 name = "EVTOPA1000000166"
+		 any_owned = {
+			 limit = {
+				 OR = {
+					 is_core = VIN
+					 is_core = PLA
+					 is_core = NBG
+					 is_core = LST
+					 is_core = SKR
+				 }
+			 }
+			 add_province_modifier = { #The attack has only angered the mob
+				 name = patriot_uprising
+				 duration = 91
+			 }
+		 }
+		 prestige = -50
+		 set_country_flag = revolt_FSF_dictatorship_2
+	 }
+}
+
+#The formation of the Légion Belge de la Liberté
+country_event = {
+	 id = 1000000167
+	 title = "EVTNAME1000000167"
+	 desc = "EVTDESC1000000167"
+	 picture = "placeholder"
+	 
+	 mean_time_to_happen = { months = 3 }
+	 
+	 trigger = {
+		 tag = FSF
+		 exists = FSF
+		 has_country_flag = revolt_FSF_dictatorship_2
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000167"
+		 release = NBG
+		 create_vassal = NBG
+		 any_owned = {
+			 limit = {	
+				 is_core = NBG
+			 }
+			 secede_province = NBG
+		 }
+		 set_country_flag = revolt_FSF_dictatorship_NBG_created
+	 }
+}
+
+#The formation of the Vinländska Försvarsrådet
+country_event = {
+	 id = 1000000168
+	 title = "EVTNAME1000000168"
+	 desc = "EVTDESC1000000168"
+	 picture = "placeholder"
+	 
+	 mean_time_to_happen = { months = 3 }
+	 
+	 trigger = {
+		 tag = FSF
+		 exists = FSF
+		 has_country_flag = revolt_FSF_dictatorship_2
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000168"
+		 release = VIN
+		 create_vassal = VIN
+		 any_owned = {
+			 limit = {
+				 OR = {
+					 is_core = VIN
+					 is_core = SKR
+					 is_core = MSG
+				 }
+			 }
+			 secede_province = VIN
+		 }
+		 set_country_flag = revolt_FSF_dictatorship_VIN_created
+	 }
+}
+
+#The formation of the Mouvement de Restauration Plantagenienne
+country_event = {
+	 id = 1000000169
+	 title = "EVTNAME1000000169"
+	 desc = "EVTDESC1000000169"
+	 picture = "placeholder"
+	 
+	 mean_time_to_happen = { months = 3 }
+	 
+	 trigger = {
+		 tag = FSF
+		 exists = FSF
+		 has_country_flag = revolt_FSF_dictatorship_2
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000169"
+		 release = PLA
+		 create_vassal = PLA
+		 any_owned = {
+			 limit = {	
+				 OR = {
+					 is_core = PLA
+					 is_core = LIB
+					 is_core = LOU
+					 is_core = OUM
+				 }
+			 }
+			 secede_province = PLA
+		 }
+		 set_country_flag = revolt_FSF_dictatorship_PLA_created
+	 }
+}
+
+#Incident at the border of the Mouvement de Restauration Plantagenienne
+country_event = {
+	 id = 1000000170
+	 title = "EVTNAME1000000170"
+	 desc = "EVTDESC1000000170"
+	 picture = "placeholder"
+	 
+	 mean_time_to_happen = { months = 3 }
+	 
+	 trigger = {
+		 tag = FSF
+		 exists = FSF
+		 has_country_flag = revolt_FSF_dictatorship_NBG_created
+		 has_country_flag = revolt_FSF_dictatorship_PLA_created
+		 has_country_flag = revolt_FSF_dictatorship_VIN_created
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000170"
+		 country_event = 1000000171
+	 }
+}
+
+#Gun fire exchanged
+country_event = {
+	 id = 1000000171
+	 title = "EVTNAME1000000171"
+	 desc = "EVTDESC1000000171"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000171"
+		 set_country_flag = revolt_FSF_dictatorship_civil_war_prep
+	 }
+}
+
+#The Great Arcadian Civil War
+country_event = {
+	 id = 1000000172
+	 title = "EVTNAME1000000172"
+	 desc = "EVTDESC1000000172"
+	 major = yes
+	 
+	 trigger = {
+		 tag = FSF
+		 exists = FSF
+		 has_country_flag = revolt_FSF_dictatorship_civil_war_prep
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000172"
+		 release_vassal = NBG
+		 release_vassal = PLA
+		 release_vassal = VIN
+		 clr_country_flag = revolt_FSF_dictatorship
+		 clr_country_flag = revolt_FSF_dictatorship_2
+		 clr_country_flag = revolt_FSF_dictatorship_NBG_created
+		 clr_country_flag = revolt_FSF_dictatorship_PLA_created
+		 clr_country_flag = revolt_FSF_dictatorship_VIN_created
+		 clr_country_flag = revolt_FSF_dictatorship_civil_war_prep
+		 set_global_flag = FSF_civil_war
+		 war = {
+			 target = NBG
+			 attacker_goal = { casus_belli = civil_war }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = PLA
+			 attacker_goal = { casus_belli = civil_war }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+		 war = {
+			 target = VIN
+			 attacker_goal = { casus_belli = civil_war }
+			 defender_goal = { casus_belli = status_quo }
+			 call_ally = no
+		 }
+	 }
+}
+
+#The Death of the FuSang Dream
+country_event = {
+	 id = 1000000173
+	 title = "EVTNAME1000000173"
+	 desc = "EVTDESC1000000173"
+	 major = yes
+	 
+	 trigger = {
+		 tag = FSF
+		 exists = FSF
+		 has_global_flag = FSF_civil_war
+		 AND = {
+			 OR = {
+				 truce_with = PLA
+				 truce_with = VIN
+				 truce_with = NBG
+			 }
+			 OR = {
+				 exists = PLA
+				 exists = VIN
+				 exists = NBG
+			 }
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000173"
+		 release = PLA
+		 any_owned = {
+			 limit = {	
+				 is_core = PLA
+			 }
+			 secede_province = PLA
+		 }
+		 release = NBG
+		 any_owned = {
+			 limit = {	
+				 is_core = NBG
+			 }
+			 secede_province = NBG
+		 }
+		 release = VIN
+		 any_owned = {
+			 limit = {	
+				 is_core = VIN
+			 }
+			 secede_province = VIN
+		 }
+		 VIN = { any_owned = { remove_core = FSF } }
+		 PLA = { any_owned = { remove_core = FSF } }
+		 NBG = { any_owned = { remove_core = FSF } }
+		 remove_accepted_culture = vinlander
+		 remove_accepted_culture = marklander
+		 remove_accepted_culture = septiman
+		 remove_accepted_culture = plantagenian
+		 remove_accepted_culture = athesian
+		 remove_accepted_culture = apache
+		 remove_accepted_culture = southern_algonquin
+		 remove_accepted_culture = algonquin
+		 remove_accepted_culture = cree
+		 remove_accepted_culture = iroquois
+		 remove_accepted_culture = inuit
+		 remove_accepted_culture = west_algonquin
+		 remove_accepted_culture = sioux
+		 remove_accepted_culture = cherokee
+		 remove_accepted_culture = rohnnst
+		 remove_accepted_culture = afro_frankish
+		 clr_global_flag = FSF_civil_war
+		 change_tag = DNG
+	 }
+}
+
+#The end of the civil war
+country_event = {
+	 id = 1000000174
+	 title = "EVTNAME1000000174"
+	 desc = "EVTDESC1000000174"
+	 major = yes
+	 
+	 trigger = {
+		 tag = FSF
+		 exists = FSF
+		 has_global_flag = FSF_civil_war
+		 AND = {
+			 NOT = {
+				 OR = {
+					 exists = PLA
+					 exists = VIN
+					 exists = NBG
+				 }
+			 }
+			 war = no
+		 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000174"
+		 prestige = 50
+		 add_country_modifier = { #Yes the civil war will happen again if you don't change government
+			 name = FSF_civil_war_cooldown
+			 duration = 1826
+		 }
+		 clr_global_flag = FSF_civil_war
+	 }
+}
+
+#Fate of Japan
+country_event = {
+	 id = 1000000175
+	 title = "EVTNAME1000000175"
+	 desc = "EVTDESC1000000175"
+	 major = yes
+	 is_triggered_only = yes
+	 
+	 #Establish a friendly government
+	 option = {
+		 name = "EVTOPA1000000175A"
+		 release = MCH
+		 MCH = { all_core = { remove_core = JAP } }
+		 release = KOR
+		 KOR = { all_core = { remove_core = JAP } }
+		 release = JAP
+		 JAP = {
+			 government = democracy
+			 relation = { who = FSF value = 400 }
+		 }
+	 }
+	 
+	 #Intergate them as a state
+	 option = {
+		 name = "EVTOPA1000000175B"
+		 release = MCH
+		 MCH = { all_core = { remove_core = JAP } }
+		 release = KOR
+		 KOR = { all_core = { remove_core = JAP } }
+		 JAP = { all_core = { add_core = THIS } }
+		 set_country_flag = FSF_intergate_JAP
+	 }
+	 
+	 #Break Japan
+	 option = {
+		 name = "EVTOPA1000000175C"
+		 release = MCH
+		 MCH = { all_core = { remove_core = JAP } }
+		 release = KOR
+		 KOR = { all_core = { remove_core = JAP } }
+		 JAP_1660 = { add_core = AIA }
+		 release = AIA
+		 JAP_1640 = { add_core = MOI }
+		 release = MOI
+		 JAP_1649 = { add_core = MSH }
+		 release = MSH
+		 JAP_1672 = { add_core = SEN }
+		 release = SEN
+		 JAP_1642 = { add_core = KAM }
+		 JAP_1086 = { add_core = KAM }
+		 release = KAM
+		 JAP_1665 = { add_core = HAC }
+		 release = HAC
+		 release = JAP
+		 create_vassal = JAP
+		 create_vassal = AIA
+		 create_vassal = MOI
+		 create_vassal = MSH
+		 create_vassal = SEN
+		 create_vassal = KAM
+		 create_vassal = HAC
+		 set_global_flag = FSF_broken_JAP
+	 }
+}

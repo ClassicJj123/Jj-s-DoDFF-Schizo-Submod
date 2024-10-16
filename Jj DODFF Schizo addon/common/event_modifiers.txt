@@ -6230,3 +6230,6 @@ Singapore_miricle = {
 
 chaos_mode_cooldown = {
 }
+
+FSF_civil_war_cooldown = {
+}

@@ -1,0 +1,236 @@
+##############################
+###Japan Indepentence Chain###
+##############################
+
+#FuSang, it's been 2 years... you still owe me indepentence
+country_event = {
+	 id = 1000000176
+	 title = "EVTNAME1000000176"
+	 desc = "EVTDESC1000000176"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 730 }
+	 
+	 trigger = {
+		 tag = JAP
+		 has_global_flag = FSF_broken_JAP
+	 }
+	 
+	 #It's time we request our indepentence
+	 option = {
+		 name = "EVTOPA1000000176"
+		 FSF = { country_event = 1000000177 }
+	 }
+}
+
+#Japan request Indepentence
+country_event = {
+	 id = 1000000177
+	 title = "EVTNAME1000000177"
+	 desc = "EVTDESC1000000177"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 is_triggered_only = yes
+	 
+	 #Let them have it
+	 option = {
+		 name = "EVTOPA1000000177A"
+		 release_vassal = JAP
+		 release_vassal = AIA
+		 release_vassal = MOI
+		 release_vassal = MSH
+		 release_vassal = SEN
+		 release_vassal = KAM
+		 release_vassal = HAC
+		 AIA = { annex_to = JAP }
+		 MOI = { annex_to = JAP }
+		 MSH = { annex_to = JAP }
+		 SEN = { annex_to = JAP }
+		 KAM = { annex_to = JAP }
+		 HAC = { annex_to = JAP }
+		 clr_global_flag = FSF_broken_JAP
+	 }
+	 
+	 #Give them another option
+	 option = {
+		 name = "EVTOPA1000000177B"
+		 JAP = { country_event = 1000000178 }
+	 }
+	 
+	 #Reject them
+	 option = {
+		 name = "EVTOPA1000000177C"
+		 JAP = { country_event = 1000000179 }
+	 }
+}
+
+#An interesting purposal
+country_event = {
+	 id = 1000000178
+	 title = "EVTNAME1000000178"
+	 desc = "EVTDESC1000000178"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000178"
+		 AIA = { annex_to = FSF }
+		 MOI = { annex_to = FSF }
+		 MSH = { annex_to = FSF }
+		 SEN = { annex_to = FSF }
+		 KAM = { annex_to = FSF }
+		 HAC = { annex_to = FSF }
+		 JAP = { annex_to = FSF }
+		 JAP = { all_core = { add_core = FSF } }
+		 FSF = { add_accepted_culture = japanese }
+		 clr_global_flag = FSF_broken_JAP
+	 }
+}
+
+#We were rejected!
+country_event = {
+	 id = 1000000179
+	 title = "EVTNAME1000000179"
+	 desc = "EVTDESC1000000179"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 #Looks like we will have to fight for freedom
+	 option = {
+		 name = "EVTOPA1000000179"
+		 AIA = { country_event = 1000000180 }
+		 MOI = { country_event = 1000000180 }
+		 MSH = { country_event = 1000000180 }
+		 SEN = { country_event = 1000000180 }
+		 KAM = { country_event = 1000000180 }
+		 HAC = { country_event = 1000000180 }
+		 clr_global_flag = FSF_broken_JAP
+		 set_global_flag = JAP_indepentence_war_prep
+	 }
+}
+
+#General event for other Japan tags
+country_event = {
+	 id = 1000000180
+	 title = "EVTNAME1000000180"
+	 desc = "EVTDESC1000000180"
+	 picture = "placeholder"
+	 
+	 is_triggered_only = yes
+	 
+	 option = {
+		 name = "EVTOPA1000000180A"
+		 JAP = { inherit = THIS }
+		 ai_chance = { factor = 40 }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000180B"
+		 ai_chance = { factor = 60 }
+	 }
+}
+
+#The Japanese war for indepentence
+#The Sun rises again, time to put it down
+country_event = {
+	 id = 1000000181
+	 title = "EVTNAME1000000181"
+	 desc = "EVTDESC1000000181"
+	 major = yes
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = FSF
+		 has_global_flag = JAP_indepentence_war_prep
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000181"
+		 FSF = { release_vassal = JAP }
+		 war = {
+			 target = JAP
+			 attacker_goal = { casus_belli = minor_custom_treaty_cb }
+			 defender_goal = { casus_belli = minor_custom_treaty_cb }
+			 call_ally = yes
+		 }
+		 clr_global_flag = JAP_indepentence_war_prep
+		 set_global_flag = JAP_indepentence_war
+	 }
+}
+
+#The Sun is at it's brightest
+#Japanese victory
+country_event = {
+	 id = 1000000182
+	 title = "EVTNAME1000000182"
+	 desc = "EVTDESC1000000182"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = FSF
+		 has_global_flag = JAP_indepentence_war
+		 has_country_flag = custom_treaty_loser
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000182"
+		 AIA = { annex_to = JAP }
+		 MOI = { annex_to = JAP }
+		 MSH = { annex_to = JAP }
+		 SEN = { annex_to = JAP }
+		 KAM = { annex_to = JAP }
+		 HAC = { annex_to = JAP }
+		 FSF = { clr_country_flag = custom_treaty_loser }
+		 clr_global_flag = JAP_indepentence_war
+		 prestige = -100
+	 }
+}
+
+#And thus the sun sets once again
+#FSF victory
+country_event = {
+	 id = 1000000183
+	 title = "EVTNAME1000000183"
+	 desc = "EVTDESC1000000183"
+	 picture = "placeholder"
+	 fire_only_once = yes
+	 
+	 mean_time_to_happen = { days = 7 }
+	 
+	 trigger = {
+		 tag = FSF
+		 has_global_flag = JAP_indepentence_war
+		 JAP = { has_country_flag = custom_treaty_loser }
+	 }
+	 
+	 option = {
+		 name = "EVTOPA1000000183"
+		 JAP = {
+			 release = AIA
+			 release = MOI
+			 release = MSH
+			 release = SEN
+			 release = KAM
+			 release = HAC
+		 }
+		 create_vassal = JAP
+		 create_vassal = AIA
+		 create_vassal = MOI
+		 create_vassal = MSH
+		 create_vassal = SEN
+		 create_vassal = KAM
+		 create_vassal = HAC
+		 JAP = { clr_country_flag = custom_treaty_loser }
+		 clr_global_flag = JAP_indepentence_war
+		 prestige = 100
+	 }
+}
