@@ -33,3 +33,7 @@ political_decisions = {
 			 any_owned = { limit = { is_core = BUL } remove_core = BUL }
 			 KAZ = { all_core = { add_core = BUL } }
 			 set_country_flag = TUR_deport_BUL
+		 }
+	 }
+
+}

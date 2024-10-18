@@ -6,3 +6,5 @@ political_decisions = {
 #		 tag = GCF
 #		 ai = no
 #		 has_country_flag = Schzio_mod_show
+
+}

@@ -1,5 +1,5 @@
 color = { 104  255  1 }
-graphical_culture = LotharingiaGC
+graphical_culture = EuropeanGC
 
 party = {
 	name = "BRG_conservative_1" # Centrists

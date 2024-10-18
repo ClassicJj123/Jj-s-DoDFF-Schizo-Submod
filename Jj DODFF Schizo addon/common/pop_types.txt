@@ -1279,6 +1279,12 @@ assimilation_chance =
     modifier = {
         factor = -80
         country = { NOT = { has_country_flag = african_integration_policy } }
+		#TGC code
+		NOT = {
+		location = {
+			has_building = assimilator
+			}
+		}		
         location = { continent = africa }
         OR = {
             is_culture_group = african_diaspora_cultures

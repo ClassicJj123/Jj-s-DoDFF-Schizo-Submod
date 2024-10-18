@@ -3,7 +3,6 @@ primary_culture = old_czech
 culture = portuguese
 culture = castilian
 culture = basque
-culture = basque
 culture = navarro_aragonese
 culture = old_portuguese
 religion = catholic
