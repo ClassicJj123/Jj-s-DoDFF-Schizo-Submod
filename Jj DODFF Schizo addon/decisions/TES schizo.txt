@@ -313,7 +313,6 @@ GTK_claim_NGF = {
 		 PRU_546 = { add_core = THIS }
 		 HOL_369 = { add_core = THIS }
 		 badboy = 5
-		 add_accepted_culture = north_german
 		 set_country_flag = GTK_claim_NGF
 	 }
 }
