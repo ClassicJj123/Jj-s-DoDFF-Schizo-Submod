@@ -1253,6 +1253,12 @@ assimilation_chance =
             NOT = { has_country_flag = native_assimilation }
             NOT = { has_country_flag = native_integration }
         }
+		#TGC code
+		NOT = {
+			location = {
+				has_building = assimilator
+			}
+		}
         OR = {
             is_culture_group = mesoandean
             is_culture_group = native_south_american
@@ -1270,6 +1276,12 @@ assimilation_chance =
         factor = -80
         country = { NOT = { has_country_flag = african_integration_policy } }
         is_culture_group = african_diaspora_cultures
+		#TGC code
+		NOT = {
+			location = {
+				has_building = assimilator
+			}
+		}
         OR = {
             location = { continent = north_america }
             location = { continent = south_america }
@@ -1281,8 +1293,8 @@ assimilation_chance =
         country = { NOT = { has_country_flag = african_integration_policy } }
 		#TGC code
 		NOT = {
-		location = {
-			has_building = assimilator
+			location = {
+				has_building = assimilator
 			}
 		}		
         location = { continent = africa }
