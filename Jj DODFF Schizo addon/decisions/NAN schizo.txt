@@ -1,0 +1,52 @@
+political_decisions = {
+
+#Lmao, wait fot the event for it first
+NAN_jewish_dream = {
+    potential = {
+		 OR = {
+			 tag = NAN
+			 tag = ENL
+		 	 tag = ENG
+		 }
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = beornian_israelism
+		 NOT = { has_country_flag = schizo_jewish_country }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = ashkenazi
+		 set_country_flag = schizo_jewish_country
+		 set_country_flag = NAN_jewish_path_enabled
+		 set_global_flag = schizo_enable_jew_emigration
+	 }
+}
+
+NAN_further_jew_acceptence = {
+	potential = {
+		 OR = {
+			 tag = NAN
+			 tag = ENL
+		 	 tag = ENG
+		 }
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = NAN_jewish_path_enabled
+		 NOT = { has_country_flag = NAN_further_jew_acceptence }
+	 }
+	 
+	 allow = {
+		 citizencitizenship_policy = full_citizenship
+	 }
+	 
+	 effect = {
+		 add_accepted_culture = sephardic
+		 add_accepted_culture = mizrahi
+		 set_country_flag = NAN_further_jew_acceptence
+	 }
+}
+
+}

@@ -65,9 +65,19 @@ country_migration_target =
 		THIS = { NOT = { literacy = 0.6 } }
 	}
 	
+	#Schzio migration
+	#Singapore migration
 	modifier = {
 		factor = 1.6
 		country = { has_country_flag = SIG_migration }
+	}
+
+	modifier = {
+		factor = 3
+		AND = {
+			has_country_flag = schizo_jewish_country
+			THIS = { is_culture_group = jewish_cultures }
+		}
 	}
 
 

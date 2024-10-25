@@ -1,0 +1,60 @@
+political_decisions = {
+	
+	transleithania_is_back = {
+		potential = {
+			ai = no
+			tag = HUN 
+		}
+		allow = {
+			is_our_vassal = AUS
+			prestige = 20
+		}
+		effect = {
+			inheret = AUS
+			add_accepted_culture = south_german
+			AUS = { all_core = { add_core = HUN } }
+			change_tag = HUA
+			prestige = 20
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	AUS_check = {
+		potential = {
+			tag = HUA
+			is_our_vassal = AUS
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			inherit = AUS
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	conquest_of_CRO = {
+		potential = {
+			tag = HUA
+			NOT = {
+				is_core = 619
+			}
+		}
+		allow = {
+			is_greater_power = yes
+		}
+		effect = {
+			CRO = { all_core = { add_core = HUA } }
+			FIU = { all_core = { add_core = HUA } }
+			add_accepted_culture = slovene
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}

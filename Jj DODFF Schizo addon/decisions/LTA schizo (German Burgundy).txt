@@ -26,6 +26,7 @@ LTA_pick_on_FRA = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_phase_2
+		 has_country_flag = LTA_GER_BRG
 	 }
 	 
 	 allow = {
@@ -48,6 +49,7 @@ LTA_reclaim_west_frankia = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_claim_WFK
+		 has_country_flag = LTA_GER_BRG
 	 }
 	 
 	 allow = {
@@ -73,6 +75,7 @@ establish_WFK = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_WFK_conquered
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = WFK_created }
 	 }
 	 
@@ -126,6 +129,7 @@ destroy_french_culture = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = WFK_created
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { WFK = { has_country_flag = WFK_GER_FRA } }
 	 }
 	 
@@ -148,6 +152,7 @@ annex_WFK = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = WFK_created
+		 has_country_flag = LTA_GER_BRG
 		 exists = WFK
 	 }
 	 
@@ -168,6 +173,7 @@ LTA_claim_SWA = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = WFK_created
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_claim_SWA }
 	 }
 	 
@@ -211,6 +217,7 @@ LTA_accept_SWA = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_claim_SWA
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_accept_SWA }
 	 }
 	 
@@ -237,6 +244,7 @@ LTA_claim_CFR = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = WFK_created
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_claim_CFR }
 	 }
 	 
@@ -283,6 +291,7 @@ accept_rheinish = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_claim_CFR
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = accept_rheinish }
 	 }
 	 
@@ -311,6 +320,7 @@ LTA_claim_north_italy = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = WFK_created
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_claim_north_italy }
 	 }
 	 
@@ -340,6 +350,7 @@ LTA_establish_LOB = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_claim_north_italy
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_establish_LOB }
 	 }
 	 
@@ -399,6 +410,7 @@ annex_LOB = {
 		 tag = LTA
 		 ai = no
 		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_GER_BRG
 		 has_country_flag = LTA_establish_LOB
 		 exists = LOB
 	 }
@@ -419,6 +431,7 @@ LTA_kill_ITA = {
 		 tag = LTA
 		 ai = no
 		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_GER_BRG
 		 has_country_flag = LTA_establish_LOB
 		 NOT = { has_country_flag = LTA_kill_ITA }
 	 }
@@ -439,6 +452,7 @@ LTA_establish_GPA = {
 		 tag = LTA
 		 ai = no
 		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_GER_BRG
 		 has_country_flag = LTA_destroy_ITA
 		 NOT = { has_country_flag = LTA_establish_GPA }
 	 }
@@ -486,6 +500,7 @@ annex_GPA = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_establish_GPA
+		 has_country_flag = LTA_GER_BRG
 		 exists = GPA
 	 }
 	 
@@ -506,6 +521,7 @@ LTA_Destroy_ITA = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_kill_ITA
+		 has_country_flag = LTA_GER_BRG
 		 has_country_flag = LTA_establish_LOB
 		 NOT = { has_country_flag = LTA_Destroy_ITA }
 	 }
@@ -549,6 +565,7 @@ LTA_claim_SPA = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = WFK_created
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_claim_SPA }
 	 }
 	 
@@ -582,6 +599,7 @@ LTA_establish_VIS = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_claim_SPA
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_establish_VIS }
 	 }
 	 
@@ -663,6 +681,7 @@ LTA_demand_VIS_concession = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_establish_VIS
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_demand_VIS_concession }
 	 }
 	 
@@ -711,6 +730,7 @@ LTA_claim_north_africa = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_claim_SPA
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_claim_north_africa }
 	 }
 	 
@@ -761,6 +781,7 @@ LTA_establish_VAN = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_claim_north_africa
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_establish_VAN }
 	 }
 	 
@@ -884,6 +905,7 @@ LTA_claim_NGF = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = WFK_created
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_claim_NGF }
 	 }
 	 
@@ -916,6 +938,7 @@ LTA_accept_NGF = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_claim_NGF
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_accept_NGF }
 	 }
 	 
@@ -948,6 +971,7 @@ LTA_claim_SGF = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = WFK_created
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_claim_SGF }
 	 }
 	 
@@ -976,6 +1000,7 @@ LTA_accept_SGF = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_claim_SGF
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_accept_SGF }
 	 }
 	 
@@ -1003,6 +1028,7 @@ LTA_subjuguate_HUN = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_accept_SGF
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_subjuguate_HUN }
 	 }
 	 
@@ -1023,6 +1049,7 @@ LTA_establish_GHU = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_subjuguate_HUN
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_establish_GHU }
 	 }
 	 
@@ -1063,6 +1090,7 @@ annex_GHU = {
 		 tag = NHR
 		 ai = no
 		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_GER_BRG
 		 has_country_flag = LTA_establish_GHU
 		 exists = GHU
 	 }
@@ -1084,6 +1112,7 @@ LTA_subjuguate_BOH = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_accept_NGF
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_subjuguate_BOH }
 	 }
 	 
@@ -1108,6 +1137,7 @@ LTA_establish_BOH = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_subjuguate_BOH
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_establish_BOH }
 	 }
 	 
@@ -1157,6 +1187,7 @@ LTA_destroy_BOH = {
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 		 has_country_flag = LTA_establish_BOH
+		 has_country_flag = LTA_GER_BRG
 		 NOT = { has_country_flag = LTA_destroy_BOH }
 	 }
 	 
@@ -1188,6 +1219,7 @@ LTA_from_NHR = {
 		 tag = LTA
 		 ai = no
 		 has_country_flag = Schzio_mod_show
+		 has_country_flag = LTA_GER_BRG
 	 }
 	 
 	 allow = {
@@ -1269,6 +1301,7 @@ LTA_annex_RHI = {
 		 }
 		 ai = no
 		 exists = RHI
+		 has_country_flag = LTA_GER_BRG
 	 }
 	 
 	 allow = {
@@ -1288,6 +1321,7 @@ LTA_annex_VOC = {
 		 }
 		 ai = no
 		 exists = VOC
+		 has_country_flag = LTA_GER_BRG
 	 }
 	 
 	 allow = {
@@ -1313,6 +1347,7 @@ LTA_claim_SAF = {
 		 }
 		 ai = no
 		 exists = VOC
+		 has_country_flag = LTA_GER_BRG
 	 }
 	 
 	 allow = {
@@ -1332,6 +1367,7 @@ LTA_puppet_VIS = {
 			 tag = NHR
 		 }
 		 ai = no
+		 has_country_flag = LTA_GER_BRG
 	 }
 	 
 	 allow = {
@@ -1358,6 +1394,7 @@ LTA_puppet_WFK = {
 			 tag = NHR
 		 }
 		 ai = no
+		 has_country_flag = LTA_GER_BRG
 	 }
 	 
 	 allow = {
@@ -1384,6 +1421,7 @@ LTA_puppet_LOB = {
 			 tag = NHR
 		 }
 		 ai = no
+		 has_country_flag = LTA_GER_BRG
 	 }
 	 
 	 allow = {

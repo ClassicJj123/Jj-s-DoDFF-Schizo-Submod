@@ -2,7 +2,7 @@
 ###Japan Indepentence Chain###
 ##############################
 
-#FuSang, it's been 2 years... you still owe me indepentence
+#FuSang, it's been 2 years... you still owe me independence
 country_event = {
 	 id = 1000000176
 	 title = "EVTNAME1000000176"

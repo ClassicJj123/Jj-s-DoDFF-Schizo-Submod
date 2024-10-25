@@ -824,6 +824,21 @@ emigration_chance =
 			has_country_flag = post_colonial_era
 		}
 	}
+
+    #Schizo emigration
+    modifier = {
+		factor = 4
+		THIS = {
+			is_culture_group = jewish_cultures
+		}
+		country = {
+			 NOT = { is_culture_group = jewish_cultures }
+			 NOT = { border_policy = closed_borders }
+             NOT = { has_country_flag = schizo_jewish_country }
+		}
+		has_global_flag = schizo_enable_jew_emigration
+		location = { controlled_by = owner }
+	}
 	
 	modifier = {
 		factor = -0.1
@@ -1033,7 +1048,7 @@ assimilation_chance =
 	
 	#TGC code
 	modifier = {
-		factor = 10
+		factor = 2
 		country = { has_country_flag = assimilation_enabled }
 		location = {
 			has_building = assimilator

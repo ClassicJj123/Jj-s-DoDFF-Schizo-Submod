@@ -218,7 +218,7 @@ country_event = {
 	 }
 }
 
-#The formation of the Vinländska Försvarsrådet
+#The formation of the Vinland Forsvarsråd
 country_event = {
 	 id = 1000000168
 	 title = "EVTNAME1000000168"

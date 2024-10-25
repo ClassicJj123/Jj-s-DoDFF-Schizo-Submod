@@ -75,7 +75,7 @@ germanic = {
         last_names = { Aishut Alkier Allenstein Anhut Angrick Baltrusch Baranauskaus Baranokowski Berkmanas Bierkant "Denda-Borowski" Downar Dreßler Eysmondt Geringas Gintowt Grunenberg Gulbies Härder Jankowski Kuhn Landsberg Mahnke Mielke Neujoks Neumann Packeiser Palstok Pläp Preik Puddig 
 		Rautenberg Romeyke Rosin Sahm Schwark Schwibbe Schwill Sperling Spruth Steinbutt Szekann Toll Tornier Thulke "vom Ermland" "von Bludau-Lilienthal" "von Haberberg" "von Heinrichswalde" "von Jelgava-Buchholz" "von Kirchspiel" "von Kyckelen" "von Warglitten" Wendt Wiebe Will Wilms Willumeit Wowereit "zur Elbinger Höhe" }
     }
-#Schizo cultures
+	#Schizo cultures
 	frankish = {
 		color = { 51 60 69 }
 		first_names = 
@@ -2828,12 +2828,6 @@ native_north_american = {
 		first_names = { placeholder }
 		
 		last_names = { placeholder }
-	}
-	
-	west_algonquin = {
-		color = {106 183 143}
-			first_names = { Aawohkitopi Achachak Apikuni Apisi Aranck Áwákaasomaahkaa Chogan Itspinaamahka Ksiksínopa Kayiihtsipimiohkitopi Otssímmokoyistamik }
-			last_names = { Likapostsi Saommitsitapi Kiaiyo Kiaiyo'tsiinai Kaksiipssi Omahkihkiniiawa Omohkokoiyi Sikawakasi Siksski Siksapo'p Sikaohki O'tawaa Stamiksiipokai }
 	}
 	
 	shoshone =  {

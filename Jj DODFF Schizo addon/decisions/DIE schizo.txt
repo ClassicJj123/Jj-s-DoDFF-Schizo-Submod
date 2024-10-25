@@ -1,0 +1,106 @@
+political_decisions = {
+
+greater_dietsland = {
+	 potential = {
+		 tag = DIE
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 NOT = { has_country_flag = greater_dietsland }
+	 }
+	 
+	 allow = {
+	 }
+	 
+	 effect = {
+		 BRB = { all_core = { add_core = THIS } }
+		 NET = { all_core = { add_core = THIS } }
+		 set_country_flag = greater_dietsland
+	 }
+}
+
+DIE_claim_burgundy = {
+	 potential = {
+		 tag = DIE
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = greater_dietsland
+		 NOT = { has_country_flag = DIE_claim_burgundy }
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 BRG = { all_core = { add_core = THIS } }
+		 PBG = { all_core = { add_core = THIS } }
+		 badboy = 10
+		 set_country_flag = DIE_claim_burgundy
+	 }
+}
+
+DIE_form_LTA = {
+	 potential = {
+		 tag = DIE
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = DIE_claim_burgundy
+	 }
+	 
+	 allow = {
+		 has_unclaimed_cores = no
+	 }
+	 
+	 effect = {
+		 change_tag = LTA
+	 }
+}
+
+nederlands_duitsland = {
+	 potential = {
+		 OR = {
+			 tag = DIE
+			 tag = LTA
+		 }
+		 ai = no
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = greater_dietsland
+		 has_country_flag = DIE_claim_burgundy
+	 }
+	 
+	 allow = {
+		 war = no
+		 prestige = 80
+		 GER = {
+			 all_core = {
+				 OR = {
+					 owned_by = THIS
+					 owner = {
+						 in_sphere = THIS
+					 }
+				 }
+			 }
+		 }
+	 }
+	 
+	 effect = {
+		 change_tag = GER
+		 add_accepted_culture = north_german
+		 add_accepted_culture = south_german
+		 add_accepted_culture = rheinish 
+		 add_accepted_culture = swabian
+		 any_country = {
+			 limit = {
+				 is_culture_group = germanic
+				 NOT = { primary_culture = prussian }
+				 NOT = { vassal_of = BRG }
+				 NOT = { vassal_of = FRK }
+				 NOT = { vassal_of = PBG }
+				 in_sphere = THIS
+			 }
+			 country_event = 11101
+		 }
+	 }
+}
+
+}
