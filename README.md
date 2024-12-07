@@ -17,11 +17,11 @@ Current paths:
 11. Spainish Aussie (By Nej, thanks)
 12. Fiume to Roman Shogunate (Emperor Meiji is shocked) (Not done with localization)
 13. TES content
+14. DIE content
 
 Planned things:
 1. Europe wide civil war (technically done in the HLR insane Siggy path)
 2. Belgian return
-3. Batavia Germany
 4. New Kurland Germany
 5. BIGGEST UNION KNOWN TO MAN, EU WITH EVERY CULTURE AND STATE IN EUROPE CORED AND ACCEPTED
 6. HBE flavor, assimilate all of South America
