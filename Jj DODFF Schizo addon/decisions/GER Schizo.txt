@@ -170,7 +170,7 @@ The_Caribbean_Accepted = {
 		 NOT = {
 			 OR = {
 				 accepted_culture = afro_germanic
-				 add_accepted_culture = ayitian
+				 accepted_culture = ayitian
 			 }
 		 }
 	 }

@@ -39,7 +39,7 @@ NAN_further_jew_acceptence = {
 	 }
 	 
 	 allow = {
-		 citizencitizenship_policy = full_citizenship
+		 citizenship_policy = full_citizenship
 	 }
 	 
 	 effect = {

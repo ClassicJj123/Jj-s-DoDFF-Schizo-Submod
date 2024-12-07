@@ -11,7 +11,7 @@ accept_hispano_andean = {
 	}
 	 
 	allow = {
-		treasury = 50000
+		money = 50000
 		prestige = 60
 		mass_politics = 1
 		OR = {
@@ -38,7 +38,7 @@ conquer_quito_clm = {
 	}
 	 
 	allow = {
-		treasury = 50000
+		money = 50000
 		prestige = 60
 	}
 	effect = {
@@ -73,7 +73,7 @@ accept_andean_natives = {
 	}
 	 
 	allow = {
-		treasury = 100000
+		money = 100000
 		prestige = 60
 		mass_politics = 1
 		OR = {

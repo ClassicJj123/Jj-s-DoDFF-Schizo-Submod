@@ -63,7 +63,7 @@ country_event = {
 		 FRA_442 = { add_core = HLR }
 		 FRA_445 = { add_core = HLR }
 		 FRA_428 = { add_core = HLR }
-		 FRA_432 = { add_core = HLR }
+		 BUR_432 = { add_core = HLR }
 		 FRA_411 = { add_core = HLR }
 		 GNV_607 = { add_core = HLR }
 		 FRA_448 = { add_core = HLR }

@@ -97,8 +97,10 @@ political_decisions = {
 			is_core = 613
 		}
 		allow = {
-			government = fascist_monarchy
-			government = fascist_dictatorship
+			OR = {
+				government = fascist_monarchy
+				government = fascist_dictatorship
+			}
 		}
 		effect = {
 			733 = { add_core = HUA }

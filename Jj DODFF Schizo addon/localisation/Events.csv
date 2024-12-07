@@ -1,474 +1,482 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
-EVTNAME1000000000;Burgundian Question;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000000;What to do with the traitors?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000000A;§R Exile them to Heligoland;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000000B;Fine... We will accept them...;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000000C;We will decide later;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000001;THE ROMAN PROCLAMATION;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000001;(insert the Rite of Coronation here)\n\n Have fun with 60 infamy!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000001;§R ONWARDS! TO A ROMAN ERA!;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000002;The Hungarian Question;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000002;What shall we do with the people of the Pannonian Basin?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000002A;Treat them as equals;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000002B;§R Germanise them!;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000002C;We will decide later;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000003;The Romanian Question;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000003;What shall we do with the people of Romania?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000003A;Treat them as equals;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000003B;§R Germanise them!;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000003C;We will decide later;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000004;The Balkan Question;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000004;What shall we do with the people of the Balkans?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000004A;Treat them as equals;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000004B;§R Germanise them!;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000004C;We will decide later;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000005;Voices...;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000005;As Sigmund stared out from his palace's window, he marveled at his empire. Oh how far he has come. However as he stared at the bright blue sky, he heard a voice. \n§R "You need to go further..." §!\n Startled by this, he quickly got up and took a quick look at his surroundings. Nothing.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000005;"Perhaps I should see a doctor...";;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000006;They grow louder...;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000006;It was the day after Sigmund had seen the doctor, things weren't looking up for the ageing emperor. The doctors had told him that he was perfectly healthly, something that Sigmund deemed to be false as he could very much still hear the voices, they weren't the same either as they seemed to have had only grow louder. \n§R "Rome has yet to be restored... YOU MUST CORRECT IT" §!\n The voices shouted as Sigmund stared into the darkening skies, perhaps he should listen the voices to appease them. \n\n Maybe then will they die down;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000006A;"The voices are right, Rome has yet to be restored! Move the capital to Rome IMMEDIATELY!";;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000006B;"NO! The voices are mere hallucinations! I must stay strong!";;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000007;The Vocies Have Grown Even Louder;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000007;\n§R "The Anglos are a ABOMINATION! THEY MUST BE DESTROYED!" §!\n The voices Demanded. As the days go by, Sigmund has locked himeself in his room. The voices ever so persistent, have only ever grown louder drowing the Emperor in unbelievable amounts of anguish;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000007A;"The voices are right, THE ANGLOS MUST BE EXTERMINATED!";;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000007B;"The Anglos are a part of our empire, thus they MUST BE TREATED EQUALLY!";;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000008;THE VOICES;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000008;It was Dawn, an attendant under orders from the rest of Sigmund's cabinet forcefully entered his locked room. Upon entering she was mortified. Writing in red was seen from wall to wall, each repeating the same phrase of "GET OUT OF MY HEAD". In the center of it all ws Sigmund himself, sitting on a chair with eyes devoid of any life. There he heard the final demand of the voices. \n§R "The Empire isn't secure, WE MUST EXPAND TO ENSURE WE THE EMPIRE DOESN"T FALL!" §! ;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000008A;"Hehehe... HAHAHAHA! OF COURSE! YOUR WISH IS MY COMMAND!";;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000008B;"... NO MORE! OUT WITH YOU!";;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000009;The Emperor is Healthy;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000009;As the dark skies broke away completely, light entered Sigmund's room as the sun shined radiantly. Sigmund for the first time in weeks couldn't hear the demanding voices, however with his clear mind came the realization that his empire wasn't going to last, thus he opened the door of his room which he had spand so long in with a new resolve;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000009;"I see clearly now. There's much to be done.";;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000010;The Emperor is Sane;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000010;As dawn broke, the dark skies broke away leaving mere small patches of grey contrasting the bright blue skies. Sigmud for once in weeks could finally think for himself as the voices that had plagued him had finally subsided. So with a smile on his face he walk out of his room vaguely hearing a voice behind him;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000010;"There's much to be done.";;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000011;The Emperor isn't sane...;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000011;As dawn broke, small rays of light fought thier way through the dark clouds and shined on the Emperor's face. The Emperor unfazed by the light, laughed. Picking up the papers on the floor that he had left after descending into maddness, he opened his door, a grin scared from cheek to cheek;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000011;"There's much to be done, and I'm going to ensure that it is done.";;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000012;Something is wrong;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000012;As dawn broke, laughter could be heard throughout the palace. The Emperor had gone insane. \n May god save us all...;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000012;§R "HAHAHAHAHAHAHAHAHAHAHA";;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000013;We have been Defeated;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000013;Our armies have been crushed, and with them so too have our nation;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000013;Welp, time to die;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000014;Get BENT;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000014;Insert funny desc here;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000014;>:D;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000015;The Compeleted Vision;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000015;Despite the Emperor's insanity, we have somehow managed to make all the way to the Russian heartland. However, anyone with a functioning brain could tell the Empire wasn't going to be able to hold itself together for long;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000015;We've gone too far, there's no turning back now;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000016;DEATH OF OUR MONARCH;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000016;At 6:66 am, an attendant that came to clean the stairwell of the western section of the palace came acrossed a gruesome sight. On the ground lay the lifeless corpse of the late Sigmud, blood still leaking from his body. In an panic, the maid screamed. Her scream was cut short however as she felt something grip her leg. Looking down, she realised the supposedly dead emperor was staring at her, eyes red. In blind terror, she wacked the emperor's head causing the corpse to lay back down. Before the maid could do anything however, a group of guards entered the room;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000016;"What happened here?! Quick! Arrest her!";;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000017;Our Far Eastern lands are in revolt;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000017;With the death of our monarch the sole reason for the empire's continued survival is gone. Due to this partisan activity has gotten stronger resulting in the defense cabinet to recall all garrisons, this of course has allowed them to take control of these regions and declare thier intentions to leave our empire;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000017A;THEY MUSN"T BE ALLOWED TO DO SO, PURGE THEM ALL;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000017B;DOWN WITH THE IMPERIAL BANNER! (Play as the Russian Revolt);;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000018;Our Western Holdings are in Revolt!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000018;With the moderate success of the Easterns revolts, partisans from all over our western lands have consolidated their forces and begin a unifrom revolt. While we don't doubt that infighting won't happen in this chaotic civil war, for now we are in trouble;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000018;DAMN IT!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000019;Our African Holdings are in Revolt!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000019;With the moderate success of the Easterns revolts, partisans from all over our african lands have consolidated their forces and begin a unifrom revolt;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000019;KILL THEM ALL!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000020;The Danube Circle is Disturbed;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000020;Our empire lies in ruins, this however seemed to have reawaken the German Phoenix. The Danubians, convening in Vienna, have proclaimed the second Danubian Confederation;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000020;How will this affect the Trout population?!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000021;The Rhenish and Swabian Circles awaken;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000021;The Rhenish and Swabians have always been distant from Prauge, now with the empire in chaos, they have taken the chance to finally distance themselves from us for good;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000021;BRING THEM BACK TO THE IMPERIAL FOLD!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000022;Victory of the Bohemian Crown;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000022;Despite the challanges, the Imperial armies were successful in thier mission of restoring order to our lands, now we stand as Europe's uncontested power \n (HOLY SHIT);;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000022;What now?;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000023;The Question of the Baltic Natives;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000023;What shall we do with the Natives in our nation?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000023A;§R Germanise them!;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000023B;Accept them as equals;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000024;The Lithuanian Question;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000024;What shall we do with the Lithuanians in our nation?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000024A;§R Germanise them!;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000024B;Accept them as equals;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000025;Our National Identity;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000025;What shall our focus now be?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000025A;Return to our roots in the Teutonic Order;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000025B;Return to our Germanic roots;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000026;The Belarusian Question;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000026;What shall we do with the Belarusians in our nation?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000026A;§R Germanise them!;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000026B;Accept them as equals;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000027;The Pskov Genocide;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000027;Pskov, mostly inhabited by Russians, cannot be accepted into our nation due to the Russians having nationalistic ideas, thus the only option is to kill off the unwilling;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000027;I'm sorry little one...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000028;The Final Solution;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000028;Our ruthless campaign of assimilation, while successful in some areas, have been fruitless in others. Thus in order to ensure the safety of our nation, we have decided to get rid of the unwilling;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000028;No hard feelings, but in the lord's name, you MUST die;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000029;Resistance;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000029;Despite our officers being thorough, there is still resistance cells in our conquered lands. They must be purged;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000029;Here I go killing again;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000030;Cultural Extermination;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000030;After many deaths, we have finally assimilated all our conquered lands!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000030;Finally;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000031;The Bradantian Question;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000031;What shall we do with the Bradantians?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000031A;§R Germanise them!;;;;;;;;;;;x,,,,,,,,;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000031B;Accept them as equals;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000032;The Burgundian Question;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000032;What shall we do with the Burgundians?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000032A;§R Exile them to Heligoland;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000032B;Assimilate them;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000033;The Scandinavian Question;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000033;What shall we do with the Scandinavians?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000033A;§R Exile them to Heligoland;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000033B;Assimilate them;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000034;No more buff for you;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000034;War's over so get bent;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000034;Man...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000035;The Venetian Question;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000035;What shall we do with the Venetians?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000035A;Accept them;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA100000035B;§R Germanise them!;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000035C;We will decide later;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000036;Our Balkan lands are in revolt;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000036;With the moderate success of the Easterns revolts, partisans from all over our Balkan lands have consolidated their forces and begin a unifrom revolt. While we don't doubt that infighting won't happen in this chaotic civil war, for now we are in trouble;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000036;DAMN BALAKNS;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000037;Fears of the French;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000037;Despite our current suituation, many within our government have stated their fears of the French taking this opportunity to destroy us;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000037;We must strike first!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000038;Balkan infighting;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000038;No one is going to see this lol;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000038;>:D;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000039;Victory of the Danubians!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000039;Despite our armys marching into the Danube Heartlands, we have been defeated, and as per the peace treaty we are forced to cede all our Elbain lands;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000039;Looks like the German Phoenix still breathes afterall;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000804;What shall we do with China?;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000804;China has long been a target of Japanese expansion, given their size and population advantage over us, it was only through our overwhelming technological advantage that we were able to at last overwhelm and conquer the middle kingdom, permanently cementing our power over the rest East Asian. There onyl lies one question now, what should we do with China? Left-Leaning Pan-Asianists suggest we simply make a puppet of China, guiding them to modern civilization while shielding them from the imperialism of the western powers. More right-leaning Pan-Asianists suggest we take direct rulership over China, converting as many of their people as possible to the Japanese way of life, including our superior language. Finally, some have even gone so far to suggest that we abandon the title of "Japan" all together, taking the mandate of heaven and declaring our glorious Emperor as the Emperor of China.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA10000000804A;China shall be made part of Japan, permanently.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA10000000804B;§R NOT FINISHED §! We will simply act as the protectors of China.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA10000000804C;We will be the Emperor of Asia! Declare that W¨§i dynasty has seized the Mandate!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME100000081;The Status of Koreans;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC100000081;Korea has been the prime target of Japanese ambitions for hundreds of years, and  now the peninsula has finally come under our boot. Now we must decide what to do with it, we could make it into an imperial dependency, which would surely keep them docile. We could simply integrate them into our empire, or we could make efforts to teach Koreans the superiority of Japanese Culture.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000081A;Let them think they're independent.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000081B;Just give them equal rights.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000081C;We can never allow Kpop to exist!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME100000082;Our New Capital;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC100000082;Now that the Wei Dynasty has taken over China proper, it is time we choose the capital of our glorious new Empire. We have many options. Obviously we can keep our capital in Kyoto, the reigning seat of the Japanese Empire for millenia. Alternatively, we could move it to Edo/Tokyo, the largest city and long-time cultural center of our empire. We could also move it to a major Chinese city, or one of their historic capital cities.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000082A;Kyoto! The historic seat of the Chrysanthemum Emperor!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000082B;Tokyo! The long-time cultural capital of the Japan, now the seat of the Wei dynasty.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000082C;Beijing! The most recent capital of China, and its most populous city.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000082D;Nanjing! A major city with a more central location.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME100000083;The Status of the Manchus;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC100000083;The Manchus have been the vassals of the Japanese for quite some time. The remain a curious people, culturally distinct from both China and Japan, today, they constitute one of our most important colonies. The question remains as to what we should do with them. Left-leaning groups have suggested that we grant them autonomy, or at least give them the same rights that are enjoyed by the Mainland Japanese. More extremist groups, however, say that we should assimilate them into our glorious culture.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000083A;We will grant the Manchus Autonomy;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000083B;The Manchus will be made equal to the Japanese;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000083C;The Manchus will be made Japanese;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME100000084;The Palace of The Rising Sun;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000084;The life in $CAPITAL$ has been transformed since the entrance of the Royal Family. While many would still call us invaders, more welcome a break from the constant warring of over China, with the Middle Kingdom finally being brought to a place of stability. Recently, $CAPITAL$ has been beautified with Chrystanthemum iconocraphy virtually everywhere it can fit.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000084A;Splendid. Macha, anyone?;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME100000085;The Faith of the Imperial Family;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC100000085;The Wei Dynasty is divided, not just culturally, but religiously! We need a religion that our nation can unify around. We have several choices, while Shintoism is the popular religion of our home island, and the official religion of the royal family, much of China finds its rituals to be foreign to its practices, though we can rectify those differences by emphaisizng instead its Buddhist aspects, while still keeping its Japanese roots in Japan, and its Chinese roots in China. Alternatively, we could simply discount Shintoism, allowing those in Japan to practice it, while having the royal family practice a more base form of Mahayana, deemphasizing our Gods in favor of Buddhist figures. However, a third option remains. We could claim the divine right of Christ, claiming that Christ was a relative of the Japanese royal family, as well as Hong Xiuquan;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000085A;We shall continue to practice the folkish way of Shinto.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000085B;The royal family will quietly abandon Shinto.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000085C;Hong Xiuquan was right! We are the crusaders who liberated China from paganism!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME100000090;What shall we do with Korea?;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC100000090;Korea has been a holding of the chinese empire for countless, existing for virtually its entire history as our vassal. It is only natural that we have restored order to our province, the question remains now, what shall we do with them? We could try to integrate them into Han society, or return them to the status they've held for the last thousand years as our vassal.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000005000;A Solution to The Balter Issue;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000005000;The Balters have been a known pain in Scandinavian society for decades, their rigid insistance on holding onto their old privledges for dear life has dreadfully stymied the development of the Batlic countries. Recently, an unlikely solution has been put forward by the governor of Finland, suggesting that we turn over administration of the Baltic states to our Finnish allies, who are more close to them culturally than we are. Perhaps we could benefit from this, allowing them to try and strip the Balters of their precious privledges without needing to get our own hands dirty.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000005000A;Grant them the Baltics, it will be more useful to them than to us.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000005000B;Are they crazy? The Baltic states are Scandinavian! Once and always!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000401;A Night In The Library;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000401;The young king-to-be Louis has felt rather bookish lately. Though he typically occupies himself hobbies more befitting of a spoiled prince, recently he has felt a desire to prepare for his looming coronation, as if his crown were already weighing down his head. He finds himself wishing to learn more, to study the kings of old, to find out what makes a truly great ruler, so that he may bring honor back to the Plantagenet name, it having been squandared long ago by his ancestors and those fools in Paris.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000401A;Hmm, where's the history section?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000401B;I haven't the time for that! Polo, anyone?;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000402;Another night in the library;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000402;With him spending most of his time galavanting around on horseback, Louis has scarcely been able to indulge his hobby of reading. Nonetheless, he continues to explore that interest whenever he finds himself at his palace. Recently, he has found himself intrigued by a certain William The Conquerer, the Norman King who took England on practically no pretense, simply claiming the throne as his right. Fortune favored him, and he established French rule in England, sowing the seeds for the Anglois Dual Monarchy seen today. Louis finds himself taken by such a tale, and reads further...;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000402A;He's just like me...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000403;King Charles' Ghost Haunts Nouvelle Orleans;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000403;Now that the rebellion has been crushed, and the Septimens have been put in their place for the last time, King Louis has enjoys near-universal support. He has become loved by the common folk, and those of high ranking who could oppose his rule have been squarely beaten down. Recently, Louis has found himself curious of his family, specifically his late grandfather Charles II, the so-called "mad king" who crowned himself Emperor of Arcadia, and attempted to conquer Vinland. A fool's errand, of course. While Louis shares in his ambitions, he does not share in his madness, and as such knew Charles' dreams were entirely unrealistic. However, in the position Plantegenia found itself in now, it may not be as unrealistic today as it was all those decades ago. For now, he will enshrine his rights as an absolute monarch, giving himself the power to make his ambitions reality.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000403A;I love democracy.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000404;The Proclamation of $YEAR$;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000404;In the balmy plantagenian summer of $YEAR$ Emperor Louis I Plantagenet declared that all native peoples living under his rule shall be entitled to the same rights as the Cadiens themselves. Not only that, but they would enjoy special protection from forced resetlement and other methods of colonization so crassly implemented in the past. While this move has gained much applause from the Natives, some Euro-Arcadians are rather displeased with this development.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000404A;What's next? Septiman rights?;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000405;Today We Return Home;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000405;The Dual Monarchy has long been the target of Plantagenian ambitions, since the first King of Plantagenia, Charles I, the dual monarchy has been looked upon with avarice by those here. Finally, the day has come where we shall no longer be exiles, where we shall reassert our rule upon those pretenders who sit on the throne in Paris. We shall take our destiny back from then, and keep it for good. Now and forever.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000405A;We will take what is ours.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000406;Today We Return Home;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000406;While the Paris pretenders have managed to squander the throne, leading to its total anihillation by our jealous European rivals, we shall nonethelss take back our destiny. While the Dual Monarchy has collapsed, we will rebuild it, reshape it, and make it stronger than it has ever been before. We will put an end to petty nationalism in France and England, we will ensure that they will never again think of themselves as two seperate nations.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000406A;The Dual Monarchy will reclaim its hold on Europe.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000407;The Burgundian Offer;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000407;Our perfidious ex-allies in Burgundy have put forth a tempting offer. The Crown of Burgundy has long coveted the fertile and prestigious region of Champagne, but the province has always been just out of reach. Until now, that is. Now, the Burgundians wish to make a deal with us, promising Louis that they will lend their support in the war, so long as he agrees to relinquish his claim on Champagne.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000407A;Very well, we need all the help we can get.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000407B;Those pancake-eating bastards will never have an inch of our land.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000408;The Reconquiste;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000408;To Emperor Louis, it seems all too good to be true. As he marches in on Paris, taking the old crown from where it once sat, and sitting it on his head as he sits in the Paris throne, the city engulfed in the sounds of gun and cannon fire around him. For once, Louis feels completely at peace, having conquered the world as far as he was concerned. The great Dual Monarchy was now subjugated, and would now be his to control.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000408A;Here's to Louis! First Emperor of The Old World and The New!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000409;Our New Capital;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000409;Among many others, one problem that faces our empire is the fact that it is split betweent worlds, and we must choose which world to favor. We have two options, either the old capital at Nouveau Orleans, the palace which Louis has always known as home, or Paris, the true and original seat of the Plantagenet monarchy. Louis must choose carefully, as he is sure to face a rebellion on whichever continent which he does not favor.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000409A;Nouvelle Orleans - Home sweet home;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000409B;Paris - Our true home;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000410;Vinland and Belgium Revolt!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000410;Those disloyal bastards in Vinland and Belgium have declared a revolt! With our center of power so far away, we had no way of ensuring their loyalty, and now those spoiled fools wish to leave our glorious empire! What shall we do?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000410A;Take them!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000410B;Leave them be.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000411;Retake The Realm!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000411;We have decided to stand our ground and take our territory back!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000411A;The Empire Calls.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000412;England and Occitania Revolt!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000412;While Louis has enjoyed being able to stay at the Charleville Palace once again, it has come with the quite unintended side-effect of leading to even greater anger in the Occitanian and English parts of our Empire. Now the two states declare their independence. We must stop them! How can we be the dual monarchy without England?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000412A;Those perfidious english...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000413;Retake The Realm!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000413;We have decided to stand our ground and take our territory back!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000413A;The Empire Calls.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000414;Burgundy Collect Their Due;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000414;As is typical for their character, the Burundian diplomats have waisted no time at all in requesting that we transfer Champagne to them immediately as promised. We take no issue with doing this of course, as our Empire is far too unstable for us to even think about going back on our offer.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000414A;Ah, very well.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000450;Great Yuan Restored!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000450;After several centuries of exile, the last of the Genghis Khan's sons have retaken China. However, it would seem that our battle has only just begun. When our Grandfathers took this land, the Chinese were decidedly unhappy with our rule, and even now that we return with stability, their hostility to us seems to have only grown since then. Despite our best efforts to adopt Chinese Royal Regalia, and our assurances that Oirat and Mongol peoples will not be given preferential treatment, everything from peaceful protests to violent riots have plagued the capital since we have regained our lost lands. It is made abundantly clear to us by the Chinese that if we fail to win them over, the Yuan Dynasty will suffer the same fate it suffered all those centuries ago. Thusfar, only the Muslim Hui, who had been oppressed under their previous occupiers, appear to have rallied to our side. Perhaps it would be best to win over China's many minorities, who may be accepting of our more cosmopolitan style of rule, rather than obsessively attempting to appease the mainlanders.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000450A;Well. At least the Hui like us.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000451;Choosing Our Capital;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000451;For the construction of our capital we have four choices. The first is Luoyang. Luoyang is an off-color choice, having not been capital since the Han empire, and now having degenerated into a mere village. However, its historical importance could do well to serve us. The next is Nanjing, a large metropolitan city with a central location in China. The third choice is Beijing, the most recent capital of China as well as its most populous city, an obvious chioce. Finally there is Chang'an, which is the closest major city to the steppe, allowing us to live near our base of power.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000451A;Luoyang!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000451B;Nanjing!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000451C;Beijing!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000451D;Chang'an!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000452;Demonstration Against Yuan;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000452;It was a cold morning in $CAPITAL$, but a peaceful one. The cold brisk air gave just the right amount of shock in order for you to truely start your day off right. As you make your dairly trip to the marked, you suddenly feel heat. At first you could almost mistake it for a warm breeze, but it quickly becomes obvious that the warm breeze, now almost burning you, is fire blown toward your back by the gentle morning breeze. You turn around, noticing only then, the market you'd just been inside was caught on fire, and a crowd of angry protestors with pitchforks and torches stood in the street below, their voices sounding like sirens, barely comprehensible, it was only on their fifth or sixth time repeating the phrase that you could understand it; "DOWN WITH THE HUNS!".;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000452A;Ah, rabble rousers...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000453;The Tibetans Accept Our Rule!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000453;Tibetans and Mongolians are as different as two cultures can be. One has produced the most feared armies from Rome to Busan, the other hardly knows of war. One lives in the most elevated point on earth, the other lives in a seemingly infinite stretch of flat plainsland. Despite this, the mongolian and tibetan peoples have had a longstanding mutual respect for eachother, as well as a shared religion in the form of Vajrayana, an esoteric subsect of Mahayana Buddhism, particularly the Gelug school. Due to this, the Tibetans have been rather welcoming of our rule, seeing it as preferable to the Han or worse, the Christians.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000453A;May Mahakala protect us both.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000454;Hakka Accept Our Rule!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000454;The Hakka have long been one of China's most repressed groups, even their name means "Guest". But they shall be guests in this country no longer, for now it is their home! After centuries of neglect which pushed them to migrate to the far corners of the earth, they finally feel at home in China, even better, they are turning to us for protection! Like the Hui, they take comfort in our rule which treats them equally to the Han. It would seem our regime is finally starting to gain the support it deserves.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000454A;At least someone gets it.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000455;The Horse Lords Protect;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000455;Our reputation as the Protectors of the weak in China has continued to convince more hearts and minds to our rule. While propaganda plays a large part in our campaign to portray ourselves as the just warriors for good that we are, recently headlines were made when a clan of bandits deep in the jungles of Southern China were heroically fought back by a visiting gang of horseback riding Mongolian warriors. Though they did not speak any form of Chinese, and could not communicate with the people they protected, this makes it all the more virtuous that they put their lives on the line to help the weak and downtrodden. This has done wonders for our reputation among the Han, as well as several Chinese minorities!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000455A;Just one example of our protection.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000456;The Southern Chinese Accept Our Rule!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000456;While those in the north and center still reject our rule, some in southern China have begun to accept our rule earnestly. In many of China's coastal cities it has become a common sight to see our baners being hung from windows, while many in the north still rather rudely insist on our banners not being shown. The Yuan have become welcomed in the south as the peace of our empire has allowed them to trade far more efficiently than they could when the Middle Kingdom was still divided, particularly those who speak Min Chinese.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000456A;Wait a Minuite.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000457;The Han are warming up to mongol rule!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000457;The mainstream chinese population's disdain for us has begun to weaken. Perhaps they are simply demoralized after so many failed uprisings, or perhaps they have simply realized with the passage of time that we are more benevolent than they might wish to imagine us being. Make no mistake, they still would happily burn our palace to the ground given the slightest oppurtunity, but the seething hatred they have shown for us is, however gradually, declining. Hopefully soon they will accept our flawless rule for what it truly is.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000457A;Finally, they're beginning to see reason.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000459;Building our Trust With The Han;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000459;To the Khan-Turned-Emperor, it was quite a shock when he looked onto the streets of our capital and saw what looked to be the standard protests, only to then realize that it was in fact a counter protest in favor of Mongol rule! Finally! They are starting to see sense. Now we must only harness this positivity, and spread it throughout the rest of the Chinese populace. At long last, it seems our empire may finally reach a state of true stability.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000459A;No-one's immune to stockholm syndrome, it seems.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000460;At Long Last;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000460;Finally, after so many decades, the Northern Han Chinese have finally seem to have accepted our rule! Following so many attempts at appeasement, we have finally appeased them to a point where it finally seems that they are able to, even proud to accept the new emperors. Protestors are dropping their pitchforks and torches, while much of the intelligentsia speak of the benefits and unity we have brought to china. This is incredible news, now we need only wait for this enthusiasm to spread to the lower half of our Empire.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000460A;About damn time.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000461;The South Embraces Yuan Governance;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000461;Finally the Southern Chinese have learned to accept our benevolent grace. They have joined their northern chinese brethren in supporting us, and finally we have stabilized the country. Now, with its full population at our disposal, the Celestial Empire is completely unstoppable!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000461A;And China will never break again.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000462;The Three Terrible Princes;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000462;The Khan leaves three young and ambitious heries to his throne. Their unfettered access to Imperial Archives has lead to them developing strange ideologies, the revival and strengthing of old ones, and even the embracing of new ones. While our current Emperor has done so much for China since the death of the previous Khan, he too is mortal and will meet his death soon due to his old age. This leaves China under the contention of his three most influencial sons, all of which have openly expressed ambitions for the throne. The first and primary heir is Dawachi, who enjoys the greatest support among the steppe portions of our empire, but is less popular in China due to his beliefs, which are much more traditional for the khanate. The second is Ayusi. He has gained considerable support in the Chinese hinterlands due to his embracing of ancient chinese philosophies, most notably the legalist philosophies of Han Fei, and he has wished that these philosophies be applied in their strongest possible form to Chinese governance. The third and most eccentric is Khara, who has spent his life among the commoners, only taking a break to feast with European intelligentsia. There he has picked up strange ideas about the common people, and granting them support from our coffers. He has been accused by many in the Chinese press and beaurocracy alike of being a socialist!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000462A;Apres moi...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000463;Khara's Controversy;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000463;A few days ago, Khara spoke out in front of a crowd of impoverished farmers, doing an impassioned and impromptu speech about workers rights, and the equal distribution of resources. He has developed an extreme fixation on the idea of the Emperor being some kind of equalizing force, being a one-man vanguard for Communism. He has ceased his silence surrounding his socialist views, and has now officially embraced a strange form of socialism with a divine-right monarch at its head. He sees it as his own duty to ensure that resources and the means of production be distributed equally, all under the watchful eyes of the Emperor. The emperor being himself, of course. As the current Emperor sits on his deathbed, he can only watch. The people have taken to calling him "Ulaan Bataar" or "Red Hero".;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000463A;May he paint the world red.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000464;Ayusi's Usupration;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000464;Ayusi has just now published a lengthy article, featured in many journals nationwide despite the disapproval of our dying Emperor. In the article, he espouses his rather extreme views, particularly those surrounding the evil inherant in manking, and how it is necessary for an absolute monarch assisted by an armies wielding both pens and swords to keep humanity's evil in check. He will keep them in check through the liberal application of force, and the brutal punishment of any subversive activity. While this is not something the Emperor would consider bad in itself, his methods of doing so are far more extreme than anyone in the royal court could imagine.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000464A;He is the stallion that mounts the world.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000465;Demonstrations for Democracy;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000465;Just a few years after our absolute rule enjoys a state of stability, the peasants see the trouble brewing and have smelled blood in the water! Many cities, particularly trade cities along the southern coast of China have begun to institute local democracy, with many scholars and respected statesmen from around the region showing their sympathies for the sort of liberal democracy which has become increasingly commonplace in the west. We have clamped down on this activity, but it is clear that if things get too severe, they will revolt if that is what it takes to institute their ideal government.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000465A;Revolution is like the plague.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000466;The Khans declare loyalty to Dawachi!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000466;Excellent news, our primary heir has been supported by the Khans of the central asian steppe. While they have become much more settled in recent decades, the spirit of the horse lords remains strong as they show unity with our government by favoring our primary heir. They have made extreme declarations of loyalty, stating that they will not willingly obey any government which is not that of Dawachi!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000466A;May the Gods guide him...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000467;The Emperor has lost the unwinnable war...;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000467;After years battling death, the emperor who reunified China has passed peacefully to the next life in his sleep. While it was in his wishes that Dawachi takes the throne, the other two brothers have already consolidated their power in regions of China, and it would seem that a civil war is inevitable as they spread vile rumours about their brothers, each insisting that they are the legitimate ruler of the Celestial Empire. It is a shame, but it would seem bloodshed is the only way which we may become whole again.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000467A;China has broken again.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000468;Who will you side with?;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000468;The three terrible princes sit on a standoff, each taking their centers of power and carving our interim governments until they can reunify the fractured empire of their father. The people can only  watch in horror at the bloodshed yet to come.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000468A;Dawachi will win, by birthright!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000468B;Khara will win, by the people!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000468C;Ayusi will win, by natural right!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000468D;The Uprising will win, by right of peace!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000469;War between The Loyalists and The Communists!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000469;War between The Loyalists and The Communists!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000469A;War between The Loyalists and The Communists!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000470;War between The Loyalists and The Legalists!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000470;War between The Loyalists and The Legalists!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000470A;War between The Loyalists and The Legalists!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000471;War between The Loyalists and The Liberals!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000471;War between The Loyalists and The Liberals!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000471A;War between The Loyalists and The Liberals!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000472;War between The Fascists and The Liberals!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000472;War between The Fascists and The Liberals!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000472A;War between The Fascists and The Liberals!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000473;War between The Liberals and The Communists;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000473;War between The Liberals and The Communists;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000473A;War between The Liberals and The Communists;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000474;War between The Liberals and The Fascists;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000474;War between The Liberals and The Communists;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000474A;War between The Liberals and The Communists;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000476;The West Revolts!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000476;It would seem that the lesser khans have followed up on their promise to father, as they have declared themselves to no longer be a part of the Yuan Empire. Fools! All of them! While we are still recovering from the civil war, we must show our dominance, or we risk losing those territories for ever...;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000476A;The War has not ended yet...;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000476B;Leave them be, there's been fighting enough.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000477;Accepting Their Saviors;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000477;Having sucessfully pryed southeast asia from the clutches of the imperialistic west, it is small wonder that they have embraced our benevolence with open arms. While they may not be Chinese per se, those in southeast asia who we've liberated proudly call themselves members of the Chinese Federation.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000477A;Excellent.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000480;Luoyang, Our New Home;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000480;For the first time since the Han Dynasty, Luoyang has been made the capital of the Chinese Empire. Luoyang had for centuries been the capital of China in every sense of the word, but now had been reduced to just another of china's thousands of rural villages. No longer! After a brief period of rapid construction, a magnificent new Forbidden City and all of its ammenities has been constructed in the new Imperial Capital of Luoyang, which has already been getting flocked with immigrants. The ancient city has been revitalized and rebuilt to a level of glory that it has not enjoyed for two thousand years. While a fancy capital will do little now to assist our rule for now, it has sent out a powerful message that we intend to keep our rule for millenia to come, just as the great Xia did so many millenia ago.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000480A;Bathed in rays of gold...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000481;Nanjing, Our New Home;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000481;The large and centrally located city of Nanjing was a clear contender for capital, and now the renovations for it have been fully completed. The city is plastered top-to-bottom with our banners, and a colossal forbidden city has been constructed in the city center. While some of the Mongol and Oirat elite have been upset by us moving our capital so far away from the plains, cementing our power in China is paramount, even if we must do it far from our brethren. Regardless of their opinions, the royal family have greatly enjoyed their time in Nanjing, located close to many major cities, particularly along the coast, allowing for us to be in close reach of our largest, and least complacent demographic, lest they get any ideas of rebellion. Now with our ear to the ground, we can keep close watch on them.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000481A;Bathed in rays of gold...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000482;Beijing, Our New Home;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000482;Their was hardly any other option besides Beijing, both the largest city in China and the most politically important for several centuries. It is comfortably close to the Steppe, allowing us to keep close ties with new and old kin simultaneously. Moving to Beijing was a cakewalk, we hardly had to do much more than change the banners to that of our own. The people of Beijing, while not happy with our arrival, are complacent, as yet another invader taking over the city is hardly news for the people there at this point. Perhaps it will make them happy to know that our reign truly is immortal, and the city will never change hands again.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000482A;Bathed in rays of gold...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000483;Chang'an, Our New Home;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000483;Chang'an was an obvious choice, while it has never traditionally been the capital of China, just the influx of migrant workers to build our new forbidden city has dramatically boosted its economy. Here we are much safer, as we are but a brief horse ride away from our true brethren in the Steppe.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000483A;Bathed in rays of gold...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000250;Our Cores Spread!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000250;The influence of the Oustralia colony has become absolute, spreading its control accross the newest continent!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000250A;Yay.;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000073;A Sudden Interruption;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000073;It was just another day for the regent of Fiume, papers were pilling and coffee was draining. As the regent was settling down, his door suddenly brust open, reveling a man with a katana. The man wasted no time and shouted his demands. Fearing for his life, the regent quickly conceeded on all his points, not processing that he had just handed over his lands over to a mentally insane man.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000073;The Austrians aren't going to like this;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000074;Our Realm In Chaos;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000074;With the forcefull seizure of power, many groups within our nation from the Liberals to various Nationalists have taken to the streets to hopefully force their ideals. If we don't do something soon, we will be noticed by the Austrians and then it would be all over;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000074;Quick! Send in the military!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000075;The Austrians Have Noticed!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000075;We weren't fast enough and the noise has reached Vienna, the Kaizer's armies have been spotted on the outskirts. May god help us all;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000075;We're SCREWED!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000076;A Interesting Development;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000076;In a sudden turn of events, the new regent has somehow made a deal with the Kaizer! The Imperial Army seen earier weren't here to put an end to the insane man's dreams, rather assist him in putting down the riotors;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000076;Has the world gone INSANE?!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000077;The Interal Situation;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000077;With the external problem of Austria dealt with for the time being, it's time to look inwards. The Riots that erupted mere days ago show how unstable this country really is. Thus to ensure that we don't collapse, our regent has decided to focus on interial affairs for the time being;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000077;On to the first issue of the day;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000078;The Question of Languague;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000078;While we are under the overlordship of a german nation, we mainly speak the language of our Italian brothers. However due to regionalism, the Italian language has split off into multiple smaller regional dialects. Thus we must choose one of them to use as our standard;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000078A;Use Venetian;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000078B;Use North Italian;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000078C;Use Central Italian;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000079;The Matter of Industry;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000079;With the languague question sorted, we move onto the question of industry. Despite our size, our location in the Adriatic has attracted many to attempt to invest in us. However, not everyone comes with good intentions thus we must be ready to refuse suspicious actors if they attempt to breach our nation;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000079;Let the Games begin;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000086;Aragonese Interest;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000086;With our recent shift away from the Austrian Crown, the Aragonese have shown interest in attempting to improve relations with us, however, some intel from reliable sources have suggested that they may have only shown interest is to further their goals. Despite this, the money they are willing to invest isn't a small amount, thus the regent is left with a hard choice;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000086A;Give them some concessions;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000086B;Refuse them on the grounds of national security;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000087;Austrian Interest;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000087;With our recent shift away from the Austrian Crown, the Austrians have shown interest in attempting to improve relations with us in order to preventing us from drifting further from Viennia. However, it has become quite obvious that they aren't doing this with us being on equal status as them and have full intentions of bringings us into the fold. Despite this, the money they are willing to invest isn't a small amount, thus the regent is left with a hard choice;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000087A;Give them some concessions;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000087B;Refuse them on the grounds of national security;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000088;Trade War in the Adriatic;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000088;With the clash of interest from the Austrians and Aragonese, a full blown trade war has broken out between the two, both sides offering substantial incentives to attempt to sway us to their side, with offers of new factories from the Austrians and offers of reduced tariffs from the Aragonese. Despite this, we can choose to refuse any investment from the two parties on the grounds that our own domestic industries can achive the same results, thus the regent is left with a hard choice;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000088;May the best man win;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000089;An Austrian Dominated Economy;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000089;In the ashes of the trade war, the Austrians have come out on top with them funding considerable amounts of factories. This has in turn given them much influence in our lands, only time will tell if this was a bad idea;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000089;Onwards!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000124;An Aragonese Dominated Economy;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000124;In the ashes of the trade war, the Aragonese have come out on top with them lowering the cost of raw materials to the point where our industries have started becoming dependent on them. This has in turn given them much influence in our lands, only time will tell if this was a bad idea;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000124;Onwards!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000091;A Mixed Bag;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000091;In the ashes of the trade war, the cropses of monetary concessions and material benefits lay on the sandy shores of our small regency. It would seem that no nation in particular has come up onto as the dominant force in our economy, only time will tell if this was a bad idea;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000091;Onwards!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000092;An Independent Economy;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000092;In the ashes of the trade war, the cropses of monetary concessions and material benefits lay on the sandy shores of our small regency. It would seem that despite the offers from the Austrian Eagle and Aragonese Knight to get us to side with one or the other we have remained independent in terms of our economy. While this has certainly caused us to missed out on the extra economic benefits, we are not subject to the wimps of another nation due to this. Only time will tell if this was a bad idea;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000092;ONWARDS!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000093;The Question of our Military;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000093;With our domestic and economic sectors now settled, we must move on to our military policy. However, with foreign influence within our nation, determining what nation we base our arm forces will not be up to us;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000093;And so, the game moves on;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000094;An German Army;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000094;The Austrians who have come up on top in the economic war have imposed their military doctrine of valuing quality over quantity. While this will most certainly be helpful, the increasing influence the Austrians have within our nation is starting to cause concerns;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000094;Let's hope this won't be a problem;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000095;An Aragonese Army;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000095;The Aragonese who have come up on top in the economic war have imposed their military doctrine of valuing quality over quantity while combining aspects of an quantity army by letting even the weakest of us into the army. While this will most certainly be helpful, the increasing influence the Aragonese have within our nation is starting to cause concerns;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000095;Let's hope this won't be a problem;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000070;The National Question;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000070;With the conquering of all lands that we have a claim on, we must choose what our destiny will be, the Slavic people in our empire have championed the idea of a slavic union of us and the Ruthenians, However the Bohemian elites have pointed we have the right to the throne of the Holy Roman Empire by right of conquest. So what will we choose?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000070A;Go with the Bohemians;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000070B;Go with the Slavs;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000147;Victory Down In The Cone!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000147;Despite the long distance, our navy and armed forces have sucessfully beheaded the young cub of Anglia. Now all that's left is the cropse that is ripe for the taking;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000147;ONWARDS! TO AMERIGA!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000148;Monthly Effect;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000148;§R CHAOS! CHAOS! CHAOS!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000148;Roll the dice;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000149;An Oopise;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000149;One of our delegates accidentally created an international incident, lucky nothing much came out of it;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000149;Damn;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000150;An act of Kindness;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000150;One of our delegates accidentally solved an international incident;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000150;Dam- Wait what?;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000151;The Undesirables;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000151;It's time to reduce the amount of undesirables;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000151;"I'll go get the Flammenwerfer";;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000152;The Undesirables (5 months);;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000152;It's time to reduce the amount of undesirables;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000152;"I'll go get the Schießkommando";;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000153;The Lion breaks it's chains;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000153;Beornia gained a foothold in Wales;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000153;Wut;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000154;Population BOOM;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000154;A drug that was given out has caused out citizens to give birth to more babies. We have managed to stop it's spread within our nation;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000154;WOAH;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000155;An Grave Insult;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000155;$FROMCOUNTRY$ has sent us an insult that we cannot ignore. WE MUST DESTROY THEM TO RECALIM OUR HONOR!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000155;ONWARDS!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000157;Belgium Jumpscare;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000157;Belgium is now a thing;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000157;BOO!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000065;The Holy Roman Empire Has Fallen;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000065;With the creation of multiple smaller Kingdoms within the Holy Roman Empire, specifically the Danubian Confederation, the Bohemians have declared the Holy Roman Empire dissolved. While it's up to debate if they were even allowed to dissolve the Empire, its clear no nation within the former Empire has the desire to keep the construct around. However! Our monarch has taken an interest in picking up the title of Holy Roman Emperor, to do so our monarch has even decided to change our nation's name to something of Germanic origin, no doubt gaining the loyalty of the Germanic people of our country;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000065;Arise Lotharingia, it's time to take back what is yours!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000066;Revolts In Burgundy;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000066;With our sudden shift in geopolitics, our Latin based populations have risen up in protest, seizing most of the non-Germanic regions. While full blown fighting has yet to happen, it's no doubt it will happen soon;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000066;Prepare the Armies!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000067;The Lotharingian Civil War;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000067;A House Divided \n\n'A house divided against itself cannot stand. I do not believe this country can permanently endure, half Germanic and half Latin. I do not believe the house will fall - I do not believe the nation will fall apart - but I do believe that it shall cease to be divided. It must become all one thing, or all the other.' \nSome Guy \nTensions have reached a breaking point, now the battle for the future of Lotharingia and Burgundy is underway, who will win? Find out next time in-;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000067;FOR A GREATER LOTHARINGIA!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000068;Burgundian Rebels Are Victorious;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000068;Despite our best efforts, we have lost. So have our dreams of a greater Germanic Empire;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000068;Shit...;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000069;We Are Victorious!;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000069;Our armies have restored order within the Burgundian lands, however, that leaves us with a question, to go lightly on the revolters or punish them harshly?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000069A;Go lightly;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000069B;PUNISH THE TRAITORS!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000160;§RTHE DAY OF RECKONING;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000160;Tired of the constant riots from the unruly people of our Great nation, the ministry of defense has declared Martial law on whole regions in order to rid us of theses 'sub-humans'. Removal Squads have been created and will arrive in their designated outposts shortly. May their souls find solace in the afterlife;;;;;;;;;;;;;x,,,,,,,,
-EVTOPTA1000000160;§RFOR THE GOOD OF OUR GREAT NATION;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000161;Resettlement Of Empty Towns;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000161;With the removal of the undesirables, many towns have been left empty. Thus in order to fill them up, we have lower housing prices in those areas to hopefully attract our own people to migrate and live in these towns;;;;;;;;;;;;;x,,,,,,,,
-EVTOPTA1000000161;Free housing at what cost?;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000162;Repopulating The Empty Towns;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000162;With the last of the willing citizens having settled in the fromerly empty towns, we must encourage them to have childern to cement our cultural presence!;;;;;;;;;;;;;x,,,,,,,,
-EVTOPTA1000000162;Time to get... [Redacted];;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000163;Crimean Tatars Request Equal Status;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000163;With our conquering of Crimea, the Tatars living within have made thier voices heard about representation. While giving them equal footing would damage our prestige, it's nothing we cannot handle and could potentially open the door to further Eastward expansion;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000163A;They are Tatars, why should we care?;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000163B;We are the Federation of the East, we MUST accept them!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000164;Unification of FuSang;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000164;As dawn approaches, the representives of Vinland, Belgium and Plantagenia, along with several dozen tribal chiefs, met at the Qingqiuian capital city. There, after much back and forth, an agreement was reached, one that dictated that all man of the soon to be union was to be treated as equals. Not long after the agreement was set in stone through the signing of the FuSang constitution, the Vinlandic representive walked out of the capital building, it was there he was met with a crowd of not only Qingqiuians, but Belgians, Plantagenians and Vinlandic citizens who travelled to see this momentous moment. \n\n'My fellow Arcadians, today is tremendous moment in our history. In my hand currently holds a agreement, an agreement that will bind everyone within this continent, not as subjects but as brothers all of equal standing. Thus let us celebrate for Arcadia has become one!';;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000164;The crowd cheers;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000165;Protest Erupts In Our Western Holdings;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000165;As the president begins to centralize power around himself, many across our western holdings have expressed their discontent. Many fear that if the president were to gain more power, it would relegate them as second class citizens, this is not helped by the fact that the capital is located in the Qingqiuian side of the Union. Thus many have taken to the streets demanding the president either give his recently gained power to a democratically elected council or step down.;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000165;Ignore them;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000166;The Protest Becomes Violent;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000166;As the the days went by, the protestors realised that their demands fell on deaf ears. So, deciding to take things into their own hands, the mobs started setting government buildings ablaze and destroying infrastructure. This has, of course, alerted the authorities which assembled riot control squads to attempt to quel the unrest. This however has only increase public backlash in the western states, blostering the protestors numbers;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000166;Send in the army, that should take care of the problem;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000167;Formation of the Légion Belge de la Liberté;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000167;As the Confederation's armies marched into the streets of the western states, it was made clear that the government over in the East had no intention of treating the Western Arcadians with respect. Thus, the regions of the former Belgian Confederacy, the 7 sister republics, started recruiting soldiers. This has gone long enough for them to en masse a sizable force that has allowed them to form the Légion Belge de la Liberté, which has beaten back Confederation forces from the region. The region is now fully independent in all but name, but only time will tell if the Belgians will truly rise up;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000167;Those Damned TaiXi!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000168;Formation of the Vinland Forsvarsråd;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000168;As the Confederation's armies marched into the streets of the western states, it was made clear that the government over in the East had no intention of treating the Western Arcadians with respect. Thus, democratic elements of the former Vinlandic state has gathered to form the Vinland Forsvarsråd, a group that seeks to free Vinland as a democratic state. The group has gain enough of a following that informal militias have formed and kicked out the Confederation's armies from the densely forested and cold north. The region is now fully independent in all but name, but only time will tell if the Vinlandic people will truly rise up;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000168;Those Damned TaiXi!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000169;Formation of the Mouvement de Restauration Plantagenienne;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000169;As the Confederation's armies marched into the streets of the western states, it was made clear that the government over in the East had no intention of treating the Western Arcadians with respect. Thus, monarchist elements of the former Plantagenian state has gathered to form the Mouvement de Restauration Plantagenienne, a movemnet that seeks to free Plantagenia and restore the monarchy. The group has gain enough of a following that informal militias have formed and kicked out the Confederation's armies from the densely forested and cold north. The region is now fully independent in all but name, but only time will tell if the Plantagenian people will truly rise up;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000169;Those Damned TaiXi!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000170;Incident at the border of the Revolters;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000170;As the Confederation settles into an uneasy status quo, reports came in that the 4th infantry brigade, under one of the newer generals, accidentally marched into lands controlled by the Mouvement de Restauration Plantagenienne. This has of course resulted in the movement sending their own militias to deal with perceived intruders. No more reports have come in, thus the fate of this confrontation remains unkown. Only time will tell if this will light the powderkeg of civil war;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000170;Get the army on a tighter leash!;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000171;The shot that was heard by everyone;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000171;As dawn approaches, an assistant barges into the president's office, her hand holding a piece of paper, crumpled from the strength of the assistant's grip. \n"Huff... Sir! A report has came in, the 4th infantry brigade has exchanged fire with the revolters!" \nBefore the president could utter his response, another person runs into the office, his hand holding another piece of paper, this one more crumpled then the previous. The president could already guess what news the paper held and his suspicions were soon confirmed as two more people entered the room, their breathing haggard, the paper in their hands reflecting their state;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000171;Prepare the armies, the end is near;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000172;The Great Arcadian Civil War;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000172;"'A house divided against itself cannot stand.' I believe this government cannot endure, permanently half autocratic and half free. I do not expect the Confederation to be dissolved – I do not expect the house to fall – but I do expect it will cease to be divided. It will become all one thing, or all the other. Either the opponents of autocracy, will arrest the further spread of it, and place it where the public mind shall rest in the belief that it is in course of ultimate extinction or its advocates will push it forward, till it shall become alike lawful in all the states, old as well as new – West as well as East." \n-Guilford02629\n\nThe civil war has began, with the collcoalition of Western states fighting against the forces of the East. The war will undoubtly result in much death and destruction, however only one side will be victorious, will it be the East or West has yet to be seen;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000172;For the future of our great nation;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000173;Death of the FuSang Dream;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000173;'With this, Aracdia is finally free'\n-no\n\nAs the sun sets over the Aracdian continent, the soldiers of the western collcoalition throw their helmets in jubilation as they celebrate the end of the autocratic regime. This victory by the western collcoalition has shown that unity arcoss the western Aracdians can be achieved, however, with the horrors of the overthrown regime still fresh, many doubt such an undertaking will happen in this decade. With their defeat, the Qingqiuians have been reduced to their core territories, with the dream of a Qingqiuian lead Aracdia now shattered, many regard the FuSang dream as dead, despite this, the government sill clings onto hope that the confederation can be restored in the future. Aracdia's future is uncertain, but perhaps it will find peace this century;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000173;We will be back;;;;;;;;;;;;;x,,,,,,,,
-EVTNAME1000000174;Victory of the East;;;;;;;;;;;;;x,,,,,,,,
-EVTDESC1000000174;;;;;;;;;;;;;;x,,,,,,,,
-EVTOPA1000000174;;;;;;;;;;;;;;x,,,,,,,,
+EVTNAME1000000000;Burgundian Question;x;;;;;;;;;;;;
+EVTDESC1000000000;What to do with the traitors?;x;;;;;;;;;;;;
+EVTOPA1000000000A;§R Exile them to Heligoland;x;;;;;;;;;;;;
+EVTOPA1000000000B;Fine... We will accept them...;x;;;;;;;;;;;;
+EVTOPA1000000000C;We will decide later;x;;;;;;;;;;;;
+EVTNAME1000000001;THE ROMAN PROCLAMATION;x;;;;;;;;;;;;
+EVTDESC1000000001;(insert the Rite of Coronation here)\n\n Have fun with 60 infamy!;x;;;;;;;;;;;;
+EVTOPA1000000001;§R ONWARDS! TO A ROMAN ERA!;x;;;;;;;;;;;;
+EVTNAME1000000002;The Hungarian Question;x;;;;;;;;;;;;
+EVTDESC1000000002;What shall we do with the people of the Pannonian Basin?;x;;;;;;;;;;;;
+EVTOPA1000000002A;Treat them as equals;x;;;;;;;;;;;;
+EVTOPA1000000002B;§R Germanise them!;x;;;;;;;;;;;;
+EVTOPA1000000002C;We will decide later;x;;;;;;;;;;;;
+EVTNAME1000000003;The Romanian Question;x;;;;;;;;;;;;
+EVTDESC1000000003;What shall we do with the people of Romania?;x;;;;;;;;;;;;
+EVTOPA1000000003A;Treat them as equals;x;;;;;;;;;;;;
+EVTOPA1000000003B;§R Germanise them!;x;;;;;;;;;;;;
+EVTOPA1000000003C;We will decide later;x;;;;;;;;;;;;
+EVTNAME1000000004;The Balkan Question;x;;;;;;;;;;;;
+EVTDESC1000000004;What shall we do with the people of the Balkans?;x;;;;;;;;;;;;
+EVTOPA1000000004A;Treat them as equals;x;;;;;;;;;;;;
+EVTOPA1000000004B;§R Germanise them!;x;;;;;;;;;;;;
+EVTNAME1000000005;Voices...;x;;;;;;;;;;;;
+EVTOPA1000000004C;We will decide later;x;;;;;;;;;;;;
+EVTDESC1000000005;As Sigmund stared out from his palace's window, he marveled at his empire. Oh how far he has come. However as he stared at the bright blue sky, he heard a voice. \n§R "You need to go further..." §!\n Startled by this, he quickly got up and took a quick look at his surroundings. Nothing.;x;;;;;;;;;;;;
+EVTOPA1000000005;"Perhaps I should see a doctor...";x;;;;;;;;;;;;
+EVTNAME1000000006;They grow louder...;x;;;;;;;;;;;;
+EVTDESC1000000006;It was the day after Sigmund had seen the doctor, things weren't looking up for the ageing emperor. The doctors had told him that he was perfectly healthly, something that Sigmund deemed to be false as he could very much still hear the voices, they weren't the same either as they seemed to have had only grow louder. \n§R "Rome has yet to be restored... YOU MUST CORRECT IT" §!\n The voices shouted as Sigmund stared into the darkening skies, perhaps he should listen the voices to appease them. \n\n Maybe then will they die down;x;;;;;;;;;;;;
+EVTOPA1000000006A;"The voices are right, Rome has yet to be restored! Move the capital to Rome IMMEDIATELY!";x;;;;;;;;;;;;
+EVTOPA1000000006B;"NO! The voices are mere hallucinations! I must stay strong!";x;;;;;;;;;;;;
+EVTNAME1000000007;The Vocies Have Grown Even Louder;x;;;;;;;;;;;;
+EVTDESC1000000007;\n§R "The Anglos are a ABOMINATION! THEY MUST BE DESTROYED!" §!\n The voices Demanded. As the days go by, Sigmund has locked himeself in his room. The voices ever so persistent, have only ever grown louder drowing the Emperor in unbelievable amounts of anguish;x;;;;;;;;;;;;
+EVTOPA1000000007A;"The voices are right, THE ANGLOS MUST BE EXTERMINATED!";x;;;;;;;;;;;;
+EVTOPA1000000007B;"The Anglos are a part of our empire, thus they MUST BE TREATED EQUALLY!";x;;;;;;;;;;;;
+EVTNAME1000000008;THE VOICES;x;;;;;;;;;;;;
+EVTDESC1000000008;It was Dawn, an attendant under orders from the rest of Sigmund's cabinet forcefully entered his locked room. Upon entering she was mortified. Writing in red was seen from wall to wall, each repeating the same phrase of "GET OUT OF MY HEAD". In the center of it all ws Sigmund himself, sitting on a chair with eyes devoid of any life. There he heard the final demand of the voices. \n§R "The Empire isn't secure, WE MUST EXPAND TO ENSURE WE THE EMPIRE DOESN"T FALL!" §! ;;x;;;;;;;;;;;;
+EVTOPA1000000008A;"Hehehe... HAHAHAHA! OF COURSE! YOUR WISH IS MY COMMAND!";x;;;;;;;;;;;;
+EVTOPA1000000008B;"... NO MORE! OUT WITH YOU!";x;;;;;;;;;;;;
+EVTNAME1000000009;The Emperor is Healthy;x;;;;;;;;;;;;
+EVTDESC1000000009;As the dark skies broke away completely, light entered Sigmund's room as the sun shined radiantly. Sigmund for the first time in weeks couldn't hear the demanding voices, however with his clear mind came the realization that his empire wasn't going to last, thus he opened the door of his room which he had spand so long in with a new resolve;x;;;;;;;;;;;;
+EVTOPA1000000009;"I see clearly now. There's much to be done.";x;;;;;;;;;;;;
+EVTNAME1000000010;The Emperor is Sane;x;;;;;;;;;;;;
+EVTDESC1000000010;As dawn broke, the dark skies broke away leaving mere small patches of grey contrasting the bright blue skies. Sigmud for once in weeks could finally think for himself as the voices that had plagued him had finally subsided. So with a smile on his face he walk out of his room vaguely hearing a voice behind him;x;;;;;;;;;;;;
+EVTOPA1000000010;"There's much to be done.";x;;;;;;;;;;;;
+EVTNAME1000000011;The Emperor isn't sane...;x;;;;;;;;;;;;
+EVTDESC1000000011;As dawn broke, small rays of light fought thier way through the dark clouds and shined on the Emperor's face. The Emperor unfazed by the light, laughed. Picking up the papers on the floor that he had left after descending into maddness, he opened his door, a grin scared from cheek to cheek;x;;;;;;;;;;;;
+EVTOPA1000000011;"There's much to be done, and I'm going to ensure that it is done.";x;;;;;;;;;;;;
+EVTNAME1000000012;Something is wrong;x;;;;;;;;;;;;
+EVTDESC1000000012;As dawn broke, laughter could be heard throughout the palace. The Emperor had gone insane. \n May god save us all...;x;;;;;;;;;;;;
+EVTOPA1000000012;§R "HAHAHAHAHAHAHAHAHAHAHA";x;;;;;;;;;;;;
+EVTNAME1000000013;We have been Defeated;x;;;;;;;;;;;;
+EVTDESC1000000013;Our armies have been crushed, and with them so too have our nation;x;;;;;;;;;;;;
+EVTOPA1000000013;Welp, time to die;x;;;;;;;;;;;;
+EVTNAME1000000014;Get BENT;x;;;;;;;;;;;;
+EVTDESC1000000014;Insert funny desc here;x;;;;;;;;;;;;
+EVTOPA1000000014;>:D;x;;;;;;;;;;;;
+EVTNAME1000000015;The Compeleted Vision;x;;;;;;;;;;;;
+EVTDESC1000000015;Despite the Emperor's insanity, we have somehow managed to make all the way to the Russian heartland. However, anyone with a functioning brain could tell the Empire wasn't going to be able to hold itself together for long;x;;;;;;;;;;;;
+EVTOPA1000000015;We've gone too far, there's no turning back now;x;;;;;;;;;;;;
+EVTNAME1000000016;DEATH OF OUR MONARCH;x;;;;;;;;;;;;
+EVTDESC1000000016;At 6:66 am, an attendant that came to clean the stairwell of the western section of the palace came acrossed a gruesome sight. On the ground lay the lifeless corpse of the late Sigmud, blood still leaking from his body. In an panic, the maid screamed. Her scream was cut short however as she felt something grip her leg. Looking down, she realised the supposedly dead emperor was staring at her, eyes red. In blind terror, she wacked the emperor's head causing the corpse to lay back down. Before the maid could do anything however, a group of guards entered the room;x;;;;;;;;;;;;
+EVTOPA1000000016;"What happened here?! Quick! Arrest her!";x;;;;;;;;;;;;
+EVTNAME1000000017;Our Far Eastern lands are in revolt;x;;;;;;;;;;;;
+EVTDESC1000000017;With the death of our monarch the sole reason for the empire's continued survival is gone. Due to this partisan activity has gotten stronger resulting in the defense cabinet to recall all garrisons, this of course has allowed them to take control of these regions and declare thier intentions to leave our empire;x;;;;;;;;;;;;
+EVTOPA1000000017A;THEY MUSN"T BE ALLOWED TO DO SO, PURGE THEM ALL;x;;;;;;;;;;;;
+EVTOPA1000000017B;DOWN WITH THE IMPERIAL BANNER! (Play as the Russian Revolt);x;;;;;;;;;;;;
+EVTNAME1000000018;Our Western Holdings are in Revolt!;x;;;;;;;;;;;;
+EVTDESC1000000018;With the moderate success of the Easterns revolts, partisans from all over our western lands have consolidated their forces and begin a unifrom revolt. While we don't doubt that infighting won't happen in this chaotic civil war, for now we are in trouble;x;;;;;;;;;;;;
+EVTOPA1000000018;DAMN IT!;x;;;;;;;;;;;;
+EVTNAME1000000019;Our African Holdings are in Revolt!;x;;;;;;;;;;;;
+EVTDESC1000000019;With the moderate success of the Easterns revolts, partisans from all over our african lands have consolidated their forces and begin a unifrom revolt;x;;;;;;;;;;;;
+EVTOPA1000000019;KILL THEM ALL!;x;;;;;;;;;;;;
+EVTNAME1000000020;The Danube Circle is Disturbed;x;;;;;;;;;;;;
+EVTDESC1000000020;Our empire lies in ruins, this however seemed to have reawaken the German Phoenix. The Danubians, convening in Vienna, have proclaimed the second Danubian Confederation;x;;;;;;;;;;;;
+EVTOPA1000000020;How will this affect the Trout population?!;x;;;;;;;;;;;;
+EVTNAME1000000021;The Rhenish and Swabian Circles awaken;x;;;;;;;;;;;;
+EVTDESC1000000021;The Rhenish and Swabians have always been distant from Prauge, now with the empire in chaos, they have taken the chance to finally distance themselves from us for good;x;;;;;;;;;;;;
+EVTOPA1000000021;BRING THEM BACK TO THE IMPERIAL FOLD!;x;;;;;;;;;;;;
+EVTNAME1000000022;Victory of the Bohemian Crown;x;;;;;;;;;;;;
+EVTDESC1000000022;Despite the challanges, the Imperial armies were successful in thier mission of restoring order to our lands, now we stand as Europe's uncontested power \n (HOLY SHIT);x;;;;;;;;;;;;
+EVTOPA1000000022;What now?;x;;;;;;;;;;;;
+EVTNAME1000000023;The Question of the Baltic Natives;x;;;;;;;;;;;;
+EVTDESC1000000023;What shall we do with the Natives in our nation?;x;;;;;;;;;;;;
+EVTOPA1000000023A;§R Germanise them!;x;;;;;;;;;;;;
+EVTOPA1000000023B;Accept them as equals;x;;;;;;;;;;;;
+EVTNAME1000000024;The Lithuanian Question;x;;;;;;;;;;;;
+EVTDESC1000000024;What shall we do with the Lithuanians in our nation?;x;;;;;;;;;;;;
+EVTOPA1000000024A;§R Germanise them!;x;;;;;;;;;;;;
+EVTOPA1000000024B;Accept them as equals;x;;;;;;;;;;;;
+EVTNAME1000000025;Our National Identity;x;;;;;;;;;;;;
+EVTDESC1000000025;What shall our focus now be?;x;;;;;;;;;;;;
+EVTOPA1000000025A;Return to our roots in the Teutonic Order;x;;;;;;;;;;;;
+EVTOPA1000000025B;Return to our Germanic roots;x;;;;;;;;;;;;
+EVTNAME1000000026;The Belarusian Question;x;;;;;;;;;;;;
+EVTDESC1000000026;What shall we do with the Belarusians in our nation?;x;;;;;;;;;;;;
+EVTOPA1000000026A;§R Germanise them!;x;;;;;;;;;;;;
+EVTOPA1000000026B;Accept them as equals;x;;;;;;;;;;;;
+EVTNAME1000000027;The Pskov Genocide;x;;;;;;;;;;;;
+EVTDESC1000000027;Pskov, mostly inhabited by Russians, cannot be accepted into our nation due to the Russians having nationalistic ideas, thus the only option is to kill off the unwilling;x;;;;;;;;;;;;
+EVTOPA1000000027;I'm sorry little one...;x;;;;;;;;;;;;
+EVTNAME1000000028;The Final Solution;x;;;;;;;;;;;;
+EVTDESC1000000028;Our ruthless campaign of assimilation, while successful in some areas, have been fruitless in others. Thus in order to ensure the safety of our nation, we have decided to get rid of the unwilling;x;;;;;;;;;;;;
+EVTOPA1000000028;No hard feelings, but in the lord's name, you MUST die;x;;;;;;;;;;;;
+EVTNAME1000000029;Resistance;x;;;;;;;;;;;;
+EVTDESC1000000029;Despite our officers being thorough, there is still resistance cells in our conquered lands. They must be purged;x;;;;;;;;;;;;
+EVTOPA1000000029;Here I go killing again;x;;;;;;;;;;;;
+EVTNAME1000000030;Cultural Extermination;x;;;;;;;;;;;;
+EVTDESC1000000030;After many deaths, we have finally assimilated all our conquered lands!;x;;;;;;;;;;;;
+EVTOPA1000000030;Finally;x;;;;;;;;;;;;
+EVTNAME1000000031;The Bradantian Question;x;;;;;;;;;;;;
+EVTDESC1000000031;What shall we do with the Bradantians?;x;;;;;;;;;;;;
+EVTOPA1000000031A;§R Germanise them!;x;;;;;;;;;;;;;x;;;;;;;;;;;;
+EVTOPA1000000031B;Accept them as equals;x;;;;;;;;;;;;
+EVTNAME1000000032;The Burgundian Question;x;;;;;;;;;;;;
+EVTDESC1000000032;What shall we do with the Burgundians?;x;;;;;;;;;;;;
+EVTOPA1000000032A;§R Exile them to Heligoland;x;;;;;;;;;;;;
+EVTOPA1000000032B;Assimilate them;x;;;;;;;;;;;;
+EVTNAME1000000033;The Scandinavian Question;x;;;;;;;;;;;;
+EVTDESC1000000033;What shall we do with the Scandinavians?;x;;;;;;;;;;;;
+EVTOPA1000000033A;§R Exile them to Heligoland;x;;;;;;;;;;;;
+EVTOPA1000000033B;Assimilate them;x;;;;;;;;;;;;
+EVTNAME1000000034;No more buff for you;x;;;;;;;;;;;;
+EVTDESC1000000034;War's over so get bent;x;;;;;;;;;;;;
+EVTOPA1000000034;Man...;x;;;;;;;;;;;;
+EVTNAME1000000035;The Venetian Question;x;;;;;;;;;;;;
+EVTDESC1000000035;What shall we do with the Venetians?;x;;;;;;;;;;;;
+EVTOPA1000000035A;Accept them;x;;;;;;;;;;;;
+EVTOPA100000035B;§R Germanise them!;x;;;;;;;;;;;;
+EVTOPA1000000035C;We will decide later;x;;;;;;;;;;;;
+EVTNAME1000000036;Our Balkan lands are in revolt;x;;;;;;;;;;;;
+EVTDESC1000000036;With the moderate success of the Easterns revolts, partisans from all over our Balkan lands have consolidated their forces and begin a unifrom revolt. While we don't doubt that infighting won't happen in this chaotic civil war, for now we are in trouble;x;;;;;;;;;;;;
+EVTOPA1000000036;DAMN BALAKNS;x;;;;;;;;;;;;
+EVTNAME1000000037;Fears of the French;x;;;;;;;;;;;;
+EVTDESC1000000037;Despite our current suituation, many within our government have stated their fears of the French taking this opportunity to destroy us;x;;;;;;;;;;;;
+EVTOPA1000000037;We must strike first!;x;;;;;;;;;;;;
+EVTNAME1000000038;Balkan infighting;x;;;;;;;;;;;;
+EVTDESC1000000038;No one is going to see this lol;x;;;;;;;;;;;;
+EVTOPA1000000038;>:D;x;;;;;;;;;;;;
+EVTNAME1000000039;Victory of the Danubians!;x;;;;;;;;;;;;
+EVTDESC1000000039;Despite our armys marching into the Danube Heartlands, we have been defeated, and as per the peace treaty we are forced to cede all our Elbain lands;x;;;;;;;;;;;;
+EVTOPA1000000039;Looks like the German Phoenix still breathes afterall;x;;;;;;;;;;;;
+EVTNAME1000000804;What shall we do with China?;x;;;;;;;;;;;;
+EVTDESC1000000804;China has long been a target of Japanese expansion, given their size and population advantage over us, it was only through our overwhelming technological advantage that we were able to at last overwhelm and conquer the middle kingdom, permanently cementing our power over the rest East Asian. There onyl lies one question now, what should we do with China? Left-Leaning Pan-Asianists suggest we simply make a puppet of China, guiding them to modern civilization while shielding them from the imperialism of the western powers. More right-leaning Pan-Asianists suggest we take direct rulership over China, converting as many of their people as possible to the Japanese way of life, including our superior language. Finally, some have even gone so far to suggest that we abandon the title of "Japan" all together, taking the mandate of heaven and declaring our glorious Emperor as the Emperor of China.;x;;;;;;;;;;;;
+EVTOPA10000000804A;China shall be made part of Japan, permanently.;x;;;;;;;;;;;;
+EVTOPA10000000804B;§R NOT FINISHED §! We will simply act as the protectors of China.;x;;;;;;;;;;;;
+EVTOPA10000000804C;We will be the Emperor of Asia! Declare that W¨§i dynasty has seized the Mandate!;x;;;;;;;;;;;;
+EVTNAME100000081;The Status of Koreans;x;;;;;;;;;;;;
+EVTDESC100000081;Korea has been the prime target of Japanese ambitions for hundreds of years, and  now the peninsula has finally come under our boot. Now we must decide what to do with it, we could make it into an imperial dependency, which would surely keep them docile. We could simply integrate them into our empire, or we could make efforts to teach Koreans the superiority of Japanese Culture.;x;;;;;;;;;;;;
+EVTOPA1000000081A;Let them think they're independent.;x;;;;;;;;;;;;
+EVTOPA1000000081B;Just give them equal rights.;x;;;;;;;;;;;;
+EVTOPA1000000081C;We can never allow Kpop to exist!;x;;;;;;;;;;;;
+EVTNAME100000082;Our New Capital;x;;;;;;;;;;;;
+EVTDESC100000082;Now that the Wei Dynasty has taken over China proper, it is time we choose the capital of our glorious new Empire. We have many options. Obviously we can keep our capital in Kyoto, the reigning seat of the Japanese Empire for millenia. Alternatively, we could move it to Edo/Tokyo, the largest city and long-time cultural center of our empire. We could also move it to a major Chinese city, or one of their historic capital cities.;x;;;;;;;;;;;;
+EVTOPA1000000082A;Kyoto! The historic seat of the Chrysanthemum Emperor!;x;;;;;;;;;;;;
+EVTOPA1000000082B;Tokyo! The long-time cultural capital of the Japan, now the seat of the Wei dynasty.;x;;;;;;;;;;;;
+EVTOPA1000000082C;Beijing! The most recent capital of China, and its most populous city.;x;;;;;;;;;;;;
+EVTOPA1000000082D;Nanjing! A major city with a more central location.;x;;;;;;;;;;;;
+EVTNAME100000083;The Status of the Manchus;x;;;;;;;;;;;;
+EVTDESC100000083;The Manchus have been the vassals of the Japanese for quite some time. The remain a curious people, culturally distinct from both China and Japan, today, they constitute one of our most important colonies. The question remains as to what we should do with them. Left-leaning groups have suggested that we grant them autonomy, or at least give them the same rights that are enjoyed by the Mainland Japanese. More extremist groups, however, say that we should assimilate them into our glorious culture.;x;;;;;;;;;;;;
+EVTOPA1000000083A;We will grant the Manchus Autonomy;x;;;;;;;;;;;;
+EVTOPA1000000083B;The Manchus will be made equal to the Japanese;x;;;;;;;;;;;;
+EVTOPA1000000083C;The Manchus will be made Japanese;x;;;;;;;;;;;;
+EVTNAME100000084;The Palace of The Rising Sun;x;;;;;;;;;;;;
+EVTDESC1000000084;The life in $CAPITAL$ has been transformed since the entrance of the Royal Family. While many would still call us invaders, more welcome a break from the constant warring of over China, with the Middle Kingdom finally being brought to a place of stability. Recently, $CAPITAL$ has been beautified with Chrystanthemum iconocraphy virtually everywhere it can fit.;x;;;;;;;;;;;;
+EVTOPA1000000084A;Splendid. Macha, anyone?;x;;;;;;;;;;;;
+EVTNAME100000085;The Faith of the Imperial Family;x;;;;;;;;;;;;
+EVTDESC100000085;The Wei Dynasty is divided, not just culturally, but religiously! We need a religion that our nation can unify around. We have several choices, while Shintoism is the popular religion of our home island, and the official religion of the royal family, much of China finds its rituals to be foreign to its practices, though we can rectify those differences by emphaisizng instead its Buddhist aspects, while still keeping its Japanese roots in Japan, and its Chinese roots in China. Alternatively, we could simply discount Shintoism, allowing those in Japan to practice it, while having the royal family practice a more base form of Mahayana, deemphasizing our Gods in favor of Buddhist figures. However, a third option remains. We could claim the divine right of Christ, claiming that Christ was a relative of the Japanese royal family, as well as Hong Xiuquan;x;;;;;;;;;;;;
+EVTOPA1000000085A;We shall continue to practice the folkish way of Shinto.;x;;;;;;;;;;;;
+EVTOPA1000000085B;The royal family will quietly abandon Shinto.;x;;;;;;;;;;;;
+EVTOPA1000000085C;Hong Xiuquan was right! We are the crusaders who liberated China from paganism!;x;;;;;;;;;;;;
+EVTNAME100000090;What shall we do with Korea?;x;;;;;;;;;;;;
+EVTDESC100000090;Korea has been a holding of the chinese empire for countless, existing for virtually its entire history as our vassal. It is only natural that we have restored order to our province, the question remains now, what shall we do with them? We could try to integrate them into Han society, or return them to the status they've held for the last thousand years as our vassal.;x;;;;;;;;;;;;
+EVTNAME1000005000;A Solution to The Balter Issue;x;;;;;;;;;;;;
+EVTDESC1000005000;The Balters have been a known pain in Scandinavian society for decades, their rigid insistance on holding onto their old privledges for dear life has dreadfully stymied the development of the Batlic countries. Recently, an unlikely solution has been put forward by the governor of Finland, suggesting that we turn over administration of the Baltic states to our Finnish allies, who are more close to them culturally than we are. Perhaps we could benefit from this, allowing them to try and strip the Balters of their precious privledges without needing to get our own hands dirty.;x;;;;;;;;;;;;
+EVTOPA1000005000A;Grant them the Baltics, it will be more useful to them than to us.;x;;;;;;;;;;;;
+EVTOPA1000005000B;Are they crazy? The Baltic states are Scandinavian! Once and always!;x;;;;;;;;;;;;
+EVTNAME1000000401;A Night In The Library;x;;;;;;;;;;;;
+EVTDESC1000000401;The young king-to-be Louis has felt rather bookish lately. Though he typically occupies himself hobbies more befitting of a spoiled prince, recently he has felt a desire to prepare for his looming coronation, as if his crown were already weighing down his head. He finds himself wishing to learn more, to study the kings of old, to find out what makes a truly great ruler, so that he may bring honor back to the Plantagenet name, it having been squandared long ago by his ancestors and those fools in Paris.;x;;;;;;;;;;;;
+EVTOPA1000000401A;Hmm, where's the history section?;x;;;;;;;;;;;;
+EVTOPA1000000401B;I haven't the time for that! Polo, anyone?;x;;;;;;;;;;;;
+EVTNAME1000000402;Another night in the library;x;;;;;;;;;;;;
+EVTDESC1000000402;With him spending most of his time galavanting around on horseback, Louis has scarcely been able to indulge his hobby of reading. Nonetheless, he continues to explore that interest whenever he finds himself at his palace. Recently, he has found himself intrigued by a certain William The Conquerer, the Norman King who took England on practically no pretense, simply claiming the throne as his right. Fortune favored him, and he established French rule in England, sowing the seeds for the Anglois Dual Monarchy seen today. Louis finds himself taken by such a tale, and reads further...;x;;;;;;;;;;;;
+EVTOPA1000000402A;He's just like me...;x;;;;;;;;;;;;
+EVTNAME1000000403;King Charles' Ghost Haunts Nouvelle Orleans;x;;;;;;;;;;;;
+EVTDESC1000000403;Now that the rebellion has been crushed, and the Septimens have been put in their place for the last time, King Louis has enjoys near-universal support. He has become loved by the common folk, and those of high ranking who could oppose his rule have been squarely beaten down. Recently, Louis has found himself curious of his family, specifically his late grandfather Charles II, the so-called "mad king" who crowned himself Emperor of Arcadia, and attempted to conquer Vinland. A fool's errand, of course. While Louis shares in his ambitions, he does not share in his madness, and as such knew Charles' dreams were entirely unrealistic. However, in the position Plantegenia found itself in now, it may not be as unrealistic today as it was all those decades ago. For now, he will enshrine his rights as an absolute monarch, giving himself the power to make his ambitions reality.;x;;;;;;;;;;;;
+EVTOPA1000000403A;I love democracy.;x;;;;;;;;;;;;
+EVTNAME1000000404;The Proclamation of $YEAR$;x;;;;;;;;;;;;
+EVTDESC1000000404;In the balmy plantagenian summer of $YEAR$ Emperor Louis I Plantagenet declared that all native peoples living under his rule shall be entitled to the same rights as the Cadiens themselves. Not only that, but they would enjoy special protection from forced resetlement and other methods of colonization so crassly implemented in the past. While this move has gained much applause from the Natives, some Euro-Arcadians are rather displeased with this development.;x;;;;;;;;;;;;
+EVTOPA1000000404A;What's next? Septiman rights?;x;;;;;;;;;;;;
+EVTNAME1000000405;Today We Return Home;x;;;;;;;;;;;;
+EVTDESC1000000405;The Dual Monarchy has long been the target of Plantagenian ambitions, since the first King of Plantagenia, Charles I, the dual monarchy has been looked upon with avarice by those here. Finally, the day has come where we shall no longer be exiles, where we shall reassert our rule upon those pretenders who sit on the throne in Paris. We shall take our destiny back from then, and keep it for good. Now and forever.;x;;;;;;;;;;;;
+EVTOPA1000000405A;We will take what is ours.;x;;;;;;;;;;;;
+EVTNAME1000000406;Today We Return Home;x;;;;;;;;;;;;
+EVTDESC1000000406;While the Paris pretenders have managed to squander the throne, leading to its total anihillation by our jealous European rivals, we shall nonethelss take back our destiny. While the Dual Monarchy has collapsed, we will rebuild it, reshape it, and make it stronger than it has ever been before. We will put an end to petty nationalism in France and England, we will ensure that they will never again think of themselves as two seperate nations.;x;;;;;;;;;;;;
+EVTOPA1000000406A;The Dual Monarchy will reclaim its hold on Europe.;x;;;;;;;;;;;;
+EVTNAME1000000407;The Burgundian Offer;x;;;;;;;;;;;;
+EVTDESC1000000407;Our perfidious ex-allies in Burgundy have put forth a tempting offer. The Crown of Burgundy has long coveted the fertile and prestigious region of Champagne, but the province has always been just out of reach. Until now, that is. Now, the Burgundians wish to make a deal with us, promising Louis that they will lend their support in the war, so long as he agrees to relinquish his claim on Champagne.;x;;;;;;;;;;;;
+EVTOPA1000000407A;Very well, we need all the help we can get.;x;;;;;;;;;;;;
+EVTOPA1000000407B;Those pancake-eating bastards will never have an inch of our land.;x;;;;;;;;;;;;
+EVTNAME1000000408;The Reconquiste;x;;;;;;;;;;;;
+EVTDESC1000000408;To Emperor Louis, it seems all too good to be true. As he marches in on Paris, taking the old crown from where it once sat, and sitting it on his head as he sits in the Paris throne, the city engulfed in the sounds of gun and cannon fire around him. For once, Louis feels completely at peace, having conquered the world as far as he was concerned. The great Dual Monarchy was now subjugated, and would now be his to control.;x;;;;;;;;;;;;
+EVTOPA1000000408A;Here's to Louis! First Emperor of The Old World and The New!;x;;;;;;;;;;;;
+EVTNAME1000000409;Our New Capital;x;;;;;;;;;;;;
+EVTDESC1000000409;Among many others, one problem that faces our empire is the fact that it is split betweent worlds, and we must choose which world to favor. We have two options, either the old capital at Nouveau Orleans, the palace which Louis has always known as home, or Paris, the true and original seat of the Plantagenet monarchy. Louis must choose carefully, as he is sure to face a rebellion on whichever continent which he does not favor.;x;;;;;;;;;;;;
+EVTOPA1000000409A;Nouvelle Orleans - Home sweet home;x;;;;;;;;;;;;
+EVTOPA1000000409B;Paris - Our true home;x;;;;;;;;;;;;
+EVTNAME1000000410;Vinland and Belgium Revolt!;x;;;;;;;;;;;;
+EVTDESC1000000410;Those disloyal bastards in Vinland and Belgium have declared a revolt! With our center of power so far away, we had no way of ensuring their loyalty, and now those spoiled fools wish to leave our glorious empire! What shall we do?;x;;;;;;;;;;;;
+EVTOPA1000000410A;Take them!;x;;;;;;;;;;;;
+EVTOPA1000000410B;Leave them be.;x;;;;;;;;;;;;
+EVTNAME1000000411;Retake The Realm!;x;;;;;;;;;;;;
+EVTDESC1000000411;We have decided to stand our ground and take our territory back!;x;;;;;;;;;;;;
+EVTOPA1000000411A;The Empire Calls.;x;;;;;;;;;;;;
+EVTNAME1000000412;England and Occitania Revolt!;x;;;;;;;;;;;;
+EVTDESC1000000412;While Louis has enjoyed being able to stay at the Charleville Palace once again, it has come with the quite unintended side-effect of leading to even greater anger in the Occitanian and English parts of our Empire. Now the two states declare their independence. We must stop them! How can we be the dual monarchy without England?;x;;;;;;;;;;;;
+EVTOPA1000000412A;Those perfidious english...;x;;;;;;;;;;;;
+EVTNAME1000000413;Retake The Realm!;x;;;;;;;;;;;;
+EVTDESC1000000413;We have decided to stand our ground and take our territory back!;x;;;;;;;;;;;;
+EVTOPA1000000413A;The Empire Calls.;x;;;;;;;;;;;;
+EVTNAME1000000414;Burgundy Collect Their Due;x;;;;;;;;;;;;
+EVTDESC1000000414;As is typical for their character, the Burundian diplomats have waisted no time at all in requesting that we transfer Champagne to them immediately as promised. We take no issue with doing this of course, as our Empire is far too unstable for us to even think about going back on our offer.;x;;;;;;;;;;;;
+EVTOPA1000000414A;Ah, very well.;x;;;;;;;;;;;;
+EVTNAME1000000450;Great Yuan Restored!;x;;;;;;;;;;;;
+EVTDESC1000000450;After several centuries of exile, the last of the Genghis Khan's sons have retaken China. However, it would seem that our battle has only just begun. When our Grandfathers took this land, the Chinese were decidedly unhappy with our rule, and even now that we return with stability, their hostility to us seems to have only grown since then. Despite our best efforts to adopt Chinese Royal Regalia, and our assurances that Oirat and Mongol peoples will not be given preferential treatment, everything from peaceful protests to violent riots have plagued the capital since we have regained our lost lands. It is made abundantly clear to us by the Chinese that if we fail to win them over, the Yuan Dynasty will suffer the same fate it suffered all those centuries ago. Thusfar, only the Muslim Hui, who had been oppressed under their previous occupiers, appear to have rallied to our side. Perhaps it would be best to win over China's many minorities, who may be accepting of our more cosmopolitan style of rule, rather than obsessively attempting to appease the mainlanders.;x;;;;;;;;;;;;
+EVTOPA1000000450A;Well. At least the Hui like us.;x;;;;;;;;;;;;
+EVTNAME1000000451;Choosing Our Capital;x;;;;;;;;;;;;
+EVTDESC1000000451;For the construction of our capital we have four choices. The first is Luoyang. Luoyang is an off-color choice, having not been capital since the Han empire, and now having degenerated into a mere village. However, its historical importance could do well to serve us. The next is Nanjing, a large metropolitan city with a central location in China. The third choice is Beijing, the most recent capital of China as well as its most populous city, an obvious chioce. Finally there is Chang'an, which is the closest major city to the steppe, allowing us to live near our base of power.;x;;;;;;;;;;;;
+EVTOPA1000000451A;Luoyang!;x;;;;;;;;;;;;
+EVTOPA1000000451B;Nanjing!;x;;;;;;;;;;;;
+EVTOPA1000000451C;Beijing!;x;;;;;;;;;;;;
+EVTOPA1000000451D;Chang'an!;x;;;;;;;;;;;;
+EVTNAME1000000452;Demonstration Against Yuan;x;;;;;;;;;;;;
+EVTDESC1000000452;It was a cold morning in $CAPITAL$, but a peaceful one. The cold brisk air gave just the right amount of shock in order for you to truely start your day off right. As you make your dairly trip to the marked, you suddenly feel heat. At first you could almost mistake it for a warm breeze, but it quickly becomes obvious that the warm breeze, now almost burning you, is fire blown toward your back by the gentle morning breeze. You turn around, noticing only then, the market you'd just been inside was caught on fire, and a crowd of angry protestors with pitchforks and torches stood in the street below, their voices sounding like sirens, barely comprehensible, it was only on their fifth or sixth time repeating the phrase that you could understand it; "DOWN WITH THE HUNS!".;x;;;;;;;;;;;;
+EVTOPA1000000452A;Ah, rabble rousers...;x;;;;;;;;;;;;
+EVTNAME1000000453;The Tibetans Accept Our Rule!;x;;;;;;;;;;;;
+EVTDESC1000000453;Tibetans and Mongolians are as different as two cultures can be. One has produced the most feared armies from Rome to Busan, the other hardly knows of war. One lives in the most elevated point on earth, the other lives in a seemingly infinite stretch of flat plainsland. Despite this, the mongolian and tibetan peoples have had a longstanding mutual respect for eachother, as well as a shared religion in the form of Vajrayana, an esoteric subsect of Mahayana Buddhism, particularly the Gelug school. Due to this, the Tibetans have been rather welcoming of our rule, seeing it as preferable to the Han or worse, the Christians.;x;;;;;;;;;;;;
+EVTOPA1000000453A;May Mahakala protect us both.;x;;;;;;;;;;;;
+EVTNAME1000000454;Hakka Accept Our Rule!;x;;;;;;;;;;;;
+EVTDESC1000000454;The Hakka have long been one of China's most repressed groups, even their name means "Guest". But they shall be guests in this country no longer, for now it is their home! After centuries of neglect which pushed them to migrate to the far corners of the earth, they finally feel at home in China, even better, they are turning to us for protection! Like the Hui, they take comfort in our rule which treats them equally to the Han. It would seem our regime is finally starting to gain the support it deserves.;x;;;;;;;;;;;;
+EVTOPA1000000454A;At least someone gets it.;x;;;;;;;;;;;;
+EVTNAME1000000455;The Horse Lords Protect;x;;;;;;;;;;;;
+EVTDESC1000000455;Our reputation as the Protectors of the weak in China has continued to convince more hearts and minds to our rule. While propaganda plays a large part in our campaign to portray ourselves as the just warriors for good that we are, recently headlines were made when a clan of bandits deep in the jungles of Southern China were heroically fought back by a visiting gang of horseback riding Mongolian warriors. Though they did not speak any form of Chinese, and could not communicate with the people they protected, this makes it all the more virtuous that they put their lives on the line to help the weak and downtrodden. This has done wonders for our reputation among the Han, as well as several Chinese minorities!;x;;;;;;;;;;;;
+EVTOPA1000000455A;Just one example of our protection.;x;;;;;;;;;;;;
+EVTNAME1000000456;The Southern Chinese Accept Our Rule!;x;;;;;;;;;;;;
+EVTDESC1000000456;While those in the north and center still reject our rule, some in southern China have begun to accept our rule earnestly. In many of China's coastal cities it has become a common sight to see our baners being hung from windows, while many in the north still rather rudely insist on our banners not being shown. The Yuan have become welcomed in the south as the peace of our empire has allowed them to trade far more efficiently than they could when the Middle Kingdom was still divided, particularly those who speak Min Chinese.;x;;;;;;;;;;;;
+EVTOPA1000000456A;Wait a Minuite.;x;;;;;;;;;;;;
+EVTNAME1000000457;The Han are warming up to mongol rule!;x;;;;;;;;;;;;
+EVTDESC1000000457;The mainstream chinese population's disdain for us has begun to weaken. Perhaps they are simply demoralized after so many failed uprisings, or perhaps they have simply realized with the passage of time that we are more benevolent than they might wish to imagine us being. Make no mistake, they still would happily burn our palace to the ground given the slightest oppurtunity, but the seething hatred they have shown for us is, however gradually, declining. Hopefully soon they will accept our flawless rule for what it truly is.;x;;;;;;;;;;;;
+EVTOPA1000000457A;Finally, they're beginning to see reason.;x;;;;;;;;;;;;
+EVTNAME1000000459;Building our Trust With The Han;x;;;;;;;;;;;;
+EVTDESC1000000459;To the Khan-Turned-Emperor, it was quite a shock when he looked onto the streets of our capital and saw what looked to be the standard protests, only to then realize that it was in fact a counter protest in favor of Mongol rule! Finally! They are starting to see sense. Now we must only harness this positivity, and spread it throughout the rest of the Chinese populace. At long last, it seems our empire may finally reach a state of true stability.;x;;;;;;;;;;;;
+EVTOPA1000000459A;No-one's immune to stockholm syndrome, it seems.;x;;;;;;;;;;;;
+EVTNAME1000000460;At Long Last;x;;;;;;;;;;;;
+EVTDESC1000000460;Finally, after so many decades, the Northern Han Chinese have finally seem to have accepted our rule! Following so many attempts at appeasement, we have finally appeased them to a point where it finally seems that they are able to, even proud to accept the new emperors. Protestors are dropping their pitchforks and torches, while much of the intelligentsia speak of the benefits and unity we have brought to china. This is incredible news, now we need only wait for this enthusiasm to spread to the lower half of our Empire.;x;;;;;;;;;;;;
+EVTOPA1000000460A;About damn time.;x;;;;;;;;;;;;
+EVTNAME1000000461;The South Embraces Yuan Governance;x;;;;;;;;;;;;
+EVTDESC1000000461;Finally the Southern Chinese have learned to accept our benevolent grace. They have joined their northern chinese brethren in supporting us, and finally we have stabilized the country. Now, with its full population at our disposal, the Celestial Empire is completely unstoppable!;x;;;;;;;;;;;;
+EVTOPA1000000461A;And China will never break again.;x;;;;;;;;;;;;
+EVTNAME1000000462;The Three Terrible Princes;x;;;;;;;;;;;;
+EVTDESC1000000462;The Khan leaves three young and ambitious heries to his throne. Their unfettered access to Imperial Archives has lead to them developing strange ideologies, the revival and strengthing of old ones, and even the embracing of new ones. While our current Emperor has done so much for China since the death of the previous Khan, he too is mortal and will meet his death soon due to his old age. This leaves China under the contention of his three most influencial sons, all of which have openly expressed ambitions for the throne. The first and primary heir is Dawachi, who enjoys the greatest support among the steppe portions of our empire, but is less popular in China due to his beliefs, which are much more traditional for the khanate. The second is Ayusi. He has gained considerable support in the Chinese hinterlands due to his embracing of ancient chinese philosophies, most notably the legalist philosophies of Han Fei, and he has wished that these philosophies be applied in their strongest possible form to Chinese governance. The third and most eccentric is Khara, who has spent his life among the commoners, only taking a break to feast with European intelligentsia. There he has picked up strange ideas about the common people, and granting them support from our coffers. He has been accused by many in the Chinese press and beaurocracy alike of being a socialist!;x;;;;;;;;;;;;
+EVTOPA1000000462A;Apres moi...;x;;;;;;;;;;;;
+EVTNAME1000000463;Khara's Controversy;x;;;;;;;;;;;;
+EVTDESC1000000463;A few days ago, Khara spoke out in front of a crowd of impoverished farmers, doing an impassioned and impromptu speech about workers rights, and the equal distribution of resources. He has developed an extreme fixation on the idea of the Emperor being some kind of equalizing force, being a one-man vanguard for Communism. He has ceased his silence surrounding his socialist views, and has now officially embraced a strange form of socialism with a divine-right monarch at its head. He sees it as his own duty to ensure that resources and the means of production be distributed equally, all under the watchful eyes of the Emperor. The emperor being himself, of course. As the current Emperor sits on his deathbed, he can only watch. The people have taken to calling him "Ulaan Bataar" or "Red Hero".;x;;;;;;;;;;;;
+EVTOPA1000000463A;May he paint the world red.;x;;;;;;;;;;;;
+EVTNAME1000000464;Ayusi's Usupration;x;;;;;;;;;;;;
+EVTDESC1000000464;Ayusi has just now published a lengthy article, featured in many journals nationwide despite the disapproval of our dying Emperor. In the article, he espouses his rather extreme views, particularly those surrounding the evil inherant in manking, and how it is necessary for an absolute monarch assisted by an armies wielding both pens and swords to keep humanity's evil in check. He will keep them in check through the liberal application of force, and the brutal punishment of any subversive activity. While this is not something the Emperor would consider bad in itself, his methods of doing so are far more extreme than anyone in the royal court could imagine.;x;;;;;;;;;;;;
+EVTOPA1000000464A;He is the stallion that mounts the world.;x;;;;;;;;;;;;
+EVTNAME1000000465;Demonstrations for Democracy;x;;;;;;;;;;;;
+EVTDESC1000000465;Just a few years after our absolute rule enjoys a state of stability, the peasants see the trouble brewing and have smelled blood in the water! Many cities, particularly trade cities along the southern coast of China have begun to institute local democracy, with many scholars and respected statesmen from around the region showing their sympathies for the sort of liberal democracy which has become increasingly commonplace in the west. We have clamped down on this activity, but it is clear that if things get too severe, they will revolt if that is what it takes to institute their ideal government.;x;;;;;;;;;;;;
+EVTOPA1000000465A;Revolution is like the plague.;x;;;;;;;;;;;;
+EVTNAME1000000466;The Khans declare loyalty to Dawachi!;x;;;;;;;;;;;;
+EVTDESC1000000466;Excellent news, our primary heir has been supported by the Khans of the central asian steppe. While they have become much more settled in recent decades, the spirit of the horse lords remains strong as they show unity with our government by favoring our primary heir. They have made extreme declarations of loyalty, stating that they will not willingly obey any government which is not that of Dawachi!;x;;;;;;;;;;;;
+EVTOPA1000000466A;May the Gods guide him...;x;;;;;;;;;;;;
+EVTNAME1000000467;The Emperor has lost the unwinnable war...;x;;;;;;;;;;;;
+EVTDESC1000000467;After years battling death, the emperor who reunified China has passed peacefully to the next life in his sleep. While it was in his wishes that Dawachi takes the throne, the other two brothers have already consolidated their power in regions of China, and it would seem that a civil war is inevitable as they spread vile rumours about their brothers, each insisting that they are the legitimate ruler of the Celestial Empire. It is a shame, but it would seem bloodshed is the only way which we may become whole again.;x;;;;;;;;;;;;
+EVTOPA1000000467A;China has broken again.;x;;;;;;;;;;;;
+EVTNAME1000000468;Who will you side with?;x;;;;;;;;;;;;
+EVTDESC1000000468;The three terrible princes sit on a standoff, each taking their centers of power and carving our interim governments until they can reunify the fractured empire of their father. The people can only  watch in horror at the bloodshed yet to come.;x;;;;;;;;;;;;
+EVTOPA1000000468A;Dawachi will win, by birthright!;x;;;;;;;;;;;;
+EVTOPA1000000468B;Khara will win, by the people!;x;;;;;;;;;;;;
+EVTOPA1000000468C;Ayusi will win, by natural right!;x;;;;;;;;;;;;
+EVTOPA1000000468D;The Uprising will win, by right of peace!;x;;;;;;;;;;;;
+EVTNAME1000000469;War between The Loyalists and The Communists!;x;;;;;;;;;;;;
+EVTDESC1000000469;War between The Loyalists and The Communists!;x;;;;;;;;;;;;
+EVTOPA1000000469A;War between The Loyalists and The Communists!;x;;;;;;;;;;;;
+EVTNAME1000000470;War between The Loyalists and The Legalists!;x;;;;;;;;;;;;
+EVTDESC1000000470;War between The Loyalists and The Legalists!;x;;;;;;;;;;;;
+EVTOPA1000000470A;War between The Loyalists and The Legalists!;x;;;;;;;;;;;;
+EVTNAME1000000471;War between The Loyalists and The Liberals!;x;;;;;;;;;;;;
+EVTDESC1000000471;War between The Loyalists and The Liberals!;x;;;;;;;;;;;;
+EVTOPA1000000471A;War between The Loyalists and The Liberals!;x;;;;;;;;;;;;
+EVTNAME1000000472;War between The Fascists and The Liberals!;x;;;;;;;;;;;;
+EVTDESC1000000472;War between The Fascists and The Liberals!;x;;;;;;;;;;;;
+EVTOPA1000000472A;War between The Fascists and The Liberals!;x;;;;;;;;;;;;
+EVTNAME1000000473;War between The Liberals and The Communists;x;;;;;;;;;;;;
+EVTDESC1000000473;War between The Liberals and The Communists;x;;;;;;;;;;;;
+EVTOPA1000000473A;War between The Liberals and The Communists;x;;;;;;;;;;;;
+EVTNAME1000000474;War between The Liberals and The Fascists;x;;;;;;;;;;;;
+EVTDESC1000000474;War between The Liberals and The Communists;x;;;;;;;;;;;;
+EVTOPA1000000474A;War between The Liberals and The Communists;x;;;;;;;;;;;;
+EVTNAME1000000476;The West Revolts!;x;;;;;;;;;;;;
+EVTDESC1000000476;It would seem that the lesser khans have followed up on their promise to father, as they have declared themselves to no longer be a part of the Yuan Empire. Fools! All of them! While we are still recovering from the civil war, we must show our dominance, or we risk losing those territories for ever...;x;;;;;;;;;;;;
+EVTOPA1000000476A;The War has not ended yet...;x;;;;;;;;;;;;
+EVTOPA1000000476B;Leave them be, there's been fighting enough.;x;;;;;;;;;;;;
+EVTNAME1000000477;Accepting Their Saviors;x;;;;;;;;;;;;
+EVTDESC1000000477;Having sucessfully pryed southeast asia from the clutches of the imperialistic west, it is small wonder that they have embraced our benevolence with open arms. While they may not be Chinese per se, those in southeast asia who we've liberated proudly call themselves members of the Chinese Federation.;x;;;;;;;;;;;;
+EVTOPA1000000477A;Excellent.;x;;;;;;;;;;;;
+EVTNAME1000000480;Luoyang, Our New Home;x;;;;;;;;;;;;
+EVTDESC1000000480;For the first time since the Han Dynasty, Luoyang has been made the capital of the Chinese Empire. Luoyang had for centuries been the capital of China in every sense of the word, but now had been reduced to just another of china's thousands of rural villages. No longer! After a brief period of rapid construction, a magnificent new Forbidden City and all of its ammenities has been constructed in the new Imperial Capital of Luoyang, which has already been getting flocked with immigrants. The ancient city has been revitalized and rebuilt to a level of glory that it has not enjoyed for two thousand years. While a fancy capital will do little now to assist our rule for now, it has sent out a powerful message that we intend to keep our rule for millenia to come, just as the great Xia did so many millenia ago.;x;;;;;;;;;;;;
+EVTOPA1000000480A;Bathed in rays of gold...;x;;;;;;;;;;;;
+EVTNAME1000000481;Nanjing, Our New Home;x;;;;;;;;;;;;
+EVTDESC1000000481;The large and centrally located city of Nanjing was a clear contender for capital, and now the renovations for it have been fully completed. The city is plastered top-to-bottom with our banners, and a colossal forbidden city has been constructed in the city center. While some of the Mongol and Oirat elite have been upset by us moving our capital so far away from the plains, cementing our power in China is paramount, even if we must do it far from our brethren. Regardless of their opinions, the royal family have greatly enjoyed their time in Nanjing, located close to many major cities, particularly along the coast, allowing for us to be in close reach of our largest, and least complacent demographic, lest they get any ideas of rebellion. Now with our ear to the ground, we can keep close watch on them.;x;;;;;;;;;;;;
+EVTOPA1000000481A;Bathed in rays of gold...;x;;;;;;;;;;;;
+EVTNAME1000000482;Beijing, Our New Home;x;;;;;;;;;;;;
+EVTDESC1000000482;Their was hardly any other option besides Beijing, both the largest city in China and the most politically important for several centuries. It is comfortably close to the Steppe, allowing us to keep close ties with new and old kin simultaneously. Moving to Beijing was a cakewalk, we hardly had to do much more than change the banners to that of our own. The people of Beijing, while not happy with our arrival, are complacent, as yet another invader taking over the city is hardly news for the people there at this point. Perhaps it will make them happy to know that our reign truly is immortal, and the city will never change hands again.;x;;;;;;;;;;;;
+EVTOPA1000000482A;Bathed in rays of gold...;x;;;;;;;;;;;;
+EVTNAME1000000483;Chang'an, Our New Home;x;;;;;;;;;;;;
+EVTDESC1000000483;Chang'an was an obvious choice, while it has never traditionally been the capital of China, just the influx of migrant workers to build our new forbidden city has dramatically boosted its economy. Here we are much safer, as we are but a brief horse ride away from our true brethren in the Steppe.;x;;;;;;;;;;;;
+EVTOPA1000000483A;Bathed in rays of gold...;x;;;;;;;;;;;;
+EVTNAME1000000250;Our Cores Spread!;x;;;;;;;;;;;;
+EVTDESC1000000250;The influence of the Oustralia colony has become absolute, spreading its control accross the newest continent!;x;;;;;;;;;;;;
+EVTOPA1000000250A;Yay.;x;;;;;;;;;;;;
+EVTNAME1000000073;A Sudden Interruption;x;;;;;;;;;;;;
+EVTDESC1000000073;It was just another day for the regent of Fiume, papers were pilling and coffee was draining. As the regent was settling down, his door suddenly brust open, reveling a man with a katana. The man wasted no time and shouted his demands. Fearing for his life, the regent quickly conceeded on all his points, not processing that he had just handed over his lands over to a mentally insane man.;x;;;;;;;;;;;;
+EVTOPA1000000073;The Austrians aren't going to like this;x;;;;;;;;;;;;
+EVTNAME1000000074;Our Realm In Chaos;x;;;;;;;;;;;;
+EVTDESC1000000074;With the forcefull seizure of power, many groups within our nation from the Liberals to various Nationalists have taken to the streets to hopefully force their ideals. If we don't do something soon, we will be noticed by the Austrians and then it would be all over;x;;;;;;;;;;;;
+EVTOPA1000000074;Quick! Send in the military!;x;;;;;;;;;;;;
+EVTNAME1000000075;The Austrians Have Noticed!;x;;;;;;;;;;;;
+EVTDESC1000000075;We weren't fast enough and the noise has reached Vienna, the Kaizer's armies have been spotted on the outskirts. May god help us all;x;;;;;;;;;;;;
+EVTOPA1000000075;We're SCREWED!;x;;;;;;;;;;;;
+EVTNAME1000000076;A Interesting Development;x;;;;;;;;;;;;
+EVTDESC1000000076;In a sudden turn of events, the new regent has somehow made a deal with the Kaizer! The Imperial Army seen earier weren't here to put an end to the insane man's dreams, rather assist him in putting down the riotors;x;;;;;;;;;;;;
+EVTOPA1000000076;Has the world gone INSANE?!;x;;;;;;;;;;;;
+EVTNAME1000000077;The Interal Situation;x;;;;;;;;;;;;
+EVTDESC1000000077;With the external problem of Austria dealt with for the time being, it's time to look inwards. The Riots that erupted mere days ago show how unstable this country really is. Thus to ensure that we don't collapse, our regent has decided to focus on interial affairs for the time being;x;;;;;;;;;;;;
+EVTOPA1000000077;On to the first issue of the day;x;;;;;;;;;;;;
+EVTNAME1000000078;The Question of Languague;x;;;;;;;;;;;;
+EVTDESC1000000078;While we are under the overlordship of a german nation, we mainly speak the language of our Italian brothers. However due to regionalism, the Italian language has split off into multiple smaller regional dialects. Thus we must choose one of them to use as our standard;x;;;;;;;;;;;;
+EVTOPA1000000078A;Use Venetian;x;;;;;;;;;;;;
+EVTOPA1000000078B;Use North Italian;x;;;;;;;;;;;;
+EVTOPA1000000078C;Use Central Italian;x;;;;;;;;;;;;
+EVTNAME1000000079;The Matter of Industry;x;;;;;;;;;;;;
+EVTDESC1000000079;With the languague question sorted, we move onto the question of industry. Despite our size, our location in the Adriatic has attracted many to attempt to invest in us. However, not everyone comes with good intentions thus we must be ready to refuse suspicious actors if they attempt to breach our nation;x;;;;;;;;;;;;
+EVTOPA1000000079;Let the Games begin;x;;;;;;;;;;;;
+EVTNAME1000000086;Aragonese Interest;x;;;;;;;;;;;;
+EVTDESC1000000086;With our recent shift away from the Austrian Crown, the Aragonese have shown interest in attempting to improve relations with us, however, some intel from reliable sources have suggested that they may have only shown interest is to further their goals. Despite this, the money they are willing to invest isn't a small amount, thus the regent is left with a hard choice;x;;;;;;;;;;;;
+EVTOPA1000000086A;Give them some concessions;x;;;;;;;;;;;;
+EVTOPA1000000086B;Refuse them on the grounds of national security;x;;;;;;;;;;;;
+EVTNAME1000000087;Austrian Interest;x;;;;;;;;;;;;
+EVTDESC1000000087;With our recent shift away from the Austrian Crown, the Austrians have shown interest in attempting to improve relations with us in order to preventing us from drifting further from Viennia. However, it has become quite obvious that they aren't doing this with us being on equal status as them and have full intentions of bringings us into the fold. Despite this, the money they are willing to invest isn't a small amount, thus the regent is left with a hard choice;x;;;;;;;;;;;;
+EVTOPA1000000087A;Give them some concessions;x;;;;;;;;;;;;
+EVTOPA1000000087B;Refuse them on the grounds of national security;x;;;;;;;;;;;;
+EVTNAME1000000088;Trade War in the Adriatic;x;;;;;;;;;;;;
+EVTDESC1000000088;With the clash of interest from the Austrians and Aragonese, a full blown trade war has broken out between the two, both sides offering substantial incentives to attempt to sway us to their side, with offers of new factories from the Austrians and offers of reduced tariffs from the Aragonese. Despite this, we can choose to refuse any investment from the two parties on the grounds that our own domestic industries can achive the same results, thus the regent is left with a hard choice;x;;;;;;;;;;;;
+EVTOPA1000000088;May the best man win;x;;;;;;;;;;;;
+EVTNAME1000000089;An Austrian Dominated Economy;x;;;;;;;;;;;;
+EVTDESC1000000089;In the ashes of the trade war, the Austrians have come out on top with them funding considerable amounts of factories. This has in turn given them much influence in our lands, only time will tell if this was a bad idea;x;;;;;;;;;;;;
+EVTOPA1000000089;Onwards!;x;;;;;;;;;;;;
+EVTNAME1000000124;An Aragonese Dominated Economy;x;;;;;;;;;;;;
+EVTDESC1000000124;In the ashes of the trade war, the Aragonese have come out on top with them lowering the cost of raw materials to the point where our industries have started becoming dependent on them. This has in turn given them much influence in our lands, only time will tell if this was a bad idea;x;;;;;;;;;;;;
+EVTOPA1000000124;Onwards!;x;;;;;;;;;;;;
+EVTNAME1000000091;A Mixed Bag;x;;;;;;;;;;;;
+EVTDESC1000000091;In the ashes of the trade war, the cropses of monetary concessions and material benefits lay on the sandy shores of our small regency. It would seem that no nation in particular has come up onto as the dominant force in our economy, only time will tell if this was a bad idea;x;;;;;;;;;;;;
+EVTOPA1000000091;Onwards!;x;;;;;;;;;;;;
+EVTNAME1000000092;An Independent Economy;x;;;;;;;;;;;;
+EVTDESC1000000092;In the ashes of the trade war, the cropses of monetary concessions and material benefits lay on the sandy shores of our small regency. It would seem that despite the offers from the Austrian Eagle and Aragonese Knight to get us to side with one or the other we have remained independent in terms of our economy. While this has certainly caused us to missed out on the extra economic benefits, we are not subject to the wimps of another nation due to this. Only time will tell if this was a bad idea;x;;;;;;;;;;;;
+EVTOPA1000000092;ONWARDS!;x;;;;;;;;;;;;
+EVTNAME1000000093;The Question of our Military;x;;;;;;;;;;;;
+EVTDESC1000000093;With our domestic and economic sectors now settled, we must move on to our military policy. However, with foreign influence within our nation, determining what nation we base our arm forces will not be up to us;x;;;;;;;;;;;;
+EVTOPA1000000093;And so, the game moves on;x;;;;;;;;;;;;
+EVTNAME1000000094;An German Army;x;;;;;;;;;;;;
+EVTDESC1000000094;The Austrians who have come up on top in the economic war have imposed their military doctrine of valuing quality over quantity. While this will most certainly be helpful, the increasing influence the Austrians have within our nation is starting to cause concerns;x;;;;;;;;;;;;
+EVTOPA1000000094;Let's hope this won't be a problem;x;;;;;;;;;;;;
+EVTNAME1000000095;An Aragonese Army;x;;;;;;;;;;;;
+EVTDESC1000000095;The Aragonese who have come up on top in the economic war have imposed their military doctrine of valuing quality over quantity while combining aspects of an quantity army by letting even the weakest of us into the army. While this will most certainly be helpful, the increasing influence the Aragonese have within our nation is starting to cause concerns;x;;;;;;;;;;;;
+EVTOPA1000000095;Let's hope this won't be a problem;x;;;;;;;;;;;;
+EVTNAME1000000070;The National Question;x;;;;;;;;;;;;
+EVTDESC1000000070;With the conquering of all lands that we have a claim on, we must choose what our destiny will be, the Slavic people in our empire have championed the idea of a slavic union of us and the Ruthenians, However the Bohemian elites have pointed we have the right to the throne of the Holy Roman Empire by right of conquest. So what will we choose?;x;;;;;;;;;;;;
+EVTOPA1000000070A;Go with the Bohemians;x;;;;;;;;;;;;
+EVTOPA1000000070B;Go with the Slavs;x;;;;;;;;;;;;
+EVTNAME1000000147;Victory Down In The Cone!;x;;;;;;;;;;;;
+EVTDESC1000000147;Despite the long distance, our navy and armed forces have sucessfully beheaded the young cub of Anglia. Now all that's left is the cropse that is ripe for the taking;x;;;;;;;;;;;;
+EVTOPA1000000147;ONWARDS! TO AMERIGA!;x;;;;;;;;;;;;
+EVTNAME1000000148;Monthly Effect;x;;;;;;;;;;;;
+EVTDESC1000000148;§R CHAOS! CHAOS! CHAOS!;x;;;;;;;;;;;;
+EVTOPA1000000148;Roll the dice;x;;;;;;;;;;;;
+EVTNAME1000000149;An Oopise;x;;;;;;;;;;;;
+EVTDESC1000000149;One of our delegates accidentally created an international incident, lucky nothing much came out of it;x;;;;;;;;;;;;
+EVTOPA1000000149;Damn;x;;;;;;;;;;;;
+EVTNAME1000000150;An act of Kindness;x;;;;;;;;;;;;
+EVTDESC1000000150;One of our delegates accidentally solved an international incident;x;;;;;;;;;;;;
+EVTOPA1000000150;Dam- Wait what?;x;;;;;;;;;;;;
+EVTNAME1000000151;The Undesirables;x;;;;;;;;;;;;
+EVTDESC1000000151;It's time to reduce the amount of undesirables;x;;;;;;;;;;;;
+EVTOPA1000000151;"I'll go get the Flammenwerfer";x;;;;;;;;;;;;
+EVTNAME1000000152;The Undesirables (5 months);x;;;;;;;;;;;;
+EVTDESC1000000152;It's time to reduce the amount of undesirables;x;;;;;;;;;;;;
+EVTOPA1000000152;"I'll go get the Schießkommando";x;;;;;;;;;;;;
+EVTNAME1000000153;The Lion breaks it's chains;x;;;;;;;;;;;;
+EVTDESC1000000153;Beornia gained a foothold in Wales;x;;;;;;;;;;;;
+EVTOPA1000000153;Wut;x;;;;;;;;;;;;
+EVTNAME1000000154;Population BOOM;x;;;;;;;;;;;;
+EVTDESC1000000154;A drug that was given out has caused out citizens to give birth to more babies. We have managed to stop it's spread within our nation;x;;;;;;;;;;;;
+EVTOPA1000000154;WOAH;x;;;;;;;;;;;;
+EVTNAME1000000155;An Grave Insult;x;;;;;;;;;;;;
+EVTDESC1000000155;$FROMCOUNTRY$ has sent us an insult that we cannot ignore. WE MUST DESTROY THEM TO RECALIM OUR HONOR!;x;;;;;;;;;;;;
+EVTOPA1000000155;ONWARDS!;x;;;;;;;;;;;;
+EVTNAME1000000157;Belgium Jumpscare;x;;;;;;;;;;;;
+EVTDESC1000000157;Belgium is now a thing;x;;;;;;;;;;;;
+EVTOPA1000000157;BOO!;x;;;;;;;;;;;;
+EVTNAME1000000065;The Holy Roman Empire Has Fallen;x;;;;;;;;;;;;
+EVTDESC1000000065;With the creation of multiple smaller Kingdoms within the Holy Roman Empire, specifically the Danubian Confederation, the Bohemians have declared the Holy Roman Empire dissolved. While it's up to debate if they were even allowed to dissolve the Empire, its clear no nation within the former Empire has the desire to keep the construct around. However! Our monarch has taken an interest in picking up the title of Holy Roman Emperor, to do so our monarch has even decided to change our nation's name to something of Germanic origin, no doubt gaining the loyalty of the Germanic people of our country;x;;;;;;;;;;;;
+EVTOPA1000000065;Arise Lotharingia, it's time to take back what is yours!;x;;;;;;;;;;;;
+EVTNAME1000000066;Revolts In Burgundy;x;;;;;;;;;;;;
+EVTDESC1000000066;With our sudden shift in geopolitics, our Latin based populations have risen up in protest, seizing most of the non-Germanic regions. While full blown fighting has yet to happen, it's no doubt it will happen soon;x;;;;;;;;;;;;
+EVTOPA1000000066;Prepare the Armies!;x;;;;;;;;;;;;
+EVTNAME1000000067;The Lotharingian Civil War;x;;;;;;;;;;;;
+EVTDESC1000000067;A House Divided \n\n'A house divided against itself cannot stand. I do not believe this country can permanently endure, half Germanic and half Latin. I do not believe the house will fall - I do not believe the nation will fall apart - but I do believe that it shall cease to be divided. It must become all one thing, or all the other.' \nSome Guy \nTensions have reached a breaking point, now the battle for the future of Lotharingia and Burgundy is underway, who will win? Find out next time in-;x;;;;;;;;;;;;
+EVTOPA1000000067;FOR A GREATER LOTHARINGIA!;x;;;;;;;;;;;;
+EVTNAME1000000068;Burgundian Rebels Are Victorious;x;;;;;;;;;;;;
+EVTDESC1000000068;Despite our best efforts, we have lost. So have our dreams of a greater Germanic Empire;x;;;;;;;;;;;;
+EVTOPA1000000068;Shit...;x;;;;;;;;;;;;
+EVTNAME1000000069;We Are Victorious!;x;;;;;;;;;;;;
+EVTDESC1000000069;Our armies have restored order within the Burgundian lands, however, that leaves us with a question, to go lightly on the revolters or punish them harshly?;x;;;;;;;;;;;;
+EVTOPA1000000069A;Go lightly;x;;;;;;;;;;;;
+EVTOPA1000000069B;PUNISH THE TRAITORS!;x;;;;;;;;;;;;
+EVTNAME1000000160;§RTHE DAY OF RECKONING;x;;;;;;;;;;;;
+EVTDESC1000000160;Tired of the constant riots from the unruly people of our Great nation, the ministry of defense has declared Martial law on whole regions in order to rid us of theses 'sub-humans'. Removal Squads have been created and will arrive in their designated outposts shortly. May their souls find solace in the afterlife;x;;;;;;;;;;;;
+EVTOPTA1000000160;§RFOR THE GOOD OF OUR GREAT NATION;x;;;;;;;;;;;;
+EVTNAME1000000161;Resettlement Of Empty Towns;x;;;;;;;;;;;;
+EVTDESC1000000161;With the removal of the undesirables, many towns have been left empty. Thus in order to fill them up, we have lower housing prices in those areas to hopefully attract our own people to migrate and live in these towns;x;;;;;;;;;;;;
+EVTOPTA1000000161;Free housing at what cost?;x;;;;;;;;;;;;
+EVTNAME1000000162;Repopulating The Empty Towns;x;;;;;;;;;;;;
+EVTDESC1000000162;With the last of the willing citizens having settled in the fromerly empty towns, we must encourage them to have childern to cement our cultural presence!;x;;;;;;;;;;;;
+EVTOPTA1000000162;Time to get... [Redacted];x;;;;;;;;;;;;
+EVTNAME1000000163;Crimean Tatars Request Equal Status;x;;;;;;;;;;;;
+EVTDESC1000000163;With our conquering of Crimea, the Tatars living within have made thier voices heard about representation. While giving them equal footing would damage our prestige, it's nothing we cannot handle and could potentially open the door to further Eastward expansion;x;;;;;;;;;;;;
+EVTOPA1000000163A;They are Tatars, why should we care?;x;;;;;;;;;;;;
+EVTOPA1000000163B;We are the Federation of the East, we MUST accept them!;x;;;;;;;;;;;;
+EVTNAME1000000164;Unification of FuSang;x;;;;;;;;;;;;
+EVTDESC1000000164;As dawn approaches, the representives of Vinland, Belgium and Plantagenia, along with several dozen tribal chiefs, met at the Qingqiuian capital city. There, after much back and forth, an agreement was reached, one that dictated that all man of the soon to be union was to be treated as equals. Not long after the agreement was set in stone through the signing of the FuSang constitution, the Vinlandic representive walked out of the capital building, it was there he was met with a crowd of not only Qingqiuians, but Belgians, Plantagenians and Vinlandic citizens who travelled to see this momentous moment. \n\n'My fellow Arcadians, today is tremendous moment in our history. In my hand currently holds a agreement, an agreement that will bind everyone within this continent, not as subjects but as brothers all of equal standing. Thus let us celebrate for Arcadia has become one!';x;;;;;;;;;;;;
+EVTOPA1000000164;The crowd cheers;x;;;;;;;;;;;;
+EVTNAME1000000165;Protest Erupts In Our Western Holdings;x;;;;;;;;;;;;
+EVTDESC1000000165;As the president begins to centralize power around himself, many across our western holdings have expressed their discontent. Many fear that if the president were to gain more power, it would relegate them as second class citizens, this is not helped by the fact that the capital is located in the Qingqiuian side of the Union. Thus many have taken to the streets demanding the president either give his recently gained power to a democratically elected council or step down.;x;;;;;;;;;;;;
+EVTOPA1000000165;Ignore them;x;;;;;;;;;;;;
+EVTNAME1000000166;The Protest Becomes Violent;x;;;;;;;;;;;;
+EVTDESC1000000166;As the the days went by, the protestors realised that their demands fell on deaf ears. So, deciding to take things into their own hands, the mobs started setting government buildings ablaze and destroying infrastructure. This has, of course, alerted the authorities which assembled riot control squads to attempt to quel the unrest. This however has only increase public backlash in the western states, blostering the protestors numbers;x;;;;;;;;;;;;
+EVTOPA1000000166;Send in the army, that should take care of the problem;x;;;;;;;;;;;;
+EVTNAME1000000167;Formation of the Légion Belge de la Liberté;x;;;;;;;;;;;;
+EVTDESC1000000167;As the Confederation's armies marched into the streets of the western states, it was made clear that the government over in the East had no intention of treating the Western Arcadians with respect. Thus, the regions of the former Belgian Confederacy, the 7 sister republics, started recruiting soldiers. This has gone long enough for them to en masse a sizable force that has allowed them to form the Légion Belge de la Liberté, which has beaten back Confederation forces from the region. The region is now fully independent in all but name, but only time will tell if the Belgians will truly rise up;x;;;;;;;;;;;;
+EVTOPA1000000167;Those Damned TaiXi!;x;;;;;;;;;;;;
+EVTNAME1000000168;Formation of the Vinland Forsvarsråd;x;;;;;;;;;;;;
+EVTDESC1000000168;As the Confederation's armies marched into the streets of the western states, it was made clear that the government over in the East had no intention of treating the Western Arcadians with respect. Thus, democratic elements of the former Vinlandic state has gathered to form the Vinland Forsvarsråd, a group that seeks to free Vinland as a democratic state. The group has gain enough of a following that informal militias have formed and kicked out the Confederation's armies from the densely forested and cold north. The region is now fully independent in all but name, but only time will tell if the Vinlandic people will truly rise up;x;;;;;;;;;;;;
+EVTOPA1000000168;Those Damned TaiXi!;x;;;;;;;;;;;;
+EVTNAME1000000169;Formation of the Mouvement de Restauration Plantagenienne;x;;;;;;;;;;;;
+EVTDESC1000000169;As the Confederation's armies marched into the streets of the western states, it was made clear that the government over in the East had no intention of treating the Western Arcadians with respect. Thus, monarchist elements of the former Plantagenian state has gathered to form the Mouvement de Restauration Plantagenienne, a movemnet that seeks to free Plantagenia and restore the monarchy. The group has gain enough of a following that informal militias have formed and kicked out the Confederation's armies from the densely forested and cold north. The region is now fully independent in all but name, but only time will tell if the Plantagenian people will truly rise up;x;;;;;;;;;;;;
+EVTOPA1000000169;Those Damned TaiXi!;x;;;;;;;;;;;;
+EVTNAME1000000170;Incident at the border of the Revolters;x;;;;;;;;;;;;
+EVTDESC1000000170;As the Confederation settles into an uneasy status quo, reports came in that the 4th infantry brigade, under one of the newer generals, accidentally marched into lands controlled by the Mouvement de Restauration Plantagenienne. This has of course resulted in the movement sending their own militias to deal with perceived intruders. No more reports have come in, thus the fate of this confrontation remains unkown. Only time will tell if this will light the powderkeg of civil war;x;;;;;;;;;;;;
+EVTOPA1000000170;Get the army on a tighter leash!;x;;;;;;;;;;;;
+EVTNAME1000000171;The shot that was heard by everyone;x;;;;;;;;;;;;
+EVTDESC1000000171;As dawn approaches, an assistant barges into the president's office, her hand holding a piece of paper, crumpled from the strength of the assistant's grip. \n"Huff... Sir! A report has came in, the 4th infantry brigade has exchanged fire with the revolters!" \nBefore the president could utter his response, another person runs into the office, his hand holding another piece of paper, this one more crumpled then the previous. The president could already guess what news the paper held and his suspicions were soon confirmed as two more people entered the room, their breathing haggard, the paper in their hands reflecting their state;x;;;;;;;;;;;;
+EVTOPA1000000171;Prepare the armies, the end is near;x;;;;;;;;;;;;
+EVTNAME1000000172;The Great Arcadian Civil War;x;;;;;;;;;;;;
+EVTDESC1000000172;"'A house divided against itself cannot stand.' I believe this government cannot endure, permanently half autocratic and half free. I do not expect the Confederation to be dissolved – I do not expect the house to fall – but I do expect it will cease to be divided. It will become all one thing, or all the other. Either the opponents of autocracy, will arrest the further spread of it, and place it where the public mind shall rest in the belief that it is in course of ultimate extinction or its advocates will push it forward, till it shall become alike lawful in all the states, old as well as new – West as well as East." \n-Guilford02629\n\nThe civil war has began, with the collcoalition of Western states fighting against the forces of the East. The war will undoubtly result in much death and destruction, however only one side will be victorious, will it be the East or West has yet to be seen;x;;;;;;;;;;;;
+EVTOPA1000000172;For the future of our great nation;x;;;;;;;;;;;;
+EVTNAME1000000173;Death of the FuSang Dream;x;;;;;;;;;;;;
+EVTDESC1000000173;'With this, Aracdia is finally free'\n-no\n\nAs the sun sets over the Aracdian continent, the soldiers of the western collcoalition throw their helmets in jubilation as they celebrate the end of the autocratic regime. This victory by the western collcoalition has shown that unity arcoss the western Aracdians can be achieved, however, with the horrors of the overthrown regime still fresh, many doubt such an undertaking will happen in this decade. With their defeat, the Qingqiuians have been reduced to their core territories, with the dream of a Qingqiuian lead Aracdia now shattered, many regard the FuSang dream as dead, despite this, the government sill clings onto hope that the confederation can be restored in the future. Aracdia's future is uncertain, but perhaps it will find peace this century;x;;;;;;;;;;;;
+EVTOPA1000000173;We will be back;x;;;;;;;;;;;;
+EVTNAME1000000174;Victory of the East;x;;;;;;;;;;;;
+EVTDESC1000000174;With the armies of the FuSang Government marching into the capitals of the respective rebel state, the collcoalition that fought for the freedom of the western Aracdian people have failed. While this undoubtly pacified the western Aracdians for now, the anger and bitterness that the western Aracdians feel still remain, a future revolt may be expected due to this, however, for now the Arcadian continent falls silent once again;x;;;;;;;;;;;;
+EVTOPA1000000174;Increase the military presence;x;;;;;;;;;;;;
+EVTNAME1000000175;The Fate of Japan;x;;;;;;;;;;;;
+EVTDESC1000000175;With the entire of the Japanese mainland under Fu Sang occupation, the question of what to do with the thorn that has plagued the Qingqiuian people since its early days has arised. Should Japan be broken up like how the Japanese envision doing to Qingqiu years pior? Should Japan instead intergated into the Greater Fu Sang union? Or should Japan just be stripped of its pride and left as a friendly state across the pond?;x;;;;;;;;;;;;
+EVTOPA1000000175A;Establish a friendly government;x;;;;;;;;;;;;
+EVTOPA1000000175B;Intergate them as a state;x;;;;;;;;;;;;
+EVTOPA1000000175C;Break Japan;x;;;;;;;;;;;;
+EVTNAME1000000176;The Question of Independence;x;;;;;;;;;;;;
+EVTDESC1000000176;With the days of active Fu Sang troops being on our soil being behind us, it's time to consider our independence;x;;;;;;;;;;;;
+EVTOPA1000000176;It's time we request our indepentence;x;;;;;;;;;;;;

@@ -77,9 +77,9 @@ SCA_from_FSE = {
 		 change_tag = FSE
 		 SCA_307 = { add_core = FSE }
 		 SCA_345 = { add_core = FSE }
-		 SCA_340 = { add_core = FSE }
+		 RUS_340 = { add_core = FSE }
 		 SCA_337 = { add_core = FSE }
-		 SCA_995 = { add_core = FSE }
+		 RUS_995 = { add_core = FSE }
 		 RUS_349 = { add_core = FSE }
 		 RUS_354 = { add_core = FSE }
 		 LIT_698 = { add_core = FSE }

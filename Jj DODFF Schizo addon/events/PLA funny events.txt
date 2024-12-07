@@ -175,6 +175,7 @@ country_event = {
 		}
 		exists = BRG
 	NOT = { BRG = { owns = 408 } }
+	has_country_flag = DUA_retaken
 	}
 	mean_time_to_happen = {
 		months = 4

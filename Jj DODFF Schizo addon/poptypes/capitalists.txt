@@ -98,6 +98,14 @@ country_migration_target =
 		}
 	}
 
+	modifier = {
+		factor = 2
+		AND = {
+			has_country_flag = UBD_connect_with_germanic_roots
+			THIS = { is_culture_group = germanic }
+		}
+	}
+
 
 	modifier = {
 		factor = 1.1
@@ -414,6 +422,30 @@ migration_target =
 		is_overseas = yes
 		country = { border_policy = closed_borders }
 	}
+
+	#Schzio migration
+	#Singapore migration
+	modifier = {
+		factor = 2
+		country = { has_country_flag = SIG_migration }
+	}
+
+	modifier = {
+		factor = 3
+		AND = {
+			has_country_flag = schizo_jewish_country
+			THIS = { is_culture_group = jewish_cultures }
+		}
+	}
+	
+	modifier = {
+		factor = 9
+		AND = {
+			has_country_flag = schizo_JAP_AST
+			THIS = { has_pop_culture = japanese }
+		}
+	}
+
 
 	modifier = {
 		factor = 1.2

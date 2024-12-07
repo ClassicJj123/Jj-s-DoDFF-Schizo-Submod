@@ -10,7 +10,7 @@ political_decisions = {
 			prestige = 20
 		}
 		effect = {
-			inheret = AUS
+			inherit = AUS
 			add_accepted_culture = south_german
 			AUS = { all_core = { add_core = HUN } }
 			change_tag = HUA

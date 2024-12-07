@@ -89,7 +89,7 @@ country_migration_target =
 	#Schzio migration
 	#Singapore migration
 	modifier = {
-		factor = 1.6
+		factor = 2
 		country = { has_country_flag = SIG_migration }
 	}
 
@@ -98,6 +98,22 @@ country_migration_target =
 		AND = {
 			has_country_flag = schizo_jewish_country
 			THIS = { is_culture_group = jewish_cultures }
+		}
+	}
+
+	modifier = {
+		factor = 9
+		AND = {
+			has_country_flag = schizo_JAP_AST
+			THIS = { has_pop_culture = japanese }
+		}
+	}
+
+	modifier = {
+		factor = 2
+		AND = {
+			has_country_flag = UBD_connect_with_germanic_roots
+			THIS = { is_culture_group = germanic }
 		}
 	}
 

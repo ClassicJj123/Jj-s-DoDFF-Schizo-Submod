@@ -444,6 +444,15 @@ migration_chance =
 {
     factor = 1 #base migration factor 1%
 
+    #Schizo internal migration
+    modifier = {
+        factor = 1
+        has_country_flag = schizo_move_arkadisch
+        location = {
+            culture = arkadisch
+        }
+    }
+
     group = { #lower migration if con < num, max -0.3
         modifier = {
             factor = -0.1
@@ -471,12 +480,6 @@ migration_chance =
 	#	location = { total_pops = 10000 }
 	#	country = { border_policy = closed_borders }
 	#}
-	
-	#Schizo migration
-	modifier = {
-        factor = 9
-		country = { has_country_flag = SIG_migration }
-    }
 
     modifier = { #-2.2 if pop is in colony
         factor = -2.2
@@ -1046,6 +1049,7 @@ assimilation_chance =
 {
     factor = 1
 	
+    #Schizo assimilation
 	#TGC code
 	modifier = {
 		factor = 2
@@ -1106,8 +1110,9 @@ assimilation_chance =
         factor = -20
         has_culture_core = yes
 		NOT = { country = { has_country_flag = DUA_schooling } }
-		#TGC code
 		NOT = {
+        #Schizo assimilation
+		#TGC code
 		location = {
 			has_building = assimilator
 			}
@@ -1268,6 +1273,8 @@ assimilation_chance =
             NOT = { has_country_flag = native_assimilation }
             NOT = { has_country_flag = native_integration }
         }
+        #Schizo assimilation
+        country = { has_country_flag = schizo_allow_native_assimilation }
 		#TGC code
 		NOT = {
 			location = {
@@ -1291,6 +1298,8 @@ assimilation_chance =
         factor = -80
         country = { NOT = { has_country_flag = african_integration_policy } }
         is_culture_group = african_diaspora_cultures
+        #Schizo assimilation
+        country = { has_country_flag = schizo_allow_native_assimilation }
 		#TGC code
 		NOT = {
 			location = {
@@ -1306,6 +1315,8 @@ assimilation_chance =
     modifier = {
         factor = -80
         country = { NOT = { has_country_flag = african_integration_policy } }
+        #Schizo assimilation
+        country = { has_country_flag = schizo_allow_native_assimilation }
 		#TGC code
 		NOT = {
 			location = {

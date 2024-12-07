@@ -24,7 +24,7 @@ country_event = {
 	 }
 }
 
-#Japan request Indepentence
+#Japan request independence
 country_event = {
 	 id = 1000000177
 	 title = "EVTNAME1000000177"
@@ -233,4 +233,516 @@ country_event = {
 		 clr_global_flag = JAP_indepentence_war
 		 prestige = 100
 	 }
+}
+
+###################
+###Flavor Events###
+###################
+
+#Generic Aussie Event question
+#Should we hand over our Aussie holdings? Japan warns that war between us will happen if we refuse
+country_event = {
+	id = 1000000184
+	title = "EVTNAME1000000184"
+	desc = "EVTDESC1000000184"
+	picture = "placeholder"
+	
+	is_triggered_only = yes
+	
+	#Yes
+	option = {
+		name = "EVTOPTA1000000184A"
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = AST
+					is_core = ASG
+					is_core = ASS
+					is_core = GAN
+					is_core = ZSA
+					is_core = MJN
+					is_core = YLO
+				}
+			}
+			secede_province = JAP
+		}
+		release = ASS
+		release = AST
+		release = ASG
+		ai_chance = {
+			factor = 30
+		}
+	}
+	
+	#Refuse them
+	option = {
+		name = "EVTOPTA1000000184B"
+		set_country_flag = refuse_JAP_aussie_ambitions
+		war = {
+			target = JAP
+			attacker_goal = {
+				casus_belli = status_quo
+			}
+			defender_goal = {
+				casus_belli = minor_custom_treaty_cb
+			}
+			call_ally = no
+		}
+		FROM = { country_event = 1000000185 }
+		ai_chance = {
+			factor = 70
+		}
+	}
+	
+}
+
+#Japan informed of refusal
+country_event = {
+	id = 1000000185
+	title = "EVTNAME1000000185"
+	desc = "EVTDESC1000000185"
+	picture = "placeholder"
+	
+	is_triggered_only = yes
+	
+	#The Rising Sun shall blind them!
+	option = {
+		name = "EVTOPTA1000000185"
+		prestige = 5
+	}
+	
+}
+
+#Aussie takeover event for freed colonies
+country_event = {
+	id = 1000000186
+	title = "EVTNAME1000000186"
+	desc = "EVTDESC1000000186"
+	picture = "placeholder"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA1000000186A"
+		THIS = { annex_to = FROM }
+		ai_chance = {
+			factor = 40
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1000000186B"
+		set_country_flag = refuse_JAP_aussie_ambitions
+		war = {
+			target = JAP
+			attacker_goal = {
+				casus_belli = status_quo
+			}
+			defender_goal = {
+				casus_belli = conquest_any
+			}
+			call_ally = no
+		}
+		FROM = { country_event = 1000000185 }
+		ai_chance = {
+			factor = 60
+		}
+	}
+	
+}
+
+#Treaty war victory for JAP
+#SCA ver
+country_event = {
+	id = 1000000187
+	title = "EVTNAME1000000187"
+	desc = "EVTDESC1000000187"
+	picture = "placeholder"
+	
+	trigger = {
+		tag = SCA
+		has_country_flag = refuse_JAP_aussie_ambitions
+		has_country_flag = custom_treaty_loser
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option = {
+		name = "EVTOPTA1000000187"
+		release = ASS
+		ASS = { annex_to = JAP }
+		GAN_3337 = { secede_province = JAP }
+		GAN_3332 = { secede_province = JAP }
+		GAN_3326 = { secede_province = JAP }
+		GAN_3329 = { secede_province = JAP }
+		GAN_10 = { secede_province = JAP }
+		GAN_2500 = { secede_province = JAP }
+		GAN_3324 = { secede_province = JAP }
+		ENG_2509 = { secede_province = JAP }
+		ENG_2513 = { secede_province = JAP }
+		GAN_3303 = { secede_province = JAP }
+		GAN_2474 = { secede_province = JAP }
+		GAN_2493 = { secede_province = JAP }
+		GAN_3320 = { secede_province = JAP }
+		GAN_2491 = { secede_province = JAP }
+		GAN_2476 = { secede_province = JAP }
+		GAN_2472 = { secede_province = JAP }
+		GAN_2470 = { secede_province = JAP }
+		GAN_2 = { secede_province = JAP }
+		GAN_2483 = { secede_province = JAP }
+		GAN_2484 = { secede_province = JAP }
+		GAN_3291 = { secede_province = JAP }
+		GAN_3289 = { secede_province = JAP }
+		GAN_3290 = { secede_province = JAP }
+		clr_country_flag = refuse_JAP_aussie_ambitions
+		clr_country_flag = custom_treaty_loser
+	}
+	
+}
+
+#BRG ver
+country_event = {
+	id = 1000000188
+	title = "EVTNAME1000000188"
+	desc = "EVTDESC1000000188"
+	picture = "placeholder"
+	
+	trigger = {
+		tag = BRG
+		has_country_flag = refuse_JAP_aussie_ambitions
+		has_country_flag = custom_treaty_loser
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option = {
+		name = "EVTOPTA1000000188"
+		release = AST
+		AST = { annex_to = JAP }
+		GAN_3337 = { secede_province = JAP }
+		GAN_3332 = { secede_province = JAP }
+		GAN_3326 = { secede_province = JAP }
+		GAN_3329 = { secede_province = JAP }
+		GAN_10 = { secede_province = JAP }
+		GAN_2500 = { secede_province = JAP }
+		GAN_3324 = { secede_province = JAP }
+		ENG_2509 = { secede_province = JAP }
+		ENG_2513 = { secede_province = JAP }
+		GAN_3303 = { secede_province = JAP }
+		GAN_2474 = { secede_province = JAP }
+		GAN_2493 = { secede_province = JAP }
+		GAN_3320 = { secede_province = JAP }
+		GAN_2491 = { secede_province = JAP }
+		GAN_2476 = { secede_province = JAP }
+		GAN_2472 = { secede_province = JAP }
+		GAN_2470 = { secede_province = JAP }
+		GAN_2 = { secede_province = JAP }
+		GAN_2483 = { secede_province = JAP }
+		GAN_2484 = { secede_province = JAP }
+		GAN_3291 = { secede_province = JAP }
+		GAN_3289 = { secede_province = JAP }
+		GAN_3290 = { secede_province = JAP }
+		clr_country_flag = refuse_JAP_aussie_ambitions
+		clr_country_flag = custom_treaty_loser
+	}
+	
+}
+
+#PBG ver
+country_event = {
+	id = 1000000189
+	title = "EVTNAME1000000189"
+	desc = "EVTDESC1000000189"
+	picture = "placeholder"
+	
+	trigger = {
+		tag = PBG
+		has_country_flag = refuse_JAP_aussie_ambitions
+		has_country_flag = custom_treaty_loser
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option = {
+		name = "EVTOPTA1000000189"
+		release = AST
+		AST = { annex_to = JAP }
+		GAN_3337 = { secede_province = JAP }
+		GAN_3332 = { secede_province = JAP }
+		GAN_3326 = { secede_province = JAP }
+		GAN_3329 = { secede_province = JAP }
+		GAN_10 = { secede_province = JAP }
+		GAN_2500 = { secede_province = JAP }
+		GAN_3324 = { secede_province = JAP }
+		ENG_2509 = { secede_province = JAP }
+		ENG_2513 = { secede_province = JAP }
+		GAN_3303 = { secede_province = JAP }
+		GAN_2474 = { secede_province = JAP }
+		GAN_2493 = { secede_province = JAP }
+		GAN_3320 = { secede_province = JAP }
+		GAN_2491 = { secede_province = JAP }
+		GAN_2476 = { secede_province = JAP }
+		GAN_2472 = { secede_province = JAP }
+		GAN_2470 = { secede_province = JAP }
+		GAN_2 = { secede_province = JAP }
+		GAN_2483 = { secede_province = JAP }
+		GAN_2484 = { secede_province = JAP }
+		GAN_3291 = { secede_province = JAP }
+		GAN_3289 = { secede_province = JAP }
+		GAN_3290 = { secede_province = JAP }
+		clr_country_flag = refuse_JAP_aussie_ambitions
+		clr_country_flag = custom_treaty_loser
+	}
+	
+}
+
+#DUA ver
+country_event = {
+	id = 1000000190
+	title = "EVTNAME1000000190"
+	desc = "EVTDESC1000000190"
+	picture = "placeholder"
+	
+	trigger = {
+		tag = DUA
+		has_country_flag = refuse_JAP_aussie_ambitions
+		has_country_flag = custom_treaty_loser
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option = {
+		name = "EVTOPTA1000000190"
+		release = ASG
+		ASG = { annex_to = JAP }
+		GAN_3337 = { secede_province = JAP }
+		GAN_3332 = { secede_province = JAP }
+		GAN_3326 = { secede_province = JAP }
+		GAN_3329 = { secede_province = JAP }
+		GAN_10 = { secede_province = JAP }
+		GAN_2500 = { secede_province = JAP }
+		GAN_3324 = { secede_province = JAP }
+		ENG_2509 = { secede_province = JAP }
+		ENG_2513 = { secede_province = JAP }
+		GAN_3303 = { secede_province = JAP }
+		GAN_2474 = { secede_province = JAP }
+		GAN_2493 = { secede_province = JAP }
+		GAN_3320 = { secede_province = JAP }
+		GAN_2491 = { secede_province = JAP }
+		GAN_2476 = { secede_province = JAP }
+		GAN_2472 = { secede_province = JAP }
+		GAN_2470 = { secede_province = JAP }
+		GAN_2 = { secede_province = JAP }
+		GAN_2483 = { secede_province = JAP }
+		GAN_2484 = { secede_province = JAP }
+		GAN_3291 = { secede_province = JAP }
+		GAN_3289 = { secede_province = JAP }
+		GAN_3290 = { secede_province = JAP }
+		clr_country_flag = refuse_JAP_aussie_ambitions
+		clr_country_flag = custom_treaty_loser
+	}
+	
+}
+
+#JAP victory event, to establish Japanese australia or not?
+country_event = {
+	id = 1000000191
+	title = "EVTNAME1000000191"
+	desc = "EVTDESC1000000191"
+	picture = "placeholder"
+	
+	trigger = {
+		tag = JAP
+		GAN_3337 = { owned_by = JAP }
+		GAN_3332 = { owned_by = JAP }
+		GAN_3326 = { owned_by = JAP }
+		GAN_3329 = { owned_by = JAP }
+		GAN_10 = { owned_by = JAP }
+		GAN_2500 = { owned_by = JAP }
+		GAN_3324 = { owned_by = JAP }
+		#ENG_2509 = { owned_by = JAP }
+		#ENG_2513 = { owned_by = JAP }
+		GAN_3303 = { owned_by = JAP }
+		GAN_2474 = { owned_by = JAP }
+		GAN_2493 = { owned_by = JAP }
+		GAN_3320 = { owned_by = JAP }
+		GAN_2491 = { owned_by = JAP }
+		GAN_2476 = { owned_by = JAP }
+		GAN_2472 = { owned_by = JAP }
+		GAN_2470 = { owned_by = JAP }
+		GAN_2 = { owned_by = JAP }
+		GAN_2483 = { owned_by = JAP }
+		GAN_2484 = { owned_by = JAP }
+		GAN_3291 = { owned_by = JAP }
+		GAN_3289 = { owned_by = JAP }
+		GAN_3290 = { owned_by = JAP }
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+	
+	#establish a puppet
+	option = {
+		name = "EVTOPTA1000000191"
+		any_owned = {
+			limit = {
+				OR = {
+					region = GAN_3337
+					region = GAN_3332 
+					region = GAN_3326
+					region = GAN_3329 
+					region = GAN_10 
+					region = GAN_2500
+					region = GAN_3324
+					region = ENG_2509 
+					region = ENG_2513 
+					region = GAN_3303
+					region = GAN_2474 
+					region = GAN_2493
+					region = GAN_3320 
+					region = GAN_2491 
+					region = GAN_2476
+					region = GAN_2472
+					region = GAN_2470
+					region = GAN_2
+					region = GAN_2483
+					region = GAN_2484
+					region = GAN_3291
+					region = GAN_3289
+					region = GAN_3290
+				}
+			}
+			add_core = JAT
+		}
+		release = JAT
+		create_vassal = JAT
+		JAT = {
+			government = autonomous_dependency
+			set_country_flag = schizo_JAP_AST
+			set_country_flag = SIG_migration
+		}
+	}
+	
+	#Non
+	option = {
+		name = "EVTOPTB1000000191"
+		#lmao just get prestige
+		prestige = 5
+	}
+	
+}
+
+#The australian crisis
+#What? Did you think putting an minority in charge would spark joy?
+country_event = {
+	id = 1000000192
+	title = "EVTNAME1000000192"
+	desc = "EVTDESC1000000192"
+	picture = "placeholder"
+	
+	trigger = {
+		tag = JAP
+		exists = JAT
+	}
+	
+	mean_time_to_happen = {
+		days = 120
+	}
+
+	fire_only_once = yes
+
+	#Elevate the Chinese
+	option = {
+		name = "EVTOPTA1000000192"
+		JAT = { add_accepted_culture = ganguan }
+		set_global_flag = JAT_accept_chinese
+	}
+	
+	#Elevate the Europeans
+	option = {
+		name = "EVTOPTB1000000192"
+		JAT = { 
+			add_accepted_culture = scandinavian
+			add_accepted_culture = burgundian
+			add_accepted_culture = anglois
+			add_accepted_culture = french
+			add_accepted_culture = english
+			add_accepted_culture = dutch
+			add_accepted_culture = brabantian
+		}
+		set_global_flag = JAT_accept_europeans
+	}
+
+	#Use the army to tell them to suck it up
+	option = {
+		name = "EVTOPTC1000000192"
+		set_global_flag = JAP_refuse_JAT_unity
+		JAT = {
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+				}
+				militancy = 5
+				consciousness = 5
+			}
+		}
+	}
+	
+}
+
+#The governor of Goshu is overthrowned (Only if you didn't elevate one of the major cultres)
+country_event = {
+	id = 1000000193
+	title = "EVTNAME1000000193"
+	desc = "EVTDESC1000000193"
+	picture = "placeholder"
+	
+	trigger = {
+		tag = JAP
+		has_global_flag = JAP_refuse_JAT_unity
+	}
+	
+	mean_time_to_happen = {
+		days = 120
+	}
+
+	fire_only_once = yes
+
+	#We must bring them back into the fold!
+	option = {
+		name = "EVTOPA1000000193"
+		release_vassal = JAT
+		JAT = {
+			primary_culture = ganguan
+			add_accepted_culture = scandinavian
+			add_accepted_culture = burgundian
+			add_accepted_culture = anglois
+			add_accepted_culture = french
+			add_accepted_culture = english
+			add_accepted_culture = dutch
+			add_accepted_culture = brabantian
+			add_accepted_culture = japanese
+		}
+		war = {
+			target = JAT
+			attacker_goal = {
+				casus_belli = conquest_any
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+	}
 }
