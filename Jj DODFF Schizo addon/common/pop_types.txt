@@ -1110,11 +1110,11 @@ assimilation_chance =
         factor = -20
         has_culture_core = yes
 		NOT = { country = { has_country_flag = DUA_schooling } }
-		NOT = {
         #Schizo assimilation
 		#TGC code
-		location = {
-			has_building = assimilator
+		NOT = {
+		    location = {
+			    has_building = assimilator
 			}
 		}		
 	}
@@ -1274,7 +1274,6 @@ assimilation_chance =
             NOT = { has_country_flag = native_integration }
         }
         #Schizo assimilation
-        country = { has_country_flag = schizo_allow_native_assimilation }
 		#TGC code
 		NOT = {
 			location = {
@@ -1299,7 +1298,6 @@ assimilation_chance =
         country = { NOT = { has_country_flag = african_integration_policy } }
         is_culture_group = african_diaspora_cultures
         #Schizo assimilation
-        country = { has_country_flag = schizo_allow_native_assimilation }
 		#TGC code
 		NOT = {
 			location = {
@@ -1316,7 +1314,6 @@ assimilation_chance =
         factor = -80
         country = { NOT = { has_country_flag = african_integration_policy } }
         #Schizo assimilation
-        country = { has_country_flag = schizo_allow_native_assimilation }
 		#TGC code
 		NOT = {
 			location = {
