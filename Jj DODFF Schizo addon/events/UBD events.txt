@@ -1326,8 +1326,10 @@ country_event = {
 		PLA_139 = {
 			add_province_modifier = { name = illegal_sustance_problem duration = 100 }
 		}
-		change_variable = { which = Nouvelle_France_drugs_brought value = 1 }
-		country_event = { id = 1000000213 days = 14 }
+		random_list = {
+			10 = { country_event = { id = 1000000219 days = 14 } }
+			90 = { country_event = { id = 1000000213 days = 14 } }
+		}
 	}
 }
 
@@ -1440,4 +1442,39 @@ country_event = {
 }
 
 #We are caught!
-#country_event
+country_event = {
+	id = 1000000219
+	title = "EVTNAME1000000219"
+	desc = "EVTDESC1000000219"
+	picture = "placeholder"
+	
+	is_triggered_only = yes
+	
+	#no money for you
+	option = {
+		name = "EVTOPTA1000000219"
+	}
+}
+
+#Selling drugs in Sydoe (HAI_2213)
+country_event = {
+	id = 1000000220
+	title = "EVTNAME1000000220"
+	desc = "EVTDESC1000000220"
+	picture = "placeholder"
+	
+	is_triggered_only = yes
+	
+	#Let's hope no one suspect anything
+	option = {
+		name = "EVTOPTA1000000220"
+		add_country_modifier = { name = generic_drug_trade_cooldown duration = 365 }
+		HAI_2213 = {
+			add_province_modifier = { name = illegal_sustance_problem duration = 100 }
+		}
+		random_list = {
+			10 = { country_event = { id = 1000000219 days = 14 } }
+			90 = { country_event = { id = 1000000218 days = 14 } }
+		}
+	}
+}

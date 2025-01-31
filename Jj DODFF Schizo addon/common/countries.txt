@@ -618,18 +618,18 @@ LOB = "countries/Lombards.txt"
 VIS = "countries/Visigothia.txt"
 VAN = "countries/Vandals.txt"
 GHU = "countries/German Hungary.txt"
-#OST = "countries/Ostrogoth.txt"
+##OST = "countries/Ostrogoth.txt"
 GPA = "countries/German Papal states.txt"
 ##AFU path##
-#ADM = "countries/Accelerationist dual monarchy.txt"
+##ADM = "countries/Accelerationist dual monarchy.txt"
 AFU = "countries/Accelerationist Istria.txt"
-#AAU = "countries/Accelerationist Austria.txt"
+##AAU = "countries/Accelerationist Austria.txt"
 ITS = "countries/Italian Shogunate.txt"
 IRS = "countries/Roman Shogunate.txt"
 ##Yuan path##
-#CCH = "countries/Communist China.txt"
-#DCH = "countries/Democratic China.txt"
-#FCH = "countries/Fascist China.txt"
+##CCH = "countries/Communist China.txt"
+##DCH = "countries/Democratic China.txt"
+##FCH = "countries/Fascist China.txt"
 YUA = "countries/Yuan.txt"
 ##Spainish Aussies##
 ASP = "countries/SpaAustralia.txt"
@@ -654,6 +654,7 @@ BEL = "countries/Belgium.txt"
 WRU = "countries/West Slavic Ruthenian Union.txt"
 FSF = "countries/FuSang Federation.txt"
 JAT = "countries/Japanese Australia.txt"
+NGY = "countries/Nordic Germany.txt"
 
 
 ##HoD Dominions

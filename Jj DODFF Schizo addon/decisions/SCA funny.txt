@@ -101,4 +101,42 @@ SCA_from_FSE = {
 	 }
 }
 
+#Nordic Germany
+SCA_from_NGY = {
+	picture = "Germania"
+	potential = { 
+		tag = SCA
+		has_country_flag = Schzio_mod_show
+		accepted_culture = north_german
+		accepted_culture = prussian
+	}
+
+	allow = {
+		SGF = { has_country_flag = phoenix_failure }
+		GER = {
+			all_core = {
+			 	OR = {
+				 	owned_by = THIS
+				 	owner = {
+					 	in_sphere = THIS
+				 	}
+			 	}
+			}
+		 }
+	}
+
+	effect = {
+		change_tag = NGY
+		any_country = {
+			limit = {
+				AND = {
+					is_culture_group = germanic
+					in_sphere = THIS
+				}
+			}
+			annex_to = NGY
+		}
+	}
+}
+
 }

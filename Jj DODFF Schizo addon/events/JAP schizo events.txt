@@ -733,6 +733,8 @@ country_event = {
 			add_accepted_culture = dutch
 			add_accepted_culture = brabantian
 			add_accepted_culture = japanese
+			remove_country_modifier = JAT_immgrant_increase
+			clr_country_flag = schizo_JAP_AST
 		}
 		war = {
 			target = JAT

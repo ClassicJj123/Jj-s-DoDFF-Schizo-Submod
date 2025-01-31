@@ -121,6 +121,27 @@ montserrat_purchase_ARA_GP = {
 	}
 }
 
+#montserrat purchase, for if BRG owns it
+montserrat_purchase_ARA_GP = { 
+	potential = { 
+		tag = UBD
+        has_country_flag = Schzio_mod_show 
+		BRG = { owns = 2224 }
+		owns = 2230 
+		NOT = { has_country_flag = montserrat_purchase }
+	}
+		
+	allow = { 
+		relation = { who = BRG value = 0 }
+		money = 50000
+	}
+	
+	effect = { 
+		BRG = { country_event = 371276 }
+		set_country_flag = montserrat_purchase
+	}
+}
+
 #virgin islands PLA ver, for if DUA fuckin dies
 virgin_islands_PLA = { 
 	 potential = { 
@@ -160,6 +181,52 @@ Purchase_of_Aragonese_antilles_SCA = {
 	
 	effect = { 
 	     SCA = { country_event = 371267 }
+	     set_country_flag = ARA_antilles
+	}
+}
+
+#ARA islands purchase, if BRG has bought it before
+#WHY IS THIS A THING!
+Purchase_of_Aragonese_antilles_BRG = { 
+	potential = { 
+	     tag = UBD
+         has_country_flag = Schzio_mod_show 
+	     BRG = { owns = 2231 } 
+	     NOT = { has_country_flag = ARA_antilles }
+	}
+	
+	allow = { 
+	     owns = 2233
+	     owns = 2409
+	     relation = { who = BRG value = 0 } 
+	     money = 100000
+	}
+	
+	effect = { 
+	     BRG = { country_event = 371267 }
+	     set_country_flag = ARA_antilles
+	}
+}
+
+#ARA islands purchase, if PBG has bought it before
+#Failsafe if you haven't bought it and PBG wins the civil war
+Purchase_of_Aragonese_antilles_PBG = { 
+	potential = { 
+	     tag = UBD
+         has_country_flag = Schzio_mod_show 
+	     PBG = { owns = 2231 } 
+	     NOT = { has_country_flag = ARA_antilles }
+	}
+	
+	allow = { 
+	     owns = 2233
+	     owns = 2409
+	     relation = { who = PBG value = 0 } 
+	     money = 100000
+	}
+	
+	effect = { 
+	     PBG = { country_event = 371267 }
 	     set_country_flag = ARA_antilles
 	}
 }
@@ -373,7 +440,7 @@ UBD_sell_drugs_in_Sydoe = {
     }
 
     effect = {
-        country_event = 1000000212
+        country_event = 1000000220
     }
 }
 

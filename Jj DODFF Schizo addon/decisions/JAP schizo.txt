@@ -4,260 +4,299 @@ political_decisions = {
 ###Aussie Decisions###
 ######################
 
-JAP_aussie_take_over_DUA = {
-    potential = {
-           tag = JAP
-           ai = no
-		 has_country_flag = Schzio_mod_show
-           exists = DUA
-           OR = {
-               DUA = {
-                    OR = {
-                         GAN_3337 = { owned_by = DUA }
-		               GAN_3332 = { owned_by = DUA }
-		               GAN_3326 = { owned_by = DUA }
-		               GAN_3329 = { owned_by = DUA }
-		               GAN_10 = { owned_by = DUA }
-		               GAN_2500 = { owned_by = DUA }
-		               GAN_3324 = { owned_by = DUA }
-		               ENG_2509 = { owned_by = DUA }
-		               ENG_2513 = { owned_by = DUA }
-		               GAN_3303 = { owned_by = DUA }
-		               GAN_2474 = { owned_by = DUA }
-		               GAN_2493 = { owned_by = DUA }
-		               GAN_3320 = { owned_by = DUA }
-		               GAN_2491 = { owned_by = DUA }
-		               GAN_2476 = { owned_by = DUA }
-		               GAN_2472 = { owned_by = DUA }
-		               GAN_2470 = { owned_by = DUA }
-	               	GAN_2 = { owned_by = DUA }
-	               	GAN_2483 = { owned_by = DUA }
-	               	GAN_2484 = { owned_by = DUA }
-	               	GAN_3291 = { owned_by = DUA }
-	               	GAN_3289 = { owned_by = DUA }
-		               GAN_3290 = { owned_by = DUA }
-                    }
-               }
-               ASG = {
-                    vassal_of = DUA
-               }
-           }
+#JAP_aussie_take_over_DUA = {
+#    potential = {
+#           tag = JAP
+#           ai = no
+#		 has_country_flag = Schzio_mod_show
+#           exists = DUA
+#           OR = {
+#               DUA = {
+#                    OR = {
+#                         GAN_3337 = { owned_by = DUA }
+#		               GAN_3332 = { owned_by = DUA }
+#		               GAN_3326 = { owned_by = DUA }
+#		               GAN_3329 = { owned_by = DUA }
+#		               GAN_10 = { owned_by = DUA }
+#		               GAN_2500 = { owned_by = DUA }
+#		               GAN_3324 = { owned_by = DUA }
+#		               ENG_2509 = { owned_by = DUA }
+#		               ENG_2513 = { owned_by = DUA }
+#		               GAN_3303 = { owned_by = DUA }
+#		               GAN_2474 = { owned_by = DUA }
+#		               GAN_2493 = { owned_by = DUA }
+#		               GAN_3320 = { owned_by = DUA }
+#		               GAN_2491 = { owned_by = DUA }
+#		               GAN_2476 = { owned_by = DUA }
+#		               GAN_2472 = { owned_by = DUA }
+#		               GAN_2470 = { owned_by = DUA }
+#	               	GAN_2 = { owned_by = DUA }
+#	               	GAN_2483 = { owned_by = DUA }
+#	               	GAN_2484 = { owned_by = DUA }
+#	               	GAN_3291 = { owned_by = DUA }
+#	               	GAN_3289 = { owned_by = DUA }
+#		               GAN_3290 = { owned_by = DUA }
+#                    }
+#               }
+#               ASG = {
+#                    vassal_of = DUA
+#               }
+#           }
+#    }
+#
+#    allow = {
+#         war = no
+#         revolution_n_counterrevolution = 1
+#    }
+#
+#    effect = {
+#         DUA = { country_event = 1000000184 }
+#    }
+#}
+
+#JAP_aussie_take_over_BRG = {
+#    potential = {
+#           tag = JAP
+#           ai = no
+#		 has_country_flag = Schzio_mod_show
+#           exists = BRG
+#           OR = {
+#               BRG = {
+#                    OR = {
+#                         GAN_3337 = { owned_by = BRG }
+#		               GAN_3332 = { owned_by = BRG }
+#		               GAN_3326 = { owned_by = BRG }
+#		               GAN_3329 = { owned_by = BRG }
+#		               GAN_10 = { owned_by = BRG }
+#		               GAN_2500 = { owned_by = BRG }
+#		               GAN_3324 = { owned_by = BRG }
+#		               ENG_2509 = { owned_by = BRG }
+#		               ENG_2513 = { owned_by = BRG }
+#		               GAN_3303 = { owned_by = BRG }
+#		               GAN_2474 = { owned_by = BRG }
+#		               GAN_2493 = { owned_by = BRG }
+#		               GAN_3320 = { owned_by = BRG }
+#		               GAN_2491 = { owned_by = BRG }
+#		               GAN_2476 = { owned_by = BRG }
+#		               GAN_2472 = { owned_by = BRG }
+#		               GAN_2470 = { owned_by = BRG }
+#	               	GAN_2 = { owned_by = BRG }
+#	               	GAN_2483 = { owned_by = BRG }
+#	               	GAN_2484 = { owned_by = BRG }
+#	               	GAN_3291 = { owned_by = BRG }
+#	               	GAN_3289 = { owned_by = BRG }
+#		               GAN_3290 = { owned_by = BRG }
+#                    }
+#               }
+#               AST = {
+#                    vassal_of = BRG
+#               }
+#           }
+#    }
+#
+#    allow = {
+#         war = no
+#         revolution_n_counterrevolution = 1
+#    }
+#
+#    effect = {
+#         BRG = { country_event = 1000000184 }
+#    }
+#}
+
+#JAP_aussie_take_over_PBG = {
+#    potential = {
+#           tag = JAP
+#           ai = no
+#		 has_country_flag = Schzio_mod_show
+#           exists = PBG
+#           OR = {
+#               PBG = {
+#                    OR = {
+#                         GAN_3337 = { owned_by = PBG }
+#		               GAN_3332 = { owned_by = PBG }
+#		               GAN_3326 = { owned_by = PBG }
+#		               GAN_3329 = { owned_by = PBG }
+#		               GAN_10 = { owned_by = PBG }
+#		               GAN_2500 = { owned_by = PBG }
+#		               GAN_3324 = { owned_by = PBG }
+#		               ENG_2509 = { owned_by = PBG }
+#		               ENG_2513 = { owned_by = PBG }
+#		               GAN_3303 = { owned_by = PBG }
+#		               GAN_2474 = { owned_by = PBG }
+#		               GAN_2493 = { owned_by = PBG }
+#		               GAN_3320 = { owned_by = PBG }
+#		               GAN_2491 = { owned_by = PBG }
+#		               GAN_2476 = { owned_by = PBG }
+#		               GAN_2472 = { owned_by = PBG }
+#		               GAN_2470 = { owned_by = PBG }
+#	               	GAN_2 = { owned_by = PBG }
+#	               	GAN_2483 = { owned_by = PBG }
+#	               	GAN_2484 = { owned_by = PBG }
+#	               	GAN_3291 = { owned_by = PBG }
+#	               	GAN_3289 = { owned_by = PBG }
+#		               GAN_3290 = { owned_by = PBG }
+#                    }
+#               }
+#               AST = {
+#                    vassal_of = PBG
+#               }
+#           }
+#    }
+#
+#    allow = {
+#         war = no
+#         revolution_n_counterrevolution = 1
+#    }
+#
+#    effect = {
+#         PBG = { country_event = 1000000184 }
+#    }
+#}
+
+#JAP_aussie_take_over_SCA = {
+#    potential = {
+#           tag = JAP
+#           ai = no
+#		 has_country_flag = Schzio_mod_show
+#           exists = SCA
+#           OR = {
+#               SCA = {
+#                    OR = {
+#                         GAN_3337 = { owned_by = SCA }
+#		               GAN_3332 = { owned_by = SCA }
+#		               GAN_3326 = { owned_by = SCA }
+#		               GAN_3329 = { owned_by = SCA }
+#		               GAN_10 = { owned_by = SCA }
+#		               GAN_2500 = { owned_by = SCA }
+#		               GAN_3324 = { owned_by = SCA }
+#		               ENG_2509 = { owned_by = SCA }
+#		               ENG_2513 = { owned_by = SCA }
+#		               GAN_3303 = { owned_by = SCA }
+#		               GAN_2474 = { owned_by = SCA }
+#		               GAN_2493 = { owned_by = SCA }
+#		               GAN_3320 = { owned_by = SCA }
+#		               GAN_2491 = { owned_by = SCA }
+#		               GAN_2476 = { owned_by = SCA }
+#		               GAN_2472 = { owned_by = SCA }
+#		               GAN_2470 = { owned_by = SCA }
+#	               	GAN_2 = { owned_by = SCA }
+#	               	GAN_2483 = { owned_by = SCA }
+#	               	GAN_2484 = { owned_by = SCA }
+#	               	GAN_3291 = { owned_by = SCA }
+#	               	GAN_3289 = { owned_by = SCA }
+#		               GAN_3290 = { owned_by = SCA }
+#                    }
+#               }
+#               ASS = {
+#                    vassal_of = SCA
+#               }
+#           }
+#    }
+#
+#    allow = {
+#         war = no
+#         revolution_n_counterrevolution = 1
+#    }
+#
+#    effect = {
+#         SCA = { country_event = 1000000184 }
+#    }
+#}
+
+#JAP_aussie_take_over_AST = {
+#    potential = {
+#           tag = JAP
+#           ai = no
+#		 has_country_flag = Schzio_mod_show
+#           exists = AST
+#           AST = { is_vassal = no }
+#    }
+#
+#    allow = {
+#         war = no
+#         revolution_n_counterrevolution = 1
+#    }
+#
+#    effect = {
+#         AST = { country_event = 1000000186 }
+#    }
+#}
+
+#JAP_aussie_take_over_ASG = {
+#    potential = {
+#           tag = JAP
+#           ai = no
+#		 has_country_flag = Schzio_mod_show
+#           exists = ASG
+#           ASG = { is_vassal = no }
+#    }
+#
+#    allow = {
+#         war = no
+#         revolution_n_counterrevolution = 1
+#    }
+#
+#    effect = {
+#         ASG = { country_event = 1000000186 }
+#    }
+#}
+
+#JAP_aussie_take_over_ASS = {
+#    potential = {
+#           tag = JAP
+#           ai = no
+#		 has_country_flag = Schzio_mod_show
+#           exists = ASS
+#           ASS = { is_vassal = no }
+#    }
+#
+#    allow = {
+#         war = no
+#         revolution_n_counterrevolution = 1
+#    }
+#
+#    effect = {
+#         ASS = { country_event = 1000000186 }
+#    }
+#}
+
+claim_AST_JAP = {
+    potential = { 
+        tag = JAP
+        ai = no
+        has_country_flag = Schzio_mod_show
     }
 
     allow = {
-         war = no
-         revolution_n_counterrevolution = 1
+        war = no
+        revolution_n_counterrevolution = 1
     }
 
     effect = {
-         DUA = { country_event = 1000000184 }
-    }
-}
-
-JAP_aussie_take_over_BRG = {
-    potential = {
-           tag = JAP
-           ai = no
-		 has_country_flag = Schzio_mod_show
-           exists = BRG
-           OR = {
-               BRG = {
-                    OR = {
-                         GAN_3337 = { owned_by = BRG }
-		               GAN_3332 = { owned_by = BRG }
-		               GAN_3326 = { owned_by = BRG }
-		               GAN_3329 = { owned_by = BRG }
-		               GAN_10 = { owned_by = BRG }
-		               GAN_2500 = { owned_by = BRG }
-		               GAN_3324 = { owned_by = BRG }
-		               ENG_2509 = { owned_by = BRG }
-		               ENG_2513 = { owned_by = BRG }
-		               GAN_3303 = { owned_by = BRG }
-		               GAN_2474 = { owned_by = BRG }
-		               GAN_2493 = { owned_by = BRG }
-		               GAN_3320 = { owned_by = BRG }
-		               GAN_2491 = { owned_by = BRG }
-		               GAN_2476 = { owned_by = BRG }
-		               GAN_2472 = { owned_by = BRG }
-		               GAN_2470 = { owned_by = BRG }
-	               	GAN_2 = { owned_by = BRG }
-	               	GAN_2483 = { owned_by = BRG }
-	               	GAN_2484 = { owned_by = BRG }
-	               	GAN_3291 = { owned_by = BRG }
-	               	GAN_3289 = { owned_by = BRG }
-		               GAN_3290 = { owned_by = BRG }
-                    }
-               }
-               AST = {
-                    vassal_of = BRG
-               }
-           }
-    }
-
-    allow = {
-         war = no
-         revolution_n_counterrevolution = 1
-    }
-
-    effect = {
-         BRG = { country_event = 1000000184 }
-    }
-}
-
-JAP_aussie_take_over_PBG = {
-    potential = {
-           tag = JAP
-           ai = no
-		 has_country_flag = Schzio_mod_show
-           exists = PBG
-           OR = {
-               PBG = {
-                    OR = {
-                         GAN_3337 = { owned_by = PBG }
-		               GAN_3332 = { owned_by = PBG }
-		               GAN_3326 = { owned_by = PBG }
-		               GAN_3329 = { owned_by = PBG }
-		               GAN_10 = { owned_by = PBG }
-		               GAN_2500 = { owned_by = PBG }
-		               GAN_3324 = { owned_by = PBG }
-		               ENG_2509 = { owned_by = PBG }
-		               ENG_2513 = { owned_by = PBG }
-		               GAN_3303 = { owned_by = PBG }
-		               GAN_2474 = { owned_by = PBG }
-		               GAN_2493 = { owned_by = PBG }
-		               GAN_3320 = { owned_by = PBG }
-		               GAN_2491 = { owned_by = PBG }
-		               GAN_2476 = { owned_by = PBG }
-		               GAN_2472 = { owned_by = PBG }
-		               GAN_2470 = { owned_by = PBG }
-	               	GAN_2 = { owned_by = PBG }
-	               	GAN_2483 = { owned_by = PBG }
-	               	GAN_2484 = { owned_by = PBG }
-	               	GAN_3291 = { owned_by = PBG }
-	               	GAN_3289 = { owned_by = PBG }
-		               GAN_3290 = { owned_by = PBG }
-                    }
-               }
-               AST = {
-                    vassal_of = PBG
-               }
-           }
-    }
-
-    allow = {
-         war = no
-         revolution_n_counterrevolution = 1
-    }
-
-    effect = {
-         PBG = { country_event = 1000000184 }
-    }
-}
-
-JAP_aussie_take_over_SCA = {
-    potential = {
-           tag = JAP
-           ai = no
-		 has_country_flag = Schzio_mod_show
-           exists = SCA
-           OR = {
-               SCA = {
-                    OR = {
-                         GAN_3337 = { owned_by = SCA }
-		               GAN_3332 = { owned_by = SCA }
-		               GAN_3326 = { owned_by = SCA }
-		               GAN_3329 = { owned_by = SCA }
-		               GAN_10 = { owned_by = SCA }
-		               GAN_2500 = { owned_by = SCA }
-		               GAN_3324 = { owned_by = SCA }
-		               ENG_2509 = { owned_by = SCA }
-		               ENG_2513 = { owned_by = SCA }
-		               GAN_3303 = { owned_by = SCA }
-		               GAN_2474 = { owned_by = SCA }
-		               GAN_2493 = { owned_by = SCA }
-		               GAN_3320 = { owned_by = SCA }
-		               GAN_2491 = { owned_by = SCA }
-		               GAN_2476 = { owned_by = SCA }
-		               GAN_2472 = { owned_by = SCA }
-		               GAN_2470 = { owned_by = SCA }
-	               	GAN_2 = { owned_by = SCA }
-	               	GAN_2483 = { owned_by = SCA }
-	               	GAN_2484 = { owned_by = SCA }
-	               	GAN_3291 = { owned_by = SCA }
-	               	GAN_3289 = { owned_by = SCA }
-		               GAN_3290 = { owned_by = SCA }
-                    }
-               }
-               ASS = {
-                    vassal_of = SCA
-               }
-           }
-    }
-
-    allow = {
-         war = no
-         revolution_n_counterrevolution = 1
-    }
-
-    effect = {
-         SCA = { country_event = 1000000184 }
-    }
-}
-
-JAP_aussie_take_over_AST = {
-    potential = {
-           tag = JAP
-           ai = no
-		 has_country_flag = Schzio_mod_show
-           exists = AST
-           AST = { is_vassal = no }
-    }
-
-    allow = {
-         war = no
-         revolution_n_counterrevolution = 1
-    }
-
-    effect = {
-         AST = { country_event = 1000000186 }
-    }
-}
-
-JAP_aussie_take_over_ASG = {
-    potential = {
-           tag = JAP
-           ai = no
-		 has_country_flag = Schzio_mod_show
-           exists = ASG
-           ASG = { is_vassal = no }
-    }
-
-    allow = {
-         war = no
-         revolution_n_counterrevolution = 1
-    }
-
-    effect = {
-         ASG = { country_event = 1000000186 }
-    }
-}
-
-JAP_aussie_take_over_ASS = {
-    potential = {
-           tag = JAP
-           ai = no
-		 has_country_flag = Schzio_mod_show
-           exists = ASS
-           ASS = { is_vassal = no }
-    }
-
-    allow = {
-         war = no
-         revolution_n_counterrevolution = 1
-    }
-
-    effect = {
-         ASS = { country_event = 1000000186 }
+          GAN_3337 = { add_core = JAP }
+		GAN_3332 = { add_core = JAP }
+		GAN_3326 = { add_core = JAP }
+		GAN_3329 = { add_core = JAP }
+		GAN_10 = { add_core = JAP }
+		GAN_2500 = { add_core = JAP }
+		GAN_3324 = { add_core = JAP }
+		#ENG_2509 = { add_core = JAP }
+		#ENG_2513 = { add_core = JAP }
+		GAN_3303 = { add_core = JAP }
+		GAN_2474 = { add_core = JAP }
+		GAN_2493 = { add_core = JAP }
+		GAN_3320 = { add_core = JAP }
+		GAN_2491 = { add_core = JAP }
+		GAN_2476 = { add_core = JAP }
+		GAN_2472 = { add_core = JAP }
+		GAN_2470 = { add_core = JAP }
+		GAN_2 = { add_core = JAP }
+		GAN_2483 = { add_core = JAP }
+		GAN_2484 = { add_core = JAP }
+		GAN_3291 = { add_core = JAP }
+		GAN_3289 = { add_core = JAP }
+		GAN_3290 = { add_core = JAP }
     }
 }
 

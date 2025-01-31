@@ -1,6 +1,6 @@
 i_assimilator = {
 	limit = {
-		state_n_government = 1
+		#state_n_government = 1
 		has_country_flag = assimilation_enabled
 		ai = no
 	}
