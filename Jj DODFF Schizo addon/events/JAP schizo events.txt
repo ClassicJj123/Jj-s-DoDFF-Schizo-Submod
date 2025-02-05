@@ -343,7 +343,7 @@ country_event = {
 			}
 			call_ally = no
 		}
-		FROM = { country_event = 1000000185 }
+		JAP = { country_event = 1000000185 }
 		ai_chance = {
 			factor = 60
 		}

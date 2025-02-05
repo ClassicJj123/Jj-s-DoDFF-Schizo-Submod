@@ -1,496 +1,496 @@
-Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
-RUV;The Russian Revolt;;;;;;;;;;;;;x,,,,,,,,
-RUV_ADJ;Russian;;;;;;;;;;;;;x,,,,,,,,
-RUV_absolute_monarchy;The Russian Revolt;;;;;;;;;;;;;x,,,,,,,,
-RUV_prussian_constitutionalism;The Russian Revolt;;;;;;;;;;;;;x,,,,,,,,
-RUV_hms_government;The Russian Revolt;;;;;;;;;;;;;x,,,,,,,,
-RUV_democracy;The Russian Revolt;;;;;;;;;;;;;x,,,,,,,, 
-RUV_parliamentary_republic;The Russian Revolt;;;;;;;;;;;;;x,,,,,,,,
-RUV_presidential_dictatorship;The Russian Revolt;;;;;;;;;;;;;x,,,,,,,,
-RUV_bourgeois_dictatorship;The Russian Revolt;;;;;;;;;;;;;x,,,,,,,,
-RUV_proletarian_dictatorship;The Russian council Revolt;;;;;;;;;;;;;x,,,,,,,,
-RUV_socialist_republic;The Russian socialist Revolt;;;;;;;;;;;;;x,,,,,,,,
-RUV_fascist_monarchy;The Russian Revolt;;;;;;;;;;;;;x,,,,,,,,
-RUV_fascist_dictatorship;The Russian Revolt;;;;;;;;;;;;;x,,,,,,,,
-TEU;Teutonic Order;;;;;;;;;;;;;x,,,,,,,,
-TEU_ADJ;Teuton;;;;;;;;;;;;;x,,,,,,,,
-TEU_absolute_monarchy;Teutonic Order;;;;;;;;;;;;;x,,,,,,,,
-TEU_prussian_constitutionalism;Teutonic Order;;;;;;;;;;;;;x,,,,,,,,
-TEU_hms_government;Teutonic Order;;;;;;;;;;;;;x,,,,,,,,
-TEU_democracy;Teutonic Republic;;;;;;;;;;;;;x,,,,,,,, 
-TEU_parliamentary_republic;Teutonic Republic;;;;;;;;;;;;;x,,,,,,,,
-TEU_presidential_dictatorship;Teutonic Order;;;;;;;;;;;;;x,,,,,,,,
-TEU_bourgeois_dictatorship;Teutonic Order;;;;;;;;;;;;;x,,,,,,,,
-TEU_proletarian_dictatorship;Teutonic Council Republic;;;;;;;;;;;;;x,,,,,,,,
-TEU_socialist_republic;Teutonic Socialist Republic;;;;;;;;;;;;;x,,,,,,,,
-TEU_fascist_monarchy;Teutonic Order;;;;;;;;;;;;;x,,,,,,,,
-TEU_fascist_dictatorship;Teutonic Order;;;;;;;;;;;;;x,,,,,,,,
-LGC;The Low German Confederation;;;;;;;;;;;;;x,,,,,,,,
-LGC_ADJ;Low German;;;;;;;;;;;;;x,,,,,,,,
-LGC_absolute_monarchy;The Low German Confederation;;;;;;;;;;;;;x,,,,,,,,
-LGC_prussian_constitutionalism;The Low German Confederation;;;;;;;;;;;;;x,,,,,,,,
-LGC_hms_government;The Low German Confederation;;;;;;;;;;;;;x,,,,,,,,
-LGC_democracy;The Low German Republic;;;;;;;;;;;;;x,,,,,,,, 
-LGC_parliamentary_republic;The Low German Republic;;;;;;;;;;;;;x,,,,,,,,
-LGC_presidential_dictatorship;The Low German Confederation;;;;;;;;;;;;;x,,,,,,,,
-LGC_bourgeois_dictatorship;The Low German Confederation;;;;;;;;;;;;;x,,,,,,,,
-LGC_proletarian_dictatorship;The Low German Council Republic;;;;;;;;;;;;;x,,,,,,,,
-LGC_socialist_republic;The Low German Socialist Republic;;;;;;;;;;;;;x,,,,,,,,
-LGC_fascist_monarchy;The Low German Confederation;;;;;;;;;;;;;x,,,,,,,,
-LGC_fascist_dictatorship;The Low German Confederation;;;;;;;;;;;;;x,,,,,,,,
-FOG;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,,
-FOG_ADJ;Franco-Occitan;;;;;;;;;;;;;x,,,,,,,,
-FOG_absolute_monarchy;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,,
-FOG_prussian_constitutionalism;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,,
-FOG_hms_government;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,,
-FOG_democracy;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,, 
-FOG_parliamentary_republic;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,,
-FOG_presidential_dictatorship;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,,
-FOG_bourgeois_dictatorship;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,,
-FOG_proletarian_dictatorship;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,,
-FOG_socialist_republic;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,,
-FOG_fascist_monarchy;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,,
-FOG_fascist_dictatorship;The Franco-Occitan Commissariat;;;;;;;;;;;;;x,,,,,,,,
-IBG;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-IBG_ADJ;Iberian;;;;;;;;;;;;;x,,,,,,,,
-IBG_absolute_monarchy;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-IBG_prussian_constitutionalism;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-IBG_hms_government;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-IBG_democracy;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,, 
-IBG_parliamentary_republic;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-IBG_presidential_dictatorship;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-IBG_bourgeois_dictatorship;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-IBG_proletarian_dictatorship;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-IBG_socialist_republic;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-IBG_fascist_monarchy;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-IBG_fascist_dictatorship;Iberian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-ELG;The English Commissariat;;;;;;;;;;;;;x,,,,,,,,
-ELG_ADJ;English;;;;;;;;;;;;;x,,,,,,,,
-ELG_absolute_monarchy;The English Commissariat;;;;;;;;;;;;;x,,,,,,,,
-ELG_prussian_constitutionalism;The English Commissariat;;;;;;;;;;;;;x,,,,,,,,
-ELG_hms_government;The English Commissariat;;;;;;;;;;;;;x,,,,,,,,
-ELG_democracy;The English Commissariat;;;;;;;;;;;;;x,,,,,,,, 
-ELG_parliamentary_republic;The English Commissariat;;;;;;;;;;;;;x,,,,,,,,
-ELG_presidential_dictatorship;The English Commissariat;;;;;;;;;;;;;x,,,,,,,,
-ELG_bourgeois_dictatorship;The English Commissariat;;;;;;;;;;;;;x,,,,,,,,
-ELG_proletarian_dictatorship;The English Commissariat;;;;;;;;;;;;;x,,,,,,,,
-ELG_socialist_republic;The English Commissariat;;;;;;;;;;;;;x,,,,,,,,
-ELG_fascist_monarchy;The English Commissariat;;;;;;;;;;;;;x,,,,,,,,
-ELG_fascist_dictatorship;The English Commissariat;;;;;;;;;;;;;x,,,,,,,,
-BTG;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-BTG_ADJ;Albionian;;;;;;;;;;;;;x,,,,,,,,
-BTG_absolute_monarchy;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-BTG_prussian_constitutionalism;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-BTG_hms_government;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-BTG_democracy;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,, 
-BTG_parliamentary_republic;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-BTG_presidential_dictatorship;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-BTG_bourgeois_dictatorship;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-BTG_proletarian_dictatorship;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-BTG_socialist_republic;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-BTG_fascist_monarchy;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-BTG_fascist_dictatorship;The Albionian Commissariat;;;;;;;;;;;;;x,,,,,,,,
-LTA;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-LTA_ADJ;Lotharingian;;;;;;;;;;;;;x,,,,,,,,
-LTA_absolute_monarchy;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-LTA_prussian_constitutionalism;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-LTA_hms_government;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-LTA_democracy;Lotharingia;;;;;;;;;;;;;x,,,,,,,, 
-LTA_parliamentary_republic;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-LTA_presidential_dictatorship;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-LTA_bourgeois_dictatorship;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-LTA_proletarian_dictatorship;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-LTA_socialist_republic;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-LTA_fascist_monarchy;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-LTA_fascist_dictatorship;Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-LOB;Lombardia;;;;;;;;;;;;;x,,,,,,,,
-LOB_ADJ;Lombardian;;;;;;;;;;;;;x,,,,,,,,
-LOB_autonomous_dependency;Duchy of Lombardia;;;;;;;;;;;;;x,,,,,,,,
-LOB_absolute_monarchy;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
-LOB_prussian_constitutionalism;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
-LOB_hms_government;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
-LOB_democracy;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,, 
-LOB_parliamentary_republic;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
-LOB_presidential_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
-LOB_bourgeois_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
-LOB_proletarian_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
-LOB_socialist_republic;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
-LOB_fascist_monarchy;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
-LOB_fascist_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x,,,,,,,,
-YUA;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
-YUA_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
-YUA_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
-YUA_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
-YUA_bourgeois_dictatorship;Landlord's Republic of China;;;;;;;;;;;;;;x;;;;;;;;
-YUA_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-YUA_democracy;United States of China;;;;;;;;;;;;;;x;;;;;;;;
-YUA_democracy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-YUA_fascist_dictatorship;Undefeated Empire of The East West South North and Center;;;;;;;;;;;;;;x;;;;;;;;
-YUA_fascist_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-YUA_fascist_monarchy;Celestial Yuan Empire;;;;;;;;;;;;;;x;;;;;;;;
-YUA_fascist_monarchy_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
-YUA_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;;x;;;;;;;;
-YUA_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-YUA_hms_government;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-YUA_hms_government_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
-YUA_parliamentary_republic;United States of China;;;;;;;;;;;;;;x;;;;;;;;
-YUA_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-YUA_presidential_dictatorship;Super Asia;;;;;;;;;;;;;;x;;;;;;;;
-YUA_presidential_dictatorship_ADJ;Super Asian;;;;;;;;;;;;;;x;;;;;;;;
-YUA_proletarian_dictatorship;Chinese Federation;;;;;;;;;;;;;;x;;;;;;;;
-YUA_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-YUA_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-YUA_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-YUA_socialist_republic;Panasia;;;;;;;;;;;;;;x;;;;;;;;
-YUA_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;;x;;;;;;;
-CCH;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
-CCH_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
-CCH_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
-CCH_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,YUA_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
-CCH_bourgeois_dictatorship;Celestial Conglomorate;;;;;;;;;;;;;;x;;;;;;;;
-CCH_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-CCH_democracy;United States of China;;;;;;;;;;;;;;x;;;;;;;;
-CCH_democracy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-CCH_fascist_dictatorship;Undefeated Empire of The East West South North and Center;;;;;;;;;;;;;;x;;;;;;;;
-CCH_fascist_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-CCH_fascist_monarchy;Undefeated Empire of The East West South North and Center;;;;;;;;;;;;;;x;;;;;;;;
-CCH_fascist_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-CCH_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;;x;;;;;;;;
-CCH_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-CCH_hms_government;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-CCH_hms_government_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
-CCH_parliamentary_republic;United States of China;;;;;;;;;;;;;;x;;;;;;;;
-CCH_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-CCH_presidential_dictatorship;Statist Republic of China;;;;;;;;;;;;;;x;;;;;;;;
-CCH_presidential_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-CCH_proletarian_dictatorship;Celestial Commune of China;;;;;;;;;;;;;;x;;;;;;;;
-CCH_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-CCH_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-CCH_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-CCH_socialist_republic;Panasia;;;;;;;;;;;;;;x;;;;;;;;
-CCH_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;;x;;;;;;;
-FCH;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
-FCH_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
-FCH_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
-FCH_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,YUA_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
-FCH_bourgeois_dictatorship;ermwhatthefrick;;;;;;;;;;;;;;x;;;;;;;;
-FCH_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-FCH_democracy;United States of China;;;;;;;;;;;;;;x;;;;;;;;
-FCH_democracy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-FCH_fascist_dictatorship;Sons of Han Fei;;;;;;;;;;;;;;x;;;;;;;;
-FCH_fascist_dictatorship_ADJ;shit;;;;;;;;;;;;;;x;;;;;;;;
-FCH_fascist_monarchy;Sons of Han Fei;;;;;;;;;;;;;;x;;;;;;;;
-FCH_fascist_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-FCH_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;;x;;;;;;;;
-FCH_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-FCH_hms_government;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-FCH_hms_government_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
-FCH_parliamentary_republic;United States of China;;;;;;;;;;;;;;x;;;;;;;;
-FCH_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-FCH_presidential_dictatorship;Statist Republic of China;;;;;;;;;;;;;;x;;;;;;;;
-FCH_presidential_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-FCH_proletarian_dictatorship;Celestial Commune of China;;;;;;;;;;;;;;x;;;;;;;;
-FCH_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-FCH_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-FCH_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-FCH_socialist_republic;Panasia;;;;;;;;;;;;;;x;;;;;;;;
-FCH_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;;x;;;;;;;
-DCH;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
-DCH_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
-DCH_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x,,,,,,,,
-DCH_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x,,,,,,,,
-DCH_bourgeois_dictatorship;Celestial Conglomorate;;;;;;;;;;;;;;x;;;;;;;;
-DCH_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-DCH_democracy;Free-China League;;;;;;;;;;;;;;x;;;;;;;;
-DCH_democracy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-DCH_fascist_dictatorship;Legion for the Death of China;;;;;;;;;;;;;;x;;;;;;;;
-DCH_fascist_dictatorship_ADJ;Eastasian;;;;;;;;;;;;;;x;;;;;;;;
-DCH_fascist_monarchy;Legion for the Death of China;;;;;;;;;;;;;;x;;;;;;;;
-DCH_fascist_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-DCH_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;;x;;;;;;;;
-DCH_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-DCH_hms_government;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-DCH_hms_government_ADJ;Yuan;;;;;;;;;;;;;;x;;;;;;;;
-DCH_parliamentary_republic;Free-China LeagueFree-China League;;;;;;;;;;;;;;x;;;;;;;;
-DCH_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-DCH_presidential_dictatorship;Statist Republic of China;;;;;;;;;;;;;;x;;;;;;;;
-DCH_presidential_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-DCH_proletarian_dictatorship;Celestial Commune of China;;;;;;;;;;;;;;x;;;;;;;;
-DCH_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;;x;;;;;;;;
-DCH_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-DCH_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;;x;;;;;;;;
-DCH_socialist_republic;Panasia;;;;;;;;;;;;;;x;;;;;;;;
-DCH_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;;x;;;;;;;
-AFU;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
-AFU_ADJ;Italian;;;;;;;;;;;;;x,,,,,,,,
-AFU_absolute_monarchy;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
-AFU_prussian_constitutionalism;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
-AFU_hms_government;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
-AFU_democracy;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,, 
-AFU_parliamentary_republic;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
-AFU_presidential_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
-AFU_bourgeois_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
-AFU_proletarian_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
-AFU_socialist_republic;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
-AFU_fascist_monarchy;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
-AFU_fascist_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x,,,,,,,,
-ITS;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ITS_ADJ;Italian;;;;;;;;;;;;;x,,,,,,,,
-ITS_absolute_monarchy;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ITS_prussian_constitutionalism;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ITS_hms_government;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ITS_democracy;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,, 
-ITS_parliamentary_republic;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ITS_presidential_dictatorship;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ITS_bourgeois_dictatorship;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ITS_proletarian_dictatorship;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ITS_socialist_republic;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ITS_fascist_monarchy;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ITS_fascist_dictatorship;Italian Shogunate;;;;;;;;;;;;;x,,,,,,,,
-IRS;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-IRS_ADJ;Roman;;;;;;;;;;;;;x,,,,,,,,
-IRS_absolute_monarchy;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-IRS_prussian_constitutionalism;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-IRS_hms_government;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-IRS_democracy;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,, 
-IRS_parliamentary_republic;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-IRS_presidential_dictatorship;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-IRS_bourgeois_dictatorship;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-IRS_proletarian_dictatorship;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-IRS_socialist_republic;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-IRS_fascist_monarchy;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-IRS_fascist_dictatorship;Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ASP;Oustralia;;;;;;;;;;;;;;x;;;;;;;;
-ASP_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;
-ASP_absolute_monarchy;Oustrália;;;;;;;;;;;;;;x;;;;;;;;
-ASP_absolute_monarchy_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;
-ASP_democracy;República Oustráliania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_democracy_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_hms_government;Oustrália;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_hms_government_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_parliamentary_republic;República Oustráliania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_parliamentary_republic_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
-ASP_presidential_dictatorship;República Oustráliania;;;;;;;;;;;;;;x;;;;;;;;
-ASP_presidential_dictatorship_ADJ;Oustráliana;;;;;;;;;;;;;;x;;;;;;;;
-GTK;Greater Cieszyn Kingdom;;;;;;;;;;;;;x,,,,,,,,
-GTK_ADJ;Cieszyn;;;;;;;;;;;;;x,,,,,,,,
-GTK_absolute_monarchy;Greater Cieszyn Kingdom;;;;;;;;;;;;;x,,,,,,,,
-GTK_prussian_constitutionalism;Greater Cieszyn Kingdom;;;;;;;;;;;;;x,,,,,,,,
-GTK_hms_government;Greater Cieszyn Kingdom;;;;;;;;;;;;;x,,,,,,,,
-GTK_democracy;Greater Cieszyn Republic;;;;;;;;;;;;;x,,,,,,,, 
-GTK_parliamentary_republic;Greater Cieszyn Republic;;;;;;;;;;;;;x,,,,,,,,
-GTK_presidential_dictatorship;Greater Cieszyn Republic;;;;;;;;;;;;;x,,,,,,,,
-GTK_bourgeois_dictatorship;Greater Cieszyn Democratic Republic;;;;;;;;;;;;;x,,,,,,,,
-GTK_proletarian_dictatorship;Greater Cieszyn Democratic Republic;;;;;;;;;;;;;x,,,,,,,,
-GTK_socialist_republic;Greater Cieszyn Democratic Republic;;;;;;;;;;;;;x,,,,,,,,
-GTK_fascist_monarchy;Greater Cieszyn Kingdom;;;;;;;;;;;;;x,,,,,,,,
-GTK_fascist_dictatorship;Greater Cieszyn Kingdom;;;;;;;;;;;;;x,,,,,,,,
-SIG;Singapore;;;;;;;;;;;;;x,,,,,,,,
-SIG_ADJ;Singaporean;;;;;;;;;;;;;x,,,,,,,,
-SIG_autonomous_dependency;Crown Colony of Singapore;;;;;;;;;;;;;x,,,,,,,,
-SIG_absolute_monarchy;Kingdom of Singapura;;;;;;;;;;;;;x,,,,,,,,
-SIG_prussian_constitutionalism;Kingdom of Singapura;;;;;;;;;;;;;x,,,,,,,,
-SIG_hms_government;Kingdom of Singapura;;;;;;;;;;;;;x,,,,,,,,
-SIG_democracy;Singapore;;;;;;;;;;;;;x,,,,,,,, 
-SIG_parliamentary_republic;Singapore;;;;;;;;;;;;;x,,,,,,,,
-SIG_presidential_dictatorship;Singapore;;;;;;;;;;;;;x,,,,,,,,
-SIG_bourgeois_dictatorship;Singapore;;;;;;;;;;;;;x,,,,,,,,
-SIG_proletarian_dictatorship;Singapore;;;;;;;;;;;;;x,,,,,,,,
-SIG_socialist_republic;Singapore;;;;;;;;;;;;;x,,,,,,,,
-SIG_fascist_monarchy;Singapore;;;;;;;;;;;;;x,,,,,,,,
-SIG_fascist_dictatorship;Singapore;;;;;;;;;;;;;x,,,,,,,,
-WFK;West Frankia;;;;;;;;;;;;;x,,,,,,,,
-WFK_ADJ;Frankish;;;;;;;;;;;;;x,,,,,,,,
-WFK_autonomous_dependency;Duchy of West Frankia;;;;;;;;;;;;;x,,,,,,,,
-WFK_absolute_monarchy;West Frankish Kingdom;;;;;;;;;;;;;x,,,,,,,,
-WFK_prussian_constitutionalism;West Frankish Kingdom;;;;;;;;;;;;;x,,,,,,,,
-WFK_hms_government;West Frankish Kingdom;;;;;;;;;;;;;x,,,,,,,,
-WFK_democracy;West Frankish Republic;;;;;;;;;;;;;x,,,,,,,, 
-WFK_parliamentary_republic;West Frankish Republic;;;;;;;;;;;;;x,,,,,,,,
-WFK_presidential_dictatorship;West Frankish Republic;;;;;;;;;;;;;x,,,,,,,,
-WFK_bourgeois_dictatorship;West Frankish Democratic Republic;;;;;;;;;;;;;x,,,,,,,,
-WFK_proletarian_dictatorship;West Frankish Democratic Republic;;;;;;;;;;;;;x,,,,,,,,
-WFK_socialist_republic;West Frankish Socialist Republic;;;;;;;;;;;;;x,,,,,,,,
-WFK_fascist_monarchy;West Frankish Kingdom;;;;;;;;;;;;;x,,,,,,,,
-WFK_fascist_dictatorship;West Frankish Kingdom;;;;;;;;;;;;;x,,,,,,,,
-VIS;Visigothia;;;;;;;;;;;;;x,,,,,,,,
-VIS_ADJ;Visigothic;;;;;;;;;;;;;x,,,,,,,,
-VIS_autonomous_dependency;Duchy of Visigothia;;;;;;;;;;;;;x,,,,,,,,
-VIS_absolute_monarchy;Visigothic Kingdom;;;;;;;;;;;;;x,,,,,,,,
-VIS_prussian_constitutionalism;Visigothic Kingdom;;;;;;;;;;;;;x,,,,,,,,
-VIS_hms_government;Visigothic Kingdom;;;;;;;;;;;;;x,,,,,,,,
-VIS_democracy;Visigothic Republic;;;;;;;;;;;;;x,,,,,,,, 
-VIS_parliamentary_republic;Visigothic Republic;;;;;;;;;;;;;x,,,,,,,,
-VIS_presidential_dictatorship;Visigothic Republic;;;;;;;;;;;;;x,,,,,,,,
-VIS_bourgeois_dictatorship;Visigothic Democratic Republic;;;;;;;;;;;;;x,,,,,,,,
-VIS_proletarian_dictatorship;Visigothic Democratic Republic;;;;;;;;;;;;;x,,,,,,,,
-VIS_socialist_republic;Visigothic Socialist Republic;;;;;;;;;;;;;x,,,,,,,,
-VIS_fascist_monarchy;Visigothic Kingdom;;;;;;;;;;;;;x,,,,,,,,
-VIS_fascist_dictatorship;Visigothic Kingdom;;;;;;;;;;;;;x,,,,,,,,\
-VAN;Vandals;;;;;;;;;;;;;x,,,,,,,,
-VAN_ADJ;Vandalic;;;;;;;;;;;;;x,,,,,,,,
-VAN_autonomous_dependency;Duchy of the Vandals;;;;;;;;;;;;;x,,,,,,,,
-VAN_absolute_monarchy;Kingdom of the Vandals;;;;;;;;;;;;;x,,,,,,,,
-VAN_prussian_constitutionalism;Kingdom of the Vandals;;;;;;;;;;;;;x,,,,,,,,
-VAN_hms_government;Kingdom of the Vandals;;;;;;;;;;;;;x,,,,,,,,
-VAN_democracy;Republic of the Vandals;;;;;;;;;;;;;x,,,,,,,, 
-VAN_parliamentary_republic;Republic of the Vandals;;;;;;;;;;;;;x,,,,,,,,
-VAN_presidential_dictatorship;Republic of the Vandals;;;;;;;;;;;;;x,,,,,,,,
-VAN_bourgeois_dictatorship;Republic of the Vandals;;;;;;;;;;;;;x,,,,,,,,
-VAN_proletarian_dictatorship;Republic of the Vandals;;;;;;;;;;;;;x,,,,,,,,
-VAN_socialist_republic;Republic of the Vandals;;;;;;;;;;;;;x,,,,,,,,
-VAN_fascist_monarchy;Kingdom of the Vandals;;;;;;;;;;;;;x,,,,,,,,
-VAN_fascist_dictatorship;Kingdom of the Vandals;;;;;;;;;;;;;x,,,,,,,,
-GHU;Hungary;;;;;;;;;;;;;x,,,,,,,,
-GHU_ADJ;Hungarian;;;;;;;;;;;;;x,,,,,,,,
-GHU_autonomous_dependency;Duchy of Hungary;;;;;;;;;;;;;x,,,,,,,,
-GHU_absolute_monarchy;Kingdom of Hungary;;;;;;;;;;;;;x,,,,,,,,
-GHU_prussian_constitutionalism;Kingdom of Hungary;;;;;;;;;;;;;x,,,,,,,,
-GHU_hms_government;Kingdom of Hungary;;;;;;;;;;;;;x,,,,,,,,
-GHU_democracy;Hungarian Republic;;;;;;;;;;;;;x,,,,,,,, 
-GHU_parliamentary_republic;Hungarian Republic;;;;;;;;;;;;;x,,,,,,,,
-GHU_presidential_dictatorship;Hungarian Republic;;;;;;;;;;;;;x,,,,,,,,
-GHU_bourgeois_dictatorship;Hungarian Republic;;;;;;;;;;;;;x,,,,,,,,
-GHU_proletarian_dictatorship;Hungarian Republic;;;;;;;;;;;;;x,,,,,,,,
-GHU_socialist_republic;Hungarian Republic;;;;;;;;;;;;;x,,,,,,,,
-GHU_fascist_monarchy;Kingdom of Hungary;;;;;;;;;;;;;x,,,,,,,,
-GHU_fascist_dictatorship;Kingdom of Hungary;;;;;;;;;;;;;x,,,,,,,,
-GPA;Papal States;;;;;;;;;;;;;x,,,,,,,,
-GPA_ADJ;Ostrogothic;;;;;;;;;;;;;x,,,,,,,,
-GPA_autonomous_dependency;Papal states;;;;;;;;;;;;;x,,,,,,,,
-GPA_absolute_monarchy;Papal states;;;;;;;;;;;;;x,,,,,,,,
-GPA_prussian_constitutionalism;Papal states;;;;;;;;;;;;;x,,,,,,,,
-GPA_hms_government;Papal states;;;;;;;;;;;;;x,,,,,,,,
-GPA_democracy;Papal states;;;;;;;;;;;;;x,,,,,,,, 
-GPA_parliamentary_republic;Papal states;;;;;;;;;;;;;x,,,,,,,,
-GPA_presidential_dictatorship;Papal states;;;;;;;;;;;;;x,,,,,,,,
-GPA_bourgeois_dictatorship;Papal states;;;;;;;;;;;;;x,,,,,,,,
-GPA_proletarian_dictatorship;Papal states;;;;;;;;;;;;;x,,,,,,,,
-GPA_socialist_republic;Papal states;;;;;;;;;;;;;x,,,,,,,,
-GPA_fascist_monarchy;Papal states;;;;;;;;;;;;;x,,,,,,,,
-GPA_fascist_dictatorship;Papal states;;;;;;;;;;;;;x,,,,,,,,
-NHR;Neo Holy Roman Empire;;;;;;;;;;;;;x,,,,,,,,
-NHR_ADJ;Franko-Roman;;;;;;;;;;;;;x,,,,,,,,
-NHR_absolute_monarchy;Holy Franko-Roman Empire;;;;;;;;;;;;;x,,,,,,,,
-NHR_prussian_constitutionalism;Holy Franko-Roman Empire;;;;;;;;;;;;;x,,,,,,,,
-NHR_hms_government;Holy Franko-Roman Empire;;;;;;;;;;;;;x,,,,,,,,
-NHR_democracy;Holy Franko-Roman Republic;;;;;;;;;;;;;x,,,,,,,, 
-NHR_parliamentary_republic;Holy Franko-Roman Republic;;;;;;;;;;;;;x,,,,,,,,
-NHR_presidential_dictatorship;Holy Franko-Roman Republic;;;;;;;;;;;;;x,,,,,,,,
-NHR_bourgeois_dictatorship;Holy Franko-Roman Democratic Republic;;;;;;;;;;;;;x,,,,,,,,
-NHR_proletarian_dictatorship;Holy Franko-Roman Council Republic;;;;;;;;;;;;;x,,,,,,,,
-NHR_socialist_republic;Holy Franko-Roman Socialist Republic;;;;;;;;;;;;;x,,,,,,,,
-NHR_fascist_monarchy;Holy Germanic Order;;;;;;;;;;;;;x,,,,,,,,
-NHR_fascist_dictatorship;Holy Germanic Order;;;;;;;;;;;;;x,,,,,,,,
-BGR;Burgundian Revolt;;;;;;;;;;;;;x,,,,,,,,
-BGR_ADJ;Burgundian;;;;;;;;;;;;;x,,,,,,,,
-DOB;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-DOB_ADJ;Bohemian;;;;;;;;;;;;;x,,,,,,,,
-DOB_autonomous_dependency;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-DOB_absolute_monarchy;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-DOB_prussian_constitutionalism;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-DOB_hms_government;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-DOB_democracy;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,, 
-DOB_parliamentary_republic;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-DOB_presidential_dictatorship;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-DOB_bourgeois_dictatorship;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-DOB_proletarian_dictatorship;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-DOB_socialist_republic;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-DOB_fascist_monarchy;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-DOB_fascist_dictatorship;Duchy of Bohemia;;;;;;;;;;;;;x,,,,,,,,
-FSE;Federation of Super Earth;;;;;;;;;;;;;x,,,,,,,,
-FSE_ADJ;Terraian;;;;;;;;;;;;;x,,,,,,,,
-SEA;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-SEA_ADJ;South East Asian;;;;;;;;;;;;;x,,,,,,,,
-SEA_autonomous_dependency;Dominion of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-SEA_absolute_monarchy;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-SEA_prussian_constitutionalism;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-SEA_hms_government;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-SEA_democracy;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,, 
-SEA_parliamentary_republic;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-SEA_presidential_dictatorship;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-SEA_bourgeois_dictatorship;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-SEA_proletarian_dictatorship;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-SEA_socialist_republic;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-SEA_fascist_monarchy;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-SEA_fascist_dictatorship;Union of South East Asia;;;;;;;;;;;;;x,,,,,,,,
-USO;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,,
-USO_ADJ;South Asian-Oceanian;;;;;;;;;;;;;x,,,,,,,,
-USO_absolute_monarchy;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,,
-USO_prussian_constitutionalism;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,,
-USO_hms_government;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,,
-USO_democracy;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,, 
-USO_parliamentary_republic;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,,
-USO_presidential_dictatorship;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,,
-USO_bourgeois_dictatorship;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,,
-USO_proletarian_dictatorship;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,,
-USO_socialist_republic;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,,
-USO_fascist_monarchy;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,,
-USO_fascist_dictatorship;Union of South Asia and Oceania;;;;;;;;;;;;;x,,,,,,,,
-EZG;Empire of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,,
-EZG_ADJ;Venedian-German;;;;;;;;;;;;;x,,,,,,,,
-EZG_absolute_monarchy;Holy Empire of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,,
-EZG_prussian_constitutionalism;Empire of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,,
-EZG_hms_government;Union of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,,
-EZG_democracy;Republic of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,, 
-EZG_parliamentary_republic;Republic of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,,
-EZG_presidential_dictatorship;Republic of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,,
-EZG_bourgeois_dictatorship;Democratic Republic of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,,
-EZG_proletarian_dictatorship;Democratic Republic of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,,
-EZG_socialist_republic;Socialist Republic of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,,
-EZG_fascist_monarchy;Empire of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,,
-EZG_fascist_dictatorship;Republic of Venedia and Germany;;;;;;;;;;;;;x,,,,,,,,
-BEL;Belgium;;;;;;;;;;;;;x,,,,,,,,
-BEL_ADJ;Belgian;;;;;;;;;;;;;x,,,,,,,,
-BEL_autonomous_dependency;Belgium Protectorate;;;;;;;;;;;;;x,,,,,,,,
-BEL_absolute_monarchy;Belgium;;;;;;;;;;;;;x,,,,,,,,
-BEL_prussian_constitutionalism;Belgium;;;;;;;;;;;;;x,,,,,,,,
-BEL_hms_government;Belgium;;;;;;;;;;;;;x,,,,,,,,
-BEL_democracy;Belgium;;;;;;;;;;;;;x,,,,,,,, 
-BEL_parliamentary_republic;Belgium;;;;;;;;;;;;;x,,,,,,,,
-BEL_presidential_dictatorship;Belgium;;;;;;;;;;;;;x,,,,,,,,
-BEL_bourgeois_dictatorship;Belgium;;;;;;;;;;;;;x,,,,,,,,
-BEL_proletarian_dictatorship;Belgium;;;;;;;;;;;;;x,,,,,,,,
-BEL_socialist_republic;Belgium;;;;;;;;;;;;;x,,,,,,,,
-BEL_fascist_monarchy;Belgium;;;;;;;;;;;;;x,,,,,,,,
-BEL_fascist_dictatorship;Belgium;;;;;;;;;;;;;x,,,,,,,,
-WRU;Federation of Venedia and the East;;;;;;;;;;;;;x,,,,,,,,
-WRU_ADJ;Eastern European;;;;;;;;;;;;;x,,,,,,,,
-WRU_absolute_monarchy;Empire of Venedia and the East;;;;;;;;;;;;;x,,,,,,,,
-WRU_prussian_constitutionalism;Empire of Venedia and the East;;;;;;;;;;;;;x,,,,,,,,
-WRU_hms_government;Federation of Venedia and the East;;;;;;;;;;;;;x,,,,,,,,
-WRU_democracy;Eastern European Union;;;;;;;;;;;;;x,,,,,,,, 
-WRU_parliamentary_republic;Eastern European Union;;;;;;;;;;;;;x,,,,,,,,
-WRU_presidential_dictatorship;Federation of Venedia and the East;;;;;;;;;;;;;x,,,,,,,,
-WRU_bourgeois_dictatorship;Democratic Eastern European Union;;;;;;;;;;;;;x,,,,,,,,
-WRU_proletarian_dictatorship;Democratic Eastern European Union;;;;;;;;;;;;;x,,,,,,,,
-WRU_socialist_republic;Socialist Federation of Venedia and the East;;;;;;;;;;;;;x,,,,,,,,
-WRU_fascist_monarchy;Empire of Venedia and the East;;;;;;;;;;;;;x,,,,,,,,
-WRU_fascist_dictatorship;Federation of Venedia and the East;;;;;;;;;;;;;x,,,,,,,,
-FSF;FuSang Federation;;;;;;;;;;;;;x,,,,,,,,
-FSF_ADJ;FuSang;;;;;;;;;;;;;x,,,,,,,,
-FSF_absolute_monarchy;Kingdom of FuSang;;;;;;;;;;;;;x,,,,,,,,
-FSF_prussian_constitutionalism;Kingdom of FuSang;;;;;;;;;;;;;x,,,,,,,,
-FSF_hms_government;FuSang Federation;;;;;;;;;;;;;x,,,,,,,,
-FSF_democracy;FuSang Federation;;;;;;;;;;;;;x,,,,,,,, 
-FSF_parliamentary_republic;FuSang Federation;;;;;;;;;;;;;x,,,,,,,,
-FSF_presidential_dictatorship;FuSang Directory;;;;;;;;;;;;;x,,,,,,,,
-FSF_bourgeois_dictatorship;Democratic FuSang Union;;;;;;;;;;;;;x,,,,,,,,
-FSF_proletarian_dictatorship;Democratic FuSang Union;;;;;;;;;;;;;x,,,,,,,,
-FSF_socialist_republic;Socialist FuSang Federation;;;;;;;;;;;;;x,,,,,,,,
-FSF_fascist_monarchy;Empire of FuSang;;;;;;;;;;;;;x,,,,,,,,
-FSF_fascist_dictatorship;FuSang Directory;;;;;;;;;;;;;x,,,,,,,,
-NGY;Germania;;;;;;;;;;;;;x,,,,,,,,
-NGY_ADJ;Germanic;;;;;;;;;;;;;x,,,,,,,,
-NGY_autonomous_dependency;Germania;;;;;;;;;;;;;x,,,,,,,,
-NGY_absolute_monarchy;Germania;;;;;;;;;;;;;x,,,,,,,,
-NGY_prussian_constitutionalism;Germania;;;;;;;;;;;;;x,,,,,,,,
-NGY_hms_government;Germania;;;;;;;;;;;;;x,,,,,,,,
-NGY_democracy;Germania;;;;;;;;;;;;;x,,,,,,,, 
-NGY_parliamentary_republic;Germania;;;;;;;;;;;;;x,,,,,,,,
-NGY_presidential_dictatorship;Germania;;;;;;;;;;;;;x,,,,,,,,
-NGY_bourgeois_dictatorship;Germanic Democratic Republic;;;;;;;;;;;;;x,,,,,,,,
-NGY_proletarian_dictatorship;The Germanic Council;;;;;;;;;;;;;x,,,,,,,,
-NGY_socialist_republic;Socialist Republic of Germania;;;;;;;;;;;;;x,,,,,,,,
-NGY_fascist_monarchy;Germania;;;;;;;;;;;;;x,,,,,,,,
-NGY_fascist_dictatorship;The State of Germania;;;;;;;;;;;;;x,,,,,,,,
+CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;x
+RUV;The Russian Revolt;;;;;;;;;;;;;x
+RUV_ADJ;Russian;;;;;;;;;;;;;x
+RUV_absolute_monarchy;The Russian Revolt;;;;;;;;;;;;;x
+RUV_prussian_constitutionalism;The Russian Revolt;;;;;;;;;;;;;x
+RUV_hms_government;The Russian Revolt;;;;;;;;;;;;;x
+RUV_democracy;The Russian Revolt;;;;;;;;;;;;;x 
+RUV_parliamentary_republic;The Russian Revolt;;;;;;;;;;;;;x
+RUV_presidential_dictatorship;The Russian Revolt;;;;;;;;;;;;;x
+RUV_bourgeois_dictatorship;The Russian Revolt;;;;;;;;;;;;;x
+RUV_proletarian_dictatorship;The Russian council Revolt;;;;;;;;;;;;;x
+RUV_socialist_republic;The Russian socialist Revolt;;;;;;;;;;;;;x
+RUV_fascist_monarchy;The Russian Revolt;;;;;;;;;;;;;x
+RUV_fascist_dictatorship;The Russian Revolt;;;;;;;;;;;;;x
+TEU;Teutonic Order;;;;;;;;;;;;;x
+TEU_ADJ;Teuton;;;;;;;;;;;;;x
+TEU_absolute_monarchy;Teutonic Order;;;;;;;;;;;;;x
+TEU_prussian_constitutionalism;Teutonic Order;;;;;;;;;;;;;x
+TEU_hms_government;Teutonic Order;;;;;;;;;;;;;x
+TEU_democracy;Teutonic Republic;;;;;;;;;;;;;x 
+TEU_parliamentary_republic;Teutonic Republic;;;;;;;;;;;;;x
+TEU_presidential_dictatorship;Teutonic Order;;;;;;;;;;;;;x
+TEU_bourgeois_dictatorship;Teutonic Order;;;;;;;;;;;;;x
+TEU_proletarian_dictatorship;Teutonic Council Republic;;;;;;;;;;;;;x
+TEU_socialist_republic;Teutonic Socialist Republic;;;;;;;;;;;;;x
+TEU_fascist_monarchy;Teutonic Order;;;;;;;;;;;;;x
+TEU_fascist_dictatorship;Teutonic Order;;;;;;;;;;;;;x
+LGC;The Low German Confederation;;;;;;;;;;;;;x
+LGC_ADJ;Low German;;;;;;;;;;;;;x
+LGC_absolute_monarchy;The Low German Confederation;;;;;;;;;;;;;x
+LGC_prussian_constitutionalism;The Low German Confederation;;;;;;;;;;;;;x
+LGC_hms_government;The Low German Confederation;;;;;;;;;;;;;x
+LGC_democracy;The Low German Republic;;;;;;;;;;;;;x 
+LGC_parliamentary_republic;The Low German Republic;;;;;;;;;;;;;x
+LGC_presidential_dictatorship;The Low German Confederation;;;;;;;;;;;;;x
+LGC_bourgeois_dictatorship;The Low German Confederation;;;;;;;;;;;;;x
+LGC_proletarian_dictatorship;The Low German Council Republic;;;;;;;;;;;;;x
+LGC_socialist_republic;The Low German Socialist Republic;;;;;;;;;;;;;x
+LGC_fascist_monarchy;The Low German Confederation;;;;;;;;;;;;;x
+LGC_fascist_dictatorship;The Low German Confederation;;;;;;;;;;;;;x
+FOG;The Franco-Occitan Commissariat;;;;;;;;;;;;;x
+FOG_ADJ;Franco-Occitan;;;;;;;;;;;;;x
+FOG_absolute_monarchy;The Franco-Occitan Commissariat;;;;;;;;;;;;;x
+FOG_prussian_constitutionalism;The Franco-Occitan Commissariat;;;;;;;;;;;;;x
+FOG_hms_government;The Franco-Occitan Commissariat;;;;;;;;;;;;;x
+FOG_democracy;The Franco-Occitan Commissariat;;;;;;;;;;;;;x 
+FOG_parliamentary_republic;The Franco-Occitan Commissariat;;;;;;;;;;;;;x
+FOG_presidential_dictatorship;The Franco-Occitan Commissariat;;;;;;;;;;;;;x
+FOG_bourgeois_dictatorship;The Franco-Occitan Commissariat;;;;;;;;;;;;;x
+FOG_proletarian_dictatorship;The Franco-Occitan Commissariat;;;;;;;;;;;;;x
+FOG_socialist_republic;The Franco-Occitan Commissariat;;;;;;;;;;;;;x
+FOG_fascist_monarchy;The Franco-Occitan Commissariat;;;;;;;;;;;;;x
+FOG_fascist_dictatorship;The Franco-Occitan Commissariat;;;;;;;;;;;;;x
+IBG;Iberian Commissariat;;;;;;;;;;;;;x
+IBG_ADJ;Iberian;;;;;;;;;;;;;x
+IBG_absolute_monarchy;Iberian Commissariat;;;;;;;;;;;;;x
+IBG_prussian_constitutionalism;Iberian Commissariat;;;;;;;;;;;;;x
+IBG_hms_government;Iberian Commissariat;;;;;;;;;;;;;x
+IBG_democracy;Iberian Commissariat;;;;;;;;;;;;;x 
+IBG_parliamentary_republic;Iberian Commissariat;;;;;;;;;;;;;x
+IBG_presidential_dictatorship;Iberian Commissariat;;;;;;;;;;;;;x
+IBG_bourgeois_dictatorship;Iberian Commissariat;;;;;;;;;;;;;x
+IBG_proletarian_dictatorship;Iberian Commissariat;;;;;;;;;;;;;x
+IBG_socialist_republic;Iberian Commissariat;;;;;;;;;;;;;x
+IBG_fascist_monarchy;Iberian Commissariat;;;;;;;;;;;;;x
+IBG_fascist_dictatorship;Iberian Commissariat;;;;;;;;;;;;;x
+ELG;The English Commissariat;;;;;;;;;;;;;x
+ELG_ADJ;English;;;;;;;;;;;;;x
+ELG_absolute_monarchy;The English Commissariat;;;;;;;;;;;;;x
+ELG_prussian_constitutionalism;The English Commissariat;;;;;;;;;;;;;x
+ELG_hms_government;The English Commissariat;;;;;;;;;;;;;x
+ELG_democracy;The English Commissariat;;;;;;;;;;;;;x 
+ELG_parliamentary_republic;The English Commissariat;;;;;;;;;;;;;x
+ELG_presidential_dictatorship;The English Commissariat;;;;;;;;;;;;;x
+ELG_bourgeois_dictatorship;The English Commissariat;;;;;;;;;;;;;x
+ELG_proletarian_dictatorship;The English Commissariat;;;;;;;;;;;;;x
+ELG_socialist_republic;The English Commissariat;;;;;;;;;;;;;x
+ELG_fascist_monarchy;The English Commissariat;;;;;;;;;;;;;x
+ELG_fascist_dictatorship;The English Commissariat;;;;;;;;;;;;;x
+BTG;The Albionian Commissariat;;;;;;;;;;;;;x
+BTG_ADJ;Albionian;;;;;;;;;;;;;x
+BTG_absolute_monarchy;The Albionian Commissariat;;;;;;;;;;;;;x
+BTG_prussian_constitutionalism;The Albionian Commissariat;;;;;;;;;;;;;x
+BTG_hms_government;The Albionian Commissariat;;;;;;;;;;;;;x
+BTG_democracy;The Albionian Commissariat;;;;;;;;;;;;;x 
+BTG_parliamentary_republic;The Albionian Commissariat;;;;;;;;;;;;;x
+BTG_presidential_dictatorship;The Albionian Commissariat;;;;;;;;;;;;;x
+BTG_bourgeois_dictatorship;The Albionian Commissariat;;;;;;;;;;;;;x
+BTG_proletarian_dictatorship;The Albionian Commissariat;;;;;;;;;;;;;x
+BTG_socialist_republic;The Albionian Commissariat;;;;;;;;;;;;;x
+BTG_fascist_monarchy;The Albionian Commissariat;;;;;;;;;;;;;x
+BTG_fascist_dictatorship;The Albionian Commissariat;;;;;;;;;;;;;x
+LTA;Lotharingia;;;;;;;;;;;;;x
+LTA_ADJ;Lotharingian;;;;;;;;;;;;;x
+LTA_absolute_monarchy;Lotharingia;;;;;;;;;;;;;x
+LTA_prussian_constitutionalism;Lotharingia;;;;;;;;;;;;;x
+LTA_hms_government;Lotharingia;;;;;;;;;;;;;x
+LTA_democracy;Lotharingia;;;;;;;;;;;;;x 
+LTA_parliamentary_republic;Lotharingia;;;;;;;;;;;;;x
+LTA_presidential_dictatorship;Lotharingia;;;;;;;;;;;;;x
+LTA_bourgeois_dictatorship;Lotharingia;;;;;;;;;;;;;x
+LTA_proletarian_dictatorship;Lotharingia;;;;;;;;;;;;;x
+LTA_socialist_republic;Lotharingia;;;;;;;;;;;;;x
+LTA_fascist_monarchy;Lotharingia;;;;;;;;;;;;;x
+LTA_fascist_dictatorship;Lotharingia;;;;;;;;;;;;;x
+LOB;Lombardia;;;;;;;;;;;;;x
+LOB_ADJ;Lombardian;;;;;;;;;;;;;x
+LOB_autonomous_dependency;Duchy of Lombardia;;;;;;;;;;;;;x
+LOB_absolute_monarchy;The Kingdom of Lombardia;;;;;;;;;;;;;x
+LOB_prussian_constitutionalism;The Kingdom of Lombardia;;;;;;;;;;;;;x
+LOB_hms_government;The Kingdom of Lombardia;;;;;;;;;;;;;x
+LOB_democracy;The Kingdom of Lombardia;;;;;;;;;;;;;x 
+LOB_parliamentary_republic;The Kingdom of Lombardia;;;;;;;;;;;;;x
+LOB_presidential_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x
+LOB_bourgeois_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x
+LOB_proletarian_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x
+LOB_socialist_republic;The Kingdom of Lombardia;;;;;;;;;;;;;x
+LOB_fascist_monarchy;The Kingdom of Lombardia;;;;;;;;;;;;;x
+LOB_fascist_dictatorship;The Kingdom of Lombardia;;;;;;;;;;;;;x
+YUA;Great Yuan;;;;;;;;;;;;;x
+YUA_ADJ;Yuan;;;;;;;;;;;;;x
+YUA_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x
+YUA_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x
+YUA_bourgeois_dictatorship;Landlord's Republic of China;;;;;;;;;;;;;x
+YUA_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+YUA_democracy;United States of China;;;;;;;;;;;;;x
+YUA_democracy_ADJ;Chinese;;;;;;;;;;;;;x
+YUA_fascist_dictatorship;Undefeated Empire of The East West South North and Center;;;;;;;;;;;;;x
+YUA_fascist_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+YUA_fascist_monarchy;Celestial Yuan Empire;;;;;;;;;;;;;x
+YUA_fascist_monarchy_ADJ;Yuan;;;;;;;;;;;;;x
+YUA_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;x
+YUA_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;x
+YUA_hms_government;Great Yuan;;;;;;;;;;;;;x
+YUA_hms_government_ADJ;Yuan;;;;;;;;;;;;;x
+YUA_parliamentary_republic;United States of China;;;;;;;;;;;;;x
+YUA_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;x
+YUA_presidential_dictatorship;Super Asia;;;;;;;;;;;;;x
+YUA_presidential_dictatorship_ADJ;Super Asian;;;;;;;;;;;;;x
+YUA_proletarian_dictatorship;Chinese Federation;;;;;;;;;;;;;x
+YUA_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+YUA_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;x
+YUA_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;x
+YUA_socialist_republic;Panasia;;;;;;;;;;;;;x
+YUA_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;x
+CCH;Great Yuan;;;;;;;;;;;;;x
+CCH_ADJ;Yuan;;;;;;;;;;;;;x
+CCH_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x
+CCH_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x
+CCH_bourgeois_dictatorship;Celestial Conglomorate;;;;;;;;;;;;;x
+CCH_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+CCH_democracy;United States of China;;;;;;;;;;;;;x
+CCH_democracy_ADJ;Chinese;;;;;;;;;;;;;x
+CCH_fascist_dictatorship;Undefeated Empire of The East West South North and Center;;;;;;;;;;;;;x
+CCH_fascist_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+CCH_fascist_monarchy;Undefeated Empire of The East West South North and Center;;;;;;;;;;;;;x
+CCH_fascist_monarchy_ADJ;Chinese;;;;;;;;;;;;;x
+CCH_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;x
+CCH_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;x
+CCH_hms_government;Great Yuan;;;;;;;;;;;;;x
+CCH_hms_government_ADJ;Yuan;;;;;;;;;;;;;x
+CCH_parliamentary_republic;United States of China;;;;;;;;;;;;;x
+CCH_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;x
+CCH_presidential_dictatorship;Statist Republic of China;;;;;;;;;;;;;x
+CCH_presidential_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+CCH_proletarian_dictatorship;Celestial Commune of China;;;;;;;;;;;;;x
+CCH_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+CCH_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;x
+CCH_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;x
+CCH_socialist_republic;Panasia;;;;;;;;;;;;;x
+CCH_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;x
+FCH;Great Yuan;;;;;;;;;;;;;x
+FCH_ADJ;Yuan;;;;;;;;;;;;;x
+FCH_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x
+FCH_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x
+FCH_bourgeois_dictatorship;ermwhatthefrick;;;;;;;;;;;;;x
+FCH_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+FCH_democracy;United States of China;;;;;;;;;;;;;x
+FCH_democracy_ADJ;Chinese;;;;;;;;;;;;;x
+FCH_fascist_dictatorship;Sons of Han Fei;;;;;;;;;;;;;x
+FCH_fascist_dictatorship_ADJ;shit;;;;;;;;;;;;;x
+FCH_fascist_monarchy;Sons of Han Fei;;;;;;;;;;;;;x
+FCH_fascist_monarchy_ADJ;Chinese;;;;;;;;;;;;;x
+FCH_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;x
+FCH_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;x
+FCH_hms_government;Great Yuan;;;;;;;;;;;;;x
+FCH_hms_government_ADJ;Yuan;;;;;;;;;;;;;x
+FCH_parliamentary_republic;United States of China;;;;;;;;;;;;;x
+FCH_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;x
+FCH_presidential_dictatorship;Statist Republic of China;;;;;;;;;;;;;x
+FCH_presidential_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+FCH_proletarian_dictatorship;Celestial Commune of China;;;;;;;;;;;;;x
+FCH_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+FCH_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;x
+FCH_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;x
+FCH_socialist_republic;Panasia;;;;;;;;;;;;;x
+FCH_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;x
+DCH;Great Yuan;;;;;;;;;;;;;x
+DCH_ADJ;Yuan;;;;;;;;;;;;;x
+DCH_absolute_monarchy;Great Yuan;;;;;;;;;;;;;x
+DCH_absolute_monarchy_ADJ;Yuan;;;;;;;;;;;;;x
+DCH_bourgeois_dictatorship;Celestial Conglomorate;;;;;;;;;;;;;x
+DCH_bourgeois_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+DCH_democracy;Free-China League;;;;;;;;;;;;;x
+DCH_democracy_ADJ;Chinese;;;;;;;;;;;;;x
+DCH_fascist_dictatorship;Legion for the Death of China;;;;;;;;;;;;;x
+DCH_fascist_dictatorship_ADJ;Eastasian;;;;;;;;;;;;;x
+DCH_fascist_monarchy;Legion for the Death of China;;;;;;;;;;;;;x
+DCH_fascist_monarchy_ADJ;Chinese;;;;;;;;;;;;;x
+DCH_feudal_monarchy;Chinese Kingdom;;;;;;;;;;;;;x
+DCH_feudal_monarchy_ADJ;Chinese;;;;;;;;;;;;;x
+DCH_hms_government;Great Yuan;;;;;;;;;;;;;x
+DCH_hms_government_ADJ;Yuan;;;;;;;;;;;;;x
+DCH_parliamentary_republic;Free-China LeagueFree-China League;;;;;;;;;;;;;x
+DCH_parliamentary_republic_ADJ;Chinese;;;;;;;;;;;;;x
+DCH_presidential_dictatorship;Statist Republic of China;;;;;;;;;;;;;x
+DCH_presidential_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+DCH_proletarian_dictatorship;Celestial Commune of China;;;;;;;;;;;;;x
+DCH_proletarian_dictatorship_ADJ;Chinese;;;;;;;;;;;;;x
+DCH_prussian_constitutionalism;Great Yuan;;;;;;;;;;;;;x
+DCH_prussian_constitutionalism_ADJ;Great Yuan;;;;;;;;;;;;;x
+DCH_socialist_republic;Panasia;;;;;;;;;;;;;x
+DCH_socialist_republic_ADJ;Panaisan;;;;;;;;;;;;;x
+AFU;Italian Regency of Carnaro;;;;;;;;;;;;;x
+AFU_ADJ;Italian;;;;;;;;;;;;;x
+AFU_absolute_monarchy;Italian Regency of Carnaro;;;;;;;;;;;;;x
+AFU_prussian_constitutionalism;Italian Regency of Carnaro;;;;;;;;;;;;;x
+AFU_hms_government;Italian Regency of Carnaro;;;;;;;;;;;;;x
+AFU_democracy;Italian Regency of Carnaro;;;;;;;;;;;;;x 
+AFU_parliamentary_republic;Italian Regency of Carnaro;;;;;;;;;;;;;x
+AFU_presidential_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x
+AFU_bourgeois_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x
+AFU_proletarian_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x
+AFU_socialist_republic;Italian Regency of Carnaro;;;;;;;;;;;;;x
+AFU_fascist_monarchy;Italian Regency of Carnaro;;;;;;;;;;;;;x
+AFU_fascist_dictatorship;Italian Regency of Carnaro;;;;;;;;;;;;;x
+ITS;Italian Shogunate;;;;;;;;;;;;;x
+ITS_ADJ;Italian;;;;;;;;;;;;;x
+ITS_absolute_monarchy;Italian Shogunate;;;;;;;;;;;;;x
+ITS_prussian_constitutionalism;Italian Shogunate;;;;;;;;;;;;;x
+ITS_hms_government;Italian Shogunate;;;;;;;;;;;;;x
+ITS_democracy;Italian Shogunate;;;;;;;;;;;;;x 
+ITS_parliamentary_republic;Italian Shogunate;;;;;;;;;;;;;x
+ITS_presidential_dictatorship;Italian Shogunate;;;;;;;;;;;;;x
+ITS_bourgeois_dictatorship;Italian Shogunate;;;;;;;;;;;;;x
+ITS_proletarian_dictatorship;Italian Shogunate;;;;;;;;;;;;;x
+ITS_socialist_republic;Italian Shogunate;;;;;;;;;;;;;x
+ITS_fascist_monarchy;Italian Shogunate;;;;;;;;;;;;;x
+ITS_fascist_dictatorship;Italian Shogunate;;;;;;;;;;;;;x
+IRS;Roman Shogunate;;;;;;;;;;;;;x
+IRS_ADJ;Roman;;;;;;;;;;;;;x
+IRS_absolute_monarchy;Roman Shogunate;;;;;;;;;;;;;x
+IRS_prussian_constitutionalism;Roman Shogunate;;;;;;;;;;;;;x
+IRS_hms_government;Roman Shogunate;;;;;;;;;;;;;x
+IRS_democracy;Roman Shogunate;;;;;;;;;;;;;x 
+IRS_parliamentary_republic;Roman Shogunate;;;;;;;;;;;;;x
+IRS_presidential_dictatorship;Roman Shogunate;;;;;;;;;;;;;x
+IRS_bourgeois_dictatorship;Roman Shogunate;;;;;;;;;;;;;x
+IRS_proletarian_dictatorship;Roman Shogunate;;;;;;;;;;;;;x
+IRS_socialist_republic;Roman Shogunate;;;;;;;;;;;;;x
+IRS_fascist_monarchy;Roman Shogunate;;;;;;;;;;;;;x
+IRS_fascist_dictatorship;Roman Shogunate;;;;;;;;;;;;;x
+ASP;Oustralia;;;;;;;;;;;;;x
+ASP_ADJ;Oustráliana;;;;;;;;;;;;;x
+ASP_absolute_monarchy;Oustrália;;;;;;;;;;;;;x
+ASP_absolute_monarchy_ADJ;Oustráliana;;;;;;;;;;;;;x
+ASP_democracy;República Oustráliania;;;;;;;;;;;;;x
+ASP_democracy_ADJ;Oustráliana;;;;;;;;;;;;;x
+ASP_hms_government;Oustrália;;;;;;;;;;;;;x
+ASP_hms_government_ADJ;Oustráliana;;;;;;;;;;;;;x
+ASP_parliamentary_republic;República Oustráliania;;;;;;;;;;;;;x
+ASP_parliamentary_republic_ADJ;Oustráliana;;;;;;;;;;;;;x
+ASP_presidential_dictatorship;República Oustráliania;;;;;;;;;;;;;x
+ASP_presidential_dictatorship_ADJ;Oustráliana;;;;;;;;;;;;;x
+GTK;Greater Cieszyn Kingdom;;;;;;;;;;;;;x
+GTK_ADJ;Cieszyn;;;;;;;;;;;;;x
+GTK_absolute_monarchy;Greater Cieszyn Kingdom;;;;;;;;;;;;;x
+GTK_prussian_constitutionalism;Greater Cieszyn Kingdom;;;;;;;;;;;;;x
+GTK_hms_government;Greater Cieszyn Kingdom;;;;;;;;;;;;;x
+GTK_democracy;Greater Cieszyn Republic;;;;;;;;;;;;;x 
+GTK_parliamentary_republic;Greater Cieszyn Republic;;;;;;;;;;;;;x
+GTK_presidential_dictatorship;Greater Cieszyn Republic;;;;;;;;;;;;;x
+GTK_bourgeois_dictatorship;Greater Cieszyn Democratic Republic;;;;;;;;;;;;;x
+GTK_proletarian_dictatorship;Greater Cieszyn Democratic Republic;;;;;;;;;;;;;x
+GTK_socialist_republic;Greater Cieszyn Democratic Republic;;;;;;;;;;;;;x
+GTK_fascist_monarchy;Greater Cieszyn Kingdom;;;;;;;;;;;;;x
+GTK_fascist_dictatorship;Greater Cieszyn Kingdom;;;;;;;;;;;;;x
+SIG;Singapore;;;;;;;;;;;;;x
+SIG_ADJ;Singaporean;;;;;;;;;;;;;x
+SIG_autonomous_dependency;Crown Colony of Singapore;;;;;;;;;;;;;x
+SIG_absolute_monarchy;Kingdom of Singapura;;;;;;;;;;;;;x
+SIG_prussian_constitutionalism;Kingdom of Singapura;;;;;;;;;;;;;x
+SIG_hms_government;Kingdom of Singapura;;;;;;;;;;;;;x
+SIG_democracy;Singapore;;;;;;;;;;;;;x 
+SIG_parliamentary_republic;Singapore;;;;;;;;;;;;;x
+SIG_presidential_dictatorship;Singapore;;;;;;;;;;;;;x
+SIG_bourgeois_dictatorship;Singapore;;;;;;;;;;;;;x
+SIG_proletarian_dictatorship;Singapore;;;;;;;;;;;;;x
+SIG_socialist_republic;Singapore;;;;;;;;;;;;;x
+SIG_fascist_monarchy;Singapore;;;;;;;;;;;;;x
+SIG_fascist_dictatorship;Singapore;;;;;;;;;;;;;x
+WFK;West Frankia;;;;;;;;;;;;;x
+WFK_ADJ;Frankish;;;;;;;;;;;;;x
+WFK_autonomous_dependency;Duchy of West Frankia;;;;;;;;;;;;;x
+WFK_absolute_monarchy;West Frankish Kingdom;;;;;;;;;;;;;x
+WFK_prussian_constitutionalism;West Frankish Kingdom;;;;;;;;;;;;;x
+WFK_hms_government;West Frankish Kingdom;;;;;;;;;;;;;x
+WFK_democracy;West Frankish Republic;;;;;;;;;;;;;x 
+WFK_parliamentary_republic;West Frankish Republic;;;;;;;;;;;;;x
+WFK_presidential_dictatorship;West Frankish Republic;;;;;;;;;;;;;x
+WFK_bourgeois_dictatorship;West Frankish Democratic Republic;;;;;;;;;;;;;x
+WFK_proletarian_dictatorship;West Frankish Democratic Republic;;;;;;;;;;;;;x
+WFK_socialist_republic;West Frankish Socialist Republic;;;;;;;;;;;;;x
+WFK_fascist_monarchy;West Frankish Kingdom;;;;;;;;;;;;;x
+WFK_fascist_dictatorship;West Frankish Kingdom;;;;;;;;;;;;;x
+VIS;Visigothia;;;;;;;;;;;;;x
+VIS_ADJ;Visigothic;;;;;;;;;;;;;x
+VIS_autonomous_dependency;Duchy of Visigothia;;;;;;;;;;;;;x
+VIS_absolute_monarchy;Visigothic Kingdom;;;;;;;;;;;;;x
+VIS_prussian_constitutionalism;Visigothic Kingdom;;;;;;;;;;;;;x
+VIS_hms_government;Visigothic Kingdom;;;;;;;;;;;;;x
+VIS_democracy;Visigothic Republic;;;;;;;;;;;;;x 
+VIS_parliamentary_republic;Visigothic Republic;;;;;;;;;;;;;x
+VIS_presidential_dictatorship;Visigothic Republic;;;;;;;;;;;;;x
+VIS_bourgeois_dictatorship;Visigothic Democratic Republic;;;;;;;;;;;;;x
+VIS_proletarian_dictatorship;Visigothic Democratic Republic;;;;;;;;;;;;;x
+VIS_socialist_republic;Visigothic Socialist Republic;;;;;;;;;;;;;x
+VIS_fascist_monarchy;Visigothic Kingdom;;;;;;;;;;;;;x
+VIS_fascist_dictatorship;Visigothic Kingdom;;;;;;;;;;;;;x
+VAN;Vandals;;;;;;;;;;;;;x
+VAN_ADJ;Vandalic;;;;;;;;;;;;;x
+VAN_autonomous_dependency;Duchy of the Vandals;;;;;;;;;;;;;x
+VAN_absolute_monarchy;Kingdom of the Vandals;;;;;;;;;;;;;x
+VAN_prussian_constitutionalism;Kingdom of the Vandals;;;;;;;;;;;;;x
+VAN_hms_government;Kingdom of the Vandals;;;;;;;;;;;;;x
+VAN_democracy;Republic of the Vandals;;;;;;;;;;;;;x 
+VAN_parliamentary_republic;Republic of the Vandals;;;;;;;;;;;;;x
+VAN_presidential_dictatorship;Republic of the Vandals;;;;;;;;;;;;;x
+VAN_bourgeois_dictatorship;Republic of the Vandals;;;;;;;;;;;;;x
+VAN_proletarian_dictatorship;Republic of the Vandals;;;;;;;;;;;;;x
+VAN_socialist_republic;Republic of the Vandals;;;;;;;;;;;;;x
+VAN_fascist_monarchy;Kingdom of the Vandals;;;;;;;;;;;;;x
+VAN_fascist_dictatorship;Kingdom of the Vandals;;;;;;;;;;;;;x
+GHU;Hungary;;;;;;;;;;;;;x
+GHU_ADJ;Hungarian;;;;;;;;;;;;;x
+GHU_autonomous_dependency;Duchy of Hungary;;;;;;;;;;;;;x
+GHU_absolute_monarchy;Kingdom of Hungary;;;;;;;;;;;;;x
+GHU_prussian_constitutionalism;Kingdom of Hungary;;;;;;;;;;;;;x
+GHU_hms_government;Kingdom of Hungary;;;;;;;;;;;;;x
+GHU_democracy;Hungarian Republic;;;;;;;;;;;;;x 
+GHU_parliamentary_republic;Hungarian Republic;;;;;;;;;;;;;x
+GHU_presidential_dictatorship;Hungarian Republic;;;;;;;;;;;;;x
+GHU_bourgeois_dictatorship;Hungarian Republic;;;;;;;;;;;;;x
+GHU_proletarian_dictatorship;Hungarian Republic;;;;;;;;;;;;;x
+GHU_socialist_republic;Hungarian Republic;;;;;;;;;;;;;x
+GHU_fascist_monarchy;Kingdom of Hungary;;;;;;;;;;;;;x
+GHU_fascist_dictatorship;Kingdom of Hungary;;;;;;;;;;;;;x
+GPA;Papal States;;;;;;;;;;;;;x
+GPA_ADJ;Ostrogothic;;;;;;;;;;;;;x
+GPA_autonomous_dependency;Papal states;;;;;;;;;;;;;x
+GPA_absolute_monarchy;Papal states;;;;;;;;;;;;;x
+GPA_prussian_constitutionalism;Papal states;;;;;;;;;;;;;x
+GPA_hms_government;Papal states;;;;;;;;;;;;;x
+GPA_democracy;Papal states;;;;;;;;;;;;;x 
+GPA_parliamentary_republic;Papal states;;;;;;;;;;;;;x
+GPA_presidential_dictatorship;Papal states;;;;;;;;;;;;;x
+GPA_bourgeois_dictatorship;Papal states;;;;;;;;;;;;;x
+GPA_proletarian_dictatorship;Papal states;;;;;;;;;;;;;x
+GPA_socialist_republic;Papal states;;;;;;;;;;;;;x
+GPA_fascist_monarchy;Papal states;;;;;;;;;;;;;x
+GPA_fascist_dictatorship;Papal states;;;;;;;;;;;;;x
+NHR;Neo Holy Roman Empire;;;;;;;;;;;;;x
+NHR_ADJ;Franko-Roman;;;;;;;;;;;;;x
+NHR_absolute_monarchy;Holy Franko-Roman Empire;;;;;;;;;;;;;x
+NHR_prussian_constitutionalism;Holy Franko-Roman Empire;;;;;;;;;;;;;x
+NHR_hms_government;Holy Franko-Roman Empire;;;;;;;;;;;;;x
+NHR_democracy;Holy Franko-Roman Republic;;;;;;;;;;;;;x 
+NHR_parliamentary_republic;Holy Franko-Roman Republic;;;;;;;;;;;;;x
+NHR_presidential_dictatorship;Holy Franko-Roman Republic;;;;;;;;;;;;;x
+NHR_bourgeois_dictatorship;Holy Franko-Roman Democratic Republic;;;;;;;;;;;;;x
+NHR_proletarian_dictatorship;Holy Franko-Roman Council Republic;;;;;;;;;;;;;x
+NHR_socialist_republic;Holy Franko-Roman Socialist Republic;;;;;;;;;;;;;x
+NHR_fascist_monarchy;Holy Germanic Order;;;;;;;;;;;;;x
+NHR_fascist_dictatorship;Holy Germanic Order;;;;;;;;;;;;;x
+BGR;Burgundian Revolt;;;;;;;;;;;;;x
+BGR_ADJ;Burgundian;;;;;;;;;;;;;x
+DOB;Duchy of Bohemia;;;;;;;;;;;;;x
+DOB_ADJ;Bohemian;;;;;;;;;;;;;x
+DOB_autonomous_dependency;Duchy of Bohemia;;;;;;;;;;;;;x
+DOB_absolute_monarchy;Duchy of Bohemia;;;;;;;;;;;;;x
+DOB_prussian_constitutionalism;Duchy of Bohemia;;;;;;;;;;;;;x
+DOB_hms_government;Duchy of Bohemia;;;;;;;;;;;;;x
+DOB_democracy;Duchy of Bohemia;;;;;;;;;;;;;x 
+DOB_parliamentary_republic;Duchy of Bohemia;;;;;;;;;;;;;x
+DOB_presidential_dictatorship;Duchy of Bohemia;;;;;;;;;;;;;x
+DOB_bourgeois_dictatorship;Duchy of Bohemia;;;;;;;;;;;;;x
+DOB_proletarian_dictatorship;Duchy of Bohemia;;;;;;;;;;;;;x
+DOB_socialist_republic;Duchy of Bohemia;;;;;;;;;;;;;x
+DOB_fascist_monarchy;Duchy of Bohemia;;;;;;;;;;;;;x
+DOB_fascist_dictatorship;Duchy of Bohemia;;;;;;;;;;;;;x
+FSE;Federation of Super Earth;;;;;;;;;;;;;x
+FSE_ADJ;Terraian;;;;;;;;;;;;;x
+SEA;Union of South East Asia;;;;;;;;;;;;;x
+SEA_ADJ;South East Asian;;;;;;;;;;;;;x
+SEA_autonomous_dependency;Dominion of South East Asia;;;;;;;;;;;;;x
+SEA_absolute_monarchy;Union of South East Asia;;;;;;;;;;;;;x
+SEA_prussian_constitutionalism;Union of South East Asia;;;;;;;;;;;;;x
+SEA_hms_government;Union of South East Asia;;;;;;;;;;;;;x
+SEA_democracy;Union of South East Asia;;;;;;;;;;;;;x 
+SEA_parliamentary_republic;Union of South East Asia;;;;;;;;;;;;;x
+SEA_presidential_dictatorship;Union of South East Asia;;;;;;;;;;;;;x
+SEA_bourgeois_dictatorship;Union of South East Asia;;;;;;;;;;;;;x
+SEA_proletarian_dictatorship;Union of South East Asia;;;;;;;;;;;;;x
+SEA_socialist_republic;Union of South East Asia;;;;;;;;;;;;;x
+SEA_fascist_monarchy;Union of South East Asia;;;;;;;;;;;;;x
+SEA_fascist_dictatorship;Union of South East Asia;;;;;;;;;;;;;x
+USO;Union of South Asia and Oceania;;;;;;;;;;;;;x
+USO_ADJ;South Asian-Oceanian;;;;;;;;;;;;;x
+USO_absolute_monarchy;Union of South Asia and Oceania;;;;;;;;;;;;;x
+USO_prussian_constitutionalism;Union of South Asia and Oceania;;;;;;;;;;;;;x
+USO_hms_government;Union of South Asia and Oceania;;;;;;;;;;;;;x
+USO_democracy;Union of South Asia and Oceania;;;;;;;;;;;;;x 
+USO_parliamentary_republic;Union of South Asia and Oceania;;;;;;;;;;;;;x
+USO_presidential_dictatorship;Union of South Asia and Oceania;;;;;;;;;;;;;x
+USO_bourgeois_dictatorship;Union of South Asia and Oceania;;;;;;;;;;;;;x
+USO_proletarian_dictatorship;Union of South Asia and Oceania;;;;;;;;;;;;;x
+USO_socialist_republic;Union of South Asia and Oceania;;;;;;;;;;;;;x
+USO_fascist_monarchy;Union of South Asia and Oceania;;;;;;;;;;;;;x
+USO_fascist_dictatorship;Union of South Asia and Oceania;;;;;;;;;;;;;x
+EZG;Empire of Venedia and Germany;;;;;;;;;;;;;x
+EZG_ADJ;Venedian-German;;;;;;;;;;;;;x
+EZG_absolute_monarchy;Holy Empire of Venedia and Germany;;;;;;;;;;;;;x
+EZG_prussian_constitutionalism;Empire of Venedia and Germany;;;;;;;;;;;;;x
+EZG_hms_government;Union of Venedia and Germany;;;;;;;;;;;;;x
+EZG_democracy;Republic of Venedia and Germany;;;;;;;;;;;;;x 
+EZG_parliamentary_republic;Republic of Venedia and Germany;;;;;;;;;;;;;x
+EZG_presidential_dictatorship;Republic of Venedia and Germany;;;;;;;;;;;;;x
+EZG_bourgeois_dictatorship;Democratic Republic of Venedia and Germany;;;;;;;;;;;;;x
+EZG_proletarian_dictatorship;Democratic Republic of Venedia and Germany;;;;;;;;;;;;;x
+EZG_socialist_republic;Socialist Republic of Venedia and Germany;;;;;;;;;;;;;x
+EZG_fascist_monarchy;Empire of Venedia and Germany;;;;;;;;;;;;;x
+EZG_fascist_dictatorship;Republic of Venedia and Germany;;;;;;;;;;;;;x
+BEL;Belgium;;;;;;;;;;;;;x
+BEL_ADJ;Belgian;;;;;;;;;;;;;x
+BEL_autonomous_dependency;Belgium Protectorate;;;;;;;;;;;;;x
+BEL_absolute_monarchy;Belgium;;;;;;;;;;;;;x
+BEL_prussian_constitutionalism;Belgium;;;;;;;;;;;;;x
+BEL_hms_government;Belgium;;;;;;;;;;;;;x
+BEL_democracy;Belgium;;;;;;;;;;;;;x 
+BEL_parliamentary_republic;Belgium;;;;;;;;;;;;;x
+BEL_presidential_dictatorship;Belgium;;;;;;;;;;;;;x
+BEL_bourgeois_dictatorship;Belgium;;;;;;;;;;;;;x
+BEL_proletarian_dictatorship;Belgium;;;;;;;;;;;;;x
+BEL_socialist_republic;Belgium;;;;;;;;;;;;;x
+BEL_fascist_monarchy;Belgium;;;;;;;;;;;;;x
+BEL_fascist_dictatorship;Belgium;;;;;;;;;;;;;x
+WRU;Federation of Venedia and the East;;;;;;;;;;;;;x
+WRU_ADJ;Eastern European;;;;;;;;;;;;;x
+WRU_absolute_monarchy;Empire of Venedia and the East;;;;;;;;;;;;;x
+WRU_prussian_constitutionalism;Empire of Venedia and the East;;;;;;;;;;;;;x
+WRU_hms_government;Federation of Venedia and the East;;;;;;;;;;;;;x
+WRU_democracy;Eastern European Union;;;;;;;;;;;;;x 
+WRU_parliamentary_republic;Eastern European Union;;;;;;;;;;;;;x
+WRU_presidential_dictatorship;Federation of Venedia and the East;;;;;;;;;;;;;x
+WRU_bourgeois_dictatorship;Democratic Eastern European Union;;;;;;;;;;;;;x
+WRU_proletarian_dictatorship;Democratic Eastern European Union;;;;;;;;;;;;;x
+WRU_socialist_republic;Socialist Federation of Venedia and the East;;;;;;;;;;;;;x
+WRU_fascist_monarchy;Empire of Venedia and the East;;;;;;;;;;;;;x
+WRU_fascist_dictatorship;Federation of Venedia and the East;;;;;;;;;;;;;x
+FSF;FuSang Federation;;;;;;;;;;;;;x
+FSF_ADJ;FuSang;;;;;;;;;;;;;x
+FSF_absolute_monarchy;Kingdom of FuSang;;;;;;;;;;;;;x
+FSF_prussian_constitutionalism;Kingdom of FuSang;;;;;;;;;;;;;x
+FSF_hms_government;FuSang Federation;;;;;;;;;;;;;x
+FSF_democracy;FuSang Federation;;;;;;;;;;;;;x 
+FSF_parliamentary_republic;FuSang Federation;;;;;;;;;;;;;x
+FSF_presidential_dictatorship;FuSang Directory;;;;;;;;;;;;;x
+FSF_bourgeois_dictatorship;Democratic FuSang Union;;;;;;;;;;;;;x
+FSF_proletarian_dictatorship;Democratic FuSang Union;;;;;;;;;;;;;x
+FSF_socialist_republic;Socialist FuSang Federation;;;;;;;;;;;;;x
+FSF_fascist_monarchy;Empire of FuSang;;;;;;;;;;;;;x
+FSF_fascist_dictatorship;FuSang Directory;;;;;;;;;;;;;x
+NGY;Germania;;;;;;;;;;;;;x
+NGY_ADJ;Germanic;;;;;;;;;;;;;x
+NGY_autonomous_dependency;Germania;;;;;;;;;;;;;x
+NGY_absolute_monarchy;Germania;;;;;;;;;;;;;x
+NGY_prussian_constitutionalism;Germania;;;;;;;;;;;;;x
+NGY_hms_government;Germania;;;;;;;;;;;;;x
+NGY_democracy;Germania;;;;;;;;;;;;;x 
+NGY_parliamentary_republic;Germania;;;;;;;;;;;;;x
+NGY_presidential_dictatorship;Germania;;;;;;;;;;;;;x
+NGY_bourgeois_dictatorship;Germanic Democratic Republic;;;;;;;;;;;;;x
+NGY_proletarian_dictatorship;The Germanic Council;;;;;;;;;;;;;x
+NGY_socialist_republic;Socialist Republic of Germania;;;;;;;;;;;;;x
+NGY_fascist_monarchy;Germania;;;;;;;;;;;;;x
+NGY_fascist_dictatorship;The State of Germania;;;;;;;;;;;;;x

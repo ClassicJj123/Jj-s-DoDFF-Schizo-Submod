@@ -270,8 +270,12 @@ country_event = {
 	 option = {
 		 name = "EVTOPA1000000030"
 		 any_owned = {
-			 NOT = {
-				 has_pop_culture = prussian
+			 limit = {
+				any_pop = {
+					NOT = {
+				 		has_pop_culture = prussian
+			 		}
+				}
 			 }
 		 assimilate = yes
 		 }

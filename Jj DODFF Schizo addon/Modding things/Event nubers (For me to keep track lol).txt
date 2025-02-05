@@ -25,6 +25,7 @@ Event 1000000176 - 1000000183: JAP indepentence chain
 Event 1000000184 - 1000000192: JAP AUST content
 Event 1000000194 - 1000000217: UBD events
 Event 1000000450 - 1000000484: Yuan events (Retired)
-Event 1000000804: China Korean event (Retired)
+Event 1000000804: JAP event (Retired)
 Event 1000000401 - 1000000414: PLAT events
 Event 1000005000: SCA Baltic event
+Event 1000000090:China Korean event (Retired)

@@ -1,463 +1,517 @@
-y;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
-Turn_on_schizo_addon_title;Turn on the Schizo mod?;;;;;;;;;;;;;x,,,,,,,,
-Turn_on_schizo_addon_desc;Let the FUN begain!;;;;;;;;;;;;;x,,,,,,,,
-Turn_off_schzio_addon_title;Turn off the Schizo mod?;;;;;;;;;;;;;x,,,,,,,,;;;;
-Turn_off_schzio_addon_desc;Time to take them meds!;;;;;;;;;;;;;x,,,,,,,,
-Burgundian_question_title;The Burgundian Question;;;;;;;;;;;;;x,,,,,,,,
-Burgundian_question_desc;Now that we've destroyed the §RTRAITORS!§! What shall we do with them?;;;;;;;;;;;;;x,,,,,,,,
-Greater_greater_germany_title;Expand Pan-Germanism;;;;;;;;;;;;;x,,,,,,,,
-Greater_greater_germany_desc;Now that Germany has reached its logical conclusion, we should look outward;;;;;;;;;;;;;x,,,,,,,,
-The_Scandinavian_acceptence_title;Accept the Scandinavians;;;;;;;;;;;;;x,,,,,,,,
-The_Scandinavian_acceptence_desc;We have successfully conquered all of Scandinavia! Let us teach them that they are GERMAN!;;;;;;;;;;;;;x,,,,,,,,
-The_English_acceptence_title;Accept the English;;;;;;;;;;;;;x,,,,,,,,
-The_English_acceptence_desc;We have successfully conquered all of England! Let us teach them that they are GERMAN!;;;;;;;;;;;;;x,,,,,,,,
-Beornians_are_Germanic_title;Beornia is GERMANIC!;;;;;;;;;;;;;x,,,,,,,,
-Beornians_are_Germanic_desc;The Beornians are descendants from Englishmen, thus they are GERMANIC!;;;;;;;;;;;;;x,,,,,,,,
-The_Beornian_acceptence_title;Accept the Beornians;;;;;;;;;;;;;x,,,,,,,,
-The_Beornian_acceptence_desc;We have successfully conquered all of Beornia! Let us teach them that they are GERMAN!;;;;;;;;;;;;;x,,,,,,,,
-Batavia_is_german_title;Batavia is GERMANIC!;;;;;;;;;;;;;x,,,,,,,,
-Batavia_is_german_desc;The Batavians are descendants from Dutchmen, thus they are GERMANIC!;;;;;;;;;;;;;x,,,,,,,,
-The_Boer_acceptence_title;Accept the Batavians;;;;;;;;;;;;;x,,,,,,,,
-The_Boer_acceptence_desc;We have successfully conquered all of Batavia! Let us teach them that they are GERMAN!;;;;;;;;;;;;;x,,,,,,,,
-claim_the_caribbean_title;Claim the Caribbean;;;;;;;;;;;;;x,,,,,,,,
-claim_the_caribbean_desc;The Caribbean has long since beeen influenced by Germanic cultures, it is just up top us to REMIND THEM!;;;;;;;;;;;;;x,,,,,,,,
-The_Caribbean_Accepted_title;Accept the Germanic Caribbeaners;;;;;;;;;;;;;x,,,,,,,,
-The_Caribbean_Accepted_desc;While the Caribbean is mix of multiple cultures and ethnicities, however, there are a few tht descend from Germanic heritage. Let us accept them into our empire;;;;;;;;;;;;;x,,,,,,,,
-Baltic_claims_title;Claim Livonia;;;;;;;;;;;;;x,,,,,,,,
-Baltic_claims_desc;It's time to save the Balters in Livonia!;;;;;;;;;;;;;x,,,,,,,,
-Finish_what_the_teutons_started_title;Let us finsih what the Teutonic Order started;;;;;;;;;;;;;x,,,,,,,,
-Finish_what_the_teutons_started_desc;PUT DOWN THE PAGANS!;;;;;;;;;;;;;x,,,,,,,,
-Italy_expension_title;Reclaim our lost Italian lands;;;;;;;;;;;;;x,,,,,,,,
-Italy_expension_desc;We have lost our Italian lands due to (checks notes... IDK I didn't read the lore doc) It's time to reclaim our rightful lands!;;;;;;;;;;;;;x,,,,,,,,
-North_italian_acceptence_title;The Northern Italian acceptence;;;;;;;;;;;;;x,,,,,,,,
-North_italian_acceptence_desc;Now that we have conquered North Italy, we must remind the people there of their past in the Holy Roman Empire;;;;;;;;;;;;;x,,,,,,,,
-Claim_rome_title;Claim the Papal States;;;;;;;;;;;;;x,,,,,,,,
-Claim_rome_desc;Now that we have conquered Northern Italy, let us march on Rome!;;;;;;;;;;;;;x,,,,,,,,
-Central_italian_acceptence_title;Accept the Central Italians;;;;;;;;;;;;;x,,,,,,,,
-Central_italian_acceptence_desc;Now that we have conquered the Papal states, we must accept them;;;;;;;;;;;;;x,,,,,,,,
-Claim_burgundy_early_title;Claim Burgundy (Early);;;;;;;;;;;;;x,,,,,,,,
-Claim_burgundy_early_desc;Sick and tired of waiting till 1900 to claim Burgundy? Welp I just got the thing for you!;;;;;;;;;;;;;x,,,,,,,,
-Roman_expension_title;Claim the §RROMAN EMPIRE;;;;;;;;;;;;;x,,,,,,,,
-Roman_expension_desc;Let us claim our spot us the §RROMAN EMPEROR!;;;;;;;;;;;;;x,,,,,,,,
-Imperial_acceptence_title;Imperial Acceptatio;;;;;;;;;;;;;x,,,,,,,,
-Imperial_acceptence_desc;By Imperial Decree, all subjects shall be granted citizenship (Except the Africans, Arabs, Iranians, Kurds...);;;;;;;;;;;;;x,,,,,,,,
-Sail_down_the_danube_title;Claim the Danube!;;;;;;;;;;;;;x,,,,,,,,
-Sail_down_the_danube_desc;While we hold the title of 'Danubian confederation', we don't control the entire river. So! Lets us sail down the Danube!;;;;;;;;;;;;;x,,,,,,,,
-Hungarian_question_title;The Hungarian Question;;;;;;;;;;;;;x,,,,,,,,
-Hungarian_question_desc;We have conquered the Pannonian Basin, now we must decside what to do with the people within it;;;;;;;;;;;;;x,,,,,,,,
-Sail_to_the_black_sea_title;Sail to the Black Sea;;;;;;;;;;;;;x,,,,,,,,
-Sail_to_the_black_sea_desc;Now that we have conquered up to the Pannonian Basin, let ues SAIL TO THE BALCK SEA!;;;;;;;;;;;;;x,,,,,,,,
-Romanian_question_title;The Romanian Question;;;;;;;;;;;;;x,,,,,,,,
-Romanian_question_desc;We have conquered the Romanians surrounding the Danube, now what should we do with them?;;;;;;;;;;;;;x,,,,,,,,
-Master_of_the_balkans_title;Claim the Balkans!;;;;;;;;;;;;;x,,,,,,,,
-Master_of_the_balkans_desc;While we full control over the Danube, we do not possess control over the Adriatic Sea. Let us change that by claiming the Balkans!;;;;;;;;;;;;;x,,,,,,,,
-A_fighting_chance_title;A Fighting Chance!;;;;;;;;;;;;;x,,,,,,,,
-A_fighting_chance_desc;Help from a Schizo man;;;;;;;;;;;;;x,,,,,,,,
-The_baltic_native_question_title;The Baltic Question;;;;;;;;;;;;;x,,,,,,,,
-The_baltic_native_question_desc;What shall we do with the Natives?;;;;;;;;;;;;;x,,,,,,,,
-Remove_SCA_cores_title;Revoke Scandinavian Claims;;;;;;;;;;;;;x,,,,,,,,
-Remove_SCA_cores_desc;GET BENT SCANDI!;;;;;;;;;;;;;x,,,,,,,,
-Claim_lithuania_title;Claim Lithuania;;;;;;;;;;;;;x,,,,,,,,
-Claim_lithuania_desc;Funny Decision that would be removed later;;;;;;;;;;;;;x,,,,,,,,
-The_lithuanian_question_title;The Lithuanian Question;;;;;;;;;;;;;x,,,,,,,,
-The_lithuanian_question_desc;What shall we do with the lithuanians;;;;;;;;;;;;;x,,,,,,,,
-Baltic_identity_title;Our national identity;;;;;;;;;;;;;x,,,,,,,,
-Baltic_identity_desc;Now that we've full control of the Batics, what shall we aim for?;;;;;;;;;;;;;x,,,,,,,,
-Claim_belarus_title;Claim Belarus;;;;;;;;;;;;;x,,,,,,,,
-Claim_belarus_desc;We must destroy our neighbour! They don't believe in the same type of christianity!;;;;;;;;;;;;;x,,,,,,,,
-Claim_pskov_title;Claim Pskov;;;;;;;;;;;;;x,,,,,,,,
-Claim_pskov_desc;We must control the baltic sea, thus Pskov must be ours!;;;;;;;;;;;;;x,,,,,,,,
-The_blarusian_question_title;The Belarusian Question;;;;;;;;;;;;;x,,,,,,,,
-The_blarusian_question_desc;What shall we do with the Belarusians?;;;;;;;;;;;;;x,,,,,,,,
-Pskov_genocide_title;§RPskov genocide§!;;;;;;;;;;;;;x,,,,,,,,
-Pskov_genocide_desc;§RThere's no questions to be answered, they must be exterminated!§!;;;;;;;;;;;;;x,,,,,,,,
-The_final_solution_title;§RThe final solution§!;;;;;;;;;;;;;x,,,,,,,,
-The_final_solution_desc;... May god save thier souls...;;;;;;;;;;;;;x,,,,,,,,
-Pommerania_Holstein_claims_title;Claim the Germanic coast;;;;;;;;;;;;;x,,,,,,,,
-Pommerania_Holstein_claims_desc;In order to place ourselves in the Germanic world, we must first prove ourselves!;;;;;;;;;;;;;x,,,,,,,,
-claim_Elbian_leadership_title;Claim Leadership of the Elbians;;;;;;;;;;;;;x,,,,,,,,
-claim_Elbian_leadership_desc;Now that we have proven ourselves, it's time to pursue leadership over our Elbian brothers!;;;;;;;;;;;;;x,,,,,,,,
-Low_german_union_proclamation_title;Proclaim The Low German Union;;;;;;;;;;;;;x,,,,,,,,
-Low_german_union_proclamation_desc;With our leadership over the Elbians, we are now free to expand our interest in Germany;;;;;;;;;;;;;x,,,,,,,,
-From_LGC_title;From the Low German Union;;;;;;;;;;;;;x,,,,,,,,
-From_LGC_desc;Now that we own all of the Lands considered 'Low German', we can now proclaim the Low German Union;;;;;;;;;;;;;x,,,,,,,,
-Help_the_starving_title;Address the Hollowing;;;;;;;;;;;;;x,,,,,,,,
-Help_the_starving_desc;We must help the Germans;;;;;;;;;;;;;x,,,,,,,,
-A_union_of_equals_title;A Union of Equals;;;;;;;;;;;;;x,,,,,,,,
-A_union_of_equals_desc;While we are in a confederation, the balters enjoy a higher privilege. We must revoke this to ensure that this union lasts;;;;;;;;;;;;;x,,,,,,,,
-Claim_brabant_title;Claim Brabant;;;;;;;;;;;;;x,,,,,,,,
-Claim_brabant_desc;While we own all of the Low Germans, we shouldn't stop here. ONWARDS! TO BRABANT!;;;;;;;;;;;;;x,,,,,,,,
-Brabant_question_title;The Brabantian Question;;;;;;;;;;;;;x,,,,,,,,
-Brabant_question_desc;Now that we have conquered the Brabantian region, what shall we do with the Brabantians?;;;;;;;;;;;;;x,,,,,,,,
-Nuke_burgundian_claims_title;Revoke Burgundian claims;;;;;;;;;;;;;x,,,,,,,,
-Nuke_burgundian_claims_desc;While we have conquered our rightful lands, most of the the former Burgundian lands have sizable popluations of Burgundians giving Burgundy a good claim to our land. We must deal with them.;;;;;;;;;;;;;x,,,,,,,,
-Nuke_SCA_claims_title;Revoke Scandinavian claims;;;;;;;;;;;;;x,,,,,,,,
-Nuke_SCA_claims_desc;While we have conquered our rightful lands, most of the the former Scandinavian lands have sizable popluations of Scandinavians giving Scandinavia a good claim to our land. We must deal with them.;;;;;;;;;;;;;x,,,,,,,,
-schizo_japan_title;Bring Civilization To China;;;;;;;;;;;;;x,,,,,,,,
-schizo_japan_desc;We Japanese have become the beacon of civilization in asia. Today, once great kingdoms on our continent are falling left and right to the whims of European Imperialists. It is our goal, nay, our responsibility to protect China from their own primitive ways, lest it lead to them being conquered by some who would exploit them. Of course, by doing this, we will exploit them ourselves, but this is acceptable, as they are far too backwards to make proper use of their own land and people.;;;;;;;;;;;;;x,,,,,,,,
-what_to_do_with_china_title;What Shall We Do With China?;;;;;;;;;;;;;x,,,,,,,,
-what_to_do_with_china_desc;§RRealease The Chinese Emprie as a puppet to continue further. §!!We have done it! Finally, we have conquered the Middle Kingdom, once the grandest empire in the world, reduced to another of our Imperial Holdings. Only one question remains, what shall we do with all of this newly acquired land?;;;;;;;;;;;;;x,,,,,,,,
-china_schizo_title;Unite The Sinosphere;;;;;;;;;;;;;x,,,,,,,,
-china_schizo_desc;For too long China has been bled by the craven, and torn apart by the greedy, forever on the defense. No longer! We will attain unity of all of the distant colonies of the once-great Ming empire.;;;;;;;;;;;;;x,,,,,,,,
-china_conquest_unlocker_title;Unlock Conquests Early.;;;;;;;;;;;;;x,,,,,,,,
-china_conquest_unlocker_desc;Set the flags to allow for earlier conquest of the Steppe. This is not necessary if you are playing as Taiping.;;;;;;;;;;;;;x,,,,,,,,
-accept_tibetans_chi_title;Integrate the Tibetans;;;;;;;;;;;;;x,,,,,,,,
-accept_tibetans_chi_desc;The Tibetans and the Chinese have mutally respected eachother's culture for centuries. Given our shared religion, we should strive to make the Tibetans equal under our legal system.;;;;;;;;;;;;;x,,,,,,,,
-accept_manchus_chi_title;Integrate the Manchus;;;;;;;;;;;;;x,,,,,,,,
-accept_manchus_chi_desc;While they were once invaders, the Manchus have largely integrated into mainline Han chinese culture. We should reward this docility by giving them equal rights to the Han.;;;;;;;;;;;;;x,,,,,,,,
-conquer_korea_chi_freed_korea_title;Take Korea
-conquer_korea_chi_freed_korea_desc;The Koreans have been a vassal of China for virutally their entire history, and now they hold these funny ideas of independence?! How dare they! We shall put them back in their place.;;;;;;;;;;;;;x,,,,,,,,
-conquer_korea_chi_unfreed_korea_title;Liberate Korea;;;;;;;;;;;;;x,,,,,,,,
-conquer_korea_chi_unfreed_korea_desc;Korea is suffering under the yolk of Japanese Imperialism, it is up to us to save them if we have the chance! We must liberate Korea from the Japanese, and bring them back to our side!;;;;;;;;;;;;;x,,,,,,,,
-claim_england_sca_title;Found The North Sea Empire;;;;;;;;;;;;;x,,,,,,,,
-claim_england_sca_desc;Over 800 years ago, Scandinavians took England, our Nordic Brethren, and integrated them into our cultural sphere, we must do this again! We shall take England, who have known nothing but mismanagement and oppression for hundreds of years. The stability our rule shall bring will be welcomed with open arms, surely! Naturally, we will integrate them into our nordic empire with full legal equality to the Scandinavians and Scots. While the Danelaw will be restored, the English will not be subjects this time, but brothers!;;;;;;;;;;;;;x,,,,,,,,
-claim_ireland_sca_title;Claim Ireland;;;;;;;;;;;;;x,,,,,,,,
-claim_ireland_sca_desc;The Celts, just like the Scandinavians, were once the subjects of our viking ancestors, the Irish too were once under our thumb. Even the great city of Dublin was said to have been founded by Scandinavian explorers. It is only natural that we take them into our sphere, further extending citizen's rights to the Celts.;;;;;;;;;;;;;x,,,,,,,,
-conquer_vinland_ARC_subject_title;Integrate Vinland;;;;;;;;;;;;;x,,,,,,,,
-conquer_vinland_ARC_subject_desc;After their complete humiliation, the full integration of Vinland into Arcadia is practically a formality at this point. Nonetheless, it is a formality that must be taken in order for our Empire to achieve its natural borders.;;;;;;;;;;;;;x,,,,,,,,
-conquer_vinland_ARC_title;Realize Charles II's Dream;;;;;;;;;;;;;x,,,,,,,,
-conquer_vinland_ARC_desc;For too long has Vinland been out of the Arcadian Empire's control. All of European Arcadia belongs to our glorious empire, and it is critical that we take Vinland in order to realize the dreams of Charles II. The mad king will no longer look so mad now.;;;;;;;;;;;;;x,,,,,,,,
-arc_retake_dua_title;Return Home;;;;;;;;;;;;;x,,,,,,,,
-arc_retake_dua_desc;Finally, after nearly a century, the trueborn heirs of the Plantagenet name will seize control of their rightful land. Under the watchful leadership of Emperor Louis I, we shall retake France and England, finally getting back what is ours.;;;;;;;;;;;;;x,,,,,,,,
-retvrn_arc_no_dua_title;Return Home;;;;;;;;;;;;;x,,,,,,,,
-retvrn_arc_no_dua_desc;While those fools in Europe have squandered our Empire, that shall not stop us! We will forcibly take back what is ours, no longer shall England and France have petty ideas of independence. Our empire belongs to us alone!;;;;;;;;;;;;;x,,,,,,,,
-proclaim_triple_monarchy_no_fed_title;Proclaim The Triple Monarchy;;;;;;;;;;;;;x,,,,,,,,
-proclaim_triple_monarchy_no_fed_desc;Now that the two worlds of our Empire have had time to settle, it is time that Louis, in the twilight years of his life, finalize his rule. He will declare the end of the Dual Monarchy, and the beginning of a new Empire of two hemispheres. The Triple Monarchy, formally integrating the Arcadian Empire as the third jewel in the former Dual Monarchy's crown.;;;;;;;;;;;;;x,,,,,,,,
-proclaim_triple_monarchy_fed_title;Proclaim The Triple Monarchy;;;;;;;;;;;;;x,,,,,,,,
-proclaim_triple_monarchy_fed_desc;Now that the two worlds of our Empire have had time to settle, it is time that Louis, in the twilight years of his life, finalize his rule. He will declare the end of the Dual Monarchy, and the beginning of a new Empire of two hemispheres. The Triple Monarchy, formally integrating the Arcadian Empire as the third jewel in the former Dual Monarchy's crown.;;;;;;;;;;;;;x,,,,,,,,
-The_voices_title;The Voices;;;;;;;;;;;;;x,,,,,,,,
-The_voices_desc;The Voices;;;;;;;;;;;;;x,,,,,,,,
-Minor_expansion_title;Minor expansion;;;;;;;;;;;;;x,,,,,,,,
-Minor_expansion_desc;The voice demanded we secure our borders, so off we go!;;;;;;;;;;;;;x,,,,,,,,
-Major_expansion_title;Major expansion;;;;;;;;;;;;;x,,,,,,,,
-Major_expansion_desc;While we have secured our western border, our eastern one lays undefended. THUS WE MUST PURGE THE UNDESIRABLES!;;;;;;;;;;;;;x,,,,,,,,
-invite_western_scholars_title;Invite Western Scholars;;;;;;;;;;;;;x,,,,,,,,
-invite_western_scholars_desc;It is no secret that our Empire is perhaps the most backwards in all of Asia. Geographical factors have not treated us kindly, central asia being forever on the backdoor of both Europe and East Asia. No longer though, as we shall invite European Scholars to grant us their technological and social innovations, while we keep our culture in tact. We shall invite them, we shall pay them handsomely, and we shall treat them like royaly.;;;;;;;;;;;;;x,,,,,,,,
-return_to_our_mongol_roots_title;A Return to Our Roots;;;;;;;;;;;;;x,,,,,,,,
-return_to_our_mongol_roots_desc;Following the death of the last great Khan, his young son, Qulpa Khan has taken over his position. Though inexperienced, he has developed a fascination with his Mongol roots, even abandoning the Oirat language in favor of Mongolian. Desipte his inexperience, he has already shown himself to be a capable leader, even has our Khanate tears itself apart. His prowess at command is said to rival even the Khan of Khans himself. He has instituted a sweeping series of reforms, notably adopting the Mongol religion of Buddhism, and declaring the official state language to be Buddhism, as well as inviting several European experts to help in modernizing our country, and more importantly, our army.;;;;;;;;;;;;;x,,,,,,,,
-proclaim_yuan_dynasty_schizo_title;Restore our Birthright;;;;;;;;;;;;;x,,,,,,,,
-proclaim_yuan_dynasty_schizo_desc;We will declare the empire enstituted by the Red Turbans, and therefore all future Empires which claim the middle kingdom as illegitimate. We will be the only dynasty that can rule China, even if the people of China do not see it so. China has been disunified for far too long, and perhaps some may be willing to accept our stabilizing might.;;;;;;;;;;;;;x,,,,,,,,
-create_new_capital_title;Found a New Capital;;;;;;;;;;;;;x,,,,,,,,
-create_new_capital_desc;While Beijing is a perfectly serviceable capital, many of the Khan-Turned-Emperor's closeset cronies suggest a different capital may be preferable, as this way we can keep carve out our own identity, different from all of the other pretenders who clung to Beijing so dearly.;;;;;;;;;;;;;x,,,,,,,,
-accept_yi_title;Fund Yi Public Works;;;;;;;;;;;;;x,,,,,,,,
-accept_yi_desc;The Yi people are a small minority within China, being related distantly to the Han and numbering rather few, they have not garnered the greatest acceptance by their cousins. While they are no large demographic, by funding public works to secure their employment and strengthen their cultural morale, we could make good friends of them.;;;;;;;;;;;;;x,,,,,,,,
-accept_miao_title;The Miao Minority;;;;;;;;;;;;;x,,,,,,,,
-accept_miao_desc;The Miao, also known as the Hmong people in china represent a small minority, being quite similar in size to the Yi people, living primarily in rural southern China. With a few strategically placed agricultural privledges at the expense of the Han, we could make the Miao allies of our government.;;;;;;;;;;;;;x,,,,,,,,
-accept_yue_title;Solving the Cantonese Conundrum;;;;;;;;;;;;;x,,,,,,,,
-accept_yue_desc;The Yue Chinese speakers of southern China have been a large beneficiary of our rule, as we have left the company quite open to western trade without so much war between competing dynasties fogging the ports and making sailing unsafe. Now, they are some of our greatest supporters, only requiring a few extra trade benefits to embrace us wholeheartedly.;;;;;;;;;;;;;x,,,,,,,,
-end_alt_warlord_era_notyua_title;End The Warlord Era;;;;;;;;;;;;;x,,,,,,,,
-end_alt_warlord_era_notyua_desc;The three-way civil war which has destroyed our empire has been resolved, and we the victor! Now we only need to officially declare ourselves as the rulers of China, and foreign governments will have no choice but to recognize us as the only legitimate rulers of China.;;;;;;;;;;;;;x,,,,,,,,
-end_alt_warlord_era_yua_title;The Rebels Crushed;;;;;;;;;;;;;x,,,,,,,,
-end_alt_warlord_era_yua_desc;Finally, after such a brutal war we have crushed the rebels who have destroyed our country. We have solved the war, and now we need only to remove the last instances of rebellion in our provinces.;;;;;;;;;;;;;x,,,,,,,,
-manchuria_vore_yua_title;Manchuria, A Candidate for Conquest;;;;;;;;;;;;;x,,,,,,,,
-manchuria_vore_yua_desc;Manchuria is in a compromized position, being stuck between our might empire, and the unfortunately-mighty empire of Japan. We can offer them safety, particularly as they are descended from the Steppe peoples, just as we are. We can find cultural brotherhood, and use it to strengthen ourselves by conquering them.;;;;;;;;;;;;;x,,,,,,,,
-cross_the_himalayas_title;Cross The Himalayas;;;;;;;;;;;;;x,,,,,,,,
-cross_the_himalayas_desc;The Himalayas are the tallest mountains in the world, but that has not stopped the spread of culture nor religion. Vajrayana Buddhism and ascociated iconography have united the two sides of the mountains, it is only natural that we unify the range.;;;;;;;;;;;;;x,,,,,,,,
-claim_SEA_commie_title;Liberate South Eastasia;;;;;;;;;;;;;x,,,,,,,,
-claim_SEA_commie_desc;Southeast Asia has been taken by western imperialists, there is no doubt to be had that they will accept our rule. We only need to fully liberate them to prove that we have their best interest in mind. Of course, we must govern them directly to ensure that they fall in line with the monarcho-socialist paradise that our People's Emperor intends on building.;;;;;;;;;;;;;x,,,,,,,,
-claim_KOR_commie_title;Liberate Korea;;;;;;;;;;;;;x,,,,,,,,
-claim_KOR_commie_desc;Just as Southern Asia has fallen to the hands of western imperialists, Korea, a long-time Chinese client state has fallen into the hands of eastern imperialists, the Japanese. We must rescue them from their foul clutches.;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_shu_title;Snuff Out The Shu;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_shu_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. "No!" says Qulpa Khan, we shall take them back. We will put our will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_dax_title;eXterminate The Xi;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_dax_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. "No!" says Qulpa Khan, we shall take them back. We will put our will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_tai_title;Terminate the Taiping;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_tai_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. "No!" says Qulpa Khan, we shall take them back. We will put our will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_mig_title;Punish The Presidency;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_mig_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. "No!" says Qulpa Khan, we shall take them back. We will put our will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_tng_title;Make the Tunging Kneel;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_tng_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. "No!" says Qulpa Khan, we shall take them back. We will force our benevolent will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_gng_title;Put an end to the Yue;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_gng_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. "No!" says Qulpa Khan, we shall take them back. We will force our benevolent will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_chi_title;Fight The Pretenders;;;;;;;;;;;;;x,,,,,,,,
-mop_up_china_chi_desc;Those bastards DARE to call themselves the unifiers of China!? We shall put them in their place!;;;;;;;;;;;;;x,,,,,,,, 
-accept_hispano_andean_title;Integrate Andean Latin Amerigans;;;;;;;;;;;;;x,,,,,,,,
-accept_hispano_andean_desc;Our taking over of the Ande via our conquest of Granada has lead to a large and vocal minority of spanish-speaking peoples living in the mountains and valleys of the region. While they are quite drastically outpopulated by local natives, they are still our Spanish brethren, and it is only proper that we accept them into Gran Colombia with open arms.;;;;;;;;;;;;;x,,,,,,,,
-conquer_quito_clm_title;Conquer Quito;;;;;;;;;;;;;x,,,,,,,,
-conquer_quito_clm_desc;The region of Quito remains the last roadblock on our journey to unite all of Spanish Ameriga, a vast region being with an enormous population of natives and relatively few spaniards, it will be difficult for us to control, but it is so large and resource rich, that conquering it is believed by many to be necessary for our empire.;;;;;;;;;;;;;x,,,,,,,,
-accept_andean_natives_title;Integrate Andean Natives;;;;;;;;;;;;;x,,,,,,,,
-accept_andean_natives_desc;The peoples of the former Incan Empire are a rainbow of diversity, descending from many different tribes, all having unique languages and cultural differences. Now that the Inca have been brought down and Quito humbled, we have room to offer them a place in our empire, as they are far too big for us to reasonably colonize, with the region being too unappetizing to potential settlers. With very generous financial programs, we can make them feel more than at home under our rule.;;;;;;;;;;;;;x,,,,,,,,
-ban_slavery_and_serfdom_yua_title;The Twin Evils;;;;;;;;;;;;;x,,,,,,,,
-ban_slavery_and_serfdom_yua_desc;Serfdom and slavery are the twin evils which keep our society locked in the dark ages. We must remove both of these practices at once! with generous compensation to the now-former slaveowners and serfholders to avoid any political upheaval such a dramatic course of action will cause.;;;;;;;;;;;;;x,,,,,,,,
-make_civil_war_easier_YUA_title;Make The Civil War Easier;;;;;;;;;;;;;x,,,,,,,,
-make_civil_war_easier_YUA_desc;In lieu of balancing changes which are yet to come, this decision can be taken if the civil war proves too challenging.;;;;;;;;;;;;;x,,,,,,,,
-organize_ASP_title;Organize The Oustralia Colony;;;;;;;;;;;;;x,,,,,,,,
-organize_ASP_desc;Against all odds, Spain has managed to secure a significant degree of influence in the southern continent of Australia. We should formalize our rule by creating a full colony to govern it for us.;;;;;;;;;;;;;x,,,,,,,,
-send_colonists_to_asp_title;Send Colonists to Oustralia;;;;;;;;;;;;;x,,,,,,,,
-send_colonists_to_asp_desc;Our colony in Oustralia is filled with natural resources, just waiting to be withdrawn. Now we need only bring Spaniards over to take them!.;;;;;;;;;;;;;x,,,,,,,,
-integrate_asp_title;Integrate Oustralia into the Commonwealth;;;;;;;;;;;;;x,,,,,,,,
-integrate_asp_desc;Just because Oustralia is our newest colony doesn't mean that it is any less important to the Hispanic crown. We should make them an equal part of our empire, just as we have for the Amerigan colonies.;;;;;;;;;;;;;x,,,,,,,,
-FIU_sus_man_title;A suspicious man;;;;;;;;;;;;;x,,,,,,,,
-FIU_sus_man_desc;A man has appeared outside of the regent's office, seaking a meeting with him;;;;;;;;;;;;;x,,,,,,,,
-AFU_concession_AUS_title;Concessions to Austria;;;;;;;;;;;;;x,,,,,,,,
-AFU_concession_AUS_desc;To improve our industry, let us give the Austrians some concessions;;;;;;;;;;;;;x,,,,,,,,
-AFU_concession_ARA_title;Concessions to Aragon;;;;;;;;;;;;;x,,,,,,,,
-AFU_concession_ARA_desc;To improve our industry, let us give the Aragonese some concessions;;;;;;;;;;;;;x,,,,,,,,
-AFU_spread_propaganda_istria_title;Preach our ways to the rest of Istria;;;;;;;;;;;;;x,,,,,,,,
-AFU_spread_propaganda_istria_desc;Now that our nation is back on track, let us spread our Revolution!;;;;;;;;;;;;;x,,,,,,,,
-treaty_of_venice_title;Treaty of Venice;;;;;;;;;;;;;x,,,,,,,,
-treaty_of_venice_desc;This is here to help you not have to fight a long war;;;;;;;;;;;;;x,,,,,,,,
-core_VEN_title;Core Venice;;;;;;;;;;;;;x,,,,,,,,
-core_VEN_desc;This is here in case Venice somehow isn't cored;;;;;;;;;;;;;x,,,,,,,,
-AFU_GRE_question_title;The Greek Question;;;;;;;;;;;;;x,,,,,,,,
-AFU_GRE_question_desc;With our successful overthrowing of veince, we are now left with the questions of what to do with the greeks;;;;;;;;;;;;;x,,,,,,,,
-AFU_kill_greek_title;Finish the Greek Question;;;;;;;;;;;;;x,,,,,,,,
-AFU_kill_greek_desc;With us having come into the postion of owning all lands claimed by the Greeks, we can now assimilate them;;;;;;;;;;;;;x,,,,,,,,
-AFU_claim_ITA_title;Claim Italy!;;;;;;;;;;;;;x,,,,,,,,
-AFU_claim_ITA_desc;With our victory over Venice we can now claim Leadership over Italy!;;;;;;;;;;;;;x,,,,,,,,
-ITA_brothers_war_title;Destroy the pretenders!;;;;;;;;;;;;;x,,,,,,,,
-ITA_brothers_war_desc;They who have proclaimed themselves as Italy must PERISH;;;;;;;;;;;;;x,,,,,,,,
-AFU_from_ITS_title;From the Italian Shogunate!;;;;;;;;;;;;;x,,,,,,,,
-AFU_from_ITS_desc;With our government being in control of most Italian land, let us honor the Shoguns and proclaim the Italian Shogunate!;;;;;;;;;;;;;x,,,,,,,,
-ITS_master_adriatic_title;Masters of the Adriatic;;;;;;;;;;;;;x,,,,,,,,
-ITS_master_adriatic_desc;With our ascension to a Shogunate, we MUST control the Adriatic!;;;;;;;;;;;;;x,,,,,,,,
-ITS_TUR_problem_title;The Turkish problem;;;;;;;;;;;;;x,,,,,,,,
-ITS_TUR_problem_desc;While we have fromed Italy, we can go further, but one nation stands in our way. Thus they must be eradicated!;;;;;;;;;;;;;x,,,,,,,,
-ITS_kill_TUR_title;Destroy the Turks;;;;;;;;;;;;;x,,,,,,,,
-ITS_kill_TUR_desc;With the defeat of the Turks, they must face the wrath of the Romans they conquered!;;;;;;;;;;;;;x,,,,,,,,
-ITS_claim_balkan_title;Master of the Balkans!;;;;;;;;;;;;;x,,,,,,,,
-ITS_claim_balkan_desc;With our mastery over the Adriatic, it's only natural we expand into the balkans!;;;;;;;;;;;;;x,,,,,,,,
-ITS_Balkan_question_title;The Balkan Question;;;;;;;;;;;;;x,,,,,,,,
-ITS_Balkan_question_desc;After conquering the Balkans, what shall we do with it's people?;;;;;;;;;;;;;x,,,,,,,,
-ITS_claim_middle_east_title;Master of the Middle East!;;;;;;;;;;;;;x,,,,,,,,
-ITS_claim_middle_east_desc;With our mastery over the Adriatic, it's only natural we expand into the Middle East!;;;;;;;;;;;;;x,,,,,,,,
-ITS_claim_north_africa_title;Master of North Africa!;;;;;;;;;;;;;x,,,,,,,,
-ITS_claim_north_africa_desc;With our mastery over the Adriatic, it's only natural we expand into North Africa!;;;;;;;;;;;;;x,,,,,,,,
-ITS_proclaim_IRS_title;Proclaim the Roman Shogunate;;;;;;;;;;;;;x,,,,,,,,
-ITS_proclaim_IRS_desc;With our claims over the old Roman Empire, we can now claim it's mantle;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_iberia_title;Claim Iberia;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_iberia_desc;Let us reclaim Iberia;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_gual_title;Claim Gual;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_gual_desc;Let us reclaim Gual;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_iberia_title;Accept the Iberians;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_iberia;With us being in control of all of Iberia, let us accept them!;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_gual_title;Accept the Gualish people;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_gual_desc;With us being in control of all of Gual, let us accept them!;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_south_germany_title;Claim southern Germany;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_south_germany;Lets us claim our southern German lands;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_south_german;Accept the South Germans;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_south_german;While we already accept the Danube Germans, we have yet to do so with the Swabians. Let us fix that;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_belgica_title;Claim Belgica;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_belgica_desc;Let us reclaim Belgica;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_belgica_title;Accept the Belgican people;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_belgica_desc;With us being in control of all of Belgica, let us accept them!;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_rhineland_title;Claim the Rhineland;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_rhineland_desc;Let us reclaim the Rhineland;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_rheinish_title;Accept the Rheinish people;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_rheinish_desc;With us being in control of all of the Rhineland, let us accept them!;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_border_lands_title;Claim the border lands;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_border_lands_desc;Let us reclaim the border lands;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_england_title;Claim England;;;;;;;;;;;;;x,,,,,,,,
-IRS_claim_england_desc;Let us reclaim England;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_england_title;Accept the English people;;;;;;;;;;;;;x,,,,,,,,
-IRS_accept_england_desc;With us being in control of all of England, let us accept them!;;;;;;;;;;;;;x,,,,,,,,
-IRS_japanese_question_title;The Japanese Question;;;;;;;;;;;;;x,,,,,,,,
-IRS_japanese_question_desc;We must get the Japanese to crown Emperor Meiji!;;;;;;;;;;;;;x,,,,,,,,
-HRE_fallen_title;Claim the Crown of the Holy Roman Empire;;;;;;;;;;;;;x,,,,,,,,
-HRE_fallen_desc;With the collapse of the Bohemian led Holy Roman Empire, the final institution of old has fallen. And while the Bohemians may still return to the German circle, we can pick up the burnt ashes of the Empire for our own needs;;;;;;;;;;;;;x,,,,,,,,
-LTA_pick_on_FRA_title;Turn to the west;;;;;;;;;;;;;x,,,,,,,,
-LTA_pick_on_FRA_desc;With the civil situation settled, we must now look to the west as with our return to our Germanic nature, the remaning Burgundians have turned to the French to maintain their culture. We must conquer the lands of France to stomp out any of the old Burgundian order;;;;;;;;;;;;;x,,,,,,,,
-LTA_reclaim_west_frankia_title;Reclaim West Frankia;;;;;;;;;;;;;x,,,,,,,,
-LTA_reclaim_west_frankia_desc;Our first attempt at subjugating the lands of france from the Dual Monarchy was a failure, with much of our country refusing Germanification, a lot of manpower had to be diverted from the warfront to deal with them resulting in minor gains. However! With our victory over the Dual Monarchy, much of the old Burgundians have seen it as a sign and have converted. Our second round will result in our total victory!;;;;;;;;;;;;;x,,,,,,,,
-establish_WFK_title;Establish the Duchy of West Frankia;;;;;;;;;;;;;x,,,,,,,,
-establish_WFK_desc;With us owning all of france, the last burgundian resistance has submitted to our cause. However, this has brought another problem. Resistance cells have popped up in France, hamppering our assimilation process. To combat this, we must establish a West Frankish puppet;;;;;;;;;;;;;x,,,,,,,,
-destroy_french_culture_title;Destroy French culture;;;;;;;;;;;;;x,,,,,,,,
-destroy_french_culture_desc;You are killing French culture, is there anything else to say?;;;;;;;;;;;;;x,,,,,,,,
-annex_WFK_title;End the West Frankia Duchy;;;;;;;;;;;;;x,,,,,,,,
-annex_WFK_desc;The West Frankish Duchy has lived through it's use, it's time to incorporate it into our Kingdom;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_SWA_title;Claim Swabia;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_SWA_desc;With our western fank secure, we can now turn our attention to the Germanic world;;;;;;;;;;;;;x,,,,,,,,
-LTA_accept_SWA_title;Accept the Swabians;;;;;;;;;;;;;x,,,,,,,,
-LTA_accept_SWA_desc;While we have conquered swabia, they are a Germanic people, thus we must accept them!;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_CFR_title;Claim the Rheinish Germans;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_CFR_desc;With our western fank secure, we can now turn our attention to the Germanic world;;;;;;;;;;;;;x,,,,,,,,
-accept_rheinish_title;Accept the Rheinish;;;;;;;;;;;;;x,,,,,,,,
-accept_rheinish_desc;While we have conquered the Rheinish, they are a Germanic people, thus we must accept them!;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_north_italy_title;Claim North Italy;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_north_italy_desc;Northern Italy was once part of the Lotharingian realm, Let us bring them back into the fold!;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_LOB_title;Establish the Lombard Duchy;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_LOB_desc;Too much time has passed since the collapse of Lotharingia, the people of Northern Italy no longer see themselves either Germans nor Lotharingians, thus a temporary Duchy must be created to facilitate assimilation!;;;;;;;;;;;;;x,,,,,,,,
-annex_LOB_title;Integrate the Duchy of Lombardy;;;;;;;;;;;;;x,,,,,,,,
-annex_LOB_desc;Enough time has passed, its time to integrate the Lombard Duchy!;;;;;;;;;;;;;x,,,,,,,,
-LTA_kill_ITA_title;Claim Italy;;;;;;;;;;;;;x,,,,,,,,
-LTA_kill_ITA_desc;With our rule over the Northern parts of Italy secured, let us go down the peninsula!;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_GPA_title;Re-establish the Papal States;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_GPA_desc;The Pope is an important part of European culture, thus let us Grant him back his holdings on the condition he turns to the Germanic culture;;;;;;;;;;;;;x,,,,,,,,
-annex_GPA_title;Integrate the Papal States;;;;;;;;;;;;;x,,,,,,,,
-annex_GPA_desc;The time has come to integrate the Papal States, an agreement has already been made with the Pope to ensure a smooth passing of power;;;;;;;;;;;;;x,,,,,,,,
-LTA_Destroy_ITA_title;Destroy the Concept of Italy;;;;;;;;;;;;;x,,,,,,,,
-LTA_Destroy_ITA_desc;While we may have conquered Italy, to keep it chained to us we must destroy any and all mentions of Italy. Squads have been created and have started to search and destroy any piece of literature that advocates for a united Italy. Soon it will just be a footnote in history.;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_SPA_title;Claim Spain;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_SPA_desc;In ancient times, Germanic tribes migrated down to Iberia, now let us reclaim it!;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_VIS_title;Establish the Visigothic Duchy;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_VIS_desc;The Germans that once inhabit Iberia were the Visigoths, so let's re-establish a duchy for them!;;;;;;;;;;;;;x,,,,,,,,
-LTA_demand_VIS_concession_title;Demand Concessions from the Visigoths;;;;;;;;;;;;;x,,,,,,,,
-LTA_demand_VIS_concession_desc;While we have granted the Visigothic Duchy autonomy, many in our cabinet feel that we should demand something in return, thus our king has demanded the border lands;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_north_africa_title;Claim North Africa;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_north_africa_desc;The Vandals once lived in the northern africa, thus let us reclaim it!;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_VAN_title;Establish the Vandal Duchy;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_VAN_desc;The Germans that once inhabit Iberia were the Vandals, so let's re-establish a duchy for them!;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_NGF_title;Claim Northern Germany;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_NGF_desc;Now that we have secured our flanks, we can finally move on to secure the borders of the Holy Roman Empire!;;;;;;;;;;;;;x,,,,,,,,
-LTA_accept_NGF_title;Accept the Elbians;;;;;;;;;;;;;x,,,,,,,,
-LTA_accept_NGF_desc;The Elbians were once part of the Holy Roman Empire, thus we should grant them equal rights;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_SGF_title;Claim Danubia;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_SGF_desc;Now that we have secured our flanks, we can finally move on to secure the borders of the Holy Roman Empire!;;;;;;;;;;;;;x,,,,,,,,
-LTA_accept_SGF_title;Accept the Danubians;;;;;;;;;;;;;x,,,,,,,,
-LTA_accept_SGF_desc;The Danubians were once part of the Holy Roman Empire, thus we should grant them equal rights;;;;;;;;;;;;;x,,,,,,,,
-LTA_subjuguate_HUN_title;Subjugate Hungary;;;;;;;;;;;;;x,,,,,,,,
-LTA_subjuguate_HUN_desc;Germans have long lived in the Hungarian lands, thus let us claim it for them!;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_GHU_title;Establish a Duchy for the Hungarian Germans;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_GHU_desc;The Germans of Hungary are disorganized, thus by creating this duchy, we'll help them establish a standardized culture to stand up against the Hungarians!;;;;;;;;;;;;;x,,,,,,,,
-annex_GHU_title;Integrate the Hungarian Duchy;;;;;;;;;;;;;x,,,,,,,,
-annex_GHU_desc;Enough time has passed, the people of the Hungarian Duchy have all but become Germans, thus let us integrate them into our empire!;;;;;;;;;;;;;x,,,,,,,,
-LTA_subjuguate_BOH_title;Subjugate Bohemia;;;;;;;;;;;;;x,,,,,,,,
-LTA_subjuguate_BOH_desc;Bohemia, the lands that serve as the cross roads for Germans and Slavs. Once the leader of the Germanic world, now reduced to its crownlands. Lets embark on our final leg of our journey, TO PRAGUE!;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_BOH_title;Establish the Bohemian Duchy;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_BOH_desc;While Most of Bohemia identifies as Germanic, a large minority still hold onto their Slavic roots. Let us establish a temporary Duchy to educate them of what is TRULY their roots;;;;;;;;;;;;;x,,,,,,,,
-LTA_destroy_BOH_title;Integrate the Bohemian Duchy;;;;;;;;;;;;;x,,,,,,,,
-LTA_destroy_BOH_desc;Enough time has passed, the people of the Bohemian Duchy have all but become Germans, thus let us integrate them into our empire!;;;;;;;;;;;;;x,,,,,,,,
-LTA_from_NHR_title;Proclaim the Empire reborn;;;;;;;;;;;;;x,,,,,,,,
-LTA_from_NHR_desc;With our Empire spanning both the lands of the Empires of the Holy Roman Emprie and Frankia, its time to not only claim the successor title of the H.R.E, but also the Frankish Kingdom!;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_livonia_title;Claim Livonia;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_livonia_desc;The Livonia region has for years been inhabited by Baltic Germans, it's only right as the Protector of Germans to help them establish a duchy!;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_LIV_title;Establish Livonia;;;;;;;;;;;;;x,,,,,,,,
-LTA_establish_LIV_desc;With control of Livonia, it's time to establish the Duchy of Livonia;;;;;;;;;;;;;x,,,,,,,,
-LTA_annex_RHI_title;Annex the Rhine Duchy;;;;;;;;;;;;;x,,,,,,,,
-LTA_annex_RHI_desc;;;;;;;;;;;;;;x,,,,,,,,
-LTA_annex_VOC_title;End the VOC;;;;;;;;;;;;;x,,,,,,,,
-LTA_annex_VOC_desc;;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_SAF_title;Expand the Duchy of the Cape;;;;;;;;;;;;;x,,,,,,,,
-LTA_claim_SAF_desc;;;;;;;;;;;;;;x,,,,,,,,
-LTA_puppet_VIS_title;Restore Order in Visigothia;;;;;;;;;;;;;x,,,,,,,,
-LTA_puppet_VIS_desc;;;;;;;;;;;;;;x,,,,,,,,
-LTA_puppet_WFK_title;Restore Order in West Frankia;;;;;;;;;;;;;x,,,,,,,,
-LTA_puppet_WFK_desc;;;;;;;;;;;;;;x,,,,,,,,
-LTA_puppet_LOB_title;Restore Order in Lombardy;;;;;;;;;;;;;x,,,,,,,,
-LTA_puppet_LOB_desc;;;;;;;;;;;;;;x,,,,,,,,
-TES_claim_silesia_title;Claim the rest of Silesia;;;;;;;;;;;;;x,,,,,,,,
-TES_claim_silesia_desc;We were always a duchy based in Silesia, so let's take it from the Bohemians!;;;;;;;;;;;;;x,,,,,,,,
-TES_claim_poland_title;Claim Polish Leadership;;;;;;;;;;;;;x,,,,,,,,
-TES_claim_poland_desc;In the past, we were established by the polish. Thus, we hold a reputable claim to it's throne, so lets claim it!;;;;;;;;;;;;;x,,,,,,,,
-TES_claim_czechia_title;Claim Bohemia;;;;;;;;;;;;;x,,,,,,,,
-TES_claim_czechia_desc;While we are polish by hereditary, we have a sizable Bohemian population, giving us a claim on the Bohemian throne;;;;;;;;;;;;;x,,,,,,,,
-TES_claim_slovakia_title;Claim Slovakia;;;;;;;;;;;;;x,,,,,,,,
-TES_claim_slovakia_desc;We can expand, so let's march into Slovakia;;;;;;;;;;;;;x,,,,,,,,
-TES_accept_slovakians_title;Accept the Slovakians;;;;;;;;;;;;;x,,,,,,,,
-TES_accept_slovakians_desc;The Slovakians are quite close to our Bohemian and Czech citizens, let's grant them equal status!;;;;;;;;;;;;;x,,,,,,,,
-TES_from_CZE_title;From Zapadoslavia;;;;;;;;;;;;;x,,,,,,,,
-TES_from_CZE_desc;With control of most of the western Slavs, we can proclaim the Zapadoslavia Union!;;;;;;;;;;;;;x,,,,,,,,
-TES_from_GTK_title;From Greater Cieszyn;;;;;;;;;;;;;x,,,,,,,,
-TES_from_GTK_desc;While we have united the western Slavs, we have yet to reach our full potential. Let us proclaim Greater Cieszyn for now;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_polabia_title;Claim Polabia;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_polabia_desc;East Germany was once home to the Slavic Polabians, let us conquer it;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_sorbs_title;Accept the Sorbs;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_sorbs_desc;The Sorbs are culturally Slavic, let's treat them as equals;;;;;;;;;;;;;x,,,,,,,,
-GTL_claim_volhynia_title;Claim Volhynia;;;;;;;;;;;;;x,,,,,,,,
-GTL_claim_volhynia_desc;Volhynia is home to Poles and Galicians, we must include them in our empire!;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_galicians_title;Accept the Galicians;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_galicians_desc;The Galicians are quite close to our Polish citizens, let's grant them equal status!;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_PRU_title;Claim the Duchy of Prussia;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_PRU_desc;Prussia or Prusy in polish, have long since been under the Polish throne. Thus we must reclaim it!;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_balters_title;Accept the Balters;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_balters_desc;The Balters, while Germanic in nature, have served well in protecting us in the times of the Teutonic Order. Thus in light of current events, we should treat them as equals.;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_NGF_title;Claim the rest of Northern Germany;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_NGF_desc;With our national goal settled, now we must began our conquest of Northern Germany!;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_SGF_title;Claim Danubia;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_SGF_desc;With our conquest of Northern Germany settled, we must began our conquest of Northern Germany!;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_SGF_title;Accept the Danubians;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_SGF_desc;Our National aim is to unite the Germans and Slavs, thus we must accept the Danubian Germans;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_SWA_title;Claim Swabia;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_SWA_desc;With our conquest of Danubia settled, we must began our conquest of Swabia;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_SWA_title;Accept the Swabians;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_SWA_desc;Our National aim is to unite the Germans and Slavs, thus we must accept the Swabians Germans;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_CFR_title;Claim the Rheinish lands;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_CFR_desc;With our conquest of Swabia settled, we must began our conquest of Rheinish lands;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_rheinish_title;Accept the Rheinish;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_rheinish_desc;Our National aim is to unite the Germans and Slavs, thus we must accept the Rheinish Germans;;;;;;;;;;;;;x,,,,,,,,
-From_EZG_title;From the Union of Germans and West Slavs;;;;;;;;;;;;;x,,,,,,,,
-From_EZG_desc;With the reconquest of the German lands, we can now unite the two cultures!;;;;;;;;;;;;;x,,,,,,,,
-DUA_kill_NAN_title;Kill the young cub;;;;;;;;;;;;;x,,,,,,,,
-DUA_kill_NAN_desc;With the English now firmly on our side, we must destroy the only remaining threat to our presence in England, the abandoned cub, Beornia;;;;;;;;;;;;;x,,,,,,,,
-turn_on_chaos_mode_title;Turn on Chaos Mode;;;;;;;;;;;;;x,,,,,,,,
-turn_on_chaos_mode_desc;Time for Chaos!;;;;;;;;;;;;;x,,,,,,,,
-turn_off_chaos_mode_title;Turn off Chaos Mode;;;;;;;;;;;;;x,,,,,,,,
-turn_off_chaos_mode_desc;order! Order! ORDER!;;;;;;;;;;;;;x,,,,,,,,
-turn_on_debug_mode_title;Turn on Debug mode;;;;;;;;;;;;;x,,,,,,,,
-turn_on_debug_mode_desc;Nuh uh, don't cheat;;;;;;;;;;;;;x,,,,,,,,
-turn_off_debug_mode_title;Turn off Debug mode;;;;;;;;;;;;;x,,,,,,,,
-turn_off_debug_mode_desc;>:1;;;;;;;;;;;;;x,,,,,,,,
-Clear_infamy_title;Clear Infamy;;;;;;;;;;;;;x,,,,,,,,
-Clear_infamy_desc;;;;;;;;;;;;;;x,,,,,,,,
-lower_militancy_title;Lower Militancy;;;;;;;;;;;;;x,,,,,,,,
-lower_militancy_desc;;;;;;;;;;;;;;x,,,,,,,,
-lower_consciousness_title;Lower Consciousness;;;;;;;;;;;;;x,,,,,,,,
-lower_consciousness_desc;;;;;;;;;;;;;;x,,,,,,,,
-KILL_UNDESIRABLES_title;Commit the Unthinkable;;;;;;;;;;;;;x,,,,,,,,
-KILL_UNDESIRABLES_desc;>:D;;;;;;;;;;;;;x,,,,,,,,
-war_of_imperial_security_title;§RWar Of Imperial Security;;;;;;;;;;;;;x,,,,,,,,
-war_of_imperial_security_desc;§RRUSSIA MUST NOT REMAIN AS AN GEOPOLITICAL ENTITY;;;;;;;;;;;;;x,,,,,,,,
-EZG_claim_alsace_title;Claim Alsace;;;;;;;;;;;;;x,,,,,,,,
-EZG_claim_alsace_desc;While we've managed to conquer the lands of Germania, some Germans exist outside of those borders, thus we must free them!;;;;;;;;;;;;;x,,,,,,,,
-EZG_claim_Dietsland_title;Claim Dietsland;;;;;;;;;;;;;x,,,,,,,,
-EZG_claim_Dietsland_desc;Dietsland has for a long time been within the Burgundian Circle, however, despite attempts of assimilation by the Burgundians, they have retained their Germanic identity. Thus we must free them!;;;;;;;;;;;;;x,,,,,,,,
-EZG_Accept_the_Dutch_title;Accept the Dutch;;;;;;;;;;;;;x,,,,,,,,
-EZG_Accept_the_Dutch_desc;The Dutch are Germanic, thus we MUST accept them!;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_RUT_title;Claim The Lands of Ruthenia;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_RUT_desc;The first step in our dreams to unite the Eastern Slavs is to conquer Ruthenia, thus let us lay claim to their lands!;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_LIT_title;Claim Lithuania;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_LIT_desc;Lithuania has long been intertwined with the Slavic world, thus it is only natural to bring them into the fold;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_HUN_title;Claim Hungary;;;;;;;;;;;;;x,,,,,,,,
-GTK_claim_HUN_desc;Hungary in it's history is intertwined with the Slavs, thus it's only natural we bring them into the fold;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_RUT_title;Accept the Ruthenians;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_RUT_desc;The Ruthenians are Slavs, thus we should accept them as equals along with the Cossacks that live within;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_LIT_title;Accept the Lithuanians;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_LIT_desc;To pacify the Lithuanians, we should grant them rights to protect their culture and treat them as equals;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_HUN_title;Accept the Hungarians;;;;;;;;;;;;;x,,,,,,,,
-GTK_accept_HUN_desc;While not Slavic, the Hungarians make up a large portion of our nation, thus it is necessary to treat them as equals to move forwards;;;;;;;;;;;;;x,,,,,,,,
-From_WRU_title;Unite the East;;;;;;;;;;;;;x,,,,,,,,
-From_WRU_desc;Now that we have achieved our goal, we can proclaim the Union of the East!;;;;;;;;;;;;;x,,,,,,,,
-WRU_claim_MOL_title;Claim Moldavia;;;;;;;;;;;;;x,,,,,,,,
-WRU_claim_MOL_desc;Let us move our border to more defendable positions;;;;;;;;;;;;;x,,,,,,,,
-WRU_claim_tartar_title;Claim the neighbouring Tatar lands;;;;;;;;;;;;;x,,,,,,,,
-WRU_claim_tartar_desc;Now that we have accepted the Crimean tatars, we are now able to expand outwards. WE RIDE EAST!;;;;;;;;;;;;;x,,,,,,,,
-DUA_dismantle_BRG_title;Dismantle Burgundy;;;;;;;;;;;;;x,,,,,,,,
-DUA_dismantle_BRG_desc;Time to kill off out arch-nemesis;;;;;;;;;;;;;x,,,,,,,,
-DUA_dismantle_PBG_title;Dismantle Burgundy;;;;;;;;;;;;;x,,,,,,,,
-DUA_dismantle_PBG_desc;Time to kill off out arch-nemesis;;;;;;;;;;;;;x,,,,,,,,
-DUA_establish_HLL_title;Establish the Duchy of Holland;;;;;;;;;;;;;x,,,,,,,,
-DUA_establish_HLL_desc;The manual decision if you for whatever reason you manually took the lowlands;;;;;;;;;;;;;x,,,,,,,,
-from_FSF_title;From the FuSang Federation;;;;;;;;;;;;;x,,,,,,,,
-from_FSF_desc;With our dominion over the Arcadiam continent, we can purpose a union with the Western Arcadians. §RHowever, if our government becomes one that they deem unfriendly with them, a civil war may erupt;;;;;;;;;;;;;x,,,,,,,,
-turn_on_assimilator_title;Turn on Assimilators?;;;;;;;;;;;;;x,,,,,,,,
-turn_on_assimilator_desc;Please keep larping to a minimum;;;;;;;;;;;;;x,,,,,,,,
-turn_off_assimilator_title;Turn off Assimilators?;;;;;;;;;;;;;x,,,,,,,,
-turn_off_assimilator_desc;Why would you?;;;;;;;;;;;;;x,,,,,,,,
-DNG_dismantle_NBG_title;Dismantle the Belgian Confederacy;;;;;;;;;;;;;x,,,,,,,,
-DNG_dismantle_NBG_desc;For too long have the Belgians been a thorn in the side of our great nation, especially now that we are looking westwards. Thus we must dismantle them in order to ensure that they will not attempt to unite Aracdia!;;;;;;;;;;;;;x,,,,,,,,
-DNG_destroy_belgian_unity_title;Destroy Belgian Unity;;;;;;;;;;;;;x,,,,,,,,
-DNG_destroy_belgian_unity_desc;Desipte dismantling the Belgian Confederacy, many within our nation still don't trust the Belgians. Thus further division of the Belgian state must be enforced to satisfy our citizens;;;;;;;;;;;;;x,,,,,,,,
-DNG_dismantle_PLA_title;Dismantle Plantagenia;;;;;;;;;;;;;x,,,,,,,,
-DNG_dismantle_PLA_desc;For too long have the Plantagenians been a thorn in the side of our great nation, especially now that we are looking westwards. Thus we must dismantle them in order to ensure that they will not attempt to unite Aracdia!;;;;;;;;;;;;;x,,,,,,,,
-DNG_dismantle_VIN_title;Dismantle Vinland;;;;;;;;;;;;;x,,,,,,,,
-DNG_dismantle_VIN_desc;Vinland has long since been opposed to any and all froms of Aracdian unification, leading them to attempt to subjugate the other powers to ensure thier contiued survival. However, we must take them down a peg in order for our contiued westward expansion to succeed;;;;;;;;;;;;;x,,,,,,,,
-FSF_accept_LST_title;Accept the Lusitanians;;;;;;;;;;;;;x,,,,,,,,
-FSF_accept_LST_desc;For too long have the natives of Lusitania been treated as second class citizens, in order to show the Taixi that we can be equals!;;;;;;;;;;;;;x,,,,,,,,
-FSF_destroy_JAP_title;Destroy the Rising Sun;;;;;;;;;;;;;x,,,,,,,,
-FSF_destroy_JAP_desc;Japan has been our enternal rival since our independence, thus, with our unification of FuSang, the Rising Sun §RMUST BE PUT DOWN!;;;;;;;;;;;;;x,,,,,,,,
-FSF_fate_of_JAP_title;Fate of Japan;;;;;;;;;;;;;x,,,,,,,,
-FSF_fate_of_JAP_desc; We must decide what to do with Japan;;;;;;;;;;;;;x,,,,,,,,
-greater_dietsland_title;Greater Dietsland;;;;;;;;;;;;;x,,,,,,,,
-greater_dietsland_desc;While we may have gained our freedom, some nationalist have drawn up borders of a 'Greater Dietsland', lets humor them and claim these lands;;;;;;;;;;;;;x,,,,,,,,
-DIE_claim_burgundy_title;Claim Burgundy;;;;;;;;;;;;;x,,,,,,,,
-DIE_claim_burgundy_desc;Since we were part of the Burgundian Kingdom, we do have a right to their lands, thus let's topple the Burgundians once and for all!;;;;;;;;;;;;;x,,,,,,,,
-DIE_form_LTA_title;Form Lotharingia;;;;;;;;;;;;;x,,,,,,,,
-DIE_form_LTA_desc;While we have conquered Burgundy, the Burgundians are more Romance than Germanic. Thus let us go back in time to the time of Germanic Lotharingia!;;;;;;;;;;;;;x,,,,,,,,
-nederlands_duitsland_title;Unite Duitsland;;;;;;;;;;;;;x,,,,,,,,
-nederlands_duitsland_desc;We have manged to control or own most of the fatherland, thus let us unite it under Dutch leadership;;;;;;;;;;;;;x,,,,,,,,
-NAN_jewish_dream_title;Enable the Israelist;;;;;;;;;;;;;x,,,,,,,,
-NAN_jewish_dream_desc;With the idea of our nation becoming the homeland for the many Jewish people of the world gaining traction, lets draft up a policy to enable the Jewish to settle on our lands!;;;;;;;;;;;;;x,,,,,,,,
-NAN_further_jew_acceptence_title;Extend Jewish Acceptence;;;;;;;;;;;;;x,,,,,,,,
-NAN_further_jew_acceptence_desc;With our government turning to a more liberal citizenship policy, let us extend citizenship to the non-European jews!;;;;;;;;;;;;;x,,,,,,,,
-JAP_aussie_take_over_DUA;Demand Control of the land of the South from the Anglois;;;;;;;;;;;;;x,,,,,,,,
-JAP_aussie_take_over_DUA;To have total security of our backyard, we must control the lands that lay in the south, thus let us demand it!;;;;;;;;;;;;;x,,,,,,,,
+CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;x
+#######################################;;;;;;;;;;;;;;x
+###Basic Schizo decisions/Debug mode###;;;;;;;;;;;;;;x
+#######################################;;;;;;;;;;;;;;x
+Turn_on_schizo_addon_title;Turn on the Schizo mod?;;;;;;;;;;;;;x
+Turn_on_schizo_addon_desc;Let the FUN begain!;;;;;;;;;;;;;x
+Turn_off_schzio_addon_title;Turn off the Schizo mod?;;;;;;;;;;;;;x
+Turn_off_schzio_addon_desc;Time to take them meds!;;;;;;;;;;;;;x
+KILL_UNDESIRABLES_title;Commit the Unthinkable;;;;;;;;;;;;;x
+KILL_UNDESIRABLES_desc;>:D;;;;;;;;;;;;;x
+turn_on_chaos_mode_title;Turn on Chaos Mode;;;;;;;;;;;;;x
+turn_on_chaos_mode_desc;Time for Chaos!;;;;;;;;;;;;;x
+turn_off_chaos_mode_title;Turn off Chaos Mode;;;;;;;;;;;;;x
+turn_off_chaos_mode_desc;order! Order! ORDER!;;;;;;;;;;;;;x
+turn_on_assimilator_title;Turn on Assimilators?;;;;;;;;;;;;;x
+turn_on_assimilator_desc;Please keep larping to a minimum;;;;;;;;;;;;;x
+turn_off_assimilator_title;Turn off Assimilators?;;;;;;;;;;;;;x
+turn_off_assimilator_desc;Why would you?;;;;;;;;;;;;;x
+turn_on_debug_mode_title;Turn on Debug mode;;;;;;;;;;;;;x
+turn_on_debug_mode_desc;Nuh uh, don't cheat;;;;;;;;;;;;;x
+turn_off_debug_mode_title;Turn off Debug mode;;;;;;;;;;;;;x
+turn_off_debug_mode_desc;>:1;;;;;;;;;;;;;x
+Clear_infamy_title;Clear Infamy;;;;;;;;;;;;;x
+Clear_infamy_desc;;;;;;;;;;;;;;x
+lower_militancy_title;Lower Militancy;;;;;;;;;;;;;x
+lower_militancy_desc;;;;;;;;;;;;;;x
+lower_consciousness_title;Lower Consciousness;;;;;;;;;;;;;x
+lower_consciousness_desc;;;;;;;;;;;;;;x
+#####################;;;;;;;;;;;;;;x
+###Germany Content###;;;;;;;;;;;;;;x
+#####################;;;;;;;;;;;;;;x
+Burgundian_question_title;The Burgundian Question;;;;;;;;;;;;;x
+Burgundian_question_desc;Now that we've destroyed the §RTRAITORS!§! What shall we do with them?;;;;;;;;;;;;;x
+Greater_greater_germany_title;Expand Pan-Germanism;;;;;;;;;;;;;x
+Greater_greater_germany_desc;Now that Germany has reached its logical conclusion, we should look outward;;;;;;;;;;;;;x
+The_Scandinavian_acceptence_title;Accept the Scandinavians;;;;;;;;;;;;;x
+The_Scandinavian_acceptence_desc;We have successfully conquered all of Scandinavia! Let us teach them that they are GERMAN!;;;;;;;;;;;;;x
+The_English_acceptence_title;Accept the English;;;;;;;;;;;;;x
+The_English_acceptence_desc;We have successfully conquered all of England! Let us teach them that they are GERMAN!;;;;;;;;;;;;;x
+Beornians_are_Germanic_title;Beornia is GERMANIC!;;;;;;;;;;;;;x
+Beornians_are_Germanic_desc;The Beornians are descendants from Englishmen, thus they are GERMANIC!;;;;;;;;;;;;;x
+The_Beornian_acceptence_title;Accept the Beornians;;;;;;;;;;;;;x
+The_Beornian_acceptence_desc;We have successfully conquered all of Beornia! Let us teach them that they are GERMAN!;;;;;;;;;;;;;x
+Batavia_is_german_title;Batavia is GERMANIC!;;;;;;;;;;;;;x
+Batavia_is_german_desc;The Batavians are descendants from Dutchmen, thus they are GERMANIC!;;;;;;;;;;;;;x
+The_Boer_acceptence_title;Accept the Batavians;;;;;;;;;;;;;x
+The_Boer_acceptence_desc;We have successfully conquered all of Batavia! Let us teach them that they are GERMAN!;;;;;;;;;;;;;x
+claim_the_caribbean_title;Claim the Caribbean;;;;;;;;;;;;;x
+claim_the_caribbean_desc;The Caribbean has long since beeen influenced by Germanic cultures, it is just up top us to REMIND THEM!;;;;;;;;;;;;;x
+The_Caribbean_Accepted_title;Accept the Germanic Caribbeaners;;;;;;;;;;;;;x
+The_Caribbean_Accepted_desc;While the Caribbean is mix of multiple cultures and ethnicities, however, there are a few tht descend from Germanic heritage. Let us accept them into our empire;;;;;;;;;;;;;x
+Baltic_claims_title;Claim Livonia;;;;;;;;;;;;;x
+Baltic_claims_desc;It's time to save the Balters in Livonia!;;;;;;;;;;;;;x
+Finish_what_the_teutons_started_title;Let us finsih what the Teutonic Order started;;;;;;;;;;;;;x
+Finish_what_the_teutons_started_desc;PUT DOWN THE PAGANS!;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+###HLR Content###;;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+Italy_expension_title;Reclaim our lost Italian lands;;;;;;;;;;;;;x
+Italy_expension_desc;We have lost our Italian lands due to (checks notes... IDK I didn't read the lore doc) It's time to reclaim our rightful lands!;;;;;;;;;;;;;x
+North_italian_acceptence_title;The Northern Italian acceptence;;;;;;;;;;;;;x
+North_italian_acceptence_desc;Now that we have conquered North Italy, we must remind the people there of their past in the Holy Roman Empire;;;;;;;;;;;;;x
+Claim_rome_title;Claim the Papal States;;;;;;;;;;;;;x
+Claim_rome_desc;Now that we have conquered Northern Italy, let us march on Rome!;;;;;;;;;;;;;x
+Central_italian_acceptence_title;Accept the Central Italians;;;;;;;;;;;;;x
+Central_italian_acceptence_desc;Now that we have conquered the Papal states, we must accept them;;;;;;;;;;;;;x
+Claim_burgundy_early_title;Claim Burgundy (Early);;;;;;;;;;;;;x
+Claim_burgundy_early_desc;Sick and tired of waiting till 1900 to claim Burgundy? Welp I just got the thing for you!;;;;;;;;;;;;;x
+Roman_expension_title;Claim the §RROMAN EMPIRE;;;;;;;;;;;;;x
+Roman_expension_desc;Let us claim our spot us the §RROMAN EMPEROR!;;;;;;;;;;;;;x
+Imperial_acceptence_title;Imperial Acceptatio;;;;;;;;;;;;;x
+Imperial_acceptence_desc;By Imperial Decree, all subjects shall be granted citizenship (Except the Africans, Arabs, Iranians, Kurds...);;;;;;;;;;;;;x
+The_voices_title;The Voices;;;;;;;;;;;;;x
+The_voices_desc;The Voices;;;;;;;;;;;;;x
+Minor_expansion_title;Minor expansion;;;;;;;;;;;;;x
+Minor_expansion_desc;The voice demanded we secure our borders, so off we go!;;;;;;;;;;;;;x
+Major_expansion_title;Major expansion;;;;;;;;;;;;;x
+Major_expansion_desc;While we have secured our western border, our eastern one lays undefended. THUS WE MUST PURGE THE UNDESIRABLES!;;;;;;;;;;;;;x
+war_of_imperial_security_title;§RWar Of Imperial Security;;;;;;;;;;;;;x
+war_of_imperial_security_desc;§RRUSSIA MUST NOT REMAIN AS AN GEOPOLITICAL ENTITY;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+###SGF Content###;;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+Sail_down_the_danube_title;Claim the Danube!;;;;;;;;;;;;;x
+Sail_down_the_danube_desc;While we hold the title of 'Danubian confederation', we don't control the entire river. So! Lets us sail down the Danube!;;;;;;;;;;;;;x
+Hungarian_question_title;The Hungarian Question;;;;;;;;;;;;;x
+Hungarian_question_desc;We have conquered the Pannonian Basin, now we must decside what to do with the people within it;;;;;;;;;;;;;x
+Sail_to_the_black_sea_title;Sail to the Black Sea;;;;;;;;;;;;;x
+Sail_to_the_black_sea_desc;Now that we have conquered up to the Pannonian Basin, let ues SAIL TO THE BALCK SEA!;;;;;;;;;;;;;x
+Romanian_question_title;The Romanian Question;;;;;;;;;;;;;x
+Romanian_question_desc;We have conquered the Romanians surrounding the Danube, now what should we do with them?;;;;;;;;;;;;;x
+Master_of_the_balkans_title;Claim the Balkans!;;;;;;;;;;;;;x
+Master_of_the_balkans_desc;While we full control over the Danube, we do not possess control over the Adriatic Sea. Let us change that by claiming the Balkans!;;;;;;;;;;;;;x
+#####################;;;;;;;;;;;;;;x
+###Kurland Content###;;;;;;;;;;;;;;x
+#####################;;;;;;;;;;;;;;x
+A_fighting_chance_title;A Fighting Chance!;;;;;;;;;;;;;x
+A_fighting_chance_desc;Help from a Schizo man;;;;;;;;;;;;;x
+The_baltic_native_question_title;The Baltic Question;;;;;;;;;;;;;x
+The_baltic_native_question_desc;What shall we do with the Natives?;;;;;;;;;;;;;x
+Remove_SCA_cores_title;Revoke Scandinavian Claims;;;;;;;;;;;;;x
+Remove_SCA_cores_desc;GET BENT SCANDI!;;;;;;;;;;;;;x
+Claim_lithuania_title;Claim Lithuania;;;;;;;;;;;;;x
+Claim_lithuania_desc;Funny Decision that would be removed later;;;;;;;;;;;;;x
+The_lithuanian_question_title;The Lithuanian Question;;;;;;;;;;;;;x
+The_lithuanian_question_desc;What shall we do with the lithuanians;;;;;;;;;;;;;x
+Baltic_identity_title;Our national identity;;;;;;;;;;;;;x
+Baltic_identity_desc;Now that we've full control of the Batics, what shall we aim for?;;;;;;;;;;;;;x
+Claim_belarus_title;Claim Belarus;;;;;;;;;;;;;x
+Claim_belarus_desc;We must destroy our neighbour! They don't believe in the same type of christianity!;;;;;;;;;;;;;x
+Claim_pskov_title;Claim Pskov;;;;;;;;;;;;;x
+Claim_pskov_desc;We must control the baltic sea, thus Pskov must be ours!;;;;;;;;;;;;;x
+The_blarusian_question_title;The Belarusian Question;;;;;;;;;;;;;x
+The_blarusian_question_desc;What shall we do with the Belarusians?;;;;;;;;;;;;;x
+Pskov_genocide_title;§RPskov genocide§!;;;;;;;;;;;;;x
+Pskov_genocide_desc;§RThere's no questions to be answered, they must be exterminated!§!;;;;;;;;;;;;;x
+The_final_solution_title;§RThe final solution§!;;;;;;;;;;;;;x
+The_final_solution_desc;... May god save thier souls...;;;;;;;;;;;;;x
+Pommerania_Holstein_claims_title;Claim the Germanic coast;;;;;;;;;;;;;x
+Pommerania_Holstein_claims_desc;In order to place ourselves in the Germanic world, we must first prove ourselves!;;;;;;;;;;;;;x
+claim_Elbian_leadership_title;Claim Leadership of the Elbians;;;;;;;;;;;;;x
+claim_Elbian_leadership_desc;Now that we have proven ourselves, it's time to pursue leadership over our Elbian brothers!;;;;;;;;;;;;;x
+Low_german_union_proclamation_title;Proclaim The Low German Union;;;;;;;;;;;;;x
+Low_german_union_proclamation_desc;With our leadership over the Elbians, we are now free to expand our interest in Germany;;;;;;;;;;;;;x
+From_LGC_title;From the Low German Union;;;;;;;;;;;;;x
+From_LGC_desc;Now that we own all of the Lands considered 'Low German', we can now proclaim the Low German Union;;;;;;;;;;;;;x
+Help_the_starving_title;Address the Hollowing;;;;;;;;;;;;;x
+Help_the_starving_desc;We must help the Germans;;;;;;;;;;;;;x
+A_union_of_equals_title;A Union of Equals;;;;;;;;;;;;;x
+A_union_of_equals_desc;While we are in a confederation, the balters enjoy a higher privilege. We must revoke this to ensure that this union lasts;;;;;;;;;;;;;x
+Claim_brabant_title;Claim Brabant;;;;;;;;;;;;;x
+Claim_brabant_desc;While we own all of the Low Germans, we shouldn't stop here. ONWARDS! TO BRABANT!;;;;;;;;;;;;;x
+Brabant_question_title;The Brabantian Question;;;;;;;;;;;;;x
+Brabant_question_desc;Now that we have conquered the Brabantian region, what shall we do with the Brabantians?;;;;;;;;;;;;;x
+Nuke_burgundian_claims_title;Revoke Burgundian claims;;;;;;;;;;;;;x
+Nuke_burgundian_claims_desc;While we have conquered our rightful lands, most of the the former Burgundian lands have sizable popluations of Burgundians giving Burgundy a good claim to our land. We must deal with them.;;;;;;;;;;;;;x
+Nuke_SCA_claims_title;Revoke Scandinavian claims;;;;;;;;;;;;;x
+Nuke_SCA_claims_desc;While we have conquered our rightful lands, most of the the former Scandinavian lands have sizable popluations of Scandinavians giving Scandinavia a good claim to our land. We must deal with them.;;;;;;;;;;;;;x
+############################################################;;;;;;;;;;;;;;x
+###Old Japan/China decisions (To be removed/reused later)###;;;;;;;;;;;;;;x
+############################################################;;;;;;;;;;;;;;x
+schizo_japan_title;Bring Civilization To China;;;;;;;;;;;;;x
+schizo_japan_desc;We Japanese have become the beacon of civilization in asia. Today, once great kingdoms on our continent are falling left and right to the whims of European Imperialists. It is our goal, nay, our responsibility to protect China from their own primitive ways, lest it lead to them being conquered by some who would exploit them. Of course, by doing this, we will exploit them ourselves, but this is acceptable, as they are far too backwards to make proper use of their own land and people.;;;;;;;;;;;;;x
+what_to_do_with_china_title;What Shall We Do With China?;;;;;;;;;;;;;x
+what_to_do_with_china_desc;§RRealease The Chinese Emprie as a puppet to continue further. §!!We have done it! Finally, we have conquered the Middle Kingdom, once the grandest empire in the world, reduced to another of our Imperial Holdings. Only one question remains, what shall we do with all of this newly acquired land?;;;;;;;;;;;;;x
+china_schizo_title;Unite The Sinosphere;;;;;;;;;;;;;x
+china_schizo_desc;For too long China has been bled by the craven, and torn apart by the greedy, forever on the defense. No longer! We will attain unity of all of the distant colonies of the once-great Ming empire.;;;;;;;;;;;;;x
+china_conquest_unlocker_title;Unlock Conquests Early.;;;;;;;;;;;;;x
+china_conquest_unlocker_desc;Set the flags to allow for earlier conquest of the Steppe. This is not necessary if you are playing as Taiping.;;;;;;;;;;;;;x
+accept_tibetans_chi_title;Integrate the Tibetans;;;;;;;;;;;;;x
+accept_tibetans_chi_desc;The Tibetans and the Chinese have mutally respected eachother's culture for centuries. Given our shared religion, we should strive to make the Tibetans equal under our legal system.;;;;;;;;;;;;;x
+accept_manchus_chi_title;Integrate the Manchus;;;;;;;;;;;;;x
+accept_manchus_chi_desc;While they were once invaders, the Manchus have largely integrated into mainline Han chinese culture. We should reward this docility by giving them equal rights to the Han.;;;;;;;;;;;;;x
+conquer_korea_chi_freed_korea_title;Take Korea;;;;;;;;;;;;;x
+conquer_korea_chi_freed_korea_desc;The Koreans have been a vassal of China for virutally their entire history, and now they hold these funny ideas of independence?! How dare they! We shall put them back in their place.;;;;;;;;;;;;;x
+conquer_korea_chi_unfreed_korea_title;Liberate Korea;;;;;;;;;;;;;x
+conquer_korea_chi_unfreed_korea_desc;Korea is suffering under the yolk of Japanese Imperialism, it is up to us to save them if we have the chance! We must liberate Korea from the Japanese, and bring them back to our side!;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+###SCA Content###;;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+claim_england_sca_title;Found The North Sea Empire;;;;;;;;;;;;;x
+claim_england_sca_desc;Over 800 years ago, Scandinavians took England, our Nordic Brethren, and integrated them into our cultural sphere, we must do this again! We shall take England, who have known nothing but mismanagement and oppression for hundreds of years. The stability our rule shall bring will be welcomed with open arms, surely! Naturally, we will integrate them into our nordic empire with full legal equality to the Scandinavians and Scots. While the Danelaw will be restored, the English will not be subjects this time, but brothers!;;;;;;;;;;;;;x
+claim_ireland_sca_title;Claim Ireland;;;;;;;;;;;;;x
+claim_ireland_sca_desc;The Celts, just like the Scandinavians, were once the subjects of our viking ancestors, the Irish too were once under our thumb. Even the great city of Dublin was said to have been founded by Scandinavian explorers. It is only natural that we take them into our sphere, further extending citizen's rights to the Celts.;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+###PLA Content###;;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+conquer_vinland_ARC_subject_title;Integrate Vinland;;;;;;;;;;;;;x
+conquer_vinland_ARC_subject_desc;After their complete humiliation, the full integration of Vinland into Arcadia is practically a formality at this point. Nonetheless, it is a formality that must be taken in order for our Empire to achieve its natural borders.;;;;;;;;;;;;;x
+conquer_vinland_ARC_title;Realize Charles II's Dream;;;;;;;;;;;;;x
+conquer_vinland_ARC_desc;For too long has Vinland been out of the Arcadian Empire's control. All of European Arcadia belongs to our glorious empire, and it is critical that we take Vinland in order to realize the dreams of Charles II. The mad king will no longer look so mad now.;;;;;;;;;;;;;x
+arc_retake_dua_title;Return Home;;;;;;;;;;;;;x
+arc_retake_dua_desc;Finally, after nearly a century, the trueborn heirs of the Plantagenet name will seize control of their rightful land. Under the watchful leadership of Emperor Louis I, we shall retake France and England, finally getting back what is ours.;;;;;;;;;;;;;x
+retvrn_arc_no_dua_title;Return Home;;;;;;;;;;;;;x
+retvrn_arc_no_dua_desc;While those fools in Europe have squandered our Empire, that shall not stop us! We will forcibly take back what is ours, no longer shall England and France have petty ideas of independence. Our empire belongs to us alone!;;;;;;;;;;;;;x
+proclaim_triple_monarchy_no_fed_title;Proclaim The Triple Monarchy;;;;;;;;;;;;;x
+proclaim_triple_monarchy_no_fed_desc;Now that the two worlds of our Empire have had time to settle, it is time that Louis, in the twilight years of his life, finalize his rule. He will declare the end of the Dual Monarchy, and the beginning of a new Empire of two hemispheres. The Triple Monarchy, formally integrating the Arcadian Empire as the third jewel in the former Dual Monarchy's crown.;;;;;;;;;;;;;x
+proclaim_triple_monarchy_fed_title;Proclaim The Triple Monarchy;;;;;;;;;;;;;x
+proclaim_triple_monarchy_fed_desc;Now that the two worlds of our Empire have had time to settle, it is time that Louis, in the twilight years of his life, finalize his rule. He will declare the end of the Dual Monarchy, and the beginning of a new Empire of two hemispheres. The Triple Monarchy, formally integrating the Arcadian Empire as the third jewel in the former Dual Monarchy's crown.;;;;;;;;;;;;;x
+################################;;;;;;;;;;;;;;x
+###Spainish Australia Content###;;;;;;;;;;;;;;x
+################################;;;;;;;;;;;;;;x
+organize_ASP_title;Organize The Oustralia Colony;;;;;;;;;;;;;x
+organize_ASP_desc;Against all odds, Spain has managed to secure a significant degree of influence in the southern continent of Australia. We should formalize our rule by creating a full colony to govern it for us.;;;;;;;;;;;;;x
+send_colonists_to_asp_title;Send Colonists to Oustralia;;;;;;;;;;;;;x
+send_colonists_to_asp_desc;Our colony in Oustralia is filled with natural resources, just waiting to be withdrawn. Now we need only bring Spaniards over to take them!.;;;;;;;;;;;;;x
+integrate_asp_title;Integrate Oustralia into the Commonwealth;;;;;;;;;;;;;x
+integrate_asp_desc;Just because Oustralia is our newest colony doesn't mean that it is any less important to the Hispanic crown. We should make them an equal part of our empire, just as we have for the Amerigan colonies.;;;;;;;;;;;;;x
+###################;;;;;;;;;;;;;;x
+###Fiume Content###;;;;;;;;;;;;;;x
+###################;;;;;;;;;;;;;;x
+FIU_sus_man_title;A suspicious man;;;;;;;;;;;;;x
+FIU_sus_man_desc;A man has appeared outside of the regent's office, seaking a meeting with him;;;;;;;;;;;;;x
+AFU_concession_AUS_title;Concessions to Austria;;;;;;;;;;;;;x
+AFU_concession_AUS_desc;To improve our industry, let us give the Austrians some concessions;;;;;;;;;;;;;x
+AFU_concession_ARA_title;Concessions to Aragon;;;;;;;;;;;;;x
+AFU_concession_ARA_desc;To improve our industry, let us give the Aragonese some concessions;;;;;;;;;;;;;x
+AFU_spread_propaganda_istria_title;Preach our ways to the rest of Istria;;;;;;;;;;;;;x
+AFU_spread_propaganda_istria_desc;Now that our nation is back on track, let us spread our Revolution!;;;;;;;;;;;;;x
+treaty_of_venice_title;Treaty of Venice;;;;;;;;;;;;;x
+treaty_of_venice_desc;This is here to help you not have to fight a long war;;;;;;;;;;;;;x
+core_VEN_title;Core Venice;;;;;;;;;;;;;x
+core_VEN_desc;This is here in case Venice somehow isn't cored;;;;;;;;;;;;;x
+AFU_GRE_question_title;The Greek Question;;;;;;;;;;;;;x
+AFU_GRE_question_desc;With our successful overthrowing of veince, we are now left with the questions of what to do with the greeks;;;;;;;;;;;;;x
+AFU_kill_greek_title;Finish the Greek Question;;;;;;;;;;;;;x
+AFU_kill_greek_desc;With us having come into the postion of owning all lands claimed by the Greeks, we can now assimilate them;;;;;;;;;;;;;x
+AFU_claim_ITA_title;Claim Italy!;;;;;;;;;;;;;x
+AFU_claim_ITA_desc;With our victory over Venice we can now claim Leadership over Italy!;;;;;;;;;;;;;x
+ITA_brothers_war_title;Destroy the pretenders!;;;;;;;;;;;;;x
+ITA_brothers_war_desc;They who have proclaimed themselves as Italy must PERISH;;;;;;;;;;;;;x
+AFU_from_ITS_title;From the Italian Shogunate!;;;;;;;;;;;;;x
+AFU_from_ITS_desc;With our government being in control of most Italian land, let us honor the Shoguns and proclaim the Italian Shogunate!;;;;;;;;;;;;;x
+ITS_master_adriatic_title;Masters of the Adriatic;;;;;;;;;;;;;x
+ITS_master_adriatic_desc;With our ascension to a Shogunate, we MUST control the Adriatic!;;;;;;;;;;;;;x
+ITS_TUR_problem_title;The Turkish problem;;;;;;;;;;;;;x
+ITS_TUR_problem_desc;While we have fromed Italy, we can go further, but one nation stands in our way. Thus they must be eradicated!;;;;;;;;;;;;;x
+ITS_kill_TUR_title;Destroy the Turks;;;;;;;;;;;;;x
+ITS_kill_TUR_desc;With the defeat of the Turks, they must face the wrath of the Romans they conquered!;;;;;;;;;;;;;x
+ITS_claim_balkan_title;Master of the Balkans!;;;;;;;;;;;;;x
+ITS_claim_balkan_desc;With our mastery over the Adriatic, it's only natural we expand into the balkans!;;;;;;;;;;;;;x
+ITS_Balkan_question_title;The Balkan Question;;;;;;;;;;;;;x
+ITS_Balkan_question_desc;After conquering the Balkans, what shall we do with it's people?;;;;;;;;;;;;;x
+ITS_claim_middle_east_title;Master of the Middle East!;;;;;;;;;;;;;x
+ITS_claim_middle_east_desc;With our mastery over the Adriatic, it's only natural we expand into the Middle East!;;;;;;;;;;;;;x
+ITS_claim_north_africa_title;Master of North Africa!;;;;;;;;;;;;;x
+ITS_claim_north_africa_desc;With our mastery over the Adriatic, it's only natural we expand into North Africa!;;;;;;;;;;;;;x
+ITS_proclaim_IRS_title;Proclaim the Roman Shogunate;;;;;;;;;;;;;x
+ITS_proclaim_IRS_desc;With our claims over the old Roman Empire, we can now claim it's mantle;;;;;;;;;;;;;x
+IRS_claim_iberia_title;Claim Iberia;;;;;;;;;;;;;x
+IRS_claim_iberia_desc;Let us reclaim Iberia;;;;;;;;;;;;;x
+IRS_claim_gual_title;Claim Gual;;;;;;;;;;;;;x
+IRS_claim_gual_desc;Let us reclaim Gual;;;;;;;;;;;;;x
+IRS_accept_iberia_title;Accept the Iberians;;;;;;;;;;;;;x
+IRS_accept_iberia;With us being in control of all of Iberia, let us accept them!;;;;;;;;;;;;;x
+IRS_accept_gual_title;Accept the Gualish people;;;;;;;;;;;;;x
+IRS_accept_gual_desc;With us being in control of all of Gual, let us accept them!;;;;;;;;;;;;;x
+IRS_claim_south_germany_title;Claim southern Germany;;;;;;;;;;;;;x
+IRS_claim_south_germany_desc;Lets us claim our southern German lands;;;;;;;;;;;;;x
+IRS_accept_south_german_title;Accept the South Germans;;;;;;;;;;;;;x
+IRS_accept_south_german_desc;While we already accept the Danube Germans, we have yet to do so with the Swabians. Let us fix that;;;;;;;;;;;;;x
+IRS_claim_belgica_title;Claim Belgica;;;;;;;;;;;;;x
+IRS_claim_belgica_desc;Let us reclaim Belgica;;;;;;;;;;;;;x
+IRS_accept_belgica_title;Accept the Belgican people;;;;;;;;;;;;;x
+IRS_accept_belgica_desc;With us being in control of all of Belgica, let us accept them!;;;;;;;;;;;;;x
+IRS_claim_rhineland_title;Claim the Rhineland;;;;;;;;;;;;;x
+IRS_claim_rhineland_desc;Let us reclaim the Rhineland;;;;;;;;;;;;;x
+IRS_accept_rheinish_title;Accept the Rheinish people;;;;;;;;;;;;;x
+IRS_accept_rheinish_desc;With us being in control of all of the Rhineland, let us accept them!;;;;;;;;;;;;;x
+IRS_claim_border_lands_title;Claim the border lands;;;;;;;;;;;;;x
+IRS_claim_border_lands_desc;Let us reclaim the border lands;;;;;;;;;;;;;x
+IRS_claim_england_title;Claim England;;;;;;;;;;;;;x
+IRS_claim_england_desc;Let us reclaim England;;;;;;;;;;;;;x
+IRS_accept_england_title;Accept the English people;;;;;;;;;;;;;x
+IRS_accept_england_desc;With us being in control of all of England, let us accept them!;;;;;;;;;;;;;x
+IRS_japanese_question_title;The Japanese Question;;;;;;;;;;;;;x
+IRS_japanese_question_desc;We must get the Japanese to crown Emperor Meiji!;;;;;;;;;;;;;x
+######################;;;;;;;;;;;;;;x
+###Burgundy Content###;;;;;;;;;;;;;;x
+######################;;;;;;;;;;;;;;x
+HRE_fallen_title;Claim the Crown of the Holy Roman Empire;;;;;;;;;;;;;x
+HRE_fallen_desc;With the collapse of the Bohemian led Holy Roman Empire, the final institution of old has fallen. And while the Bohemians may still return to the German circle, we can pick up the burnt ashes of the Empire for our own needs;;;;;;;;;;;;;x
+LTA_pick_on_FRA_title;Turn to the west;;;;;;;;;;;;;x
+LTA_pick_on_FRA_desc;With the civil situation settled, we must now look to the west as with our return to our Germanic nature, the remaning Burgundians have turned to the French to maintain their culture. We must conquer the lands of France to stomp out any of the old Burgundian order;;;;;;;;;;;;;x
+LTA_reclaim_west_frankia_title;Reclaim West Frankia;;;;;;;;;;;;;x
+LTA_reclaim_west_frankia_desc;Our first attempt at subjugating the lands of france from the Dual Monarchy was a failure, with much of our country refusing Germanification, a lot of manpower had to be diverted from the warfront to deal with them resulting in minor gains. However! With our victory over the Dual Monarchy, much of the old Burgundians have seen it as a sign and have converted. Our second round will result in our total victory!;;;;;;;;;;;;;x
+establish_WFK_title;Establish the Duchy of West Frankia;;;;;;;;;;;;;x
+establish_WFK_desc;With us owning all of france, the last burgundian resistance has submitted to our cause. However, this has brought another problem. Resistance cells have popped up in France, hamppering our assimilation process. To combat this, we must establish a West Frankish puppet;;;;;;;;;;;;;x
+destroy_french_culture_title;Destroy French culture;;;;;;;;;;;;;x
+destroy_french_culture_desc;You are killing French culture, is there anything else to say?;;;;;;;;;;;;;x
+annex_WFK_title;End the West Frankia Duchy;;;;;;;;;;;;;x
+annex_WFK_desc;The West Frankish Duchy has lived through it's use, it's time to incorporate it into our Kingdom;;;;;;;;;;;;;x
+LTA_claim_SWA_title;Claim Swabia;;;;;;;;;;;;;x
+LTA_claim_SWA_desc;With our western fank secure, we can now turn our attention to the Germanic world;;;;;;;;;;;;;x
+LTA_accept_SWA_title;Accept the Swabians;;;;;;;;;;;;;x
+LTA_accept_SWA_desc;While we have conquered swabia, they are a Germanic people, thus we must accept them!;;;;;;;;;;;;;x
+LTA_claim_CFR_title;Claim the Rheinish Germans;;;;;;;;;;;;;x
+LTA_claim_CFR_desc;With our western fank secure, we can now turn our attention to the Germanic world;;;;;;;;;;;;;x
+accept_rheinish_title;Accept the Rheinish;;;;;;;;;;;;;x
+accept_rheinish_desc;While we have conquered the Rheinish, they are a Germanic people, thus we must accept them!;;;;;;;;;;;;;x
+LTA_claim_north_italy_title;Claim North Italy;;;;;;;;;;;;;x
+LTA_claim_north_italy_desc;Northern Italy was once part of the Lotharingian realm, Let us bring them back into the fold!;;;;;;;;;;;;;x
+LTA_establish_LOB_title;Establish the Lombard Duchy;;;;;;;;;;;;;x
+LTA_establish_LOB_desc;Too much time has passed since the collapse of Lotharingia, the people of Northern Italy no longer see themselves either Germans nor Lotharingians, thus a temporary Duchy must be created to facilitate assimilation!;;;;;;;;;;;;;x
+annex_LOB_title;Integrate the Duchy of Lombardy;;;;;;;;;;;;;x
+annex_LOB_desc;Enough time has passed, its time to integrate the Lombard Duchy!;;;;;;;;;;;;;x
+LTA_kill_ITA_title;Claim Italy;;;;;;;;;;;;;x
+LTA_kill_ITA_desc;With our rule over the Northern parts of Italy secured, let us go down the peninsula!;;;;;;;;;;;;;x
+LTA_establish_GPA_title;Re-establish the Papal States;;;;;;;;;;;;;x
+LTA_establish_GPA_desc;The Pope is an important part of European culture, thus let us Grant him back his holdings on the condition he turns to the Germanic culture;;;;;;;;;;;;;x
+annex_GPA_title;Integrate the Papal States;;;;;;;;;;;;;x
+annex_GPA_desc;The time has come to integrate the Papal States, an agreement has already been made with the Pope to ensure a smooth passing of power;;;;;;;;;;;;;x
+LTA_Destroy_ITA_title;Destroy the Concept of Italy;;;;;;;;;;;;;x
+LTA_Destroy_ITA_desc;While we may have conquered Italy, to keep it chained to us we must destroy any and all mentions of Italy. Squads have been created and have started to search and destroy any piece of literature that advocates for a united Italy. Soon it will just be a footnote in history.;;;;;;;;;;;;;x
+LTA_claim_SPA_title;Claim Spain;;;;;;;;;;;;;x
+LTA_claim_SPA_desc;In ancient times, Germanic tribes migrated down to Iberia, now let us reclaim it!;;;;;;;;;;;;;x
+LTA_establish_VIS_title;Establish the Visigothic Duchy;;;;;;;;;;;;;x
+LTA_establish_VIS_desc;The Germans that once inhabit Iberia were the Visigoths, so let's re-establish a duchy for them!;;;;;;;;;;;;;x
+LTA_demand_VIS_concession_title;Demand Concessions from the Visigoths;;;;;;;;;;;;;x
+LTA_demand_VIS_concession_desc;While we have granted the Visigothic Duchy autonomy, many in our cabinet feel that we should demand something in return, thus our king has demanded the border lands;;;;;;;;;;;;;x
+LTA_claim_north_africa_title;Claim North Africa;;;;;;;;;;;;;x
+LTA_claim_north_africa_desc;The Vandals once lived in the northern africa, thus let us reclaim it!;;;;;;;;;;;;;x
+LTA_establish_VAN_title;Establish the Vandal Duchy;;;;;;;;;;;;;x
+LTA_establish_VAN_desc;The Germans that once inhabit Iberia were the Vandals, so let's re-establish a duchy for them!;;;;;;;;;;;;;x
+LTA_claim_NGF_title;Claim Northern Germany;;;;;;;;;;;;;x
+LTA_claim_NGF_desc;Now that we have secured our flanks, we can finally move on to secure the borders of the Holy Roman Empire!;;;;;;;;;;;;;x
+LTA_accept_NGF_title;Accept the Elbians;;;;;;;;;;;;;x
+LTA_accept_NGF_desc;The Elbians were once part of the Holy Roman Empire, thus we should grant them equal rights;;;;;;;;;;;;;x
+LTA_claim_SGF_title;Claim Danubia;;;;;;;;;;;;;x
+LTA_claim_SGF_desc;Now that we have secured our flanks, we can finally move on to secure the borders of the Holy Roman Empire!;;;;;;;;;;;;;x
+LTA_accept_SGF_title;Accept the Danubians;;;;;;;;;;;;;x
+LTA_accept_SGF_desc;The Danubians were once part of the Holy Roman Empire, thus we should grant them equal rights;;;;;;;;;;;;;x
+LTA_subjuguate_HUN_title;Subjugate Hungary;;;;;;;;;;;;;x
+LTA_subjuguate_HUN_desc;Germans have long lived in the Hungarian lands, thus let us claim it for them!;;;;;;;;;;;;;x
+LTA_establish_GHU_title;Establish a Duchy for the Hungarian Germans;;;;;;;;;;;;;x
+LTA_establish_GHU_desc;The Germans of Hungary are disorganized, thus by creating this duchy, we'll help them establish a standardized culture to stand up against the Hungarians!;;;;;;;;;;;;;x
+annex_GHU_title;Integrate the Hungarian Duchy;;;;;;;;;;;;;x
+annex_GHU_desc;Enough time has passed, the people of the Hungarian Duchy have all but become Germans, thus let us integrate them into our empire!;;;;;;;;;;;;;x
+LTA_subjuguate_BOH_title;Subjugate Bohemia;;;;;;;;;;;;;x
+LTA_subjuguate_BOH_desc;Bohemia, the lands that serve as the cross roads for Germans and Slavs. Once the leader of the Germanic world, now reduced to its crownlands. Lets embark on our final leg of our journey, TO PRAGUE!;;;;;;;;;;;;;x
+LTA_establish_BOH_title;Establish the Bohemian Duchy;;;;;;;;;;;;;x
+LTA_establish_BOH_desc;While Most of Bohemia identifies as Germanic, a large minority still hold onto their Slavic roots. Let us establish a temporary Duchy to educate them of what is TRULY their roots;;;;;;;;;;;;;x
+LTA_destroy_BOH_title;Integrate the Bohemian Duchy;;;;;;;;;;;;;x
+LTA_destroy_BOH_desc;Enough time has passed, the people of the Bohemian Duchy have all but become Germans, thus let us integrate them into our empire!;;;;;;;;;;;;;x
+LTA_from_NHR_title;Proclaim the Empire reborn;;;;;;;;;;;;;x
+LTA_from_NHR_desc;With our Empire spanning both the lands of the Empires of the Holy Roman Emprie and Frankia, its time to not only claim the successor title of the H.R.E, but also the Frankish Kingdom!;;;;;;;;;;;;;x
+LTA_claim_livonia_title;Claim Livonia;;;;;;;;;;;;;x
+LTA_claim_livonia_desc;The Livonia region has for years been inhabited by Baltic Germans, it's only right as the Protector of Germans to help them establish a duchy!;;;;;;;;;;;;;x
+LTA_establish_LIV_title;Establish Livonia;;;;;;;;;;;;;x
+LTA_establish_LIV_desc;With control of Livonia, it's time to establish the Duchy of Livonia;;;;;;;;;;;;;x
+LTA_annex_RHI_title;Annex the Rhine Duchy;;;;;;;;;;;;;x
+LTA_annex_RHI_desc;;;;;;;;;;;;;;x
+LTA_annex_VOC_title;End the VOC;;;;;;;;;;;;;x
+LTA_annex_VOC_desc;;;;;;;;;;;;;;x
+LTA_claim_SAF_title;Expand the Duchy of the Cape;;;;;;;;;;;;;x
+LTA_claim_SAF_desc;;;;;;;;;;;;;;x
+LTA_puppet_VIS_title;Restore Order in Visigothia;;;;;;;;;;;;;x
+LTA_puppet_VIS_desc;;;;;;;;;;;;;;x
+LTA_puppet_WFK_title;Restore Order in West Frankia;;;;;;;;;;;;;x
+LTA_puppet_WFK_desc;;;;;;;;;;;;;;x
+LTA_puppet_LOB_title;Restore Order in Lombardy;;;;;;;;;;;;;x
+LTA_puppet_LOB_desc;;;;;;;;;;;;;;x
+#####################;;;;;;;;;;;;;;x
+###Teschen Content###;;;;;;;;;;;;;;x
+#####################;;;;;;;;;;;;;;x
+TES_claim_silesia_title;Claim the rest of Silesia;;;;;;;;;;;;;x
+TES_claim_silesia_desc;We were always a duchy based in Silesia, so let's take it from the Bohemians!;;;;;;;;;;;;;x
+TES_claim_poland_title;Claim Polish Leadership;;;;;;;;;;;;;x
+TES_claim_poland_desc;In the past, we were established by the polish. Thus, we hold a reputable claim to it's throne, so lets claim it!;;;;;;;;;;;;;x
+TES_claim_czechia_title;Claim Bohemia;;;;;;;;;;;;;x
+TES_claim_czechia_desc;While we are polish by hereditary, we have a sizable Bohemian population, giving us a claim on the Bohemian throne;;;;;;;;;;;;;x
+TES_claim_slovakia_title;Claim Slovakia;;;;;;;;;;;;;x
+TES_claim_slovakia_desc;We can expand, so let's march into Slovakia;;;;;;;;;;;;;x
+TES_accept_slovakians_title;Accept the Slovakians;;;;;;;;;;;;;x
+TES_accept_slovakians_desc;The Slovakians are quite close to our Bohemian and Czech citizens, let's grant them equal status!;;;;;;;;;;;;;x
+TES_from_CZE_title;From Zapadoslavia;;;;;;;;;;;;;x
+TES_from_CZE_desc;With control of most of the western Slavs, we can proclaim the Zapadoslavia Union!;;;;;;;;;;;;;x
+TES_from_GTK_title;From Greater Cieszyn;;;;;;;;;;;;;x
+TES_from_GTK_desc;While we have united the western Slavs, we have yet to reach our full potential. Let us proclaim Greater Cieszyn for now;;;;;;;;;;;;;x
+GTK_claim_polabia_title;Claim Polabia;;;;;;;;;;;;;x
+GTK_claim_polabia_desc;East Germany was once home to the Slavic Polabians, let us conquer it;;;;;;;;;;;;;x
+GTK_accept_sorbs_title;Accept the Sorbs;;;;;;;;;;;;;x
+GTK_accept_sorbs_desc;The Sorbs are culturally Slavic, let's treat them as equals;;;;;;;;;;;;;x
+GTL_claim_volhynia_title;Claim Volhynia;;;;;;;;;;;;;x
+GTL_claim_volhynia_desc;Volhynia is home to Poles and Galicians, we must include them in our empire!;;;;;;;;;;;;;x
+GTK_accept_galicians_title;Accept the Galicians;;;;;;;;;;;;;x
+GTK_accept_galicians_desc;The Galicians are quite close to our Polish citizens, let's grant them equal status!;;;;;;;;;;;;;x
+GTK_claim_PRU_title;Claim the Duchy of Prussia;;;;;;;;;;;;;x
+GTK_claim_PRU_desc;Prussia or Prusy in polish, have long since been under the Polish throne. Thus we must reclaim it!;;;;;;;;;;;;;x
+GTK_accept_balters_title;Accept the Balters;;;;;;;;;;;;;x
+GTK_accept_balters_desc;The Balters, while Germanic in nature, have served well in protecting us in the times of the Teutonic Order. Thus in light of current events, we should treat them as equals.;;;;;;;;;;;;;x
+GTK_claim_NGF_title;Claim the rest of Northern Germany;;;;;;;;;;;;;x
+GTK_claim_NGF_desc;With our national goal settled, now we must began our conquest of Northern Germany!;;;;;;;;;;;;;x
+GTK_claim_SGF_title;Claim Danubia;;;;;;;;;;;;;x
+GTK_claim_SGF_desc;With our conquest of Northern Germany settled, we must began our conquest of Northern Germany!;;;;;;;;;;;;;x
+GTK_accept_SGF_title;Accept the Danubians;;;;;;;;;;;;;x
+GTK_accept_SGF_desc;Our National aim is to unite the Germans and Slavs, thus we must accept the Danubian Germans;;;;;;;;;;;;;x
+GTK_claim_SWA_title;Claim Swabia;;;;;;;;;;;;;x
+GTK_claim_SWA_desc;With our conquest of Danubia settled, we must began our conquest of Swabia;;;;;;;;;;;;;x
+GTK_accept_SWA_title;Accept the Swabians;;;;;;;;;;;;;x
+GTK_accept_SWA_desc;Our National aim is to unite the Germans and Slavs, thus we must accept the Swabians Germans;;;;;;;;;;;;;x
+GTK_claim_CFR_title;Claim the Rheinish lands;;;;;;;;;;;;;x
+GTK_claim_CFR_desc;With our conquest of Swabia settled, we must began our conquest of Rheinish lands;;;;;;;;;;;;;x
+GTK_accept_rheinish_title;Accept the Rheinish;;;;;;;;;;;;;x
+GTK_accept_rheinish_desc;Our National aim is to unite the Germans and Slavs, thus we must accept the Rheinish Germans;;;;;;;;;;;;;x
+From_EZG_title;From the Union of Germans and West Slavs;;;;;;;;;;;;;x
+From_EZG_desc;With the reconquest of the German lands, we can now unite the two cultures!;;;;;;;;;;;;;x
+EZG_claim_alsace_title;Claim Alsace;;;;;;;;;;;;;x
+EZG_claim_alsace_desc;While we've managed to conquer the lands of Germania, some Germans exist outside of those borders, thus we must free them!;;;;;;;;;;;;;x
+EZG_claim_Dietsland_title;Claim Dietsland;;;;;;;;;;;;;x
+EZG_claim_Dietsland_desc;Dietsland has for a long time been within the Burgundian Circle, however, despite attempts of assimilation by the Burgundians, they have retained their Germanic identity. Thus we must free them!;;;;;;;;;;;;;x
+EZG_Accept_the_Dutch_title;Accept the Dutch;;;;;;;;;;;;;x
+EZG_Accept_the_Dutch_desc;The Dutch are Germanic, thus we MUST accept them!;;;;;;;;;;;;;x
+GTK_claim_RUT_title;Claim The Lands of Ruthenia;;;;;;;;;;;;;x
+GTK_claim_RUT_desc;The first step in our dreams to unite the Eastern Slavs is to conquer Ruthenia, thus let us lay claim to their lands!;;;;;;;;;;;;;x
+GTK_claim_LIT_title;Claim Lithuania;;;;;;;;;;;;;x
+GTK_claim_LIT_desc;Lithuania has long been intertwined with the Slavic world, thus it is only natural to bring them into the fold;;;;;;;;;;;;;x
+GTK_claim_HUN_title;Claim Hungary;;;;;;;;;;;;;x
+GTK_claim_HUN_desc;Hungary in it's history is intertwined with the Slavs, thus it's only natural we bring them into the fold;;;;;;;;;;;;;x
+GTK_accept_RUT_title;Accept the Ruthenians;;;;;;;;;;;;;x
+GTK_accept_RUT_desc;The Ruthenians are Slavs, thus we should accept them as equals along with the Cossacks that live within;;;;;;;;;;;;;x
+GTK_accept_LIT_title;Accept the Lithuanians;;;;;;;;;;;;;x
+GTK_accept_LIT_desc;To pacify the Lithuanians, we should grant them rights to protect their culture and treat them as equals;;;;;;;;;;;;;x
+GTK_accept_HUN_title;Accept the Hungarians;;;;;;;;;;;;;x
+GTK_accept_HUN_desc;While not Slavic, the Hungarians make up a large portion of our nation, thus it is necessary to treat them as equals to move forwards;;;;;;;;;;;;;x
+From_WRU_title;Unite the East;;;;;;;;;;;;;x
+From_WRU_desc;Now that we have achieved our goal, we can proclaim the Union of the East!;;;;;;;;;;;;;x
+WRU_claim_MOL_title;Claim Moldavia;;;;;;;;;;;;;x
+WRU_claim_MOL_desc;Let us move our border to more defendable positions;;;;;;;;;;;;;x
+WRU_claim_tartar_title;Claim the neighbouring Tatar lands;;;;;;;;;;;;;x
+WRU_claim_tartar_desc;Now that we have accepted the Crimean tatars, we are now able to expand outwards. WE RIDE EAST!;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+###DUA Content###;;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+DUA_kill_NAN_title;Kill the young cub;;;;;;;;;;;;;x
+DUA_kill_NAN_desc;With the English now firmly on our side, we must destroy the only remaining threat to our presence in England, the abandoned cub, Beornia;;;;;;;;;;;;;x
+DUA_dismantle_BRG_title;Dismantle Burgundy;;;;;;;;;;;;;x
+DUA_dismantle_BRG_desc;Time to kill off out arch-nemesis;;;;;;;;;;;;;x
+DUA_dismantle_PBG_title;Dismantle Burgundy;;;;;;;;;;;;;x
+DUA_dismantle_PBG_desc;Time to kill off out arch-nemesis;;;;;;;;;;;;;x
+DUA_establish_HLL_title;Establish the Duchy of Holland;;;;;;;;;;;;;x
+DUA_establish_HLL_desc;The manual decision if you for whatever reason you manually took the lowlands;;;;;;;;;;;;;x
+#####################;;;;;;;;;;;;;;x
+###QingQiu Content###;;;;;;;;;;;;;;x
+#####################;;;;;;;;;;;;;;x
+from_FSF_title;From the FuSang Federation;;;;;;;;;;;;;x
+from_FSF_desc;With our dominion over the Arcadiam continent, we can purpose a union with the Western Arcadians. §RHowever, if our government becomes one that they deem unfriendly with them, a civil war may erupt;;;;;;;;;;;;;x
+DNG_dismantle_NBG_title;Dismantle the Belgian Confederacy;;;;;;;;;;;;;x
+DNG_dismantle_NBG_desc;For too long have the Belgians been a thorn in the side of our great nation, especially now that we are looking westwards. Thus we must dismantle them in order to ensure that they will not attempt to unite Aracdia!;;;;;;;;;;;;;x
+DNG_destroy_belgian_unity_title;Destroy Belgian Unity;;;;;;;;;;;;;x
+DNG_destroy_belgian_unity_desc;Desipte dismantling the Belgian Confederacy, many within our nation still don't trust the Belgians. Thus further division of the Belgian state must be enforced to satisfy our citizens;;;;;;;;;;;;;x
+DNG_dismantle_PLA_title;Dismantle Plantagenia;;;;;;;;;;;;;x
+DNG_dismantle_PLA_desc;For too long have the Plantagenians been a thorn in the side of our great nation, especially now that we are looking westwards. Thus we must dismantle them in order to ensure that they will not attempt to unite Aracdia!;;;;;;;;;;;;;x
+DNG_dismantle_VIN_title;Dismantle Vinland;;;;;;;;;;;;;x
+DNG_dismantle_VIN_desc;Vinland has long since been opposed to any and all froms of Aracdian unification, leading them to attempt to subjugate the other powers to ensure thier contiued survival. However, we must take them down a peg in order for our contiued westward expansion to succeed;;;;;;;;;;;;;x
+FSF_accept_LST_title;Accept the Lusitanians;;;;;;;;;;;;;x
+FSF_accept_LST_desc;For too long have the natives of Lusitania been treated as second class citizens, in order to show the Taixi that we can be equals!;;;;;;;;;;;;;x
+FSF_destroy_JAP_title;Destroy the Rising Sun;;;;;;;;;;;;;x
+FSF_destroy_JAP_desc;Japan has been our enternal rival since our independence, thus, with our unification of FuSang, the Rising Sun §RMUST BE PUT DOWN!;;;;;;;;;;;;;x
+FSF_fate_of_JAP_title;Fate of Japan;;;;;;;;;;;;;x
+FSF_fate_of_JAP_desc; We must decide what to do with Japan;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+###DIE Content###;;;;;;;;;;;;;;x
+#################;;;;;;;;;;;;;;x
+greater_dietsland_title;Greater Dietsland;;;;;;;;;;;;;x
+greater_dietsland_desc;While we may have gained our freedom, some nationalist have drawn up borders of a 'Greater Dietsland', lets humor them and claim these lands;;;;;;;;;;;;;x
+DIE_claim_burgundy_title;Claim Burgundy;;;;;;;;;;;;;x
+DIE_claim_burgundy_desc;Since we were part of the Burgundian Kingdom, we do have a right to their lands, thus let's topple the Burgundians once and for all!;;;;;;;;;;;;;x
+DIE_form_LTA_title;Form Lotharingia;;;;;;;;;;;;;x
+DIE_form_LTA_desc;While we have conquered Burgundy, the Burgundians are more Romance than Germanic. Thus let us go back in time to the time of Germanic Lotharingia!;;;;;;;;;;;;;x
+nederlands_duitsland_title;Unite Duitsland;;;;;;;;;;;;;x
+nederlands_duitsland_desc;We have manged to control or own most of the fatherland, thus let us unite it under Dutch leadership;;;;;;;;;;;;;x
+#####################;;;;;;;;;;;;;;x
+###Beornia Content###;;;;;;;;;;;;;;x
+#####################;;;;;;;;;;;;;;x
+NAN_jewish_dream_title;Enable the Israelist;;;;;;;;;;;;;x
+NAN_jewish_dream_desc;With the idea of our nation becoming the homeland for the many Jewish people of the world gaining traction, lets draft up a policy to enable the Jewish to settle on our lands!;;;;;;;;;;;;;x
+NAN_further_jew_acceptence_title;Extend Jewish Acceptence;;;;;;;;;;;;;x
+NAN_further_jew_acceptence_desc;With our government turning to a more liberal citizenship policy, let us extend citizenship to the non-European jews!;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+###New Japan Decisions###;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_aussie_take_over_DUA_title;Demand Control of the land of the South from the Anglois;;;;;;;;;;;;;x
+JAP_aussie_take_over_DUA_desc;To have total security of our backyard, we must control the lands that lay in the south, thus let us demand it!;;;;;;;;;;;;;x
+######################################################;;;;;;;;;;;;;;x
+###Old Dzungar Content (To be Removed/Reused later)###;;;;;;;;;;;;;;x
+######################################################;;;;;;;;;;;;;;x
+invite_western_scholars_title;Invite Western Scholars;;;;;;;;;;;;;x
+invite_western_scholars_desc;It is no secret that our Empire is perhaps the most backwards in all of Asia. Geographical factors have not treated us kindly, central asia being forever on the backdoor of both Europe and East Asia. No longer though, as we shall invite European Scholars to grant us their technological and social innovations, while we keep our culture in tact. We shall invite them, we shall pay them handsomely, and we shall treat them like royaly.;;;;;;;;;;;;;x
+return_to_our_mongol_roots_title;A Return to Our Roots;;;;;;;;;;;;;x
+return_to_our_mongol_roots_desc;Following the death of the last great Khan, his young son, Qulpa Khan has taken over his position. Though inexperienced, he has developed a fascination with his Mongol roots, even abandoning the Oirat language in favor of Mongolian. Desipte his inexperience, he has already shown himself to be a capable leader, even has our Khanate tears itself apart. His prowess at command is said to rival even the Khan of Khans himself. He has instituted a sweeping series of reforms, notably adopting the Mongol religion of Buddhism, and declaring the official state language to be Buddhism, as well as inviting several European experts to help in modernizing our country, and more importantly, our army.;;;;;;;;;;;;;x
+proclaim_yuan_dynasty_schizo_title;Restore our Birthright;;;;;;;;;;;;;x
+proclaim_yuan_dynasty_schizo_desc;We will declare the empire enstituted by the Red Turbans, and therefore all future Empires which claim the middle kingdom as illegitimate. We will be the only dynasty that can rule China, even if the people of China do not see it so. China has been disunified for far too long, and perhaps some may be willing to accept our stabilizing might.;;;;;;;;;;;;;x
+create_new_capital_title;Found a New Capital;;;;;;;;;;;;;x
+create_new_capital_desc;While Beijing is a perfectly serviceable capital, many of the Khan-Turned-Emperor's closeset cronies suggest a different capital may be preferable, as this way we can keep carve out our own identity, different from all of the other pretenders who clung to Beijing so dearly.;;;;;;;;;;;;;x
+accept_yi_title;Fund Yi Public Works;;;;;;;;;;;;;x
+accept_yi_desc;The Yi people are a small minority within China, being related distantly to the Han and numbering rather few, they have not garnered the greatest acceptance by their cousins. While they are no large demographic, by funding public works to secure their employment and strengthen their cultural morale, we could make good friends of them.;;;;;;;;;;;;;x
+accept_miao_title;The Miao Minority;;;;;;;;;;;;;x
+accept_miao_desc;The Miao, also known as the Hmong people in china represent a small minority, being quite similar in size to the Yi people, living primarily in rural southern China. With a few strategically placed agricultural privledges at the expense of the Han, we could make the Miao allies of our government.;;;;;;;;;;;;;x
+accept_yue_title;Solving the Cantonese Conundrum;;;;;;;;;;;;;x
+accept_yue_desc;The Yue Chinese speakers of southern China have been a large beneficiary of our rule, as we have left the company quite open to western trade without so much war between competing dynasties fogging the ports and making sailing unsafe. Now, they are some of our greatest supporters, only requiring a few extra trade benefits to embrace us wholeheartedly.;;;;;;;;;;;;;x
+end_alt_warlord_era_notyua_title;End The Warlord Era;;;;;;;;;;;;;x
+end_alt_warlord_era_notyua_desc;The three-way civil war which has destroyed our empire has been resolved, and we the victor! Now we only need to officially declare ourselves as the rulers of China, and foreign governments will have no choice but to recognize us as the only legitimate rulers of China.;;;;;;;;;;;;;x
+end_alt_warlord_era_yua_title;The Rebels Crushed;;;;;;;;;;;;;x
+end_alt_warlord_era_yua_desc;Finally, after such a brutal war we have crushed the rebels who have destroyed our country. We have solved the war, and now we need only to remove the last instances of rebellion in our provinces.;;;;;;;;;;;;;x
+manchuria_vore_yua_title;Manchuria, A Candidate for Conquest;;;;;;;;;;;;;x
+manchuria_vore_yua_desc;Manchuria is in a compromized position, being stuck between our might empire, and the unfortunately-mighty empire of Japan. We can offer them safety, particularly as they are descended from the Steppe peoples, just as we are. We can find cultural brotherhood, and use it to strengthen ourselves by conquering them.;;;;;;;;;;;;;x
+cross_the_himalayas_title;Cross The Himalayas;;;;;;;;;;;;;x
+cross_the_himalayas_desc;The Himalayas are the tallest mountains in the world, but that has not stopped the spread of culture nor religion. Vajrayana Buddhism and ascociated iconography have united the two sides of the mountains, it is only natural that we unify the range.;;;;;;;;;;;;;x
+claim_SEA_commie_title;Liberate South Eastasia;;;;;;;;;;;;;x
+claim_SEA_commie_desc;Southeast Asia has been taken by western imperialists, there is no doubt to be had that they will accept our rule. We only need to fully liberate them to prove that we have their best interest in mind. Of course, we must govern them directly to ensure that they fall in line with the monarcho-socialist paradise that our People's Emperor intends on building.;;;;;;;;;;;;;x
+claim_KOR_commie_title;Liberate Korea;;;;;;;;;;;;;x
+claim_KOR_commie_desc;Just as Southern Asia has fallen to the hands of western imperialists, Korea, a long-time Chinese client state has fallen into the hands of eastern imperialists, the Japanese. We must rescue them from their foul clutches.;;;;;;;;;;;;;x
+mop_up_china_shu_title;Snuff Out The Shu;;;;;;;;;;;;;x
+mop_up_china_shu_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. 'No!' says Qulpa Khan, we shall take them back. We will put our will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x
+mop_up_china_dax_title;Exterminate The Xi;;;;;;;;;;;;;x
+mop_up_china_dax_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. 'No!' says Qulpa Khan, we shall take them back. We will put our will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x
+mop_up_china_tai_title;Terminate the Taiping;;;;;;;;;;;;;x
+mop_up_china_tai_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. 'No!' says Qulpa Khan, we shall take them back. We will put our will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x
+mop_up_china_mig_title;Punish The Presidency;;;;;;;;;;;;;x
+mop_up_china_mig_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. 'No!' says Qulpa Khan, we shall take them back. We will put our will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x
+mop_up_china_tng_title;Make the Tunging Kneel;;;;;;;;;;;;;x
+mop_up_china_tng_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. 'No!' says Qulpa Khan, we shall take them back. We will force our benevolent will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x
+mop_up_china_gng_title;Put an end to the Yue;;;;;;;;;;;;;x
+mop_up_china_gng_desc;Hundreds of years ago, our dynasty, our people controlled the most crucial empire in world history, before we were ousted by ungreatful rebel scum. 'No!' says Qulpa Khan, we shall take them back. We will force our benevolent will on them, and we will have them accept our governance as if it were their own, even if it takes decades;;;;;;;;;;;;;x
+mop_up_china_chi_title;Fight The Pretenders;;;;;;;;;;;;;x
+mop_up_china_chi_desc;Those bastards DARE to call themselves the unifiers of China!? We shall put them in their place!;;;;;;;;;;;;;x 
+accept_hispano_andean_title;Integrate Andean Latin Amerigans;;;;;;;;;;;;;x
+accept_hispano_andean_desc;Our taking over of the Ande via our conquest of Granada has lead to a large and vocal minority of spanish-speaking peoples living in the mountains and valleys of the region. While they are quite drastically outpopulated by local natives, they are still our Spanish brethren, and it is only proper that we accept them into Gran Colombia with open arms.;;;;;;;;;;;;;x
+conquer_quito_clm_title;Conquer Quito;;;;;;;;;;;;;x
+conquer_quito_clm_desc;The region of Quito remains the last roadblock on our journey to unite all of Spanish Ameriga, a vast region being with an enormous population of natives and relatively few spaniards, it will be difficult for us to control, but it is so large and resource rich, that conquering it is believed by many to be necessary for our empire.;;;;;;;;;;;;;x
+accept_andean_natives_title;Integrate Andean Natives;;;;;;;;;;;;;x
+accept_andean_natives_desc;The peoples of the former Incan Empire are a rainbow of diversity, descending from many different tribes, all having unique languages and cultural differences. Now that the Inca have been brought down and Quito humbled, we have room to offer them a place in our empire, as they are far too big for us to reasonably colonize, with the region being too unappetizing to potential settlers. With very generous financial programs, we can make them feel more than at home under our rule.;;;;;;;;;;;;;x
+ban_slavery_and_serfdom_yua_title;The Twin Evils;;;;;;;;;;;;;x
+ban_slavery_and_serfdom_yua_desc;Serfdom and slavery are the twin evils which keep our society locked in the dark ages. We must remove both of these practices at once! with generous compensation to the now-former slaveowners and serfholders to avoid any political upheaval such a dramatic course of action will cause.;;;;;;;;;;;;;x
+make_civil_war_easier_YUA_title;Make The Civil War Easier;;;;;;;;;;;;;x
+make_civil_war_easier_YUA_desc;In lieu of balancing changes which are yet to come, this decision can be taken if the civil war proves too challenging.;;;;;;;;;;;;;x

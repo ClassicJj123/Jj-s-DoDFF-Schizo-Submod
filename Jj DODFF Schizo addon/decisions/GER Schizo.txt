@@ -93,7 +93,7 @@ The_Beornian_acceptence = {
 	 }
 }
 
-#The Germans of South america
+#The Germans of South africa
 Batavia_is_german = {
 	 potential = {
 		 tag = GER

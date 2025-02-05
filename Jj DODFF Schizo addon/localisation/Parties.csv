@@ -1,15 +1,15 @@
-Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
-RUV_reactionary;Soyuz Russkikh Liudey;;;;;;;;;;;;;
-RUV_conservative;Partiya Pravovogo Poriadka;;;;;;;;;;;;;
-RUV_fascist;Partiya Evraziyskikh Sotsialistov;;;;;;;;;;;;;
-RUV_liberal;Progressivnaya Partiya;;;;;;;;;;;;;
-RUV_anarcho_liberal;Liberaly-Revolutsionery;;;;;;;;;;;;;
-RUV_social_liberal;Khristianskiy Rabochiy Soyuz;;;;;;;;;;;;;
-RUV_socialist;Promethey - Umerennye;;;;;;;;;;;;;
-RUV_communist_1;Promethey - Radicaly;;;;;;;;;;;;;
-RUV_communist_2;Promethey - Internationalist;;;;;;;;;;;;;
-RUV_market_liberal;Partiya Konstitutsii;;;;;;;;;;;;;
-RUV_paternal_1;Boyare;;;;;;;;;;;;;
-RUV_paternal_2;Russkoye Narodnoye Edinstvo;;;;;;;;;;;;;
-AFU_conservative_1;Consiglio Nazionale Furtista;;;;;;;;;;;;;
-AFU_anarcho_liberal;Partito Nazionale Futurista;;;;;;;;;;;;;
+CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;ITALIAN;SWEDISH;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;x
+RUV_reactionary;Soyuz Russkikh Liudey;;;;;;;;;;;;;x
+RUV_conservative;Partiya Pravovogo Poriadka;;;;;;;;;;;;;x
+RUV_fascist;Partiya Evraziyskikh Sotsialistov;;;;;;;;;;;;;x
+RUV_liberal;Progressivnaya Partiya;;;;;;;;;;;;;x
+RUV_anarcho_liberal;Liberaly-Revolutsionery;;;;;;;;;;;;;x
+RUV_social_liberal;Khristianskiy Rabochiy Soyuz;;;;;;;;;;;;;x
+RUV_socialist;Promethey - Umerennye;;;;;;;;;;;;;x
+RUV_communist_1;Promethey - Radicaly;;;;;;;;;;;;;x
+RUV_communist_2;Promethey - Internationalist;;;;;;;;;;;;;x
+RUV_market_liberal;Partiya Konstitutsii;;;;;;;;;;;;;x
+RUV_paternal_1;Boyare;;;;;;;;;;;;;x
+RUV_paternal_2;Russkoye Narodnoye Edinstvo;;;;;;;;;;;;;x
+AFU_conservative_1;Consiglio Nazionale Furtista;;;;;;;;;;;;;x
+AFU_anarcho_liberal;Partito Nazionale Futurista;;;;;;;;;;;;;x
