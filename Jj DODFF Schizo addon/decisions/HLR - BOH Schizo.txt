@@ -24,6 +24,7 @@ Burgundian_question = {
 
 #Italian expension
 Italy_expension = {
+
 	 potential = {
 		 tag = HLR
 		 ai = no
@@ -33,7 +34,12 @@ Italy_expension = {
 		 has_country_flag = rhine_united_HLR
 		 has_country_flag = south_united_HLR
 		 has_country_flag = swabia_united_HLR
-		 NOT = { has_country_flag = HLR_ITA_reclaim }
+		 NOT = { 
+			OR = {
+				has_country_flag = HLR_ITA_reclaim
+				set_global_flag = HLR_is_radical
+			}
+		 }
 	 }
 	 
 	 allow = {

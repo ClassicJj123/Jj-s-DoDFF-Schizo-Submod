@@ -1,0 +1,431 @@
+###Scripted Wars###
+
+    ##Victory over DUA##
+    #Death is something that comes for all empires
+    #Flavor text
+    country_event = {
+        id = 1000000221
+        title = "EVTNAME1000000221"
+        desc = "EVTDESC1000000221"
+        picture = "placeholder"
+        
+        trigger = {
+            tag = HLR
+            DUA = { has_country_flag = custom_treaty_loser }
+            has_global_flag = HLR_vs_DUA
+        }
+        
+        mean_time_to_happen = {
+            days = 0
+        }
+    
+        #fire_only_once = yes
+    
+        option = {
+            name = "EVTOPTA1000000221"
+            prestige = 20
+            clr_global_flag = HLR_vs_DUA
+            DUA = { 
+                country_event = 1000000222
+                clr_country_flag = custom_treaty_loser
+            }
+        }
+        
+    }
+
+    #DUA Ver
+    country_event = {
+        id = 1000000222
+        title = "EVTNAME1000000222"
+        desc = "EVTDESC1000000222"
+        picture = "placeholder"
+        
+        is_triggered_only = yes
+        
+        option = {
+            name = "EVTOPTA1000000222"
+            DUA = {
+                any_owned = {
+                    limit = {
+                        NOT = { continent = europe }
+                    }
+                    secede_province = HLR
+                }
+                any_owned = {
+                    limit = {
+                        is_core = BRT
+                    }
+                    secede_province = BRT
+                }
+                any_owned = {
+                    limit = {
+                        is_core = ENL
+                    }
+                    secede_province = ENL
+                }
+                any_owned = {
+                    limit = {
+                        is_core = OCC
+                    }
+                    secede_province = OCC
+                }
+                any_owned = {
+                    limit = {
+                        is_core = IRE
+                    }
+                    secede_province = IRE
+                }
+                any_owned = {
+                    limit = {
+                        is_core = FRA
+                    }
+                    secede_province = FRA
+                }
+            }
+            ENG = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            BRT = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            FRA = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            IRE = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            OCC = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            HLR = {
+                create_vassal = IRE
+                create_vassal = OCC
+                create_vassal = FRA
+                create_vassal = ENG
+                create_vassal = BRT
+                inherit = DUA #In case DUA owns European land outside of the countries to be released
+            }
+        }
+        
+    }
+
+    ##Victory over SCA##
+    #Death is something that comes for all empires
+    #Flavor text
+    country_event = {
+        id = 1000000223
+        title = "EVTNAME1000000223"
+        desc = "EVTDESC1000000223"
+        picture = "placeholder"
+        
+        trigger = {
+            tag = HLR
+            SCA = { has_country_flag = custom_treaty_loser }
+            has_global_flag = HLR_vs_SCA
+        }
+        
+        mean_time_to_happen = {
+            days = 0
+        }
+    
+        #fire_only_once = yes
+    
+        option = {
+            name = "EVTOPTA1000000223"
+            prestige = 20
+            clr_global_flag = HLR_vs_SCA
+            SCA = { 
+                country_event = 1000000224
+                clr_country_flag = custom_treaty_loser
+            }
+            DEN_367	= { add_core = DEN }
+		    DEN_372 = { add_core = DEN }
+		    DEN_334 = { add_core = DEN }
+		    SCH_370 = { add_core = DEN }
+		    SWE_313 = { add_core = NOR }
+		    SWE_309 = { add_core = NOR }
+		    SWE_309 = { add_core = NOR }
+		    SWE_308 = { add_core = NOR }
+		    SWE_329 = { add_core = SWE }
+		    SWE_322 = { add_core = SWE }
+		    SWE_318 = { add_core = SWE }
+        }
+        
+    }
+
+    #SCA Ver
+    country_event = {
+        id = 1000000224
+        title = "EVTNAME1000000224"
+        desc = "EVTDESC1000000224"
+        picture = "placeholder"
+        
+        is_triggered_only = yes
+        
+        option = {
+            name = "EVTOPTA1000000224"
+            SCA = {
+                any_owned = {
+                    limit = {
+                        NOT = { continent = europe }
+                    }
+                    secede_province = HLR
+                }
+                any_owned = {
+                    limit = {
+                        is_core = ICL
+                    }
+                    secede_province = ICL
+                }
+                any_owned = {
+                    limit = {
+                        is_core = FIN
+                    }
+                    secede_province = FIN
+                }
+                any_owned = {
+                    limit = {
+                        is_core = SMI
+                    }
+                    secede_province = SMI
+                }
+                any_owned = {
+                    limit = {
+                        is_core = KAR
+                    }
+                    secede_province = KAR
+                }
+                any_owned = {
+                    limit = {
+                        is_core = NOR
+                    }
+                    secede_province = NOR
+                }
+                any_owned = {
+                    limit = {
+                        is_core = DEN
+                    }
+                    secede_province = DEN
+                }
+                any_owned = {
+                    limit = {
+                        is_core = SWE
+                    }
+                    secede_province = SWE
+                }
+                any_owned = {
+                    limit = {
+                        is_core = SCO
+                    }
+                    secede_province = SCO
+                }
+                any_owned = {
+                    limit = {
+                        OR = {
+                            is_core = LAT
+                            is_core = EST
+                            is_core = PSV
+                            is_core = ING
+                        }
+                    }
+                    secede_province = LIV
+                }
+            }
+            ICL = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            SMI = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            LIV = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            KAR = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            NOR = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                clr_country_flag = unreleasable_country
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            SWE = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                clr_country_flag = unreleasable_country
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            DEN = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                clr_country_flag = unreleasable_country
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            SCO = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            HLR = {
+                create_vassal = ICL
+                create_vassal = SMI
+                create_vassal = LIV
+                create_vassal = KAR
+                create_vassal = NOR
+                create_vassal = DEN
+                create_vassal = SWE
+                create_vassal = FIN
+                create_vassal = SCO
+                inherit = SCA #In case SCA owns European land outside of the countries to be released
+            }
+        }
+        
+    }
+
+    ##Victory over PLC##
+    #Death is something that comes for all empires
+    #Flavor text
+    country_event = {
+        id = 1000000225
+        title = "EVTNAME1000000225"
+        desc = "EVTDESC1000000225"
+        picture = "placeholder"
+        
+        trigger = {
+            tag = HLR
+            PLC = { has_country_flag = custom_treaty_loser }
+            has_global_flag = HLR_vs_PLC
+        }
+        
+        mean_time_to_happen = {
+            days = 0
+        }
+    
+        #fire_only_once = yes
+    
+        option = {
+            name = "EVTOPTA1000000225"
+            prestige = 20
+            clr_global_flag = HLR_vs_PLC
+            PLC = { 
+                country_event = 1000000226
+                clr_country_flag = custom_treaty_loser
+            }
+        }
+        
+    }
+
+    #PLC Ver
+    country_event = {
+        id = 1000000226
+        title = "EVTNAME1000000226"
+        desc = "EVTDESC1000000226"
+        picture = "placeholder"
+        
+        is_triggered_only = yes
+        
+        option = {
+            name = "EVTOPTA1000000226"
+            PLC = {
+                any_owned = {
+                    limit = {
+                        NOT = { continent = europe }
+                    }
+                    secede_province = HLR
+                }
+                any_owned = {
+                    limit = {
+                        is_core = PRU
+                    }
+                    secede_province = PRU
+                }
+                any_owned = {
+                    limit = {
+                        OR = {
+                            is_core = SMO
+                            is_core = BLR
+                        }
+                    }
+                    secede_province = BLR
+                }
+                any_owned = {
+                    limit = {
+                        OR = {
+                            is_core = SAM
+                            is_core = LIT
+                        }
+                    }
+                    secede_province = SAM
+                }
+                any_owned = {
+                    limit = {
+                        is_core = POL
+                    }
+                    secede_province = POL
+                }
+            }
+            PRU = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            BLR = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            SAM = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            POL = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            HLR = {
+                create_vassal = PRU
+                create_vassal = BLR
+                create_vassal = SAM
+                create_vassal = POL
+                inherit = PLC #In case PLC owns European land outside of the countries to be released
+            }
+        }
+        
+    }

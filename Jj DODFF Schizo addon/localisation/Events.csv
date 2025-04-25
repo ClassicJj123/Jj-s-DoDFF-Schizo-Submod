@@ -358,7 +358,7 @@ EVTNAME1000000075;The Austrians Have Noticed!;;;;;;;;;;;;;x
 EVTDESC1000000075;We weren't fast enough and the noise has reached Vienna, the Kaizer's armies have been spotted on the outskirts. May god help us all;;;;;;;;;;;;;x
 EVTOPA1000000075;We're SCREWED!;;;;;;;;;;;;;x
 EVTNAME1000000076;A Interesting Development;;;;;;;;;;;;;x
-EVTDESC1000000076;In a sudden turn of events, the new regent has somehow made a deal with the Kaizer! The Imperial Army seen earier weren't here to put an end to the insane man's dreams, rather assist him in putting down the riotors;;;;;;;;;;;;;x
+EVTDESC1000000076;'Mr Regent! I'm sorry to brust into your office so suddenly, but there is an imperial army marching our way!' a messager shouted as he barged into the regent's office.\n\n'No need to apologize, afterall you are merely delivering news' the regent turned from the window to face the messager.\n\n'You need not worry about the imperial army however, for they have come to aid me'\n\n In a sudden turn of events, the new regent has somehow made a deal with the Kaizer! The Imperial Army seen earlier weren't here to put an end to the insane man's dreams, rather assist him in putting down the riotors;;;;;;;;;;;;;x
 EVTOPA1000000076;Has the world gone INSANE?!;;;;;;;;;;;;;x
 EVTNAME1000000077;The Interal Situation;;;;;;;;;;;;;x
 EVTDESC1000000077;With the external problem of Austria dealt with for the time being, it's time to look inwards. The Riots that erupted mere days ago show how unstable this country really is. Thus to ensure that we don't collapse, our regent has decided to focus on interial affairs for the time being;;;;;;;;;;;;;x
@@ -366,8 +366,8 @@ EVTOPA1000000077;On to the first issue of the day;;;;;;;;;;;;;x
 EVTNAME1000000078;The Question of Languague;;;;;;;;;;;;;x
 EVTDESC1000000078;While we are under the overlordship of a german nation, we mainly speak the language of our Italian brothers. However due to regionalism, the Italian language has split off into multiple smaller regional dialects. Thus we must choose one of them to use as our standard;;;;;;;;;;;;;x
 EVTOPA1000000078A;Use Venetian;;;;;;;;;;;;;x
-EVTOPA1000000078B;Use North Italian;;;;;;;;;;;;;x
-EVTOPA1000000078C;Use Central Italian;;;;;;;;;;;;;x
+EVTOPA1000000078B;Use North Italian §R(NOT FINISHED);;;;;;;;;;;;;x
+EVTOPA1000000078C;Use Central Italian §R(NOT FINISHED);;;;;;;;;;;;;x
 EVTNAME1000000079;The Matter of Industry;;;;;;;;;;;;;x
 EVTDESC1000000079;With the languague question sorted, we move onto the question of industry. Despite our size, our location in the Adriatic has attracted many to attempt to invest in us. However, not everyone comes with good intentions thus we must be ready to refuse suspicious actors if they attempt to breach our nation;;;;;;;;;;;;;x
 EVTOPA1000000079;Let the Games begin;;;;;;;;;;;;;x
@@ -403,12 +403,18 @@ EVTOPA1000000094;Let's hope this won't be a problem;;;;;;;;;;;;;x
 EVTNAME1000000095;An Aragonese Army;;;;;;;;;;;;;x
 EVTDESC1000000095;The Aragonese who have come up on top in the economic war have imposed their military doctrine of valuing quality over quantity while combining aspects of an quantity army by letting even the weakest of us into the army. While this will most certainly be helpful, the increasing influence the Aragonese have within our nation is starting to cause concerns;;;;;;;;;;;;;x
 EVTOPA1000000095;Let's hope this won't be a problem;;;;;;;;;;;;;x
-EVTNAME1000000096;A Mixed Bag
+EVTNAME1000000096;A Mixed Bag;;;;;;;;;;;;;x
 EVTDESC1000000096;Despite the pushes from both the German Eagle and Aragonese Knight, our officals couldn't agree on which of the two was a better in matters of the military, thus, in an act to attempt to please both powers, a compromize army was created;;;;;;;;;;;;;x
 EVTOPA1000000096;Let's hope this won't be a problem;;;;;;;;;;;;;x
 EVTNAME1000000097;An Fiumese Army;;;;;;;;;;;;;x
 EVTDESC1000000097;Despite the pushes from both the German Eagle and Aragonese Knight, our officals have decided to come up with a military doctrine special to Fiume, one that combines quality troops with a hardern will;;;;;;;;;;;;;x
 EVTOPA1000000097;'And Thus! The Indomitable Fiumese Spirit Rises!';;;;;;;;;;;;;x
+EVTNAME1000000098;Preparations For A Revolution;;;;;;;;;;;;;x
+EVTDESC1000000098;In the wee hours of the day, men from all walks of life entered the building of the curent regent, they were all masters of deception and coercion, a skill needed for the regent's future plans.\n\n'Have we all arrived? Good. Cause there is much work to do';;;;;;;;;;;;;x
+EVTOPA1000000098;'For the Future of Fiume, we need to cook';;;;;;;;;;;;;x
+EVTNAME1000000099;The Department Of Propaganda;;;;;;;;;;;;;x
+EVTDESC1000000099;'So our job is to convince local officals in Venice to join us?' The man seated on the side of the room asked.\n\n'Yes, and for that, the state's treasury is open to you.' the regent responded as he stared at the collection of men in his office.\n\n'Do everything in your power to achieve this, the fate of Fiume is in your hands.'\n\nAt evening that day, the regent announced the creation of the Department of Propaganda, aimed at combating false infromation within the state;;;;;;;;;;;;;x
+EVTOPA1000000099;Oh boy;;;;;;;;;;;;;x
 #####################;;;;;;;;;;;;;;x
 ###Teschen Content###;;;;;;;;;;;;;;x
 #####################;;;;;;;;;;;;;;x

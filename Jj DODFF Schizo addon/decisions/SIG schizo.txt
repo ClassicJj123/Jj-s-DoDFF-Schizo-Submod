@@ -110,7 +110,9 @@ From_SEA_master = {
 		 OR = {
 			 primary_culture = malay
 			 primary_culture = tionghoa
+			 primary_culture = javan
 		 }
+		 NOT = { tag = SEA }
 		 ai = no
 		 has_country_flag = Schzio_mod_show
 	 }
@@ -196,6 +198,7 @@ From_SEA_master = {
 		 NET_1414 = { add_core = SEA }
 		 NET_1421 = { add_core = SEA }
 		 change_tag = SEA
+		 capital = 1384
 		 primary_culture = tionghoa
 		 add_accepted_culture = melanesian
 		 add_accepted_culture = malay

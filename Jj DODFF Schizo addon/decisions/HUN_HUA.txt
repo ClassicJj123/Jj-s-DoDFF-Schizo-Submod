@@ -1,0 +1,402 @@
+political_decisions = {
+	
+	transleithania_is_back = {
+
+		potential = {
+			NOT = { has_country_flag = banned_from_froming_HUA }
+			has_country_flag = Schzio_mod_show
+			ai = no
+			tag = HUN 
+		}
+
+		allow = {
+			OR = {
+				AND = {
+					is_our_vassal = AUS
+					CRN = { 
+						all_core = {
+							OR = {
+								owned_by = THIS
+								owner = {
+					 				in_sphere = THIS
+				 				}
+							}
+						}
+					}
+				}
+				AND = {
+					AUS_619 = {
+			 			OR = {
+				 			owned_by = THIS
+				 			owner = {
+					 			in_sphere = THIS
+				 			}
+			 			}
+		 			}
+					AUS_616 = {
+			 			OR = {
+				 			owned_by = THIS
+				 			owner = {
+					 			in_sphere = THIS
+				 			}
+			 			}
+		 			}
+					AUS_768 = {
+			 			OR = {
+				 			owned_by = THIS
+				 			owner = {
+					 			in_sphere = THIS
+				 			}
+			 			}
+		 			}
+					624 = {
+			 			OR = {
+				 			owned_by = THIS
+				 			owner = {
+					 			in_sphere = THIS
+				 			}
+			 			}
+		 			}
+				}
+			}
+			prestige = 20
+		}
+
+		effect = {
+			inherit = AUS
+			add_accepted_culture = south_german
+			AUS_619 = { add_core = HUN }
+			AUS_616 = { add_core = HUN }
+			AUS_768 = { add_core = HUN }
+			624 = { add_core = HUN }
+			change_tag = HUA
+			prestige = 20
+		}
+
+	}
+
+	#Conquest of Croatia, HUA ver
+	conquest_of_CRO = {
+
+		potential = {
+			tag = HUA
+			NOT = {
+				is_core = 619
+			}
+		}
+
+		allow = {
+			is_greater_power = yes
+		}
+
+		effect = {
+			CRO = { all_core = { add_core = HUA } }
+			FIU = { all_core = { add_core = HUA } }
+			#add_accepted_culture = slovene
+		}
+
+	}
+
+	Remove_the_Hollowing_locally_HUA = { 
+		
+		potential = { 
+			tag = HUA
+			has_country_flag = Schzio_mod_show
+			has_global_flag = HOLLOWING_END
+			NOT = { has_country_flag = ended_local_hollowing }
+			NOT = { has_global_flag = HOLLOWING_AFTERMATH_END }
+		}
+		
+		allow = {
+			AUS_619 = { owned_by = THIS }
+			AUS_616 = { owned_by = THIS }
+			AUS_768 = { owned_by = THIS }
+			624 = { owned_by = THIS }
+			money = 250000
+		    high_pressure_steam_engine = 1
+		    interchangeable_parts = 1
+		}
+		
+		effect = { 
+			money = -250000
+			set_country_flag = ended_local_hollowing
+			any_owned = { 
+				limit = { 
+					OR = {
+						is_core = THIS
+					}
+				}
+				remove_province_modifier = light_hollowing_province
+				remove_province_modifier = average_hollowing_province
+				remove_province_modifier = severe_hollowing_province
+				remove_province_modifier = catastropic_hollowing_province
+				remove_province_modifier = apocalyptic_hollowing_province
+				remove_province_modifier = hollowing_aftermath
+			}
+			any_owned = { 
+				limit = { 
+					OR = {
+						is_core = GER
+						is_core = CRN
+					}
+				}
+				remove_province_modifier = light_hollowing_province
+				remove_province_modifier = average_hollowing_province
+				remove_province_modifier = severe_hollowing_province
+				remove_province_modifier = catastropic_hollowing_province
+				remove_province_modifier = apocalyptic_hollowing_province
+				remove_province_modifier = hollowing_aftermath
+				add_province_modifier = {
+			 		name = German_repoplution_LGC
+			 		duration = 1825
+		 		}
+			}
+		}
+	}
+
+	#Time to claim the mouth of the alps
+	HUA_vs_SGF = {
+		picture = ""
+	
+		potential = { 
+			tag = HUA
+			has_country_flag = Schzio_mod_show
+			AUS_612 = { owned_by = SGF }
+			NOT = { has_country_flag = war_for_the_alps }
+		}
+	
+		allow = {
+			has_unclaimed_cores = no
+		}
+	
+		effect = {
+			set_country_flag = war_for_the_alps
+			set_global_flag = HUA_vs_SGF
+			war = {
+				target = SGF
+				attacker_goal = {
+					casus_belli = custom_treaty_cb
+				}
+				defender_goal = {
+					casus_belli = custom_treaty_cb
+				}
+				call_ally = no
+			}
+		}
+	
+	}
+
+	#Claim Triol
+	HUA_claim_triol = {
+		picture = ""
+	
+		potential = { 
+			tag = HUA
+			has_country_flag = Schzio_mod_show
+			NOT = { AUS_612 = { owned_by = SGF } }
+			NOT = { 612 = { is_core = THIS } }
+		}
+	
+		allow = {
+			has_unclaimed_cores = no
+		}
+	
+		effect = {
+			AUS_612 = { add_core = THIS }
+			any_country = {
+				limit = {
+					tag = TIR
+					in_sphere = THIS
+				}
+				annex_to = THIS
+			}
+		}
+	
+	}
+
+	conquest_of_HUA_galicia = {
+
+		potential = {
+			tag = HUA
+			NOT = {
+				is_core = 703
+			}
+		}
+
+		allow = {
+			is_greater_power = yes
+			owns = 778
+			owns = 781
+			owns = 783
+		}
+
+		effect = {
+			703 = { add_core = HUA }
+			714 = { add_core = HUA }
+			704 = { add_core = HUA }
+			692 = { add_core = HUA }
+			951 = { add_core = HUA }
+			952 = { add_core = HUA }
+			953 = { add_core = HUA }
+			954 = { add_core = HUA }
+			662 = { add_core = HUA }
+			663 = { add_core = HUA }
+			#add_accepted_culture = croat
+		}
+
+	}
+
+	raping_BOH = {
+
+		potential = {
+			tag = HUA
+			is_core = 703
+			NOT = {
+				is_core = 631
+			}
+		}
+
+		allow = {
+			has_unclaimed_cores = no
+		}
+
+		effect = {
+			631 = { add_core = HUA }
+			3339 = { add_core = HUA }
+			632 = { add_core = HUA }
+			689 = { add_core = HUA }
+			626 = { add_core = HUA }
+			3269 = { add_core = HUA }
+			630 = { add_core = HUA }
+			629 = { add_core = HUA }
+			627 = { add_core = HUA }
+			625 = { add_core = HUA }
+			628 = { add_core = HUA }
+			#add_accepted_culture = galician
+			#add_accepted_culture = polish
+		}
+
+	}
+
+	cleaning_house_HUA = {
+
+		potential = {
+			tag = HUA
+			is_core = 631
+			NOT = {
+				is_core = 618
+			}
+		}
+
+		allow = {
+			has_unclaimed_cores = no
+		}
+
+		effect = {
+			618 = { add_core = HUA }
+			615 = { add_core = HUA }
+			769 = { add_core = HUA }
+			735 = { add_core = HUA }
+			734 = { add_core = HUA }
+			612 = { add_core = HUA }
+			614 = { add_core = HUA }
+			613 = { add_core = HUA }
+			#add_accepted_culture = czech
+			#add_accepted_culture = sorb
+			#add_accepted_culture = venetian
+		}
+
+	}
+
+	schizo_shit = {
+
+		potential = {
+			tag = HUA
+			is_core = 613
+			NOT = { accepted_culture = romanian }
+		}
+
+		allow = {
+			OR = {
+				government = fascist_monarchy
+				government = fascist_dictatorship
+			}
+		}
+
+		effect = {
+			733 = { add_core = HUA }
+			732 = { add_core = HUA }
+			729 = { add_core = HUA }
+			730 = { add_core = HUA }
+			731 = { add_core = HUA }
+			3264 = { add_core = HUA }
+			3263 = { add_core = HUA }
+			728 = { add_core = HUA }
+			2568 = { add_core = HUA }
+			727 = { add_core = HUA }
+			558 = { add_core = HUA }
+			552 = { add_core = HUA }
+			687 = { add_core = HUA }
+			3338 = { add_core = HUA }
+			2584 = { add_core = HUA }
+			682 = { add_core = HUA }
+			683 = { add_core = HUA }
+			684 = { add_core = HUA }
+			688 = { add_core = HUA }
+			685 = { add_core = HUA }
+			712 = { add_core = HUA }
+			716 = { add_core = HUA }
+			713 = { add_core = HUA }
+			715 = { add_core = HUA }
+			957 = { add_core = HUA }
+			702 = { add_core = HUA }
+			956 = { add_core = HUA }
+			955 = { add_core = HUA }
+			2582 = { add_core = HUA }
+			800 = { add_core = HUA }
+			2583 = { add_core = HUA }
+			2577 = { add_core = HUA }
+			2569 = { add_core = HUA }
+			primary_culture = south_german
+			add_accepted_culture = hungarian
+			capital = 619
+		}
+
+	}	
+
+	#GRAND UNION
+	HUA_accept_the_minorities = {
+	
+		potential = { 
+			has_country_flag = Schzio_mod_show
+			tag = HUA
+			is_core = 613
+			NOT = { primary_culture = south_german }
+		}
+	
+		allow = {
+			OR = {
+				government = parliamentary_republic
+				government = democracy
+				government = bourgeois_dictatorship
+				government = socialist_republic
+				government = proletarian_dictatorship
+			}
+		}
+	
+		effect = {
+			add_accepted_culture = romanian
+			add_accepted_culture = slovene
+			add_accepted_culture = slovak
+			add_accepted_culture = old_czech
+			add_accepted_culture = czech
+			add_accepted_culture = croat
+			add_accepted_culture = galician
+			add_accepted_culture = polish
+			add_accepted_culture = serb
+			add_accepted_culture = bosniak 
+		}
+	
+	}
+	
+}

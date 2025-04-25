@@ -1,0 +1,157 @@
+political_decisions = {
+
+###Declare the Global Revolution###
+HLR_is_radical_that_is_everyones_problem = {
+    picture = ""
+
+    potential = { 
+        has_country_flag = Schzio_mod_show
+        primary_culture = rheinish 
+		accepted_culture = czech
+    }
+
+    allow = {
+        
+    }
+
+    effect = {
+        set_global_flag = HLR_is_radical #This blocks Imperial decisions
+    }
+}
+
+###Establish Sister Republics decisions###
+
+    ##End the monarchy of the Dual Monarchy##
+    HLR_radical_end_DUA = {
+        picture = ""
+    
+        potential = { 
+            has_country_flag = Schzio_mod_show
+            exists = DUA
+            has_global_flag = HLR_is_radical
+        }
+    
+        allow = {
+            NOT = {
+                DUA = {
+                    OR = {
+                        ruling_party_ideology = liberal
+                        ruling_party_ideology = anarcho_liberal
+                        ruling_party_ideology = social_liberal
+                    }
+                    OR = {
+                        government = bourgeois_dictatorship
+                        government = presidential_dictatorship
+                        government = democracy
+                        government = parliamentary_republic
+                    }
+                }
+            }
+        }
+    
+        effect = {
+            war = {
+                target = DUA
+                attacker_goal = {
+                    casus_belli = custom_treaty_cb
+                }
+                defender_goal = {
+                    casus_belli = dismantle_cb
+                }
+                call_ally = no
+            }
+            set_global_flag = HLR_vs_DUA
+        }
+    
+    }
+
+    ##End the monarchy of the Scandinavian##
+    HLR_radical_end_SCA = {
+        picture = ""
+    
+        potential = { 
+            has_country_flag = Schzio_mod_show
+            exists = SCA
+            has_global_flag = HLR_is_radical
+        }
+    
+        allow = {
+            NOT = {
+                SCA = {
+                    OR = {
+                        ruling_party_ideology = liberal
+                        ruling_party_ideology = anarcho_liberal
+                        ruling_party_ideology = social_liberal
+                    }
+                    OR = {
+                        government = bourgeois_dictatorship
+                        government = presidential_dictatorship
+                        government = democracy
+                        government = parliamentary_republic
+                    }
+                }
+            }
+        }
+    
+        effect = {
+            war = {
+                target = SCA
+                attacker_goal = {
+                    casus_belli = custom_treaty_cb
+                }
+                defender_goal = {
+                    casus_belli = dismantle_cb
+                }
+                call_ally = no
+            }
+            set_global_flag = HLR_vs_SCA
+        }
+    
+    }
+
+    ##End the monarchy of the Poland-Lithuanian Commonwealth##
+    #Lmao as if this will ever be used
+    HLR_radical_end_PLC = {
+        picture = ""
+    
+        potential = { 
+            has_country_flag = Schzio_mod_show
+            exists = PLC
+            has_global_flag = HLR_is_radical
+        }
+    
+        allow = {
+            NOT = {
+                PLC = {
+                    OR = {
+                        ruling_party_ideology = liberal
+                        ruling_party_ideology = anarcho_liberal
+                        ruling_party_ideology = social_liberal
+                    }
+                    OR = {
+                        government = bourgeois_dictatorship
+                        government = presidential_dictatorship
+                        government = democracy
+                        government = parliamentary_republic
+                    }
+                }
+            }
+        }
+    
+        effect = {
+            war = {
+                target = PLC
+                attacker_goal = {
+                    casus_belli = custom_treaty_cb
+                }
+                defender_goal = {
+                    casus_belli = dismantle_cb
+                }
+                call_ally = no
+            }
+            set_global_flag = HLR_vs_PLC
+        }
+    
+    }
+
+}

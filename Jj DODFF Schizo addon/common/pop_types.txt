@@ -140,27 +140,9 @@ promotion_chance = {
         strata = poor
         country = { debt_law = serfdom }
     }
-	
-    modifier = {
-        factor = 2.0
-        state_scope = { is_colonial = yes }
-        country = {
-            colonial_policy = settlement
-            is_culture_group = east_slavic
-        }
-        location = {
-            is_colonial = yes
-            is_overseas = no
-            NOT = { is_core = THIS }
-            NOT = { is_core = CRI }
-            total_pops = 55000
-            #culture = russian
-        }
-        year = 1860
-    }
 
     modifier = {
-        factor = 2
+        factor = 3
         state_scope = { is_colonial = yes }
         country = {
             colonial_policy = settlement
@@ -170,35 +152,12 @@ promotion_chance = {
             is_colonial = yes
             NOT = { is_core = THIS }
             NOT = { is_core = CRI }
-            total_pops = 75000
 			OR = {
 			   culture = russian
 			   culture = cossack
 			   culture = north_russian
 			}
         }
-        year = 1860
-    }
-
-    modifier = {
-        factor = 2.5
-        state_scope = { is_colonial = yes }
-        country = {
-            colonial_policy = settlement
-            is_culture_group = east_slavic
-        }
-        location = {
-            is_colonial = yes
-            NOT = { is_core = THIS }
-            NOT = { is_core = CRI }
-            total_pops = 125000
-			OR = {
-			   culture = russian
-			   culture = cossack
-			   culture = north_russian
-			}
-        }
-        year = 1880
     }
 
     modifier = {
@@ -560,65 +519,8 @@ migration_chance =
             #NOT = { unemployment = 1 }
         }
     }
-	
 	modifier = { #higher migration if Russian Territories
-		factor = 5
-		THIS = { is_culture_group = east_slavic }
-		country = {
-			colonial_policy = settlement
-			OR = {
-			   primary_culture = russian
-			   primary_culture = cossack
-			   primary_culture = north_russian
-			}
-		}
-		location = {
-			life_rating = 25
-			OR = {
-			   culture = russian
-			   culture = cossack
-			   culture = north_russian
-			}
-			OR = { 
-			    location = { is_core = RUS }
-				continent = asia
-				continent = africa
-			}
-			total_pops = 200000
-		}
-		year = 1860
-	}
-	
-	modifier = { #higher migration if Russian Territories
-		factor = 5
-		THIS = { is_culture_group = east_slavic }
-		country = {
-			colonial_policy = settlement
-			OR = {
-			   primary_culture = russian
-			   primary_culture = cossack
-			   primary_culture = north_russian
-			}
-		}
-		location = {
-			NOT = { life_rating = 25 }
-			OR = {
-			   culture = russian
-			   culture = cossack
-			   culture = north_russian
-			}
-			OR = { 
-			    location = { is_core = RUS }
-				continent = asia
-				continent = africa
-			}
-			total_pops = 100000
-		}
-		year = 1860
-	}
-	
-	modifier = { #higher migration if Russian Territories
-		factor = 5
+		factor = 10
 		state_scope = { is_colonial = yes }
 		THIS = { is_culture_group = east_slavic }
 		location = { 
@@ -629,7 +531,6 @@ migration_chance =
 			   culture = cossack
 			   culture = north_russian
 			}
-			total_pops = 100000
 		}
 		country = { 	
 			OR = { 
@@ -1048,11 +949,11 @@ emigration_chance =
 assimilation_chance =
 {
     factor = 1
-	
+
     #Schizo assimilation
 	#TGC code
 	modifier = {
-		factor = 2
+		factor = 3
 		country = { has_country_flag = assimilation_enabled }
 		location = {
 			has_building = assimilator
@@ -1109,14 +1010,14 @@ assimilation_chance =
     modifier = {
         factor = -20
         has_culture_core = yes
-		NOT = { country = { has_country_flag = DUA_schooling } }
+		NOT = { country = { has_country_flag = DUA_schooling } }	
         #Schizo assimilation
 		#TGC code
 		NOT = {
 		    location = {
 			    has_building = assimilator
 			}
-		}		
+		}	
 	}
 
     modifier = {
@@ -1273,13 +1174,6 @@ assimilation_chance =
             NOT = { has_country_flag = native_assimilation }
             NOT = { has_country_flag = native_integration }
         }
-        #Schizo assimilation
-		#TGC code
-		NOT = {
-			location = {
-				has_building = assimilator
-			}
-		}
         OR = {
             is_culture_group = mesoandean
             is_culture_group = native_south_american
@@ -1291,12 +1185,6 @@ assimilation_chance =
             location = { continent = south_america }
             location = { continent = oceania }
         }
-    }
-
-    modifier = {
-        factor = -80
-        country = { NOT = { has_country_flag = african_integration_policy } }
-        is_culture_group = african_diaspora_cultures
         #Schizo assimilation
 		#TGC code
 		NOT = {
@@ -1304,22 +1192,28 @@ assimilation_chance =
 				has_building = assimilator
 			}
 		}
-        OR = {
-            location = { continent = north_america }
-            location = { continent = south_america }
-        }
     }
 
     modifier = {
         factor = -80
         country = { NOT = { has_country_flag = african_integration_policy } }
+        is_culture_group = african_diaspora_cultures
+        OR = {
+            location = { continent = north_america }
+            location = { continent = south_america }
+        }
         #Schizo assimilation
 		#TGC code
 		NOT = {
 			location = {
 				has_building = assimilator
 			}
-		}		
+		}
+    }
+
+    modifier = {
+        factor = -80
+        country = { NOT = { has_country_flag = african_integration_policy } }
         location = { continent = africa }
         OR = {
             is_culture_group = african_diaspora_cultures
@@ -1338,6 +1232,13 @@ assimilation_chance =
                country = { is_culture_group = semitic }
 			}
         }
+        #Schizo assimilation
+		#TGC code
+		NOT = {
+			location = {
+				has_building = assimilator
+			}
+		}
     }
 
 	modifier = {
@@ -1346,8 +1247,8 @@ assimilation_chance =
 			location = { controlled_by = owner }
 		}
 	}
-	
-	#Schizo assimilation
+
+    #Schizo assimilation
 	modifier = {
 		 factor = 80
 		 has_pop_culture = romanian
@@ -1502,7 +1403,6 @@ assimilation_chance =
 		 location = { is_core = THIS }
 		 country = { has_country_flag = LIV_GER_natives }
 	}
-
 }
 
 #general conversion mtth, same for all pops
