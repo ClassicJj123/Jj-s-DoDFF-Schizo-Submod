@@ -6,25 +6,26 @@ invite_western_scholars = {
 	potential = {
 		tag = CHG
 		has_country_flag = Schzio_mod_show
+		has_country_flag = last_era_of_reform
 		NOT { has_country_modifier = western_scholars_invited }
 	}
 	
 	allow = {
-	year = 1840
-	prestige = 5
+		year = 1840
+		prestige = 5
 	}
 	
 	effect = {
-	research_points = 15000
-	add_country_modifier = {
-        name = western_scholars_invited 
-	    duration = -1
-	}
-	any_pop = { literacy = 0.10 } 
-	economic_reform = advanced_education_reform
-	military_reform = foreign_officers
-	military_reform = foreign_naval_officers
-	military_reform = yes_foreign_weapons
+		research_points = 15000
+		add_country_modifier = {
+        	name = western_scholars_invited 
+	    	duration = -1
+		}
+		any_pop = { literacy = 0.10 } 
+		economic_reform = advanced_education_reform
+		military_reform = foreign_officers
+		military_reform = foreign_naval_officers
+		military_reform = yes_foreign_weapons
 	}
 }
 
@@ -38,37 +39,321 @@ return_to_our_mongol_roots = {
 	}
 	
 	allow = {
-	has_country_flag = empire_dislocated
+		has_country_flag = empire_dislocated
 	}
 	
 	effect = {
-	primary_culture = mongol
-	add_accepted_culture = oirat
-	religion = gelugpa
-	research_points = 5000
-	add_country_modifier = {
-        name = mongol_space_marines 
-	    duration = -1
-	}
+		primary_culture = mongol
+		add_accepted_culture = oirat
+		religion = gelugpa
+		research_points = 5000
+		add_country_modifier = {
+        	name = mongol_space_marines 
+	    	duration = -1
+		}
 	}
 }
 
 #take china
-mop_up_china_shu = {
-    picture = cheju_korea
-	potential = {
+#mop_up_china_shu = {
+#    picture = cheju_korea
+#	potential = {
+#		tag = CHG
+#		has_country_flag = Schzio_mod_show
+#		has_country_flag = empire_dislocated
+#		exists = SHU
+#	}
+#	
+#	allow = {
+#	has_country_flag = empire_dislocated
+#		THIS = {
+#			war = no
+#		}
+#	military_score = 30
+#	}
+#
+#	effect = {
+#		war = {
+#			target = SHU
+#			attacker_goal = { casus_belli = conquest }
+#			defender_goal = { casus_belli = status_quo }
+#			call_ally = no
+#		}
+#	}
+#}
+
+#mop_up_china_chi = {
+#    picture = cheju_korea
+#	potential = {
+#		tag = CHG
+#		has_country_flag = Schzio_mod_show
+#		has_country_flag = empire_dislocated
+#		exists = CHI
+#	}
+#	
+#	allow = {
+#	has_country_flag = empire_dislocated
+#		THIS = {
+#			war = no
+#		}
+#	military_score = 30
+#	}
+#
+#	effect = {
+#		war = {
+#			target = CHI
+#			attacker_goal = { casus_belli = conquest }
+#			defender_goal = { casus_belli = status_quo }
+#			call_ally = no
+#		}
+#	}
+#}
+
+#mop_up_china_gng = {
+#    picture = cheju_korea
+#	potential = {
+#		tag = CHG
+#		has_country_flag = Schzio_mod_show
+#		has_country_flag = empire_dislocated
+#		exists = GNG
+#	}
+#	
+#	allow = {
+#	has_country_flag = empire_dislocated
+#		THIS = {
+#			war = no
+#		}
+#	military_score = 30
+#	}
+#
+#	effect = {
+#		war = {
+#			target = GNG
+#			attacker_goal = { casus_belli = conquest }
+#			defender_goal = { casus_belli = status_quo }
+#			call_ally = no
+#		}
+#	}
+#}
+
+#mop_up_china_dax = {
+#    picture = cheju_korea
+#	potential = {
+#		tag = CHG
+#		has_country_flag = Schzio_mod_show
+#		has_country_flag = empire_dislocated
+#		exists = DAX
+#	}
+#	
+#	allow = {
+#	has_country_flag = empire_dislocated
+#		THIS = {
+#			war = no
+#		}
+#	military_score = 30
+#	}
+#
+#	effect = {
+#		war = {
+#			target = DAX
+#			attacker_goal = { casus_belli = conquest }
+#			defender_goal = { casus_belli = status_quo }
+#			call_ally = no
+#		}
+#	}
+#}
+
+#mop_up_china_tai = {
+#    picture = cheju_korea
+#	potential = {
+#		tag = CHG
+#		has_country_flag = Schzio_mod_show
+#		has_country_flag = empire_dislocated
+#		exists = TAI
+#	}
+#	
+#	allow = {
+#	has_country_flag = empire_dislocated
+#		THIS = {
+#			war = no
+#		}
+#	military_score = 30
+#	}
+#
+#	effect = {
+#		war = {
+#			target = TAI
+#			attacker_goal = { casus_belli = conquest }
+#			defender_goal = { casus_belli = status_quo }
+#			call_ally = no
+#		}
+#	}
+#}
+
+#mop_up_china_mig = {
+#    picture = cheju_korea
+#	potential = {
+#		tag = CHG
+#		has_country_flag = Schzio_mod_show
+#		has_country_flag = empire_dislocated
+#		exists = MIG
+#	}
+#	
+#	allow = {
+#	has_country_flag = empire_dislocated
+#		THIS = {
+#			war = no
+#		}
+#	military_score = 30
+#	}
+#
+#	effect = {
+#		war = {
+#			target = MIG
+#			attacker_goal = { casus_belli = conquest }
+#			defender_goal = { casus_belli = status_quo }
+#			call_ally = no
+#		}
+#	}
+#}
+
+#mop_up_china_tng = {
+#    picture = cheju_korea
+#	potential = {
+#		tag = CHG
+#		has_country_flag = Schzio_mod_show
+#		has_country_flag = empire_dislocated
+#		exists = TNG
+#	}
+#	
+#	allow = {
+#	has_country_flag = empire_dislocated
+#		THIS = {
+#			war = no
+#		}
+#	military_score = 30
+#	}
+#
+#	effect = {
+#		war = {
+#			target = TNG
+#			attacker_goal = { casus_belli = conquest }
+#			defender_goal = { casus_belli = status_quo }
+#			call_ally = no
+#		}
+#	}
+#}
+
+#Re-claim the fromer eastern Khanate
+CHG_claim_fromer_east = {
+
+	potential = { 
 		tag = CHG
 		has_country_flag = Schzio_mod_show
 		has_country_flag = empire_dislocated
-		exists = SHU
-	}
-	
-	allow = {
-	has_country_flag = empire_dislocated
-		THIS = {
-			war = no
+		NOT = {
+			has_country_flag = CHG_claim_fromer_east
 		}
-	military_score = 30
+	}
+
+	allow = {
+
+	}
+
+	effect = {
+		MGL = { 
+			all_core = {
+				limit = {
+					NOT = { is_core = MCC }
+				}
+				add_core = THIS
+			}
+		}
+		BRY = { 
+			all_core = {
+				add_core = THIS 
+			} 
+		}
+		#add_accepted_culture = mongol
+		set_country_flag = CHG_claim_fromer_east
+	}
+
+}
+
+#Re-claim the fromer western Khanate
+CHG_claim_fromer_west = {
+
+	potential = { 
+		tag = CHG
+		has_country_flag = Schzio_mod_show
+		has_country_flag = empire_dislocated
+		NOT = {
+			has_country_flag = CHG_claim_fromer_west
+		}
+	}
+
+	allow = {
+		has_unclaimed_cores = no
+	}
+
+	effect = {
+		KHI = { 
+			all_core = {
+				add_core = THIS 
+			} 
+		}
+		ZHE = { 
+			all_core = {
+				add_core = THIS 
+			} 
+		}
+		BDK = { 
+			all_core = {
+				add_core = THIS 
+			} 
+		}
+		UGH = { 
+			all_core = {
+				add_core = THIS 
+			} 
+		}
+		BUK = { 
+			all_core = {
+				add_core = THIS 
+			} 
+		}
+		KOK = { 
+			all_core = {
+				add_core = THIS 
+			} 
+		}
+		set_country_flag = CHG_claim_fromer_west
+		#add_accepted_culture = uzbek 
+		#add_accepted_culture = uighur 
+		#add_accepted_culture = kazak  
+	}
+
+}
+
+#War in Heaven round 3 (SHU)
+CHG_vs_SHU_round_3 = {
+
+	potential = { 
+		tag = CHG
+		has_country_flag = Schzio_mod_show
+		has_country_flag = empire_dislocated
+		has_country_flag = CHG_claim_fromer_east
+		has_country_flag = CHG_claim_fromer_west
+		exists = SHU
+		#NOT = {
+		#	SHU = {
+		#		vassal_of = JAP
+		#	}
+		#}
+	}
+
+	allow = {
+		has_unclaimed_cores = no
 	}
 
 	effect = {
@@ -79,23 +364,60 @@ mop_up_china_shu = {
 			call_ally = no
 		}
 	}
+
 }
 
-mop_up_china_chi = {
-    picture = cheju_korea
-	potential = {
+#War in Heaven round 3 (HOG)
+CHG_vs_HOG_round_3 = {
+
+	potential = { 
 		tag = CHG
 		has_country_flag = Schzio_mod_show
 		has_country_flag = empire_dislocated
-		exists = CHI
-	}
-	
-	allow = {
-	has_country_flag = empire_dislocated
-		THIS = {
-			war = no
+		has_country_flag = CHG_claim_fromer_east
+		has_country_flag = CHG_claim_fromer_west
+		exists = HOG
+		NOT = {
+			HOG = {
+				vassal_of = JAP
+			}
 		}
-	military_score = 30
+	}
+
+	allow = {
+		has_unclaimed_cores = no
+	}
+
+	effect = {
+		war = {
+			target = HOG
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+	}
+
+}
+
+#War in Heaven round 3 (CHI)
+CHG_vs_CHI_round_3 = {
+
+	potential = { 
+		tag = CHG
+		has_country_flag = Schzio_mod_show
+		has_country_flag = empire_dislocated
+		has_country_flag = CHG_claim_fromer_east
+		has_country_flag = CHG_claim_fromer_west
+		exists = CHI
+		NOT = {
+			CHI = {
+				vassal_of = JAP
+			}
+		}
+	}
+
+	allow = {
+		has_unclaimed_cores = no
 	}
 
 	effect = {
@@ -106,140 +428,34 @@ mop_up_china_chi = {
 			call_ally = no
 		}
 	}
+
 }
 
-mop_up_china_gng = {
-    picture = cheju_korea
-	potential = {
+#March into the Tibetan mountains
+CHG_vs_TIB = {
+
+	potential = { 
 		tag = CHG
 		has_country_flag = Schzio_mod_show
 		has_country_flag = empire_dislocated
-		exists = GNG
+		has_country_flag = CHG_claim_fromer_east
+		has_country_flag = CHG_claim_fromer_west
+		exists = TIB
 	}
-	
+
 	allow = {
-	has_country_flag = empire_dislocated
-		THIS = {
-			war = no
-		}
-	military_score = 30
+		has_unclaimed_cores = no
 	}
 
 	effect = {
 		war = {
-			target = GNG
-			attacker_goal = { casus_belli = conquest }
+			target = TIB
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
 			defender_goal = { casus_belli = status_quo }
 			call_ally = no
 		}
 	}
-}
 
-mop_up_china_dax = {
-    picture = cheju_korea
-	potential = {
-		tag = CHG
-		has_country_flag = Schzio_mod_show
-		has_country_flag = empire_dislocated
-		exists = DAX
-	}
-	
-	allow = {
-	has_country_flag = empire_dislocated
-		THIS = {
-			war = no
-		}
-	military_score = 30
-	}
-
-	effect = {
-		war = {
-			target = DAX
-			attacker_goal = { casus_belli = conquest }
-			defender_goal = { casus_belli = status_quo }
-			call_ally = no
-		}
-	}
-}
-mop_up_china_tai = {
-    picture = cheju_korea
-	potential = {
-		tag = CHG
-		has_country_flag = Schzio_mod_show
-		has_country_flag = empire_dislocated
-		exists = TAI
-	}
-	
-	allow = {
-	has_country_flag = empire_dislocated
-		THIS = {
-			war = no
-		}
-	military_score = 30
-	}
-
-	effect = {
-		war = {
-			target = TAI
-			attacker_goal = { casus_belli = conquest }
-			defender_goal = { casus_belli = status_quo }
-			call_ally = no
-		}
-	}
-}
-
-mop_up_china_mig = {
-    picture = cheju_korea
-	potential = {
-		tag = CHG
-		has_country_flag = Schzio_mod_show
-		has_country_flag = empire_dislocated
-		exists = MIG
-	}
-	
-	allow = {
-	has_country_flag = empire_dislocated
-		THIS = {
-			war = no
-		}
-	military_score = 30
-	}
-
-	effect = {
-		war = {
-			target = MIG
-			attacker_goal = { casus_belli = conquest }
-			defender_goal = { casus_belli = status_quo }
-			call_ally = no
-		}
-	}
-}
-
-mop_up_china_tng = {
-    picture = cheju_korea
-	potential = {
-		tag = CHG
-		has_country_flag = Schzio_mod_show
-		has_country_flag = empire_dislocated
-		exists = TNG
-	}
-	
-	allow = {
-	has_country_flag = empire_dislocated
-		THIS = {
-			war = no
-		}
-	military_score = 30
-	}
-
-	effect = {
-		war = {
-			target = TNG
-			attacker_goal = { casus_belli = conquest }
-			defender_goal = { casus_belli = status_quo }
-			call_ally = no
-		}
-	}
 }
 
 #Form Yuan Dynasty
@@ -282,6 +498,16 @@ proclaim_yuan_dynasty_schizo = {
   					}
 				}
 			}
+			TIB = {
+				all_core = {
+					OR = {
+  						owned_by = THIS
+  						owner = {
+  							in_sphere = THIS
+  						}
+					}
+				}
+			}
 	}
 	 
 	effect = {
@@ -291,8 +517,8 @@ proclaim_yuan_dynasty_schizo = {
 		remove_country_modifier = nomadic_confederation
 		government = absolute_monarchy
 		remove_country_flag = empire_dislocated
-		set_country_flag = foreign_china
-		set_country_flag = mongolian_china
+		#set_country_flag = foreign_china
+		#set_country_flag = mongolian_china
 		change_tag = YUA
 		country_event = {
 			id = 1000000450
@@ -315,93 +541,83 @@ proclaim_yuan_dynasty_schizo = {
   				}
   				annex_to = THIS
   			}
-  			any_owned = {
-  				limit = {
-  					is_core = TIB
-					NOT = { is_core = CHI }
-  					}
-  				secede_province = TIB
-  			}
-  			any_owned = {
-  				limit = {
-  					OR = {
-  						is_core = MIG
-  						is_core = TAI
-  						is_core = SHU
-  						is_core = DAX
-  						is_core = TNG
-						is_core = UGH
-						is_core = MGL
-						is_core = TIB
-  					}
-  				}
-  				remove_core = TAI
-  				remove_core = TNG
-				add_core = THIS
-  			}
-			any_country = {
-				any_owned = {
-					limit = {
-						OR = {
-							is_core = MIG
-							is_core = TAI
-							is_core = SHU
-							is_core = DAX
-							is_core = TNG
-							is_core = UGH
-							is_core = MGL
-							is_core = TIB
-						}
-					}
-					remove_core = TAI
-					remove_core = TNG
-					add_core = THIS
-				}
-			}
+  			#any_owned = {
+  			#	limit = {
+  			#		is_core = TIB
+			#		NOT = { is_core = CHI }
+  			#		}
+  			#	secede_province = TIB
+  			#}
+  			#any_owned = {
+  			#	limit = {
+  			#		OR = {
+			#			is_core = HOG
+			#			is_core = SHU
+			#			is_core = TIB
+			#			is_core = CHI
+			#			is_core = TAW
+  			#		}
+  			#	}
+  			#	remove_core = TAI
+  			#	remove_core = TNG
+			#	add_core = THIS
+  			#}
+			#any_country = {
+			#	any_owned = {
+			#		limit = {
+			#			OR = {
+			#				is_core = CHI
+			#				is_core = HOG
+			#				is_core = SHU
+			#			}
+			#		}
+			#		add_core = THIS
+			#	}
+			#}
 
 			
-			CHI_1618 = { remove_core = HUI }
-			CHI_1618 = { remove_core = XBI }
-			CHI_1618 = { remove_core = SZC }	
-			CHI_1618 = { remove_core = SXI }	
-					
-			CHI_1473 = { add_core = MIG }
-			CHI_1472 = { add_core = MIG }
-			MIN_4 = { add_core = MIG }
-			CHI_1476 = { add_core = MIG }
-			MIN_1 = { add_core = MIG }
-			CHI_1516 = { add_core = MIG }
-			CHI_1539 = { add_core = MIG }
-			MIN_2 = { add_core = MIG }
-
-			CHI_1490 = { add_core = SHU }
-			CHI_1513 = { add_core = SHU }
-			CHI_4 = { add_core = SHU }
-			CHI_2062 = { add_core = SHU }
-
-			CHI_1505 = { add_core = DAX }
-			CHI_1529 = { add_core = DAX }
-			CHI_1523 = { add_core = DAX }
-			CHI_1578 = { add_core = DAX }
-			CHI_1581 = { add_core = DAX }
-			CHI_1601 = { add_core = DAX }
-
-			TAI_1 = { add_core = TAI }
-			CHI_1499 = { add_core = TAI }
-			CHI_1494 = { add_core = TAI }
-			CHI_1504 = { add_core = TAI }
-			TAI_3 = { add_core = TAI }
-			TAI_2 = { add_core = TAI }
-			CHI_1550 = { add_core = TAI }
-			GNG = { civilized = yes government = presidential_dictatorship all_core = { add_core = TAI } all_core = { remove_core = GNG } }
-
-			CHI_1487 = { add_core = TNG }
-			CHI_2562 = { add_core = TNG }
-			CHI_1611 = { add_core = TNG }
-  		}
-	}
+#			CHI_1618 = { remove_core = HUI }
+#			CHI_1618 = { remove_core = XBI }
+#			CHI_1618 = { remove_core = SZC }	
+#			CHI_1618 = { remove_core = SXI }	
+#					
+#			CHI_1473 = { add_core = MIG }
+#			CHI_1472 = { add_core = MIG }
+#			MIN_4 = { add_core = MIG }
+#			CHI_1476 = { add_core = MIG }
+#			MIN_1 = { add_core = MIG }
+#			CHI_1516 = { add_core = MIG }
+#			CHI_1539 = { add_core = MIG }
+#			MIN_2 = { add_core = MIG }
+#
+#			CHI_1490 = { add_core = SHU }
+#			CHI_1513 = { add_core = SHU }
+#			CHI_4 = { add_core = SHU }
+#			CHI_2062 = { add_core = SHU }
+#
+#			CHI_1505 = { add_core = DAX }
+#			CHI_1529 = { add_core = DAX }
+#			CHI_1523 = { add_core = DAX }
+#			CHI_1578 = { add_core = DAX }
+#			CHI_1581 = { add_core = DAX }
+#			CHI_1601 = { add_core = DAX }
+#
+#			TAI_1 = { add_core = TAI }
+#			CHI_1499 = { add_core = TAI }
+#			CHI_1494 = { add_core = TAI }
+#			CHI_1504 = { add_core = TAI }
+#			TAI_3 = { add_core = TAI }
+#			TAI_2 = { add_core = TAI }
+#			CHI_1550 = { add_core = TAI }
+#			GNG = { civilized = yes government = presidential_dictatorship all_core = { add_core = TAI } all_core = { remove_core = GNG } }
+#
+#			CHI_1487 = { add_core = TNG }
+#			CHI_2562 = { add_core = TNG }
+#			CHI_1611 = { add_core = TNG }
+  	}
+}
 	
-	#New Capital. Cement our legitimacy
+#New Capital. Cement our legitimacy
 create_new_capital = {
     picture = build_the_tower_of_babylon
 	potential = {
@@ -421,7 +637,7 @@ create_new_capital = {
 	}
 }
 
-	#accept Yi
+#accept Yi
 accept_yi = {
     picture = embrace_minority
 	potential = {
@@ -442,7 +658,7 @@ accept_yi = {
 	}
 }
 
-	#accept Miao
+#accept Miao
 accept_miao = {
     picture = embrace_minority
 	potential = {
@@ -464,7 +680,7 @@ accept_miao = {
 	}
 }
 
-	#accept Yue
+#accept Yue
 accept_yue = {
     picture = embrace_minority
 	potential = {
@@ -589,7 +805,7 @@ make_civil_war_easier_YUA = {
 		prestige = -10
 	}
 }
-	###EXPANSION###
+###EXPANSION###
 
 #consume manchuria
 manchuria_vore_yua = {
@@ -609,7 +825,7 @@ manchuria_vore_yua = {
 	}
 }
 	
-	#take himalayan states
+#take himalayan states
 cross_the_himalayas = {
     picture = map_india
 	potential = {
@@ -633,7 +849,7 @@ cross_the_himalayas = {
 	}
 }
 	
-	#conquer Southeast Asia for gommies
+#conquer Southeast Asia for gommies
 claim_SEA_commie = {
     picture = map_indochina
 	potential = {
@@ -644,7 +860,7 @@ claim_SEA_commie = {
 		government = proletarian_dictatorship
 	}
 	allow = {
-		1502 { owned_by = THIS }
+		1502 = { owned_by = THIS }
 		prestige = 200
 	}
 	effect = {
@@ -660,7 +876,7 @@ claim_SEA_commie = {
 	}
 }
 
-	#conquer korea for gommies
+#conquer korea for gommies
 claim_KOR_commie = {
     picture = placeholder
 	potential = {
@@ -679,7 +895,7 @@ claim_KOR_commie = {
 	}
 }
 
-	#conquer Southeast Asia for fash
+#conquer Southeast Asia for fash
 #claim_SEA_fascy = {
 #	picture = map_east_indies
 #	potential = {

@@ -1,290 +1,294 @@
-#Choose, Kill the natives or accept them
+###Intro Event###
+#The Duchy of Kurland
 country_event = {
 	 id = 1000000023
 	 title = "EVTNAME1000000023"
 	 desc = "EVTDESC1000000023"
 	 picture = "placeholder"
-	 is_triggered_only = yes
+	 
+	 trigger = {
+		 tag = KRL
+		 has_country_flag = Schzio_mod_show
+	 }
+
+ 	 mean_time_to_happen = {
+		days = 0
+	 }
+
+	 fire_only_once = yes
 	 
 	 option = {
 		 name = "EVTOPA1000000023A"
-		 LAT = {
-			 primary_culture = prussian
-			 add_accepted_culture = latvian
-		 }
-		 EST = {
-			 primary_culture = prussian
-			 add_accepted_culture = estonian
-		 }
-		 any_owned = {
-			 limit = {
-				 is_core = LAT
-			 }
-			 add_province_modifier = {
-				 name = Germanisation_program
-				 duration = -1
-			 }
-		 }
-		 any_owned = {
-			 limit = {
-				 is_core = EST
-			 }
-			 add_province_modifier = {
-				 name = Germanisation_program
-				 duration = -1
-			 }
-		 }
-		 set_country_flag = Baltic_question_ans_1
+		 set_country_flag = KRL_wild_ride_1
 	 }
-	 
-	 option = {
-		 name = "EVTOPA1000000023B"
-		 add_accepted_culture = latvian
-		 add_accepted_culture = estonian
-		 set_country_flag = Baltic_question_ans_1
-	 }
+
 }
 
-#Lithuanian Question
+#The Balter League
 country_event = {
 	 id = 1000000024
 	 title = "EVTNAME1000000024"
 	 desc = "EVTDESC1000000024"
 	 picture = "placeholder"
-	 is_triggered_only = yes
+
+	 trigger = {
+		 tag = KRL
+		 has_country_flag = Schzio_mod_show
+		 has_country_flag = KRL_wild_ride_1
+	 }
+
+ 	 mean_time_to_happen = {
+		days = 25
+	 }
+
+	 fire_only_once = yes
 	 
 	 option = {
 		 name = "EVTOPA1000000024A"
-		 LIT = {
-			 primary_culture = prussian
-			 add_accepted_culture = belarusian
-		 }
-		 SAM = {
-			 primary_culture = prussian
-			 add_accepted_culture = lithuanian
-		 }
-		 LIT_698 = {
-			 add_province_modifier = {
-				 name = Germanisation_program
-				 duration = -1
-			 }
-		 }
-		 RUS_707 = {
-			 add_province_modifier = {
-				 name = Germanisation_program
-				 duration = -1
-			 }
-		 }
-		 RUS_360 = {
-			 add_province_modifier = {
-				 name = Germanisation_program
-				 duration = -1
-			 }
-		 }
-		 936 = {
-			 add_province_modifier = {
-				 name = Germanisation_program
-				 duration = -1
-			 }
-		 }
-		 set_country_flag = LIT_question_ans
+		 clr_country_flag = KRL_wild_ride_1
+		 set_country_flag = KRL_wild_ride_enable_balter_league
 		 set_variable = {
-			 which = Balter_genocide
+			 which = Balter_League
 			 value = 1
 		 }
 	 }
 	 
-	 option = {
-		 name = "EVTOPA1000000024B"
-		 add_accepted_culture = lithuanian
-		 set_country_flag = LIT_question_ans
-	 }
 }
 
-#The identity question
+##Below is all the outcomes of the Batler League##
+#1-3: It's Now or Never!
 country_event = {
 	 id = 1000000025
 	 title = "EVTNAME1000000025"
 	 desc = "EVTDESC1000000025"
 	 picture = "placeholder"
-	 is_triggered_only = yes
+
+	 trigger = {
+		 tag = KRL
+		 has_country_flag = Schzio_mod_show
+		 has_global_flag = fall_of_kurland
+		 NOT = { check_variable = { which = Balter_League value = 3 } }
+	 }
+
+ 	 mean_time_to_happen = {
+		days = 0
+	 }
+
+	 fire_only_once = yes
 	 
 	 option = {
 		 name = "EVTOPA1000000025A"
-		 change_tag = TEU
-		 set_country_flag = Teutonic_path
+		 clr_country_flag = KRL_wild_ride_enable_balter_league
+		 add_country_modifier = {
+           name = BOH_powerful_reichsarmee 
+	       duration = -1
+	     }
 	 }
 	 
-	 option = {
-		 name = "EVTOPA1000000025B"
-		 set_country_flag = GER_path
-	 }
 }
 
-#Belarusian Question
+#4-6: Balter cells rise with us!
 country_event = {
 	 id = 1000000026
 	 title = "EVTNAME1000000026"
 	 desc = "EVTDESC1000000026"
 	 picture = "placeholder"
-	 is_triggered_only = yes
+	 
+	 trigger = {
+		 tag = KRL
+		 has_country_flag = Schzio_mod_show
+		 has_global_flag = fall_of_kurland
+		 check_variable = { which = Balter_League value = 3 }
+		 NOT = { check_variable = { which = Balter_League value = 6 } }
+	 }
+
+ 	 mean_time_to_happen = {
+		days = 0
+	 }
+
+	 fire_only_once = yes
 	 
 	 option = {
 		 name = "EVTOPA1000000026A"
-		 BLR = {
-			 primary_culture = prussian
-			 add_accepted_culture = belarusian
+		 clr_country_flag = KRL_wild_ride_enable_balter_league
+		 add_country_modifier = {
+           name = BOH_powerful_reichsarmee 
+	       duration = -1
+	     }
+		 SCA = {
+			354 = {
+				secede_province = KRL
+			}
+			353 = {
+				secede_province = KRL
+			}
+			349 = {
+				secede_province = KRL
+			}
 		 }
-		 RUS_946 = {
-			 add_province_modifier = {
-				 name = Germanisation_program
-				 duration = -1
-			 }
-		 }
-		 RUS_718 = {
-			 add_province_modifier = {
-				 name = Germanisation_program
-				 duration = -1
-			 }
-		 }
-		 937 = {
-			 add_province_modifier = {
-				 name = Germanisation_program
-				 duration = -1
-			 }
-		 }
-		 set_country_flag = LIT_question_ans
-		 change_variable = {
-			 which = Balter_genocide
-			 value = 1
-		 }
-		 set_country_flag = BLR_question_ans
 	 }
 	 
-	 option = {
-		 name = "EVTOPA1000000026B"
-		 add_accepted_culture = belarusian
-		 set_country_flag = BLR_question_ans
-	 }
 }
 
-#Pskov Genocide
+#7-8: The Prussian eagle rises with us!
 country_event = {
 	 id = 1000000027
 	 title = "EVTNAME1000000027"
 	 desc = "EVTDESC1000000027"
 	 picture = "placeholder"
-	 is_triggered_only = yes
+
+	 trigger = {
+		 tag = KRL
+		 has_country_flag = Schzio_mod_show
+		 has_global_flag = fall_of_kurland
+		 check_variable = { which = Balter_League value = 6 }
+		 NOT = { check_variable = { which = Balter_League value = 8 } }
+	 }
+
+ 	 mean_time_to_happen = {
+		days = 0
+	 }
+
+	 fire_only_once = yes
 	 
 	 option = {
 		 name = "EVTOPA1000000027"
-		 ING = {
-			 primary_culture = prussian
-			 add_accepted_culture = finnish
+		 clr_country_flag = KRL_wild_ride_enable_balter_league
+		 add_country_modifier = {
+           name = BOH_powerful_reichsarmee 
+	       duration = -1
+	     }
+		 SCA = {
+			354 = {
+				secede_province = KRL
+			}
+			353 = {
+				secede_province = KRL
+			}
+			349 = {
+				secede_province = KRL
+			}
 		 }
-		 PSV = {
-			 primary_culture = prussian
-			 add_accepted_culture = north_russian
-		 }
-		 RUS_996 = { remove_core = RUS }
-		 RUS_996 = { remove_core = NOV }
-		 RUS_996 = { remove_core = SCA }
-		 RUS_996 = { assimilate = yes }
-		 RUS_996 = {
-			 any_pop = {
-				 reduce_pop = 0.50
-			 }
-		 }
-		 set_country_flag = PSK_genocide
-		 change_variable = {
-			 which = Balter_genocide
-			 value = 1
-		 }
+		 PLC = { 
+			release_vassal = PRU
+			war = {
+				target = PRU
+				attacker_goal = {
+					casus_belli = make_puppet
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+		}
 	 }
 }
 
-#Final solution chain (RIP)
+##Below are the scripted war events##
+#Victory for Kurland!
 country_event = {
 	 id = 1000000028
 	 title = "EVTNAME1000000028"
 	 desc = "EVTDESC1000000028"
 	 picture = "placeholder"
-	 is_triggered_only = yes
+
+	 trigger = {
+		 OR = {
+			tag = KRL
+			tag = LIV
+		 }
+		 has_country_flag = Schzio_mod_show
+		 has_global_flag = fall_of_kurland
+		 owns = 356
+	 }
+
+ 	 mean_time_to_happen = {
+		days = 0
+	 }
+
+	 fire_only_once = yes
 	 
 	 option = {
 		 name = "EVTOPA1000000028"
-		 any_pop = {
-			 limit = {
-				 location = { is_core = TEU }
-				 is_primary_culture = no
-			 }
-		 reduce_pop = 0.80
+		 change_tag = LIV
+		 SCA = {
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = LAT
+						is_core = EST
+					}
+				}
+				secede_province = THIS
+			}
 		 }
-		 set_country_flag = Final_solution
+		 remove_country_modifier = BOH_powerful_reichsarmee
 	 }
 }
 
+#The Prussian eagle sores!
 country_event = {
 	 id = 1000000029
 	 title = "EVTNAME1000000029"
 	 desc = "EVTDESC1000000029"
 	 picture = "placeholder"
-	 fire_only_once = yes
-	 
-	 mean_time_to_happen = { months = 1 }
-	 
+
 	 trigger = {
-		 tag = TEU
-		 ai = no
-		 has_country_flag = Final_solution
+		 tag = PRU
+		 is_independant = yes
 	 }
-	 
+
+ 	 mean_time_to_happen = {
+		days = 0
+	 }
+
+	 fire_only_once = yes
+
+	 #Livonia exist, we should join
 	 option = {
 		 name = "EVTOPA1000000029"
-		 any_pop = {
-			 limit = {
-				 location = { is_core = TEU }
-				 is_primary_culture = no
-			 }
-		 reduce_pop = 0.50
-		 }
-		 set_country_flag = Final_solution_1
+		 LIV = {
+			inherit = THIS
+	 	 }
 	 }
+
+	 #We will create our own path
+	 option = {
+		 name = "EVTOPB1000000029"
+	 }
+
 }
 
+##Back to your regularly scheduled tomfoolery##
+#The Baltic Affair
 country_event = {
 	 id = 1000000030
 	 title = "EVTNAME1000000030"
 	 desc = "EVTDESC1000000030"
 	 picture = "placeholder"
+
+	 trigger = {
+		 tag = LIV
+		 has_country_flag = Schzio_mod_show
+	 }
+
+ 	 mean_time_to_happen = {
+		days = 0
+	 }
+
 	 fire_only_once = yes
 	 
-	 mean_time_to_happen = { months = 1 }
-	 
-	 trigger = {
-		 tag = TEU
-		 ai = no
-		 has_country_flag = Final_solution_1
-	 }
-	 
+	 #Teutonic Origins
 	 option = {
 		 name = "EVTOPA1000000030"
-		 any_owned = {
-			 limit = {
-				any_pop = {
-					NOT = {
-				 		has_pop_culture = prussian
-			 		}
-				}
-			 }
-		 assimilate = yes
-		 }
-		 any_owned = {
-			 limit = {
-				 has_province_modifier = Germanisation_program
-			 }
-		 remove_province_modifier = Germanisation_program
-		 }
+		 set_country_flag = LIV_wild_ride_LBS
+	 }
+
+	 #Union of equals
+	 option = {
+		 name = "EVTOPB1000000030"
+		 set_country_flag = LIV_wild_ride_UDU
 	 }
 }
 

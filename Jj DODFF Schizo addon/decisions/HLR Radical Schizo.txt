@@ -1,13 +1,14 @@
 political_decisions = {
 
 ###Declare the Global Revolution###
+#Failsafe if the event has yet to fire
 HLR_is_radical_that_is_everyones_problem = {
     picture = ""
 
     potential = { 
         has_country_flag = Schzio_mod_show
-        primary_culture = rheinish 
 		accepted_culture = czech
+        NOT = { has_global_flag = HLR_is_radical }
     }
 
     allow = {
@@ -29,6 +30,7 @@ HLR_is_radical_that_is_everyones_problem = {
             has_country_flag = Schzio_mod_show
             exists = DUA
             has_global_flag = HLR_is_radical
+            NOT = { has_global_flag = HLR_vs_DUA }
         }
     
         allow = {
@@ -65,7 +67,7 @@ HLR_is_radical_that_is_everyones_problem = {
     
     }
 
-    ##End the monarchy of the Scandinavian##
+    ##End the monarchy of the Scandinavia##
     HLR_radical_end_SCA = {
         picture = ""
     
@@ -73,6 +75,7 @@ HLR_is_radical_that_is_everyones_problem = {
             has_country_flag = Schzio_mod_show
             exists = SCA
             has_global_flag = HLR_is_radical
+            NOT = { has_global_flag = HLR_vs_SCA }
         }
     
         allow = {
@@ -118,6 +121,7 @@ HLR_is_radical_that_is_everyones_problem = {
             has_country_flag = Schzio_mod_show
             exists = PLC
             has_global_flag = HLR_is_radical
+            NOT = { has_global_flag = HLR_vs_PLC }
         }
     
         allow = {
@@ -152,6 +156,428 @@ HLR_is_radical_that_is_everyones_problem = {
             set_global_flag = HLR_vs_PLC
         }
     
+    }
+
+###Intergrate The Republics###
+#Revolution in one state
+
+    ##England##
+    radical_HLR_intergrate_ENG = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = ENL
+            OR = {
+                is_our_vassal = ENL
+                ENL = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = ENL value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = ENL
+            add_accepted_culture = english
+            ENL = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Wales##
+    radical_HLR_intergrate_WLS = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = WLS
+            OR = {
+                is_our_vassal = WLS
+                WLS = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = WLS value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 2
+            inherit = WLS
+            add_accepted_culture = welsh
+            WLS = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Ireland##
+    radical_HLR_intergrate_IRE = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = IRE
+            OR = {
+                is_our_vassal = IRE
+                IRE = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = IRE value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = IRE
+            add_accepted_culture = irish
+            IRE = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Scotland##
+    radical_HLR_intergrate_SCO = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = SCO
+            OR = {
+                is_our_vassal = SCO
+                SCO = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = SCO value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = SCO
+            add_accepted_culture = scottish
+            SCO = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##France##
+    radical_HLR_intergrate_FRA = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = FRA
+            OR = {
+                is_our_vassal = FRA
+                FRA = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = FRA value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = FRA
+            add_accepted_culture = french
+            FRA = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Occitania##
+    radical_HLR_intergrate_OCC = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = OCC
+            OR = {
+                is_our_vassal = OCC
+                OCC = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = OCC value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = OCC
+            add_accepted_culture = provencal
+            OCC = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Brittany##
+    radical_HLR_intergrate_BRT = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = BRT
+            OR = {
+                is_our_vassal = BRT
+                BRT = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = BRT value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = BRT
+            add_accepted_culture = breton
+            BRT = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Norway##
+    radical_HLR_intergrate_NOR = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = NOR
+            OR = {
+                is_our_vassal = NOR
+                NOR = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = NOR value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = NOR
+            add_accepted_culture = scandinavian
+            NOR = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Sweden##
+    radical_HLR_intergrate_SWE = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = SWE
+            OR = {
+                is_our_vassal = SWE
+                SWE = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = SWE value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = SWE
+            add_accepted_culture = scandinavian
+            SWE = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Denmark##
+    radical_HLR_intergrate_DEN = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = DEN
+            OR = {
+                is_our_vassal = DEN
+                DEN = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = DEN value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = DEN
+            add_accepted_culture = scandinavian
+            DEN = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Sami##
+    radical_HLR_intergrate_SMI = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = SMI
+            OR = {
+                is_our_vassal = SMI
+                SMI = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = SMI value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = SMI
+            add_accepted_culture = sami
+            SMI = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Finland##
+    radical_HLR_intergrate_FIN = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = FIN
+            OR = {
+                is_our_vassal = FIN
+                FIN = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = FIN value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = FIN
+            add_accepted_culture = finnish
+            FIN = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Karelia##
+    radical_HLR_intergrate_KAR = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = KAR
+            OR = {
+                is_our_vassal = KAR
+                KAR = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = KAR value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = KAR
+            add_accepted_culture = karelian
+            KAR = { all_core = { add_core = THIS } }
+        }
+    }
+    
+    ##Prussia##
+    radical_HLR_intergrate_KAR = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = PRU
+            OR = {
+                is_our_vassal = PRU
+                PRU = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = PRU value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            inherit = PRU
+            add_accepted_culture = prussian
+            PRU = { all_core = { add_core = THIS } }
+        }
+    }
+
+    ##Poland##
+    radical_HLR_intergrate_POL = {
+        picture = ""
+    
+        potential = { 
+            tag = HLR
+            has_country_flag = Schzio_mod_show
+            has_global_flag = HLR_is_radical
+            exists = POL
+            OR = {
+                is_our_vassal = POL
+                POL = { has_country_flag = able_to_integrate_to_radical_HLR }
+            }
+        }
+    
+        allow = {
+            relation = { who = POL value = 190 }
+            revolution_n_counterrevolution = 1
+        }
+    
+        effect = {
+            badboy = 5
+            inherit = POL
+            add_accepted_culture = polish
+            POL = { all_core = { add_core = THIS } }
+        }
     }
 
 }

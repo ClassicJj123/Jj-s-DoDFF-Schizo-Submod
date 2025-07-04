@@ -141,6 +141,31 @@ destroy_assimilators = {
 	 }
 }
 
+#Additional Stuff#
+
+national_campaigns  = {
+
+	picture = "schizo_funni" 
+	alert = no
+	potential = { 
+		ai = no
+		has_country_flag = Schzio_mod_show
+	}
+
+	allow = {
+		NOT = {
+			OR = {
+				has_country_modifier = assimilation_lvl_1_debuff
+				has_country_modifier = assimilation_lvl_2_debuff
+			}
+		}
+	}
+
+	effect = {
+		country_event = 1000000229
+	}
+}
+
 ##################
 ###Debug/Cheats###
 ##################

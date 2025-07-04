@@ -624,6 +624,9 @@ ITS     = "countries/Italian Shogunate.txt"
 IRS     = "countries/Roman Shogunate.txt"
 ##Yuan path##
 YUA     = "countries/Yuan.txt"
+CCH     = "countries/Communist China.txt"
+FCH     = "countries/Fascist China.txt"
+DCH     = "countries/Democratic China.txt"
 ##Spainish Aussies##
 ASP     = "countries/SpaAustralia.txt"
 ##SIG path##

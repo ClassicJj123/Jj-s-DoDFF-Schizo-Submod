@@ -107,34 +107,31 @@ EVTOPA1000000039;Looks like the German Phoenix still breathes afterall;;;;;;;;;;
 #####################;;;;;;;;;;;;;;x
 ###Kurland Content###;;;;;;;;;;;;;;x
 #####################;;;;;;;;;;;;;;x
-EVTNAME1000000023;The Question of the Baltic Natives;;;;;;;;;;;;;x
-EVTDESC1000000023;What shall we do with the Natives in our nation?;;;;;;;;;;;;;x
-EVTOPA1000000023A;§R Germanise them!;;;;;;;;;;;;;x
-EVTOPA1000000023B;Accept them as equals;;;;;;;;;;;;;x
-EVTNAME1000000024;The Lithuanian Question;;;;;;;;;;;;;x
-EVTDESC1000000024;What shall we do with the Lithuanians in our nation?;;;;;;;;;;;;;x
-EVTOPA1000000024A;§R Germanise them!;;;;;;;;;;;;;x
-EVTOPA1000000024B;Accept them as equals;;;;;;;;;;;;;x
-EVTNAME1000000025;Our National Identity;;;;;;;;;;;;;x
-EVTDESC1000000025;What shall our focus now be?;;;;;;;;;;;;;x
-EVTOPA1000000025A;Return to our roots in the Teutonic Order;;;;;;;;;;;;;x
-EVTOPA1000000025B;Return to our Germanic roots;;;;;;;;;;;;;x
-EVTNAME1000000026;The Belarusian Question;;;;;;;;;;;;;x
-EVTDESC1000000026;What shall we do with the Belarusians in our nation?;;;;;;;;;;;;;x
-EVTOPA1000000026A;§R Germanise them!;;;;;;;;;;;;;x
-EVTOPA1000000026B;Accept them as equals;;;;;;;;;;;;;x
-EVTNAME1000000027;The Pskov Genocide;;;;;;;;;;;;;x
-EVTDESC1000000027;Pskov, mostly inhabited by Russians, cannot be accepted into our nation due to the Russians having nationalistic ideas, thus the only option is to kill off the unwilling;;;;;;;;;;;;;x
-EVTOPA1000000027;I'm sorry little one...;;;;;;;;;;;;;x
-EVTNAME1000000028;The Final Solution;;;;;;;;;;;;;x
-EVTDESC1000000028;Our ruthless campaign of assimilation, while successful in some areas, have been fruitless in others. Thus in order to ensure the safety of our nation, we have decided to get rid of the unwilling;;;;;;;;;;;;;x
-EVTOPA1000000028;No hard feelings, but in the lord's name, you MUST die;;;;;;;;;;;;;x
-EVTNAME1000000029;Resistance;;;;;;;;;;;;;x
-EVTDESC1000000029;Despite our officers being thorough, there is still resistance cells in our conquered lands. They must be purged;;;;;;;;;;;;;x
-EVTOPA1000000029;Here I go killing again;;;;;;;;;;;;;x
-EVTNAME1000000030;Cultural Extermination;;;;;;;;;;;;;x
-EVTDESC1000000030;After many deaths, we have finally assimilated all our conquered lands!;;;;;;;;;;;;;x
-EVTOPA1000000030;Finally;;;;;;;;;;;;;x
+EVTNAME1000000023;The Duchy of Kurland;;;;;;;;;;;;;x
+EVTDESC1000000023;The Duchy of Courland (Officially the Duchy of Courland and Semigallia) was established in 1561 as per the Treaty of Vilnius. Since it's establishment, the Duchy has experienced a comfortable status as a vassal state of the Polish-Lithuanian Commonwealth, sadly that wouldn't last as the Duchy would be invaded during the Great German War by the Scandinavians. Fortunately Polish-Lithuanian forces were able to repeal the invading Scandinavians, and through the diplomatic skills of the Duke, the Duchy was able to retain most of it's autonomy as a Scandinavian vassal state. With the war over the Duchy was able to breathe a sigh of relief, however, as the Duchy walks into the current century, dark clouds loom over it's future;;;;;;;;;;;;;x
+EVTOPA1000000023A;Onwards to our Future!;;;;;;;;;;;;;x
+EVTNAME1000000024;The Balter League;;;;;;;;;;;;;x
+EVTDESC1000000024;Despite the dissolution of the Livonian League and Order, as well as the relative privilege the Baltic Germans receive in Scandinavia, some long for a independent German state in the Baltic. And while our Duke isn't one of them, he has shown interest in supporting them.;;;;;;;;;;;;;x
+EVTOPA1000000024A;Lets see where this leads;;;;;;;;;;;;;x
+EVTNAME1000000025;It's Now or Never!;;;;;;;;;;;;;x
+EVTDESC1000000025;With Scandinavia demanding our annexation every men and woman must fight for our freedom, such a feat may be futile, but we must try anyways!;;;;;;;;;;;;;x
+EVTOPA1000000025A;We will not BOW!;;;;;;;;;;;;;x
+EVTNAME1000000026;Balter cells rise with us!;;;;;;;;;;;;;x
+EVTDESC1000000026;With Scandinavia demanding our annexation every men and woman must fight for our freedom. Thanks to our Duke's efforts, cells of Balters in Riga and parts of Estland have risen with us, such a feat may be futile, but we must try anyways!;;;;;;;;;;;;;x
+EVTOPA1000000026A;We will not BOW!;;;;;;;;;;;;;x
+EVTNAME1000000027;The Prussian eagle rises with us!;;;;;;;;;;;;;x
+EVTDESC1000000027;With Scandinavia demanding our annexation every men and woman must fight for our freedom. Thanks to our Duke's efforts, cells of Balters in Riga and parts of Estland have risen with us, and inspired by our actions, our brothers in Prussia have risen as well. While such a actions may be futile, the Balters have been subjugated for too long, thus we must try anyways!;;;;;;;;;;;;;x
+EVTOPA1000000027;We will not BOW!;;;;;;;;;;;;;x
+EVTNAME1000000028;Victory!;;;;;;;;;;;;;x
+EVTDESC1000000028;Despite the overwhelming odds, we as Kurland have come out on top! However, our journey has yet to end as while we have won our independence, the powers will mot let us be. THUS we must continue to fight to carve out a place in the sun for the Balters!;;;;;;;;;;;;;x
+EVTOPA1000000028;Horrah!;;;;;;;;;;;;;x
+EVTNAME1000000029;The Prussian eagle sores!;;;;;;;;;;;;;x
+EVTDESC1000000029;Prussia Won lol;;;;;;;;;;;;;x
+EVTOPA1000000029;PLC really is disfuctional;;;;;;;;;;;;;x
+EVTNAME1000000030;The Baltic Affair;;;;;;;;;;;;;x
+EVTDESC1000000030;With our victory over the Scandinavians, the tension between the native Baltic people and the Baltic Germans has become ever more prevalent. We must declare an official stance on this debate or risk total collapse;;;;;;;;;;;;;x
+EVTOPA1000000030;Support our follow Germans by returning to the ways of old;;;;;;;;;;;;;x
+EVTOPB1000000030;Draft a constitution, we will be equals;;;;;;;;;;;;;x
 EVTNAME1000000031;The Bradantian Question;;;;;;;;;;;;;x
 EVTDESC1000000031;What shall we do with the Bradantians?;;;;;;;;;;;;;x
 EVTOPA1000000031A;§R Germanise them!;;;;;;;;;;;;;x

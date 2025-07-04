@@ -403,15 +403,6 @@ migration_chance =
 {
     factor = 1 #base migration factor 1%
 
-    #Schizo internal migration
-    modifier = {
-        factor = 1
-        has_country_flag = schizo_move_arkadisch
-        location = {
-            culture = arkadisch
-        }
-    }
-
     group = { #lower migration if con < num, max -0.3
         modifier = {
             factor = -0.1
@@ -953,11 +944,67 @@ assimilation_chance =
     #Schizo assimilation
 	#TGC code
 	modifier = {
-		factor = 3
+		factor = 5
 		country = { has_country_flag = assimilation_enabled }
 		location = {
 			has_building = assimilator
 		}
+	}
+
+    modifier = {
+		factor = 10
+		country = { has_country_flag = assimilation_enabled }
+		location = {
+			has_building = assimilator
+		}
+        is_state_religion = no
+	}
+
+    modifier = {
+		factor = 10
+		country = { has_country_flag = assimilation_enabled }
+		location = {
+			has_building = assimilator
+		}
+        has_culture_core = yes
+	}
+
+    modifier = {
+		factor = 30
+		country = { has_country_flag = assimilation_enabled }
+		location = {
+			has_building = assimilator
+		}
+        NOT = { everyday_needs = 0.1 }
+	}
+
+    modifier = {
+		factor = 20
+		country = { has_country_flag = assimilation_enabled }
+		location = {
+			has_building = assimilator
+		}
+        everyday_needs = 0.1
+        NOT = { everyday_needs = 0.3 }
+	}
+
+    modifier = {
+		factor = 10
+		country = { has_country_flag = assimilation_enabled }
+		location = {
+			has_building = assimilator
+		}
+        everyday_needs = 0.3
+        NOT = { everyday_needs = 0.5 }
+	}
+
+    modifier = {
+		factor = 5
+		country = { has_country_flag = assimilation_enabled }
+		location = {
+			has_building = assimilator
+		}
+        everyday_needs = 0.5
 	}
 	
 	modifier = {

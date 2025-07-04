@@ -6236,6 +6236,24 @@ Germanisation_program = {
 	 immigrant_attract = 5
 }
 
+assimilation_lvl_1 = {
+	assimilation_rate = 0.05
+}
+
+assimilation_lvl_2 = {
+	assimilation_rate = 0.25
+}
+
+assimilation_lvl_1_debuff = {
+	tax_efficiency = -0.1
+	tariff_efficiency_modifier = -0.1
+}
+
+assimilation_lvl_2_debuff = {
+	tax_efficiency = -0.5
+	tariff_efficiency_modifier = -0.5
+}
+
 Resettlement_program_lvl_1 = {
 	 assimilation_rate = 4.0
 	 pop_militancy_modifier = -1.0
@@ -6370,13 +6388,4 @@ UBD_immigration_ploy = {
      global_population_growth = 0.002
 	 global_immigrant_attract = 1
      global_pop_militancy_modifier = -0.1
-}
-
-generic_drug_trade_cooldown = {
-}
-
-illegal_sustance_problem = {
-	pop_consciousness_modifier = 0.1
-	pop_militancy_modifier = 0.05
-	icon = 18
 }

@@ -89,14 +89,6 @@ country_migration_target =
 		}
 	}
 
-	modifier = {
-		factor = 2
-		AND = {
-			has_country_flag = UBD_connect_with_germanic_roots
-			THIS = { is_culture_group = germanic }
-		}
-	}
-
 
 	modifier = {
 		factor = 1.1

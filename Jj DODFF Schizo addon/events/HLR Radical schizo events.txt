@@ -44,45 +44,44 @@
         
         option = {
             name = "EVTOPTA1000000222"
-            DUA = {
-                any_owned = {
-                    limit = {
-                        NOT = { continent = europe }
-                    }
-                    secede_province = HLR
+            inherit = DUA
+            any_owned = {
+                limit = {
+                    is_core = BRT
                 }
-                any_owned = {
-                    limit = {
-                        is_core = BRT
-                    }
-                    secede_province = BRT
-                }
-                any_owned = {
-                    limit = {
-                        is_core = ENL
-                    }
-                    secede_province = ENL
-                }
-                any_owned = {
-                    limit = {
-                        is_core = OCC
-                    }
-                    secede_province = OCC
-                }
-                any_owned = {
-                    limit = {
-                        is_core = IRE
-                    }
-                    secede_province = IRE
-                }
-                any_owned = {
-                    limit = {
-                        is_core = FRA
-                    }
-                    secede_province = FRA
-                }
+                secede_province = BRT
             }
-            ENG = {
+            any_owned = {
+                limit = {
+                    is_core = WLS
+                }
+                secede_province = WLS
+            }
+            any_owned = {
+                limit = {
+                    is_core = ENL
+                }
+                secede_province = ENL
+            }
+            any_owned = {
+                limit = {
+                    is_core = OCC
+                }
+                secede_province = OCC
+            }
+            any_owned = {
+                limit = {
+                    is_core = IRE
+                }
+                secede_province = IRE
+            }
+            any_owned = {
+                limit = {
+                    is_core = FRA
+                }
+                secede_province = FRA
+            }
+            ENL = {
                 government = bourgeois_dictatorship
                 ruling_party_ideology = anarcho_liberal
                 political_reform = none_voting
@@ -112,13 +111,19 @@
                 political_reform = none_voting
                 set_country_flag = able_to_integrate_to_radical_HLR
             }
+            WLS = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
             HLR = {
                 create_vassal = IRE
                 create_vassal = OCC
                 create_vassal = FRA
-                create_vassal = ENG
+                create_vassal = ENL
                 create_vassal = BRT
-                inherit = DUA #In case DUA owns European land outside of the countries to be released
+                create_vassal = WLS
             }
         }
         
@@ -179,72 +184,66 @@
         
         option = {
             name = "EVTOPTA1000000224"
-            SCA = {
-                any_owned = {
-                    limit = {
-                        NOT = { continent = europe }
-                    }
-                    secede_province = HLR
+            inherit = SCA
+            any_owned = {
+                limit = {
+                    is_core = ICL
                 }
-                any_owned = {
-                    limit = {
-                        is_core = ICL
-                    }
-                    secede_province = ICL
+                secede_province = ICL
+            }
+            any_owned = {
+                limit = {
+                    is_core = FIN
                 }
-                any_owned = {
-                    limit = {
-                        is_core = FIN
-                    }
-                    secede_province = FIN
+                secede_province = FIN
+            }
+            any_owned = {
+                limit = {
+                    is_core = SMI
                 }
-                any_owned = {
-                    limit = {
-                        is_core = SMI
-                    }
-                    secede_province = SMI
+                secede_province = SMI
+            }
+            any_owned = {
+                limit = {
+                    is_core = KAR
                 }
-                any_owned = {
-                    limit = {
-                        is_core = KAR
-                    }
-                    secede_province = KAR
+                secede_province = KAR
+            }
+            any_owned = {
+                limit = {
+                    is_core = NOR
                 }
-                any_owned = {
-                    limit = {
-                        is_core = NOR
-                    }
-                    secede_province = NOR
+                secede_province = NOR
+            }
+            any_owned = {
+                limit = {
+                    is_core = DEN
                 }
-                any_owned = {
-                    limit = {
-                        is_core = DEN
-                    }
-                    secede_province = DEN
+                secede_province = DEN
+            }
+            any_owned = {
+                limit = {
+                    is_core = SWE
                 }
-                any_owned = {
-                    limit = {
-                        is_core = SWE
-                    }
-                    secede_province = SWE
+                secede_province = SWE
+            }
+            any_owned = {
+                limit = {
+                    is_core = SCO
                 }
-                any_owned = {
-                    limit = {
-                        is_core = SCO
+                secede_province = SCO
+            }
+            any_owned = {
+                limit = {
+                    OR = {
+                        is_core = LAT
+                        is_core = EST
+                        is_core = PSV
+                        is_core = ING
                     }
-                    secede_province = SCO
                 }
-                any_owned = {
-                    limit = {
-                        OR = {
-                            is_core = LAT
-                            is_core = EST
-                            is_core = PSV
-                            is_core = ING
-                        }
-                    }
-                    secede_province = LIV
-                }
+                add_core = LIV
+                secede_province = LIV
             }
             ICL = {
                 government = bourgeois_dictatorship
@@ -307,7 +306,6 @@
                 create_vassal = SWE
                 create_vassal = FIN
                 create_vassal = SCO
-                inherit = SCA #In case SCA owns European land outside of the countries to be released
             }
         }
         
@@ -357,43 +355,36 @@
         
         option = {
             name = "EVTOPTA1000000226"
-            PLC = {
-                any_owned = {
-                    limit = {
-                        NOT = { continent = europe }
-                    }
-                    secede_province = HLR
+            inherit = PLC
+            any_owned = {
+                limit = {
+                    is_core = PRU
                 }
-                any_owned = {
-                    limit = {
-                        is_core = PRU
+                secede_province = PRU
+            }
+            any_owned = {
+                limit = {
+                    OR = {
+                        is_core = SMO
+                        is_core = BLR
                     }
-                    secede_province = PRU
                 }
-                any_owned = {
-                    limit = {
-                        OR = {
-                            is_core = SMO
-                            is_core = BLR
-                        }
+                secede_province = BLR
+            }
+            any_owned = {
+                limit = {
+                    OR = {
+                        is_core = SAM
+                        is_core = LIT
                     }
-                    secede_province = BLR
                 }
-                any_owned = {
-                    limit = {
-                        OR = {
-                            is_core = SAM
-                            is_core = LIT
-                        }
-                    }
-                    secede_province = SAM
+                secede_province = SAM
+            }
+            any_owned = {
+                limit = {
+                    is_core = POL
                 }
-                any_owned = {
-                    limit = {
-                        is_core = POL
-                    }
-                    secede_province = POL
-                }
+                secede_province = POL
             }
             PRU = {
                 government = bourgeois_dictatorship
@@ -424,7 +415,59 @@
                 create_vassal = BLR
                 create_vassal = SAM
                 create_vassal = POL
-                inherit = PLC #In case PLC owns European land outside of the countries to be released
+            }
+        }
+        
+    }
+
+###Misc###
+
+    ##Locking Event##
+    #The Glorious Revolution has preserved in some form or another, time to prepare to spread it world wide!
+    country_event = {
+        id = 1000000230
+        title = "EVTNAME1000000230"
+        desc = "EVTDESC1000000230"
+        picture = "placeholder"
+        
+        trigger = {
+            tag = HLR
+            ruling_party_ideology = anarcho_liberal
+            accepted_culture = czech
+            has_country_flag = aftermath_Coalition
+        }
+        
+        mean_time_to_happen = {
+            days = 0
+        }
+    
+        fire_only_once = yes
+    
+        #We will march on!
+        option = {
+            name = "EVTOPTA1000000230"
+            set_global_flag = HLR_is_radical #This blocks Imperial decisions
+            any_owned = {
+                limit = {
+                    is_core = BOG
+                }
+                secede_province = BOG
+            }
+            BOG = {
+                government = bourgeois_dictatorship
+                ruling_party_ideology = anarcho_liberal
+                political_reform = none_voting
+                set_country_flag = able_to_integrate_to_radical_HLR
+            }
+            create_vassal = BOG
+            any_owned = {
+                limit = {
+                    province_id = 399
+                    province_id = 400
+                    province_id = 401
+                    province_id = 404
+                }
+                secede_province = BRB
             }
         }
         

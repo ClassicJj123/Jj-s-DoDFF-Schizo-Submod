@@ -106,5 +106,40 @@ country_event = {
     }
 }
 
+#National C
+country_event = {
+	id = 1000000229
+	title = "EVTNAME1000000229"
+	desc = "EVTDESC1000000229"
+	picture = "placeholder"
+	
+	is_triggered_only = yes
+	
+	#Assimilation Level 1
+	option = {
+		name = "EVTOPTA1000000229"
+		add_country_modifier = { name = assimilation_lvl_1_debuff duration = 365 }
+		any_owned = {
+			limit = {
+			    has_building = assimilator
+			}
+			add_province_modifier = { name = assimilation_lvl_1 duration = 365 }
+		}
+	}
+	
+	#Assimilation Level 2
+	option = {
+		name = "EVTOPTB1000000229"
+		add_country_modifier = { name = assimilation_lvl_2_debuff duration = 365 }
+		any_owned = {
+			limit = {
+			    has_building = assimilator
+			}
+			add_province_modifier = { name = assimilation_lvl_2 duration = 365 }
+		}
+	}
+	
+}
+
 
 

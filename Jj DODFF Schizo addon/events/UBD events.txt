@@ -1,4 +1,4 @@
-#We have become the master of the antille, now we must unify our cultures
+#Duchy in exile
 country_event = {
     id = 1000000194
     title = "EVTNAME1000000194"
@@ -7,7 +7,6 @@ country_event = {
     
     trigger = {
         tag = UBD
-        has_country_flag = master_of_the_antille
     }
     
     mean_time_to_happen = {
@@ -16,24 +15,15 @@ country_event = {
 
     fire_only_once = yes
 
-    #Accept all the natives, they have the right to be our equals
+    #Start of an adventure
     option = {
         name = "EVTOPTA1000000194"
-        add_accepted_culture = afro_latino
-        add_accepted_culture = afro_germanic
-        add_accepted_culture = afro_amerigan
-    }
-    
-    #Attempt to merge the Germanic cultures of our nation, together we can create a germanic state in the caribbean
-    option = {
-        name = "EVTOPTB1000000194"
-        set_country_flag = UBD_arkadisch_convert_waiting
+        set_global_flag = UBD_schizo_path_start
     }
     
 }
 
-#Our cultures are united!
-#The creation of Arkadisch
+#Question of Serfdom
 country_event = {
     id = 1000000195
     title = "EVTNAME1000000195"
@@ -42,614 +32,257 @@ country_event = {
     
     trigger = {
         tag = UBD
-        has_country_flag = UBD_arkadisch_convert_waiting
+        has_global_flag = UBD_schizo_path_start
     }
     
     mean_time_to_happen = {
-        days = 365
+        days = 120
     }
 
     fire_only_once = yes
 
-    #Great!
+    #Get rid of it
     option = {
         name = "EVTOPTA1000000195"
-        UBD = { 
-            primary_culture = arkadisch
-            clr_country_flag = UBD_arkadisch_convert_waiting
-        }
-        #Tobago
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2238 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2238 }
-		     secede_province = IOM
-	    }
-        #Swiety Andrzej
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2233 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2233 }
-		     secede_province = IOM
-	    }
-        #Sao Vicente
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2409 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2409 }
-		     secede_province = IOM
-	    }
-        #Neu Kurland
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2229 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2229 }
-		     secede_province = IOM
-	    }
-        #Sant_Jordi
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2231 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2231 }
-		     secede_province = IOM
-	    }
-        #Martinique
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2228 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2228 }
-		     secede_province = IOM
-	    }
-        #Dominica
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2232 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2232 }
-		     secede_province = IOM
-	    }
-        #Gundershavn
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2230 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2230 }
-		     secede_province = IOM
-	    }
-        #Larshavn
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2225 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2225 }
-		     secede_province = IOM
-	    }
-        #Monsterrat
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2224 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2224 }
-		     secede_province = IOM
-	    }
-        #San_Cristobal_y_Nieves
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2227 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2227 }
-		     secede_province = IOM
-	    }
-        #St_Marguerite
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2236 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2236 }
-		     secede_province = IOM
-	    }
-        #Georgeville
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2226 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2226 }
-		     secede_province = IOM
-	    }
-        #st_francois_of_kent
-        any_pop = {
-		     limit = {
-                 has_pop_culture = afro_germanic
-			     location = { province_id = 2223 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2223 }
-		     secede_province = IOM
-	    }
-        #Tobago
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2238 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2238 }
-		     secede_province = IOM
-	    }
-        #Swiety Andrzej
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2233 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2233 }
-		     secede_province = IOM
-	    }
-        #Sao Vicente
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2409 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2409 }
-		     secede_province = IOM
-	    }
-        #Neu Kurland
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2229 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2229 }
-		     secede_province = IOM
-	    }
-        #Sant_Jordi
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2231 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2231 }
-		     secede_province = IOM
-	    }
-        #Martinique
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2228 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2228 }
-		     secede_province = IOM
-	    }
-        #Dominica
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2232 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2232 }
-		     secede_province = IOM
-	    }
-        #Gundershavn
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2230 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2230 }
-		     secede_province = IOM
-	    }
-        #Larshavn
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2225 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2225 }
-		     secede_province = IOM
-	    }
-        #Monsterrat
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2224 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2224 }
-		     secede_province = IOM
-	    }
-        #San_Cristobal_y_Nieves
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2227 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2227 }
-		     secede_province = IOM
-	    }
-        #St_Marguerite
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2236 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2236 }
-		     secede_province = IOM
-	    }
-        #Georgeville
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2226 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2226 }
-		     secede_province = IOM
-	    }
-        #st_francois_of_kent
-        any_pop = {
-		     limit = {
-                 has_pop_culture = scandinavian
-			     location = { province_id = 2223 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2223 }
-		     secede_province = IOM
-	    }
-        #Tobago
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2238 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2238 }
-		     secede_province = IOM
-	    }
-        #Swiety Andrzej
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2233 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2233 }
-		     secede_province = IOM
-	    }
-        #Sao Vicente
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2409 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2409 }
-		     secede_province = IOM
-	    }
-        #Neu Kurland
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2229 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2229 }
-		     secede_province = IOM
-	    }
-        #Sant_Jordi
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2231 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2231 }
-		     secede_province = IOM
-	    }
-        #Martinique
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2228 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2228 }
-		     secede_province = IOM
-	    }
-        #Dominica
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2232 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2232 }
-		     secede_province = IOM
-	    }
-        #Gundershavn
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2230 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2230 }
-		     secede_province = IOM
-	    }
-        #Larshavn
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2225 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2225 }
-		     secede_province = IOM
-	    }
-        #Monsterrat
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2224 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2224 }
-		     secede_province = IOM
-	    }
-        #San_Cristobal_y_Nieves
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2227 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2227 }
-		     secede_province = IOM
-	    }
-        #St_Marguerite
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2236 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2236 }
-		     secede_province = IOM
-	    }
-        #Georgeville
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2226 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2226 }
-		     secede_province = IOM
-	    }
-        #st_francois_of_kent
-        any_pop = {
-		     limit = {
-                 has_pop_culture = livlandian
-			     location = { province_id = 2223 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2223 }
-		     secede_province = IOM
-	    }
-        IOM = { country_event = 60120 }
+        debt_law = peonage
+		clr_global_flag = UBD_schizo_path_start
+		set_global_flag = UBD_schizo_path_serfdom_qn_ans
+    }
+
+	#Enforce it
+    option = {
+        name = "EVTOPTB1000000195"
+		clr_global_flag = UBD_schizo_path_start
+		set_global_flag = UBD_schizo_path_serfdom_qn_ans
     }
     
 }
+
+#Question of Labour
+country_event = {
+    id = 1000000202
+    title = "EVTNAME1000000202"
+    desc = "EVTDESC1000000202"
+    picture = "placeholder"
+    
+    trigger = {
+        tag = UBD
+        has_global_flag = UBD_schizo_path_serfdom_qn_ans
+    }
+    
+    mean_time_to_happen = {
+        days = 125
+    }
+
+    fire_only_once = yes
+
+    #Immigration is the only answer!
+    option = {
+        name = "EVTOPTA1000000202"
+        add_country_modifier = { name = UBD_immigration_ploy duration = -1 }
+		clr_global_flag = UBD_schizo_path_serfdom_qn_ans
+		set_global_flag = UBD_schizo_path_labour_qn_ans
+		set_country_flag = UBD_able_to_develop_immigration
+    }
+
+}
+
+#Question of rights
+country_event = {
+    id = 1000000203
+    title = "EVTNAME1000000203"
+    desc = "EVTDESC1000000203"
+    picture = "placeholder"
+    
+    trigger = {
+        tag = UBD
+        has_global_flag = UBD_schizo_path_labour_qn_ans
+    }
+    
+    mean_time_to_happen = {
+        days = 125
+    }
+
+    fire_only_once = yes
+
+	#Grant them rights!
+    option = {
+        name = "EVTOPTA1000000203"
+		add_accepted_culture = afro_germanic
+		clr_global_flag = UBD_schizo_path_labour_qn_ans
+        set_global_flag = UBD_schizo_path_rights_qn_ans
+		set_country_flag = UBD_native_rights
+    }
+
+	#Maintain the agenda
+    option = {
+        name = "EVTOPTB1000000203"
+		clr_global_flag = UBD_schizo_path_labour_qn_ans
+        set_global_flag = UBD_schizo_path_rights_qn_ans
+		set_country_flag = UBD_natvive_oppression
+    }
+
+	#Let's try something new...
+    option = {
+        name = "EVTOPTB1000000203"
+		primary_culture = arkadisch
+		clr_global_flag = UBD_schizo_path_labour_qn_ans
+        set_global_flag = UBD_schizo_path_rights_qn_ans
+		set_country_flag = DUA_schooling
+		set_country_flag = UBD_assimilation_via_new_culture
+		2229 = {
+			assimilate = yes
+		}
+		2238 = {
+			assimilate = yes
+		}
+    }
+
+}
+
+#Death of our Duke
+country_event = {
+	id = 1000000212
+	title = "EVTNAME1000000212"
+	desc = "EVTDESC1000000212"
+	picture = "placeholder"
+	
+	trigger = {
+        tag = UBD
+        has_global_flag = UBD_schizo_path_rights_qn_ans
+    }
+    
+    mean_time_to_happen = {
+        days = 1825
+    }
+
+    fire_only_once = yes
+	
+	#Rest sweet prince
+	option = {
+		name = "EVTOPTA1000000212"
+		clr_global_flag = UBD_schizo_path_rights_qn_ans
+        set_global_flag = UBD_schizo_path_duke_is_dead
+	}
+}
+
+#Ai decision event
+country_event = {
+	id = 1000000213
+	title = "EVTNAME1000000213"
+	desc = "EVTDESC1000000213"
+	picture = "placeholder"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA1000000213"
+		country_event = 1000000214
+		ai_chance = { 
+        	factor = 30
+        	modifier = {
+             	factor = 0.2
+             	has_country_flag = UBD_natvive_oppression
+        	}
+			modifier = {
+             	factor = -0.2
+             	has_country_flag = UBD_native_rights
+        	}
+    	}
+	}
+
+	option = {
+		name = "EVTOPTB1000000213"
+		country_event = 1000000218
+		ai_chance = { 
+        	factor = 30
+        	modifier = {
+             	factor = 0.2
+             	has_country_flag = UBD_native_rights
+        	}
+			modifier = {
+             	factor = -0.2
+             	has_country_flag = UBD_natvive_oppression
+        	}
+    	}
+	}
+
+	option = {
+		name = "EVTOPTC1000000213"
+		ai_chance = { 
+        	factor = 40
+    	}
+	}
+}
+
+#The Native Revolt
+country_event = {
+	id = 1000000214
+	title = "EVTNAME1000000214"
+	desc = "EVTDESC1000000214"
+	picture = "placeholder"
+	
+	is_triggered_only = yes
+	
+	#Damn
+	option = {
+		name = "EVTOPTA1000000214"
+		clr_global_flag = UBD_schizo_path_duke_is_dead
+		set_global_flag = UBD_native_revolt
+	}	
+}
+
+#The Army Seizes Power! 
+country_event = {
+	id = 1000000218
+	title = "EVTNAME1000000218"
+	desc = "EVTDESC1000000218"
+	picture = "placeholder"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA1000000218"
+		clr_global_flag = UBD_schizo_path_duke_is_dead
+		set_global_flag = UBD_reactionary_army_in_power
+	}
+}
+
+#Creation of a Rengency council
+country_event = {
+	id = 1000000219
+	title = "EVTNAME1000000219"
+	desc = "EVTDESC1000000219"
+	picture = "placeholder"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA1000000219"
+		clr_global_flag = UBD_schizo_path_duke_is_dead
+		set_global_flag = UBD_reactionary_army_in_power
+	}
+}
+
+#
+country_event = {
+	id = 1000000220
+	title = "EVTNAME1000000220"
+	desc = "EVTDESC1000000220"
+	picture = "placeholder"
+	
+	is_triggered_only = yes
+	
+	#
+	option = {
+		name = "EVTOPTA1000000220"
+	}
+}
+
+
+###################
+###Buying Events###
+###################
 
 #SCA informed of our intent to purchase Sydoe
 country_event = {
@@ -778,6 +411,7 @@ country_event = {
     option = {
         name = "EVTOPTA1000000200"
         inherit = SFJ
+		add_accepted_culture = ayitian
         any_owned = {
             limit = {
                 is_core = SFJ
@@ -805,191 +439,6 @@ country_event = {
             }
         }
     } 
-}
-
-#The ayitian question
-country_event = {
-    id = 1000000202
-    title = "EVTNAME1000000202"
-    desc = "EVTDESC1000000202"
-    picture = "placeholder"
-    
-    trigger = {
-        tag = UBD
-        THIS = {
-             owns = 2222
-             owns = 2214
-             owns = 2216
-             owns = 2213
-             owns = 3451
-             owns = 2215
-             owns = 3414
-         }
-         primary_culture = arkadisch
-    }
-    
-    mean_time_to_happen = {
-        days = 15
-    }
-
-    fire_only_once = yes
-
-    #Intergrate them into the greater Arkadisch culture
-    option = {
-        name = "EVTOPTA1000000202"
-        set_country_flag = Intergrating_ayitian
-		set_country_flag = schizo_move_arkadisch
-		set_country_flag = schizo_allow_native_assimilation
-		any_owned = {
-			limit = {
-				is_core = SFJ
-			}
-		 add_province_modifier = { name = Germanisation_program duration = 365 }
-		}
-		SFJ = {
-			primary_culture = arkadisch
-		}
-    }
-    
-    #Accept them as equals
-    option = {
-        name = "EVTOPTB1000000202"
-        add_accepted_culture = ayitian
-    }
-}
-
-#The ayitian intergrate!
-#The Natives will remain a problem
-country_event = {
-    id = 1000000203
-    title = "EVTNAME1000000203"
-    desc = "EVTDESC1000000203"
-    picture = "placeholder"
-    
-    trigger = {
-        tag = UBD
-        has_country_flag = Intergrating_ayitian
-    }
-    
-    mean_time_to_happen = {
-        days = 365
-    }
-
-    fire_only_once = yes
-
-    option = {
-        name = "EVTOPTA1000000203"
-        remove_accepted_culture = ayitian
-		clr_country_flag = Intergrating_ayitian
-		clr_country_flag = schizo_move_arkadisch
-		clr_country_flag = schizo_allow_native_assimilation
-        #2214
-		any_pop = {
-		     limit = {
-                 is_primary_culture = no
-				 type = craftsmen
-			     location = { province_id = 2214 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2214 }
-		     secede_province = IOM
-	    }
-        #2216
-		any_pop = {
-		     limit = {
-                 is_primary_culture = no
-				 type = craftsmen
-			     location = { province_id = 2216 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2216 }
-		     secede_province = IOM
-	    }
-        #2213
-		any_pop = {
-		     limit = {
-                 is_primary_culture = no
-				 type = craftsmen
-			     location = { province_id = 2213 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2213 }
-		     secede_province = IOM
-	    }
-        #3451
-		any_pop = {
-		     limit = {
-                 is_primary_culture = no
-				 type = craftsmen
-			     location = { province_id = 3451 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 3451 }
-		     secede_province = IOM
-	    }
-        #2215
-		any_pop = {
-		     limit = {
-                 is_primary_culture = no
-				 type = craftsmen
-			     location = { province_id = 2215 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2215 }
-		     secede_province = IOM
-	    }
-        #3414
-		any_pop = {
-		     limit = {
-                 is_primary_culture = no
-				 type = craftsmen
-			     location = { province_id = 3414 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 3414 }
-		     secede_province = IOM
-	    }
-        #2222
-		any_pop = {
-		     limit = {
-                 is_primary_culture = no
-				 type = craftsmen
-			     location = { province_id = 2222 } 
-		     } 
-		move_pop = 2975
-	    }
-        2975 = {
-		     secede_province = THIS
-		     assimilate = yes
-		     any_pop = { move_pop = 2222 }
-		     secede_province = IOM
-	    }
-		IOM = { country_event = 60120 }
-    }
 }
 
 #SPA informed of our intentions of buying Kuba
@@ -1170,13 +619,12 @@ country_event = {
 	option = {
 		name = "EVTOPTA1000000209"
 		set_country_flag = Intergrating_kuba
-		set_country_flag = schizo_move_arkadisch
 		set_country_flag = schizo_allow_native_assimilation
 		any_owned = {
 			limit = {
 				is_core = SFJ
 			}
-		 add_province_modifier = { name = Germanisation_program duration = 365 }
+		 add_province_modifier = { name = Germanisation_program duration = 1825 }
 		}
 		CUB = { primary_culture = arkadisch }
 	}
@@ -1201,7 +649,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 365
+		days = 1825
 	}
 
 	fire_only_once = yes
@@ -1209,13 +657,11 @@ country_event = {
 	option = {
 		name = "EVTOPTA1000000210"
 		clr_country_flag = Intergrating_kuba
-		clr_country_flag = schizo_move_arkadisch
 		clr_country_flag = schizo_allow_native_assimilation
         #2212
 		any_pop = {
 		     limit = {
                  is_primary_culture = no
-				 type = craftsmen
 			     location = { province_id = 2212 } 
 		     } 
 		move_pop = 2975
@@ -1230,7 +676,6 @@ country_event = {
 		any_pop = {
 		     limit = {
                  is_primary_culture = no
-				 type = craftsmen
 			     location = { province_id = 2211 } 
 		     } 
 		move_pop = 2975
@@ -1245,7 +690,6 @@ country_event = {
 		any_pop = {
 		     limit = {
                  is_primary_culture = no
-				 type = craftsmen
 			     location = { province_id = 2210 } 
 		     } 
 		move_pop = 2975
@@ -1260,7 +704,6 @@ country_event = {
 		any_pop = {
 		     limit = {
                  is_primary_culture = no
-				 type = craftsmen
 			     location = { province_id = 2209 } 
 		     } 
 		move_pop = 2975
@@ -1275,7 +718,6 @@ country_event = {
 		any_pop = {
 		     limit = {
                  is_primary_culture = no
-				 type = craftsmen
 			     location = { province_id = 2218 } 
 		     } 
 		move_pop = 2975
@@ -1309,61 +751,6 @@ country_event = {
 		}
 	}
 }
-
-#Selling drugs in Nouvelle France (PLA_139)
-country_event = {
-	id = 1000000212
-	title = "EVTNAME1000000212"
-	desc = "EVTDESC1000000212"
-	picture = "placeholder"
-	
-	is_triggered_only = yes
-	
-	#Let's hope no one suspect anything
-	option = {
-		name = "EVTOPTA1000000212"
-		add_country_modifier = { name = generic_drug_trade_cooldown duration = 365 }
-		PLA_139 = {
-			add_province_modifier = { name = illegal_sustance_problem duration = 100 }
-		}
-		random_list = {
-			10 = { country_event = { id = 1000000219 days = 14 } }
-			90 = { country_event = { id = 1000000213 days = 14 } }
-		}
-	}
-}
-
-#Money from the sale of drugs (PLA_139)
-country_event = {
-	id = 1000000213
-	title = "EVTNAME1000000213"
-	desc = "EVTDESC1000000213"
-	picture = "placeholder"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA1000000213"
-		add_country_modifier = { name = generic_drug_trade_cooldown duration = 365 }
-		treasury = 90000
-	}
-}
-
-#[Country that owns _____] caught us!
-#country_event = {
-#	id = 1000000214
-#	title = "EVTNAME1000000214"
-#	desc = "EVTDESC1000000214"
-#	picture = "placeholder"
-#	
-#	is_triggered_only = yes
-#	
-#	#Damn
-#	option = {
-#		name = "EVTOPTA1000000214"
-#		FROM = { relation = { who = UBD value = -25 } }
-#	}	
-#}
 
 #BRG infromed of our intentions of buying their caribbean islands
 country_event = {
@@ -1421,60 +808,6 @@ country_event = {
 			2217 = { add_core = UBD }
             2235 = { add_core = UBD }
             2234 = { add_core = UBD }
-		}
-	}
-}
-
-#Money from the sale of drugs (HAI_2213)
-country_event = {
-	id = 1000000218
-	title = "EVTNAME1000000218"
-	desc = "EVTDESC1000000218"
-	picture = "placeholder"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA1000000218"
-		add_country_modifier = { name = generic_drug_trade_cooldown duration = 100 }
-		treasury = 10000
-	}
-}
-
-#We are caught!
-country_event = {
-	id = 1000000219
-	title = "EVTNAME1000000219"
-	desc = "EVTDESC1000000219"
-	picture = "placeholder"
-	
-	is_triggered_only = yes
-	
-	#no money for you
-	option = {
-		name = "EVTOPTA1000000219"
-	}
-}
-
-#Selling drugs in Sydoe (HAI_2213)
-country_event = {
-	id = 1000000220
-	title = "EVTNAME1000000220"
-	desc = "EVTDESC1000000220"
-	picture = "placeholder"
-	
-	is_triggered_only = yes
-	
-	#Let's hope no one suspect anything
-	option = {
-		name = "EVTOPTA1000000220"
-		add_country_modifier = { name = generic_drug_trade_cooldown duration = 365 }
-		HAI_2213 = {
-			add_province_modifier = { name = illegal_sustance_problem duration = 100 }
-		}
-		random_list = {
-			10 = { country_event = { id = 1000000219 days = 14 } }
-			90 = { country_event = { id = 1000000218 days = 14 } }
 		}
 	}
 }

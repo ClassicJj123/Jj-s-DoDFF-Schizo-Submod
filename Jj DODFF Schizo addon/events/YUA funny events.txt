@@ -18,7 +18,7 @@ country_event = {
 		add_country_modifier = { name = illigitimate_dynasty duration = -1 }
 		remove_country_modifier = BOH_powerful_reichsarmee
 		remove_country_modifier = western_scholars_invited
-		set_country_flag = final_TAI_revolution
+		#set_country_flag = final_TAI_revolution
 		clr_country_flag = inevitable_war
 		CHI_1504 = { add_core = YUA } 
 		CHI_1495 = { add_core = YUA } 
@@ -100,7 +100,7 @@ country_event = {
 	trigger = {
 		tag = YUA
 		owns = 1587
-		NOT = { accepted_culture tibetan }
+		NOT = { accepted_culture = tibetan }
 	}
 	mean_time_to_happen = {
 			years = 1
@@ -123,7 +123,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = YUA
-		NOT = { accepted_culture hakka }
+		NOT = { accepted_culture = hakka }
 	}
 	mean_time_to_happen = {
 			years = 4
@@ -292,15 +292,16 @@ country_event = {
 	option = {
 		name = "EVTOPA1000000461A"
 		clr_country_flag = han_accepting_yuan
-		add_accepted_culture = nanfaren
+		#add_accepted_culture = nanfaren
 		remove_country_modifier = illigitimate_dynasty
 		remove_country_modifier = mongol_space_marines
-		SHU = { all_core = { remove_core = SHU } }
-		TAI = { all_core = { remove_core = TAI } }
-		GNG = { all_core = { remove_core = GNG } }
-		DAX = { all_core = { remove_core = DAX } }
-		TNG = { all_core = { remove_core = TNG } }
-		MIG = { all_core = { remove_core = MIG } }
+		#SHU = { all_core = { remove_core = SHU } }
+		#TAI = { all_core = { remove_core = TAI } }
+		#GNG = { all_core = { remove_core = GNG } }
+		#DAX = { all_core = { remove_core = DAX } }
+		#TNG = { all_core = { remove_core = TNG } }
+		#MIG = { all_core = { remove_core = MIG } }
+		CHI = { all_core = { add_core = THIS } }
 		any_pop = {
 			militancy = -8
 			consciousness = -8
@@ -351,17 +352,18 @@ country_event = {
 	#commie china gains its territory cores
 	option = {
 		name = "EVTOPA1000000463A"
-		CHI_1 = { add_core = CCH }
-		CHI_2 = { add_core = CCH }
-		CHI_1618 = { add_core = CCH }
+		CHI_1576 = { add_core = CCH }
+		CHI_1479 = { add_core = CCH }
+		CHI_1567 = { add_core = CCH }
 		CHI_1563 = { add_core = CCH }
-		CHI_1476 = { add_core = CCH }
+		CHI_1539 = { add_core = CCH }
+		CHI_1513 = { add_core = CCH }
+		CHI_1539 = { add_core = CCH }
+		CHI_2221 = { add_core = CCH }
 		CHI_1472 = { add_core = CCH }
-		MIN_1 = { add_core = CCH }
-		CHI_1538 = { add_core = CCH }
-		CHI_1614  = { add_core = CCH }
-		CHI_1576  = { add_core = CCH }
-		CHI_3  = { add_core = CCH }
+		CHI_1618 = { add_core = CCH }
+		CHI_3423 = { add_core = CCH }
+		CHI_1508 = { add_core = CCH }
 		any_owned = {
 			limit = {
 				is_core = MCH
@@ -390,23 +392,9 @@ country_event = {
 	#fascist china gains its territory cores
 	option = {
 		name = "EVTOPA1000000463A"
-		CHI_1513 = { add_core = FCH }
-		CHI_4 = { add_core = FCH }
-		CHI_1523 = { add_core = FCH }
 		CHI_1578 = { add_core = FCH }
-		CHI_1529 = { add_core = FCH }
-		CHI_1581 = { add_core = FCH }
-		CHI_1505 = { add_core = FCH }
 		CHI_1601 = { add_core = FCH }
-		CHI_2062 = { add_core = FCH }
-		TAI_3 = { add_core = FCH }
-		CHI_1504 = { add_core = FCH }
-		any_owned = {
-			limit = {
-				is_core = DAI
-			}
-			add_core = FCH
-		}
+		CHI_1505 = { add_core = FCH }
 		any_owned = {
 			limit = {
 				is_core = TIB
@@ -435,16 +423,16 @@ country_event = {
 	#yikes
 	option = {
 		name = "EVTOPA1000000465A"
-		CHI_1495 = { add_core = DCH }
 		CHI_1504 = { add_core = DCH }
+		CHI_1495 = { add_core = DCH }
 		CHI_1494 = { add_core = DCH }
-		CHI_1611 = { add_core = DCH }
-		TAI_1 = { add_core = DCH }
 		CHI_1487 = { add_core = DCH }
-		MIN_4 = { add_core = DCH }
+		CHI_1524 = { add_core = DCH }
+		CHI_1611 = { add_core = DCH }
+		CHI_1545 = { add_core = DCH }
 		CHI_1550 = { add_core = DCH }
-		TAI_2 = { add_core = DCH }
-		CHI_1516 = { add_core = DCH }
+		CHI_1526 = { add_core = DCH }
+		CHI_1604 = { add_core = DCH }
 		CHI_1473 = { add_core = DCH }
 		set_country_flag = work_you_shit
 	}
@@ -564,8 +552,8 @@ country_event = {
 		name = "EVTOPA1000000469A"
 		war = {
 			target = CCH
-			attacker_goal = { casus_belli = conquest }
-			defender_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
+			defender_goal = { casus_belli = unification_annex_casus_belli }
 			call_ally = no
 		}
 	}
@@ -590,8 +578,8 @@ country_event = {
 		name = "EVTOPA1000000470A"
 		war = {
 			target = FCH
-			attacker_goal = { casus_belli = conquest }
-			defender_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
+			defender_goal = { casus_belli = unification_annex_casus_belli }
 			call_ally = no
 		}
 	}
@@ -616,8 +604,8 @@ country_event = {
 		name = "EVTOPA1000000471A"
 		war = {
 			target = DCH
-			attacker_goal = { casus_belli = conquest }
-			defender_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
+			defender_goal = { casus_belli = unification_annex_casus_belli }
 			call_ally = no
 		}
 	}
@@ -642,8 +630,8 @@ country_event = {
 		name = "EVTOPA1000000472A"
 		war = {
 			target = FCH
-			attacker_goal = { casus_belli = conquest }
-			defender_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
+			defender_goal = { casus_belli = unification_annex_casus_belli }
 			call_ally = no
 		}
 	}
@@ -668,8 +656,8 @@ country_event = {
 		name = "EVTOPA1000000473A"
 		war = {
 			target = CCH
-			attacker_goal = { casus_belli = conquest }
-			defender_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
+			defender_goal = { casus_belli = unification_annex_casus_belli }
 			call_ally = no
 		}
 	}
@@ -694,8 +682,8 @@ country_event = {
 		name = "EVTOPA1000000474A"
 		war = {
 			target = CCH
-			attacker_goal = { casus_belli = conquest }
-			defender_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
+			defender_goal = { casus_belli = unification_annex_casus_belli }
 			call_ally = no
 		}
 	}
@@ -772,9 +760,9 @@ country_event = {
 		}
 		any_owned = {
 			limit = {
-				is_core = NOG
+				is_core = ZHE
 			}
-			secede_province = NOG
+			secede_province = ZHE
 		}
 		any_owned = {
 			limit = {
@@ -784,43 +772,43 @@ country_event = {
 		}
 		war = {
 			target = MGL
-			attacker_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
 			defender_goal = { casus_belli = status_quo }
 			call_ally = no
 		}	
 		war = {
 			target = ALT
-			attacker_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
 			defender_goal = { casus_belli = status_quo }
 			call_ally = no
 		}
 		war = {
 			target = KOK
-			attacker_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
 			defender_goal = { casus_belli = status_quo }
 			call_ally = no
 		}
 		war = {
 			target = UGH
-			attacker_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
 			defender_goal = { casus_belli = status_quo }
 			call_ally = no
 		}
 		war = {
 			target = KHI
-			attacker_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
 			defender_goal = { casus_belli = status_quo }
 			call_ally = no
 		}
 		war = {
-			target = NOG
-			attacker_goal = { casus_belli = conquest }
+			target = ZHE
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
 			defender_goal = { casus_belli = status_quo }
 			call_ally = no
 		}
 		war = {
 			target = BUK
-			attacker_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = unification_annex_casus_belli }
 			defender_goal = { casus_belli = status_quo }
 			call_ally = no
 		}
